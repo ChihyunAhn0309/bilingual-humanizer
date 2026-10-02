@@ -1,0 +1,45 @@
+{
+  "slides": [
+    {
+      "nodes": {
+        "source": "Original source",
+        "candidate": "Rewrite\ncandidate",
+        "review": "Fidelity +\nreader review",
+        "best": "Best faithful\ntext",
+        "revise": "Revise findings",
+        "checks": "Detector checks",
+        "record": "Evidence record"
+      },
+      "edges": [
+        [
+          "source",
+          "candidate"
+        ],
+        [
+          "candidate",
+          "review"
+        ],
+        [
+          "review",
+          "best"
+        ],
+        [
+          "review",
+          "revise"
+        ],
+        [
+          "revise",
+          "candidate"
+        ],
+        [
+          "best",
+          "checks"
+        ],
+        [
+          "checks",
+          "record"
+        ]
+      ]
+    }
+  ]
+}

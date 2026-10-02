@@ -1,0 +1,58 @@
+Endpoint: https://app.gptzero.me/
+Input file: ko-cache-v14.txt
+Input normalized whitespace match: true
+  - heading "Basic Scan" [level=1]
+  - button "Share":
+    - generic: Share
+  - button "Export":
+    - generic: Export
+  - generic: GPTZero AI Detection
+  - generic: Model 4.1m
+  - generic: We are highly confident this text was AI generated
+  - generic: Chance this entire text is...
+  - button "AI 100%":
+    - text: AI 100%
+  - button "Mixed 0%":
+    - text: Mixed 0%
+  - button "Human 0%":
+    - text: Human 0%
+  - separator
+  - radiogroup:
+    - radio [checked]:
+    - radio:
+    - radio:
+  - img "Paul Esau"
+  - img "Wendy Snyder"
+  - heading "Expert feedback" [level=4]
+  - paragraph: Emmy Winning Writers
+  - button:
+  - heading "Your most AI sentences" [level=6]
+  - list:
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: 따라서 시험 결과만으로 실제 서비스에서의 이익을 확정하거나 시험하지 않은 조건에서도 지연 시간과 메모리 사용량의 관계가 그대로 유지된다고 가정하기는 어렵다.
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: 결과 해석과 실제 도입 승인은 각각 필요한 판단으로 다루는 것이 적절하다.
+  - button "See your most AI and human sentences":
+    - generic: See your most AI and human sentences
+  - paragraph: What's next?
+  - button "Paul Esau Wendy Snyder Policy Brief feedback Reviewed by Emmy-Winners, Ivy League Profs":
+    - img "Paul Esau"
+    - img "Wendy Snyder"
+    - paragraph: Policy Brief feedback
+    - paragraph: Reviewed by Emmy-Winners, Ivy League Profs
+  - button "Guidance for Teachers and reviewers":
+    - generic: Guidance for Teachers and reviewers
+  - generic: Text up-to-date
+  - generic: 911 characters • 220 words
+  - button "Re-scan":
+    - text: Re-scan

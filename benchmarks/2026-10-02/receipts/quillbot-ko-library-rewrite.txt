@@ -1,0 +1,177 @@
+- link "Quillbot Logo":
+  - /url: /?referrer=quill_logo
+- generic: Tools
+- generic: Professional
+- generic: Academic
+- generic: Creators
+- generic: Personal
+- generic: Extensions & apps
+- link "Upgrade to Premium":
+  - /url: /premium?referrer=header&product=text-editor
+  - button "Upgrade to Premium":
+    - generic: Upgrade to Premium
+- button "Log in":
+- link:
+  - /url: /docs/new
+  - generic: New
+- link:
+  - /url: /docs/new
+  - generic: Projects
+- link:
+  - /url: /docs/new
+  - generic: Paraphraser
+- link:
+  - /url: /docs/new
+  - generic: Grammar Checker
+- link:
+  - /url: /docs/new
+  - generic: AI Detector
+- link:
+  - /url: /docs/new
+  - generic: Plagiarism Checker
+- link:
+  - /url: /docs/new
+  - generic: AI Humanizer
+- link:
+  - /url: /docs/new
+  - generic: AI Chat
+- link:
+  - /url: /docs/new
+  - generic: AI Image Generator
+- link:
+  - /url: /docs/new
+  - generic: Translate
+- link:
+  - /url: /docs/new
+  - generic: Summarizer
+- link:
+  - /url: /docs/new
+  - generic: Citation Generator
+- link "New":
+  - /url: /docs/new?referrer=side_navbar
+  - generic: New
+- link "Projects":
+  - /url: /projects?referrer=side_navbar
+  - generic: Projects
+- link "Paraphraser":
+  - /url: /paraphrasing-tool?referrer=side_navbar
+  - generic: Paraphraser
+- link "Grammar Checker":
+  - /url: /grammar-check?referrer=side_navbar
+  - generic: Grammar Checker
+- link "AI Detector":
+  - /url: /ai-content-detector?referrer=side_navbar
+  - generic: AI Detector
+- link "Plagiarism Checker":
+  - /url: /plagiarism-checker?referrer=side_navbar
+  - generic: Plagiarism Checker
+- link "AI Humanizer":
+  - /url: /ai-humanizer?referrer=side_navbar
+  - generic: AI Humanizer
+- button "More":
+  - generic: More
+- link "Quillbot for Chrome":
+  - /url: https://chromewebstore.google.com/detail/quillbot-ai-writing-and-g/iidnbdjijdkbmajdffnidomddglmieko?hl=en-US&utm_source=quillbot.com&utm_medium=TextEditor&utm_campaign=side_navbar-link
+  - generic: Quillbot for Chrome
+- toolbar "Document toolbar":
+  - generic "Your documents":
+    - button "Your documents":
+  - generic "Undo Ctrl+Z":
+    - button "Undo Ctrl+Z":
+  - generic "Redo Ctrl+Y":
+    - button "Redo Ctrl+Y" [disabled]:
+  - button "12 words":
+    - generic: 12 words
+  - button "Korean (unsupported)":
+    - generic: Korean (unsupported)
+  - tooltip "Language not supported yet Sorry, we detected Korean, but it’s not supported yet. Check back soon — we’re always adding more! OK":
+    - generic: Language not supported yet
+    - button:
+    - generic: Sorry, we detected Korean, but it’s not supported yet. Check back soon — we’re always adding more!
+    - button "OK":
+      - generic: OK
+  - generic "Copy full text":
+    - button "Copy full text":
+  - generic "Clear text":
+    - button "Clear text":
+  - generic "More":
+    - button "More":
+- main "Editor":
+  - textbox "Document editor":
+    - paragraph:
+      - generic: 지역 도서관의 시범 운영안은 6주 동안 화요일과 목요일 저녁에 20:00까지 문을 여는 방안이다. 이번 검토에서는 접수된 의견과 운영안을 구체화하기 전에 확인할 조건을 살펴본다. 정해진 기간에만 적용할 방안으로, 영구적인 운영 정책이 확정된 것은 아니다. 시범 운영과 향후 상시 운영 시간은 따로 논의하고, 안내할 때도 그 차이를 분명히 밝혀야 한다.
+    - paragraph:
+      - text: 접수된 의견서 42건 가운데 28건은 연장 개관을 지지했다. 9건은 현재 일정을 선호했고 5건은 선호하는 안이 없다고 답했다.
+      - generic: 이 수치는 제출된 의견의 분포를 보여준다.
+      - text: 다만 모든 이용자의 요구를 그대로 나타낸다고 볼 수는 없다.
+      - generic: 늦은 시간까지 문을 열어 달라는 의견과 현재 일정을 원하는 의견을 함께 검토해야 하며, 응답 수만 보고 각각의 이유까지 안다고 가정해서는 안 된다.
+    - paragraph:
+      - text: 연장 개관을 지지했다는 사실만으로 실제로 방문했다고 볼 수도 없다. 의견서에는 선호가 담겨 있고, 현재 자료에는 개관 시간 연장이 방문 증가를 일으킨다는 인과적 근거가 없다.
+      - generic: 운영안을 논의할 때 이 한계를 분명히 해야 응답 결과를 과도하게 해석하지 않을 수 있다.
+    - paragraph:
+      - generic: 자원봉사자가 연장 시간에 참여할 수 있는지는 아직 해결되지 않은 문제다. 저녁 운영이 가능한지 판단하는 데 필요한 조건이므로, 운영을 시작한 뒤 정리할 세부 사항으로 미뤄 두기 어렵다. 조용한 열람실의 정원은 12명이며 시간을 연장해도 수용 인원은 늘지 않는다. 시범 운영으로 무엇을 제공할 수 있는지 검토할 때에는 이용 가능 시간과 공간의 한계를 함께 살펴야 한다. 이용 안내에서도 도서관에 머물 수 있는 시간과 조용한 열람실을 동시에 이용할 수 있는 인원을 각각 설명해야 한다.
+    - paragraph:
+      - generic: 이후 판단에서는 연장 개관에 대한 관심을 인정하면서 자원봉사자의 참여 가능성을 확인해야 한다. 시범 운영 결정이 영구적인 일정 변경까지 확정한 것으로 읽히지 않도록 문서 표현도 점검할 필요가 있다.
+    - paragraph
+  - generic: Write good well, everywhere
+  - paragraph: Say goodbye to copy-paste. Get advanced AI writing assistance, wherever you write.
+  - link "Add to Chrome":
+    - /url: https://chromewebstore.google.com/detail/quillbot-ai-writing-and-g/iidnbdjijdkbmajdffnidomddglmieko?hl=en-US&utm_campaign=te_writing_studio_extension_banner&utm_source=quillbot.com&utm_medium=TextEditor
+    - generic: Add to Chrome
+  - generic "Dismiss promotion":
+    - button "Dismiss promotion":
+  - button "Rewrite":
+    - generic: Rewrite
+  - generic "Update your text to run another scan":
+    - button "Detect AI again" [disabled]:
+      - generic: Detect AI again
+- tabpanel "Writing assistant":
+  - generic: Writing assistant
+- tabpanel "Detect AI":
+  - generic: Detect AI
+  - progressbar:
+  - generic "Our AI detector is among the most advanced available, but no AI detector is 100% accurate. This score represents the percentage of words likely generated or refined using an AI tool.":
+    - generic "AI score": "75"
+    - superscript: "%"
+    - generic: of text is likely AI
+  - generic: AI-generated
+  - generic: 75%
+  - generic: Human-written & AI-refined
+  - generic: 0%
+  - generic: Human-written
+  - generic: 25%
+  - separator
+  - generic "This model performed well":
+    - button "This model performed well":
+  - generic "This model performed poorly":
+    - button "This model performed poorly":
+  - generic: Model v6.2.1
+  - button "Download report":
+    - generic: Download report
+  - generic: Want more authentic text?
+  - link "Refine with Paraphraser":
+    - /url: /paraphrasing-tool?referrer=ai-detector%2Fai-detection%2Fpphr_upsell&product=text-editor
+    - generic: Refine with Paraphraser
+  - button "Check for plagiarism Happy with the score? Now ensure it’s original...":
+    - generic: Check for plagiarism
+    - paragraph: Happy with the score? Now ensure it’s original...
+  - generic: Never rely on AI detection alone to make decisions that could impact someone's career or academic standing.
+  - generic: You’ve got 1 AI scan left today
+  - link "Upgrade for more":
+    - /url: /premium?returnUrl=%2Fdocs%2Fnew&referrer=ai-detector%2Fai-detection%2Fsome-scans-left&product=text-editor
+    - generic: Upgrade for more
+- tablist "Switch between modes":
+  - generic "Writing assistant":
+    - tab "Writing assistant":
+  - generic "Close (Ctrl+/)":
+    - tab "Detect AI" [selected]:
+  - generic "Check plagiarism":
+    - tab "Check plagiarism":
+  - generic "AI Chat":
+    - tab "AI Chat":
+- tooltip "AI-generated High probability Cite":
+  - generic: AI-generated
+  - generic: High probability
+  - link "Cite":
+    - /url: https://quillbot.com/blog/category/citation/#how-to-cite-ai
+    - generic: Cite

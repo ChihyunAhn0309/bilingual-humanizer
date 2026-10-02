@@ -1,0 +1,160 @@
+{
+  "source": "[workspace]\\outputs\\github-repo\\docs\\assets\\workflow-v4.pptx",
+  "sourceSha256": "ad7b951842ab820ef2e375414b41c19f2cdd89425a6a23a6d52f1b9841919c3e",
+  "readOnly": true,
+  "scope": "Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.",
+  "summary": {
+    "connectors": 7,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "connectors": [
+    {
+      "slide": 1,
+      "name": "source-to-candidate",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "source",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "candidate",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      },
+      "part": "ppt/slides/slide1.xml"
+    },
+    {
+      "slide": 1,
+      "name": "candidate-to-review",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "candidate",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "review",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      },
+      "part": "ppt/slides/slide1.xml"
+    },
+    {
+      "slide": 1,
+      "name": "review-to-best",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "review",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "best",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      },
+      "part": "ppt/slides/slide1.xml"
+    },
+    {
+      "slide": 1,
+      "name": "review-to-revise",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "review",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "revise",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      },
+      "part": "ppt/slides/slide1.xml"
+    },
+    {
+      "slide": 1,
+      "name": "revise-to-candidate",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "revise",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "candidate",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      },
+      "part": "ppt/slides/slide1.xml"
+    },
+    {
+      "slide": 1,
+      "name": "best-to-checks",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "best",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "checks",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      },
+      "part": "ppt/slides/slide1.xml"
+    },
+    {
+      "slide": 1,
+      "name": "checks-to-record",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "checks",
+        "site": "2",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "record",
+        "site": "0",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      },
+      "part": "ppt/slides/slide1.xml"
+    }
+  ]
+}

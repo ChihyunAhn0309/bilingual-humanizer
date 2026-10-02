@@ -1,0 +1,58 @@
+Endpoint: https://app.gptzero.me/
+Input file: en-library-v13.txt
+Input normalized whitespace match: true
+  - heading "Basic Scan" [level=1]
+  - button "Share":
+    - generic: Share
+  - button "Export":
+    - generic: Export
+  - generic: GPTZero AI Detection
+  - generic: Model 4o
+  - generic: We are highly confident this text was AI generated
+  - generic: Chance this entire text is...
+  - button "AI 100%":
+    - text: AI 100%
+  - button "Mixed 0%":
+    - text: Mixed 0%
+  - button "Human 0%":
+    - text: Human 0%
+  - separator
+  - radiogroup:
+    - radio [checked]:
+    - radio:
+    - radio:
+  - img "Paul Esau"
+  - img "Wendy Snyder"
+  - heading "Expert feedback" [level=4]
+  - paragraph: Emmy Winning Writers
+  - button:
+  - heading "Your most AI sentences" [level=6]
+  - list:
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: Volunteer availability remains unresolved and should not be left as a detail to settle after the pilot starts.
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: The review should keep this limitation visible when weighing the proposal.
+  - button "See your most AI and human sentences":
+    - generic: See your most AI and human sentences
+  - paragraph: What's next?
+  - button "Paul Esau Wendy Snyder Policy Brief feedback Reviewed by Emmy-Winners, Ivy League Profs":
+    - img "Paul Esau"
+    - img "Wendy Snyder"
+    - paragraph: Policy Brief feedback
+    - paragraph: Reviewed by Emmy-Winners, Ivy League Profs
+  - button "Guidance for Teachers and reviewers":
+    - generic: Guidance for Teachers and reviewers
+  - generic: Text up-to-date
+  - generic: 1,614 characters • 249 words
+  - button "Re-scan":
+    - text: Re-scan

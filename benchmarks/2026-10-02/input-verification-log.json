@@ -1,0 +1,116 @@
+{
+  "kind": "agent_attestation",
+  "note": "Not a vendor-signed receipt. Result-panel extracts omit the input; their association with a corpus file depends on these agent observations. Exact comparison times were not retained. Receipt capture times are in results.json.",
+  "checks": [
+    {
+      "service": "GPTZero",
+      "input_file": "corpus/en-cache-v14.txt",
+      "input_sha256": "59400db65d9d48043fd1ee3c66dca106e792a8e9277075c8b1103924d0e444b7",
+      "comparison": "rendered editor text after whitespace normalization",
+      "observed_match": true,
+      "receipt": "receipts/gptzero-en-cache-v14-auth.txt",
+      "provenance": "Agent observation in the tool-backed execution transcript; this log was compiled after testing.",
+      "vendor_authenticated_input_binding": false,
+      "comparison_timestamp": null
+    },
+    {
+      "service": "GPTZero",
+      "input_file": "corpus/en-library-v14.txt",
+      "input_sha256": "40a2c7ebb0da501bf33f88c0e3fd7882a01ceca98bdb82bb22158bf7ab1e8b1a",
+      "comparison": "rendered editor text after whitespace normalization",
+      "observed_match": true,
+      "receipt": "receipts/gptzero-en-library-v14-auth.txt",
+      "provenance": "Agent observation in the tool-backed execution transcript; this log was compiled after testing.",
+      "vendor_authenticated_input_binding": false,
+      "comparison_timestamp": null
+    },
+    {
+      "service": "GPTZero",
+      "input_file": "corpus/ko-cache-v14.txt",
+      "input_sha256": "e2b3d9731a421f1a668e070903f0c11094d43c5a91cf7420b6c8726d852cd91c",
+      "comparison": "rendered editor text after whitespace normalization",
+      "observed_match": true,
+      "receipt": "receipts/gptzero-ko-cache-v14-auth.txt",
+      "provenance": "Agent observation in the tool-backed execution transcript; this log was compiled after testing.",
+      "vendor_authenticated_input_binding": false,
+      "comparison_timestamp": null
+    },
+    {
+      "service": "GPTZero",
+      "input_file": "corpus/ko-library-v14.txt",
+      "input_sha256": "4331bafd15915e90d3b4763610e665845b6e9d738109c30e09b6e33e50306533",
+      "comparison": "rendered editor text after whitespace normalization",
+      "observed_match": true,
+      "receipt": "receipts/gptzero-ko-library-v14-auth.txt",
+      "provenance": "Agent observation in the tool-backed execution transcript; this log was compiled after testing.",
+      "vendor_authenticated_input_binding": false,
+      "comparison_timestamp": null
+    },
+    {
+      "service": "QuillBot",
+      "input_file": "corpus/en-cache-v14.txt",
+      "input_sha256": "59400db65d9d48043fd1ee3c66dca106e792a8e9277075c8b1103924d0e444b7",
+      "comparison": "rendered editor text after whitespace normalization",
+      "observed_match": true,
+      "receipt": "receipts/quillbot-en-cache-v14.txt",
+      "provenance": "Agent observation in the tool-backed execution transcript; this log was compiled after testing.",
+      "vendor_authenticated_input_binding": false,
+      "comparison_timestamp": null
+    },
+    {
+      "service": "QuillBot",
+      "input_file": "corpus/en-library-v14.txt",
+      "input_sha256": "40a2c7ebb0da501bf33f88c0e3fd7882a01ceca98bdb82bb22158bf7ab1e8b1a",
+      "comparison": "rendered editor text after whitespace normalization",
+      "observed_match": true,
+      "receipt": "receipts/quillbot-en-library-v14.txt",
+      "provenance": "Agent observation in the tool-backed execution transcript; this log was compiled after testing.",
+      "vendor_authenticated_input_binding": false,
+      "comparison_timestamp": null
+    },
+    {
+      "service": "QuillBot",
+      "input_file": "corpus/ko-cache-v14.txt",
+      "input_sha256": "e2b3d9731a421f1a668e070903f0c11094d43c5a91cf7420b6c8726d852cd91c",
+      "comparison": "rendered editor text after whitespace normalization",
+      "observed_match": true,
+      "receipt": "receipts/quillbot-ko-cache-v14.txt",
+      "provenance": "Agent observation in the tool-backed execution transcript; this log was compiled after testing.",
+      "vendor_authenticated_input_binding": false,
+      "comparison_timestamp": null
+    },
+    {
+      "service": "QuillBot",
+      "input_file": "corpus/ko-library-v14.txt",
+      "input_sha256": "4331bafd15915e90d3b4763610e665845b6e9d738109c30e09b6e33e50306533",
+      "comparison": "rendered editor text after whitespace normalization",
+      "observed_match": true,
+      "receipt": "receipts/quillbot-ko-library-v14.txt",
+      "provenance": "Agent observation in the tool-backed execution transcript; this log was compiled after testing.",
+      "vendor_authenticated_input_binding": false,
+      "comparison_timestamp": null
+    },
+    {
+      "service": "ZeroGPT",
+      "input_file": "corpus/ko-library-v14.txt",
+      "input_sha256": "4331bafd15915e90d3b4763610e665845b6e9d738109c30e09b6e33e50306533",
+      "comparison": "exact textarea value",
+      "observed_match": true,
+      "receipt": "receipts/zerogpt-ko-library-v14.txt",
+      "provenance": "Agent observation in the tool-backed execution transcript; this log was compiled after testing.",
+      "vendor_authenticated_input_binding": false,
+      "comparison_timestamp": null
+    },
+    {
+      "service": "ZeroGPT",
+      "input_file": "corpus/ko-cache-v14.txt",
+      "input_sha256": "e2b3d9731a421f1a668e070903f0c11094d43c5a91cf7420b6c8726d852cd91c",
+      "comparison": "exact textarea value",
+      "observed_match": true,
+      "receipt": "receipts/zerogpt-ko-cache-v14.txt",
+      "provenance": "Agent observation in the tool-backed execution transcript; this log was compiled after testing.",
+      "vendor_authenticated_input_binding": false,
+      "comparison_timestamp": null
+    }
+  ]
+}

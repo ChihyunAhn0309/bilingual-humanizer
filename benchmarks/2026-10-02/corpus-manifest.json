@@ -1,0 +1,122 @@
+[
+  {
+    "file": "en-cache-rewrite.txt",
+    "sha256": "c416a7a31fa3f9db8c350e2a88b24b3cec02adf468d1ff015766e38ae1cfd11a",
+    "characters": 1691,
+    "words_or_eojeol": 264
+  },
+  {
+    "file": "en-cache-source.txt",
+    "sha256": "4411dc7c9875e0a6455d3dc9a1790e68ea371f38d2a750599b2444c9bc2ec509",
+    "characters": 1937,
+    "words_or_eojeol": 302
+  },
+  {
+    "file": "en-cache-v12.txt",
+    "sha256": "1b23ea3ee81cc541b2911657043b25f2b64b1ae4128fa041a096abd99da44c8f",
+    "characters": 1568,
+    "words_or_eojeol": 244
+  },
+  {
+    "file": "en-cache-v13.txt",
+    "sha256": "d7a2732e5f9051c6126ebaeaf350ab3a6fd2f7f51ac7bb34feaacceb6b95a20e",
+    "characters": 1452,
+    "words_or_eojeol": 224
+  },
+  {
+    "file": "en-cache-v14.txt",
+    "sha256": "59400db65d9d48043fd1ee3c66dca106e792a8e9277075c8b1103924d0e444b7",
+    "characters": 1593,
+    "words_or_eojeol": 245
+  },
+  {
+    "file": "en-library-rewrite.txt",
+    "sha256": "fef71e4e895e4812177fba7547b1ad59d3dfa31d91105cc659e6e77446670883",
+    "characters": 1806,
+    "words_or_eojeol": 291
+  },
+  {
+    "file": "en-library-source.txt",
+    "sha256": "bdcb854f5676ebff48f3a958d11ae3209ee42f8ece11f4ba933488c6d0b6029f",
+    "characters": 1947,
+    "words_or_eojeol": 302
+  },
+  {
+    "file": "en-library-v12.txt",
+    "sha256": "eae5de6a536658255e15f785f637f88f93b6eb36351aafa6ffa38bd6b889b369",
+    "characters": 1541,
+    "words_or_eojeol": 239
+  },
+  {
+    "file": "en-library-v13.txt",
+    "sha256": "527e6f55ec652c20592f6d00d6681d4e61c47d68aa2ead23fb93a60fd067ab45",
+    "characters": 1619,
+    "words_or_eojeol": 249
+  },
+  {
+    "file": "en-library-v14.txt",
+    "sha256": "40a2c7ebb0da501bf33f88c0e3fd7882a01ceca98bdb82bb22158bf7ab1e8b1a",
+    "characters": 1581,
+    "words_or_eojeol": 244
+  },
+  {
+    "file": "ko-cache-rewrite.txt",
+    "sha256": "6ab3ea3cec5b19a24b5aa6abfb4e884aa310f40475b8ffe84c04a4d593258e2c",
+    "characters": 946,
+    "words_or_eojeol": 227
+  },
+  {
+    "file": "ko-cache-source.txt",
+    "sha256": "8c6997b3b5a9bce066216fa41bd84feeb357975e7ec1e6cf51bd7765dfa7dc7b",
+    "characters": 1097,
+    "words_or_eojeol": 264
+  },
+  {
+    "file": "ko-cache-v12.txt",
+    "sha256": "21394ed408b1425cfe37978256e2e472fd121376da55346cfe8fa81acd6b92a6",
+    "characters": 829,
+    "words_or_eojeol": 198
+  },
+  {
+    "file": "ko-cache-v13.txt",
+    "sha256": "e61a16d568044df0447988afd6d033dfa2f946d04c753a4308a52b8c6652475a",
+    "characters": 796,
+    "words_or_eojeol": 192
+  },
+  {
+    "file": "ko-cache-v14.txt",
+    "sha256": "e2b3d9731a421f1a668e070903f0c11094d43c5a91cf7420b6c8726d852cd91c",
+    "characters": 915,
+    "words_or_eojeol": 220
+  },
+  {
+    "file": "ko-library-rewrite.txt",
+    "sha256": "e186f38964e62b2f34802d51778243348bd2535528233f9f0f5216a118b43504",
+    "characters": 942,
+    "words_or_eojeol": 236
+  },
+  {
+    "file": "ko-library-source.txt",
+    "sha256": "b82f92389cf1c42ded62184eb359c87d81848723d44a2b9790b9fa0eb6dfd5b0",
+    "characters": 1069,
+    "words_or_eojeol": 264
+  },
+  {
+    "file": "ko-library-v12.txt",
+    "sha256": "79dc35ea5fb91304a491cc567c219397ccddff34291c686dc34f0eac31149116",
+    "characters": 866,
+    "words_or_eojeol": 213
+  },
+  {
+    "file": "ko-library-v13.txt",
+    "sha256": "fa8f7b7bfdc27a1ff87d9bb5483a89617cc18f0e95f40cc93ae4cbe2cd4aacb3",
+    "characters": 851,
+    "words_or_eojeol": 214
+  },
+  {
+    "file": "ko-library-v14.txt",
+    "sha256": "4331bafd15915e90d3b4763610e665845b6e9d738109c30e09b6e33e50306533",
+    "characters": 915,
+    "words_or_eojeol": 227
+  }
+]

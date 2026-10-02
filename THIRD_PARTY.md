@@ -1,0 +1,7 @@
+# Reference and evidence attribution
+
+The skill instructions, examples, audit scripts and diagram in this repository were written for this project. Eleven upstream humanizer skills informed editorial decisions; their authors, repositories, exact commits, source hashes and reported licenses are recorded in `skills/bilingual-humanizer/references/skill-sources.json`. That list includes a repository with no asserted license. Its source is not redistributed, and no license permission is inferred from public availability.
+
+The diagram workflow used [JYS1025/paper-figure](https://github.com/JYS1025/paper-figure), HEAD `fe628d9c05fb7a3cbcb906180c602effc72ce9fb` observed on 2026-10-02. The helper library and skill source are not vendored here. The newly created diagram, prompt and design evidence are included. An original [CLIP figure](https://arxiv.org/html/2103.00020v1/main-diagrams.png) was visually inspected for relationship clarity; its image and scientific content are not redistributed or copied into the final diagram.
+
+Commercial detector names, interface screenshots and returned results belong to their respective providers. They are included as dated test evidence, not as endorsements, product assets under the repository's MIT license, or authorship certificates. Synthetic submitted text is part of this project's test corpus. References to papers and official documentation are links, not copies of those works.

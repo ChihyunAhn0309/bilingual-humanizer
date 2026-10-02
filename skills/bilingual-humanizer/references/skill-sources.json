@@ -1,0 +1,159 @@
+[
+  {
+    "repo": "blader/humanizer",
+    "path": "SKILL.md",
+    "commit": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+    "commit_date": "2026-09-28T05:54:38Z",
+    "license": "MIT",
+    "url": "https://github.com/blader/humanizer/blob/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8/SKILL.md",
+    "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+    "local_file": "blader__humanizer.md",
+    "retrieved_date": "2026-10-02",
+    "bytes": 32348
+  },
+  {
+    "repo": "keez97/humanizer",
+    "path": "SKILL.md",
+    "commit": "2d9a116fa9caee2c3466a7c7d419cbe02b35a470",
+    "commit_date": "2026-07-30T10:49:35Z",
+    "license": "NOASSERTION",
+    "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/SKILL.md",
+    "sha256": "18a7ca7fb361c00b9817f8b17c2f7bfeffd2bc463a984f76a01ab7b27ee11401",
+    "local_file": "keez97__humanizer.md",
+    "retrieved_date": "2026-10-02",
+    "bytes": 55741
+  },
+  {
+    "repo": "apoapostolov/humanizer",
+    "path": "skills/humanizer/SKILL.md",
+    "commit": "51c5f43fc8619dcc658dcbff800265163906b80a",
+    "commit_date": "2026-09-30T18:53:29Z",
+    "license": "MIT",
+    "url": "https://github.com/apoapostolov/humanizer/blob/51c5f43fc8619dcc658dcbff800265163906b80a/skills/humanizer/SKILL.md",
+    "sha256": "0eeddb57b57ae1199552b2313c27c9d9f74ef5048ae71695c2b6d18f4bcbd44d",
+    "local_file": "apoapostolov__humanizer.md",
+    "retrieved_date": "2026-10-02",
+    "bytes": 14850
+  },
+  {
+    "repo": "ashgreat/humanizer",
+    "path": "SKILL.md",
+    "commit": "952c8a138e29eb2cbe637b8ae8e9f6c6e2f6d627",
+    "commit_date": "2026-05-31T01:41:20Z",
+    "license": "MIT",
+    "url": "https://github.com/ashgreat/humanizer/blob/952c8a138e29eb2cbe637b8ae8e9f6c6e2f6d627/SKILL.md",
+    "sha256": "f88e1e77d8056eab2457e459edc04b5245bdeec2e21f2247054fc6769e936379",
+    "local_file": "ashgreat__humanizer.md",
+    "retrieved_date": "2026-10-02",
+    "bytes": 19542
+  },
+  {
+    "repo": "Aboudjem/humanizer-skill",
+    "path": "skills/humanizer/SKILL.md",
+    "commit": "a58df065367550b6ce40ff3f648335018d8e0589",
+    "commit_date": "2026-09-06T18:45:21Z",
+    "license": "MIT",
+    "url": "https://github.com/Aboudjem/humanizer-skill/blob/a58df065367550b6ce40ff3f648335018d8e0589/skills/humanizer/SKILL.md",
+    "sha256": "71f0825d5ccc3b466d78b1656c71b35332931dc653271e1ab6b04f787299d9c6",
+    "local_file": "Aboudjem__humanizer-skill.md",
+    "retrieved_date": "2026-10-02",
+    "bytes": 39047
+  },
+  {
+    "repo": "DaleSeo/korean-skills",
+    "path": "skills/humanizer/SKILL.md",
+    "commit": "ae12ba27982ebeff03b46dc738365aaa34260d9a",
+    "commit_date": "2026-05-05T02:06:12Z",
+    "license": "MIT",
+    "url": "https://github.com/DaleSeo/korean-skills/blob/ae12ba27982ebeff03b46dc738365aaa34260d9a/skills/humanizer/SKILL.md",
+    "sha256": "6160e68781d87ebf1d4d317f862711f73c983929e175c4e360186adc1778c23a",
+    "local_file": "DaleSeo__korean-skills.md",
+    "retrieved_date": "2026-10-02",
+    "bytes": 17526
+  },
+  {
+    "repo": "choconyam/humanizer-ko",
+    "path": "SKILL.md",
+    "commit": "eeab53e7dc511eeebaa0c41acf850b269b26ff32",
+    "commit_date": "2026-09-19T07:24:54Z",
+    "license": "MIT",
+    "url": "https://github.com/choconyam/humanizer-ko/blob/eeab53e7dc511eeebaa0c41acf850b269b26ff32/SKILL.md",
+    "sha256": "21b333bf6842930d5a4142e765ff8cb31062d1f96f8dcebe9376f474aa96fd7c",
+    "local_file": "choconyam__humanizer-ko.md",
+    "retrieved_date": "2026-10-02",
+    "bytes": 21883
+  },
+  {
+    "repo": "monologg/humanizer-kr",
+    "path": "SKILL.md",
+    "commit": "ba6b8b5ef08e36c88b6ce25d8ba488834cadf7be",
+    "commit_date": "2026-03-21T03:43:32Z",
+    "license": "MIT",
+    "url": "https://github.com/monologg/humanizer-kr/blob/ba6b8b5ef08e36c88b6ce25d8ba488834cadf7be/SKILL.md",
+    "sha256": "d490f065a48b8b03622cbdb6eed8fc2864134df68f496aa525ae962b17bf603d",
+    "local_file": "monologg__humanizer-kr.md",
+    "retrieved_date": "2026-10-02",
+    "bytes": 24417
+  },
+  {
+    "repo": "dotoricode/korean-humanizer",
+    "path": "SKILL.md",
+    "commit": "4fc566b7d7ded76887f7a85c0886e44796e5e38c",
+    "commit_date": "2026-10-01T10:24:28Z",
+    "license": "MIT",
+    "url": "https://github.com/dotoricode/korean-humanizer/blob/4fc566b7d7ded76887f7a85c0886e44796e5e38c/SKILL.md",
+    "sha256": "cd1f89ed62109698c79ea168af03b65134f4b20e029879a56143ba37f5249f9a",
+    "local_file": "dotoricode__korean-humanizer.md",
+    "retrieved_date": "2026-10-02",
+    "bytes": 20833
+  },
+  {
+    "repo": "evergreentree97/K-Humanizer",
+    "path": "skills/k-humanizer/SKILL.md",
+    "commit": "324435d561ba48d53de6b7d3fb3dd72cf77030dc",
+    "commit_date": "2026-09-14T06:05:39Z",
+    "license": "MIT",
+    "url": "https://github.com/evergreentree97/K-Humanizer/blob/324435d561ba48d53de6b7d3fb3dd72cf77030dc/skills/k-humanizer/SKILL.md",
+    "sha256": "22bec4e2389be449799c2bd0a32fa9a2199b6ccb016cc9c0bc1df0e37fafe11d",
+    "local_file": "evergreentree97__K-Humanizer.md",
+    "retrieved_date": "2026-10-02",
+    "bytes": 10896
+  },
+  {
+    "repo": "epoko77-ai/im-not-ai",
+    "path": "skills/humanize-korean/SKILL.md",
+    "commit": "2f3d943d08056b612a92e12bfb72ea94dd2acd18",
+    "commit_date": "2026-09-26T14:27:56+09:00",
+    "license": "MIT",
+    "url": "https://github.com/epoko77-ai/im-not-ai/blob/2f3d943d08056b612a92e12bfb72ea94dd2acd18/skills/humanize-korean/SKILL.md",
+    "retrieved_date": "2026-10-02",
+    "sha256": "6b972fc1eace42a313d2b4c4603dd4b7116c1f1fb1198cb0894671a2e247bab7",
+    "bytes": 30575,
+    "reviewed_files": [
+      {
+        "path": "skills/humanize-korean/SKILL.md",
+        "sha256": "6b972fc1eace42a313d2b4c4603dd4b7116c1f1fb1198cb0894671a2e247bab7"
+      },
+      {
+        "path": "codex/skills/humanize-korean/SKILL.md",
+        "sha256": "4390d4e01691255ee750e1ef6afdc6d7228e320f7ceba979e28aec7368e4c4d1"
+      },
+      {
+        "path": "skills/humanize-korean/references/quick-rules.md",
+        "sha256": "05c5f2d1f60927df1eb96a80cf3dd12d1db2ecf1b45ba115244498ad1420c559"
+      },
+      {
+        "path": "skills/humanize-korean/references/empirical-validation.md",
+        "sha256": "8f9ad98368de6f111ae8f0e3f771a08a9d2b268679061d14e4441ca86049a3e6"
+      },
+      {
+        "path": "skills/humanize-korean/references/diagnosis-rules.md",
+        "sha256": "74647472fecec53d64faeaf38d8ec1ab4182cd411cd78f35176cd7c6a90c8947"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "22603fadb9248cb2eae6bc6030c35091f0bd45550d2b5a20a0656e0a6ddf4767"
+      }
+    ]
+  }
+]

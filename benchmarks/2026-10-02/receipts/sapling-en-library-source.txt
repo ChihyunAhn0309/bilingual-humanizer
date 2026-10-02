@@ -1,0 +1,58 @@
+- link:
+  - /url: /
+- link "Get Started":
+  - /url: /route_install
+- navigation:
+  - link "Products":
+    - /url: "#"
+  - link "Solutions":
+    - /url: "#"
+  - link "Sign In":
+    - /url: /user/sign-in
+  - link "Pricing":
+    - /url: /pricing
+  - link "Contact":
+    - /url: /contact?demo=True
+- heading "AI Detector" [level=1]
+- paragraph: Detect whether text is AI-generated.
+- complementary "AI Content Detector for Chrome":
+  - button "Dismiss": ×
+  - paragraph: AI Content Detector for Chrome
+  - paragraph: Check for AI-generated content anywhere on the internet.
+  - link "Add to Chrome":
+    - /url: https://chrome.google.com/webstore/detail/ai-content-detector-for-c/gbcfdjgipmpinkahpiambcikjkijimhi/
+- main:
+  - generic: 
+  - paragraph: "Tokens: 344"
+  - textbox "Text to check"
+  - paragraph:
+    - button "Check Again":
+      - generic: 
+      - generic: Check Again
+    - combobox "Try a Sample":
+      - option "Try a Sample" [selected]
+      - option "AI-generated (mix)"
+      - option "AI-generated resume"
+      - option "Human-written excerpt"
+  - generic: Upload a PDF or Word document
+  - button "Upload a PDF or Word document"
+  - paragraph:
+    - text: Selectable text is required. Scanned images need OCR first.
+    - link "Document checking guide":
+      - /url: /pdf-ai-detector
+  - text: "AI-generation score: 98.6%"
+  - progressbar "AI-generation score"
+  - paragraph: Score for the checked text. This is a model estimate, not proof of authorship.
+  - paragraph: Highlights mark local signals. They do not represent the percentage of words written by AI and can differ from the overall score. False positives and false negatives are possible.
+  - generic: Share report (link expires after 3 days)
+  - textbox "Share URL": https://sapling.ai/ai-content-detector/342edba8689d4424b7722ab699bd176c
+  - button "Copy"
+  - complementary "Continue with Sapling":
+    - heading "Continue your review" [level=2]
+    - paragraph: Use the dashboard for document batches and detection history. History availability follows your account's retention settings.
+    - link "Open the detector dashboard":
+      - /url: /user/register?fwd=/ai-detector
+    - link "Automate checks with the API":
+      - /url: /start/api/detector
+    - paragraph: Your current result stays in this tab. Run or upload it in the dashboard to add it to your history.
+  - button "Show Sentence Perplexity Scores"

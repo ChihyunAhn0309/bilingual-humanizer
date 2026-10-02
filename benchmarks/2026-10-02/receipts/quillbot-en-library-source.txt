@@ -1,0 +1,155 @@
+- link "Quillbot Logo":
+  - /url: /?referrer=quill_logo
+- generic: Tools
+- generic: Professional
+- generic: Academic
+- generic: Creators
+- generic: Personal
+- generic: Extensions & apps
+- link "Upgrade to Premium":
+  - /url: /premium?referrer=header&product=text-editor
+  - button "Upgrade to Premium":
+    - generic: Upgrade to Premium
+- button "Log in":
+- link:
+  - /url: /docs/new
+  - generic: New
+- link:
+  - /url: /docs/new
+  - generic: Projects
+- link:
+  - /url: /docs/new
+  - generic: Paraphraser
+- link:
+  - /url: /docs/new
+  - generic: Grammar Checker
+- link:
+  - /url: /docs/new
+  - generic: AI Detector
+- link:
+  - /url: /docs/new
+  - generic: Plagiarism Checker
+- link:
+  - /url: /docs/new
+  - generic: AI Humanizer
+- link:
+  - /url: /docs/new
+  - generic: AI Chat
+- link:
+  - /url: /docs/new
+  - generic: AI Image Generator
+- link:
+  - /url: /docs/new
+  - generic: Translate
+- link:
+  - /url: /docs/new
+  - generic: Summarizer
+- link:
+  - /url: /docs/new
+  - generic: Citation Generator
+- link "New":
+  - /url: /docs/new?referrer=side_navbar
+  - generic: New
+- link "Projects":
+  - /url: /projects?referrer=side_navbar
+  - generic: Projects
+- link "Paraphraser":
+  - /url: /paraphrasing-tool?referrer=side_navbar
+  - generic: Paraphraser
+- link "Grammar Checker":
+  - /url: /grammar-check?referrer=side_navbar
+  - generic: Grammar Checker
+- link "AI Detector":
+  - /url: /ai-content-detector?referrer=side_navbar
+  - generic: AI Detector
+- link "Plagiarism Checker":
+  - /url: /plagiarism-checker?referrer=side_navbar
+  - generic: Plagiarism Checker
+- link "AI Humanizer":
+  - /url: /ai-humanizer?referrer=side_navbar
+  - generic: AI Humanizer
+- button "More":
+  - generic: More
+- link "Quillbot for Chrome":
+  - /url: https://chromewebstore.google.com/detail/quillbot-ai-writing-and-g/iidnbdjijdkbmajdffnidomddglmieko?hl=en-US&utm_source=quillbot.com&utm_medium=TextEditor&utm_campaign=side_navbar-link
+  - generic: Quillbot for Chrome
+- toolbar "Document toolbar":
+  - generic "Your documents":
+    - button "Your documents":
+  - generic "Undo Ctrl+Z":
+    - button "Undo Ctrl+Z" [disabled]:
+  - generic "Redo Ctrl+Y":
+    - button "Redo Ctrl+Y" [disabled]:
+  - button "302 words":
+    - generic: 302 words
+  - button "English (US)":
+    - generic: English (US)
+  - generic "Copy full text":
+    - button "Copy full text":
+  - generic "Clear text":
+    - button "Clear text":
+  - generic "More":
+    - button "More":
+- main "Editor":
+  - textbox "Document editor":
+    - paragraph:
+      - text: The proposed community library pilot would extend opening hours until 20:00 on Tuesday and Thursday evenings for 6 weeks. The purpose of this memo is to review the available feedback and identify what still needs to be resolved before the proposal can be treated as a workable plan. The pilot should remain clearly defined as a temporary arrangement. It does not establish a permanent policy, and any discussion of future hours should preserve that distinction.
+      - text: The library received 42 feedback forms. Of these, 28 support later hours, 9 prefer the current schedule, and 5 express no preference. These responses give the review a useful starting point because they show how the submitted opinions are distributed. They do not provide a complete account of what every library user needs. The preference for later opening deserves consideration alongside the reasons that some respondents would retain the current schedule, without assuming that either group speaks for everyone.
+      - text: Volunteer availability remains unresolved. This is a practical issue for the proposed evening schedule, rather than a detail that can simply be settled after the pilot begins. The quiet room has a capacity of 12, which should also be considered when describing what the extended hours could offer. Later access would not change that capacity. Communications about the proposal should therefore distinguish between the time the building would remain open and the space available for quiet use.
+      - text: The available information does not establish that longer opening hours cause an increase in attendance. Support expressed on a feedback form is a statement of preference, not evidence of a resulting visit. The review should keep that limitation visible when weighing the proposal. A decision about the pilot can acknowledge the interest in later hours while still requiring clarity about volunteer coverage and maintaining a separate discussion about any permanent change.
+  - generic: Write good well, everywhere
+  - paragraph: Say goodbye to copy-paste. Get advanced AI writing assistance, wherever you write.
+  - link "Add to Chrome":
+    - /url: https://chromewebstore.google.com/detail/quillbot-ai-writing-and-g/iidnbdjijdkbmajdffnidomddglmieko?hl=en-US&utm_campaign=te_writing_studio_extension_banner&utm_source=quillbot.com&utm_medium=TextEditor
+    - generic: Add to Chrome
+  - generic "Dismiss promotion":
+    - button "Dismiss promotion":
+  - button "Rewrite":
+    - generic: Rewrite
+  - generic "Update your text to run another scan":
+    - button "Detect AI again" [disabled]:
+      - generic: Detect AI again
+- tabpanel "Writing assistant":
+  - generic: Writing assistant
+- tabpanel "Detect AI":
+  - generic: Detect AI
+  - progressbar:
+  - generic "Our AI detector is among the most advanced available, but no AI detector is 100% accurate. This score represents the percentage of words likely generated or refined using an AI tool.":
+    - generic "AI score": "0"
+    - superscript: "%"
+    - generic: of text is likely AI
+  - generic: AI-generated
+  - generic: 0%
+  - generic: Human-written & AI-refined
+  - generic: 0%
+  - generic: Human-written
+  - generic: 100%
+  - separator
+  - generic "This model performed well":
+    - button "This model performed well":
+  - generic "This model performed poorly":
+    - button "This model performed poorly":
+  - generic: Model v7.1.0
+  - button "Download report":
+    - generic: Download report
+  - generic: Want more authentic text?
+  - link "Refine with Paraphraser":
+    - /url: /paraphrasing-tool?referrer=ai-detector%2Fai-detection%2Fpphr_upsell&product=text-editor
+    - generic: Refine with Paraphraser
+  - button "Check for plagiarism Happy with the score? Now ensure it’s original...":
+    - generic: Check for plagiarism
+    - paragraph: Happy with the score? Now ensure it’s original...
+  - generic: Never rely on AI detection alone to make decisions that could impact someone's career or academic standing.
+  - generic: You’ve got 4 AI scans left today
+  - link "Upgrade for more":
+    - /url: /premium?returnUrl=%2Fdocs%2Fnew&referrer=ai-detector%2Fai-detection%2Fsome-scans-left&product=text-editor
+    - generic: Upgrade for more
+- tablist "Switch between modes":
+  - generic "Writing assistant":
+    - tab "Writing assistant":
+  - generic "Close (Ctrl+/)":
+    - tab "Detect AI" [selected]:
+  - generic "Check plagiarism":
+    - tab "Check plagiarism":
+  - generic "AI Chat":
+    - tab "AI Chat":

@@ -1,0 +1,126 @@
+- button:
+- button:
+  - generic: New Scan
+- button:
+  - generic: Custom Review
+- link:
+  - /url: /documents-history
+  - generic: Scans
+- link:
+  - /url: https://chromewebstore.google.com/detail/kgobeoibakoahbfnlficpmibdbkdchap?utm_source=dashboard&utm_medium=button&utm_content=sidebar
+  - generic: Chrome Extension
+- main:
+  - button "Toggle sidebar":
+  - paragraph: The proposed community library pilot would extend opening hours until 20:00 on Tuesday and Thursday
+  - button "Sign up"
+  - button "Log in"
+  - button "Expand input view":
+  - button "Copy":
+  - button "Proofread":
+    - text: Proofread
+  - button "Watch your writing replay" [disabled]:
+  - paragraph: The proposed community library pilot would extend opening hours until 20:00 on Tuesday and Thursday evenings for 6 weeks. The purpose of this memo is to review the available feedback and identify what still needs to be resolved before the proposal can be treated as a workable plan. The pilot should remain clearly defined as a temporary arrangement. It does not establish a permanent policy, and any discussion of future hours should preserve that distinction.
+  - paragraph
+  - paragraph: The library received 42 feedback forms. Of these, 28 support later hours, 9 prefer the current schedule, and 5 express no preference. These responses give the review a useful starting point because they show how the submitted opinions are distributed. They do not provide a complete account of what every library user needs. The preference for later opening deserves consideration alongside the reasons that some respondents would retain the current schedule, without assuming that either group speaks for everyone.
+  - paragraph
+  - paragraph: Volunteer availability remains unresolved. This is a practical issue for the proposed evening schedule, rather than a detail that can simply be settled after the pilot begins. The quiet room has a capacity of 12, which should also be considered when describing what the extended hours could offer. Later access would not change that capacity. Communications about the proposal should therefore distinguish between the time the building would remain open and the space available for quiet use.
+  - paragraph
+  - paragraph: The available information does not establish that longer opening hours cause an increase in attendance. Support expressed on a feedback form is a statement of preference, not evidence of a resulting visit. The review should keep that limitation visible when weighing the proposal. A decision about the pilot can acknowledge the interest in later hours while still requiring clarity about volunteer coverage and maintaining a separate discussion about any permanent change.
+  - generic: Great! You've entered enough text to scan
+  - generic: 1946 characters
+  - navigation "Scan type navigation":
+    - button "Basic Scan":
+    - button "Advanced Scan":
+    - button "Feedback":
+    - button "Plagiarism":
+    - button "Hallucinations":
+  - heading "Basic Scan" [level=1]
+  - button "Share":
+    - generic: Share
+  - button "Export":
+    - generic: Export
+  - generic: GPTZero AI Detection
+  - generic: Model 4o
+  - generic: We are highly confident this text was AI generated
+  - generic: Chance this entire text is...
+  - button "AI 100%":
+    - text: AI 100%
+  - button "Mixed 0%":
+    - text: Mixed 0%
+  - button "Human 0%":
+    - text: Human 0%
+  - separator
+  - radiogroup:
+    - radio [checked]:
+    - radio:
+    - radio:
+  - heading "Your most AI sentences" [level=6]
+  - list:
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: These responses give the review a useful starting point because they show how the submitted opinions are distributed.
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: It does not establish a permanent policy, and any discussion of future hours should preserve that distinction.
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: The preference for later opening deserves consideration alongside the reasons that some respondents would retain the current schedule, without assuming that either group speaks for everyone.
+  - paragraph: Advanced sentence scanning
+  - paragraph: Understand how each sentence impacts AI probabilities.
+  - button "Try for Free"
+  - paragraph: 1/1 free scans left
+  - paragraph: What's next?
+  - button "Writing feedback on your draft Structure, tone, and argument analysis":
+    - paragraph: Writing feedback on your draft
+    - paragraph: Structure, tone, and argument analysis
+  - button "Guidance for Teachers and reviewers":
+    - generic: Guidance for Teachers and reviewers
+  - generic: Text up-to-date
+  - generic: 1,946 characters • 302 words
+  - button "Re-scan":
+    - text: Re-scan
+  - button "AI Tools"
+  - listbox:
+  - button "Feedback":
+    - text: Feedback
+  - button:
+  - generic: Here are some useful AI tools.
+  - text: Ways they can help you as a
+  - button "teacher":
+    - generic: teacher
+  - button "Give constructive feedback":
+    - generic: Give constructive feedback
+  - button "Help with addressing AI use in this assignment":
+    - generic: Help with addressing AI use in this assignment
+  - button "Help support a struggling learner":
+    - generic: Help support a struggling learner
+  - button "Find contradictions in my text":
+    - generic: Find contradictions in my text
+  - button "Custom question":
+    - generic: Custom question
+  - separator
+  - separator
+  - textbox "Enter your response or upload file..."
+  - button "Add rubric or documents":
+    - text: Add rubric or documents
+  - button "->" [disabled]
+- button "close side bar":
+- dialog:
+  - generic: Free chrome extension
+  - generic: Auto-scan AI as you browse social media, Google Docs & more
+  - paragraph: Know what's AI as you scroll. GPTZero flags AI-generated content across social media, email, and more.
+  - button "Add to Chrome":
+    - text: Add to Chrome
+  - button "Maybe later"

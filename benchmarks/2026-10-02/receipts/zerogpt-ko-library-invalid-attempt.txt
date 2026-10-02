@@ -1,0 +1,1 @@
+Excluded from paired results: input unexpectedly contained trailing characters ㅅ이. Visible result 100% AI GPT. Retested exact input using DOM fill.

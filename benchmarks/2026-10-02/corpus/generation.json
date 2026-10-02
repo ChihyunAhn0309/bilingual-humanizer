@@ -1,0 +1,28 @@
+{
+  "author": "AI",
+  "facts": "fictional; only the conditions supplied in the task were used",
+  "counts": {
+    "en-library-source.txt": {
+      "whitespace_separated_words": 302,
+      "paragraphs": 4
+    },
+    "en-cache-source.txt": {
+      "whitespace_separated_words": 302,
+      "paragraphs": 4
+    },
+    "ko-library-source.txt": {
+      "whitespace_separated_words": 264,
+      "paragraphs": 4
+    },
+    "ko-cache-source.txt": {
+      "whitespace_separated_words": 264,
+      "paragraphs": 4
+    }
+  },
+  "method": {
+    "composition": "Four synthetic AI drafts were composed in this session, with one English and one Korean internal review memo for each supplied topic.",
+    "counting": "Words and Korean eojeol were counted using whitespace separation; paragraphs were counted using blank-line separation.",
+    "constraints": "The supplied numerical facts and evidential limitations were retained. No humanizer skill, external evaluation result, network service, or detector was read or used.",
+    "encoding": "UTF-8 without BOM; LF line endings; one final newline."
+  }
+}

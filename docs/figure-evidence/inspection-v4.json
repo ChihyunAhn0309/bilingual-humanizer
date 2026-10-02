@@ -1,0 +1,408 @@
+{
+  "file": "[workspace]\\outputs\\github-repo\\docs\\assets\\workflow-v4.pptx",
+  "sha256": "ad7b951842ab820ef2e375414b41c19f2cdd89425a6a23a6d52f1b9841919c3e",
+  "sizePx": [
+    672.0,
+    380.0
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "22",
+          "name": "title",
+          "kind": "sp",
+          "text": "Bilingual humanizer: review before release",
+          "boundsPx": [
+            20.0,
+            18.0,
+            632.0,
+            28.0
+          ],
+          "fingerprint": "e028c154644b2e63ed80901d8a4743bf39f4fd7fe4bd30d02ad00cd3de0a0cad",
+          "fontPt": [
+            15.0
+          ]
+        },
+        {
+          "id": "2",
+          "name": "subtitle",
+          "kind": "sp",
+          "text": "English · Korean · meaning preserved through every revision",
+          "boundsPx": [
+            20.0,
+            48.0,
+            632.0,
+            24.0
+          ],
+          "fingerprint": "d1c3d54aaafe0745bc31a91351e18123e7a700e732bb98d9380f2c3f8c0f91ea",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "3",
+          "name": "source",
+          "kind": "sp",
+          "text": "Original source",
+          "boundsPx": [
+            20.0,
+            100.0,
+            126.0,
+            60.0
+          ],
+          "fingerprint": "c6ce65798e2256a3989b736fab84a4a15f1209aff31d2daf05c5a54490d9362b",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "4",
+          "name": "candidate",
+          "kind": "sp",
+          "text": "Rewrite\ncandidate",
+          "boundsPx": [
+            184.0,
+            100.0,
+            124.0,
+            60.0
+          ],
+          "fingerprint": "9ac0f9a8cf8e66690298f5c7c34330f20c40a36d9c47631bf7695b7bb69900b3",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "5",
+          "name": "review",
+          "kind": "sp",
+          "text": "Fidelity +\nreader review",
+          "boundsPx": [
+            348.0,
+            100.0,
+            132.0,
+            60.0
+          ],
+          "fingerprint": "0f58c6833a7418ea4c0aa2deb3dbc7b08def7f66ee0512742e6fcc979e99c143",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "6",
+          "name": "best",
+          "kind": "sp",
+          "text": "Best faithful\ntext",
+          "boundsPx": [
+            520.0,
+            100.0,
+            132.0,
+            60.0
+          ],
+          "fingerprint": "5d7148c119f2963672bfdeacec481c365fff94f4f0d9b4461e212cad2d430f72",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "7",
+          "name": "revise",
+          "kind": "sp",
+          "text": "Revise findings",
+          "boundsPx": [
+            184.0,
+            224.0,
+            124.0,
+            46.0
+          ],
+          "fingerprint": "50f67169db8f06f3d75bd0976367a25193eb612b90cc80c6cc04c743aca679db",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "8",
+          "name": "checks",
+          "kind": "sp",
+          "text": "Detector checks",
+          "boundsPx": [
+            520.0,
+            218.0,
+            132.0,
+            46.0
+          ],
+          "fingerprint": "b9aa8841a65d879e25eef998b8dd2de2b2d7ceecd204e0dd201d1f694be0f9aa",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "9",
+          "name": "record",
+          "kind": "sp",
+          "text": "Evidence record",
+          "boundsPx": [
+            520.0,
+            292.0,
+            132.0,
+            40.0
+          ],
+          "fingerprint": "0819c9b222991ac2ed71d78decbd30b6631222ef30ab3b934659c28e638b36ce",
+          "fontPt": [
+            9.75
+          ]
+        },
+        {
+          "id": "31",
+          "name": "source-to-candidate",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            146.0,
+            130.0,
+            38.0,
+            0.0
+          ],
+          "fingerprint": "a559d0cd15c5004b326b1db0d03049e8626902e9cea37b88b9edc42a1b304721",
+          "fontPt": []
+        },
+        {
+          "id": "32",
+          "name": "candidate-to-review",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            308.0,
+            130.0,
+            40.0,
+            0.0
+          ],
+          "fingerprint": "a7e01b4ad22043921a4b06f185eac33851ca7e7a1e590396ce24dd6c373e458f",
+          "fontPt": []
+        },
+        {
+          "id": "33",
+          "name": "review-to-best",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            480.0,
+            130.0,
+            40.0,
+            0.0
+          ],
+          "fingerprint": "d9e51538ae3c9a2d35e67021a29bb89b3029689d61ad1c54eef6b6d14a9047a1",
+          "fontPt": []
+        },
+        {
+          "id": "34",
+          "name": "review-to-revise",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            308.0,
+            160.0,
+            106.0,
+            87.0
+          ],
+          "fingerprint": "3a1b2a36b4ae65dc81166c937d25e85fdc4dcacdfb74c66925241cceb19d013b",
+          "fontPt": []
+        },
+        {
+          "id": "35",
+          "name": "revise-to-candidate",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            246.0,
+            160.0,
+            0.0,
+            64.0
+          ],
+          "fingerprint": "cf5e9650deeb91705381c51e893ddde7d87e528059bcfe22fe17c9245a90a91e",
+          "fontPt": []
+        },
+        {
+          "id": "36",
+          "name": "best-to-checks",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            586.0,
+            160.0,
+            0.0,
+            58.0
+          ],
+          "fingerprint": "4dde5eb51e20895a1d1480e3c4fa4e91895b5448ce55e70a9035c4afde1baabf",
+          "fontPt": []
+        },
+        {
+          "id": "37",
+          "name": "checks-to-record",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            586.0,
+            264.0,
+            0.0,
+            28.0
+          ],
+          "fingerprint": "30a2286227f53a9bf97c94a9bf828204a97d9856a8959c7289292a42260b0e00",
+          "fontPt": []
+        },
+        {
+          "id": "17",
+          "name": "immutable",
+          "kind": "sp",
+          "text": "Immutable authority",
+          "boundsPx": [
+            20.0,
+            169.0,
+            135.0,
+            24.0
+          ],
+          "fingerprint": "0fa8777f2c7dd05dd4d84b1463b1f323cccca0568251e07b368a962323768b9c",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "18",
+          "name": "revision-limit",
+          "kind": "sp",
+          "text": "Default: ≤3 revisions",
+          "boundsPx": [
+            158.0,
+            280.0,
+            178.0,
+            24.0
+          ],
+          "fingerprint": "8826171fb7d533da58079bc8aef754b9eb5492d7bfc51d205e3e0c473c538d2d",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "19",
+          "name": "optional",
+          "kind": "sp",
+          "text": "Optional external\nevidence",
+          "boundsPx": [
+            365.0,
+            219.0,
+            142.0,
+            44.0
+          ],
+          "fingerprint": "aa6d292846e396a5b9935baf6eb27d388e33627b68866ecf030d9d7a660dc74a",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "20",
+          "name": "hash",
+          "kind": "sp",
+          "text": "Same text hash\nService · date · result",
+          "boundsPx": [
+            365.0,
+            289.0,
+            145.0,
+            44.0
+          ],
+          "fingerprint": "ea854bfad758eec044394d7e469e20430260cacf32ce6e00ec8e3c9da0455d1d",
+          "fontPt": [
+            9.0
+          ]
+        },
+        {
+          "id": "21",
+          "name": "footer",
+          "kind": "sp",
+          "text": "Preserve meaning. Record unresolved checks. Scores do not establish authorship.",
+          "boundsPx": [
+            20.0,
+            347.0,
+            632.0,
+            24.0
+          ],
+          "fingerprint": "decd007c7551993fc3e0e01a56029431d1a64023a606fdd2dc97ea3addacde81",
+          "fontPt": [
+            9.0
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "source-to-candidate",
+          "from": "source",
+          "to": "candidate",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "candidate-to-review",
+          "from": "candidate",
+          "to": "review",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "review-to-best",
+          "from": "review",
+          "to": "best",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "review-to-revise",
+          "from": "review",
+          "to": "revise",
+          "fromIdx": "2",
+          "toIdx": "3",
+          "directed": true
+        },
+        {
+          "name": "revise-to-candidate",
+          "from": "revise",
+          "to": "candidate",
+          "fromIdx": "0",
+          "toIdx": "2",
+          "directed": true
+        },
+        {
+          "name": "best-to-checks",
+          "from": "best",
+          "to": "checks",
+          "fromIdx": "2",
+          "toIdx": "0",
+          "directed": true
+        },
+        {
+          "name": "checks-to-record",
+          "from": "checks",
+          "to": "record",
+          "fromIdx": "2",
+          "toIdx": "0",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 14,
+        "cxnSp": 7,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

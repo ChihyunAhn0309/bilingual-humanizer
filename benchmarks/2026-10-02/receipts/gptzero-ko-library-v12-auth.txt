@@ -1,0 +1,58 @@
+Endpoint: https://app.gptzero.me/
+Input file: ko-library-v12.txt
+Input verified after whitespace normalization.
+  - heading "Basic Scan" [level=1]
+  - button "Share":
+    - generic: Share
+  - button "Export":
+    - generic: Export
+  - generic: GPTZero AI Detection
+  - generic: Model 4.1m
+  - generic: We are highly confident this text was AI generated
+  - generic: Chance this entire text is...
+  - button "AI 98%":
+    - text: AI 98%
+  - button "Mixed 0%":
+    - text: Mixed 0%
+  - button "Human 2%":
+    - text: Human 2%
+  - separator
+  - radiogroup:
+    - radio [checked]:
+    - radio:
+    - radio:
+  - img "Paul Esau"
+  - img "Wendy Snyder"
+  - heading "Expert feedback" [level=4]
+  - paragraph: Emmy Winning Writers
+  - button:
+  - heading "Your most AI sentences" [level=6]
+  - list:
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: 저녁 시간 연장과 향후 상시 운영 시간에 관한 논의는 구분할 필요가 있으며, 안내에서도 그 차이를 분명히 전달해야 한다.
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: 시범 운영 결정이 영구적인 일정 변경까지 확정하는 것으로 읽히지 않도록 문서의 표현도 점검할 필요가 있다.
+  - button "See your most AI and human sentences":
+    - generic: See your most AI and human sentences
+  - paragraph: What's next?
+  - button "Paul Esau Wendy Snyder Policy Brief feedback Reviewed by Emmy-Winners, Ivy League Profs":
+    - img "Paul Esau"
+    - img "Wendy Snyder"
+    - paragraph: Policy Brief feedback
+    - paragraph: Reviewed by Emmy-Winners, Ivy League Profs
+  - button "Guidance for Teachers and reviewers":
+    - generic: Guidance for Teachers and reviewers
+  - generic: Text up-to-date
+  - generic: 862 characters • 213 words
+  - button "Re-scan":
+    - text: Re-scan

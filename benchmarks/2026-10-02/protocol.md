@@ -1,0 +1,15 @@
+# Commercial detector smoke test — 2026-10-02
+
+Four synthetic AI documents: English and Korean, library memo and cache engineering memo. Source generation is separate from rewrite execution. A fresh writer context sees the skill and original documents but no detector outputs. Preserve exact UTF-8 files and hashes. Source and rewrite are both AI-produced; there is no human-authored control. This is a small convenience sample, not an accuracy benchmark.
+
+Use public UI endpoints, current free access, no purchase or account creation. Priority: GPTZero Basic, QuillBot AI Detector, Sapling public detector, with ZeroGPT as additional access if needed. Record every completed result and access/language/quota failures. Never retry with alternate identities or defeat quotas. Submit the whole supplied text only within UI length limits; any unavoidable truncation is explicitly incomplete and excluded from paired whole-document comparison.
+
+Report native labels and units per service, not a universal pass percentage. Target when provided by service: its human classification; a rounded displayed zero is only a displayed zero. GPTZero whole-document class probability and QuillBot percentage of words deemed generated/refined are distinct. No averaging across vendors. No universal authenticity or undetectability claim.
+
+Baseline rewrite files must be frozen before seeing scores. Any later score-informed rewrite is a separate adaptive phase, not part of the blind baseline. All tests carry input hash, timestamp, endpoint, UI model version when shown, score semantics, scope and evidence. Test quota is finite: at most 3 external rounds per document, within free access. Stop if no quality-preserving revision is justified. A blocked call is never a passed call.
+
+## Development amendments and actual execution
+
+This working protocol was written during the task, after initial exploration; it was not preregistered. The user subsequently requested strengthening the rewriting function, personally supplied usable GPTZero login access, and requested the additional im-not-ai reference. These instructions authorized additional development and a final v1.4 check; they did not change the shipped default iteration ceiling. Actual tested candidate versions are v1.1, v1.2, v1.3 (English library/GPTZero only), and v1.4 where access allows. Original-source scans are baselines rather than rewrite rounds. Missing cells remain untested.
+
+The initial three-round budget was expanded for this development task to four candidate versions after those explicit follow-up requests. No account was created, no payment made, and the agent did not rotate identities. User-managed existing login access was used. The skill author saw prior outputs and detector results while improving the instructions, even though each new writer received only the original and current skill. This is adaptive development, not a held-out comparison. v1.3 remains in the corpus to document the intermediate version even where it was not commercially tested.

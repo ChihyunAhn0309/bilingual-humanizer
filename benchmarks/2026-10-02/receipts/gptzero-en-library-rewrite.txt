@@ -1,0 +1,121 @@
+- button:
+- button:
+  - generic: New Scan
+- button:
+  - generic: Custom Review
+- link:
+  - /url: /documents-history
+  - generic: Scans
+- link:
+  - /url: https://chromewebstore.google.com/detail/kgobeoibakoahbfnlficpmibdbkdchap?utm_source=dashboard&utm_medium=button&utm_content=sidebar
+  - generic: Chrome Extension
+- main:
+  - button "Toggle sidebar":
+  - paragraph: The proposed community library pilot would extend opening hours until 20:00 on Tuesday and Thursday
+  - button "Sign up"
+  - button "Log in"
+  - button "Expand input view":
+  - button "Copy":
+  - button "Proofread":
+    - text: Proofread
+  - button "Watch your writing replay" [disabled]:
+  - paragraph: The proposed pilot would keep the community library open until 20:00 on Tuesday and Thursday evenings for 6 weeks. This memo considers the feedback received and the questions that need answers before the proposal becomes a workable plan. The pilot would be temporary; it would not establish permanent opening hours. That distinction should guide any discussion of the library's future schedule.
+  - paragraph: Of the 42 feedback forms received, 28 support later hours, 9 prefer the current schedule, and 5 express no preference. The figures show the balance of submitted opinions and offer a starting point for the review. They do not give a complete account of every library user's needs. Interest in later hours deserves consideration, as do the reasons some respondents prefer the existing schedule. Neither group should be taken to speak for all users.
+  - paragraph: There is also a limit to what this interest tells us about attendance. A preference expressed on a form does not show that the respondent would visit during the extra hours, and the available information does not establish that longer hours cause attendance to rise. This limitation should remain clear as the proposal is assessed.
+  - paragraph: "Volunteer availability is still unresolved and needs attention before the pilot starts. Evening coverage is a practical requirement for running the proposed schedule, not a detail to leave until it is under way. The quiet room's capacity of 12 also limits what the pilot could offer: staying open later would not create more space. Any communications should distinguish the hours of access to the building from the space available for quiet use."
+  - paragraph: A decision can recognize the interest in later hours while requiring clarity on volunteer coverage. It should also keep any permanent change to opening hours as a separate question.
+  - paragraph
+  - generic: Great! You've entered enough text to scan
+  - generic: 1801 characters
+  - navigation "Scan type navigation":
+    - button "Basic Scan":
+    - button "Advanced Scan":
+    - button "Feedback":
+    - button "Plagiarism":
+    - button "Hallucinations":
+  - heading "Basic Scan" [level=1]
+  - button "Share":
+    - generic: Share
+  - button "Export":
+    - generic: Export
+  - generic: GPTZero AI Detection
+  - generic: Model 4o
+  - generic: We are highly confident this text was AI generated
+  - generic: Chance this entire text is...
+  - button "AI 100%":
+    - text: AI 100%
+  - button "Mixed 0%":
+    - text: Mixed 0%
+  - button "Human 0%":
+    - text: Human 0%
+  - separator
+  - radiogroup:
+    - radio [checked]:
+    - radio:
+    - radio:
+  - heading "Your most AI sentences" [level=6]
+  - list:
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: The figures show the balance of submitted opinions and offer a starting point for the review.
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: A preference expressed on a form does not show that the respondent would visit during the extra hours, and the available information does not establish that longer hours cause attendance to rise.
+    - status "Low impact":
+      - generic: High AI impact
+    - status "Medium impact":
+      - generic: High AI impact
+    - status "High impact":
+      - generic: High AI impact
+    - generic: This limitation should remain clear as the proposal is assessed.
+  - paragraph: Advanced sentence scanning
+  - paragraph: Understand how each sentence impacts AI probabilities.
+  - button "Try for Free"
+  - paragraph: 1/1 free scans left
+  - paragraph: What's next?
+  - button "Writing feedback on your draft Structure, tone, and argument analysis":
+    - paragraph: Writing feedback on your draft
+    - paragraph: Structure, tone, and argument analysis
+  - button "Guidance for Teachers and reviewers":
+    - generic: Guidance for Teachers and reviewers
+  - generic: Text up-to-date
+  - generic: 1,801 characters • 291 words
+  - button "Re-scan":
+    - text: Re-scan
+  - button "AI Tools"
+  - listbox:
+  - button "Feedback":
+    - text: Feedback
+  - button:
+  - generic: Here are some useful AI tools.
+  - text: Ways they can help you as a
+  - button "teacher":
+    - generic: teacher
+  - button "Give constructive feedback":
+    - generic: Give constructive feedback
+  - button "Help with addressing AI use in this assignment":
+    - generic: Help with addressing AI use in this assignment
+  - button "Help support a struggling learner":
+    - generic: Help support a struggling learner
+  - button "Find contradictions in my text":
+    - generic: Find contradictions in my text
+  - button "Custom question":
+    - generic: Custom question
+  - separator
+  - separator
+  - textbox "Enter your response or upload file..."
+  - button "Add rubric or documents":
+    - text: Add rubric or documents
+  - button "->" [disabled]
+- button "close side bar":
+- generic: Run a scan
+- generic: Ctrl
+- generic: Enter

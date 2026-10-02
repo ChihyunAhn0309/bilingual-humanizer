@@ -1,0 +1,7 @@
+Across 48 runs in a fictional software cache trial, median latency fell from 120ms to 90ms while memory use rose from 256MB to 288MB. The lower median is relevant to further evaluation, but any review should present both measurements: considering latency alone would omit the memory increase and obscure the tradeoff. Operational rollout has not been approved.
+
+The trial excluded mobile clients, so its findings should be described within the tested scope and mobile behavior should remain an open question. The observed relationships are correlations, not causal proof of what would happen in production. Neither a benefit in production nor the same balance of latency and memory under untested conditions can yet be assumed.
+
+There are also limits to what the measurements say about the trial itself. A median does not describe every run, and the figures do not show the full distribution. The review should not fill in the missing detail with assumptions about consistency or exceptional cases. Whether the memory increase is acceptable depends on the operating environment; the trial summary alone does not supply the context needed to judge that tradeoff.
+
+The specified rollback condition is a failure rate above 2%. Any further review should state that threshold explicitly, without treating it as authorization to deploy or assuming it resolves the limitations of the evidence. The next decision should weigh the latency and memory changes together and retain the testing scope, keeping approval separate from the interpretation of these preliminary results.

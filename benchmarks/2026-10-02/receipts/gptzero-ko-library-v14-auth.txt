@@ -1,0 +1,32 @@
+Endpoint: https://app.gptzero.me/
+Input file: ko-library-v14.txt
+Input normalized whitespace match: true
+  - heading "Basic Scan" [level=1]
+  - button "Share":
+    - generic: Share
+  - button "Export":
+    - generic: Export
+  - generic: GPTZero AI Detection
+  - generic: Model 4.1m
+  - generic: We are highly confident this text is entirely human
+  - generic: Chance this entire text is...
+  - button "AI 11%":
+    - text: AI 11%
+  - button "Mixed 1%":
+    - text: Mixed 1%
+  - button "Human 88%":
+    - text: Human 88%
+  - button "See sentence highlighting":
+    - generic: See sentence highlighting
+  - img "Paul Esau"
+  - img "Wendy Snyder"
+  - paragraph: Get a grade and feedback
+  - paragraph: Built by writing experts
+  - button "Get Feedback"
+  - separator
+  - button "Guidance for Teachers and reviewers":
+    - generic: Guidance for Teachers and reviewers
+  - generic: Text up-to-date
+  - generic: 911 characters • 227 words
+  - button "Re-scan":
+    - text: Re-scan
