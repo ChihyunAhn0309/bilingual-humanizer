@@ -36,7 +36,7 @@ An empty results list produces `incomplete`. For a completed check, add one obje
 | `value` | Original returned label or numerical value in the stated unit |
 | `value_is_exact` | `true` for numerical comparison only when not a rounded, censored or estimated value |
 
-For errors or pending checks, `target_id` and `status` suffice. Retain diagnostic detail in the working receipt record. `label` uses operator `eq` and a literal documented classification; `fraction` (0–1) and `percent` (0–100) use `lte` or `gte`. Do not relabel a score to fit this schema. If a report only displays a rounded or suppressed value, keep the numeric target unresolved or use its documented category where applicable. Different service metrics are never averaged.
+For errors or pending checks, `target_id` and `status` suffice. Retain diagnostic detail in the working receipt record. `label` uses operator `eq` and a literal documented classification; `fraction` (0–1) and `percent` (0–100) use `lt`, `lte`, `gt` or `gte`. A request for **above 50 percent** uses `gt` with value `50`; exactly 50 does not meet that target. Do not relabel a score to fit this schema. If a report only displays a rounded or suppressed value, keep the numeric target unresolved or use its documented category where applicable. Different service metrics are never averaged.
 
 Run:
 

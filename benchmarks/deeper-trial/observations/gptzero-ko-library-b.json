@@ -1,0 +1,17 @@
+{
+  "id": "gptzero-ko-library-b",
+  "vendor": "GPTZero",
+  "input_path": "final/b-ko-library.txt",
+  "input_sha256": "59344bb96221ab62999294a81e7404e638c4739dfed070ad24650d7bd437fd96",
+  "submitted_sha256": "77c08670f6abeef6f841972361dbf1527ddfa3187804cf7eb19d21af890ae6fb",
+  "observed_at": "2026-10-02T17:44:39.272Z",
+  "metric": "Human document probability",
+  "score": 72,
+  "model": "4.1m",
+  "receipt": "receipts/gptzero-ko-library-b.txt",
+  "ai": 26,
+  "human": 72,
+  "mixed": 2,
+  "scan_type": "Basic",
+  "input_verified_in_dom": true
+}

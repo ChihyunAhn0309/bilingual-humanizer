@@ -1,0 +1,22 @@
+{
+  "en-support": {
+    "X": {
+      "input": "fresh-b/en-support.txt",
+      "sha256": "b9dd45f560bb0b283fa74dfedef1a89062613ad879f4de8c36f3aeb13a3615ab"
+    },
+    "Y": {
+      "input": "fresh-baseline/en-support.txt",
+      "sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805"
+    }
+  },
+  "ko-essay": {
+    "X": {
+      "input": "fresh-baseline/ko-essay.txt",
+      "sha256": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3"
+    },
+    "Y": {
+      "input": "fresh-b/ko-essay.txt",
+      "sha256": "b088b0672e703adf67e1af9c4106c68b4cb81925e20fd2108bd57e0d61f4be5d"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+heading Basic Scan, Value: 1
+							159 text Basic Scan
+						417 image
+						161 button Share
+							162 image
+							163 text Share
+						164 button Export
+							165 image
+							166 text Export
+					418 container
+						419 image
+							420 text AI
+						421 image
+						422 text GPTZero AI Detection Model  4.1m We are uncertain about this document. If we had to classify it, it would be considered AI generated
+						423 text Chance this entire text is...
+						424 button AI 55%
+							425 text AI 55%
+							426 image
+						427 button Mixed 0%
+							428 text Mixed 0%
+							429 image
+						430 button Human 45%
+							431 text Human 45%
+							432 image
+						433 radio button AI Sentences, Value: 1
+							434 container
+								435 image
+								436 text AI Sentences
+						437 radio button AI Patterns NEW, Value: 0
+							438 container
+								439 image
+								440 text AI Patterns NEW
+						441 radio button AI Vocab, Value: 0
+							442 container
+								443 image
+								444 text AI Vocab
+						445 heading Your most AI sentences, Value: 6
+							446 text Your most AI sentences
+						447 content list
+							448 container
+								449 container Low impact
+									450 text Low AI impact
+								451 container Medium impact
+									452 text Low AI impact
+								453 container High impact
+									454 text Low AI impact
+								455 text 아직 긴급 요청의 우선순위를 누가 어떤 기준으로 결정할지는 정해지지 않았습니다.
+							456 container
+								457 container Low impact
+									458 text Low AI impact
+								459 container Medium impact
+									460 text Low AI impact
+								461 container High impact
+									462 text Low AI impact
+								463 text 운영지원팀은 매주 예약 변경 내역을 확인하고 각 팀에서 겪은 불편도 함께 정리할 예정입니다.
+						464 button See your most AI and human sentences
+							465 image
+							466 text See your most AI and human sentences
+							467 image
+						468 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							469 image
+							470 text Guidance for Teachers and reviewers
+					170 text Text up-to-date 910 characters • 228 words
+					171 button Re-scan
+						471 text Re-scan
+						472 image
+				92 container
+					473 

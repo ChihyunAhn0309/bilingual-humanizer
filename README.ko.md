@@ -8,7 +8,15 @@
 
 [편집 가능한 PowerPoint](docs/assets/workflow.pptx) · [그림 구도 초안](docs/assets/composition-draft.png) · [도식 검증](docs/figure-evidence/render-review.md). 도식은 요청받은 [paper-figure](https://github.com/JYS1025/paper-figure) 스킬의 전체 이미지 초안 → 네이티브 도형 재구성 → 저장 파일 검증 절차로 만들었습니다. 선택적인 탐지기 피드백을 다음 검토에 반영하는 과정은 스킬 본문에 설명합니다.
 
-## v1.5에서 보강한 기능
+## 현재 버전 v1.5.1
+
+이번 버전은 **사실 보존과 결과 판정을 보정한 유지보수 버전**입니다. 서론을 다시 쓸 때 문서의 검토 목적과 결정 단계를 지키도록 명시했습니다. 오프라인 검사기에 엄격한 `gt`/`lt`를 추가해 정확히 50%인 결과가 `Human >50%`를 통과하지 않도록 했습니다.
+
+스킬 저장소 13개와 연구 구현 3개를 추가로 검토하고 두 재작성 실험안을 시험했지만 기본값으로 채택하지 않았습니다. [추가 상용 검사 32건](benchmarks/deeper-trial/REPORT.md)에서 같은 영어 박물관 문서는 GPTZero Human 0%·QuillBot Human-written 100%였고, 한국어 도서관 A안은 60%·11%였습니다. 새 한국어 에세이는 실험 B안에서 GPTZero Human이 42%→2%로 낮아졌습니다. 독립 세션에서 v1.5.1로 새로 작성한 도서관 문서는 GPTZero Human 50%·ZeroGPT AI GPT 100%였으며, QuillBot은 무료 횟수가 소진돼 검사하지 못했습니다. **모든 검사기 Human 50% 초과 목표는 미달입니다.** 두 Human 수치는 정의가 다른 지표이며 저자를 증명하지 않습니다.
+
+[독립 스킬 감사](benchmarks/deeper-trial/final-skill-audit.md)에서는 도서관 글의 사실과 목적 보존을 확인했고 회귀검사 45개 및 별도 경계·단위 확인 10건이 통과했습니다. [최종 증거 감사](benchmarks/deeper-trial/final-evidence-audit.md)는 공개할 기록을 별도로 검토합니다. 모두 독립 문맥의 AI 세션 검토이며 인간 평가는 아닙니다. [추가 자료 검토](skills/bilingual-humanizer/references/further-reference-review.md)에 검토 범위와 채택하지 않은 규칙의 이유를 공개합니다.
+
+## v1.5에서 도입한 재작성 방식
 
 독자·목적·거리감·실제 문체 특징을 먼저 정합니다. 반복 지시를 행위자·행위·대상·시점·강도로 비교하고, 문장의 기능을 실제 주장에 흡수하는 방법을 보강했습니다. 추상적인 한국어 술어와 영어 메타 설명도 문장 전체에서 다시 구성합니다.
 
@@ -22,7 +30,7 @@
 
 ## v1.5 실제 결과
 
-**추가 개선 실험 후에도 v1.5를 유지합니다.** 짧은 독자 중심 지침으로 추가 17건을 검사했지만 새 주제에서는 탐지 결과가 개선되지 않았고, 블라인드 문장 품질 검토도 기존 버전을 조금 더 선호했습니다. [추가 실험과 유지 결정](benchmarks/additional-trial/REPORT.md)에 전체 결과를 공개했습니다. 설치 스킬 파일은 바꾸지 않았습니다.
+**당시 v1.5 유지 결정:** 짧은 독자 중심 지침으로 추가 17건을 검사했지만 새 주제에서는 탐지 결과가 개선되지 않았고, 블라인드 문장 품질 검토도 기존 버전을 조금 더 선호했습니다. [추가 실험과 유지 결정](benchmarks/additional-trial/REPORT.md)에 전체 결과를 공개했습니다. 당시 변경하지 않았던 v1.5 스킬 20개 파일은 실험 기록과 함께 보관했습니다. 현재 v1.5.1의 유지보수 변경은 위에 설명했습니다.
 
 한국어 기술 문서에서 QuillBot AI 92%→0%, GPTZero AI 100%→79%의 개선을 확인했습니다. 그러나 한국어 도서관 글은 GPTZero AI 11%→32%로 악화됐고, 의미를 보정한 영어 기술 문서는 Sapling 93%→94.6%, QuillBot 0%→24%로 악화됐습니다. **여러 탐지기에서 대부분 인간 작성으로 판정된다는 목표는 미달입니다.**
 
@@ -66,7 +74,7 @@ python -m unittest discover -s skills/bilingual-humanizer/evals -p 'test_*.py'
 
 이 검사는 숫자·단위 등 보존 검사와 탐지 보고서 일관성 검사입니다. 실제 탐지기를 실행하거나 글의 자연스러움을 자동으로 입증하는 테스트는 아닙니다.
 
-humanizer 관련 저장소 19개를 커밋 단위로 조사했습니다. 파생 저장소와 러시아어 비교 자료가 포함되므로 독립적인 영·한 방법 19개라는 뜻은 아닙니다. [출처와 설계 판단](skills/bilingual-humanizer/references/research-sources.md), [정확한 소스 목록](skills/bilingual-humanizer/references/skill-sources.json), [추가 자료 비교](skills/bilingual-humanizer/references/v15-reference-review.md)를 확인할 수 있습니다. 새로 작성한 스킬과 예제는 MIT 라이선스이며, 참고한 외부 스킬 소스는 재배포하지 않습니다.
+누적 스킬 저장소 32개와 연구 구현 3개를 커밋 단위로 목록화했습니다. 파생 저장소와 러시아어 비교 자료를 포함하며, 큰 파일은 일부만 읽은 경우도 있으므로 독립적인 영·한 방법 35개를 완전 검증했다는 뜻은 아닙니다. [출처와 설계 판단](skills/bilingual-humanizer/references/research-sources.md), [기존 19개 목록](skills/bilingual-humanizer/references/skill-sources.json), [추가 목록과 정확한 검토 범위](skills/bilingual-humanizer/references/further-sources.json)를 확인할 수 있습니다. 새로 작성한 스킬과 예제는 MIT 라이선스이며, 참고한 외부 스킬 소스는 재배포하지 않습니다.
 
 ![상용 탐지기별 실제 관측값](docs/assets/detector-observations.png)
 

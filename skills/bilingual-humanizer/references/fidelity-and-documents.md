@@ -14,6 +14,7 @@ Compare propositions, not just strings. These are editing failures even if every
 - `다음 달 출시할 예정이다` becomes `다음 달 출시한다` where certainty changes.
 - `일부 참가자는 만족하지 않았다` becomes `참가자는 만족하지 않았다`.
 - A citation moves from one finding to a different assertion.
+- `이번 검토는 접수된 의견을 살피고 운영안을 구체화하기 전에 조건을 정리한다` disappears because it was treated as an introduction. Even if the conditions remain elsewhere, the stated remit and decision stage have been lost.
 
 Preservation is not fact verification. If the source itself makes an unsupported claim, do not strengthen it. Preserve and flag a material concern, or verify it when verification is part of the task. Do not quietly replace it with a plausible fact.
 

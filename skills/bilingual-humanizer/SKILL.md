@@ -2,7 +2,7 @@
 name: bilingual-humanizer
 description: "Actively rewrite Korean, English, or mixed-language prose to sound natural while preserving meaning, evidence, and the writer's voice. Use for humanizing AI drafts, removing translationese or formulaic phrasing, restructuring documents, and matching supplied writing samples across general, business, academic, technical, and creative genres. Also explain supplied AI-detector results without certifying authorship."
 metadata:
-  version: "1.5.0"
+  version: "1.5.1"
 ---
 
 # Bilingual Humanizer
@@ -47,6 +47,8 @@ Work toward a positive writing target: a recognizable purpose, a suitable distan
 
 Remove reader-irrelevant chatbot wrappers, repeated previews, empty praise, unsupported rhetorical inflation, and generic conclusions when they do not carry the writer's stance. Do not replace a cliché with a milder cliché. Keep needed courtesy, safety emphasis, technical definitions, recurring terms, navigation, and genuine contrasts.
 
+A sentence that states a document's remit or decision stage can carry substantive meaning even when it sounds like framing. For example, reviewing responses **before developing an operating proposal** is distinct from listing operating conditions. Preserve both functions; compress the wording only if the purpose and sequence remain. Check these functions explicitly when a rewrite changes the opening.
+
 Let sentence length and punctuation follow meaning. Formal language, fluent grammar, passive voice, em dashes, three-item lists, predictable phrasing, or a single stock word do not establish AI authorship. Do not introduce typos, random slang, broken spacing, invisible characters, or awkward rhythm. Do not force fragments, first-person pronouns, active voice, or numerical diversity targets.
 
 User instructions and factual fidelity take priority over sample style; sample style takes priority over generic editorial preferences. If a requested style conflicts with exact quotation or a defined term, retain the protected material and adjust the surrounding prose.
@@ -76,6 +78,6 @@ If the user asks for detector guarantees or proof of human authorship, explain o
 
 ## Maintenance and evidence
 
-[research-sources.md](references/research-sources.md) records the upstream skills, selected ideas, rejected assumptions, and primary research. Detector descriptions were checked on 2026-10-02; refresh the particular vendor source when interpreting a current product result. None of the vendor scores, benchmark AUROCs, or community pattern counts validates this skill's performance.
+[research-sources.md](references/research-sources.md) records the upstream skills, selected ideas, rejected assumptions, and primary research. Detector descriptions were checked on 2026-10-02, with a focused GPTZero/QuillBot follow-up on 2026-10-03; refresh the particular vendor source when interpreting a current product result. [The expanded review](references/further-reference-review.md) separates prompt-level hypotheses from methods requiring trained models. None of the vendor scores, benchmark AUROCs, or community pattern counts validates this skill's performance.
 
 For future behavioral evaluation, use [evaluation.md](references/evaluation.md) and the synthetic cases under `evals/`. Keep naturalness, fidelity, and authorship assessment separate.

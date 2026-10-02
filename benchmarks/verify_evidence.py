@@ -63,3 +63,7 @@ if (BASE.parent/'additional-trial/results.json').exists():
     import runpy
     runpy.run_path(str(BASE.parent/'verify_additional_trial.py'),run_name='__main__')
 
+if (BASE.parent/'deeper-trial/results.json').exists():
+    import runpy
+    runpy.run_path(str(BASE.parent/'verify_deeper_trial.py'),run_name='__main__')
+

@@ -1,0 +1,17 @@
+{
+  "id": "quillbot-ko-equipment-baseline",
+  "vendor": "QuillBot",
+  "input_path": "baseline/ko-equipment.txt",
+  "input_sha256": "3ac3e8adfe03c5910546c3955c6803fee5e6fbf0d604515a9247ca8ffc2a45f2",
+  "submitted_sha256": "8871230cfc7a8175c0e6cc60611078267240c2e3ad5a095a8fefe0242bd08816",
+  "observed_at": "2026-10-02T17:26:27.792Z",
+  "metric": "Human-written text percentage",
+  "score": 9,
+  "model": "v6.2.1",
+  "receipt": "receipts/quillbot-ko-equipment-baseline.txt",
+  "ai": 91,
+  "human": 9,
+  "refined": 0,
+  "input_verified_in_dom": true,
+  "remaining_scans": "5"
+}

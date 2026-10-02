@@ -1,0 +1,75 @@
+heading Basic Scan, Value: 1
+							121 text Basic Scan
+						328 image
+						123 button Share
+							124 image
+							125 text Share
+						126 button Export
+							127 image
+							128 text Export
+					329 container
+						330 image
+							331 text AI
+						332 image
+						333 text GPTZero AI Detection Model  4.1m We are highly confident this text was AI generated
+						334 text Chance this entire text is...
+						335 button AI 94%
+							336 text AI 94%
+							337 image
+						338 button Mixed 0%
+							339 text Mixed 0%
+							340 image
+						341 button Human 6%
+							342 text Human 6%
+							343 image
+						344 radio button 1
+						345 radio button 0
+						346 radio button 0
+						347 image Paul Esau
+						348 image Wendy Snyder
+						349 heading Expert feedback, Value: 4
+							350 text Expert feedback
+						351 image
+						352 text Emmy Winning Writers
+						353 button
+							354 image
+						355 heading Your most AI sentences, Value: 6
+							356 text Your most AI sentences
+						357 content list
+							358 container
+								359 container Low impact
+									360 text High AI impact
+								361 container Medium impact
+									362 text High AI impact
+								363 container High impact
+									364 text High AI impact
+								365 text 운영지원팀은 매주 예약 변경 내역을 확인하고 각 팀의 불편 사항도 함께 정리할 예정입니다.
+							366 container
+								367 container Low impact
+									368 text High AI impact
+								369 container Medium impact
+									370 text High AI impact
+								371 container High impact
+									372 text High AI impact
+								373 text 긴급 요청의 우선순위를 결정할 담당자와 판단 기준은 아직 정해지지 않았으며, 이를 확정해야 시범 운영을 시작할 수 있습니다.
+						374 button See your most AI and human sentences
+							375 image
+							376 text See your most AI and human sentences
+							377 image
+						378 text What's next?
+						379 button Paul Esau Wendy Snyder Policy Brief feedback Reviewed by Emmy-Winners, Ivy League Profs
+							380 image Paul Esau
+							381 image Wendy Snyder
+							382 text Policy Brief feedback
+							383 image
+							384 text Reviewed by Emmy-Winners, Ivy League Profs
+							385 image
+						386 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							387 image
+							388 text Guidance for Teachers and reviewers
+					129 text Text up-to-date 874 characters • 222 words
+					130 button Re-scan
+						389 text Re-scan
+						390 image
+				61 container
+					391 

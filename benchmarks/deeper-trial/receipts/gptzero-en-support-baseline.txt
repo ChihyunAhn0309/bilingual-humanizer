@@ -1,0 +1,68 @@
+heading Basic Scan, Value: 1
+							159 text Basic Scan
+						678 image
+						161 button Share
+							162 image
+							163 text Share
+						164 button Export
+							165 image
+							166 text Export
+					679 container
+						680 image
+							681 text AI
+						682 image
+						683 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						684 text Chance this entire text is...
+						685 button AI 100%
+							686 text AI 100%
+							687 image
+						688 button Mixed 0%
+							689 text Mixed 0%
+							690 image
+						691 button Human 0%
+							692 text Human 0%
+							693 image
+						694 radio button AI Sentences, Value: 1
+							695 container
+								696 image
+								697 text AI Sentences
+						698 radio button AI Patterns NEW, Value: 0
+							699 container
+								700 image
+								701 text AI Patterns NEW
+						702 radio button AI Vocab, Value: 0
+							703 container
+								704 image
+								705 text AI Vocab
+						706 heading Your most AI sentences, Value: 6
+							707 text Your most AI sentences
+						708 content list
+							709 container
+								710 container Low impact
+									711 text High AI impact
+								712 container Medium impact
+									713 text High AI impact
+								714 container High impact
+									715 text High AI impact
+								716 text Your workshop recording remains on the removable card.
+							717 container
+								718 container Low impact
+									719 text High AI impact
+								720 container Medium impact
+									721 text High AI impact
+								722 container High impact
+									723 text High AI impact
+								724 text The timing gives us a reason to investigate the update, but we have not established why the display loses power or whether the fault lies in the software or the display connector.
+						725 button See your most AI and human sentences
+							726 image
+							727 text See your most AI and human sentences
+							728 image
+						729 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							730 image
+							731 text Guidance for Teachers and reviewers
+					170 text Text up-to-date 1,397 characters • 238 words
+					171 button Re-scan
+						732 text Re-scan
+						733 image
+				92 container
+					734 

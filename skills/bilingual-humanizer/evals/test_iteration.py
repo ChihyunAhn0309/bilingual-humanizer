@@ -99,6 +99,35 @@ class DetectorReportTests(unittest.TestCase):
             self.assertEqual(self.check()['status'], 'incomplete')
             self.bundle['results'][0][field] = original
 
+    def test_strict_human_floor_excludes_boundary(self):
+        for obj in [self.bundle['targets'][0], self.bundle['results'][0]]:
+            obj.update(metric='human_score', unit='percent', operator='gt', value=50)
+        self.assertEqual(self.check()['status'], 'targets_unmet')
+        self.bundle['results'][0]['value'] = 50.01
+        self.assertEqual(self.check()['status'], 'configured_targets_met')
+        self.bundle['results'][0]['value_is_exact'] = False
+        self.assertEqual(self.check()['status'], 'incomplete')
+
+    def test_strict_ai_ceiling_excludes_boundary(self):
+        self.bundle['targets'][0].update(operator='lt', value=0.5)
+        self.bundle['results'][0]['value'] = 0.5
+        self.assertEqual(self.check()['status'], 'targets_unmet')
+        self.bundle['results'][0]['value'] = 0.499
+        self.assertEqual(self.check()['status'], 'configured_targets_met')
+
+    def test_different_native_human_metrics_require_each_service_to_pass(self):
+        target = self.bundle['targets'][0]
+        target.update(metric='human_document_probability', unit='percent', operator='gt', value=50)
+        result = self.bundle['results'][0]
+        result.update(metric=target['metric'], unit='percent', value=85)
+        second_target = {**target, 'id':'synthetic-b', 'metric':'human_written_text_fraction'}
+        second_result = {**result, 'target_id':'synthetic-b', 'metric':second_target['metric'], 'value':17}
+        self.bundle['targets'].append(second_target)
+        self.bundle['results'].append(second_result)
+        status = self.check()
+        self.assertEqual(status['status'], 'targets_unmet')
+        self.assertEqual([r['status'] for r in status['targets']], ['met','unmet'])
+
     def test_invalid_score_data(self):
         for value in (True, float('nan'), float('inf'), -1, 1.1, '0.01'):
             with self.subTest(value=value):

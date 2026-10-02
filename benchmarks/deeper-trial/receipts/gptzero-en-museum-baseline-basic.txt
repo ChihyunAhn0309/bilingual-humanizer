@@ -1,0 +1,68 @@
+heading Basic Scan, Value: 1
+							159 text Basic Scan
+						891 image
+						161 button Share
+							162 image
+							163 text Share
+						164 button Export
+							165 image
+							166 text Export
+					892 container
+						893 image
+							894 text AI
+						895 image
+						896 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						897 text Chance this entire text is...
+						898 button AI 100%
+							899 text AI 100%
+							900 image
+						901 button Mixed 0%
+							902 text Mixed 0%
+							903 image
+						904 button Human 0%
+							905 text Human 0%
+							906 image
+						907 radio button AI Sentences, Value: 1
+							908 container
+								909 image
+								910 text AI Sentences
+						911 radio button AI Patterns NEW, Value: 0
+							912 container
+								913 image
+								914 text AI Patterns NEW
+						915 radio button AI Vocab, Value: 0
+							916 container
+								917 image
+								918 text AI Vocab
+						919 heading Your most AI sentences, Value: 6
+							920 text Your most AI sentences
+						921 content list
+							922 container
+								923 container Low impact
+									924 text High AI impact
+								925 container Medium impact
+									926 text High AI impact
+								927 container High impact
+									928 text High AI impact
+								929 text Researchers need reliable delivery estimates, while conservators need enough time to assess objects that cannot be moved safely without preparation.
+							930 container
+								931 container Low impact
+									932 text High AI impact
+								933 container Medium impact
+									934 text High AI impact
+								935 container High impact
+									936 text High AI impact
+								937 text The rest would cover fragile items awaiting condition review and a small selection for the education team.
+						938 button See your most AI and human sentences
+							939 image
+							940 text See your most AI and human sentences
+							941 image
+						942 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							943 image
+							944 text Guidance for Teachers and reviewers
+					170 text Text up-to-date 1,646 characters • 243 words
+					171 button Re-scan
+						945 text Re-scan
+						946 image
+				92 container
+					947 

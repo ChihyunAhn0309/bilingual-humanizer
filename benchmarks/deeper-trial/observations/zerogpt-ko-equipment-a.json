@@ -1,0 +1,13 @@
+{
+  "id": "zerogpt-ko-equipment-a",
+  "vendor": "ZeroGPT",
+  "input_path": "final/a-ko-equipment.txt",
+  "input_sha256": "9bad4ea7924521e3f258b2e67abf122d60298d100d903632151b9efc77643c0e",
+  "submitted_sha256": "b0b9e22fe911b13810de897f74ff03125bfabbdd2de472248adaf409376d6e13",
+  "observed_at": "2026-10-02T17:44:39.451Z",
+  "metric": "AI GPT percentage",
+  "score": 100,
+  "model": "not exposed",
+  "receipt": "receipts/zerogpt-ko-equipment-a.txt",
+  "input_verified_in_result": true
+}

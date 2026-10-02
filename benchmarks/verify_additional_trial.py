@@ -62,10 +62,10 @@ for repair in json.loads((base/'repair-log.json').read_text('utf-8'))['records']
         assert text.count(old)==1
         text=text.replace(old,new)
     assert text==final.read_text('utf-8')
-production=base.parents[1]/'skills/bilingual-humanizer'
+production=base/'retained-skill'
 retained=json.loads((base/'retained-production-files.json').read_text('utf-8'))
 prior=json.loads((base.parent/'2026-10-02-v15/frozen-skill-hashes.json').read_text('utf-8'))
 assert retained=={k.replace('\\','/'):v for k,v in prior.items()}
 for rel,expected in retained.items():assert sha(production/rel)==expected,rel
 assert len(seen)==17
-print(f'PASS: {len(seen)} additional observations, frozen inputs and {len(retained)} unchanged production files.')
+print(f'PASS: {len(seen)} additional observations, frozen inputs and {len(retained)} archived v1.5 production files.')

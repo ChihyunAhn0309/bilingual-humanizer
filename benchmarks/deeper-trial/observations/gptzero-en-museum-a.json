@@ -1,0 +1,17 @@
+{
+  "id": "gptzero-en-museum-a",
+  "vendor": "GPTZero",
+  "input_path": "final/a-en-museum.txt",
+  "input_sha256": "bf4cc8207b2a5ecf631450aecbcaf27b69853f8abc4631f44c79a999343d3982",
+  "submitted_sha256": "ff21f5cf9aef7d0a438001586125eb5ba37d8f198bbff5598d51e1e1a4ab00f9",
+  "observed_at": "2026-10-02T17:30:43.168Z",
+  "metric": "Human document probability",
+  "score": 0,
+  "model": "4o",
+  "receipt": "receipts/gptzero-en-museum-a.txt",
+  "ai": 100,
+  "human": 0,
+  "mixed": 0,
+  "scan_type": "Basic",
+  "input_verified_in_dom": true
+}

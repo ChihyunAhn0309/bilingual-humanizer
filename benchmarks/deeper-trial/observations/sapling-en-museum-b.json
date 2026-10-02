@@ -1,0 +1,14 @@
+{
+  "id": "sapling-en-museum-b",
+  "vendor": "Sapling",
+  "input_path": "final/b-en-museum.txt",
+  "input_sha256": "02dcae99dafca698fe894de00c6f0803df2e5619133052a55f3b9876d90352a4",
+  "submitted_sha256": "44b56b91ff3cf7c6ffebec95ef98552ff606bc7c732fe85d5db3027e309ea024",
+  "observed_at": "2026-10-02T17:33:22.097Z",
+  "metric": "AI probability percent",
+  "score": 92.6,
+  "model": "not exposed",
+  "receipt": "receipts/sapling-en-museum-b.txt",
+  "truncated": false,
+  "transport": "official page WebMCP"
+}

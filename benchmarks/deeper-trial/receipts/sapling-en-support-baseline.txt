@@ -1,0 +1,82 @@
+{
+  "ai_probability_percent": 100,
+  "truncated": false,
+  "sentence_scores": [
+    {
+      "sentence": "Hello Maya,",
+      "ai_probability": 0.9997565514469401
+    },
+    {
+      "sentence": "Thank you for sending the video and diagnostic file from your Foldlight desk panel.",
+      "ai_probability": 0.9997878957229946
+    },
+    {
+      "sentence": "I’m sorry the panel went dark during your workshop on Tuesday.",
+      "ai_probability": 0.9997878914445756
+    },
+    {
+      "sentence": "It must have been frustrating to pause while twelve people were following your demonstration.",
+      "ai_probability": 0.9998028641244544
+    },
+    {
+      "sentence": "For now, please leave the panel switched off.",
+      "ai_probability": 0.9998005125405682
+    },
+    {
+      "sentence": "There is no need to open it or repeat the workshop setup.",
+      "ai_probability": 0.9998040218083564
+    },
+    {
+      "sentence": "The diagnostic file shows that your panel installed version 3.8 at 9:14 a.m.",
+      "ai_probability": 0.9998058633315277
+    },
+    {
+      "sentence": "and restarted at 9:16 a.m.",
+      "ai_probability": 0.9998061138710166
+    },
+    {
+      "sentence": "Later that morning, it recorded two unexpected display shutdowns, at 10:42 and 11:07, with the touch controls still responding in both cases.",
+      "ai_probability": 0.9998056026612039
+    },
+    {
+      "sentence": "We reproduced this combination once on a test unit; a second unit ran for four hours without a shutdown.",
+      "ai_probability": 0.9998055802099479
+    },
+    {
+      "sentence": "The timing gives us a reason to investigate the update, but we have not established why the display loses power or whether the fault lies in the software or the display connector.",
+      "ai_probability": 0.9998055560764778
+    },
+    {
+      "sentence": "If the fault returns after our engineering team has supplied and verified a recovery update, we can arrange a replacement at no delivery charge.",
+      "ai_probability": 0.9998045779418833
+    },
+    {
+      "sentence": "If a recovery update is not available by Friday, we will offer that replacement then instead.",
+      "ai_probability": 0.9998060097599691
+    },
+    {
+      "sentence": "Your workshop recording remains on the removable card.",
+      "ai_probability": 0.9998059615116355
+    },
+    {
+      "sentence": "The diagnostic file shows no storage errors, though we have not checked the recording itself.",
+      "ai_probability": 0.9998053781488833
+    },
+    {
+      "sentence": "I’ll send you a progress report by 4 p.m.",
+      "ai_probability": 0.9998061819015084
+    },
+    {
+      "sentence": "Thursday, your local time, even if we have not identified the cause.",
+      "ai_probability": 0.9998059756387336
+    },
+    {
+      "sentence": "Best,",
+      "ai_probability": 0.9997678213927274
+    },
+    {
+      "sentence": "Rina",
+      "ai_probability": 0.9983725252904936
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "en-museum": {
+    "X": {
+      "input": "b/en-museum.txt",
+      "sha256": "02dcae99dafca698fe894de00c6f0803df2e5619133052a55f3b9876d90352a4"
+    },
+    "Y": {
+      "input": "baseline/en-museum.txt",
+      "sha256": "d406efbd6235deece5cb0caececa5dc5ad1350064320998bb3396b72a0bb4979"
+    },
+    "Z": {
+      "input": "a/en-museum.txt",
+      "sha256": "a16b9f84af3fb50bfd98e676e72263fa276196e10fe059484743d5571c702e22"
+    }
+  },
+  "ko-equipment": {
+    "X": {
+      "input": "baseline/ko-equipment.txt",
+      "sha256": "3ac3e8adfe03c5910546c3955c6803fee5e6fbf0d604515a9247ca8ffc2a45f2"
+    },
+    "Y": {
+      "input": "a/ko-equipment.txt",
+      "sha256": "9bad4ea7924521e3f258b2e67abf122d60298d100d903632151b9efc77643c0e"
+    },
+    "Z": {
+      "input": "b/ko-equipment.txt",
+      "sha256": "ea8682fd1a73d9ca041e805229c3c044d5e417bcead147a759ff544865320813"
+    }
+  },
+  "ko-library": {
+    "X": {
+      "input": "a/ko-library.txt",
+      "sha256": "e806352923aac5127ff18cf6d59403113e436bce1189714b69c41ae586e16d01"
+    },
+    "Y": {
+      "input": "b/ko-library.txt",
+      "sha256": "59344bb96221ab62999294a81e7404e638c4739dfed070ad24650d7bd437fd96"
+    },
+    "Z": {
+      "input": "baseline/ko-library.txt",
+      "sha256": "5353777baf4a2c92cdccb7e772ab97b8cb8d7da7a7e2a1d43a599edb816055bd"
+    }
+  }
+}

@@ -1,0 +1,353 @@
+[
+  {
+    "repository": "harshaneel/humanize",
+    "url": "https://github.com/harshaneel/humanize",
+    "commit": "9c3dec34dc8e0ed9d26de14a869900a714da8f9e",
+    "entry": "plugins/humanize/skills/humanize/SKILL.md",
+    "permalink": "https://github.com/harshaneel/humanize/blob/9c3dec34dc8e0ed9d26de14a869900a714da8f9e/plugins/humanize/skills/humanize/SKILL.md",
+    "entry_sha256": "d0af42151039b80f95e8f9c01f42b1b33e4c74363137844def1a7dc89c27a029",
+    "review_scope": "Selected entrypoint sections: hard rules, levers, advanced techniques, rewrite protocol, domain calibration. Output truncated in the middle of protocol.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "aeb6476efb1898946d1f7c7d44db068bf317213b6a467df3959fc81a621cb4cf",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2026 Harshaneel Gokhale",
+          ""
+        ]
+      }
+    ],
+    "treatment": "All-signal rules and conditional profile matching; reject arbitrary rhythm targets, fictitious specificity and obsolete detector assumptions.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "AIScientists-Dev/academic-humanizer",
+    "url": "https://github.com/AIScientists-Dev/academic-humanizer",
+    "commit": "94b88b23703bed7df507acae7d6d5876209a0cdf",
+    "entry": "SKILL.md",
+    "permalink": "https://github.com/AIScientists-Dev/academic-humanizer/blob/94b88b23703bed7df507acae7d6d5876209a0cdf/SKILL.md",
+    "entry_sha256": "dfa9eda654c7904aed87d80e081817a0bbbbddc82aff2292c96a95c420f54594",
+    "review_scope": "First 65 and last 18 lines.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "d0d121e36d849e451d8e75eb62481d3d2e02d74a6552b89503444170de4af8c8",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2026 AIScientists-Dev",
+          ""
+        ]
+      }
+    ],
+    "treatment": "Genre exceptions for research and proposals; reject automatic claim weakening or paragraph-count preservation.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "brandonwise/humanizer",
+    "url": "https://github.com/brandonwise/humanizer",
+    "commit": "4b9b9bee384aea139f599133d2de1e1ceaee71a3",
+    "entry": "SKILL.md",
+    "permalink": "https://github.com/brandonwise/humanizer/blob/4b9b9bee384aea139f599133d2de1e1ceaee71a3/SKILL.md",
+    "entry_sha256": "4cbcfe3c0f136ad9753aafe1ec1f8ecc22f8e50dcb97da7ca154dc5f0d01b00a",
+    "review_scope": "First 65 and last 18 lines.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "567d3f64bdcdff00ba2b54d45239bed8b74d49ef6857653815747341b7e9a827",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2026 Brandon Wise",
+          ""
+        ]
+      }
+    ],
+    "treatment": "Pattern/statistics catalog; heuristic counts are not commercial detector scores.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "NulightJens/humanizer-stack",
+    "url": "https://github.com/NulightJens/humanizer-stack",
+    "commit": "13f5c023189d428ffba726c75886ca1fd0dcba65",
+    "entry": "skills/structural-humanizer/SKILL.md",
+    "permalink": "https://github.com/NulightJens/humanizer-stack/blob/13f5c023189d428ffba726c75886ca1fd0dcba65/skills/structural-humanizer/SKILL.md",
+    "entry_sha256": "59c48c752ecdb52780716825cbba4582420bc4823b8105ff8f57a8165bb30b26",
+    "review_scope": "Description, rationale, structural audits 1–4; later excerpt truncated.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "9a954c41211262060993220290fff45fc997c17f2e5f36f3afb7a14f41390e2e",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2026 Jens Heitmann",
+          ""
+        ]
+      }
+    ],
+    "treatment": "Discourse-level editing menu; reject deliberate tangents or invented emotion and universalizing a narrative benchmark.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "forjd/better-writing",
+    "url": "https://github.com/forjd/better-writing",
+    "commit": "d77d4c074f8a1a51045a2f089d763fb5b78c1875",
+    "entry": "SKILL.md",
+    "permalink": "https://github.com/forjd/better-writing/blob/d77d4c074f8a1a51045a2f089d763fb5b78c1875/SKILL.md",
+    "entry_sha256": "36e7f4abf2c9d64f408979f4e3c4e9ba480404eb8b15479ba2148ec062de7ecb",
+    "review_scope": "Entrypoint plus evals/human-corpus/README.md.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "28e9ae89abfcb3fbbe9ae229da21384500defa55249a5bb99912084cae30e09e",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2026 Forjd",
+          ""
+        ]
+      }
+    ],
+    "treatment": "Positive contrastive edit examples and human-control evaluation; reject blanket dash policy.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "MADEVAL/HumanAI",
+    "url": "https://github.com/MADEVAL/HumanAI",
+    "commit": "1912ed82963d6c30269a7b09e32297b03f39e4a4",
+    "entry": "SKILL.md",
+    "permalink": "https://github.com/MADEVAL/HumanAI/blob/1912ed82963d6c30269a7b09e32297b03f39e4a4/SKILL.md",
+    "entry_sha256": "1f180e3c8cc134cdbb3daafc3d911121c12e5f276b07624f4dc24cc2e90d9e92",
+    "review_scope": "First 65 and last 18 lines.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "8aad81e370d27417569df9d8b735d04ec9f2021568572375bc60aedf3e6c6746",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2025 HUMAN-AI",
+          ""
+        ]
+      }
+    ],
+    "treatment": "Multilingual staged pipeline; no Korean listed, reject self-invented AI probabilities and forced imperfection.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "puneethkotha/humanizer-workbench",
+    "url": "https://github.com/puneethkotha/humanizer-workbench",
+    "commit": "f99b0e4e03110af1667aface6b2d740d7376644c",
+    "entry": "SKILL.md",
+    "permalink": "https://github.com/puneethkotha/humanizer-workbench/blob/f99b0e4e03110af1667aface6b2d740d7376644c/SKILL.md",
+    "entry_sha256": "8070345ce64647f0ece9d05bce92756a6a778223864660ed7d3363075955dd42",
+    "review_scope": "First 65 and last 18 lines.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "4f256fd9ed95b1446c653d150513e1195ced925287c4d7bee97bdffaa6785b6a",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2024 humanizer-workbench contributors",
+          ""
+        ]
+      }
+    ],
+    "treatment": "Genre presets and separate refinement/audit; runtime sampling settings are not configurable by SKILL prose alone.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "amanmaqsood/prose-humanizer",
+    "url": "https://github.com/amanmaqsood/prose-humanizer",
+    "commit": "8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe",
+    "entry": "SKILL.md",
+    "permalink": "https://github.com/amanmaqsood/prose-humanizer/blob/8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe/SKILL.md",
+    "entry_sha256": "e3c60a85f1f8feaf2553792dcd8aa0ae0e483db66291535490a65adcff41c97b",
+    "review_scope": "First 65 and last 18 lines plus references/research.md.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "0fcbc668955485fee56bec5535403237fdfaf5e23d0464596681d3dcbb09557e",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2026 Aman Maqsood",
+          ""
+        ]
+      }
+    ],
+    "treatment": "Separate semantic content, authorial decisions, expression; fidelity and quality axes.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "devswha/patina",
+    "url": "https://github.com/devswha/patina",
+    "commit": "9ad44bcf45c675914c254c1839eaf4d3acf49f7e",
+    "entry": "SKILL.md",
+    "permalink": "https://github.com/devswha/patina/blob/9ad44bcf45c675914c254c1839eaf4d3acf49f7e/SKILL.md",
+    "entry_sha256": "b6bc7705864011fe69b01b11be978505d4ab0e93b41b5ab988250de03a9e3ab2",
+    "review_scope": "Selected entrypoint sections: structural and clause phases, anchor validation, scoring, example; beginning truncated. Also docs/benchmarks/README.md.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "558dbc06a12e4c33f5e042985713f286fce6897c68599ee0fe68e5de4c824df2",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2025 devswha",
+          ""
+        ]
+      }
+    ],
+    "treatment": "Clause-level Korean edits and local anchor repair; separate fixture evidence from commercial claims, reject forced CV/burstiness thresholds.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "hjongc/humanizer-kr",
+    "url": "https://github.com/hjongc/humanizer-kr",
+    "commit": "a1a7069a32f669afe4b10e35e9522ff504a13263",
+    "entry": "skills/humanizer-kr/SKILL.md",
+    "permalink": "https://github.com/hjongc/humanizer-kr/blob/a1a7069a32f669afe4b10e35e9522ff504a13263/skills/humanizer-kr/SKILL.md",
+    "entry_sha256": "f236762cf4ade0d0116d2f805259ae05954960bb9ce29966bbccd39d9ef38ed8",
+    "review_scope": "Full entrypoint.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "184b55d5fa4d344a053198e37eb61ec5e8e40e6671682841169f8dd7fb291c59",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2026 humanizer-kr contributors",
+          ""
+        ]
+      }
+    ],
+    "treatment": "Korean register and genre fit; ordinary words are signals for review, not automatic bans. Some examples omit meaning, so do not copy them.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "yeomin4242/humanize-sepia",
+    "url": "https://github.com/yeomin4242/humanize-sepia",
+    "commit": "926cff30872bf6bf195272645d679ecdebf90d07",
+    "entry": "skills/humanize-sepia/SKILL.md",
+    "permalink": "https://github.com/yeomin4242/humanize-sepia/blob/926cff30872bf6bf195272645d679ecdebf90d07/skills/humanize-sepia/SKILL.md",
+    "entry_sha256": "e019991028ae1bd931a918e52db36f53412ebb9514a8103a9e799ba7336098c4",
+    "review_scope": "Full entrypoint.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "127489653f0026d9b29ae55bb40d403493010ba2e6ef6219ff95db15e920ba75",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2026 yeomin4242",
+          "Copyright (c) 2026 Nanako Tsai"
+        ]
+      }
+    ],
+    "treatment": "Intent/action/evidence and unresolved questions; keep observed stance rather than inventing motives.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "ptec07/humanize-korean",
+    "url": "https://github.com/ptec07/humanize-korean",
+    "commit": "c12499b31944993ab40686cee53147a855485da4",
+    "entry": "SKILL.md",
+    "permalink": "https://github.com/ptec07/humanize-korean/blob/c12499b31944993ab40686cee53147a855485da4/SKILL.md",
+    "entry_sha256": "85cdc28b2d4f6c1e102ef750e87cb2ff17a1439931fa3f6883e17a739ac06e20",
+    "review_scope": "First 65 and last 18 lines plus references/rewriting-playbook.md and references/im-not-ai-v2-0-update.md.",
+    "license_files": [],
+    "treatment": "im-not-ai derivative with Korean clause/translationese recipes; count as a derivative, not independent evidence. Reject numeric change quotas and forced fragments.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "IsaacEryn/humanizer-ko",
+    "url": "https://github.com/IsaacEryn/humanizer-ko",
+    "commit": "7d1a900c014f88e4f019d7cc79a22357494304f9",
+    "entry": "SKILL.md",
+    "permalink": "https://github.com/IsaacEryn/humanizer-ko/blob/7d1a900c014f88e4f019d7cc79a22357494304f9/SKILL.md",
+    "entry_sha256": "02b1df8134dbc77925a4bb4c980a55445b18db01bdae2caf7e63629d8558cc1a",
+    "review_scope": "First 65 and last 18 lines.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "42bd37c943d5152a316436c200cd8047f2e691b099ba202b61e1617b912baaf2",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2025 Siqi Chen",
+          "Copyright (c) 2026 IsaacEryn (Korean adaptation, humanizer-ko)"
+        ]
+      }
+    ],
+    "treatment": "Korean-specific pattern catalog; claims should survive structure changes. Reject unsupported attribution of authorship and automatic opinion insertion.",
+    "source_role": "skill",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "YixuanEvenXu/humanization-by-iterative-paraphrasing",
+    "url": "https://github.com/YixuanEvenXu/humanization-by-iterative-paraphrasing",
+    "commit": "44062ee8531141e35225335ff98439b9ccd54da5",
+    "entry": "src/hip/prompts.py",
+    "permalink": "https://github.com/YixuanEvenXu/humanization-by-iterative-paraphrasing/blob/44062ee8531141e35225335ff98439b9ccd54da5/src/hip/prompts.py",
+    "entry_sha256": "e5c3287cfe2c2bb22418c6edc63f014ce7f68c5fbe70716c38d1e2cb851f0be9",
+    "review_scope": "Prompt format, paper methods and evaluation.",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "d99bc0af656c10d3b768128ff14de4f48d18f5d51a8a545c4a36146839b70a23",
+        "first_lines": [
+          "MIT License",
+          "",
+          "Copyright (c) 2026 The HIP Authors",
+          ""
+        ]
+      }
+    ],
+    "treatment": "Base-model adapters require actual model/training/inference support; XML-like source/target tags alone do not reproduce HIP.",
+    "source_role": "method implementation",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "ColinLu50/Evade-GPT-Detector",
+    "url": "https://github.com/ColinLu50/Evade-GPT-Detector",
+    "commit": "dea56350c43d8639f0b1bc9b5144164ccee0e2f0",
+    "entry": "sico/prompt_constructor.py",
+    "permalink": "https://github.com/ColinLu50/Evade-GPT-Detector/blob/dea56350c43d8639f0b1bc9b5144164ccee0e2f0/sico/prompt_constructor.py",
+    "entry_sha256": "944ac7d76c0a2b601089c477ad86a511638fe0937d131d6330b1584db7467abe",
+    "review_scope": "README and prompt constructor.",
+    "license_files": [],
+    "treatment": "SICO learns/optimizes in-context exemplars. Our synthetic contrastive examples are an original hypothesis, not a SICO replication.",
+    "source_role": "method implementation",
+    "checked_date": "2026-10-03"
+  },
+  {
+    "repository": "githigher/MASH",
+    "url": "https://github.com/githigher/MASH",
+    "commit": "29428a4cb732d1a7514e37dac8646b5fbf945b5f",
+    "entry": "README.md",
+    "permalink": "https://github.com/githigher/MASH/blob/29428a4cb732d1a7514e37dac8646b5fbf945b5f/README.md",
+    "entry_sha256": "6199cd59d1a3b08cf94d8a354dd629fed1956b6842b3764220f7e4b546830a71",
+    "review_scope": "Full README plus paper method/evaluation excerpts.",
+    "license_files": [],
+    "treatment": "SFT and DPO style-transfer pipeline; older English detector benchmarks cannot validate this skill or Korean. No training executed.",
+    "source_role": "method implementation",
+    "checked_date": "2026-10-03"
+  }
+]

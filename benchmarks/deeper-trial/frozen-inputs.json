@@ -1,0 +1,23 @@
+{
+  "sources/en-museum.txt": "b9538869823413658db9f36d246411fb41efa0575aadcb2d789db987354e93b1",
+  "sources/ko-equipment.txt": "14c625506bc5fdd2b8cd654cf2485f31e81376220f80580dab02dd27c0157e66",
+  "sources/ko-library.txt": "b82f92389cf1c42ded62184eb359c87d81848723d44a2b9790b9fa0eb6dfd5b0",
+  "baseline/en-museum.txt": "d406efbd6235deece5cb0caececa5dc5ad1350064320998bb3396b72a0bb4979",
+  "baseline/ko-equipment.txt": "3ac3e8adfe03c5910546c3955c6803fee5e6fbf0d604515a9247ca8ffc2a45f2",
+  "baseline/ko-library.txt": "5353777baf4a2c92cdccb7e772ab97b8cb8d7da7a7e2a1d43a599edb816055bd",
+  "final/a-en-museum.txt": "bf4cc8207b2a5ecf631450aecbcaf27b69853f8abc4631f44c79a999343d3982",
+  "final/a-ko-equipment.txt": "9bad4ea7924521e3f258b2e67abf122d60298d100d903632151b9efc77643c0e",
+  "final/a-ko-library.txt": "f46be3f6e28d4ae1b442cfa57488241816c21dc0539ae8ad54ef15f23870bb36",
+  "final/b-en-museum.txt": "02dcae99dafca698fe894de00c6f0803df2e5619133052a55f3b9876d90352a4",
+  "final/b-ko-equipment.txt": "ea8682fd1a73d9ca041e805229c3c044d5e417bcead147a759ff544865320813",
+  "final/b-ko-library.txt": "59344bb96221ab62999294a81e7404e638c4739dfed070ad24650d7bd437fd96",
+  "method-a.md": "ee3a509174e02d4ad42a2f5d89cb131e7cc668c2d9156536e3925892b41ae3a5",
+  "method-b.md": "c2794cb87a1be26b34abdd6c02b68b25ff53bae84825eebd0825e3725ed637f8",
+  "fresh-sources/en-support.txt": "ad38f82dd1b3bf3fe068109a143a751b7b30e31c7df0336f724b53fa73fb8e76",
+  "fresh-sources/ko-essay.txt": "57867e23d1007a78fc924eae9ed8855ead51e3ea085771a249e55cc345621d9b",
+  "fresh-baseline/en-support.txt": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+  "fresh-baseline/ko-essay.txt": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3",
+  "fresh-b/en-support.txt": "b9dd45f560bb0b283fa74dfedef1a89062613ad879f4de8c36f3aeb13a3615ab",
+  "fresh-b/ko-essay.txt": "b088b0672e703adf67e1af9c4106c68b4cb81925e20fd2108bd57e0d61f4be5d",
+  "v151-check/ko-library.txt": "acaa27ffca3a17b28453b457572f6a838379ab5dc68c55330c6544e88b41cafb"
+}

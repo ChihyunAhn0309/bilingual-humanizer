@@ -1,0 +1,13 @@
+{
+  "id": "zerogpt-ko-essay-baseline",
+  "vendor": "ZeroGPT",
+  "input_path": "fresh-baseline/ko-essay.txt",
+  "input_sha256": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3",
+  "submitted_sha256": "913b5e54fa464bbb15a4eeefa98f4019c8a402b5434169ebe623b937498e50a6",
+  "observed_at": "2026-10-02T17:51:08.850Z",
+  "metric": "AI GPT percentage",
+  "score": 100,
+  "model": "not exposed",
+  "receipt": "receipts/zerogpt-ko-essay-baseline.txt",
+  "input_verified_in_result": true
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gptzero-ko-equipment-a",
+  "vendor": "GPTZero",
+  "input_path": "final/a-ko-equipment.txt",
+  "input_sha256": "9bad4ea7924521e3f258b2e67abf122d60298d100d903632151b9efc77643c0e",
+  "submitted_sha256": "b0b9e22fe911b13810de897f74ff03125bfabbdd2de472248adaf409376d6e13",
+  "observed_at": "2026-10-02T17:40:51.379Z",
+  "metric": "Human document probability",
+  "score": 45,
+  "model": "4.1m",
+  "receipt": "receipts/gptzero-ko-equipment-a.txt",
+  "ai": 55,
+  "human": 45,
+  "mixed": 0,
+  "scan_type": "Basic",
+  "input_verified_in_dom": true
+}

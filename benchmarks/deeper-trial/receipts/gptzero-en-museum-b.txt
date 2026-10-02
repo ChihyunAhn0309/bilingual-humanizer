@@ -1,0 +1,68 @@
+heading Basic Scan, Value: 1
+							159 text Basic Scan
+						253 image
+						161 button Share
+							162 image
+							163 text Share
+						164 button Export
+							165 image
+							166 text Export
+					172 container
+						254 image
+							255 text AI
+						256 image
+						257 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						258 text Chance this entire text is...
+						259 button AI 100%
+							260 text AI 100%
+							261 image
+						262 button Mixed 0%
+							263 text Mixed 0%
+							264 image
+						265 button Human 0%
+							266 text Human 0%
+							267 image
+						268 radio button AI Sentences, Value: 1
+							269 container
+								270 image
+								271 text AI Sentences
+						272 radio button AI Patterns NEW, Value: 0
+							273 container
+								274 image
+								275 text AI Patterns NEW
+						276 radio button AI Vocab, Value: 0
+							277 container
+								278 image
+								279 text AI Vocab
+						280 heading Your most AI sentences, Value: 6
+							281 text Your most AI sentences
+						282 content list
+							283 container
+								284 container Low impact
+									285 text High AI impact
+								286 container Medium impact
+									287 text High AI impact
+								288 container High impact
+									289 text High AI impact
+								290 text These receive fewer individual requests but support several planned lessons.
+							291 container
+								292 container Low impact
+									293 text High AI impact
+								294 container Medium impact
+									295 text High AI impact
+								296 container High impact
+									297 text High AI impact
+								298 text The records, however, do not consistently show which requests remain active and which have already been answered through other means.
+						299 button See your most AI and human sentences
+							300 image
+							301 text See your most AI and human sentences
+							302 image
+						311 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							312 image
+							313 text Guidance for Teachers and reviewers
+					170 text Text up-to-date 1,665 characters • 246 words
+					171 button Re-scan
+						216 text Re-scan
+						217 image
+				92 container
+					314 

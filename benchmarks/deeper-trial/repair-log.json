@@ -1,0 +1,14 @@
+[
+  {
+    "input": "a/en-museum.txt",
+    "output": "final/a-en-museum.txt",
+    "before": "Scheduling by request date alone would not account for all three groups' needs. Researchers need reliable delivery estimates, and conservators need enough time to assess objects that require preparation before they can be moved safely. Educators have requested images of ordinary household objects, which receive fewer individual requests but support several planned lessons.",
+    "after": "Researchers need reliable delivery estimates, and conservators need enough time to assess objects that require preparation before they can be moved safely. Educators have requested images of ordinary household objects, which receive fewer individual requests but support several planned lessons. Scheduling by request date alone would not account for all three groups' needs."
+  },
+  {
+    "input": "a/ko-library.txt",
+    "output": "final/a-ko-library.txt",
+    "before": "이번 저녁 시간 연장과 향후 상시 운영 시간은 구분해서 논의해야 한다.",
+    "after": "이번 저녁 시간 연장과 향후 상시 운영 시간은 구분해서 논의할 필요가 있다."
+  }
+]

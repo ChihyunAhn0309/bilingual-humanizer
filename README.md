@@ -10,7 +10,15 @@ The default is active rewriting: reorganize paragraphs, recast sentences, preser
 
 [Editable PowerPoint](docs/assets/workflow.pptx) · [Design draft](docs/assets/composition-draft.png) · [Figure validation](docs/figure-evidence/render-review.md). The diagram was created using [JYS1025/paper-figure](https://github.com/JYS1025/paper-figure). External findings can inform another editorial review; that optional return path is described in the skill rather than drawn in this overview.
 
-## What changed in v1.5
+## Current release: v1.5.1
+
+This is a narrow fidelity and reporting fix, **not a demonstrated detector-performance breakthrough**. It explicitly preserves a document's review purpose and decision stage when rewriting an opening. The offline checker now supports strict `gt`/`lt`: exactly 50 does not pass a target of Human >50.
+
+Two additional rewriting prototypes were tested after screening 13 more skill repositories and 3 research implementations. They are not adopted as defaults. In the [32-observation follow-up](benchmarks/deeper-trial/REPORT.md), the same English museum candidate received GPTZero Human 0% and QuillBot Human-written 100%; Korean library A received 60% and 11%. Fresh Korean prose dropped from GPTZero Human 42% to 2% under prototype B. The independent v1.5.1 library output received GPTZero Human 50% and ZeroGPT AI GPT 100%, with QuillBot unavailable after its free quota. **The requested each-detector Human >50 target remains unmet.** The two Human columns have different native units and are not authorship certificates.
+
+[Independent skill audit](benchmarks/deeper-trial/final-skill-audit.md): the library output preserved facts and purpose; 45 regression tests plus 10 additional boundary/metric checks passed. [Final archive audit](benchmarks/deeper-trial/final-evidence-audit.md) checks publication evidence separately. These are fresh-context AI reviews, not human ratings. [Expanded reference review](skills/bilingual-humanizer/references/further-reference-review.md) records what was examined and why unsupported rules were rejected.
+
+## Rewriting approach introduced in v1.5
 
 - Establish a positive editorial brief before cleanup; consolidate repeated functions without preserving each staging sentence.
 - Compare repeated instructions by actor, action, object, occasion and force; recompose abstract predicates in each language.
@@ -49,7 +57,7 @@ For requested detector checks, supply usable service access or existing reports.
 
 ## v1.5 measured outcome
 
-**v1.5 is retained after an additional improvement trial.** A shorter reader-led instruction produced some development gains, but 17 further observations did not show an improvement on fresh topics; blind reader review also slightly preferred v1.5 on both fresh texts. The [additional experiment and retention decision](benchmarks/additional-trial/REPORT.md) disclose all outcomes. Production skill files are unchanged.
+**Historical v1.5 decision:** a shorter reader-led instruction produced some development gains, but 17 further observations did not show an improvement on fresh topics; blind reader review also slightly preferred v1.5 on both fresh texts. The [additional experiment and retention decision](benchmarks/additional-trial/REPORT.md) disclose all outcomes. At that point production files were unchanged; that exact 20-file v1.5 snapshot is now archived with the experiment. The current v1.5.1 maintenance changes are described above.
 
 The Korean technical development memo improved from 92% to 0% AI in QuillBot and from 100% to 79% AI in GPTZero. Other results worsened: the Korean library memo rose from 11% to 32% AI in GPTZero; the final English technical memo rose from 93% to 94.6% in Sapling and from 0% to 24% in QuillBot. **Broad detector acceptance has not been achieved.**
 
@@ -76,4 +84,4 @@ The preservation helper finds surface changes, not semantic truth. `check_detect
 
 ## Sources and license
 
-Nineteen upstream repositories (including related forks and one Russian comparison reference) were inspected at recorded commits. They are not nineteen independent methods or validations. The [source manifest](skills/bilingual-humanizer/references/skill-sources.json) and [research notes](skills/bilingual-humanizer/references/research-sources.md) distinguish adopted ideas from rejected assumptions. Newly written instructions and examples are licensed under MIT. Referenced third-party skills are not redistributed. Vendor screenshots and outputs are test evidence and retain their respective rights. See [THIRD_PARTY.md](THIRD_PARTY.md).
+The inventory covers 32 skill repositories and 3 research implementations at recorded commits, including related forks and a Russian comparison reference. It is not 35 independent methods or validations, and some large entrypoints were only partially inspected. The [original manifest](skills/bilingual-humanizer/references/skill-sources.json), [additional manifest](skills/bilingual-humanizer/references/further-sources.json) and [research notes](skills/bilingual-humanizer/references/research-sources.md) identify scopes and distinguish adopted ideas from rejected assumptions. Newly written instructions and examples are licensed under MIT. Referenced third-party skill sources are not redistributed. Vendor screenshots and outputs are test evidence and retain their respective rights. See [THIRD_PARTY.md](THIRD_PARTY.md).

@@ -1,0 +1,14 @@
+{
+  "id": "sapling-en-support-b",
+  "vendor": "Sapling",
+  "input_path": "fresh-b/en-support.txt",
+  "input_sha256": "b9dd45f560bb0b283fa74dfedef1a89062613ad879f4de8c36f3aeb13a3615ab",
+  "submitted_sha256": "3afb43b4468c8a382b6e152d356eec87056212fa5baa9f0fb8cdfe8400cdab31",
+  "observed_at": "2026-10-02T17:44:55.415Z",
+  "metric": "AI probability percent",
+  "score": 99.9,
+  "model": "not exposed",
+  "receipt": "receipts/sapling-en-support-b.txt",
+  "truncated": false,
+  "transport": "official page WebMCP"
+}

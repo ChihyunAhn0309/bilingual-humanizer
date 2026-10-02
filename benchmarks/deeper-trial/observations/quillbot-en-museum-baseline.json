@@ -1,0 +1,17 @@
+{
+  "id": "quillbot-en-museum-baseline",
+  "vendor": "QuillBot",
+  "input_path": "baseline/en-museum.txt",
+  "input_sha256": "d406efbd6235deece5cb0caececa5dc5ad1350064320998bb3396b72a0bb4979",
+  "submitted_sha256": "c1c634c937bae4b66e885f055b34e9013707ae855fd0d0d9d3fc2a95e639f8a3",
+  "observed_at": "2026-10-02T17:23:43.966Z",
+  "metric": "Human-written text percentage",
+  "score": 100,
+  "model": "v7.1.0",
+  "receipt": "receipts/quillbot-en-museum-baseline.txt",
+  "ai": 0,
+  "human": 100,
+  "refined": 0,
+  "input_verified_in_dom": true,
+  "remaining_scans": 6
+}

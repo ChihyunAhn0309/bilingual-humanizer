@@ -48,7 +48,7 @@ def evaluate(bundle: dict, candidate: bytes) -> dict:
             if op != 'eq' or not nonempty(value):
                 raise ValueError('Label targets need eq and a nonempty string value')
         elif unit in ('fraction', 'percent'):
-            if op not in ('lte', 'gte') or not numeric(value) or not 0 <= value <= (1 if unit == 'fraction' else 100):
+            if op not in ('lt', 'lte', 'gt', 'gte') or not numeric(value) or not 0 <= value <= (1 if unit == 'fraction' else 100):
                 raise ValueError('Invalid numerical target')
         else:
             raise ValueError('Unit must be label, fraction, or percent')
@@ -102,7 +102,10 @@ def evaluate(bundle: dict, candidate: bytes) -> dict:
                 reasons.append('numeric_precision_unconfirmed')
             if not reasons:
                 op = target['operator']
-                passed = value == target['value'] if op == 'eq' else value <= target['value'] if op == 'lte' else value >= target['value']
+                comparisons = {'eq': lambda a, b: a == b, 'lt': lambda a, b: a < b,
+                               'lte': lambda a, b: a <= b, 'gt': lambda a, b: a > b,
+                               'gte': lambda a, b: a >= b}
+                passed = comparisons[op](value, target['value'])
                 state = 'met' if passed else 'unmet'
                 if not passed:
                     reasons.append('target_not_met')

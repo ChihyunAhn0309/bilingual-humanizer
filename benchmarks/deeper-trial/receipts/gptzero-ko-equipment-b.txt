@@ -1,0 +1,68 @@
+heading Basic Scan, Value: 1
+							159 text Basic Scan
+						336 image
+						161 button Share
+							162 image
+							163 text Share
+						164 button Export
+							165 image
+							166 text Export
+					337 container
+						338 image
+							339 text AI
+						340 image
+						341 text GPTZero AI Detection Model  4.1m We are highly confident this text was AI generated
+						342 text Chance this entire text is...
+						343 button AI 92%
+							344 text AI 92%
+							345 image
+						346 button Mixed 0%
+							347 text Mixed 0%
+							348 image
+						349 button Human 8%
+							350 text Human 8%
+							351 image
+						352 radio button AI Sentences, Value: 1
+							353 container
+								354 image
+								355 text AI Sentences
+						356 radio button AI Patterns NEW, Value: 0
+							357 container
+								358 image
+								359 text AI Patterns NEW
+						360 radio button AI Vocab, Value: 0
+							361 container
+								362 image
+								363 text AI Vocab
+						364 heading Your most AI sentences, Value: 6
+							365 text Your most AI sentences
+						366 content list
+							367 container
+								368 container Low impact
+									369 text High AI impact
+								370 container Medium impact
+									371 text High AI impact
+								372 container High impact
+									373 text High AI impact
+								374 text 긴급 요청의 우선순위를 누가 어떤 기준으로 결정할지는 아직 정해지지 않았습니다.
+							375 container
+								376 container Low impact
+									377 text High AI impact
+								378 container Medium impact
+									379 text High AI impact
+								380 container High impact
+									381 text High AI impact
+								382 text 운영지원팀은 매주 예약 변경 내역을 확인하면서 각 팀의 불편 사항도 함께 정리할 예정입니다.
+						383 button See your most AI and human sentences
+							384 image
+							385 text See your most AI and human sentences
+							386 image
+						387 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							388 image
+							389 text Guidance for Teachers and reviewers
+					170 text Text up-to-date 888 characters • 226 words
+					171 button Re-scan
+						390 text Re-scan
+						391 image
+				92 container
+					392 

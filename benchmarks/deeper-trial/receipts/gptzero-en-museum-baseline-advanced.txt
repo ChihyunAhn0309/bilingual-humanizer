@@ -1,0 +1,124 @@
+heading Advanced Scan, Value: 1
+							121 text Advanced Scan
+						139 image
+						123 button Share
+							124 image
+							125 text Share
+						126 button Export
+							127 image
+							128 text Export
+					140 container
+						141 image
+							142 text AI
+						143 image
+						144 container
+							145 text GPTZero AI Detection
+						146 container
+							147 text Model  4o
+						148 container
+							149 text We are highly confident this text was AI generated
+							150 image
+						151 text Chance this entire text is...
+						152 button AI 100%
+							153 text AI 100%
+							154 image
+						155 button Mixed 0%
+							156 text Mixed 0%
+							157 image
+						158 button Human 0%
+							159 text Human 0%
+							160 image
+						161 button Paul Esau Wendy Snyder Get a grade and feedback Built by writing experts
+							162 image Paul Esau
+							163 image Wendy Snyder
+							164 text Get a grade and feedback
+							165 text Built by writing experts
+							166 image
+						167 radio button 1
+						168 radio button 0
+						169 radio button 0
+						170 text Sentences Impacting the Result
+						171 button 0 scans left Upgrade
+							172 text 0
+							173 text scans
+							174 text  left
+							175 image
+							176 text Upgrade
+						177 text High AI Impact High Human Impact
+						178 heading Your most AI sentences, Value: 6
+							179 text Your most AI sentences
+						180 content list
+							181 container
+								182 container Low impact
+									183 text High AI impact
+								184 container Medium impact
+									185 text High AI impact
+								186 container High impact
+									187 text High AI impact
+								188 text I recommend that the registrar prepare a provisional schedule by 18 November, using existing staff hours.
+							189 container
+								190 container Low impact
+									191 text High AI impact
+								192 container Medium impact
+									193 text High AI impact
+								194 container High impact
+									195 text High AI impact
+								196 text The rest would cover fragile items awaiting condition review and a small selection for the education team.
+							197 container
+								198 container Low impact
+									199 text High AI impact
+								200 container Medium impact
+									201 text High AI impact
+								202 container High impact
+									203 text High AI impact
+								204 text The collections team at the Alderwick Museum proposes setting aside 60 percent of next quarter's digitization capacity for objects researchers have already requested.
+							205 container
+								206 container Low impact
+									207 text Medium AI impact
+								208 container Medium impact
+									209 text Medium AI impact
+								210 container High impact
+									211 text Medium AI impact
+								212 text We still need to agree on who may authorize an exception when an exhibition deadline conflicts with a conservation assessment.
+							213 container
+								214 container Low impact
+									215 text Medium AI impact
+								216 container Medium impact
+									217 text Medium AI impact
+								218 container High impact
+									219 text Medium AI impact
+								220 text Until that responsibility is assigned, disputed objects should stay on the provisional schedule with no promised completion date.
+						221 button (collapsed) Description: Read 8 more, Secondary Actions: Expand
+							222 text Read 8 more
+							223 image
+						224 heading Your most human sentences, Value: 6
+							225 text Your most human sentences
+						226 content list
+							227 container
+								228 container Low impact
+									229 text Medium Human impact
+								230 container Medium impact
+									231 text Medium Human impact
+								232 container High impact
+									233 text Medium Human impact
+								234 text Decision memo: Digitization queue for the next quarter
+							235 container
+								236 container Low impact
+									237 text Low Human impact
+								238 container Medium impact
+									239 text Low Human impact
+								240 container High impact
+									241 text Low Human impact
+								242 text The allocation would run for one quarter, then be reconsidered.
+						243 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							244 image
+							245 text Guidance for Teachers and reviewers
+						246 button Compare with similar AI text
+							247 image
+							248 text Compare with similar AI text
+					129 text Text up-to-date 1,646 characters • 243 words
+					130 button Re-scan
+						249 text Re-scan
+						250 image
+				61 container
+					251 

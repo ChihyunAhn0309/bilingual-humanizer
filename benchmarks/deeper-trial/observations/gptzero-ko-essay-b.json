@@ -1,0 +1,17 @@
+{
+  "id": "gptzero-ko-essay-b",
+  "vendor": "GPTZero",
+  "input_path": "fresh-b/ko-essay.txt",
+  "input_sha256": "b088b0672e703adf67e1af9c4106c68b4cb81925e20fd2108bd57e0d61f4be5d",
+  "submitted_sha256": "6baacb74125251ca9e021d89873c0d8bf578fb8419c0fa66dcd0b4eb63222fff",
+  "observed_at": "2026-10-02T17:51:29.697Z",
+  "metric": "Human document probability",
+  "score": 2,
+  "model": "4.1m",
+  "receipt": "receipts/gptzero-ko-essay-b.txt",
+  "ai": 97,
+  "human": 2,
+  "mixed": 1,
+  "scan_type": "Basic",
+  "input_verified_in_dom": true
+}

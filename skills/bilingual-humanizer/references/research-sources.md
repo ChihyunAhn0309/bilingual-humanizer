@@ -44,3 +44,7 @@
 ## v1.5 확장 조사
 
 [추가 8개 출처 비교](v15-reference-review.md)에 채택·제외 이유와 기능 변경을 기록했다. 현재 출처 목록은 19개이며, 파생 관계 때문에 독립적인 방법 19개로 계산하지 않는다.
+# Follow-up inspection
+
+The 2026-10-03 [expanded review](further-reference-review.md) adds selected-section screening of 13 skill repositories and 3 research implementations. Its [separate manifest](further-sources.json) records exact commits, read scope and rejected assumptions. Keep the original 19-repository manifest as a historical record; do not count forks as independent experimental support.
+

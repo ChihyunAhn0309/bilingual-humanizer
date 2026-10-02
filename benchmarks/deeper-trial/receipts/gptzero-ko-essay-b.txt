@@ -1,0 +1,68 @@
+heading Basic Scan, Value: 1
+							159 text Basic Scan
+						758 image
+						161 button Share
+							162 image
+							163 text Share
+						164 button Export
+							165 image
+							166 text Export
+					759 container
+						760 image
+							761 text AI
+						762 image
+						763 text GPTZero AI Detection Model  4.1m We are highly confident this text was AI generated
+						764 text Chance this entire text is...
+						765 button AI 97%
+							766 text AI 97%
+							767 image
+						768 button Mixed 1%
+							769 text Mixed 1%
+							770 image
+						771 button Human 2%
+							772 text Human 2%
+							773 image
+						774 radio button AI Sentences, Value: 1
+							775 container
+								776 image
+								777 text AI Sentences
+						778 radio button AI Patterns NEW, Value: 0
+							779 container
+								780 image
+								781 text AI Patterns NEW
+						782 radio button AI Vocab, Value: 0
+							783 container
+								784 image
+								785 text AI Vocab
+						786 heading Your most AI sentences, Value: 6
+							787 text Your most AI sentences
+						788 content list
+							789 container
+								790 container Low impact
+									791 text High AI impact
+								792 container Medium impact
+									793 text High AI impact
+								794 container High impact
+									795 text High AI impact
+								796 text 다만 이제는 매달 책 한 권을 끝내는 일보다 같은 문장을 보고도 서로 다른 곳에서 멈추는 사람들을 만나는 일이 조금 더 궁금하다.
+							797 container
+								798 container Low impact
+									799 text High AI impact
+								800 container Medium impact
+									801 text High AI impact
+								802 container High impact
+									803 text High AI impact
+								804 text 집에서 같은 대목을 다시 읽으면서도 민호의 해석에는 동의하지 않았다.
+						805 button See your most AI and human sentences
+							806 image
+							807 text See your most AI and human sentences
+							808 image
+						809 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							810 image
+							811 text Guidance for Teachers and reviewers
+					170 text Text up-to-date 912 characters • 242 words
+					171 button Re-scan
+						812 text Re-scan
+						813 image
+				92 container
+					814 

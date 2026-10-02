@@ -1,0 +1,75 @@
+heading Basic Scan, Value: 1
+							121 text Basic Scan
+						410 image
+						123 button Share
+							124 image
+							125 text Share
+						126 button Export
+							127 image
+							128 text Export
+					411 container
+						412 image
+							413 text AI
+						414 image
+						415 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						416 text Chance this entire text is...
+						417 button AI 100%
+							418 text AI 100%
+							419 image
+						420 button Mixed 0%
+							421 text Mixed 0%
+							422 image
+						423 button Human 0%
+							424 text Human 0%
+							425 image
+						426 radio button 1
+						427 radio button 0
+						428 radio button 0
+						429 image Paul Esau
+						430 image Wendy Snyder
+						431 heading Expert feedback, Value: 4
+							432 text Expert feedback
+						433 image
+						434 text Emmy Winning Writers
+						435 button
+							436 image
+						437 heading Your most AI sentences, Value: 6
+							438 text Your most AI sentences
+						439 content list
+							440 container
+								441 container Low impact
+									442 text High AI impact
+								443 container Medium impact
+									444 text High AI impact
+								445 container High impact
+									446 text High AI impact
+								447 text Our queue has 184 objects, though the records do not consistently tell us which requests are still active and which have been answered in other ways.
+							448 container
+								449 container Low impact
+									450 text High AI impact
+								451 container Medium impact
+									452 text High AI impact
+								453 container High impact
+									454 text High AI impact
+								455 text The rest would go to fragile items awaiting condition review and a small selection for the education team.
+						456 button See your most AI and human sentences
+							457 image
+							458 text See your most AI and human sentences
+							459 image
+						460 text What's next?
+						461 button Paul Esau Wendy Snyder Policy Brief feedback Reviewed by Emmy-Winners, Ivy League Profs
+							462 image Paul Esau
+							463 image Wendy Snyder
+							464 text Policy Brief feedback
+							465 image
+							466 text Reviewed by Emmy-Winners, Ivy League Profs
+							467 image
+						468 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							469 image
+							470 text Guidance for Teachers and reviewers
+					129 text Text up-to-date 1,616 characters • 243 words
+					130 button Re-scan
+						471 text Re-scan
+						472 image
+				61 container
+					473 
