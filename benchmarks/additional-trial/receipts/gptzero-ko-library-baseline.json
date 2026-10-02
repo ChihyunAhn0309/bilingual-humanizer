@@ -1,0 +1,19 @@
+{
+  "id": "gptzero-ko-library-baseline",
+  "vendor": "GPTZero",
+  "input_file": "baseline/ko-library-v15.txt",
+  "input_sha256": "5353777baf4a2c92cdccb7e772ab97b8cb8d7da7a7e2a1d43a599edb816055bd",
+  "submission_sha256": "1105129349701f6d4cba9bc35c57ccb6a9761112b392183d6dcc8f2eef949f64",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T16:29:10.401Z",
+  "score": 32,
+  "metric": "AI class probability percent",
+  "model": "4.1m",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t46 text Basic Scan\n\t\t\t\t\t\t222 image\n\t\t\t\t\t\t48 button Share\n\t\t\t\t\t\t\t49 image\n\t\t\t\t\t\t\t50 text Share\n\t\t\t\t\t\t51 button Export\n\t\t\t\t\t\t\t52 image\n\t\t\t\t\t\t\t53 text Export\n\t\t\t\t\t223 container\n\t\t\t\t\t\t224 image\n\t\t\t\t\t\t\t225 text human\n\t\t\t\t\t\t226 image\n\t\t\t\t\t\t227 text GPTZero AI Detection Model  4.1m We are uncertain about this document. If we had to classify it, it would likely be considered human\n\t\t\t\t\t\t228 text Chance this entire text is...\n\t\t\t\t\t\t229 button AI 32%\n\t\t\t\t\t\t\t230 text AI 32%\n\t\t\t\t\t\t\t231 image\n\t\t\t\t\t\t232 button Mixed 24%\n\t\t\t\t\t\t\t233 text Mixed 24%\n\t\t\t\t\t\t\t234 image\n\t\t\t\t\t\t235 button Human 44%\n\t\t\t\t\t\t\t236 text Human 44%\n\t\t\t\t\t\t\t237 image\n\t\t\t\t\t\t238 button See sentence highlighting\n\t\t\t\t\t\t\t239 image\n\t\t\t\t\t\t\t240 text See sentence highlighting\n\t\t\t\t\t\t\t241 image\n\t\t\t\t\t\t242 image Paul Esau\n\t\t\t\t\t\t243 image Wendy Snyder\n\t\t\t\t\t\t244 text Get a grade and feedback\n\t\t\t\t\t\t245 text Built by writing experts\n\t\t\t\t\t\t246 button Get Feedback\n\t\t\t\t\t\t247 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t248 image\n\t\t\t\t\t\t\t249 text Guidance for Teachers and reviewers\n\t\t\t\t\t106 text Text up-to-date 901 characters • 226 words",
+  "human_percent": 44,
+  "mixed_percent": 24,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI"
+}

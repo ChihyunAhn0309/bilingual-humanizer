@@ -49,6 +49,8 @@ For requested detector checks, supply usable service access or existing reports.
 
 ## v1.5 measured outcome
 
+**v1.5 is retained after an additional improvement trial.** A shorter reader-led instruction produced some development gains, but 17 further observations did not show an improvement on fresh topics; blind reader review also slightly preferred v1.5 on both fresh texts. The [additional experiment and retention decision](benchmarks/additional-trial/REPORT.md) disclose all outcomes. Production skill files are unchanged.
+
 The Korean technical development memo improved from 92% to 0% AI in QuillBot and from 100% to 79% AI in GPTZero. Other results worsened: the Korean library memo rose from 11% to 32% AI in GPTZero; the final English technical memo rose from 93% to 94.6% in Sapling and from 0% to 24% in QuillBot. **Broad detector acceptance has not been achieved.**
 
 Two fresh paired texts did not demonstrate a detector improvement, and blind model review slightly preferred v1.4 in five of six cases. Read the [complete v1.5 experiment](benchmarks/2026-10-02-v15/REPORT.md), including final-text hashes, all regressions and the unsuccessful detached-composition trial. The earlier 88.2% Sapling result belongs to a candidate before a fidelity repair, not the final text.

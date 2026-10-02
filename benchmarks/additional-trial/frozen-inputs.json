@@ -1,0 +1,15 @@
+{
+  "sources/en-cache-source.txt": "4411dc7c9875e0a6455d3dc9a1790e68ea371f38d2a750599b2444c9bc2ec509",
+  "sources/ko-library-source.txt": "b82f92389cf1c42ded62184eb359c87d81848723d44a2b9790b9fa0eb6dfd5b0",
+  "baseline/en-cache-v15.txt": "5413c631b30fc52fccd90f4295221aa451fad428c7e375f0f1ff2c1cb65f9fd9",
+  "baseline/ko-library-v15.txt": "5353777baf4a2c92cdccb7e772ab97b8cb8d7da7a7e2a1d43a599edb816055bd",
+  "candidates/en-cache-trial-reviewed.txt": "26719ba3f93219c69a33060dd235f34af58865d4e79585df43481b7cc73adf35",
+  "candidates/ko-library-trial-reviewed.txt": "244611b5b9cff8f39bf987c0dfdfde13f1e2bb5f77662453cb6ca6312cb294ba",
+  "skill/SKILL.md": "4a9b7a2aabb836422633b2a34101ead18fd248194ac70511ab1b3c9debf4e1bc",
+  "holdout/en-source.txt": "b9538869823413658db9f36d246411fb41efa0575aadcb2d789db987354e93b1",
+  "holdout/ko-source.txt": "14c625506bc5fdd2b8cd654cf2485f31e81376220f80580dab02dd27c0157e66",
+  "holdout-baseline/en-v15.txt": "d406efbd6235deece5cb0caececa5dc5ad1350064320998bb3396b72a0bb4979",
+  "holdout-baseline/ko-v15.txt": "3ac3e8adfe03c5910546c3955c6803fee5e6fbf0d604515a9247ca8ffc2a45f2",
+  "holdout-trial/en-trial.txt": "c7036db4515f03a8aba51640515ece705bf51f1ff5023db7f65c7f84d5a92025",
+  "holdout-trial/ko-trial.txt": "fceb0a564ae6593f311a2e232c4dd3fb7a1a8731d7edba5e28645961cccb9a6c"
+}

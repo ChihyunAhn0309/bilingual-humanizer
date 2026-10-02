@@ -1,0 +1,35 @@
+{
+  "reason": "Fidelity calibration from blind review before any candidate detector test",
+  "records": [
+    {
+      "case": "en-cache",
+      "initial_sha256": "58f8c72693baee945ebee6224067a11a3a010b6c577446d893ec8a5811281bdc",
+      "reviewed_sha256": "26719ba3f93219c69a33060dd235f34af58865d4e79585df43481b7cc73adf35",
+      "changes": [
+        [
+          "They therefore provide no basis for assumptions about consistency or exceptional cases.",
+          "The review should not fill this gap with assumptions about consistency or exceptional cases."
+        ],
+        [
+          "The trial does not confirm a production benefit, nor does it establish that the same balance of latency and memory would hold under untested conditions.",
+          "It would be premature to treat the trial as confirmation of a production benefit or to assume that the same balance of latency and memory would hold under untested conditions."
+        ]
+      ]
+    },
+    {
+      "case": "ko-library",
+      "initial_sha256": "5d65441adf230923aea0505517b54369b26a73f7ab51726964a79c752a80d7ce",
+      "reviewed_sha256": "244611b5b9cff8f39bf987c0dfdfde13f1e2bb5f77662453cb6ca6312cb294ba",
+      "changes": [
+        [
+          "운영안을 구체화하기 전에 접수된 의견과 아직 확인이 필요한 운영 조건을 함께 살펴볼 필요가 있다.",
+          "이번 검토에서는 접수된 의견을 살펴보고 운영안을 구체화하기 전에 확인할 조건을 정리한다."
+        ],
+        [
+          "이는 제출된 의견의 분포이지 도서관 이용자 전체의 요구를 그대로 나타내는 수치는 아니다.",
+          "이 수치는 제출된 의견의 분포를 보여주지만, 도서관 이용자 전체의 요구를 그대로 나타낸다고 볼 수는 없다."
+        ]
+      ]
+    }
+  ]
+}

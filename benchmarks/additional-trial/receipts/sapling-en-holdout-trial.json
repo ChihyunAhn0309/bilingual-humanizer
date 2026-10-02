@@ -1,0 +1,17 @@
+{
+  "id": "sapling-en-holdout-trial",
+  "vendor": "Sapling",
+  "input_file": "holdout-trial/en-trial.txt",
+  "input_sha256": "c7036db4515f03a8aba51640515ece705bf51f1ff5023db7f65c7f84d5a92025",
+  "submission_sha256": "c789b0a2a436e928fcf67b0e2c27fa92f424ea1b9bbf946cbbb055dee47d2318",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T16:53:42.174Z",
+  "score": 95.1,
+  "metric": "whole-text AI probability percent",
+  "model": "not exposed",
+  "status": "completed",
+  "raw_receipt": "{\"ai_probability_percent\":95.1,\"truncated\":false,\"sentence_scores\":[{\"sentence\":\"Decision memo: Digitization queue for the next quarter\",\"ai_probability\":0.9997512428399962},{\"sentence\":\"The Alderwick Museum's collections team proposes reserving 60 percent of next quarter's digitization capacity for objects already requested by researchers.\",\"ai_probability\":0.9997225809173392},{\"sentence\":\"The remaining capacity would cover fragile items awaiting condition review and a small selection for the education team.\",\"ai_probability\":0.9997988659720933},{\"sentence\":\"The allocation would last one quarter, then be reconsidered.\",\"ai_probability\":0.999796227832495},{\"sentence\":\"Request date alone cannot account for the needs of all three groups.\",\"ai_probability\":0.9998047218170609},{\"sentence\":\"Researchers need reliable delivery estimates.\",\"ai_probability\":0.9998045161259871},{\"sentence\":\"Conservators need time to assess objects that require preparation before they can be moved safely.\",\"ai_probability\":0.9998045554851336},{\"sentence\":\"Educators have asked for images of ordinary household objects: these attract fewer individual requests but support several planned lessons.\",\"ai_probability\":0.9998040329313531},{\"sentence\":\"Before assigning photography dates, we should confirm requests whose status is unclear.\",\"ai_probability\":0.9998041823903655},{\"sentence\":\"The current queue contains 184 objects, and the records do not consistently distinguish active requests from those already answered through other means.\",\"ai_probability\":0.9998032584090255},{\"sentence\":\"Of the 25 entries reviewed last week, 7 appeared to need clarification.\",\"ai_probability\":0.9998058029866337},{\"sentence\":\"Because the sample came from the oldest records, it may overstate the problem across the full queue.\",\"ai_probability\":0.9998044650531055},{\"sentence\":\"I recommend that the registrar prepare a provisional schedule by 18 November, using existing staff hours.\",\"ai_probability\":0.9998057219972328},{\"sentence\":\"Photography should begin with confirmed requests that have no outstanding handling concerns.\",\"ai_probability\":0.9998038725000391},{\"sentence\":\"We still need to agree on who may authorize an exception when an exhibition deadline conflicts with a conservation assessment.\",\"ai_probability\":0.9998044435805398},{\"sentence\":\"Until that responsibility is assigned, disputed objects should stay on the provisional schedule without a promised completion date.\",\"ai_probability\":0.9604612282899064}]}",
+  "truncated": false,
+  "input_verified": true,
+  "transport": "official page WebMCP"
+}

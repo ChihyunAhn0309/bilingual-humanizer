@@ -1,0 +1,3 @@
+- en-cache-trial.txt: 1 draft, 2 reviews, 0 revisions.
+- ko-library-trial.txt: 1 draft, 2 reviews, 1 revision.
+- Unresolved issues: none.

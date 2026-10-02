@@ -1,0 +1,26 @@
+{
+  "en": {
+    "A": {
+      "version": "v1.5",
+      "path": "holdout-baseline/en-v15.txt",
+      "sha256": "d406efbd6235deece5cb0caececa5dc5ad1350064320998bb3396b72a0bb4979"
+    },
+    "B": {
+      "version": "trial",
+      "path": "holdout-trial/en-trial.txt",
+      "sha256": "c7036db4515f03a8aba51640515ece705bf51f1ff5023db7f65c7f84d5a92025"
+    }
+  },
+  "ko": {
+    "A": {
+      "version": "v1.5",
+      "path": "holdout-baseline/ko-v15.txt",
+      "sha256": "3ac3e8adfe03c5910546c3955c6803fee5e6fbf0d604515a9247ca8ffc2a45f2"
+    },
+    "B": {
+      "version": "trial",
+      "path": "holdout-trial/ko-trial.txt",
+      "sha256": "fceb0a564ae6593f311a2e232c4dd3fb7a1a8731d7edba5e28645961cccb9a6c"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gptzero-en-cache-trial",
+  "vendor": "GPTZero",
+  "input_file": "candidates/en-cache-trial-reviewed.txt",
+  "input_sha256": "26719ba3f93219c69a33060dd235f34af58865d4e79585df43481b7cc73adf35",
+  "submission_sha256": "9a82b598003a51848600c0a833822e290608c6f6ee34be65cb387d073728ce1d",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T16:34:36.071Z",
+  "score": 100,
+  "metric": "AI class probability percent",
+  "model": "4o",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t46 text Basic Scan\n\t\t\t\t\t\t270 image\n\t\t\t\t\t\t48 button Share\n\t\t\t\t\t\t\t49 image\n\t\t\t\t\t\t\t50 text Share\n\t\t\t\t\t\t51 button Export\n\t\t\t\t\t\t\t52 image\n\t\t\t\t\t\t\t53 text Export\n\t\t\t\t\t271 container\n\t\t\t\t\t\t272 image\n\t\t\t\t\t\t\t273 text AI\n\t\t\t\t\t\t274 image\n\t\t\t\t\t\t275 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated\n\t\t\t\t\t\t276 text Chance this entire text is...\n\t\t\t\t\t\t277 button AI 100%\n\t\t\t\t\t\t\t278 text AI 100%\n\t\t\t\t\t\t\t279 image\n\t\t\t\t\t\t280 button Mixed 0%\n\t\t\t\t\t\t\t281 text Mixed 0%\n\t\t\t\t\t\t\t282 image\n\t\t\t\t\t\t283 button Human 0%\n\t\t\t\t\t\t\t284 text Human 0%\n\t\t\t\t\t\t\t285 image\n\t\t\t\t\t\t286 radio button 1\n\t\t\t\t\t\t287 radio button 0\n\t\t\t\t\t\t288 radio button 0\n\t\t\t\t\t\t289 heading Your most AI sentences, Value: 6\n\t\t\t\t\t\t\t290 text Your most AI sentences\n\t\t\t\t\t\t291 content list\n\t\t\t\t\t\t\t292 container\n\t\t\t\t\t\t\t\t293 container Low impact\n\t\t\t\t\t\t\t\t\t294 text High AI impact\n\t\t\t\t\t\t\t\t295 container Medium impact\n\t\t\t\t\t\t\t\t\t296 text High AI impact\n\t\t\t\t\t\t\t\t297 container High impact\n\t\t\t\t\t\t\t\t\t298 text High AI impact\n\t\t\t\t\t\t\t\t299 text Any further review should keep that condition explicit, while recognizing that a rollback rule neither authorizes deployment nor resolves the limits of the evidence.\n\t\t\t\t\t\t\t300 container\n\t\t\t\t\t\t\t\t301 container Low impact\n\t\t\t\t\t\t\t\t\t302 text High AI impact\n\t\t\t\t\t\t\t\t303 container Medium impact\n\t\t\t\t\t\t\t\t\t304 text High AI impact\n\t\t\t\t\t\t\t\t305 container High impact\n\t\t\t\t\t\t\t\t\t306 text High AI impact\n\t\t\t\t\t\t\t\t307 text The observed relationships are correlations, not causal proof of what would happen in production.\n\t\t\t\t\t\t308 button See your most AI and human sentences\n\t\t\t\t\t\t\t309 image\n\t\t\t\t\t\t\t310 text See your most AI and human sentences\n\t\t\t\t\t\t\t311 image\n\t\t\t\t\t\t312 text What's next?\n\t\t\t\t\t\t313 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t314 image Paul Esau\n\t\t\t\t\t\t\t315 image Wendy Snyder\n\t\t\t\t\t\t\t316 text College Application feedback\n\t\t\t\t\t\t\t317 image\n\t\t\t\t\t\t\t318 text Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t319 image\n\t\t\t\t\t\t320 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t321 image\n\t\t\t\t\t\t\t322 text Guidance for Teachers and reviewers\n\t\t\t\t\t106 text Text up-to-date 1,557 characters • 245 words",
+  "human_percent": 0,
+  "mixed_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI"
+}

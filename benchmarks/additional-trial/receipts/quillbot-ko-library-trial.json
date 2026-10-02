@@ -1,0 +1,19 @@
+{
+  "id": "quillbot-ko-library-trial",
+  "vendor": "QuillBot",
+  "input_file": "candidates/ko-library-trial-reviewed.txt",
+  "input_sha256": "244611b5b9cff8f39bf987c0dfdfde13f1e2bb5f77662453cb6ca6312cb294ba",
+  "submission_sha256": "3d10dbc19db49dc7e6132680bbf6f1466157c82ce443ba9ff4e9861bdaf3fe70",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T16:36:22.400Z",
+  "score": 83,
+  "metric": "words likely AI-generated percent",
+  "model": "6.2.1",
+  "status": "completed",
+  "raw_receipt": "Browser tab: 9, Title: \"Library Evening Hours Pilot Program Proposal - Quillbot AI\", URL: \"https://quillbot.com/docs/d/502a0a2b-2886-48a5-a101-5dfb6dfda01e/edit\".\n0 AXWebArea Library Evening Hours Pilot Program Proposal - Quillbot AI, URL: quillbot.com/docs/d/502a0a2b-2886-48a5-a101-5dfb6dfda01e/edit\n\t1 container\n\t\t2 container Detect AI\n\t\t\t3 container Description: Detect AI, ID: mode-panel-ai-detector\n\t\t\t\t4 image\n\t\t\t\t5 text Detect AI\n\t\t\t\t7 container Our AI detector is among the most advanced available, but no AI detector is 100% accurate. This score represents the percentage of words likely generated or refined using an AI tool.\n\t\t\t\t\t8 container AI score\n\t\t\t\t\t\t9 text 83\n\t\t\t\t\t10 text %\n\t\t\t\t\t11 text of text is likely AI\n\t\t\t\t12 text AI-generated\n\t\t\t\t13 container\n\t\t\t\t\t14 text 83 %\n\t\t\t\t15 text Human-written & AI-refined\n\t\t\t\t16 container\n\t\t\t\t\t17 text 0 %\n\t\t\t\t18 text Human-written\n\t\t\t\t19 container\n\t\t\t\t\t20 text 17 %\n\t\t\t\t21 container This model performed well\n\t\t\t\t\t22 button This model performed well\n\t\t\t\t\t\t23 image\n\t\t\t\t24 container This model performed poorly\n\t\t\t\t\t25 button This model performed poorly\n\t\t\t\t\t\t26 image\n\t\t\t\t27 text Model v6.2.1\n\t\t\t\t28 image\n\t\t\t\t29 button Download report\n\t\t\t\t\t30 image\n\t\t\t\t\t31 text Download report\n\t\t\t\t39 text Want more authentic text?\n\t\t\t\t40 link Description: Refine with Paraphraser, Value: quillbot.com/paraphrasing-tool?referrer=ai-detector%2Fai-detection%2Fpphr_upsell&product=text-editor\n\t\t\t\t32 button Check for plagiarism Happy with the score? Now ensure it’s original...\n\t\t\t\t\t33 image\n\t\t\t\t\t34 text Check for plagiarism\n\t\t\t\t\t35 text Happy with the score? Now ensure it’s original...\n\t\t\t\t36 text Never rely on AI detection alone to make decisions that could impact someone's career or academic standing.\n\t\t\t\t37 text You’ve got 1 AI scan left today\n\t\t\t\t38 link Description: Upgrade for more, Value: quillbot.com/premium?returnUrl=%2Fdocs%2Fd%2F502a0a2b-2886-48a5-a101-5dfb6dfda01e%2Fedit&referrer=ai-detector%2Fai-detection%2Fsome-scans-left&product=text-editor\n\nThe focused UI element is 2 container Detect AI",
+  "human_percent": 17,
+  "ai_refined_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "free authenticated UI"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gptzero-ko-library-trial",
+  "vendor": "GPTZero",
+  "input_file": "candidates/ko-library-trial-reviewed.txt",
+  "input_sha256": "244611b5b9cff8f39bf987c0dfdfde13f1e2bb5f77662453cb6ca6312cb294ba",
+  "submission_sha256": "3d10dbc19db49dc7e6132680bbf6f1466157c82ce443ba9ff4e9861bdaf3fe70",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T16:35:08.058Z",
+  "score": 14,
+  "metric": "AI class probability percent",
+  "model": "4.1m",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t46 text Basic Scan\n\t\t\t\t\t\t335 image\n\t\t\t\t\t\t48 button Share\n\t\t\t\t\t\t\t49 image\n\t\t\t\t\t\t\t50 text Share\n\t\t\t\t\t\t51 button Export\n\t\t\t\t\t\t\t52 image\n\t\t\t\t\t\t\t53 text Export\n\t\t\t\t\t336 container\n\t\t\t\t\t\t337 image\n\t\t\t\t\t\t\t338 text human\n\t\t\t\t\t\t339 image\n\t\t\t\t\t\t340 text GPTZero AI Detection Model  4.1m We are highly confident this text is entirely human\n\t\t\t\t\t\t341 text Chance this entire text is...\n\t\t\t\t\t\t342 button AI 14%\n\t\t\t\t\t\t\t343 text AI 14%\n\t\t\t\t\t\t\t344 image\n\t\t\t\t\t\t345 button Mixed 1%\n\t\t\t\t\t\t\t346 text Mixed 1%\n\t\t\t\t\t\t\t347 image\n\t\t\t\t\t\t348 button Human 85%\n\t\t\t\t\t\t\t349 text Human 85%\n\t\t\t\t\t\t\t350 image\n\t\t\t\t\t\t351 button See sentence highlighting\n\t\t\t\t\t\t\t352 image\n\t\t\t\t\t\t\t353 text See sentence highlighting\n\t\t\t\t\t\t\t354 image\n\t\t\t\t\t\t355 image Paul Esau\n\t\t\t\t\t\t356 image Wendy Snyder\n\t\t\t\t\t\t357 text Get a grade and feedback\n\t\t\t\t\t\t358 text Built by writing experts\n\t\t\t\t\t\t359 button Get Feedback\n\t\t\t\t\t\t360 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t361 image\n\t\t\t\t\t\t\t362 text Guidance for Teachers and reviewers\n\t\t\t\t\t106 text Text up-to-date 954 characters • 239 words",
+  "human_percent": 85,
+  "mixed_percent": 1,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI"
+}

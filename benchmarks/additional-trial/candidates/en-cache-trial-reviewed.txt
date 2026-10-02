@@ -1,0 +1,9 @@
+Operational rollout of the fictional software cache change has not been approved. The next decision should weigh the measured latency and memory changes together and stay within the scope of this preliminary trial.
+
+Across 48 runs, median latency changed from 120ms to 90ms, while memory use changed from 256MB to 288MB. The lower median latency is relevant to further evaluation, but presenting it alone would leave out the accompanying increase in memory use and make the result harder to assess. These figures show a tradeoff. Whether it is acceptable depends on an operating context that the trial summary does not supply.
+
+The median does not describe every run, and the supplied figures do not show the full distribution of results. The review should not fill this gap with assumptions about consistency or exceptional cases. No mobile clients were included, so mobile behavior also remains an open question. Findings should remain tied to the scope actually tested.
+
+The observed relationships are correlations, not causal proof of what would happen in production. It would be premature to treat the trial as confirmation of a production benefit or to assume that the same balance of latency and memory would hold under untested conditions.
+
+The specified rollback condition is a failure rate above 2%. Any further review should keep that condition explicit, while recognizing that a rollback rule neither authorizes deployment nor resolves the limits of the evidence. Approval should remain separate from the interpretation of these preliminary results.

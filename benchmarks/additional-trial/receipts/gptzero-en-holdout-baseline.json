@@ -1,0 +1,19 @@
+{
+  "id": "gptzero-en-holdout-baseline",
+  "vendor": "GPTZero",
+  "input_file": "holdout-baseline/en-v15.txt",
+  "input_sha256": "d406efbd6235deece5cb0caececa5dc5ad1350064320998bb3396b72a0bb4979",
+  "submission_sha256": "c1c634c937bae4b66e885f055b34e9013707ae855fd0d0d9d3fc2a95e639f8a3",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T16:51:54.677Z",
+  "score": 100,
+  "metric": "AI class probability percent",
+  "model": "4o",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t46 text Basic Scan\n\t\t\t\t\t\t391 image\n\t\t\t\t\t\t48 button Share\n\t\t\t\t\t\t\t49 image\n\t\t\t\t\t\t\t50 text Share\n\t\t\t\t\t\t51 button Export\n\t\t\t\t\t\t\t52 image\n\t\t\t\t\t\t\t53 text Export\n\t\t\t\t\t392 container\n\t\t\t\t\t\t393 image\n\t\t\t\t\t\t\t394 text AI\n\t\t\t\t\t\t395 image\n\t\t\t\t\t\t396 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated\n\t\t\t\t\t\t397 text Chance this entire text is...\n\t\t\t\t\t\t398 button AI 100%\n\t\t\t\t\t\t\t399 text AI 100%\n\t\t\t\t\t\t\t400 image\n\t\t\t\t\t\t401 button Mixed 0%\n\t\t\t\t\t\t\t402 text Mixed 0%\n\t\t\t\t\t\t\t403 image\n\t\t\t\t\t\t404 button Human 0%\n\t\t\t\t\t\t\t405 text Human 0%\n\t\t\t\t\t\t\t406 image\n\t\t\t\t\t\t407 radio button 1\n\t\t\t\t\t\t408 radio button 0\n\t\t\t\t\t\t409 radio button 0\n\t\t\t\t\t\t410 heading Your most AI sentences, Value: 6\n\t\t\t\t\t\t\t411 text Your most AI sentences\n\t\t\t\t\t\t412 content list\n\t\t\t\t\t\t\t413 container\n\t\t\t\t\t\t\t\t414 container Low impact\n\t\t\t\t\t\t\t\t\t415 text High AI impact\n\t\t\t\t\t\t\t\t416 container Medium impact\n\t\t\t\t\t\t\t\t\t417 text High AI impact\n\t\t\t\t\t\t\t\t418 container High impact\n\t\t\t\t\t\t\t\t\t419 text High AI impact\n\t\t\t\t\t\t\t\t420 text Researchers need reliable delivery estimates, while conservators need enough time to assess objects that cannot be moved safely without preparation.\n\t\t\t\t\t\t\t421 container\n\t\t\t\t\t\t\t\t422 container Low impact\n\t\t\t\t\t\t\t\t\t423 text High AI impact\n\t\t\t\t\t\t\t\t424 container Medium impact\n\t\t\t\t\t\t\t\t\t425 text High AI impact\n\t\t\t\t\t\t\t\t426 container High impact\n\t\t\t\t\t\t\t\t\t427 text High AI impact\n\t\t\t\t\t\t\t\t428 text The rest would cover fragile items awaiting condition review and a small selection for the education team.\n\t\t\t\t\t\t429 button See your most AI and human sentences\n\t\t\t\t\t\t\t430 image\n\t\t\t\t\t\t\t431 text See your most AI and human sentences\n\t\t\t\t\t\t\t432 image\n\t\t\t\t\t\t433 text What's next?\n\t\t\t\t\t\t434 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t435 image Paul Esau\n\t\t\t\t\t\t\t436 image Wendy Snyder\n\t\t\t\t\t\t\t437 text College Application feedback\n\t\t\t\t\t\t\t438 image\n\t\t\t\t\t\t\t439 text Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t440 image\n\t\t\t\t\t\t441 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t442 image\n\t\t\t\t\t\t\t443 text Guidance for Teachers and reviewers\n\t\t\t\t\t106 text Text up-to-date 1,646 characters • 243 words",
+  "human_percent": 0,
+  "mixed_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI"
+}

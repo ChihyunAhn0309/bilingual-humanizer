@@ -59,3 +59,7 @@ if (V15/'results.json').exists():
             assert norm(submitted) in norm(raw)
     print(f'PASS: {len(ids)} v1.5/development observations; hashes and recorded scores agree.')
 
+if (BASE.parent/'additional-trial/results.json').exists():
+    import runpy
+    runpy.run_path(str(BASE.parent/'verify_additional_trial.py'),run_name='__main__')
+

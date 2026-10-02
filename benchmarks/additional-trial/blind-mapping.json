@@ -1,0 +1,26 @@
+{
+  "en-cache": {
+    "A": {
+      "version": "trial",
+      "path": "candidates/en-cache-trial.txt",
+      "sha256": "58f8c72693baee945ebee6224067a11a3a010b6c577446d893ec8a5811281bdc"
+    },
+    "B": {
+      "version": "v1.5",
+      "path": "baseline/en-cache-v15.txt",
+      "sha256": "5413c631b30fc52fccd90f4295221aa451fad428c7e375f0f1ff2c1cb65f9fd9"
+    }
+  },
+  "ko-library": {
+    "A": {
+      "version": "trial",
+      "path": "candidates/ko-library-trial.txt",
+      "sha256": "5d65441adf230923aea0505517b54369b26a73f7ab51726964a79c752a80d7ce"
+    },
+    "B": {
+      "version": "v1.5",
+      "path": "baseline/ko-library-v15.txt",
+      "sha256": "5353777baf4a2c92cdccb7e772ab97b8cb8d7da7a7e2a1d43a599edb816055bd"
+    }
+  }
+}

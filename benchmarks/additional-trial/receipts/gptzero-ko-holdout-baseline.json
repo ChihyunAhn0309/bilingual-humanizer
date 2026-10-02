@@ -1,0 +1,19 @@
+{
+  "id": "gptzero-ko-holdout-baseline",
+  "vendor": "GPTZero",
+  "input_file": "holdout-baseline/ko-v15.txt",
+  "input_sha256": "3ac3e8adfe03c5910546c3955c6803fee5e6fbf0d604515a9247ca8ffc2a45f2",
+  "submission_sha256": "8871230cfc7a8175c0e6cc60611078267240c2e3ad5a095a8fefe0242bd08816",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T16:52:42.804Z",
+  "score": 94,
+  "metric": "AI class probability percent",
+  "model": "4.1m",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t46 text Basic Scan\n\t\t\t\t\t\t468 image\n\t\t\t\t\t\t48 button Share\n\t\t\t\t\t\t\t49 image\n\t\t\t\t\t\t\t50 text Share\n\t\t\t\t\t\t51 button Export\n\t\t\t\t\t\t\t52 image\n\t\t\t\t\t\t\t53 text Export\n\t\t\t\t\t469 container\n\t\t\t\t\t\t470 image\n\t\t\t\t\t\t\t471 text AI\n\t\t\t\t\t\t472 image\n\t\t\t\t\t\t473 text GPTZero AI Detection Model  4.1m We are highly confident this text was AI generated\n\t\t\t\t\t\t474 text Chance this entire text is...\n\t\t\t\t\t\t475 button AI 94%\n\t\t\t\t\t\t\t476 text AI 94%\n\t\t\t\t\t\t\t477 image\n\t\t\t\t\t\t478 button Mixed 0%\n\t\t\t\t\t\t\t479 text Mixed 0%\n\t\t\t\t\t\t\t480 image\n\t\t\t\t\t\t481 button Human 6%\n\t\t\t\t\t\t\t482 text Human 6%\n\t\t\t\t\t\t\t483 image\n\t\t\t\t\t\t484 radio button 1\n\t\t\t\t\t\t485 radio button 0\n\t\t\t\t\t\t486 radio button 0\n\t\t\t\t\t\t487 heading Your most AI sentences, Value: 6\n\t\t\t\t\t\t\t488 text Your most AI sentences\n\t\t\t\t\t\t489 content list\n\t\t\t\t\t\t\t490 container\n\t\t\t\t\t\t\t\t491 container Low impact\n\t\t\t\t\t\t\t\t\t492 text High AI impact\n\t\t\t\t\t\t\t\t493 container Medium impact\n\t\t\t\t\t\t\t\t\t494 text High AI impact\n\t\t\t\t\t\t\t\t495 container High impact\n\t\t\t\t\t\t\t\t\t496 text High AI impact\n\t\t\t\t\t\t\t\t497 text 운영지원팀은 매주 예약 변경 내역을 확인하고 각 팀의 불편 사항도 함께 정리할 예정입니다.\n\t\t\t\t\t\t\t498 container\n\t\t\t\t\t\t\t\t499 container Low impact\n\t\t\t\t\t\t\t\t\t500 text High AI impact\n\t\t\t\t\t\t\t\t501 container Medium impact\n\t\t\t\t\t\t\t\t\t502 text High AI impact\n\t\t\t\t\t\t\t\t503 container High impact\n\t\t\t\t\t\t\t\t\t504 text High AI impact\n\t\t\t\t\t\t\t\t505 text 긴급 요청의 우선순위를 결정할 담당자와 판단 기준은 아직 정해지지 않았으며, 이를 확정해야 시범 운영을 시작할 수 있습니다.\n\t\t\t\t\t\t506 button See your most AI and human sentences\n\t\t\t\t\t\t\t507 image\n\t\t\t\t\t\t\t508 text See your most AI and human sentences\n\t\t\t\t\t\t\t509 image\n\t\t\t\t\t\t510 text What's next?\n\t\t\t\t\t\t511 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t512 image Paul Esau\n\t\t\t\t\t\t\t513 image Wendy Snyder\n\t\t\t\t\t\t\t514 text College Application feedback\n\t\t\t\t\t\t\t515 image\n\t\t\t\t\t\t\t516 text Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t517 image\n\t\t\t\t\t\t518 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t519 image\n\t\t\t\t\t\t\t520 text Guidance for Teachers and reviewers\n\t\t\t\t\t106 text Text up-to-date 874 characters • 222 words",
+  "human_percent": 6,
+  "mixed_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI"
+}

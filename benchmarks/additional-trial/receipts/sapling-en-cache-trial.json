@@ -1,0 +1,17 @@
+{
+  "id": "sapling-en-cache-trial",
+  "vendor": "Sapling",
+  "input_file": "candidates/en-cache-trial-reviewed.txt",
+  "input_sha256": "26719ba3f93219c69a33060dd235f34af58865d4e79585df43481b7cc73adf35",
+  "submission_sha256": "9a82b598003a51848600c0a833822e290608c6f6ee34be65cb387d073728ce1d",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T16:34:34.943Z",
+  "score": 90,
+  "metric": "whole-text AI probability percent",
+  "model": "not exposed",
+  "status": "completed",
+  "raw_receipt": "{\"ai_probability_percent\":90,\"truncated\":false,\"sentence_scores\":[{\"sentence\":\"Operational rollout of the fictional software cache change has not been approved.\",\"ai_probability\":0.9815563184686684},{\"sentence\":\"The next decision should weigh the measured latency and memory changes together and stay within the scope of this preliminary trial.\",\"ai_probability\":0.999749907559595},{\"sentence\":\"Across 48 runs, median latency changed from 120ms to 90ms, while memory use changed from 256MB to 288MB.\",\"ai_probability\":0.9998064538661101},{\"sentence\":\"The lower median latency is relevant to further evaluation, but presenting it alone would leave out the accompanying increase in memory use and make the result harder to assess.\",\"ai_probability\":0.9998047932746571},{\"sentence\":\"These figures show a tradeoff.\",\"ai_probability\":0.9998020749729124},{\"sentence\":\"Whether it is acceptable depends on an operating context that the trial summary does not supply.\",\"ai_probability\":0.9998058847038891},{\"sentence\":\"The median does not describe every run, and the supplied figures do not show the full distribution of results.\",\"ai_probability\":0.9998058172961214},{\"sentence\":\"The review should not fill this gap with assumptions about consistency or exceptional cases.\",\"ai_probability\":0.9998025845537842},{\"sentence\":\"No mobile clients were included, so mobile behavior also remains an open question.\",\"ai_probability\":0.9998057270019154},{\"sentence\":\"Findings should remain tied to the scope actually tested.\",\"ai_probability\":0.9997992421456561},{\"sentence\":\"The observed relationships are correlations, not causal proof of what would happen in production.\",\"ai_probability\":0.9997992599253309},{\"sentence\":\"It would be premature to treat the trial as confirmation of a production benefit or to assume that the same balance of latency and memory would hold under untested conditions.\",\"ai_probability\":0.9998003585521513},{\"sentence\":\"The specified rollback condition is a failure rate above 2%.\",\"ai_probability\":0.9998054028198349},{\"sentence\":\"Any further review should keep that condition explicit, while recognizing that a rollback rule neither authorizes deployment nor resolves the limits of the evidence.\",\"ai_probability\":0.9998028211543236},{\"sentence\":\"Approval should remain separate from the interpretation of these preliminary results.\",\"ai_probability\":0.4047228578273572}]}",
+  "truncated": false,
+  "input_verified": true,
+  "transport": "official page WebMCP"
+}
