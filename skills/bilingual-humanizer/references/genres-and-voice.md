@@ -25,6 +25,10 @@ From supplied same-genre samples, infer a small set of usable traits: formality,
 
 User instructions override the sample. Source meaning overrides generic style preferences. A real correction is not required just because it differs from a sample. If the writer's prose is already natural, keep it.
 
+Before composing a substantial rewrite, translate the usable evidence into a brief with a few concrete choices: how the text enters its topic, how closely it speaks to its reader, how it develops a point, and what distinctive choices should survive. Prefer positive observations (`moves from a concrete incident to a qualified opinion`) over inventories of forbidden words. Ground an inferred trait in a supplied span; do not turn a single occurrence into a quota. No sample means no claimed author match.
+
+Apply the brief while drafting, before a generic cleanup pass. Otherwise cleanup can erase the features that a later voice pass is meant to restore. Read the final version as a whole: is it recognizably this kind of message or essay, or has every genre become a cautiously explanatory report? Retain a writer's defensible unevenness, understated view, recurring subject or digression where it serves the piece. Do not perform a generic `human` voice through fragments, confessions, slang or decorative doubt.
+
 Optional preferences may be expressed in ordinary language or as `mode=light|rewrite|review`, `audience=...`, `register=...`, `keep=...`, `avoid=...`, and `length=...`. These are prompt conveniences, not a rigid command parser. Ask about a preference only when necessary to resolve a meaningful conflict.
 
 ## Bilingual documents

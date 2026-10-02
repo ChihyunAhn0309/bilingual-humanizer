@@ -1,0 +1,20 @@
+{
+  "id": "gptzero-en-cache-v15-reviewed",
+  "vendor": "GPTZero",
+  "input_file": "candidates/en-cache-v15-reviewed.txt",
+  "input_sha256": "5413c631b30fc52fccd90f4295221aa451fad428c7e375f0f1ff2c1cb65f9fd9",
+  "submission_sha256": "4310649b7c2514ab9fff27a5d2e69684d1656e8508ef6355798300bd7f8247c8",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:17:44.099Z",
+  "score": 100,
+  "metric": "AI class probability percent",
+  "model": "4o",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t128 text Basic Scan\n\t\t\t\t\t\t353 image\n\t\t\t\t\t\t130 button Share\n\t\t\t\t\t\t\t131 image\n\t\t\t\t\t\t\t132 text Share\n\t\t\t\t\t\t133 button Export\n\t\t\t\t\t\t\t134 image\n\t\t\t\t\t\t\t135 text Export\n\t\t\t\t\t354 container\n\t\t\t\t\t\t355 image\n\t\t\t\t\t\t\t356 text AI\n\t\t\t\t\t\t357 image\n\t\t\t\t\t\t358 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated\n\t\t\t\t\t\t359 text Chance this entire text is...\n\t\t\t\t\t\t360 button AI 100%\n\t\t\t\t\t\t\t361 text AI 100%\n\t\t\t\t\t\t\t362 image\n\t\t\t\t\t\t363 button Mixed 0%\n\t\t\t\t\t\t\t364 text Mixed 0%\n\t\t\t\t\t\t\t365 image\n\t\t\t\t\t\t366 button Human 0%\n\t\t\t\t\t\t\t367 text Human 0%\n\t\t\t\t\t\t\t368 image\n\t\t\t\t\t\t369 radio button 1\n\t\t\t\t\t\t370 radio button 0\n\t\t\t\t\t\t371 radio button 0\n\t\t\t\t\t\t372 heading Your most AI sentences, Value: 6\n\t\t\t\t\t\t\t373 text Your most AI sentences\n\t\t\t\t\t\t374 content list\n\t\t\t\t\t\t\t375 container\n\t\t\t\t\t\t\t\t376 container Low impact\n\t\t\t\t\t\t\t\t\t377 text High AI impact\n\t\t\t\t\t\t\t\t378 container Medium impact\n\t\t\t\t\t\t\t\t\t379 text High AI impact\n\t\t\t\t\t\t\t\t380 container High impact\n\t\t\t\t\t\t\t\t\t381 text High AI impact\n\t\t\t\t\t\t\t\t382 text Whether that memory tradeoff is acceptable depends on the operating environment, and the trial summary alone does not supply the context needed to judge it.\n\t\t\t\t\t\t\t383 container\n\t\t\t\t\t\t\t\t384 container Low impact\n\t\t\t\t\t\t\t\t\t385 text High AI impact\n\t\t\t\t\t\t\t\t386 container Medium impact\n\t\t\t\t\t\t\t\t\t387 text High AI impact\n\t\t\t\t\t\t\t\t388 container High impact\n\t\t\t\t\t\t\t\t\t389 text High AI impact\n\t\t\t\t\t\t\t\t390 text That rule neither authorizes deployment nor resolves the limits of the evidence.\n\t\t\t\t\t\t391 button See your most AI and human sentences\n\t\t\t\t\t\t\t392 image\n\t\t\t\t\t\t\t393 text See your most AI and human sentences\n\t\t\t\t\t\t\t394 image\n\t\t\t\t\t\t395 text What's next?\n\t\t\t\t\t\t396 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t397 image Paul Esau\n\t\t\t\t\t\t\t398 image Wendy Snyder\n\t\t\t\t\t\t\t399 text College Application feedback\n\t\t\t\t\t\t\t400 image\n\t\t\t\t\t\t\t401 text Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t402 image\n\t\t\t\t\t\t403 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t404 image\n\t\t\t\t\t\t\t405 text Guidance for Teachers and reviewers\n\t\t\t\t\t136 text Text up-to-date 1,546 characters • 242 words",
+  "human_percent": 0,
+  "mixed_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI",
+  "displayed_status": "Text up-to-date 1,546 characters • 242 words"
+}

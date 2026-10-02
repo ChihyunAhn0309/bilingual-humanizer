@@ -1,0 +1,20 @@
+{
+  "id": "gptzero-en-cache-detached",
+  "vendor": "GPTZero",
+  "input_file": "detached/en-cache-detached.txt",
+  "input_sha256": "67f84de19e5bce500f22a61ec7cf12f156385ad55e91b321880c0f0e29584175",
+  "submission_sha256": "19669c098a30ab1242b53e946acd771d8f6905771376d4decf1fb24007bc6819",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:12:39.093Z",
+  "score": 100,
+  "metric": "AI class probability percent",
+  "model": "4o",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t128 text Basic Scan\n\t\t\t\t\t\t211 image\n\t\t\t\t\t\t130 button Share\n\t\t\t\t\t\t\t131 image\n\t\t\t\t\t\t\t132 text Share\n\t\t\t\t\t\t133 button Export\n\t\t\t\t\t\t\t134 image\n\t\t\t\t\t\t\t135 text Export\n\t\t\t\t\t212 container\n\t\t\t\t\t\t213 image\n\t\t\t\t\t\t\t214 text AI\n\t\t\t\t\t\t215 image\n\t\t\t\t\t\t216 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated\n\t\t\t\t\t\t217 text Chance this entire text is...\n\t\t\t\t\t\t218 button AI 100%\n\t\t\t\t\t\t\t219 text AI 100%\n\t\t\t\t\t\t\t220 image\n\t\t\t\t\t\t221 button Mixed 0%\n\t\t\t\t\t\t\t222 text Mixed 0%\n\t\t\t\t\t\t\t223 image\n\t\t\t\t\t\t224 button Human 0%\n\t\t\t\t\t\t\t225 text Human 0%\n\t\t\t\t\t\t\t226 image\n\t\t\t\t\t\t227 radio button 1\n\t\t\t\t\t\t228 radio button 0\n\t\t\t\t\t\t229 radio button 0\n\t\t\t\t\t\t230 heading Your most AI sentences, Value: 6\n\t\t\t\t\t\t\t231 text Your most AI sentences\n\t\t\t\t\t\t232 content list\n\t\t\t\t\t\t\t233 container\n\t\t\t\t\t\t\t\t234 container Low impact\n\t\t\t\t\t\t\t\t\t235 text High AI impact\n\t\t\t\t\t\t\t\t236 container Medium impact\n\t\t\t\t\t\t\t\t\t237 text High AI impact\n\t\t\t\t\t\t\t\t238 container High impact\n\t\t\t\t\t\t\t\t\t239 text High AI impact\n\t\t\t\t\t\t\t\t240 text Anyone presenting or reviewing performance should keep these findings together: a latency-only account leaves out the memory rise and gives an incomplete basis for the next decision.\n\t\t\t\t\t\t\t241 container\n\t\t\t\t\t\t\t\t242 container Low impact\n\t\t\t\t\t\t\t\t\t243 text High AI impact\n\t\t\t\t\t\t\t\t244 container Medium impact\n\t\t\t\t\t\t\t\t\t245 text High AI impact\n\t\t\t\t\t\t\t\t246 container High impact\n\t\t\t\t\t\t\t\t\t247 text High AI impact\n\t\t\t\t\t\t\t\t248 text The latency reduction merits further evaluation, with the memory increase counted as an accompanying cost.\n\t\t\t\t\t\t249 button See your most AI and human sentences\n\t\t\t\t\t\t\t250 image\n\t\t\t\t\t\t\t251 text See your most AI and human sentences\n\t\t\t\t\t\t\t252 image\n\t\t\t\t\t\t253 text What's next?\n\t\t\t\t\t\t254 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t255 image Paul Esau\n\t\t\t\t\t\t\t256 image Wendy Snyder\n\t\t\t\t\t\t\t257 text College Application feedback\n\t\t\t\t\t\t\t258 image\n\t\t\t\t\t\t\t259 text Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t260 image\n\t\t\t\t\t\t261 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t262 image\n\t\t\t\t\t\t\t263 text Guidance for Teachers and reviewers\n\t\t\t\t\t136 text Text up-to-date 1,638 characters • 246 words",
+  "human_percent": 0,
+  "mixed_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI",
+  "displayed_status": "Text up-to-date 1,638 characters • 246 words"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "quillbot-ko-cache-v15",
+  "vendor": "QuillBot",
+  "input_file": "candidates/ko-cache-v15.txt",
+  "input_sha256": "ef370e9efbb47816d376aca071628bf333a940dd9e68bed3a19daf299aeb8b95",
+  "submission_sha256": "1073dc8c044e0f3943e0d1da5db654e7423ff475efd52a00dacc66f0d73b53dc",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:16:07.258Z",
+  "score": 0,
+  "metric": "words likely AI-generated percent",
+  "model": "6.2.1",
+  "status": "completed",
+  "raw_receipt": "Detect AI\n0\n%\nof text is likely AI\nAI-generated\n0%\nHuman-written & AI-refined\n0%\nHuman-written\n100%\nModel v6.2.1\nDownload report\nWant more authentic text?\nRefine with Paraphraser\nCheck for plagiarism\n\nHappy with the score? Now ensure it’s original...\n\nNever rely on AI detection alone to make decisions that could impact someone's career or academic standing.\nYou’ve got 5 AI scans left today\nUpgrade for more",
+  "human_percent": 100,
+  "ai_refined_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated free web UI",
+  "receipt_contains_input": false
+}

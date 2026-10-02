@@ -8,7 +8,9 @@
 
 [편집 가능한 PowerPoint](docs/assets/workflow.pptx) · [그림 구도 초안](docs/assets/composition-draft.png) · [도식 검증](docs/figure-evidence/render-review.md). 도식은 요청받은 [paper-figure](https://github.com/JYS1025/paper-figure) 스킬의 전체 이미지 초안 → 네이티브 도형 재구성 → 저장 파일 검증 절차로 만들었습니다. 선택적인 탐지기 피드백을 다음 검토에 반영하는 과정은 스킬 본문에 설명합니다.
 
-## v1.4에서 보강한 기능
+## v1.5에서 보강한 기능
+
+독자·목적·거리감·실제 문체 특징을 먼저 정합니다. 반복 지시를 행위자·행위·대상·시점·강도로 비교하고, 문장의 기능을 실제 주장에 흡수하는 방법을 보강했습니다. 추상적인 한국어 술어와 영어 메타 설명도 문장 전체에서 다시 구성합니다.
 
 단어만 바꾸지 않고 원문의 사실·조건·의견·독자에게 요구하는 행동을 먼저 정리합니다. 이 의미 단위에서 정보 순서를 정하고 문단을 새로 씁니다. 측정값과 직접적인 한계가 멀어지지 않도록 함께 묶고, 같은 사실을 반복하는 검토·안내 지시는 주체와 의무 강도를 유지하면서 정리합니다.
 
@@ -17,6 +19,14 @@
 `im-not-ai`도 추가로 조사해 반복되는 대조·당위 결말, 대명사의 지칭 대상, 윤문 중 새로 생기는 상투구와 격식 상승을 문맥에서 점검하도록 보강했습니다. 고정 변경률이나 문장 길이 목표는 적용하지 않습니다.
 
 이 변경은 재작성 방법의 보강입니다. 기본 수정 한도는 3회로 유지합니다. 사실 보존과 독자 관점 검토는 별도로 수행하고, 허용된 독립 세션 검토는 실제 실행 여부를 기록합니다.
+
+## v1.5 실제 결과
+
+한국어 기술 문서에서 QuillBot AI 92%→0%, GPTZero AI 100%→79%의 개선을 확인했습니다. 그러나 한국어 도서관 글은 GPTZero AI 11%→32%로 악화됐고, 의미를 보정한 영어 기술 문서는 Sapling 93%→94.6%, QuillBot 0%→24%로 악화됐습니다. **여러 탐지기에서 대부분 인간 작성으로 판정된다는 목표는 미달입니다.**
+
+새 원문 두 개의 비교에서도 탐지 성능 개선을 입증하지 못했습니다. 블라인드 모델 검토는 작은 차이로 여섯 사례 중 다섯 사례에서 v1.4를 선호했습니다. [전체 실험 보고서](benchmarks/2026-10-02-v15/REPORT.md)에 개선·악화·추가 작성 방식의 실패와 최종 입력 해시를 모두 공개했습니다. 영어 기술 문서의 Sapling 88.2%는 의미 보정 전 후보의 결과이며 최종본 점수가 아닙니다.
+
+![탐지기별 v1.4와 v1.5 개발 사례 비교](docs/assets/detector-v15-comparison.png)
 
 ## 설치와 사용
 
@@ -54,6 +64,7 @@ python -m unittest discover -s skills/bilingual-humanizer/evals -p 'test_*.py'
 
 이 검사는 숫자·단위 등 보존 검사와 탐지 보고서 일관성 검사입니다. 실제 탐지기를 실행하거나 글의 자연스러움을 자동으로 입증하는 테스트는 아닙니다.
 
-영·한 humanizer 11개를 커밋 단위로 조사했습니다. [출처와 설계 판단](skills/bilingual-humanizer/references/research-sources.md), [정확한 소스 목록](skills/bilingual-humanizer/references/skill-sources.json)을 확인할 수 있습니다. 새로 작성한 스킬과 예제는 MIT 라이선스이며, 참고한 외부 스킬 소스는 재배포하지 않습니다.
+humanizer 관련 저장소 19개를 커밋 단위로 조사했습니다. 파생 저장소와 러시아어 비교 자료가 포함되므로 독립적인 영·한 방법 19개라는 뜻은 아닙니다. [출처와 설계 판단](skills/bilingual-humanizer/references/research-sources.md), [정확한 소스 목록](skills/bilingual-humanizer/references/skill-sources.json), [추가 자료 비교](skills/bilingual-humanizer/references/v15-reference-review.md)를 확인할 수 있습니다. 새로 작성한 스킬과 예제는 MIT 라이선스이며, 참고한 외부 스킬 소스는 재배포하지 않습니다.
 
 ![상용 탐지기별 실제 관측값](docs/assets/detector-observations.png)
+

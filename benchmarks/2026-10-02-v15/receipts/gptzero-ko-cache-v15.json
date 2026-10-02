@@ -1,0 +1,20 @@
+{
+  "id": "gptzero-ko-cache-v15",
+  "vendor": "GPTZero",
+  "input_file": "candidates/ko-cache-v15.txt",
+  "input_sha256": "ef370e9efbb47816d376aca071628bf333a940dd9e68bed3a19daf299aeb8b95",
+  "submission_sha256": "1073dc8c044e0f3943e0d1da5db654e7423ff475efd52a00dacc66f0d73b53dc",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:11:46.701Z",
+  "score": 79,
+  "metric": "AI class probability percent",
+  "model": "4.1m",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t128 text Basic Scan\n\t\t\t\t\t\t284 image\n\t\t\t\t\t\t130 button Share\n\t\t\t\t\t\t\t131 image\n\t\t\t\t\t\t\t132 text Share\n\t\t\t\t\t\t133 button Export\n\t\t\t\t\t\t\t134 image\n\t\t\t\t\t\t\t135 text Export\n\t\t\t\t\t275 container\n\t\t\t\t\t\t285 image\n\t\t\t\t\t\t\t310 text AI\n\t\t\t\t\t\t286 image\n\t\t\t\t\t\t311 text GPTZero AI Detection Model  4.1m We are moderately confident this text was AI generated\n\t\t\t\t\t\t287 text Chance this entire text is...\n\t\t\t\t\t\t288 button AI 79%\n\t\t\t\t\t\t\t312 text AI 79%\n\t\t\t\t\t\t\t289 image\n\t\t\t\t\t\t290 button Mixed 1%\n\t\t\t\t\t\t\t313 text Mixed 1%\n\t\t\t\t\t\t\t291 image\n\t\t\t\t\t\t292 button Human 20%\n\t\t\t\t\t\t\t314 text Human 20%\n\t\t\t\t\t\t\t293 image\n\t\t\t\t\t\t294 radio button 1\n\t\t\t\t\t\t295 radio button 0\n\t\t\t\t\t\t296 radio button 0\n\t\t\t\t\t\t297 heading Your most AI sentences, Value: 6\n\t\t\t\t\t\t\t315 text Your most AI sentences\n\t\t\t\t\t\t316 content list\n\t\t\t\t\t\t\t317 container\n\t\t\t\t\t\t\t\t318 container Low impact\n\t\t\t\t\t\t\t\t\t319 text High AI impact\n\t\t\t\t\t\t\t\t320 container Medium impact\n\t\t\t\t\t\t\t\t\t321 text High AI impact\n\t\t\t\t\t\t\t\t322 container High impact\n\t\t\t\t\t\t\t\t\t323 text High AI impact\n\t\t\t\t\t\t\t\t324 text 롤백 기준이 배포 승인을 대신하거나 시험 범위의 한계를 해결해 주지는 않는다.\n\t\t\t\t\t\t\t325 container\n\t\t\t\t\t\t\t\t326 container Low impact\n\t\t\t\t\t\t\t\t\t327 text High AI impact\n\t\t\t\t\t\t\t\t328 container Medium impact\n\t\t\t\t\t\t\t\t\t329 text High AI impact\n\t\t\t\t\t\t\t\t330 container High impact\n\t\t\t\t\t\t\t\t\t331 text High AI impact\n\t\t\t\t\t\t\t\t332 text 지정된 롤백 조건은 실패율이 2%를 초과하는 경우이며 후속 검토에서도 이 기준을 명시해야 한다.\n\t\t\t\t\t\t298 button See your most AI and human sentences\n\t\t\t\t\t\t\t299 image\n\t\t\t\t\t\t\t333 text See your most AI and human sentences\n\t\t\t\t\t\t\t300 image\n\t\t\t\t\t\t334 text What's next?\n\t\t\t\t\t\t301 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t302 image Paul Esau\n\t\t\t\t\t\t\t303 image Wendy Snyder\n\t\t\t\t\t\t\t335 text College Application feedback\n\t\t\t\t\t\t\t304 image\n\t\t\t\t\t\t\t336 text Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t305 image\n\t\t\t\t\t\t306 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t307 image\n\t\t\t\t\t\t\t337 text Guidance for Teachers and reviewers\n\t\t\t\t\t136 text Text up-to-date 895 characters • 215 words",
+  "human_percent": 20,
+  "mixed_percent": 1,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI",
+  "displayed_status": "Text up-to-date 895 characters • 215 words"
+}

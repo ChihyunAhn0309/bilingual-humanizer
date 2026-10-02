@@ -1,0 +1,18 @@
+{
+  "id": "sapling-en-cache-detached",
+  "vendor": "Sapling",
+  "input_file": "detached/en-cache-detached.txt",
+  "input_sha256": "67f84de19e5bce500f22a61ec7cf12f156385ad55e91b321880c0f0e29584175",
+  "submission_sha256": "19669c098a30ab1242b53e946acd771d8f6905771376d4decf1fb24007bc6819",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:04:39.590Z",
+  "score": 93,
+  "metric": "AI probability percent",
+  "model": "not exposed",
+  "status": "completed",
+  "raw_receipt": "{\"ai_probability_percent\":93,\"truncated\":false,\"sentence_scores\":[{\"sentence\":\"Across 48 runs in the fictional software cache trial, median latency fell from 120ms to 90ms while memory use rose from 256MB to 288MB.\",\"ai_probability\":0.9997868341023188},{\"sentence\":\"The latency reduction merits further evaluation, with the memory increase counted as an accompanying cost.\",\"ai_probability\":0.9997807845812767},{\"sentence\":\"Anyone presenting or reviewing performance should keep these findings together: a latency-only account leaves out the memory rise and gives an incomplete basis for the next decision.\",\"ai_probability\":0.9997830509269798},{\"sentence\":\"The median does not describe every run, and the supplied figures contain no full distribution of results.\",\"ai_probability\":0.9997712093070642},{\"sentence\":\"Reviewers should therefore make no assumptions about consistency or unusual runs.\",\"ai_probability\":0.9997717094494918},{\"sentence\":\"The memory increase establishes a tradeoff, but deciding whether that cost is acceptable requires relevant operating context that the trial summary does not provide.\",\"ai_probability\":0.9997839240609487},{\"sentence\":\"No mobile clients were tested, so their behavior remains unresolved.\",\"ai_probability\":0.9997879534677985},{\"sentence\":\"More broadly, the observed relationships are correlations, not causal proof of production outcomes.\",\"ai_probability\":0.9997834244821098},{\"sentence\":\"The trial does not confirm a production benefit or establish that the same latency and memory balance would hold under untested conditions.\",\"ai_probability\":0.999787125065827},{\"sentence\":\"Conclusions should stay within the scope examined.\",\"ai_probability\":0.9997862936140031},{\"sentence\":\"The next decision should weigh both measured changes within those limits.\",\"ai_probability\":0.9997892234628455},{\"sentence\":\"These preliminary measurements support discussion of the trial but cannot settle implementation questions on their own.\",\"ai_probability\":0.9997896915042525},{\"sentence\":\"No rollout has been approved, and a favorable reading of the results must not count as permission to deploy.\",\"ai_probability\":0.9997916367665686},{\"sentence\":\"Further reviews of the proposed change should explicitly retain the specified rollback trigger: a failure rate above 2%.\",\"ai_probability\":0.9873951035130547},{\"sentence\":\"The rule neither authorizes deployment nor fills the gaps in the evidence.\",\"ai_probability\":0.980621793530238}]}",
+  "truncated": false,
+  "transport": "page WebMCP",
+  "input_verified": true,
+  "experiment": "additional adaptive detached-composition trial"
+}

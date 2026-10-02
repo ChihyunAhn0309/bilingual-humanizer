@@ -1,0 +1,17 @@
+{
+  "id": "sapling-en-holdout-v15",
+  "vendor": "Sapling",
+  "input_file": "candidates/en-holdout-v15.txt",
+  "input_sha256": "fbdd47acd41c2b22acbbb36d5d1d70d013a981a802a91a32e4236d9e76a5f041",
+  "submission_sha256": "c18adaf06b842e64ce908283ca3e5b4f6ec06ffe42d92512ceaca746c7c2ffd0",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T07:56:01.734Z",
+  "score": 99.9,
+  "metric": "AI probability percent",
+  "model": "not exposed",
+  "status": "completed",
+  "raw_receipt": "{\"ai_probability_percent\":99.9,\"truncated\":false,\"sentence_scores\":[{\"sentence\":\"Why our repair table now starts with a question\",\"ai_probability\":0.9964998715777814},{\"sentence\":\"At Saturday's courtyard repair table, we used to start by opening whatever someone brought.\",\"ai_probability\":0.9985926475157094},{\"sentence\":\"That felt efficient until we spent most of a morning taking apart a desk lamp whose owner mainly wanted a longer cable.\",\"ai_probability\":0.9997084257459623},{\"sentence\":\"This month, organizer Lena Ortiz introduced a short intake conversation.\",\"ai_probability\":0.9996820306291059},{\"sentence\":\"Before starting work, volunteers ask what the object used to do, what changed, and what a useful result would look like.\",\"ai_probability\":0.999752943684288},{\"sentence\":\"In our first 90 minutes, we accepted 12 items and set aside three that needed specialist tools.\",\"ai_probability\":0.9995733556044057},{\"sentence\":\"According to Lena's handwritten tally, we left more jobs unfinished at the previous session.\",\"ai_probability\":0.9996542780562826},{\"sentence\":\"Attendance was higher then, though, so the comparison is imperfect.\",\"ai_probability\":0.9995209772271962},{\"sentence\":\"If you are bringing something along, include its loose parts and tell us about the last time it worked.\",\"ai_probability\":0.9993425612866376},{\"sentence\":\"You do not need to diagnose the fault.\",\"ai_probability\":0.9995578580554627},{\"sentence\":\"A photograph showing how the item fits into your home can also explain why even an apparently simple replacement would be inconvenient.\",\"ai_probability\":0.9997605857218452},{\"sentence\":\"My favorite change is that the owner's frustration now counts as useful information.\",\"ai_probability\":0.9997214505426878},{\"sentence\":\"Repair is often described as rescuing objects from waste.\",\"ai_probability\":0.9996398023265145},{\"sentence\":\"Sometimes it starts with rescuing a person from advice that solves the wrong problem.\",\"ai_probability\":0.9995888406018223}]}",
+  "truncated": false,
+  "transport": "page WebMCP",
+  "input_verified": true
+}

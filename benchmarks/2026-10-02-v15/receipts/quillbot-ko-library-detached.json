@@ -1,0 +1,21 @@
+{
+  "id": "quillbot-ko-library-detached",
+  "vendor": "QuillBot",
+  "input_file": "detached/ko-library-detached.txt",
+  "input_sha256": "2667cd979164c446d07b3e5c252327aa4f455181fc819bdecedf98724c60fc92",
+  "submission_sha256": "5b2970cb5d195d1a61646b23a06393770de1dc0225ab7b7f77c914e4a7db819a",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:14:19.410Z",
+  "score": 72,
+  "metric": "words likely AI-generated percent",
+  "model": "6.2.1",
+  "status": "completed",
+  "raw_receipt": "Detect AI\n72\n%\nof text is likely AI\nAI-generated\n72%\nHuman-written & AI-refined\n0%\nHuman-written\n28%\nModel v6.2.1\nDownload report\nWant more authentic text?\nRefine with Paraphraser\nCheck for plagiarism\n\nHappy with the score? Now ensure it’s original...\n\nNever rely on AI detection alone to make decisions that could impact someone's career or academic standing.\nYou’ve got 6 AI scans left today\nUpgrade for more",
+  "human_percent": 28,
+  "ai_refined_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated free web UI",
+  "receipt_contains_input": false,
+  "experiment": "additional adaptive detached-composition trial"
+}

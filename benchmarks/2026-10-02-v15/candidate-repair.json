@@ -1,0 +1,12 @@
+{
+  "source_candidate": "candidates/en-cache-v15.txt",
+  "final_candidate": "candidates/en-cache-v15-reviewed.txt",
+  "before_sha256": "7a40c46f9eb52cc99e487ef06c4fda5ce7b31889fa9484265617e04df906fcdc",
+  "after_sha256": "5413c631b30fc52fccd90f4295221aa451fad428c7e375f0f1ff2c1cb65f9fd9",
+  "reason": "Blind review identified mild broadening of the original caution: claim versus confirmation. Root restores confirmation wording. This is an adaptive development repair after initial scores; the earlier candidate and receipts remain separately reported.",
+  "change": {
+    "before": "It is too early to claim a production benefit",
+    "after": "It is too early to treat the trial as confirmation of a production benefit"
+  },
+  "additional_revision_cycles": 1
+}

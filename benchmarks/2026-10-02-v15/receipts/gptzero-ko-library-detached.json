@@ -1,0 +1,20 @@
+{
+  "id": "gptzero-ko-library-detached",
+  "vendor": "GPTZero",
+  "input_file": "detached/ko-library-detached.txt",
+  "input_sha256": "2667cd979164c446d07b3e5c252327aa4f455181fc819bdecedf98724c60fc92",
+  "submission_sha256": "5b2970cb5d195d1a61646b23a06393770de1dc0225ab7b7f77c914e4a7db819a",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:13:43.004Z",
+  "score": 22,
+  "metric": "AI class probability percent",
+  "model": "4.1m",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t128 text Basic Scan\n\t\t\t\t\t\t274 image\n\t\t\t\t\t\t130 button Share\n\t\t\t\t\t\t\t131 image\n\t\t\t\t\t\t\t132 text Share\n\t\t\t\t\t\t133 button Export\n\t\t\t\t\t\t\t134 image\n\t\t\t\t\t\t\t135 text Export\n\t\t\t\t\t275 container\n\t\t\t\t\t\t276 image\n\t\t\t\t\t\t\t277 text human\n\t\t\t\t\t\t278 image\n\t\t\t\t\t\t279 text GPTZero AI Detection Model  4.1m We are moderately confident this text is entirely human\n\t\t\t\t\t\t280 text Chance this entire text is...\n\t\t\t\t\t\t281 button AI 22%\n\t\t\t\t\t\t\t282 text AI 22%\n\t\t\t\t\t\t\t283 image\n\t\t\t\t\t\t284 button Mixed 0%\n\t\t\t\t\t\t\t285 text Mixed 0%\n\t\t\t\t\t\t\t286 image\n\t\t\t\t\t\t287 button Human 78%\n\t\t\t\t\t\t\t288 text Human 78%\n\t\t\t\t\t\t\t289 image\n\t\t\t\t\t\t290 button See sentence highlighting\n\t\t\t\t\t\t\t291 image\n\t\t\t\t\t\t\t292 text See sentence highlighting\n\t\t\t\t\t\t\t293 image\n\t\t\t\t\t\t294 image Paul Esau\n\t\t\t\t\t\t295 image Wendy Snyder\n\t\t\t\t\t\t296 text Get a grade and feedback\n\t\t\t\t\t\t297 text Built by writing experts\n\t\t\t\t\t\t298 button Get Feedback\n\t\t\t\t\t\t299 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t300 image\n\t\t\t\t\t\t\t301 text Guidance for Teachers and reviewers\n\t\t\t\t\t136 text Text up-to-date 929 characters • 238 words",
+  "human_percent": 78,
+  "mixed_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI",
+  "displayed_status": "Text up-to-date 929 characters • 238 words"
+}

@@ -10,8 +10,10 @@ The default is active rewriting: reorganize paragraphs, recast sentences, preser
 
 [Editable PowerPoint](docs/assets/workflow.pptx) · [Design draft](docs/assets/composition-draft.png) · [Figure validation](docs/figure-evidence/render-review.md). The diagram was created using [JYS1025/paper-figure](https://github.com/JYS1025/paper-figure). External findings can inform another editorial review; that optional return path is described in the skill rather than drawn in this overview.
 
-## What changed in v1.4
+## What changed in v1.5
 
+- Establish a positive editorial brief before cleanup; consolidate repeated functions without preserving each staging sentence.
+- Compare repeated instructions by actor, action, object, occasion and force; recompose abstract predicates in each language.
 - Compose paragraphs from a map of facts, qualifications, opinions and reader actions, instead of following the original sentence skeleton.
 - Keep dependent claims together: a measured median stays near its missing-distribution limitation; a proposal stays near its approval status.
 - Combine repeated framing while preserving distinct review, notice and approval instructions.
@@ -45,6 +47,12 @@ Review this text without rewriting it. Point to specific awkward passages.
 
 For requested detector checks, supply usable service access or existing reports. The skill does not bundle vendor accounts, API clients, or a paid subscription. It records per-service settings, input hashes, scope and receipts. Missing, stale, unsupported or blocked results are never counted as passed.
 
+## v1.5 measured outcome
+
+The Korean technical development memo improved from 92% to 0% AI in QuillBot and from 100% to 79% AI in GPTZero. Other results worsened: the Korean library memo rose from 11% to 32% AI in GPTZero; the final English technical memo rose from 93% to 94.6% in Sapling and from 0% to 24% in QuillBot. **Broad detector acceptance has not been achieved.**
+
+Two fresh paired texts did not demonstrate a detector improvement, and blind model review slightly preferred v1.4 in five of six cases. Read the [complete v1.5 experiment](benchmarks/2026-10-02-v15/REPORT.md), including final-text hashes, all regressions and the unsuccessful detached-composition trial. The earlier 88.2% Sapling result belongs to a candidate before a fidelity repair, not the final text.
+
 ## Evidence and limits
 
 The repository includes synthetic source texts, frozen rewrites, real commercial detector observations, review records and reproducible local checks. The small development smoke test is **not an accuracy benchmark or a guarantee of detector acceptance**. All trial texts—including the rewrites—were AI-produced. There is no human-authored control, representative sampling, or human/cross-model validation.
@@ -60,8 +68,10 @@ python -m unittest discover -s skills/bilingual-humanizer/evals -p 'test_*.py'
 
 The preservation helper finds surface changes, not semantic truth. `check_detector_report.py` checks report consistency and hashes; it makes no external calls and cannot authenticate a receipt. See its [report format](skills/bilingual-humanizer/references/detector-report-format.md).
 
-![Observed commercial results](docs/assets/detector-observations.png)
+![Observed v1.5 development comparisons](docs/assets/detector-v15-comparison.png)
+
+[Earlier v1.4 chart](docs/assets/detector-observations.png)
 
 ## Sources and license
 
-Eleven upstream English/Korean humanizer skills were inspected at recorded commits. The [source manifest](skills/bilingual-humanizer/references/skill-sources.json) and [research notes](skills/bilingual-humanizer/references/research-sources.md) distinguish adopted ideas from rejected assumptions. Newly written instructions and examples are licensed under MIT. Referenced third-party skills are not redistributed. Vendor screenshots and outputs are test evidence and retain their respective rights. See [THIRD_PARTY.md](THIRD_PARTY.md).
+Nineteen upstream repositories (including related forks and one Russian comparison reference) were inspected at recorded commits. They are not nineteen independent methods or validations. The [source manifest](skills/bilingual-humanizer/references/skill-sources.json) and [research notes](skills/bilingual-humanizer/references/research-sources.md) distinguish adopted ideas from rejected assumptions. Newly written instructions and examples are licensed under MIT. Referenced third-party skills are not redistributed. Vendor screenshots and outputs are test evidence and retain their respective rights. See [THIRD_PARTY.md](THIRD_PARTY.md).

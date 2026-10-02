@@ -1,0 +1,20 @@
+{
+  "id": "quillbot-ko-library-v15",
+  "vendor": "QuillBot",
+  "input_file": "candidates/ko-library-v15.txt",
+  "input_sha256": "5353777baf4a2c92cdccb7e772ab97b8cb8d7da7a7e2a1d43a599edb816055bd",
+  "submission_sha256": "1105129349701f6d4cba9bc35c57ccb6a9761112b392183d6dcc8f2eef949f64",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:07:11.029Z",
+  "score": 77,
+  "metric": "words likely AI-generated percent",
+  "model": "6.2.1",
+  "status": "completed",
+  "raw_receipt": "Detect AI\n77\n%\nof text is likely AI\nAI-generated\n77%\nHuman-written & AI-refined\n0%\nHuman-written\n23%\nModel v6.2.1\nDownload report\nWant more authentic text?\nRefine with Paraphraser\nCheck for plagiarism\n\nHappy with the score? Now ensure it’s original...\n\nNever rely on AI detection alone to make decisions that could impact someone's career or academic standing.\nNo free AI scans left today\nYou get 7 free AI scans each day. Upgrade to Premium to scan more.\nUpgrade",
+  "human_percent": 23,
+  "ai_refined_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated free web UI",
+  "receipt_contains_input": false
+}

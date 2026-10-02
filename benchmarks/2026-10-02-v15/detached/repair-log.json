@@ -1,0 +1,35 @@
+{
+  "basis": "Independent review plus root modality check; before any detached detector scan",
+  "records": [
+    {
+      "file": "en-cache-detached.txt",
+      "before_sha256": "86658368387dcfb7f225b3268c75cba26f1502f0f5b6bfb827ac3cc801da4851",
+      "after_sha256": "67f84de19e5bce500f22a61ec7cf12f156385ad55e91b321880c0f0e29584175",
+      "changes": [
+        [
+          "conceals the memory rise",
+          "leaves out the memory rise"
+        ],
+        [
+          "consistency, repeatability, or unusual runs",
+          "consistency or unusual runs"
+        ]
+      ]
+    },
+    {
+      "file": "ko-library-detached.txt",
+      "before_sha256": "c22ae88ed51f14ad2f654c5b18a9c0bd3b6f0123c5c4d4db7d7f3b19b0c4570e",
+      "after_sha256": "2667cd979164c446d07b3e5c252327aa4f455181fc819bdecedf98724c60fc92",
+      "changes": [
+        [
+          "운영안을 검토할 때는 이번 시범과 향후 상시 운영 논의를 구별해야 한다.",
+          "운영안을 검토할 때는 이번 시범과 향후 상시 운영 논의를 구별할 필요가 있다."
+        ],
+        [
+          "현재 자료에는 연장 개관이 방문 증가를 일으킨다는 인과적 근거가 없으며, 그렇다고 방문이 늘지 않는다고 입증된 것도 아니다.",
+          "현재 자료에는 연장 개관이 방문 증가를 일으킨다는 인과적 근거가 없다."
+        ]
+      ]
+    }
+  ]
+}

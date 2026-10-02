@@ -46,9 +46,9 @@ Source:
 
 Rewrite:
 
-> In 48 trials, our team evaluated the cache and found that median response time fell from 120 ms to 90 ms after the change. These results show the approach's strong potential. The trials excluded mobile clients, so the result should not be generalized to them.
+> Our team's 48 cache trials show the approach's strong potential: median response time fell from 120 ms to 90 ms after the change. Mobile clients were excluded, so the result should not be generalized to them.
 
-This retains the author's positive evaluation and limitation while simplifying the framing. It does not change `median` to `average`, claim statistical significance, invent user benefits, or extrapolate to mobile clients. Evaluations need not disappear just because they are enthusiastic; preserve an actual stance without strengthening its evidentiary basis.
+This integrates the author's positive evaluation into the result instead of keeping a second sentence that comments on it. It does not change `median` to `average`, claim statistical significance, invent user benefits, or extrapolate to mobile clients. Evaluations need not disappear just because they are enthusiastic; preserve an actual stance without strengthening its evidentiary basis. The colon is optional, not a style template.
 
 ## Keep when already effective
 

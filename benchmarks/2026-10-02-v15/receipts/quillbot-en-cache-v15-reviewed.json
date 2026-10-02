@@ -1,0 +1,21 @@
+{
+  "id": "quillbot-en-cache-v15-reviewed",
+  "vendor": "QuillBot",
+  "input_file": "candidates/en-cache-v15-reviewed.txt",
+  "input_sha256": "5413c631b30fc52fccd90f4295221aa451fad428c7e375f0f1ff2c1cb65f9fd9",
+  "submission_sha256": "4310649b7c2514ab9fff27a5d2e69684d1656e8508ef6355798300bd7f8247c8",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:19:49.197Z",
+  "score": 24,
+  "metric": "words likely AI-generated percent",
+  "model": "7.1.0",
+  "status": "completed",
+  "raw_receipt": "Detect AI\n24\n%\nof text is likely AI\nAI-generated\n24%\nHuman-written & AI-refined\n0%\nHuman-written\n76%\nModel v7.1.0\nDownload report\nWant more authentic text?\nRefine with Paraphraser\nCheck for plagiarism\n\nHappy with the score? Now ensure it’s original...\n\nNever rely on AI detection alone to make decisions that could impact someone's career or academic standing.\nYou’ve got 3 AI scans left today\nUpgrade for more",
+  "human_percent": 76,
+  "ai_refined_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated free web UI",
+  "receipt_contains_input": false,
+  "experiment": "final English cache after fidelity repair"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sapling-en-library-v15",
+  "vendor": "Sapling",
+  "input_file": "candidates/en-library-v15.txt",
+  "input_sha256": "2199f22d9182bae87623769c6ca5a1da00d05dfeb75fb8467ebed27402d61235",
+  "submission_sha256": "ef71beb8b66d5ac3d08b5d1f4bfb47303012de840bd032393747d39595308f33",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T07:55:29.165Z",
+  "score": 94.6,
+  "metric": "AI probability percent",
+  "model": "not exposed",
+  "status": "completed",
+  "raw_receipt": "{\"ai_probability_percent\":94.6,\"truncated\":false,\"sentence_scores\":[{\"sentence\":\"The proposed community library pilot would extend opening hours until 20:00 on Tuesday and Thursday evenings for 6 weeks.\",\"ai_probability\":0.997821556662036},{\"sentence\":\"It would be temporary and would not establish permanent policy.\",\"ai_probability\":0.998046831564709},{\"sentence\":\"Any discussion of future hours should keep a permanent change separate from the pilot.\",\"ai_probability\":0.9997938110240897},{\"sentence\":\"Volunteer availability remains unresolved and needs attention before the proposal can be considered a workable plan.\",\"ai_probability\":0.9997897825156125},{\"sentence\":\"It is a practical constraint on evening opening, not a detail to settle after the pilot begins.\",\"ai_probability\":0.9997958013435613},{\"sentence\":\"A decision can acknowledge interest in later hours while still requiring clarity about volunteer coverage.\",\"ai_probability\":0.9997946236785034},{\"sentence\":\"The quiet room would retain its capacity of 12 regardless of the longer hours.\",\"ai_probability\":0.9997527202414271},{\"sentence\":\"Descriptions of what the pilot could offer should account for that limit, and communications about the proposal should distinguish the hours of access to the building from the space available for quiet use.\",\"ai_probability\":0.9997486449902482},{\"sentence\":\"The library received 42 feedback forms: 28 support later hours, 9 prefer the current schedule, and 5 express no preference.\",\"ai_probability\":0.9997915581454738},{\"sentence\":\"This distribution offers a useful starting point for the review, which should consider support for later opening alongside the reasons some respondents would keep the current schedule.\",\"ai_probability\":0.9998018452774858},{\"sentence\":\"Neither group can be assumed to speak for everyone, and the forms do not give a complete picture of library users' needs.\",\"ai_probability\":0.9997943595709795},{\"sentence\":\"Support on a form expresses a preference; it does not demonstrate a resulting visit.\",\"ai_probability\":0.9993505590270356},{\"sentence\":\"The available information does not establish that longer opening hours cause attendance to rise.\",\"ai_probability\":0.9981809583865375},{\"sentence\":\"That limitation should remain clear when the review weighs the proposal.\",\"ai_probability\":0.996032735911908}]}",
+  "truncated": false,
+  "transport": "page WebMCP",
+  "input_verified": true
+}

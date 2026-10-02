@@ -4,6 +4,8 @@ Use this for active rewriting of substantial or formulaic prose. It changes how 
 
 ## 1. Separate meaning from its packaging
 
+First set a small **editorial brief**: who is reading, what this text does for them, how directly the writer addresses them, and which source-backed voice traits matter. For example, a formal internal explanation can be direct and matter-of-fact without becoming a chatty note or inventing `we`. An essay may retain a hesitant personal judgment; an announcement may simply put the reader's practical question first. Choose these positive qualities before checking for unwanted phrases. With no author sample, use the source's stance and the genre; do not invent a persona.
+
 Build a compact working map of the source. For each distinct point, retain:
 
 - the proposition and its actor, object, time and scope;
@@ -12,6 +14,10 @@ Build a compact working map of the source. For each distinct point, retain:
 - its reader function, when that is substantive: reassurance, caution, contrast, navigation, accountability or emphasis.
 
 Group genuinely repeated propositions. A single clear expression can cover several occurrences, but two superficially similar sentences can do different jobs. A limitation and a request to communicate that limitation are separate. Keep both, possibly in one sentence. An enthusiastic opinion is content even without quantitative support. Do not delete it as filler or upgrade it to evidence.
+
+**A preserved function does not require a preserved sentence.** Decide whether each piece of framing needs (a) its own sentence, (b) integration into an actual claim or action, or (c) no additional wording because the finished passage already performs that same function. A memo that directly reviews the supplied feedback usually need not also say `This memo reviews the feedback`. Preserve a special purpose, audience, status, attribution or disclaimer carried by that sentence in the relevant passage. Do not use this rule to drop an actual request, opinion, rationale or promise.
+
+Consolidate repeated instructions by comparing **actor / action / object / occasion / force**. If two instructions differ only by occasion, one statement can explicitly cover both occasions. If they differ by action or force, retain both verbs and their original modality while sharing the object. A repeated rationale can be expressed once with the instruction it supports. This is semantic consolidation, not permission to summarize away distinct points.
 
 For example, `The review must distinguish the temporary arrangement from permanent policy. The notice must also explain that distinction.` can become `Both the review and the notice must distinguish the temporary arrangement from permanent policy.` The two audiences and the obligation survive. Merely saying `The arrangement is temporary` loses both instructions.
 
@@ -57,6 +63,10 @@ If a long draft is structurally stuck, consider two brief outlines and choose th
 
 Write the complete paragraph around its claims and relationships, then check the original. Do not walk down the original replacing one phrase at a time. Preserve every substantive point without preserving every staging sentence.
 
+For a heavily formulaic draft, make the working notes independent of the original paragraph order: facts with dependencies, genuine opinions, reader actions, and protected wording. Compose a new passage from those notes and the editorial brief rather than keeping the old draft open as a sentence-by-sentence template. Reopen or consult the source for fidelity afterward. This is a drafting discipline, not a claim that a model can erase its context. Do not hide the source from the reviewer.
+
+Make an actual compositional choice when warranted: change the entry point, regroup an argument, share the object of several instructions, or put an established viewpoint next to the evidence it evaluates. Moving intact sentences into a different order is not enough when their old setup and recap sentences remain. Do not change an effective structure merely to demonstrate activity.
+
 Distinguish three levels of change:
 
 1. **Lexical:** choose the precise ordinary word without varying a defined term.
@@ -85,6 +95,8 @@ Start from the actor or object the reader is tracking. Use a direct predicate fo
 
 Keep register-specific rhythm. Formal prose can have contractions only when suitable; it does not require them. A straightforward sentence can be human without slang. Do not replace domain language with colorful synonyms.
 
+Recover a concrete predicate rather than preserving an abstract commentary verb. `The estimate warrants consideration in the review` may become `Reviewers should consider the estimate` only if the recommendation and actor are supported; `the estimate is reliable` would invent a conclusion. Instead of adding a general transition about "limitations", connect the next specific limit to the subject already in focus. Keep the reader's attention on the topic, not the document's responsible handling of the topic.
+
 Repeated frames such as `The purpose of this memo is to`, `These figures provide a starting point`, or `This distinction should remain visible` need a function check. A short memo rarely needs repeated descriptions of itself. When the sentence carries an actual instruction, attach that instruction to the relevant claim rather than erasing it.
 
 ### 한국어
@@ -96,6 +108,8 @@ Repeated frames such as `The purpose of this memo is to`, `These figures provide
 예: `공간의 수용 인원은 8명이다. 운영 시간을 늘려도 정원은 달라지지 않는다. 안내에서는 시간과 정원을 구분해 설명해야 한다.`는 `운영 시간을 늘리더라도 정원은 8명으로 같다. 안내에서는 운영 시간과 이 정원을 구분해 설명해야 한다.`처럼 쓸 수 있다. 조건부 연장을 이미 확정된 운영 변경으로 바꾸지 않는다. 정원·시간의 관계와 안내 의무가 모두 남는지 확인한다. 반면 `8명만 예약을 받는다`는 원문에 없는 예약 정책이므로 실패다.
 
 상황에 맞는 문어체를 유지한다. 자연스럽게 보이려고 `-죠`, `-거든요`, 반말, 감탄을 임의로 섞지 않는다. 어미 빈도보다 문장 안에서 누가 무엇을 말하는지와 문장 사이의 논리를 먼저 고친다.
+
+추상 명사만 줄이고 서술어를 남기는 수정에서 멈추지 않는다. `이 제약을 유지하며 판단할 수 있다`가 실제로 제약을 염두에 두라는 뜻이면 `이 제약을 염두에 두고 판단할 수 있다`로 풀어 쓴다. `별개의 판단으로 다루는 것이 적절하다`는 `따로 판단하는 것이 적절하다`처럼 쓸 수 있다. `적절하다`를 `해야 한다`로 올리거나 `할 수 있다`를 확정 사실로 바꾸지 않는다. 명확한 원문에 없던 `유의할 필요`, `고려할 필요`를 완충어로 덧붙이지 않는다.
 
 ### Mixed-language documents
 
@@ -117,6 +131,30 @@ Before accepting, answer these with concrete spans rather than a score:
 No required change ratio, target length, sentence distribution or detector percentage applies. A good source may need little change. Detector disagreement does not license degrading a faithful sentence.
 
 ## Short recomposition example
+
+### Shared purpose, different actions
+
+Synthetic source:
+
+> The repair report should include the inspection date. Including the inspection date helps the owner distinguish the current findings from earlier findings. The inspector should compare the current findings with the earlier findings when recommending repairs. This comparison is a useful basis for the recommendation.
+
+Possible rewrite:
+
+> The repair report should give the inspection date so the owner can tell the current findings from earlier ones. The inspector should use a comparison of those findings as the basis for recommending repairs.
+
+Both actions, both actors, the recommendation's basis and the date's purpose remain. Their functions no longer need four separate explanatory sentences. This does not say that a comparison has already happened or that the repairs are approved.
+
+한국어 예시:
+
+> 수선 기록에는 접수일을 적을 필요가 있다. 접수일은 이번 요청과 이전 요청을 구분하는 데 도움이 된다. 담당자는 수선 범위를 제안할 때 두 요청을 비교하는 것이 좋다. 이 비교는 제안의 출발점으로 유용하다.
+
+가능한 재작성:
+
+> 이번 요청과 이전 요청을 구분할 수 있도록 수선 기록에 접수일을 적을 필요가 있다. 담당자는 두 요청을 비교한 내용을 바탕으로 수선 범위를 제안하는 것이 좋다.
+
+권고의 강도와 두 기능을 남겼다. `접수일을 적어야 한다`, `비교를 마쳤다`, `수선 범위를 확정했다`로 바꾸면 실패다. 예시의 문체나 두 문장 구조를 다른 장르에 강제하지 않는다.
+
+### Remove only redundant staging
 
 Synthetic source:
 

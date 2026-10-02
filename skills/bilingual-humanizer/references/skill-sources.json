@@ -155,5 +155,101 @@
         "sha256": "22603fadb9248cb2eae6bc6030c35091f0bd45550d2b5a20a0656e0a6ddf4767"
       }
     ]
+  },
+  {
+    "repo": "hannsxpeter/humanizer",
+    "path": "SKILL.md",
+    "commit": "978116a9ac2b094b7a6bb5f6a482b0eee41f3084",
+    "commit_date": "2026-08-15T21:22:17-04:00",
+    "license": "MIT",
+    "url": "https://github.com/hannsxpeter/humanizer/blob/978116a9ac2b094b7a6bb5f6a482b0eee41f3084/SKILL.md",
+    "sha256": "f873c6016bd708e0361a27327807087fd0facee8c9b1e6c3e6c3def1ddf231b0",
+    "retrieved_date": "2026-10-02",
+    "bytes": 18100,
+    "review_scope": "Entrypoint and selected relevant sections; not a full repository/code/security or performance audit"
+  },
+  {
+    "repo": "Aparnabuilds/humanizer",
+    "path": "SKILL.md",
+    "commit": "fd9728f1a66a5338dff533c712dd44509900e065",
+    "commit_date": "2026-07-19T23:48:25+05:30",
+    "license": "MIT",
+    "url": "https://github.com/Aparnabuilds/humanizer/blob/fd9728f1a66a5338dff533c712dd44509900e065/SKILL.md",
+    "sha256": "0805ae660d54502eaec0917c00935c5be6ffef956e29ff732f4d1b4d32bb931d",
+    "retrieved_date": "2026-10-02",
+    "bytes": 36130,
+    "review_scope": "Entrypoint and selected relevant sections; not a full repository/code/security or performance audit"
+  },
+  {
+    "repo": "ryanmaule/humanize",
+    "path": "SKILL.md",
+    "commit": "4a8bbcf74984dad5bdad10177afe766e32bc7633",
+    "commit_date": "2026-07-22T11:53:28-04:00",
+    "license": "MIT",
+    "url": "https://github.com/ryanmaule/humanize/blob/4a8bbcf74984dad5bdad10177afe766e32bc7633/SKILL.md",
+    "sha256": "153997bcde48f5c61fb0fc5ee14991acd7f41de62faac0d5d03a7ba30410f234",
+    "retrieved_date": "2026-10-02",
+    "bytes": 9994,
+    "review_scope": "Entrypoint and selected relevant sections; not a full repository/code/security or performance audit"
+  },
+  {
+    "repo": "milock/humanizer",
+    "path": "SKILL.md",
+    "commit": "ec66c203c0400481819fda9cb17a6f1c7977c975",
+    "commit_date": "2026-09-15T10:20:31-07:00",
+    "license": "MIT",
+    "url": "https://github.com/milock/humanizer/blob/ec66c203c0400481819fda9cb17a6f1c7977c975/SKILL.md",
+    "sha256": "2079b715ea0ae208de99a288805eab603a58f1aaef821fc44d4b178f92321041",
+    "retrieved_date": "2026-10-02",
+    "bytes": 19448,
+    "review_scope": "Entrypoint and selected relevant sections; not a full repository/code/security or performance audit"
+  },
+  {
+    "repo": "liam-nextdomain/humanizer-kr",
+    "path": "humanizer-kr/SKILL.md",
+    "commit": "77badef924fbb9488242b7073b0b2c5838573f91",
+    "commit_date": "2026-04-17T23:42:07+09:00",
+    "license": "NOASSERTION",
+    "url": "https://github.com/liam-nextdomain/humanizer-kr/blob/77badef924fbb9488242b7073b0b2c5838573f91/humanizer-kr/SKILL.md",
+    "sha256": "f6ad3b3560b5415bccacd25ca5a7ef9ccab28da6a2cedc08b0673d562cd6e91e",
+    "retrieved_date": "2026-10-02",
+    "bytes": 16386,
+    "review_scope": "Entrypoint and selected relevant sections; not a full repository/code/security or performance audit"
+  },
+  {
+    "repo": "NomaDamas/k-skill",
+    "path": "korean-humanizer/instruction.md",
+    "commit": "9fade13b1066bc58fd820fe659145a9a21974138",
+    "commit_date": "2026-09-19T16:22:20+09:00",
+    "license": "MIT",
+    "url": "https://github.com/NomaDamas/k-skill/blob/9fade13b1066bc58fd820fe659145a9a21974138/korean-humanizer/instruction.md",
+    "sha256": "dbcba1c1f18d5296b61a0b787bf775aec16b00b1c04e8c329ba4d2d5d721acae",
+    "retrieved_date": "2026-10-02",
+    "bytes": 32021,
+    "review_scope": "Entrypoint and selected relevant sections; not a full repository/code/security or performance audit"
+  },
+  {
+    "repo": "TaewoooPark/personal-humanizer-maker",
+    "path": "skills/personal-humanizer-maker/SKILL.md",
+    "commit": "86b987d2c609e41854a43214c8868718b5b6acea",
+    "commit_date": "2026-07-08T19:55:04+09:00",
+    "license": "MIT",
+    "url": "https://github.com/TaewoooPark/personal-humanizer-maker/blob/86b987d2c609e41854a43214c8868718b5b6acea/skills/personal-humanizer-maker/SKILL.md",
+    "sha256": "91f53d09457315f675c4c5326bfe170f36d0eeff104011a88cd73eb3726ca770",
+    "retrieved_date": "2026-10-02",
+    "bytes": 8615,
+    "review_scope": "Entrypoint and selected relevant sections; not a full repository/code/security or performance audit"
+  },
+  {
+    "repo": "ilyautov/humanizer-ru",
+    "path": "skills/humanizer-ru/SKILL.md",
+    "commit": "1e035ad6b64c56c6e770ed28d076e2cbda3d1aed",
+    "commit_date": "2026-09-30T02:34:27+03:00",
+    "license": "MIT",
+    "url": "https://github.com/ilyautov/humanizer-ru/blob/1e035ad6b64c56c6e770ed28d076e2cbda3d1aed/skills/humanizer-ru/SKILL.md",
+    "sha256": "c57eb680ee4f6f5b920e338fda19b0a100250afa54eb63239ffe2480449d03f9",
+    "retrieved_date": "2026-10-02",
+    "bytes": 28574,
+    "review_scope": "Entrypoint and selected relevant sections; not a full repository/code/security or performance audit"
   }
 ]

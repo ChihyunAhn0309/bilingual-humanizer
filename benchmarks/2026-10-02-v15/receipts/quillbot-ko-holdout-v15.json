@@ -1,0 +1,20 @@
+{
+  "id": "quillbot-ko-holdout-v15",
+  "vendor": "QuillBot",
+  "input_file": "candidates/ko-holdout-v15.txt",
+  "input_sha256": "18436ba08e908e48c4e7ce214bdf9896dc86de40afe905f15100042ae96bfa4d",
+  "submission_sha256": "673f128f47d60fea1eecc5d46e112a241deeab727e8c9555a3fc25bc28a18724",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:04:37.315Z",
+  "score": 0,
+  "metric": "words likely AI-generated percent",
+  "model": "6.2.1",
+  "status": "completed",
+  "raw_receipt": "Detect AI\n0\n%\nof text is likely AI\nAI-generated\n0%\nHuman-written & AI-refined\n0%\nHuman-written\n100%\nModel v6.2.1\nDownload report\nWant more authentic text?\nRefine with Paraphraser\nCheck for plagiarism\n\nHappy with the score? Now ensure it’s original...\n\nNever rely on AI detection alone to make decisions that could impact someone's career or academic standing.\nYou’ve got 1 AI scan left today\nUpgrade for more",
+  "human_percent": 100,
+  "ai_refined_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated free web UI",
+  "receipt_contains_input": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gptzero-en-holdout-v14",
+  "vendor": "GPTZero",
+  "input_file": "baseline/en-holdout-v14.txt",
+  "input_sha256": "f39a927804ce376bb2a73cfa9dfd830900e4f3ccfdc458a6723f6927732e6cac",
+  "submission_sha256": "a6e8c93e7dc1e962746b906988667eaa5f39b5f242ce65c38dede5f0f9a5cf2c",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T07:57:53.202Z",
+  "score": 100,
+  "metric": "AI class probability percent",
+  "model": "4o",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t47 text Basic Scan\n\t\t\t\t\t\t180 image\n\t\t\t\t\t\t49 button Share\n\t\t\t\t\t\t\t50 image\n\t\t\t\t\t\t\t51 text Share\n\t\t\t\t\t\t52 button Export\n\t\t\t\t\t\t\t53 image\n\t\t\t\t\t\t\t54 text Export\n\t\t\t\t\t181 container\n\t\t\t\t\t\t182 image\n\t\t\t\t\t\t\t183 text AI\n\t\t\t\t\t\t184 image\n\t\t\t\t\t\t185 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated\n\t\t\t\t\t\t186 text Chance this entire text is...\n\t\t\t\t\t\t187 button AI 100%\n\t\t\t\t\t\t\t188 text AI 100%\n\t\t\t\t\t\t\t189 image\n\t\t\t\t\t\t190 button Mixed 0%\n\t\t\t\t\t\t\t191 text Mixed 0%\n\t\t\t\t\t\t\t192 image\n\t\t\t\t\t\t193 button Human 0%\n\t\t\t\t\t\t\t194 text Human 0%\n\t\t\t\t\t\t\t195 image\n\t\t\t\t\t\t196 radio button 1\n\t\t\t\t\t\t197 radio button 0\n\t\t\t\t\t\t198 radio button 0\n\t\t\t\t\t\t199 image Paul Esau\n\t\t\t\t\t\t200 image Wendy Snyder\n\t\t\t\t\t\t201 heading Expert feedback, Value: 4\n\t\t\t\t\t\t\t202 text Expert feedback\n\t\t\t\t\t\t203 image\n\t\t\t\t\t\t204 text Emmy Winning Writers\n\t\t\t\t\t\t205 button\n\t\t\t\t\t\t\t206 image\n\t\t\t\t\t\t207 heading Your most AI sentences, Value: 6\n\t\t\t\t\t\t\t208 text Your most AI sentences\n\t\t\t\t\t\t209 content list\n\t\t\t\t\t\t\t210 container\n\t\t\t\t\t\t\t\t211 container Low impact\n\t\t\t\t\t\t\t\t\t212 text High AI impact\n\t\t\t\t\t\t\t\t213 container Medium impact\n\t\t\t\t\t\t\t\t\t214 text High AI impact\n\t\t\t\t\t\t\t\t215 container High impact\n\t\t\t\t\t\t\t\t\t216 text High AI impact\n\t\t\t\t\t\t\t\t217 text Volunteers now ask what the object used to do, what changed, and what a useful result would look like.\n\t\t\t\t\t\t\t218 container\n\t\t\t\t\t\t\t\t219 container Low impact\n\t\t\t\t\t\t\t\t\t220 text High AI impact\n\t\t\t\t\t\t\t\t221 container Medium impact\n\t\t\t\t\t\t\t\t\t222 text High AI impact\n\t\t\t\t\t\t\t\t223 container High impact\n\t\t\t\t\t\t\t\t\t224 text High AI impact\n\t\t\t\t\t\t\t\t225 text Then we spent most of a morning dismantling a desk lamp whose owner mainly wanted a longer cable.\n\t\t\t\t\t\t226 button See your most AI and human sentences\n\t\t\t\t\t\t\t227 image\n\t\t\t\t\t\t\t228 text See your most AI and human sentences\n\t\t\t\t\t\t\t229 image\n\t\t\t\t\t\t230 text What's next?\n\t\t\t\t\t\t231 button Paul Esau Wendy Snyder Policy Brief feedback Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t232 image Paul Esau\n\t\t\t\t\t\t\t233 image Wendy Snyder\n\t\t\t\t\t\t\t234 text Policy Brief feedback\n\t\t\t\t\t\t\t235 image\n\t\t\t\t\t\t\t236 text Reviewed by Emmy-Winners, Ivy League Profs\n\t\t\t\t\t\t\t237 image\n\t\t\t\t\t\t238 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t239 image\n\t\t\t\t\t\t\t240 text Guidance for Teachers and reviewers\n\t\t\t\t\t115 text Text up-to-date 1,219 characters • 207 words",
+  "human_percent": 0,
+  "mixed_percent": 0,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI"
+}

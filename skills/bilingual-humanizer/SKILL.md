@@ -2,7 +2,7 @@
 name: bilingual-humanizer
 description: "Actively rewrite Korean, English, or mixed-language prose to sound natural while preserving meaning, evidence, and the writer's voice. Use for humanizing AI drafts, removing translationese or formulaic phrasing, restructuring documents, and matching supplied writing samples across general, business, academic, technical, and creative genres. Also explain supplied AI-detector results without certifying authorship."
 metadata:
-  version: "1.4.0"
+  version: "1.5.0"
 ---
 
 # Bilingual Humanizer
@@ -41,9 +41,9 @@ When an edit would require choosing among materially different readings, keep th
 
 ## Rewrite for a reader
 
-For substantial active rewriting, read [structural-rewrite.md](references/structural-rewrite.md) and apply its meaning-map → reader-route → paragraph recomposition process before polishing words. Preserve propositions and substantive reader functions, not the original sentence skeleton. Group repeated facts, put real instructions beside their objects, and rebuild paragraphs from those groups. A fluent synonym pass is insufficient when the original's repetitive framing remains. This strengthens the drafting method; it does not increase the iteration budget.
+For substantial active rewriting, read [structural-rewrite.md](references/structural-rewrite.md). Establish a short editorial brief, reduce the source to meaning and voice notes, consolidate repeated functions, then compose for the reader from those notes. The source remains the authority for the later fidelity check; its sentence order is not the drafting scaffold. This strengthens the drafting method without increasing the iteration budget.
 
-Work from the paragraph's purpose and source-supported propositions, not a blacklist of words. Move a buried answer or finding forward when useful. Rebuild overloaded syntax, clarify existing logical connections, and combine repetitions. Keep qualifications beside the claims they qualify and citations beside the claims they support.
+Work toward a positive writing target: a recognizable purpose, a suitable distance from the reader, concrete predicates, and a progressing argument. Do not write a neutral compliance commentary around every source fact. Preserve a caution or recommendation at its original strength, but integrate its reason, scope and application instead of restating it in several safe-sounding sentences. Keep qualifications beside the claims they qualify and citations beside the claims they support.
 
 Remove reader-irrelevant chatbot wrappers, repeated previews, empty praise, unsupported rhetorical inflation, and generic conclusions when they do not carry the writer's stance. Do not replace a cliché with a milder cliché. Keep needed courtesy, safety emphasis, technical definitions, recurring terms, navigation, and genuine contrasts.
 

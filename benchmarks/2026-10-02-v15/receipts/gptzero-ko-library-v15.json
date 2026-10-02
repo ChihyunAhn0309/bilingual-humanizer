@@ -1,0 +1,20 @@
+{
+  "id": "gptzero-ko-library-v15",
+  "vendor": "GPTZero",
+  "input_file": "candidates/ko-library-v15.txt",
+  "input_sha256": "5353777baf4a2c92cdccb7e772ab97b8cb8d7da7a7e2a1d43a599edb816055bd",
+  "submission_sha256": "1105129349701f6d4cba9bc35c57ccb6a9761112b392183d6dcc8f2eef949f64",
+  "submission_normalization": "trim only; UI equality uses collapsed whitespace",
+  "capture_time_utc": "2026-10-02T08:10:48.792Z",
+  "score": 32,
+  "metric": "AI class probability percent",
+  "model": "4.1m",
+  "status": "completed",
+  "raw_receipt": "heading Basic Scan, Value: 1\n\t\t\t\t\t\t\t128 text Basic Scan\n\t\t\t\t\t\t274 image\n\t\t\t\t\t\t130 button Share\n\t\t\t\t\t\t\t131 image\n\t\t\t\t\t\t\t132 text Share\n\t\t\t\t\t\t133 button Export\n\t\t\t\t\t\t\t134 image\n\t\t\t\t\t\t\t135 text Export\n\t\t\t\t\t275 container\n\t\t\t\t\t\t276 image\n\t\t\t\t\t\t\t277 text human\n\t\t\t\t\t\t278 image\n\t\t\t\t\t\t279 text GPTZero AI Detection Model  4.1m We are uncertain about this document. If we had to classify it, it would likely be considered human\n\t\t\t\t\t\t280 text Chance this entire text is...\n\t\t\t\t\t\t281 button AI 32%\n\t\t\t\t\t\t\t282 text AI 32%\n\t\t\t\t\t\t\t283 image\n\t\t\t\t\t\t284 button Mixed 24%\n\t\t\t\t\t\t\t285 text Mixed 24%\n\t\t\t\t\t\t\t286 image\n\t\t\t\t\t\t287 button Human 44%\n\t\t\t\t\t\t\t288 text Human 44%\n\t\t\t\t\t\t\t289 image\n\t\t\t\t\t\t290 button See sentence highlighting\n\t\t\t\t\t\t\t291 image\n\t\t\t\t\t\t\t292 text See sentence highlighting\n\t\t\t\t\t\t\t293 image\n\t\t\t\t\t\t294 image Paul Esau\n\t\t\t\t\t\t295 image Wendy Snyder\n\t\t\t\t\t\t296 text Get a grade and feedback\n\t\t\t\t\t\t297 text Built by writing experts\n\t\t\t\t\t\t298 button Get Feedback\n\t\t\t\t\t\t299 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand\n\t\t\t\t\t\t\t300 image\n\t\t\t\t\t\t\t301 text Guidance for Teachers and reviewers\n\t\t\t\t\t136 text Text up-to-date 901 characters • 226 words",
+  "human_percent": 44,
+  "mixed_percent": 24,
+  "input_verified": true,
+  "fresh_result": true,
+  "transport": "authenticated Basic Scan UI",
+  "displayed_status": "Text up-to-date 901 characters • 226 words"
+}

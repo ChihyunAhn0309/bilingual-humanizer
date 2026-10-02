@@ -1,0 +1,62 @@
+{
+  "en-library": {
+    "A": {
+      "path": "candidates/en-library-v15.txt",
+      "sha256": "2199f22d9182bae87623769c6ca5a1da00d05dfeb75fb8467ebed27402d61235"
+    },
+    "B": {
+      "path": "../2026-10-02/corpus/en-library-v14.txt",
+      "sha256": "40a2c7ebb0da501bf33f88c0e3fd7882a01ceca98bdb82bb22158bf7ab1e8b1a"
+    }
+  },
+  "en-cache": {
+    "A": {
+      "path": "../2026-10-02/corpus/en-cache-v14.txt",
+      "sha256": "59400db65d9d48043fd1ee3c66dca106e792a8e9277075c8b1103924d0e444b7"
+    },
+    "B": {
+      "path": "candidates/en-cache-v15.txt",
+      "sha256": "7a40c46f9eb52cc99e487ef06c4fda5ce7b31889fa9484265617e04df906fcdc"
+    }
+  },
+  "ko-library": {
+    "A": {
+      "path": "candidates/ko-library-v15.txt",
+      "sha256": "5353777baf4a2c92cdccb7e772ab97b8cb8d7da7a7e2a1d43a599edb816055bd"
+    },
+    "B": {
+      "path": "../2026-10-02/corpus/ko-library-v14.txt",
+      "sha256": "4331bafd15915e90d3b4763610e665845b6e9d738109c30e09b6e33e50306533"
+    }
+  },
+  "ko-cache": {
+    "A": {
+      "path": "candidates/ko-cache-v15.txt",
+      "sha256": "ef370e9efbb47816d376aca071628bf333a940dd9e68bed3a19daf299aeb8b95"
+    },
+    "B": {
+      "path": "../2026-10-02/corpus/ko-cache-v14.txt",
+      "sha256": "e2b3d9731a421f1a668e070903f0c11094d43c5a91cf7420b6c8726d852cd91c"
+    }
+  },
+  "en-holdout": {
+    "A": {
+      "path": "candidates/en-holdout-v15.txt",
+      "sha256": "fbdd47acd41c2b22acbbb36d5d1d70d013a981a802a91a32e4236d9e76a5f041"
+    },
+    "B": {
+      "path": "baseline/en-holdout-v14.txt",
+      "sha256": "f39a927804ce376bb2a73cfa9dfd830900e4f3ccfdc458a6723f6927732e6cac"
+    }
+  },
+  "ko-holdout": {
+    "A": {
+      "path": "candidates/ko-holdout-v15.txt",
+      "sha256": "18436ba08e908e48c4e7ce214bdf9896dc86de40afe905f15100042ae96bfa4d"
+    },
+    "B": {
+      "path": "baseline/ko-holdout-v14.txt",
+      "sha256": "fa8f522f0ce54fb52885768c9e57a8bd8977e16b868ccf7f3bb308ccabbdbc41"
+    }
+  }
+}
