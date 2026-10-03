@@ -1,0 +1,31 @@
+reading-reflection: current whole-document detector-feedback review, round 1
+Candidate SHA256: a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8
+Current score-informed review: revise the middle-paragraph connective chain (R1) and make the modest observed benefit more direct (R2). All source facts remain and all three paragraphs were freshly reviewed. The largest deletion delta is only +0.427119185 percentage points at an already saturated score; this does not identify a faulty passage or justify eliminating the ending. Reused four-class measurements are uncalibrated experimental auxiliary scores with documented false positives, not verified authorship. Humanized remains a separate class from Human.
+
+Four native uncalibrated class outputs: human 0.014873377%, ai 99.925357103%, ai_edited 0.000694882%, humanized 0.059069757%
+Source constraints: all checked; no omissions. Supplied synthetic AI origin remains unchanged.
+
+RETAIN HISTORY: The supplied experiment history identifies both the source and this candidate as AI-generated; the current review concerns an AI rewrite of an AI-authored synthetic source.
+Action hypothesis: Keep the provenance disclosure in evaluation records; never represent a improved Human score as a changed origin.
+Human alternative: A human could write the same language. That possibility does not overturn the supplied experimental provenance.
+
+REVISE R1-UNSUPPORTED-CONNECTIVE: P2 connects liking uninterrupted reading to after-reading phone checks with 'although', then adds non-adherence with 'either'. But checking after finishing complies with the stated routine; it is not a first instance of failing to keep it.
+Action hypothesis: Separate approval of uninterrupted reading, the continued post-reading phone check, and the two skipped mornings using relations the source actually supports. Remove either or replace the relation; avoid implying an invented goal of reducing all phone use. Keep all three observations and the admission that adherence was imperfect.
+Human alternative: A reflective human may regard continued phone use as limiting a broader personal ambition even without breaking the routine, and may use either loosely. That broader ambition was not supplied by the source.
+
+REVISE R2-MODEST-BENEFIT-FRAMING: The phrase 'was in how I read' labels the category before describing the actual change. Compared with the source's 'was simpler', it also weakens the explicit contrast between hoped-for memory improvement and the more modest observed benefit.
+Action hypothesis: Introduce the actual change directly while keeping the idea that this was a simpler, more modest outcome than the unproven memory benefit. Do not turn fewer interruptions into a measured concentration, productivity or memory gain.
+Human alternative: Human reflection often uses an orienting phrase before an example. A writer may reasonably prefer the existing signpost; no authorship conclusion follows.
+
+RETAIN R3-EVIDENCE-LIMIT: The first paragraph preserves the eight-week morning chapter-before-phone routine, original memory expectation, recall of three novel plots, and lack of a pre-experiment memory test.
+Action hypothesis: Keep the missing-baseline logic intact. Retain eight weeks, mornings, a chapter before phone, three novels, and uncertainty about actual improvement; do not manufacture a test or stronger causal claim.
+Human alternative: A careful human reflection would need the same limitation; factual specificity and contractions are compatible with both human and generated text.
+
+RETAIN R4-ENDING: P3 gives personal value without a proven memory benefit, reluctance to recommend universally, quiet-morning and no-travel limits, and an unscheduled desire to try after dinner next month.
+Action hypothesis: Preserve the personal value, universal-recommendation reluctance, quiet mornings, no trial during travel, next-month after-dinner desire, and no chosen start date. No forced fragment, invented anecdote, arbitrary synonym replacement, or quota-based edit is justified.
+Human alternative: A reflective human can naturally move from personal value to limits and next intention. The ending follows the supplied content rather than a generic motivational lesson.
+
+RETAIN MODEL-SENSITIVITY: P1: before 99.985126623%, after 99.922911718%, delta +0.062214905 percentage points; P2: before 99.985126623%, after 99.938863382%, delta +0.046263241 percentage points; P3: before 99.985126623%, after 99.558007438%, delta +0.427119185 percentage points
+Action hypothesis: Use sensitivity to prioritize scrutiny, not as an editing target by itself. Re-measure any revised candidate and compare Human only among candidates passing all source/quality constraints. Preserve four native classes, with Humanized separate from Human.
+Human alternative: Human writing can show the same sensitivity and the checkpoint has documented high-confidence human false positives in the 36-document pilot. Supplied synthetic origin is separately known.
+

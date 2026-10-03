@@ -1,0 +1,17 @@
+support-email round 2: independent post-score whole-document review
+Candidate SHA256: badf900d9b49f594b6e044382381fc297708e2fbea070ef60b6516791677aabe
+Full current post-score review: both accepted round-1 findings resolved, all source constraints preserved, no new justified repair. Native Human changed from 0.314060203% to 0.071304839% (-0.242755364 percentage points). This uncalibrated auxiliary score movement does not invalidate reader/fidelity resolution and does not create a new defect. All four classes are retained; Humanized is not Human. Known supplied AI origin remains unchanged. Every paragraph reviewed; no exclusion.
+
+RESOLUTION
+S1-ACKNOWLEDGEMENT-ORDER -> S1-ACKNOWLEDGEMENT-ORDER-RESOLUTION: resolved. Acknowledgement and apology now occur in opening body paragraph P2, before refund restrictions and conditional timing. Follow-up stays at the end.
+S2-REPEATED-SCOPE -> S2-REPEATED-SCOPE-RESOLUTION: resolved. The amount appears once. The short backward reference preserves the essential only-duplicate limitation and relates it to the first-payment exception in one paragraph. Remaining repetition of request/duplicate is useful disambiguation, not a new defect.
+
+ACTUAL NATIVE OUTPUT
+human 0.071304839%, ai 93.796360493%, ai_edited 0.011166670%, humanized 6.121166050%
+Uncalibrated experimental auxiliary classes, documented pilot false positives; not word shares or verified origin.
+
+SENSITIVITY
+P1: baseline 99.928695161%, after deletion 99.955273489%, delta -0.026578328 percentage points; P2: baseline 99.928695161%, after deletion 97.835055180%, delta +2.093639981 percentage points; P3: baseline 99.928695161%, after deletion 99.848328705%, delta +0.080366456 percentage points; P4: baseline 99.928695161%, after deletion 98.944996390%, delta +0.983698771 percentage points; P5: baseline 99.928695161%, after deletion 98.334678262%, delta +1.594016899 percentage points; P6: baseline 99.928695161%, after deletion 99.809068628%, delta +0.119626534 percentage points
+P2 has the largest absolute sensitivity. Its thanks, confirmed date, acknowledgement and apology each have a source-required role. Early placement resolves the accepted audience issue. The measured sensitivity supplies no new editorial reason to delete or degrade that paragraph.
+
+NEW REPAIRS: none. All paragraphs freshly rechecked. Keep the candidate quality-eligible; preserve prior checkpoints with their own review state. No inference run by this reviewer.

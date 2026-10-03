@@ -1,0 +1,141 @@
+{
+  "review_type": "independent_pre_score_fidelity_and_reader_review",
+  "reviewed_at_utc": "2026-10-03T09:48:57.284996+00:00",
+  "case": "reading-reflection",
+  "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-3.txt",
+  "candidate_sha256": "8e0cc21b22fc44030b2af235c244ee8e79eb7399e8d31a79a865f8c6d52ce161",
+  "source_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\source.txt",
+  "source_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+  "comparison_candidate_sha256": "6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f",
+  "round_3_measurement_seen": false,
+  "new_inference_runs": 0,
+  "eligible_for_scoring": false,
+  "fidelity": "fail",
+  "fidelity_reason": "All protected content other than the expected-to-hoped modality change survives; candidate fails the strict source-fidelity gate until that change is repaired.",
+  "reader_eligible": true,
+  "reader_assessment": "The four-paragraph route is a useful alternative: a separate tentative next step is easy to find, and the observed behavior remains distinct from the uncertain memory result. The prose reads naturally. This does not clearly improve on round 2 overall, and the expectation-to-hope shift makes the candidate ineligible as written despite the sound organization.",
+  "necessary_repairs": [
+    {
+      "finding_id": "R3-MEMORY-EXPECTATION",
+      "severity": "fidelity_modality",
+      "source": {
+        "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\source.txt",
+        "start": 77,
+        "end": 139,
+        "quote": "I expected the change to help me remember more of what I read."
+      },
+      "candidate": {
+        "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-3.txt",
+        "start": 87,
+        "end": 129,
+        "quote": "I'd hoped to remember more of what I read."
+      },
+      "issue": "The source reports an expectation that the routine would improve recall. Hope expresses desire without necessarily holding that expectation, weakening a source-protected stance.",
+      "necessary_action": "Restore the asserted expectation, for example: I expected to remember more of what I read.",
+      "human_alternative": "A person may use hoped loosely for an optimistic expectation, but this task requires preserving the supplied stance rather than choosing the weaker interpretation.",
+      "score_relevance": "None; identified before any round-3 measurement. Do not infer a model effect.",
+      "budget_effect": "This is a completed round-3 draft at revision 3/3 including the inherited repair. A further post-draft repair cannot silently reset or bypass that limit; preserve an earlier eligible closed candidate if the cap prevents repair."
+    }
+  ],
+  "new_findings": [
+    {
+      "finding_id": "R3-MEMORY-EXPECTATION",
+      "severity": "fidelity_modality",
+      "source": {
+        "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\source.txt",
+        "start": 77,
+        "end": 139,
+        "quote": "I expected the change to help me remember more of what I read."
+      },
+      "candidate": {
+        "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-3.txt",
+        "start": 87,
+        "end": 129,
+        "quote": "I'd hoped to remember more of what I read."
+      },
+      "issue": "The source reports an expectation that the routine would improve recall. Hope expresses desire without necessarily holding that expectation, weakening a source-protected stance.",
+      "necessary_action": "Restore the asserted expectation, for example: I expected to remember more of what I read.",
+      "human_alternative": "A person may use hoped loosely for an optimistic expectation, but this task requires preserving the supplied stance rather than choosing the weaker interpretation.",
+      "score_relevance": "None; identified before any round-3 measurement. Do not infer a model effect.",
+      "budget_effect": "This is a completed round-3 draft at revision 3/3 including the inherited repair. A further post-draft repair cannot silently reset or bypass that limit; preserve an earlier eligible closed candidate if the cap prevents repair."
+    }
+  ],
+  "prior_resolutions": [
+    {
+      "finding_id": "R1-UNSUPPORTED-CONNECTIVE",
+      "status": "remains_resolved",
+      "reason": "Post-reading phone checking is distinct from actual missed mornings; no invented wider phone-reduction objective."
+    },
+    {
+      "finding_id": "R2-MODEST-BENEFIT-FRAMING",
+      "status": "remains_resolved",
+      "reason": "What I noticed was simpler retains the source modest-benefit comparison directly."
+    }
+  ],
+  "paragraphs": [
+    [
+      "P1",
+      "Eight-week morning chapter-before-phone routine, three novel plots at end, no pre-experiment test and unknown improvement survive. Hoped replaces expected, requiring a fidelity repair; no other P1 problem found."
+    ],
+    [
+      "P2",
+      "Simpler change, no mid-chapter message checks, liking that reading, immediate checking after, two skipped mornings and inconsistent adherence survive. No false either/although relation recurs."
+    ],
+    [
+      "P3",
+      "Reluctance to recommend universally, quiet mornings, no trial during travelling and personal value without memory evidence remain."
+    ],
+    [
+      "P4",
+      "Separate close preserves desire for after-dinner trial next month and no chosen date. No scheduled commitment is invented."
+    ]
+  ],
+  "constraint_checks": [
+    {
+      "id": "routine",
+      "source_constraint": "Eight weeks; chapter before morning phone use; expected memory benefit",
+      "status": "fail",
+      "reason": "Expectation weakened to hope; see R3-MEMORY-EXPECTATION."
+    },
+    {
+      "id": "memory_result",
+      "source_constraint": "Three novel plots recalled at end; no memory test before experiment; cannot tell whether improved",
+      "status": "pass",
+      "reason": "Verified in current full text; facts and conditions retained."
+    },
+    {
+      "id": "noticed_benefit",
+      "source_constraint": "Simpler observed change: no mid-chapter message checking, liked that",
+      "status": "pass",
+      "reason": "Verified in current full text; facts and conditions retained."
+    },
+    {
+      "id": "adherence",
+      "source_constraint": "Phone immediately after reading; two skipped mornings; did not follow every morning",
+      "status": "pass",
+      "reason": "Verified in current full text; facts and conditions retained."
+    },
+    {
+      "id": "applicability",
+      "source_constraint": "Reluctant to recommend to everyone; quiet mornings; no trial while travelling",
+      "status": "pass",
+      "reason": "Verified in current full text; facts and conditions retained."
+    },
+    {
+      "id": "value_and_next",
+      "source_constraint": "Worthwhile despite no memory evidence; wants after-dinner trial next month; no start date chosen",
+      "status": "pass",
+      "reason": "Verified in current full text; facts and conditions retained."
+    }
+  ],
+  "declared_reader_improvement": false,
+  "improvement_reason": "Useful alternative composition with specific local reading benefits, but no clear defensible overall improvement over round 2. Fidelity also fails as written.",
+  "provenance": "AI-authored synthetic source and AI rewrites; no authenticated real events.",
+  "revision_budget": {
+    "prior_revisions_used": 1,
+    "post_inherited_revisions_used": 2,
+    "revisions_used": 3,
+    "revision_limit": 3,
+    "remaining": 0
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "candidate_sha256": "badf900d9b49f594b6e044382381fc297708e2fbea070ef60b6516791677aabe",
+  "fidelity": {
+    "source_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+    "eligible": true,
+    "reason": "Every immutable-source fact, condition, uncertainty and speech act checked before scoring and in the current whole-document post-score review. No omission or unsupported addition."
+  },
+  "reader": {
+    "eligible": true,
+    "reason": "Clear support sequence: acknowledgement/confirmation, status and scope, conditional arrival/customer action, then follow-up. Professional warmth is preserved. The semicolon in P3 relates the scope and exception naturally; no artificial fragment, new promise or extraneous flourish appears. All accepted round-1 issues resolved; no new justified repair."
+  },
+  "triage": [
+    {
+      "finding_id": "S1-ACKNOWLEDGEMENT-ORDER-RESOLUTION",
+      "decision": "retain",
+      "reason": "The accepted prior editorial issue is resolved on the exact current text, independently of whether its native Human output rose or fell. All source constraints were checked again."
+    },
+    {
+      "finding_id": "S2-REPEATED-SCOPE-RESOLUTION",
+      "decision": "retain",
+      "reason": "The accepted prior editorial issue is resolved on the exact current text, independently of whether its native Human output rose or fell. All source constraints were checked again."
+    },
+    {
+      "finding_id": "RETAIN-P1",
+      "decision": "retain",
+      "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+    },
+    {
+      "finding_id": "RETAIN-P2",
+      "decision": "retain",
+      "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+    },
+    {
+      "finding_id": "RETAIN-P3",
+      "decision": "retain",
+      "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+    },
+    {
+      "finding_id": "RETAIN-P4",
+      "decision": "retain",
+      "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+    },
+    {
+      "finding_id": "RETAIN-P5",
+      "decision": "retain",
+      "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+    },
+    {
+      "finding_id": "RETAIN-P6",
+      "decision": "retain",
+      "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+    },
+    {
+      "finding_id": "HISTORY",
+      "decision": "retain",
+      "reason": "A classifier Human score cannot change that known supplied origin or authenticate a transaction or lived event."
+    },
+    {
+      "finding_id": "MODEL-SENSITIVITY",
+      "decision": "retain",
+      "reason": "These are actual paragraph-deletion score changes on this exact candidate. Deletion changes context and length; deltas are not paragraph authorship probabilities or causal feature explanations. Old and new paragraphs are not identical ablations, so delta changes do not isolate the effects of a particular edit."
+    }
+  ],
+  "followup": [
+    {
+      "parent_round": "r1",
+      "finding_id": "S1-ACKNOWLEDGEMENT-ORDER",
+      "before": {
+        "start": 280,
+        "end": 736,
+        "quote": "The request covers only the duplicate £36 payment. I can't cancel the first payment because the order has already shipped.\n\nIf the team approves the request, the money should reach the original card within five working days. That's an estimate, not a guaranteed arrival date. You don't need to submit another form while the request is pending.\n\nI understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you."
+      },
+      "after": {
+        "start": 132,
+        "end": 243,
+        "quote": "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you."
+      },
+      "status": "resolved",
+      "finding_ids": [],
+      "reason": "Acknowledgement and apology now occur in opening body paragraph P2, before refund restrictions and conditional timing. Follow-up stays at the end.",
+      "resolution_evidence_finding": "S1-ACKNOWLEDGEMENT-ORDER-RESOLUTION"
+    },
+    {
+      "parent_round": "r1",
+      "finding_id": "S2-REPEATED-SCOPE",
+      "before": {
+        "start": 93,
+        "end": 330,
+        "quote": "I confirmed that the second payment was taken on 18 September and submitted a request this morning to refund the duplicate £36 payment. The payment team hasn't approved the request yet.\n\nThe request covers only the duplicate £36 payment."
+      },
+      "after": {
+        "start": 245,
+        "end": 469,
+        "quote": "This morning I requested a refund of the duplicate £36 payment. The payment team hasn't approved it yet. The request covers only that duplicate payment; I can't cancel the first payment because the order has already shipped."
+      },
+      "status": "resolved",
+      "finding_ids": [],
+      "reason": "The amount appears once. The short backward reference preserves the essential only-duplicate limitation and relates it to the first-payment exception in one paragraph. Remaining repetition of request/duplicate is useful disambiguation, not a new defect.",
+      "resolution_evidence_finding": "S2-REPEATED-SCOPE-RESOLUTION"
+    }
+  ],
+  "improvement": true,
+  "improvement_reason": "Accepted round-1 audience/coherence repairs resolved with source fidelity. Acknowledgement and apology now occur in opening body paragraph P2, before refund restrictions and conditional timing. Follow-up stays at the end. The amount appears once. The short backward reference preserves the essential only-duplicate limitation and relates it to the first-payment exception in one paragraph. Remaining repetition of request/duplicate is useful disambiguation, not a new defect. Reader judgment is independent of native score movement."
+}

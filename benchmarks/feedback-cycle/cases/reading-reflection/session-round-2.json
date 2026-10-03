@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "source": {
+    "path": "source.txt",
+    "sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498"
+  },
+  "revision_limit": 3,
+  "prior_revisions_used": 1,
+  "prior_revision_note": "One initial complete candidate plus one local fidelity repair. The first semantic pass found that `beforehand` could refer to the end-of-experiment recollection rather than the experiment's start; it was replaced with `before the experiment`. The inherited pre-freeze fidelity repair counts toward the same three-revision limit. A new measurement phase does not reset that budget. Earlier complete pre-repair reflection candidate unavailable here; no invented full-text/hash for it.",
+  "provenance": {
+    "known_origin": "AI-authored synthetic evaluation sources and AI rewrites; not authenticated real events.",
+    "assembly_scope": "Records assembled now from preserved artifacts. Source-to-round-1 triage and closure are retrospective reconstruction, not a claim that an automated or independent feedback loop had already run in the inherited writer phase.",
+    "history_review": {
+      "path": "inherited-history-review.json",
+      "sha256": "181dd824f27c42ae29cccd8869f2abfa8077e972a10b9d3fa3dff1969b1755c0"
+    },
+    "inherited_writer_review": {
+      "path": "inherited-writer-review.md",
+      "sha256": "0b7790ca50c4a617ae3e3d1c3f9e2be29cdf68c3b138b27286ed733e9965a5df"
+    },
+    "source_triage": {
+      "path": "source-review/triage-feedback.json",
+      "sha256": "f883a7d46bbe5c6e8c395ed9fbec9c1d4edb676ae315efc2043c48f8fd27ac71"
+    },
+    "round_1_current_triage": {
+      "path": "round-1-review/triage.json",
+      "sha256": "fa02b71f9b914d1e8613d5e2142f6fbfa93497e46474dd4d06b9ce34936e2d20"
+    },
+    "measurement_reuse": "Source and round-1 native artifacts are reused byte for byte with original timestamps and all four classes. This assembly script performs zero inference."
+  },
+  "rounds": [
+    {
+      "id": "r0",
+      "candidate": {
+        "path": "source.txt",
+        "sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498"
+      },
+      "native": {
+        "path": "source-score/model-result.json",
+        "sha256": "f819aef7d99e369ca2b3acfd3f10044f66d6db5e63d8145d77269c3680a6cb0d"
+      },
+      "feedback": {
+        "path": "source-score/feedback.json",
+        "sha256": "1e1f8e29dfc4f04cb3956a976e22c9173c1aa2beb61f1fecde86e8a5cd8a7af3"
+      },
+      "review": {
+        "path": "source-review/validated.json",
+        "sha256": "3cad833e505d9aec8bd8a0f007f27fa496d98ba24aec6d048a0fb9805ac9076a"
+      },
+      "fidelity": {
+        "source_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+        "eligible": true,
+        "reason": "Byte-identical immutable source; protected constraints recorded in source-review/source-fidelity.json."
+      },
+      "followup": [],
+      "reader": {
+        "eligible": true,
+        "reason": "Coherent, specific reflection with no clear need for a structural rewrite. A limited optional edit can compress the concluding restatement about imperfect adherence while retaining the two skipped mornings and the difference between attention and memory. Supplied origin: AI-authored synthetic fixture. Existing native scores are uncalibrated experimental model outputs, not verified authorship."
+      },
+      "triage": [
+        {
+          "finding_id": "S1",
+          "decision": "retain",
+          "reason": "Retain the uncertainty: remembering plots at the end does not establish improvement. No editorial defect is demonstrated by cautious wording."
+        },
+        {
+          "finding_id": "S2",
+          "decision": "revise",
+          "reason": "Reconstructed accepted action from inherited writer and current lineage audit: Integrate or shorten adherence summary while preserving two skipped mornings and inconsistent adherence."
+        },
+        {
+          "finding_id": "S3",
+          "decision": "retain",
+          "reason": "Four sentences have distinct functions. Preserve their caution and tentative plan; no forced dramatic conclusion or fresh anecdote is warranted."
+        },
+        {
+          "finding_id": "H1",
+          "decision": "retain",
+          "reason": "Known supplied origin is AI-authored synthetic evaluation material. Natural-sounding details or later editing do not change this origin."
+        }
+      ],
+      "improvement": false,
+      "improvement_reason": "Source baseline; no rewrite is asserted."
+    },
+    {
+      "id": "r1",
+      "candidate": {
+        "path": "round-1.txt",
+        "sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8"
+      },
+      "native": {
+        "path": "round-1-score/model-result.json",
+        "sha256": "97258106c827921d2420658478a2fc9cc8f351fb154cc223597b3d41a94d2fa4"
+      },
+      "feedback": {
+        "path": "round-1-score/feedback.json",
+        "sha256": "d9a40c6d35685a02eb11f71ed983538a41b2be58db14b9286bb0fbe7a09cde56"
+      },
+      "review": {
+        "path": "round-1-review/validated.json",
+        "sha256": "0f01ec650839efd2631a303f23a8a3a791bea4052783f6245d05e2ae37484d8d"
+      },
+      "fidelity": {
+        "source_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+        "eligible": true,
+        "reason": "pass; no missing fact or speech act, with small relational/emphasis refinements requested"
+      },
+      "followup": [
+        {
+          "parent_round": "r0",
+          "finding_id": "S2",
+          "status": "resolved",
+          "reason": "Retrospective current confirmation: The separate routine/rule summary is integrated into the concrete missed-morning sentence. The intended compression occurred, but this does not mean the resulting paragraph was independently checked as problem-free then.",
+          "before": {
+            "start": 429,
+            "end": 590,
+            "quote": "I still checked my phone as soon as I finished, and on two mornings I skipped reading altogether. This was a routine I tried, not a rule I consistently followed."
+          },
+          "after": {
+            "start": 435,
+            "end": 533,
+            "quote": "I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether."
+          },
+          "finding_ids": [],
+          "new_findings_identified_separately": [
+            "R1-UNSUPPORTED-CONNECTIVE"
+          ],
+          "provenance": "inherited-history-review.json; current reconstruction, not earlier review."
+        }
+      ],
+      "reader": {
+        "eligible": true,
+        "reason": "Current reviewer retains this faithful candidate as a baseline, while requesting the specific revisions recorded in round-1-review/triage.json. It is not feedback-closed."
+      },
+      "triage": [
+        {
+          "finding_id": "HISTORY",
+          "decision": "retain",
+          "reason": "Keep the provenance disclosure in evaluation records; never represent a improved Human score as a changed origin."
+        },
+        {
+          "finding_id": "R1-UNSUPPORTED-CONNECTIVE",
+          "decision": "revise",
+          "reason": "Separate approval of uninterrupted reading, the continued post-reading phone check, and the two skipped mornings using relations the source actually supports. Remove either or replace the relation; avoid implying an invented goal of reducing all phone use. Keep all three observations and the admission that adherence was imperfect."
+        },
+        {
+          "finding_id": "R2-MODEST-BENEFIT-FRAMING",
+          "decision": "revise",
+          "reason": "Introduce the actual change directly while keeping the idea that this was a simpler, more modest outcome than the unproven memory benefit. Do not turn fewer interruptions into a measured concentration, productivity or memory gain."
+        },
+        {
+          "finding_id": "R3-EVIDENCE-LIMIT",
+          "decision": "retain",
+          "reason": "Keep the missing-baseline logic intact. Retain eight weeks, mornings, a chapter before phone, three novels, and uncertainty about actual improvement; do not manufacture a test or stronger causal claim."
+        },
+        {
+          "finding_id": "R4-ENDING",
+          "decision": "retain",
+          "reason": "Preserve the personal value, universal-recommendation reluctance, quiet mornings, no trial during travel, next-month after-dinner desire, and no chosen start date. No forced fragment, invented anecdote, arbitrary synonym replacement, or quota-based edit is justified."
+        },
+        {
+          "finding_id": "MODEL-SENSITIVITY",
+          "decision": "retain",
+          "reason": "Use sensitivity to prioritize scrutiny, not as an editing target by itself. Re-measure any revised candidate and compare Human only among candidates passing all source/quality constraints. Preserve four native classes, with Humanized separate from Human."
+        }
+      ],
+      "improvement": true,
+      "improvement_reason": "Inherited writer declared reader improvements from the accepted source actions: Integrate or shorten adherence summary while preserving two skipped mornings and inconsistent adherence. Current independent review nevertheless found new actionable issues; this declaration is not a score-based or final quality verdict."
+    },
+    {
+      "id": "r2",
+      "candidate": {
+        "path": "round-2.txt",
+        "sha256": "6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f"
+      },
+      "native": {
+        "path": "round-2-score/model-result.json",
+        "sha256": "b72ef3d954a2dd30f71d8466c12ac78c07ee1864e37ae81c6b91b40b0c0ed175"
+      },
+      "feedback": {
+        "path": "round-2-score/feedback.json",
+        "sha256": "44f59daa012a19216660c656d9b7a2dd1f8334101a13dcbd07cc7467d8690ec2"
+      },
+      "review": {
+        "path": "round-2-review/validated.json",
+        "sha256": "e8f29e41f6949188cf8e92a6c6c6821980bdabfbb9eef7b12fdd33c4c5154375"
+      },
+      "fidelity": {
+        "source_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+        "eligible": true,
+        "reason": "Every immutable-source fact, condition, uncertainty and speech act checked before scoring and in the current whole-document post-score review. No omission or unsupported addition."
+      },
+      "followup": [
+        {
+          "parent_round": "r1",
+          "finding_id": "R1-UNSUPPORTED-CONNECTIVE",
+          "before": {
+            "start": 364,
+            "end": 533,
+            "quote": "I liked that, although I still checked my phone as soon as I finished. I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether."
+          },
+          "after": {
+            "start": 350,
+            "end": 502,
+            "quote": "I liked that. I still checked my phone as soon as I finished. I didn't keep to the routine every morning: on two mornings, I skipped reading altogether."
+          },
+          "status": "resolved",
+          "finding_ids": [],
+          "reason": "Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective.",
+          "resolution_evidence_finding": "R1-UNSUPPORTED-CONNECTIVE-RESOLUTION"
+        },
+        {
+          "parent_round": "r1",
+          "finding_id": "R2-MODEST-BENEFIT-FRAMING",
+          "before": {
+            "start": 272,
+            "end": 363,
+            "quote": "The change I noticed was in how I read: I stopped interrupting a chapter to check messages."
+          },
+          "after": {
+            "start": 272,
+            "end": 349,
+            "quote": "What changed was simpler: I stopped interrupting a chapter to check messages."
+          },
+          "status": "resolved",
+          "finding_ids": [],
+          "reason": "The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim.",
+          "resolution_evidence_finding": "R2-MODEST-BENEFIT-FRAMING-RESOLUTION"
+        }
+      ],
+      "reader": {
+        "eligible": true,
+        "reason": "The modest first-person voice and three-part progression remain. P2 now distinguishes observations cleanly. I liked that. is short but purposeful; the following first-person sentences do not create a consequential rhythm problem. No new detail, stronger result or future commitment was introduced. All accepted round-1 issues resolved; no new justified repair."
+      },
+      "triage": [
+        {
+          "finding_id": "R1-UNSUPPORTED-CONNECTIVE-RESOLUTION",
+          "decision": "retain",
+          "reason": "The accepted prior editorial issue is resolved on the exact current text, independently of whether its native Human output rose or fell. All source constraints were checked again."
+        },
+        {
+          "finding_id": "R2-MODEST-BENEFIT-FRAMING-RESOLUTION",
+          "decision": "retain",
+          "reason": "The accepted prior editorial issue is resolved on the exact current text, independently of whether its native Human output rose or fell. All source constraints were checked again."
+        },
+        {
+          "finding_id": "RETAIN-P1",
+          "decision": "retain",
+          "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+        },
+        {
+          "finding_id": "RETAIN-P2",
+          "decision": "retain",
+          "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+        },
+        {
+          "finding_id": "RETAIN-P3",
+          "decision": "retain",
+          "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+        },
+        {
+          "finding_id": "HISTORY",
+          "decision": "retain",
+          "reason": "A classifier Human score cannot change that known supplied origin or authenticate a transaction or lived event."
+        },
+        {
+          "finding_id": "MODEL-SENSITIVITY",
+          "decision": "retain",
+          "reason": "These are actual paragraph-deletion score changes on this exact candidate. Deletion changes context and length; deltas are not paragraph authorship probabilities or causal feature explanations. Old and new paragraphs are not identical ablations, so delta changes do not isolate the effects of a particular edit."
+        }
+      ],
+      "improvement": true,
+      "improvement_reason": "Accepted round-1 audience/coherence repairs resolved with source fidelity. Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective. The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim. Reader judgment is independent of native score movement.",
+      "decision_record": {
+        "path": "round-2-review/session-round.json",
+        "sha256": "372b82de89a3fd4308040be4e28663d3188e0a0ae46dfb37163e589887194996"
+      }
+    }
+  ],
+  "stop": {
+    "reason": "in_progress",
+    "detail": "Accepted round-1 findings resolved in full post-score review. One explicitly requested composition alternative will be reviewed within the existing budget; earlier checkpoints preserved."
+  }
+}

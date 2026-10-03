@@ -1,0 +1,132 @@
+{
+  "reviewed_at_utc": "2026-10-03T09:44:08.459540+00:00",
+  "review_scope": "Retrospective source-to-round-1 lineage audit using preserved texts and inherited writer record. These are current judgments about past artifacts, not evidence of a past automatic or independent resolution loop.",
+  "case": "support-email",
+  "source_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+  "round_1_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+  "source_to_round_1": [
+    {
+      "source_finding_id": "S4",
+      "source_triage_id": "R1",
+      "retrospective_status": "resolved_at_round_1_by_text_comparison_now",
+      "accepted_action": "Relocate shipped-first-payment restriction and duplicate-only scope next to pending status, leaving contact instructions at the end.",
+      "before": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\source.txt",
+          "text_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+          "start": 765,
+          "end": 895,
+          "quote": "I cannot cancel the first payment because the order has already shipped. The refund request covers only the duplicate £36 payment.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "after": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-1.txt",
+          "text_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+          "start": 280,
+          "end": 402,
+          "quote": "The request covers only the duplicate £36 payment. I can't cancel the first payment because the order has already shipped.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "reason": "Round 1 puts scope directly after the status paragraph rather than after the promised update. The targeted backtracking is removed. This resolution is verified now, retrospectively; no earlier independent resolution pass is claimed.",
+      "new_finding_ids": [
+        "S2-REPEATED-SCOPE"
+      ],
+      "new_issue_evidence": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-1.txt",
+          "text_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+          "start": 93,
+          "end": 228,
+          "quote": "I confirmed that the second payment was taken on 18 September and submitted a request this morning to refund the duplicate £36 payment.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        },
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-1.txt",
+          "text_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+          "start": 280,
+          "end": 330,
+          "quote": "The request covers only the duplicate £36 payment.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "new_issue_reason": "The accepted relocation creates adjacent repeated object wording. Record a new round-1 finding, not unchanged source S4."
+    },
+    {
+      "source_finding_id": "S2",
+      "source_triage_id": "R2",
+      "retrospective_status": "selective_courtesy_edit_implemented_all_speech_acts_retained",
+      "accepted_action": "Lightly tighten only where useful; retain gratitude, frustration acknowledgment and apology.",
+      "before": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\source.txt",
+          "text_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+          "start": 12,
+          "end": 93,
+          "quote": "Thank you for your patience while I reviewed the duplicate charge on order R-214.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        },
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\source.txt",
+          "text_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+          "start": 254,
+          "end": 366,
+          "quote": "I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "after": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-1.txt",
+          "text_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+          "start": 12,
+          "end": 92,
+          "quote": "Thank you for your patience while I checked the duplicate charge on order R-214.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        },
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-1.txt",
+          "text_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+          "start": 625,
+          "end": 736,
+          "quote": "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "reason": "Checked and contractions implement selective expression changes; all interpersonal functions survive. The optional source suggestion did not authorize deleting courtesy. Do not call every retained courtesy phrase an unresolved source defect.",
+      "new_finding_ids": [
+        "S1-ACKNOWLEDGEMENT-ORDER"
+      ],
+      "new_issue_evidence": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-1.txt",
+          "text_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+          "start": 625,
+          "end": 813,
+          "quote": "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you. I'll email you by 3 p.m. on Friday even if I'm still waiting for a decision.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "new_issue_reason": "The inherited writer moved empathy/apology after the process explanation. That is a new round-1 ordering tradeoff, resolved by moving them into round-2 opening body paragraph."
+    }
+  ],
+  "revision_budget": {
+    "max_post_draft_revisions": 3,
+    "prior_revisions_used": 0,
+    "current_round_2_revision_uses": 1,
+    "revisions_used_after_round_2": 1,
+    "remaining_after_round_2": 2,
+    "evidence": {
+      "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\inherited-writer-review.md",
+      "text_sha256": "9c9a09ccf699d1554f2b6fca2a9edf3cc315848a44f6078400235aa91a842eab",
+      "start": 3325,
+      "end": 3386,
+      "quote": "One initial complete candidate; no post-draft revision cycle.",
+      "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+    },
+    "note": "The inherited pre-freeze fidelity repair counts toward the same three-revision limit. A new measurement phase does not reset that budget. Earlier complete pre-repair reflection candidate unavailable here; no invented full-text/hash for it."
+  },
+  "no_inference_run": true
+}

@@ -10,7 +10,13 @@ The default is active rewriting: reorganize paragraphs, recast sentences, preser
 
 [Editable PowerPoint](docs/assets/workflow.pptx) · [Design draft](docs/assets/composition-draft.png) · [Figure validation](docs/figure-evidence/render-review.md). The diagram was created using [JYS1025/paper-figure](https://github.com/JYS1025/paper-figure). External findings can inform another editorial review; that optional return path is described in the skill rather than drawn in this overview.
 
-## Current release: v1.9.0
+## Current release: v1.10.0
+
+The installed local detector now drives an explicit feedback → rewrite → whole-document re-review loop. Every accepted finding must be linked to a later checked resolution or carried forward; a finished scan is not loop completion. The new offline record validator catches missing findings, stale scores, unchanged-text false repairs and obsolete same-text reviews. It keeps the best faithful checkpoint separately from the highest-Human candidate with feedback closed. The assistant performs the actual rewriting and local detector calls; no paid service or autonomous hosted agent is bundled.
+
+Two English continuations applied four concrete findings and reviewed one further composition per case: three new local measurements, one pre-score fidelity rejection, and separate-context reviews. The rejected alternative rolls back to a checked earlier draft. Results are mixed and remain below Human 50%; this is a workflow correction, not a demonstrated universal detector-performance gain. The revision ceiling, models and Korean guidance are unchanged. [Full results and exact review history](benchmarks/feedback-cycle/REPORT.md) · [loop record format](skills/bilingual-humanizer/references/feedback-cycle-record.md) · [retained v1.9](benchmarks/feedback-cycle/retained-skill/).
+
+## Previous release: v1.9.0
 
 English is the focus of this update: recompose clauses from meaning, connect information naturally, choose register without forced casualness, and preserve academic section roles. Reviewed 15 repositories and seven product documentation surfaces; no paid humanizer integration. Korean guidance and the revision ceiling are unchanged.
 

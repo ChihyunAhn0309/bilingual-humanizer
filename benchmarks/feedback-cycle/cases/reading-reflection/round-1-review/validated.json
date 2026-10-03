@@ -1,0 +1,255 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Current score-informed review: revise the middle-paragraph connective chain (R1) and make the modest observed benefit more direct (R2). All source facts remain and all three paragraphs were freshly reviewed. The largest deletion delta is only +0.427119185 percentage points at an already saturated score; this does not identify a faulty passage or justify eliminating the ending. Reused four-class measurements are uncalibrated experimental auxiliary scores with documented false positives, not verified authorship. Humanized remains a separate class from Human.",
+  "document_analysis": {
+    "structure": "P1 separates hoped-for memory benefit from missing baseline; P2 describes a simpler actual benefit and imperfect adherence; P3 gives value, limits and future intention. This progression works. R1 and R2 refine only the middle paragraph.",
+    "reasoning_specificity": "All nine grouped source constraints survive, but R1 makes the relation among phone use, liking and missed days clearer; R2 restores the modest comparison already explicit in the source. No actual recall improvement or broader phone-use objective is supported.",
+    "voice_consistency": "Consistent modest first-person reflection, ordinary contractions and British travelling. The exact synthetic observations are retained; no invented experience or affect is needed.",
+    "rhythm_repetition": "There are two colons in P2, but that count is not itself a problem. The actual issue is the category preface and the although/either chain. P3's caveats serve different functions and need not be removed for variety.",
+    "language_features": "The English is otherwise natural. Either has an imperfect antecedent; although may imply a broader unprovided aim. Ordinary words, grammar and careful uncertainty are nondiagnostic.",
+    "citations_provenance": "No external citation is asserted. The supplied experiment records AI source plus AI rewriting, with no authenticated lived experience. The old result is attached after exact SHA checks, while every paragraph received a new current review with the measurements visible."
+  },
+  "findings": [
+    {
+      "id": "HISTORY",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "strong",
+      "spans": [
+        {
+          "start": 0,
+          "end": 119,
+          "quote": "For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "The supplied experiment history identifies both the source and this candidate as AI-generated; the current review concerns an AI rewrite of an AI-authored synthetic source.",
+      "interpretation": "Documented AI involvement is separate from how natural the prose reads and from any classifier output. This review does not certify real events or real-world authorship.",
+      "human_alternative": "A human could write the same language. That possibility does not overturn the supplied experimental provenance.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\sources.json; supplied parent task history; original source and exact experimental candidate inspected."
+    },
+    {
+      "id": "R1-UNSUPPORTED-CONNECTIVE",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 364,
+          "end": 434,
+          "quote": "I liked that, although I still checked my phone as soon as I finished.",
+          "line": 3,
+          "column": 93,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 435,
+          "end": 533,
+          "quote": "I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether.",
+          "line": 3,
+          "column": 164,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "P2 connects liking uninterrupted reading to after-reading phone checks with 'although', then adds non-adherence with 'either'. But checking after finishing complies with the stated routine; it is not a first instance of failing to keep it.",
+      "interpretation": "The loose connective chain can suggest that post-reading checking was another breach and turns a plain source observation into a compensating caveat. The source facts are still recoverable, but the relation should be clearer. This is a genuine small coherence issue, not evidence of AI origin.",
+      "human_alternative": "A reflective human may regard continued phone use as limiting a broader personal ambition even without breaking the routine, and may use either loosely. That broader ambition was not supplied by the source.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history."
+    },
+    {
+      "id": "R2-MODEST-BENEFIT-FRAMING",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 272,
+          "end": 363,
+          "quote": "The change I noticed was in how I read: I stopped interrupting a chapter to check messages.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "The phrase 'was in how I read' labels the category before describing the actual change. Compared with the source's 'was simpler', it also weakens the explicit contrast between hoped-for memory improvement and the more modest observed benefit.",
+      "interpretation": "A direct transition to the stopped interruptions can be shorter and express the modest comparison more accurately. This is a defensible clarity/fidelity refinement; the existing sentence is not ungrammatical or a major error.",
+      "human_alternative": "Human reflection often uses an orienting phrase before an example. A writer may reasonably prefer the existing signpost; no authorship conclusion follows.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history."
+    },
+    {
+      "id": "R3-EVIDENCE-LIMIT",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 270,
+          "quote": "For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read. By the end, I could recall the plots of three novels. But I hadn't tested my memory before the experiment, so I can't tell whether my recall improved.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "The first paragraph preserves the eight-week morning chapter-before-phone routine, original memory expectation, recall of three novel plots, and lack of a pre-experiment memory test.",
+      "interpretation": "The separation between an observed result and an unsupported improvement claim is clear and useful. The balanced wording is justified by the source, not empty hedging.",
+      "human_alternative": "A careful human reflection would need the same limitation; factual specificity and contractions are compatible with both human and generated text.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history."
+    },
+    {
+      "id": "R4-ENDING",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 535,
+          "end": 853,
+          "quote": "The reading itself was worthwhile to me even without evidence of a memory benefit. I'm reluctant to recommend the routine to everyone, though. My mornings were quiet during those weeks, and I didn't try it while travelling. Next month I want to try reading after dinner instead, although I haven't chosen a start date.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "P3 gives personal value without a proven memory benefit, reluctance to recommend universally, quiet-morning and no-travel limits, and an unscheduled desire to try after dinner next month.",
+      "interpretation": "The qualifications each limit a distinct inference. The paragraph reads coherently; the saturated classifier output gives no independent editorial reason to remove or fragment this ending.",
+      "human_alternative": "A reflective human can naturally move from personal value to limits and next intention. The ending follows the supplied content rather than a generic motivational lesson.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history."
+    },
+    {
+      "id": "MODEL-SENSITIVITY",
+      "basis": "local_occlusion",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 270,
+          "quote": "For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read. By the end, I could recall the plots of three novels. But I hadn't tested my memory before the experiment, so I can't tell whether my recall improved.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        },
+        {
+          "start": 272,
+          "end": 533,
+          "quote": "The change I noticed was in how I read: I stopped interrupting a chapter to check messages. I liked that, although I still checked my phone as soon as I finished. I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 535,
+          "end": 853,
+          "quote": "The reading itself was worthwhile to me even without evidence of a memory benefit. I'm reluctant to recommend the routine to everyone, though. My mornings were quiet during those weeks, and I didn't try it while travelling. Next month I want to try reading after dinner instead, although I haven't chosen a start date.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "P1: before 99.985126623%, after 99.922911718%, delta +0.062214905 percentage points; P2: before 99.985126623%, after 99.938863382%, delta +0.046263241 percentage points; P3: before 99.985126623%, after 99.558007438%, delta +0.427119185 percentage points",
+      "interpretation": "Actual single-paragraph deletion experiments on the unchanged candidate. Positive delta means removal lowered AI-involvement; length and context also changed. These are not paragraph probabilities, causal explanations, or permission to delete. The highest delta was inspected in the whole document and source context.",
+      "human_alternative": "Human writing can show the same sensitivity and the checkpoint has documented high-confidence human false positives in the 36-document pilot. Supplied synthetic origin is separately known.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\reading-reflection\\experimental-score\\model-result.json; occlusion.paragraphs; unchanged one-window English candidate; raw result SHA256 97258106c827921d2420658478a2fc9cc8f351fb154cc223597b3d41a94d2fa4"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 270,
+      "line": 1,
+      "text": "For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read. By the end, I could recall the plots of three novels. But I hadn't tested my memory before the experiment, so I can't tell whether my recall improved.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "All routine, expectation, three-novel and missing-baseline facts are clear; retain.",
+      "finding_ids": [
+        "HISTORY",
+        "R3-EVIDENCE-LIMIT",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 272,
+      "end": 533,
+      "line": 3,
+      "text": "The change I noticed was in how I read: I stopped interrupting a chapter to check messages. I liked that, although I still checked my phone as soon as I finished. I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Preserves facts but has a loose connective chain and a less direct modest-benefit introduction; revise R1/R2.",
+      "finding_ids": [
+        "R1-UNSUPPORTED-CONNECTIVE",
+        "R2-MODEST-BENEFIT-FRAMING",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 535,
+      "end": 853,
+      "line": 5,
+      "text": "The reading itself was worthwhile to me even without evidence of a memory benefit. I'm reluctant to recommend the routine to everyone, though. My mornings were quiet during those weeks, and I didn't try it while travelling. Next month I want to try reading after dinner instead, although I haven't chosen a start date.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Meaningful value/limits/intention sequence; no justified standalone defect despite its largest measured delta.",
+      "finding_ids": [
+        "R4-ENDING",
+        "MODEL-SENSITIVITY"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 3,
+    "paragraphs_reviewed": 3,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_local_model",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "measured_at_utc": "2026-10-03T09:06:00.854622+00:00",
+    "class_probabilities": {
+      "human": 0.00014873377222102135,
+      "ai": 0.9992535710334778,
+      "ai_edited": 6.948819645913318e-06,
+      "humanized": 0.000590697571169585
+    },
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "calibration": null,
+    "applicability_cautions": [],
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "language_scope": "English only; independently uncalibrated",
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Coherent, specific reflection with no clear need for a structural rewrite. A limited optional edit can compress the concluding restatement about imperfect adherence while retaining the two skipped mornings and the difference between attention and memory. Supplied origin: AI-authored synthetic fixture. Existing native scores are uncalibrated experimental model outputs, not verified authorship.",
+  "document_analysis": {
+    "structure": "P1 introduces the eight-week routine and unresolved memory outcome; P2 identifies a narrower benefit and lapses; P3 bounds generalization and sets a tentative next experiment. This progression is already functional.",
+    "reasoning_specificity": "P1 explicitly lacks a before measure. P2 gives concrete observed behavior rather than claiming improved cognition. P3 limits transfer to travel/busier mornings. These limits do different work and should survive editing.",
+    "voice_consistency": "Consistent restrained first-person reflection. P2's short \"I liked that.\" provides an ordinary personal reaction without claiming a dramatic transformation.",
+    "rhythm_repetition": "P2's \"This was a routine I tried, not a rule I consistently followed.\" summarizes the preceding two skipped mornings. This is the clearest optional compression target. P1 and P3 both mention lack of memory evidence, but P3 distinguishes personal value from measured benefit, adding a real point.",
+    "language_features": "Clear English with varied short/long sentences. The routine/rule contrast is neatly balanced and may sound composed, but this alone is weak and conventional essay rhetoric.",
+    "citations_provenance": "No external claims or citations to verify. sources.json declares a synthetic AI-authored first-person fixture. The described habits are narrative facts to preserve, not authenticated autobiography."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 327,
+          "quote": "For eight weeks, I read a chapter before looking at my phone in the morning. I expected the change to help me remember more of what I read. At the end of the eight weeks, I could recall the plots of three novels, but I had not tested my memory before the experiment. I therefore cannot tell whether my recall actually improved.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "Eight-week routine, expected memory benefit, recall of three novel plots, and absent baseline are separated.",
+      "interpretation": "Retain the uncertainty: remembering plots at the end does not establish improvement. No editorial defect is demonstrated by cautious wording.",
+      "human_alternative": "A reflective human writer could be honest about a poorly controlled personal experiment.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 329,
+          "end": 590,
+          "quote": "The change I noticed was simpler: I stopped interrupting a chapter to check messages. I liked that. I still checked my phone as soon as I finished, and on two mornings I skipped reading altogether. This was a routine I tried, not a rule I consistently followed.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "Concrete reduction in mid-chapter checking, enjoyment, immediate post-reading checking, two skipped mornings, then an adherence summary.",
+      "interpretation": "The final balanced contrast can be compressed as an optional restatement. Preserve all observed behaviors and the imperfect-adherence meaning.",
+      "human_alternative": "A human essayist may deliberately state the lesson after an example; the summary can reasonably remain.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 592,
+          "end": 915,
+          "quote": "I am reluctant to recommend the same routine to everyone. My mornings were quiet during those weeks, and I did not try it when I was travelling. The reading itself was worthwhile to me even without evidence of a memory benefit. Next month I want to try reading after dinner instead, although I have not chosen a start date.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "Reluctance to generalize is explained by quiet mornings and no travel trial; value is independent of memory proof; next-month after-dinner idea has no chosen start.",
+      "interpretation": "Four sentences have distinct functions. Preserve their caution and tentative plan; no forced dramatic conclusion or fresh anecdote is warranted.",
+      "human_alternative": "A human reflection naturally closes by considering applicability and a modest next step.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 327,
+          "quote": "For eight weeks, I read a chapter before looking at my phone in the morning. I expected the change to help me remember more of what I read. At the end of the eight weeks, I could recall the plots of three novels, but I had not tested my memory before the experiment. I therefore cannot tell whether my recall actually improved.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "New AI-authored synthetic evaluation source; not real user/company history",
+      "interpretation": "Known supplied origin is AI-authored synthetic evaluation material. Natural-sounding details or later editing do not change this origin.",
+      "human_alternative": "People could write similar text, but similarity does not override the supplied creation record for this fixture.",
+      "discriminating_evidence": "This review verifies text hashes against the local source registry; it does not independently authenticate the entire generation process or any real-world events.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\sources.json entry reading-reflection; source_sha256=c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 327,
+      "line": 1,
+      "text": "For eight weeks, I read a chapter before looking at my phone in the morning. I expected the change to help me remember more of what I read. At the end of the eight weeks, I could recall the plots of three novels, but I had not tested my memory before the experiment. I therefore cannot tell whether my recall actually improved.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Eight-week routine, expected memory benefit, recall of three novel plots, and absent baseline are separated. Retain the uncertainty: remembering plots at the end does not establish improvement. No editorial defect is demonstrated by cautious wording.",
+      "finding_ids": [
+        "S1",
+        "H1"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 329,
+      "end": 590,
+      "line": 3,
+      "text": "The change I noticed was simpler: I stopped interrupting a chapter to check messages. I liked that. I still checked my phone as soon as I finished, and on two mornings I skipped reading altogether. This was a routine I tried, not a rule I consistently followed.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Concrete reduction in mid-chapter checking, enjoyment, immediate post-reading checking, two skipped mornings, then an adherence summary. The final balanced contrast can be compressed as an optional restatement. Preserve all observed behaviors and the imperfect-adherence meaning.",
+      "finding_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 592,
+      "end": 915,
+      "line": 5,
+      "text": "I am reluctant to recommend the same routine to everyone. My mornings were quiet during those weeks, and I did not try it when I was travelling. The reading itself was worthwhile to me even without evidence of a memory benefit. Next month I want to try reading after dinner instead, although I have not chosen a start date.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Reluctance to generalize is explained by quiet mornings and no travel trial; value is independent of memory proof; next-month after-dinner idea has no chosen start. Four sentences have distinct functions. Preserve their caution and tentative plan; no forced dramatic conclusion or fresh anecdote is warranted.",
+      "finding_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 3,
+    "paragraphs_reviewed": 3,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_local_model",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "measured_at_utc": "2026-10-03T08:51:08.061261+00:00",
+    "class_probabilities": {
+      "human": 9.757605585036799e-05,
+      "ai": 0.9992775321006775,
+      "ai_edited": 6.263084742386127e-06,
+      "humanized": 0.0006185798556543887
+    },
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "calibration": null,
+    "applicability_cautions": [],
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "language_scope": "English only; independently uncalibrated",
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  }
+}

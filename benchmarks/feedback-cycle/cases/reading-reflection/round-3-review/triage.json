@@ -1,0 +1,70 @@
+{
+  "case": "reading-reflection",
+  "review_round": 3,
+  "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-3.txt",
+  "candidate_sha256": "8e0cc21b22fc44030b2af235c244ee8e79eb7399e8d31a79a865f8c6d52ce161",
+  "source_fidelity": "fail: expected changed to hoped",
+  "quality_eligible": false,
+  "reader_eligible": true,
+  "followup": [],
+  "findings": [
+    {
+      "finding_id": "R3-MEMORY-EXPECTATION",
+      "decision": "revise",
+      "reason": "Restore the source expectation before this candidate could pass; budget exhausted, so retain the rejected text and recover eligible closed round 2 instead of silently editing further."
+    },
+    {
+      "finding_id": "RETAIN-MEMORY-LIMIT",
+      "decision": "retain",
+      "reason": "These conditions preserve the original evidence limit; retain them in any accepted version. They do not offset the separate expectation error."
+    },
+    {
+      "finding_id": "RETAIN-OBSERVATIONS",
+      "decision": "retain",
+      "reason": "The earlier either/although coherence issue has not returned. The short opening and coordinated observation fit the restrained voice; no repair is justified here."
+    },
+    {
+      "finding_id": "RETAIN-LIMITS-VALUE",
+      "decision": "retain",
+      "reason": "Each limit has a distinct role. These are useful qualifications, not padding. There is no invented broader benefit or prescriptive conclusion."
+    },
+    {
+      "finding_id": "RETAIN-NEXT-STEP",
+      "decision": "retain",
+      "reason": "This is a useful alternative layout for finding the next step, but not a demonstrated overall improvement over round 2. The future act remains a desire rather than a scheduled commitment."
+    },
+    {
+      "finding_id": "HISTORY",
+      "decision": "retain",
+      "reason": "Rejecting a fidelity regression or choosing a more natural candidate does not change the known supplied generation history. No real lived experience is authenticated."
+    }
+  ],
+  "revision_request": [
+    "R3-MEMORY-EXPECTATION"
+  ],
+  "unresolved_findings": [
+    "R3-MEMORY-EXPECTATION"
+  ],
+  "new_findings": [
+    "R3-MEMORY-EXPECTATION"
+  ],
+  "measurement": {
+    "status": "not_executed",
+    "reason": "fidelity_gate_failed_before_scoring",
+    "native_class_probabilities": null,
+    "human_percent": null,
+    "authorship_verified": false,
+    "new_inference_runs": 0
+  },
+  "budget": {
+    "prior_revisions_used": 1,
+    "post_inherited_revisions_used": 2,
+    "revisions_used": 3,
+    "revision_limit": 3,
+    "remaining": 0
+  },
+  "stop": "budget",
+  "recovery": "Select only among earlier faithful, reader-eligible, feedback-closed candidates; round 2 is the intended recovery. The current rejected round is not repaired or falsely marked closed.",
+  "improvement": false,
+  "improvement_reason": "Useful alternative composition with specific local reading benefits, but no clear defensible overall improvement over round 2. Fidelity also fails as written."
+}

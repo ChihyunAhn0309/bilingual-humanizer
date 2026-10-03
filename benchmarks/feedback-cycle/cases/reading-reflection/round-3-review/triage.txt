@@ -1,0 +1,6 @@
+Round 3 rejected before scoring: expected became hoped, weakening the source stance. All other content and the useful four-paragraph structure were reviewed, with no further necessary repair. No native model run was attempted for this candidate; numeric output is unavailable because the fidelity gate failed, not because of a runtime failure. The original three-revision limit is exhausted including one inherited repair, round 2 and this rejected draft. Preserve the exact rejected candidate and recover the already scored, eligible, feedback-closed round 2. No false completion or repair of this rejected text is claimed.
+
+REVISE (unresolved in rejected candidate): R3-MEMORY-EXPECTATION.
+Native Human/AI/AI-edited/Humanized: unavailable, not executed because fidelity gate failed.
+Followup from round 2: none, because round 2 had no open findings.
+Preserve all other source content; retain exact rejected candidate. Stop at original budget and recover closed round 2.

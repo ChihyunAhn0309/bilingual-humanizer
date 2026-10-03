@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "case": "support-email",
+  "review_round": 1,
+  "mode": "current_whole_document_review_after_actual_feedback",
+  "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\support-email\\experimental.txt",
+  "candidate_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+  "source_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\support-email\\source.txt",
+  "provenance": "AI-generated synthetic source and AI rewrite, per supplied history",
+  "old_review_role": "Read as prior observations; decisions above are newly made with current whole-document context and the actual scores visible.",
+  "measurement": {
+    "reused_unchanged_result": true,
+    "result_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\support-email\\experimental-score\\model-result.json",
+    "result_sha256": "a9e15e896b664589a6b29b13ac70c7830ed910db193c9531dde89493843631c0",
+    "measured_at_utc": "2026-10-03T09:04:33.214228+00:00",
+    "native_class_probabilities": {
+      "human": 0.0031406020279973745,
+      "ai": 0.21059362590312958,
+      "ai_edited": 0.000247636140557006,
+      "humanized": 0.7860181331634521
+    },
+    "human_percent": 0.31406020279973745,
+    "caution": "Uncalibrated experimental auxiliary four-class output; pilot false positives; Humanized is not Human; no inference run by reviewer."
+  },
+  "source_fidelity": "pass; no missing fact or speech act, with small relational/emphasis refinements requested",
+  "source_constraints_reviewed": [
+    "Morgan/Alex and order R-214",
+    "second payment taken 18 September, confirmed",
+    "£36 refund request submitted this morning",
+    "payment team has not approved yet",
+    "frustration acknowledgement plus apology for extra work",
+    "approval-dependent original-card arrival within five working days",
+    "estimate, no guaranteed arrival date",
+    "no further form while pending",
+    "email by Friday 3 p.m. even without decision; if missing, reply with order number",
+    "first payment cannot be cancelled because already shipped; refund only duplicate £36"
+  ],
+  "findings": [
+    {
+      "finding_id": "HISTORY",
+      "decision": "retain",
+      "action_hypothesis": "Keep the provenance disclosure in evaluation records; never represent a improved Human score as a changed origin.",
+      "resolved": null
+    },
+    {
+      "finding_id": "S1-ACKNOWLEDGEMENT-ORDER",
+      "decision": "revise",
+      "action_hypothesis": "Move the explicit frustration acknowledgement and apology for extra work into the opening body sequence. Keep the promised update and fallback together later. Preserve both speech acts, without adding blame, a resolved-refund claim, extra warmth or new promises.",
+      "resolved": false
+    },
+    {
+      "finding_id": "S2-REPEATED-SCOPE",
+      "decision": "revise",
+      "action_hypothesis": "Consolidate or vary the adjacent refund-object explanation so the amount and only-duplicate restriction are stated clearly once in the relevant sequence. Preserve confirmation of the second payment on 18 September, request submitted this morning, lack of approval, and inability to cancel the first payment because shipment occurred.",
+      "resolved": false
+    },
+    {
+      "finding_id": "S3-QUALIFICATIONS",
+      "decision": "retain",
+      "action_hypothesis": "Retain all conditions and the no-form reassurance. Wording may be adjusted as part of coherent restructuring, but do not remove qualifications to shorten the text or to respond to occlusion sensitivity.",
+      "resolved": null
+    },
+    {
+      "finding_id": "S4-FOLLOWUP",
+      "decision": "retain",
+      "action_hypothesis": "Keep the Friday 3 p.m. promise, even-if-pending condition, and missing-update reply with order number. Preserve the sender and recipient names.",
+      "resolved": null
+    },
+    {
+      "finding_id": "MODEL-SENSITIVITY",
+      "decision": "retain",
+      "action_hypothesis": "Use sensitivity to prioritize scrutiny, not as an editing target by itself. Re-measure any revised candidate and compare Human only among candidates passing all source/quality constraints. Preserve four native classes, with Humanized separate from Human.",
+      "resolved": null
+    }
+  ],
+  "unresolved_findings": [],
+  "revision_request": [
+    "S1-ACKNOWLEDGEMENT-ORDER",
+    "S2-REPEATED-SCOPE"
+  ],
+  "retain_candidate_as_baseline": true,
+  "subsequent_review_required": "Check resolution of every accepted finding, full source fidelity, all paragraphs, and any new issues on the exact revised candidate; do not merely confirm wording changes. Do not predict or manually alter its score.",
+  "revision_budget_context": "Parent reports initial draft already used and up to three post-draft revisions remain. This is one coherent proposed revision, not multiple scoring probes."
+}

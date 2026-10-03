@@ -1,0 +1,241 @@
+{
+  "release_ready": true,
+  "repository_payload_sha256": "405b900e22b51ed41c88b9fc1c1fe17ba30a9165fd0644de86046fe931dc8cd0",
+  "release_version": "1.10.0",
+  "checks": [
+    {
+      "name": "skill_and_zip_identity",
+      "passed": true,
+      "detail": {
+        "current_skill_files": 33,
+        "retained_v1_9_files": 30,
+        "zip_unique_entries": 33,
+        "zip_sha256": "e37c403d3d781e98e4682e7c602adab364ae2aeb34cfec993efa2c6212de4db9",
+        "stage_repository_zip_identical": true,
+        "previously_audited_feature_code_unchanged": true
+      }
+    },
+    {
+      "name": "historical_evidence_and_narrow_verifier_changes",
+      "passed": true,
+      "detail": {
+        "unchanged_historical_files": 1194,
+        "allowed_verifier_changes": [
+          "verify_english_focus.py",
+          "verify_evidence.py"
+        ],
+        "changes_reconstruct_exact_prior_hashes": true
+      }
+    },
+    {
+      "name": "final_sessions_review_coverage_and_native_measurements",
+      "passed": true,
+      "detail": {
+        "cases": {
+          "support-email": {
+            "status": "complete",
+            "revisions_used": 2,
+            "selected": {
+              "id": "r2",
+              "candidate": {
+                "path": "round-2.txt",
+                "sha256": "badf900d9b49f594b6e044382381fc297708e2fbea070ef60b6516791677aabe"
+              },
+              "human_percent": 0.0713048386387527,
+              "native_class_probabilities": {
+                "human": 0.000713048386387527,
+                "ai": 0.937963604927063,
+                "ai_edited": 0.00011166670446982607,
+                "humanized": 0.061211660504341125
+              },
+              "scope": "whole_document",
+              "fidelity_eligible": true,
+              "reader_eligible": true,
+              "open_findings": [],
+              "feedback_closed": true,
+              "is_revision": true,
+              "declared_reader_improvement": true,
+              "human_change_percentage_points": -0.24275536416098475,
+              "improvement_reason": "Accepted round-1 audience/coherence repairs resolved with source fidelity. Acknowledgement and apology now occur in opening body paragraph P2, before refund restrictions and conditional timing. Follow-up stays at the end. The amount appears once. The short backward reference preserves the essential only-duplicate limitation and relates it to the first-payment exception in one paragraph. Remaining repetition of request/duplicate is useful disambiguation, not a new defect. Reader judgment is independent of native score movement.",
+              "eligibility_review_round": "r2"
+            },
+            "current_open_findings": [],
+            "rounds": [
+              {
+                "id": "r0",
+                "paragraphs_reviewed": 5,
+                "paragraphs_total": 5,
+                "human_percent": 0.012120229803258553
+              },
+              {
+                "id": "r1",
+                "paragraphs_reviewed": 6,
+                "paragraphs_total": 6,
+                "human_percent": 0.31406020279973745
+              },
+              {
+                "id": "r2",
+                "paragraphs_reviewed": 6,
+                "paragraphs_total": 6,
+                "human_percent": 0.0713048386387527
+              },
+              {
+                "id": "r3",
+                "paragraphs_reviewed": 7,
+                "paragraphs_total": 7,
+                "human_percent": 0.06580224726349115
+              }
+            ]
+          },
+          "reading-reflection": {
+            "status": "budget",
+            "revisions_used": 3,
+            "selected": {
+              "id": "r2",
+              "candidate": {
+                "path": "round-2.txt",
+                "sha256": "6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f"
+              },
+              "human_percent": 0.021193784778006375,
+              "native_class_probabilities": {
+                "human": 0.00021193784778006375,
+                "ai": 0.9989796280860901,
+                "ai_edited": 1.0040707820735406e-05,
+                "humanized": 0.0007984187686815858
+              },
+              "scope": "whole_document",
+              "fidelity_eligible": true,
+              "reader_eligible": true,
+              "open_findings": [],
+              "feedback_closed": true,
+              "is_revision": true,
+              "declared_reader_improvement": true,
+              "human_change_percentage_points": 0.006320407555904239,
+              "improvement_reason": "Accepted round-1 audience/coherence repairs resolved with source fidelity. Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective. The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim. Reader judgment is independent of native score movement.",
+              "eligibility_review_round": "r2"
+            },
+            "current_open_findings": [
+              {
+                "parent_round": "r3",
+                "finding_id": "R3-MEMORY-EXPECTATION"
+              }
+            ],
+            "rounds": [
+              {
+                "id": "r0",
+                "paragraphs_reviewed": 3,
+                "paragraphs_total": 3,
+                "human_percent": 0.0097576055850368
+              },
+              {
+                "id": "r1",
+                "paragraphs_reviewed": 3,
+                "paragraphs_total": 3,
+                "human_percent": 0.014873377222102135
+              },
+              {
+                "id": "r2",
+                "paragraphs_reviewed": 3,
+                "paragraphs_total": 3,
+                "human_percent": 0.021193784778006375
+              },
+              {
+                "id": "r3",
+                "paragraphs_reviewed": 4,
+                "paragraphs_total": 4,
+                "human_percent": null
+              }
+            ]
+          }
+        },
+        "new_measurements": [
+          {
+            "case": "support-email",
+            "round": 2,
+            "human_percent": 0.0713048386387527,
+            "prescore_file_seconds_before_execution": -54.906325,
+            "prescore_file_seconds_after_native": 15.530468
+          },
+          {
+            "case": "support-email",
+            "round": 3,
+            "human_percent": 0.06580224726349115,
+            "prescore_file_seconds_before_execution": 26.084629,
+            "prescore_file_seconds_after_native": -64.260198
+          },
+          {
+            "case": "reading-reflection",
+            "round": 2,
+            "human_percent": 0.021193784778006375,
+            "prescore_file_seconds_before_execution": 35.633791,
+            "prescore_file_seconds_after_native": -70.043942
+          }
+        ],
+        "inherited_measurements": 4,
+        "rejected_unscored_candidates": 1,
+        "threshold_50_percent_met": false
+      }
+    },
+    {
+      "name": "explicit_timing_and_provenance_limits",
+      "passed": true,
+      "detail": {
+        "late_prescore_artifact_gap_seconds": 15.530468,
+        "frozen_pre_execution_proof": false,
+        "ordering_basis": "Reported reviewer communication; not independently timestamp-proven.",
+        "correction_hash_binding_verified": true,
+        "superseded_text_scores_and_judgments_unchanged": true,
+        "support_provenance_correction": {
+          "scope": "Correct a release-audit provenance wording error; no original artifact, candidate, native result, review decision or numerical revision count changed.",
+          "original_history_sha256": "252b8e4734ea8b941fd72661dae95e9f48af5a7becaeb58b0c8b4665ca68e4e7",
+          "affected_field": "revision_budget.note",
+          "problem": "A generic note about the reflection repair was copied into the support history even though prior_revisions_used=0 and the exact writer quote were correct.",
+          "corrected_prior_revision_note": "One initial complete candidate; no inherited post-draft repairs. Prior revisions used: 0. The separate reflection case has an inherited repair; it does not apply to this support email.",
+          "superseded_final_records": [
+            "superseded-before-provenance-correction-session.json",
+            "superseded-before-provenance-correction-final-status.json"
+          ],
+          "preliminary_records": "session-round-1/status-round-1 and session-round-2/status-round-2 preserve their original reconstruction wording and are superseded by session.json/final-status.json."
+        }
+      }
+    },
+    {
+      "name": "installer_exact_payload_preflight",
+      "passed": true,
+      "detail": {
+        "negative_preflight_cases": 3,
+        "real_installs": 0,
+        "real_subprocesses": 0,
+        "installer_sha256": "1ccb4ea5073b139fc101f3b04d1e2ac0aca04bb296f3cd115695f8006251e2b8",
+        "assembler_sha256": "048a7b0ef20a0362e5c2b925cbf3e1c978f8595490c35b3f60242d4378a69d56",
+        "payload_digest_exclusions": [
+          "benchmarks/feedback-cycle/audit-results.json",
+          "benchmarks/feedback-cycle/frozen-files.json",
+          "benchmarks/feedback-cycle/release-review.md"
+        ]
+      }
+    },
+    {
+      "name": "full_saved_evidence_verifier",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "output": "PASS: 36 unique observations; input and receipt hashes match.\nPASS: 28 v1.5/development observations; hashes and recorded scores agree.\nPASS: 17 additional observations, frozen inputs and 20 archived v1.5 production files.\nPASS: 32 deeper-trial observations; native scores, inputs, repairs, blind mappings and release hashes agree.\nPASS: 34 renewal observations; native scores, quota, input/receipt hashes, blind mappings and release hashes agree.\nPASS: 7 continuation E/F observations; native metrics, dates, hashes, quota and checkpoint links agree.\nPASS: 17 frozen source/candidate/final/history files; 4 paired holdouts; protected surfaces present.\nPASS: 8 continuation-g native detector observations, inputs, receipts and freshness.\nPASS: 4 feature-trial native detector observations, inputs, receipts and freshness.\nPASS: v1.6.0 release, frozen forward tests, two vendor outputs and archived reviews.\nPASS: 13 new QuillBot/GPTZero observations, 9 exact-text pairs, DOM inputs and retained v1.6.0.\nPASS: 5 local Korean measurements, 7 complete anchored reviews, English failure and v1.7.0 integrity.\nPASS: 3 English successful measurements on 2 texts, 2 complete reviews, adapter compatibility and unchanged earlier failure.\nPASS: 5 new exact local measurements, complete reviews, frozen experiment and selected checkpoint scores.\nPASS: English focus: 9 exact native measurements, 9 complete reviews, blinded pairs, retained v1.8 and v1.9 integrity.\nPASS: two actual feedback continuations; 3 new exact local scores; prior evidence retained.\n"
+      }
+    },
+    {
+      "name": "payload_stable_through_audit",
+      "passed": true,
+      "detail": {
+        "stable": true
+      }
+    }
+  ],
+  "remaining_issues": [],
+  "scope": "Independent exact-payload saved-record/code/packaging audit; no inference, real installation, or publication.",
+  "limitations": [
+    "Support r2 prescore JSON was saved after inference began; only reported reviewer communication supports approval-before-execution.",
+    "Class scores are uncalibrated auxiliary outputs, not authorship probabilities; Human 50% objective remains unmet.",
+    "Same-model separate-context reviews and two reused synthetic development sources do not establish representative accuracy or universal improvement."
+  ]
+}

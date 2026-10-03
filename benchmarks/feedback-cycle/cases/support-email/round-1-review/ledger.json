@@ -1,0 +1,210 @@
+{
+  "text_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+  "summary": "Current score-informed review: two justified editorial revisions, S1 and S2, with no missing source fact. The revised order should acknowledge inconvenience earlier and reduce exact adjacent scope repetition. The large P5 deletion delta prioritizes scrutiny but cannot explain the score or justify dropping required speech acts. All six paragraphs were freshly reviewed. Reused four-class measurements are uncalibrated experimental auxiliary scores with documented false positives, not verified authorship. Humanized remains a separate class from Human.",
+  "document_analysis": {
+    "structure": "P1 greeting; P2 status; P3 restriction; P4 arrival estimate/no-form action; P5 delayed empathy then follow-up; P6 sign-off. S1 moves the two empathy speech acts earlier and S2 reduces adjacent repetition while preserving the status-to-next-steps logic.",
+    "reasoning_specificity": "Every original fact, condition, estimate and promise survives. S2 concerns repetition, not the removal of the only-duplicate limit. P4 and P5 contain independent useful customer information.",
+    "voice_consistency": "Professional first-person service voice, with consistent contractions. No invented warmth, frustration, urgency or resolution. The main audience issue is where the apology falls, not the presence of ordinary service phrases.",
+    "rhythm_repetition": "The adjacent P2 and P3 phrase 'duplicate £36 payment' is the specific repetition; the rest of the email varies sentence lengths reasonably. No general claim of excessive uniformity is made.",
+    "language_features": "English is idiomatic. Plain contractions fit a customer email. A conventional greeting, thanks, explicit conditional, and sign-off are genre conventions rather than independent AI signals.",
+    "citations_provenance": "No citations are claimed. Source and rewrite are synthetic AI artifacts according to supplied records; no transaction is authenticated. Existing measured output was reused only after candidate SHA and raw result SHA binding checks. Current interpretation is a new post-feedback whole-document review, not the old score-blind decision."
+  },
+  "findings": [
+    {
+      "id": "HISTORY",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "strong",
+      "spans": [
+        {
+          "start": 12,
+          "end": 92,
+          "quote": "Thank you for your patience while I checked the duplicate charge on order R-214."
+        }
+      ],
+      "observation": "The supplied experiment history identifies both the source and this candidate as AI-generated; the current review concerns an AI rewrite of an AI-authored synthetic source.",
+      "interpretation": "Documented AI involvement is separate from how natural the prose reads and from any classifier output. This review does not certify real events or real-world authorship.",
+      "human_alternative": "A human could write the same language. That possibility does not overturn the supplied experimental provenance.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\sources.json; supplied parent task history; original source and exact experimental candidate inspected."
+    },
+    {
+      "id": "S1-ACKNOWLEDGEMENT-ORDER",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 625,
+          "end": 736,
+          "quote": "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you."
+        },
+        {
+          "start": 280,
+          "end": 402,
+          "quote": "The request covers only the duplicate £36 payment. I can't cancel the first payment because the order has already shipped."
+        }
+      ],
+      "observation": "Acknowledgement and apology appear in P5, after three body paragraphs about the status, scope and refund process. P5 then switches immediately from empathy to a deadline and escalation instructions.",
+      "interpretation": "The functional problem is a process-heavy opening before the customer inconvenience is acknowledged. This can make the recipient work through restrictions before hearing the apology. It can fit mechanically reorganized support writing, but it is a small editorial tradeoff, not diagnostic authorship evidence.",
+      "human_alternative": "An experienced support agent may lead with transaction facts, or a company template may put apologies near the close. That order is not inherently wrong.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history."
+    },
+    {
+      "id": "S2-REPEATED-SCOPE",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 93,
+          "end": 228,
+          "quote": "I confirmed that the second payment was taken on 18 September and submitted a request this morning to refund the duplicate £36 payment."
+        },
+        {
+          "start": 280,
+          "end": 330,
+          "quote": "The request covers only the duplicate £36 payment."
+        }
+      ],
+      "observation": "The phrase 'duplicate £36 payment' appears twice in adjacent body paragraphs. The second occurrence adds the essential restriction 'only', but repeats the full object and request context already established in P2.",
+      "interpretation": "The exact repetition makes the scope explanation more cumbersome than necessary. A narrower expression or combined explanation can retain the useful restriction while reading more directly. Repetition can occur in AI edits but does not identify them.",
+      "human_alternative": "Support writers often repeat an amount deliberately to prevent misunderstanding, especially when two charges exist. The first-charge/duplicate distinction must remain explicit.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history."
+    },
+    {
+      "id": "S3-QUALIFICATIONS",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 404,
+          "end": 623,
+          "quote": "If the team approves the request, the money should reach the original card within five working days. That's an estimate, not a guaranteed arrival date. You don't need to submit another form while the request is pending."
+        }
+      ],
+      "observation": "The paragraph distinguishes conditional approval, an estimated five-working-day arrival to the original card, the absence of a guarantee, and no additional form while pending. Each clause serves a distinct customer decision.",
+      "interpretation": "These are useful safeguards, not empty qualification or redundant boilerplate. The simple syntax and contractions are appropriate to the support genre.",
+      "human_alternative": "Human support agents routinely use this precise conditional explanation; a repeated institutional form can be both useful and natural.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history."
+    },
+    {
+      "id": "S4-FOLLOWUP",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 737,
+          "end": 897,
+          "quote": "I'll email you by 3 p.m. on Friday even if I'm still waiting for a decision. If you don't receive that update, please reply to this email with the order number."
+        }
+      ],
+      "observation": "The deadline is precise, applies even without a decision, and has a concrete fallback requiring the order number.",
+      "interpretation": "This useful service commitment is not unnecessary closing formula. Nothing in the present whole-text reading supports deleting it.",
+      "human_alternative": "A human support agent can write exactly these promised next steps; the genre explains their predictable structure.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history."
+    },
+    {
+      "id": "MODEL-SENSITIVITY",
+      "basis": "local_occlusion",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 10,
+          "quote": "Hi Morgan,"
+        },
+        {
+          "start": 12,
+          "end": 278,
+          "quote": "Thank you for your patience while I checked the duplicate charge on order R-214. I confirmed that the second payment was taken on 18 September and submitted a request this morning to refund the duplicate £36 payment. The payment team hasn't approved the request yet."
+        },
+        {
+          "start": 280,
+          "end": 402,
+          "quote": "The request covers only the duplicate £36 payment. I can't cancel the first payment because the order has already shipped."
+        },
+        {
+          "start": 404,
+          "end": 623,
+          "quote": "If the team approves the request, the money should reach the original card within five working days. That's an estimate, not a guaranteed arrival date. You don't need to submit another form while the request is pending."
+        },
+        {
+          "start": 625,
+          "end": 897,
+          "quote": "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you. I'll email you by 3 p.m. on Friday even if I'm still waiting for a decision. If you don't receive that update, please reply to this email with the order number."
+        },
+        {
+          "start": 899,
+          "end": 909,
+          "quote": "Best,\nAlex"
+        }
+      ],
+      "observation": "P1: before 99.685939797%, after 99.568827078%, delta +0.117112719 percentage points; P2: before 99.685939797%, after 99.813554983%, delta -0.127615186 percentage points; P3: before 99.685939797%, after 99.249520013%, delta +0.436419784 percentage points; P4: before 99.685939797%, after 95.997816324%, delta +3.688123473 percentage points; P5: before 99.685939797%, after 22.461205721%, delta +77.224734076 percentage points; P6: before 99.685939797%, after 96.992214024%, delta +2.693725773 percentage points",
+      "interpretation": "Actual single-paragraph deletion experiments on the unchanged candidate. Positive delta means removal lowered AI-involvement; length and context also changed. These are not paragraph probabilities, causal explanations, or permission to delete. The highest delta was inspected in the whole document and source context.",
+      "human_alternative": "Human writing can show the same sensitivity and the checkpoint has documented high-confidence human false positives in the 36-document pilot. Supplied synthetic origin is separately known.",
+      "discriminating_evidence": "Independent source comparison and a fresh whole-document reader review distinguish editorial improvement from content loss. Only a new same-model result on the revised exact text can establish its measured score; none is predicted here. Authenticated process records, not style, distinguish writing history.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\support-email\\experimental-score\\model-result.json; occlusion.paragraphs; unchanged one-window English candidate; raw result SHA256 a9e15e896b664589a6b29b13ac70c7830ed910db193c9531dde89493843631c0"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Personal greeting, no editorial problem.",
+      "finding_ids": [
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "All transaction facts retained; adjacent repetition and delayed acknowledgement justify S1/S2.",
+      "finding_ids": [
+        "HISTORY",
+        "S2-REPEATED-SCOPE",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Only-duplicate scope and shipped-first-payment restriction are essential; integrate more concisely.",
+      "finding_ids": [
+        "S1-ACKNOWLEDGEMENT-ORDER",
+        "S2-REPEATED-SCOPE",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "Useful approval, estimate, non-guarantee and no-form conditions; retain.",
+      "finding_ids": [
+        "S3-QUALIFICATIONS",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "paragraph_id": "P5",
+      "status": "reviewed",
+      "assessment": "Move empathy earlier; retain all deadline/fallback content. High model sensitivity does not authorize deletion.",
+      "finding_ids": [
+        "S1-ACKNOWLEDGEMENT-ORDER",
+        "S4-FOLLOWUP",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "paragraph_id": "P6",
+      "status": "reviewed",
+      "assessment": "Normal sign-off preserving Alex; retain.",
+      "finding_ids": [
+        "MODEL-SENSITIVITY"
+      ]
+    }
+  ]
+}

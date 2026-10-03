@@ -1,0 +1,43 @@
+reading-reflection: independent source review
+
+Coherent, specific reflection with no clear need for a structural rewrite. A limited optional edit can compress the concluding restatement about imperfect adherence while retaining the two skipped mornings and the difference between attention and memory.
+
+MEASUREMENT
+human 0.009758%; ai 99.927753%; ai_edited 0.000626%; humanized 0.061858%
+Experimental uncalibrated English class outputs, not authorship probabilities or word shares. The saved 36-document pilot includes high-confidence false positives.
+Known supplied origin: New AI-authored synthetic evaluation source; not real user/company history
+
+WHOLE DOCUMENT
+structure: P1 introduces the eight-week routine and unresolved memory outcome; P2 identifies a narrower benefit and lapses; P3 bounds generalization and sets a tentative next experiment. This progression is already functional.
+reasoning_specificity: P1 explicitly lacks a before measure. P2 gives concrete observed behavior rather than claiming improved cognition. P3 limits transfer to travel/busier mornings. These limits do different work and should survive editing.
+voice_consistency: Consistent restrained first-person reflection. P2's short "I liked that." provides an ordinary personal reaction without claiming a dramatic transformation.
+rhythm_repetition: P2's "This was a routine I tried, not a rule I consistently followed." summarizes the preceding two skipped mornings. This is the clearest optional compression target. P1 and P3 both mention lack of memory evidence, but P3 distinguishes personal value from measured benefit, adding a real point.
+language_features: Clear English with varied short/long sentences. The routine/rule contrast is neatly balanced and may sound composed, but this alone is weak and conventional essay rhetoric.
+citations_provenance: No external claims or citations to verify. sources.json declares a synthetic AI-authored first-person fixture. The described habits are narrative facts to preserve, not authenticated autobiography.
+
+PARAGRAPH REVIEW
+P1: Eight-week routine, expected memory benefit, recall of three novel plots, and absent baseline are separated. Retain the uncertainty: remembering plots at the end does not establish improvement. No editorial defect is demonstrated by cautious wording.
+P2: Concrete reduction in mid-chapter checking, enjoyment, immediate post-reading checking, two skipped mornings, then an adherence summary. The final balanced contrast can be compressed as an optional restatement. Preserve all observed behaviors and the imperfect-adherence meaning.
+P3: Reluctance to generalize is explained by quiet mornings and no travel trial; value is independent of memory proof; next-month after-dinner idea has no chosen start. Four sentences have distinct functions. Preserve their caution and tentative plan; no forced dramatic conclusion or fresh anecdote is warranted.
+
+OPTIONAL REVISE
+R1 (optional; P2 final sentence): The routine/rule contrast summarizes the concrete lapse information immediately before it. Optionally integrate or shorten the adherence summary, retaining both the two skipped mornings and the fact that the routine was not consistently followed. Success: The reflection reads more directly without making adherence sound perfect, changing the observations, or losing the reflective voice.
+
+RETAIN / FIDELITY
+F1 routine: Eight weeks; a chapter before phone use in the morning; expected memory benefit. Read alongside the explicit lapses, not as perfect daily adherence.
+F2 memory_result: Three novels' plots recalled at end; no baseline memory test; improvement unknown. Do not conclude improvement or no improvement.
+F3 noticed_benefit: Observed no mid-chapter message checking and liked it. Preserve personal reaction; do not claim measured concentration, productivity, health, or memory gains.
+F4 limits_of_adherence: Still checked immediately after finishing; skipped reading on two mornings; inconsistent adherence. The summary may be rephrased but its qualification must remain.
+F5 applicability: Retain reluctance to recommend universally, quiet mornings, and untested travel context. Do not broaden to a universal prescription.
+F6 value_and_next_step: Reading worthwhile regardless of absent memory evidence; desire to try after dinner next month; start date unchosen. Desire is not a scheduled commitment or completed experiment.
+
+UNRESOLVED
+Memory improvement and applicability to travel remain unknown; the next attempt has no selected start date. Leave these unresolved rather than inventing results or a schedule.
+
+EXISTING DELETION SENSITIVITY
+P1 +0.016158 percentage points; P2 +0.025893 percentage points; P3 +0.167666 percentage points
+Delta = baseline AI-involvement minus score after deletion; length/context confound it. These are not paragraph authorship probabilities or editing instructions. No classifier feature explanation is inferred.
+
+Adopt changes only for meaningful readability improvement with source fidelity. Detector movement alone is not improvement; leaving a sound passage intact is valid.
+Reviewed 3/3 paragraphs, none excluded. No new inference or source edits. Exact anchors, model metadata and source constraints are in the accompanying JSON/HTML.
+Source SHA256: c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498

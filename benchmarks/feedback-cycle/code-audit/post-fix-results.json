@@ -1,0 +1,113 @@
+{
+  "scope": "Synthetic/saved records only; no inference or network.",
+  "original_fixture_checks": {
+    "unchanged_resolved": {
+      "passed": true,
+      "error": "Validated review authorship probabilities must be explicitly null"
+    },
+    "review_only_budget": {
+      "passed": true,
+      "error": "Validated review authorship probabilities must be explicitly null"
+    },
+    "review_only_plateau": {
+      "passed": true,
+      "error": "Validated review authorship probabilities must be explicitly null"
+    },
+    "fabricated_authorship_probability": {
+      "passed": true,
+      "error": "Validated review authorship probabilities must be explicitly null"
+    },
+    "unrelated_carried_anchor": {
+      "passed": true,
+      "error": "Validated review authorship probabilities must be explicitly null"
+    }
+  },
+  "regression_checks": {
+    "unchanged_resolved": {
+      "passed": true,
+      "error": "Accepted revision needs a changed exact passage and followup review"
+    },
+    "review_only_budget": {
+      "passed": true,
+      "error": "Budget stop does not match revision use",
+      "actual_revisions_used": 0
+    },
+    "review_only_plateau": {
+      "passed": true,
+      "error": "Plateau needs two consecutive revisions without defensible improvement",
+      "actual_revisions_used": 0
+    },
+    "fabricated_authorship_probability": {
+      "passed": true,
+      "error": "Validated review authorship probabilities must be explicitly null"
+    },
+    "unrelated_carried_anchor": {
+      "passed": true,
+      "error": "After span misses a linked carried finding"
+    }
+  },
+  "independent_cases": {
+    "prior_revision_boundary": {
+      "passed": true,
+      "total_used": 3,
+      "recorded_revisions": 2,
+      "inherited_revisions": 1,
+      "historical_usage_does_not_supply_plateau": true
+    },
+    "missing_prior_provenance": {
+      "passed": true,
+      "error": "Prior revisions need a provenance note"
+    },
+    "reused_receipt_and_two_candidate_pools": {
+      "passed": true,
+      "delivery_candidate": "r2",
+      "best_faithful_open_checkpoint": "r1",
+      "existing_exact_input_receipt_time_preserved": true,
+      "provenance_note": "Synthetic historical receipt; preservation check only, not authentic execution."
+    },
+    "unresolved_context_review_without_text_change": {
+      "passed": true,
+      "status": "complete",
+      "actual_revisions": 0,
+      "scope": "A contextual decision may resolve unresolved status; accepted revise still requires changed text."
+    },
+    "same_hash_latest_open_finding": {
+      "passed": true,
+      "delivery_candidate": "r3",
+      "best_faithful_checkpoint": "r1",
+      "latest_same_hash_evidence_controls_eligibility": true
+    },
+    "same_hash_latest_fidelity": {
+      "passed": true,
+      "delivery_candidate": "r3",
+      "best_faithful_checkpoint": "r3",
+      "latest_same_hash_evidence_controls_eligibility": true
+    },
+    "same_hash_latest_reader": {
+      "passed": true,
+      "delivery_candidate": "r3",
+      "best_faithful_checkpoint": "r1",
+      "latest_same_hash_evidence_controls_eligibility": true
+    }
+  },
+  "tests": {
+    "tests_run": 61,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1,
+    "excluded_live_inference_tests": [
+      "test_local_feedback.RunTests.test_actual_installed_korean_pipeline_preserves_exact_input"
+    ]
+  },
+  "original_failure_artifacts_preserved": true,
+  "status": "passed",
+  "reviewed_file_hashes": {
+    "scripts\\feedback_cycle.py": "52fd50f8bb8bea1f0023053e5db750fdebb0d87221fd35ee4599bf8f855c6a67",
+    "evals\\test_feedback_cycle.py": "00e73c19779ca334edaf67d83ff4bc27ce28ef5ca83380c8173768c07f4599d8",
+    "references\\feedback-cycle-record.md": "2890cc96b180e994d7383fec6bd744f64808c216b9d5252f8263fdbd99e6f06d",
+    "references\\local-detector-loop.md": "8a0f12fdc6e5c3d112d161da2368ef1062d05180ded6a9a866ab55e838594e7e",
+    "references\\iterative-review.md": "4f7e200d3916dca2ba2cc040c9ae5ebee11dd85e20d598539fee4564edd320ae",
+    "SKILL.md": "15677dfa5544495fa98710381906f8ece26db7becfbc1e318656b431f598eb55"
+  },
+  "post_test_documentation_review": "Reviewed added accounting paragraph: inherited repairs use existing budget; review-only does not consume a revision; later-rejected actual text revisions still count. No code change."
+}

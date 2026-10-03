@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "language": "en",
+  "input_sha256": "52dc6484005cf26f6f6f9d81dae10f290cd49578a42ca24876c5f97ac35792fd",
+  "measured_at_utc": "2026-10-03T09:50:01.543631+00:00",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "scope": "whole_document",
+  "native_class_probabilities": {
+    "human": 0.0006580224726349115,
+    "ai": 0.9923093318939209,
+    "ai_edited": 0.0001810540707083419,
+    "humanized": 0.006851470097899437
+  },
+  "human_percent": 0.06580224726349115,
+  "probability_semantics": "Native Human/AI/AI-edited/Humanized classes; not word shares or verified writing history.",
+  "calibration": null,
+  "cautions": [
+    "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "English four-class outputs are uncalibrated experimental auxiliary scores."
+  ],
+  "measured_evidence": {
+    "windows": [
+      {
+        "token_start": 0,
+        "token_end": 200,
+        "start": 0,
+        "end": 894,
+        "quote": "Hi Morgan,\n\nI've submitted a request to refund the duplicate £36 payment on order R-214. I sent it this morning after confirming that the second payment was taken on 18 September. The payment team hasn't approved it yet.\n\nThank you for your patience while I checked this. I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you.\n\nOnly the duplicate payment is covered by this request. The order has already shipped, so I can't cancel the first payment.\n\nYou don't need to fill in another form while the request is pending. If the team approves it, the money should reach the original card within five working days. Please treat that as an estimate; I can't guarantee the arrival date.\n\nI'll email you by 3 p.m. on Friday, even if there's still no decision. If that email doesn't arrive, please reply here with the order number.\n\nBest,\nAlex",
+        "class_probabilities": {
+          "human": 0.0006580224726349115,
+          "ai": 0.9923093318939209,
+          "ai_edited": 0.0001810540707083419,
+          "humanized": 0.006851470097899437
+        },
+        "ai_involvement_class_score": 0.9993419775273651
+      }
+    ],
+    "occlusion": {
+      "performed": true,
+      "paragraphs": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 10,
+          "quote": "Hi Morgan,",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9993419775273651,
+          "after_removal_ai_involvement": 0.9991726713487878,
+          "delta_percentage_points": 0.016930617857724428
+        },
+        {
+          "paragraph_id": "P2",
+          "start": 12,
+          "end": 220,
+          "quote": "I've submitted a request to refund the duplicate £36 payment on order R-214. I sent it this morning after confirming that the second payment was taken on 18 September. The payment team hasn't approved it yet.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9993419775273651,
+          "after_removal_ai_involvement": 0.991865468211472,
+          "delta_percentage_points": 0.7476509315893054
+        },
+        {
+          "paragraph_id": "P3",
+          "start": 222,
+          "end": 383,
+          "quote": "Thank you for your patience while I checked this. I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9993419775273651,
+          "after_removal_ai_involvement": 0.9968253339175135,
+          "delta_percentage_points": 0.2516643609851599
+        },
+        {
+          "paragraph_id": "P4",
+          "start": 385,
+          "end": 507,
+          "quote": "Only the duplicate payment is covered by this request. The order has already shipped, so I can't cancel the first payment.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9993419775273651,
+          "after_removal_ai_involvement": 0.9996786191186402,
+          "delta_percentage_points": -0.033664159127511084
+        },
+        {
+          "paragraph_id": "P5",
+          "start": 509,
+          "end": 739,
+          "quote": "You don't need to fill in another form while the request is pending. If the team approves it, the money should reach the original card within five working days. Please treat that as an estimate; I can't guarantee the arrival date.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9993419775273651,
+          "after_removal_ai_involvement": 0.99603082658723,
+          "delta_percentage_points": 0.33111509401351213
+        },
+        {
+          "paragraph_id": "P6",
+          "start": 741,
+          "end": 882,
+          "quote": "I'll email you by 3 p.m. on Friday, even if there's still no decision. If that email doesn't arrive, please reply here with the order number.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9993419775273651,
+          "after_removal_ai_involvement": 0.9876133073121309,
+          "delta_percentage_points": 1.172867021523416
+        },
+        {
+          "paragraph_id": "P7",
+          "start": 884,
+          "end": 894,
+          "quote": "Best,\nAlex",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9993419775273651,
+          "after_removal_ai_involvement": 0.9983786781085655,
+          "delta_percentage_points": 0.09632994187995791
+        }
+      ],
+      "total_paragraphs": 7,
+      "unmeasured_due_to_limit": 0,
+      "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+    }
+  },
+  "authorship_verified": false,
+  "semantic_review_required": true,
+  "style_review_completed": false,
+  "external_detector_calls": 0,
+  "raw_result_sha256": "bf02618663bb9b86b87f6bac159c886dd33de0c904f3011de6fcdcdb6dace444",
+  "paragraph_review_required": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7"
+  ]
+}

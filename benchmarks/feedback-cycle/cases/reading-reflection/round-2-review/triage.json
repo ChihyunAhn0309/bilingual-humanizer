@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "case": "reading-reflection",
+  "review_round": 2,
+  "reviewed_at_utc": "2026-10-03T09:45:50.778971+00:00",
+  "mode": "current_whole_document_review_after_actual_feedback",
+  "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-2.txt",
+  "candidate_sha256": "6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f",
+  "source_fidelity": "pass",
+  "quality_eligible": true,
+  "accepted_findings_all_resolved": true,
+  "followup": [
+    {
+      "parent_finding_id": "R1-UNSUPPORTED-CONNECTIVE",
+      "parent_ledger_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-1-review\\ledger.json",
+      "parent_candidate_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+      "current_finding_id": "R1-UNSUPPORTED-CONNECTIVE-RESOLUTION",
+      "status": "resolved",
+      "evidence": {
+        "start": 350,
+        "end": 502,
+        "quote": "I liked that. I still checked my phone as soon as I finished. I didn't keep to the routine every morning: on two mornings, I skipped reading altogether."
+      },
+      "reason": "Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective."
+    },
+    {
+      "parent_finding_id": "R2-MODEST-BENEFIT-FRAMING",
+      "parent_ledger_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-1-review\\ledger.json",
+      "parent_candidate_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+      "current_finding_id": "R2-MODEST-BENEFIT-FRAMING-RESOLUTION",
+      "status": "resolved",
+      "evidence": {
+        "start": 272,
+        "end": 349,
+        "quote": "What changed was simpler: I stopped interrupting a chapter to check messages."
+      },
+      "reason": "The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim."
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "R1-UNSUPPORTED-CONNECTIVE-RESOLUTION",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "R2-MODEST-BENEFIT-FRAMING-RESOLUTION",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "RETAIN-P1",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "RETAIN-P2",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "RETAIN-P3",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "HISTORY",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "MODEL-SENSITIVITY",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    }
+  ],
+  "revision_request": [],
+  "unresolved_findings": [],
+  "new_findings": [],
+  "measured_review": {
+    "source": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-2-score\\model-result.json",
+    "raw_result_sha256": "b72ef3d954a2dd30f71d8466c12ac78c07ee1864e37ae81c6b91b40b0c0ed175",
+    "native_class_probabilities": {
+      "human": 0.00021193784778006375,
+      "ai": 0.9989796280860901,
+      "ai_edited": 1.0040707820735406e-05,
+      "humanized": 0.0007984187686815858
+    },
+    "human_percent": 0.021193784778006375,
+    "prior_human_percent": 0.014873377222102135,
+    "change_percentage_points": 0.006320407555904239,
+    "highest_sensitivity_paragraph": "P3",
+    "highest_sensitivity_delta_percentage_points": 1.6071879741502926,
+    "contextual_interpretation": "P3 has the largest absolute sensitivity in this run. Every paragraph was examined in context. The source-required memory uncertainty, observations, personal value, limits and tentative next step each still serve distinct roles; the sensitivity supplies no new editorial defect or permission to remove them.",
+    "calibrated": false,
+    "authorship_verified": false
+  },
+  "checkpoint_policy": "Preserve prior round-1 candidate and its larger or smaller Human measurement together with its own open-finding state. Current round 2 remains quality-eligible after accepted issue closure; score alone cannot reverse a fidelity/reader judgment.",
+  "budget": {
+    "max_post_draft_revisions": 3,
+    "prior_revisions_used": 1,
+    "current_round_2_revision_uses": 1,
+    "revisions_used_after_round_2": 2,
+    "remaining_after_round_2": 1,
+    "evidence": {
+      "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\inherited-writer-review.md",
+      "text_sha256": "0b7790ca50c4a617ae3e3d1c3f9e2be29cdf68c3b138b27286ed733e9965a5df",
+      "start": 3377,
+      "end": 3619,
+      "quote": "One initial complete candidate plus one local fidelity repair. The first semantic pass found that `beforehand` could refer to the end-of-experiment recollection rather than the experiment's start; it was replaced with `before the experiment`.",
+      "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+    },
+    "note": "The inherited pre-freeze fidelity repair counts toward the same three-revision limit. A new measurement phase does not reset that budget. Earlier complete pre-repair reflection candidate unavailable here; no invented full-text/hash for it."
+  },
+  "composition_variant_policy": "A separately requested useful composition variant may be considered within the remaining original budget, with explicit reader purpose and pre-score review. Do not call an optional alternative a new defect or use remaining budget as a mandatory quota.",
+  "new_inference_runs_by_reviewer": 0
+}

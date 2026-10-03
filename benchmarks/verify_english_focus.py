@@ -38,7 +38,7 @@ def verify():
     assert frozen == read(ROOT/'frozen-files.json'), 'Experiment evidence changed'
     assert files(ROOT/'retained-skill') == read(ROOT/'baseline-skill-hashes.json')
     assert files(ROOT/'retained-skill') == read(REPO/'benchmarks/composition-feedback/release-skill-hashes.json')
-    active = REPO/'skills/bilingual-humanizer'
+    active = REPO/'benchmarks/feedback-cycle/retained-skill'
     assert files(active) == read(ROOT/'release-skill-hashes.json')
     assert files(active) == read(ROOT/'experimental-skill-hashes.json')
     assert 'version: "1.9.0"' in (active/'SKILL.md').read_text('utf-8')

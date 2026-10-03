@@ -1,0 +1,47 @@
+{
+  "text_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+  "paragraphs": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 10,
+      "line": 1,
+      "text": "Hi Morgan,"
+    },
+    {
+      "id": "P2",
+      "start": 12,
+      "end": 278,
+      "line": 3,
+      "text": "Thank you for your patience while I checked the duplicate charge on order R-214. I confirmed that the second payment was taken on 18 September and submitted a request this morning to refund the duplicate £36 payment. The payment team hasn't approved the request yet."
+    },
+    {
+      "id": "P3",
+      "start": 280,
+      "end": 402,
+      "line": 5,
+      "text": "The request covers only the duplicate £36 payment. I can't cancel the first payment because the order has already shipped."
+    },
+    {
+      "id": "P4",
+      "start": 404,
+      "end": 623,
+      "line": 7,
+      "text": "If the team approves the request, the money should reach the original card within five working days. That's an estimate, not a guaranteed arrival date. You don't need to submit another form while the request is pending."
+    },
+    {
+      "id": "P5",
+      "start": 625,
+      "end": 897,
+      "line": 9,
+      "text": "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you. I'll email you by 3 p.m. on Friday even if I'm still waiting for a decision. If you don't receive that update, please reply to this email with the order number."
+    },
+    {
+      "id": "P6",
+      "start": 899,
+      "end": 909,
+      "line": 11,
+      "text": "Best,\nAlex"
+    }
+  ]
+}

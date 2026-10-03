@@ -1,0 +1,62 @@
+{
+  "candidate_sha256": "52dc6484005cf26f6f6f9d81dae10f290cd49578a42ca24876c5f97ac35792fd",
+  "fidelity": {
+    "source_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+    "eligible": true,
+    "reason": "Full immutable-source comparison before and after scoring confirms every fact, condition, modality and speech act."
+  },
+  "reader": {
+    "eligible": true,
+    "reason": "A useful action-first alternative: request status arrives immediately, then courtesy appears before restrictions or timing. The additional standalone courtesy/scope paragraphs aid scanning but make the email less compact than round 2. Neither route clearly dominates overall; this is a defensible composition alternative, not another necessary repair."
+  },
+  "triage": [
+    {
+      "finding_id": "RETAIN-P1",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P2",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P3",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P4",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P5",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P6",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P7",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "HISTORY",
+      "decision": "retain",
+      "reason": "A native Human output cannot change the supplied generation history. No transaction or customer history is authenticated by this exercise."
+    },
+    {
+      "finding_id": "MODEL-SENSITIVITY",
+      "decision": "retain",
+      "reason": "Actual measured single-paragraph deletion sensitivity on this exact one-window candidate. Length and context change on deletion. Deltas are not paragraph authorship probabilities, causal classifier reasoning, or editing permissions; changed paragraphing also prevents like-for-like causal comparison with earlier deltas."
+    }
+  ],
+  "followup": [],
+  "improvement": false,
+  "improvement_reason": "Useful alternative composition with specific local reading benefits, but no clear defensible overall improvement over round 2. No invented defect or mandatory rewrite target."
+}

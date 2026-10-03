@@ -1,0 +1,154 @@
+{
+  "text_sha256": "8e0cc21b22fc44030b2af235c244ee8e79eb7399e8d31a79a865f8c6d52ce161",
+  "summary": "Round 3 rejected before scoring: expected became hoped, weakening the source stance. All other content and the useful four-paragraph structure were reviewed, with no further necessary repair. No native model run was attempted for this candidate; numeric output is unavailable because the fidelity gate failed, not because of a runtime failure. The original three-revision limit is exhausted including one inherited repair, round 2 and this rejected draft. Preserve the exact rejected candidate and recover the already scored, eligible, feedback-closed round 2. No false completion or repair of this rejected text is claimed.",
+  "document_analysis": {
+    "structure": "P1 routine/expectation/memory evidence; P2 observed benefit and adherence; P3 limits and value; P4 tentative next step. This is a useful alternative organization but cannot compensate for the stance error.",
+    "reasoning_specificity": "Every supplied observation, quantity, caveat and next-step condition remains except the expectation is weakened to hope. P1 still keeps the missing baseline and unknown improvement; they answer a different question and do not repair the expectation change.",
+    "voice_consistency": "The modest first-person voice and British travelling survive. No colourful anecdote or emphatic lesson is invented. The shift to hoped is a semantic change, not merely a voice preference.",
+    "rhythm_repetition": "The ending is split into a separate short paragraph. P2 combines behavior and liking and separately admits missed days. No forced variation or repeated connective problem is present.",
+    "language_features": "The English reads naturally. Hoped and expected can overlap in everyday speech, but they are not equivalent in this task with a fixed stance. The final I have not picked a start date equivalent remains a tentative plan.",
+    "citations_provenance": "No citation is asserted. Known supplied synthetic AI source and rewrite history remains. The new candidate was not scored; there is no native failure or result to attach. Exact input/source hashes and prior round budget are retained in prescore records."
+  },
+  "findings": [
+    {
+      "id": "R3-MEMORY-EXPECTATION",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 87,
+          "end": 129,
+          "quote": "I'd hoped to remember more of what I read."
+        }
+      ],
+      "observation": "Source says 'I expected the change to help me remember more of what I read.' The candidate substitutes hoped for expected.",
+      "interpretation": "Hope can describe a wish without holding the expectation asserted by the source. This weakens a protected stance, so the candidate fails the fidelity gate as written. This is an editorial/source issue, not an authorship clue.",
+      "human_alternative": "A human may use hoped loosely for an optimistic expectation, but that possible usage is insufficient for this exact source-preservation task.",
+      "discriminating_evidence": "The immutable source establishes the intended stance and facts. A comparison of this exact candidate to it determines fidelity; no detector measurement is required for that check. Authenticated process records would be needed for external authorship, not a style judgment.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\source.txt; prescore exact source and candidate anchors in round-3-prescore.json."
+    },
+    {
+      "id": "RETAIN-MEMORY-LIMIT",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 130,
+          "end": 300,
+          "quote": "I could recall the plots of three novels at the end of those weeks, but I hadn't tested my memory before starting the experiment. I don't know whether my recall improved."
+        }
+      ],
+      "observation": "Three novel plots, absent pre-experiment test and inability to infer improvement remain explicit.",
+      "interpretation": "These conditions preserve the original evidence limit; retain them in any accepted version. They do not offset the separate expectation error.",
+      "human_alternative": "A careful human reflection would state the same limitation; clear caveats do not identify origin.",
+      "discriminating_evidence": "The immutable source establishes the intended stance and facts. A comparison of this exact candidate to it determines fidelity; no detector measurement is required for that check. Authenticated process records would be needed for external authorship, not a style judgment."
+    },
+    {
+      "id": "RETAIN-OBSERVATIONS",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 302,
+          "end": 550,
+          "quote": "What I noticed was simpler. I stopped breaking off mid-chapter to check messages, and I liked reading that way. I still checked my phone as soon as I'd finished. On two mornings I skipped reading altogether; I didn't stick to the routine every day."
+        }
+      ],
+      "observation": "The simpler interruption benefit, liking it, immediate phone use after reading, two skipped mornings and imperfect adherence all remain.",
+      "interpretation": "The earlier either/although coherence issue has not returned. The short opening and coordinated observation fit the restrained voice; no repair is justified here.",
+      "human_alternative": "A human diarist could naturally use these ordinary contrasts; neither specificity nor idiomatic flow proves human origin.",
+      "discriminating_evidence": "The immutable source establishes the intended stance and facts. A comparison of this exact candidate to it determines fidelity; no detector measurement is required for that check. Authenticated process records would be needed for external authorship, not a style judgment."
+    },
+    {
+      "id": "RETAIN-LIMITS-VALUE",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 552,
+          "end": 757,
+          "quote": "I'm reluctant to recommend it to everyone. My mornings were quiet during those weeks, and I didn't try it while travelling. Even without evidence that it helped my memory, the reading was worthwhile to me."
+        }
+      ],
+      "observation": "Universal recommendation remains hesitant, mornings were quiet, travel context was not tried, and reading was worthwhile without memory evidence.",
+      "interpretation": "Each limit has a distinct role. These are useful qualifications, not padding. There is no invented broader benefit or prescriptive conclusion.",
+      "human_alternative": "A reflective human writer could make the same careful distinctions; regularity follows the content.",
+      "discriminating_evidence": "The immutable source establishes the intended stance and facts. A comparison of this exact candidate to it determines fidelity; no detector measurement is required for that check. Authenticated process records would be needed for external authorship, not a style judgment."
+    },
+    {
+      "id": "RETAIN-NEXT-STEP",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 759,
+          "end": 846,
+          "quote": "Next month I'd like to try reading after dinner instead. I haven't picked a start date."
+        }
+      ],
+      "observation": "The tentative next-month after-dinner trial and lack of a selected date are given their own paragraph.",
+      "interpretation": "This is a useful alternative layout for finding the next step, but not a demonstrated overall improvement over round 2. The future act remains a desire rather than a scheduled commitment.",
+      "human_alternative": "A human could separate the next step in exactly this way; paragraphing is nondiagnostic.",
+      "discriminating_evidence": "The immutable source establishes the intended stance and facts. A comparison of this exact candidate to it determines fidelity; no detector measurement is required for that check. Authenticated process records would be needed for external authorship, not a style judgment."
+    },
+    {
+      "id": "HISTORY",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "strong",
+      "spans": [
+        {
+          "start": 0,
+          "end": 300,
+          "quote": "For eight weeks, I tried reading a chapter in the morning before I looked at my phone. I'd hoped to remember more of what I read. I could recall the plots of three novels at the end of those weeks, but I hadn't tested my memory before starting the experiment. I don't know whether my recall improved."
+        }
+      ],
+      "observation": "The source and this rewrite are AI-authored synthetic evaluation material according to the supplied records.",
+      "interpretation": "Rejecting a fidelity regression or choosing a more natural candidate does not change the known supplied generation history. No real lived experience is authenticated.",
+      "human_alternative": "A human could write similar prose, but that resemblance does not overwrite the supplied record.",
+      "discriminating_evidence": "The immutable source establishes the intended stance and facts. A comparison of this exact candidate to it determines fidelity; no detector measurement is required for that check. Authenticated process records would be needed for external authorship, not a style judgment.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\inherited-history-review.json; preserved source, inherited writer record, and current parent revision history."
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Eight-week morning chapter-before-phone routine, three novel plots at end, no pre-experiment test and unknown improvement survive. Hoped replaces expected, requiring a fidelity repair; no other P1 problem found.",
+      "finding_ids": [
+        "R3-MEMORY-EXPECTATION",
+        "RETAIN-MEMORY-LIMIT",
+        "HISTORY"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Simpler change, no mid-chapter message checks, liking that reading, immediate checking after, two skipped mornings and inconsistent adherence survive. No false either/although relation recurs.",
+      "finding_ids": [
+        "RETAIN-OBSERVATIONS"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Reluctance to recommend universally, quiet mornings, no trial during travelling and personal value without memory evidence remain.",
+      "finding_ids": [
+        "RETAIN-LIMITS-VALUE"
+      ]
+    },
+    {
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "Separate close preserves desire for after-dinner trial next month and no chosen date. No scheduled commitment is invented.",
+      "finding_ids": [
+        "RETAIN-NEXT-STEP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "case": "support-email",
+  "review_round": 3,
+  "reviewed_at_utc": "2026-10-03T09:51:19.567930+00:00",
+  "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-3.txt",
+  "candidate_sha256": "52dc6484005cf26f6f6f9d81dae10f290cd49578a42ca24876c5f97ac35792fd",
+  "source_fidelity": "pass",
+  "quality_eligible": true,
+  "reader_eligible": true,
+  "accepted_prior_findings_remain_resolved": [
+    {
+      "finding_id": "S1-ACKNOWLEDGEMENT-ORDER",
+      "status": "remains_resolved",
+      "reason": "Empathy and apology follow only the action/status paragraph, before restrictions and timing."
+    },
+    {
+      "finding_id": "S2-REPEATED-SCOPE",
+      "status": "remains_resolved",
+      "reason": "Amount occurs once; only-duplicate sentence supplies necessary disambiguation rather than repeating the full amount/object phrase."
+    }
+  ],
+  "followup": [],
+  "findings": [
+    {
+      "finding_id": "RETAIN-P1",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P2",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P3",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P4",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P5",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P6",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "RETAIN-P7",
+      "decision": "retain",
+      "reason": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output."
+    },
+    {
+      "finding_id": "HISTORY",
+      "decision": "retain",
+      "reason": "A native Human output cannot change the supplied generation history. No transaction or customer history is authenticated by this exercise."
+    },
+    {
+      "finding_id": "MODEL-SENSITIVITY",
+      "decision": "retain",
+      "reason": "Actual measured single-paragraph deletion sensitivity on this exact one-window candidate. Length and context change on deletion. Deltas are not paragraph authorship probabilities, causal classifier reasoning, or editing permissions; changed paragraphing also prevents like-for-like causal comparison with earlier deltas."
+    }
+  ],
+  "revision_request": [],
+  "unresolved_findings": [],
+  "new_findings": [],
+  "measurement": {
+    "status": "completed",
+    "source": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-3-score\\model-result.json",
+    "raw_result_sha256": "bf02618663bb9b86b87f6bac159c886dd33de0c904f3011de6fcdcdb6dace444",
+    "native_class_probabilities": {
+      "human": 0.0006580224726349115,
+      "ai": 0.9923093318939209,
+      "ai_edited": 0.0001810540707083419,
+      "humanized": 0.006851470097899437
+    },
+    "human_percent": 0.06580224726349115,
+    "prior_human_percent": 0.0713048386387527,
+    "change_percentage_points": -0.005502591375261545,
+    "calibrated": false,
+    "authorship_verified": false,
+    "highest_sensitivity": {
+      "paragraph_id": "P6",
+      "start": 741,
+      "end": 882,
+      "quote": "I'll email you by 3 p.m. on Friday, even if there's still no decision. If that email doesn't arrive, please reply here with the order number.",
+      "status": "measured",
+      "baseline_ai_involvement": 0.9993419775273651,
+      "after_removal_ai_involvement": 0.9876133073121309,
+      "delta_percentage_points": 1.172867021523416
+    },
+    "contextual_interpretation": "P6 has the largest absolute deletion sensitivity, +1.172867022 percentage points. It contains the source-required firm Friday 3 p.m. update even without a decision and the missing-email reply with order number. Both are essential customer instructions; no part should be dropped because of that score. P4 has a small negative delta, which likewise does not prove better quality or human authorship."
+  },
+  "budget": {
+    "prior_revisions_used": 0,
+    "post_inherited_revisions_used": 2,
+    "revisions_used": 2,
+    "revision_limit": 3,
+    "remaining": 1
+  },
+  "improvement": false,
+  "improvement_reason": "Useful alternative composition with specific local reading benefits, but no clear defensible overall improvement over round 2. No invented defect or mandatory rewrite target.",
+  "selection_note": "Preserve this eligible closed alternative and the previous eligible closed r2; r2 has the higher Human output. Preserve r1 with its higher faithful score and its historical open accepted findings. Scores do not override feedback closure.",
+  "new_inference_runs_by_reviewer": 0
+}

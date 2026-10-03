@@ -1,0 +1,48 @@
+support-email: independent source review
+
+Clear, useful support email. Optional low-priority improvement: group the refund scope with its pending status, then end with the promised update and fallback. Conventional courtesy is not itself a defect.
+
+MEASUREMENT
+human 0.012120%; ai 99.287170%; ai_edited 0.001934%; humanized 0.698779%
+Experimental uncalibrated English class outputs, not authorship probabilities or word shares. The saved 36-document pilot includes high-confidence false positives.
+Known supplied origin: New AI-authored synthetic evaluation source; not real user/company history
+
+WHOLE DOCUMENT
+structure: P1/P5 frame the email. P2 gives request status and empathy, P3 conditions and customer action, P4 follow-up followed by payment-scope limits. Returning to payment scope after the follow-up is a small organization opportunity.
+reasoning_specificity: P2-P4 distinguish confirmed payment, submitted request, pending approval, estimated arrival, and a firm update deadline. These are different facts and commitments, not repetitive hedging.
+voice_consistency: Alex consistently uses first person for actions within Alex's control and the payment team for approval. Formal warmth fits support correspondence.
+rhythm_repetition: P2 opens with thanks and closes with empathy/apology. This familiar service pattern may feel templated but performs a legitimate interpersonal function. P3's two conditional/timing sentences distinguish conditions; no excessive repetition is established.
+language_features: Plain professional English, conventional greeting/signoff and explicit conditions. No grammar, idiom, or unusual register problem is evident.
+citations_provenance: No citations are requested or needed. sources.json labels the email an AI-authored synthetic fixture, not actual payment/customer history. Hash binding identifies the supplied text, not a real transaction.
+
+PARAGRAPH REVIEW
+P1: Standard named greeting; retain the addressee. Neutral email convention; no useful AI-style inference.
+P2: Confirmed duplicate charge, submission, and pending approval are explicit. Thanks and apology surround the operational detail. The service courtesy could be compressed if it delays the status, but its tone is appropriate; keep acknowledgement and apology.
+P3: Approval condition, five-working-day estimate, no guarantee, original card, and no additional form are distinct useful instructions. Retain every condition. The caution prevents an estimate being mistaken for a promise; it is not padding.
+P4: The firm update/fallback precedes first-payment and refund-scope limits. Consider moving scope beside P2's request so the email ends on the next customer-facing step. This is a low-priority flow choice, not an authorship sign.
+P5: Standard signoff identifies Alex. Neutral genre convention; retain sender identity and a courteous close.
+
+OPTIONAL REVISE
+R1 (low; P2, P4): P4 returns from follow-up instructions to refund scope. Optionally place the first-payment/shipped explanation and duplicate-only scope beside request status. Finish with the Friday update and missing-update fallback. Success: A customer can find current status, conditional timing, and next contact without backtracking; all facts and duties stay intact.
+R2 (optional; P2): Thanks plus explicit empathy plus apology make the opening relatively long. Lightly tighten the courteous framing only if the result still acknowledges frustration and apologizes for the extra work. No need to add slang or an invented personal detail. Success: Status arrives sooner without becoming cold or losing the apology.
+
+RETAIN / FIDELITY
+F1 identity: Keep Morgan as recipient and Alex as sender; preserve email function.
+F2 confirmed_charge: Keep order R-214, duplicate/second charge, 18 September, completed review/confirmation.
+F3 request_status: £36 request submitted this morning; payment team approval still pending. Do not turn submission into approval or a completed refund.
+F4 courtesy: Retain acknowledgement and apology for extra work, with flexible wording.
+F5 refund_timing: Keep approval prerequisite, original card, five working days, and non-guaranteed estimate. Do not imply the clock starts before approval.
+F6 customer_action: No additional form needed during pending request; do not add a required step.
+F7 follow_up: Firm email commitment by 3 p.m. Friday regardless of decision; missing-update fallback is reply to this email with order number. Do not weaken to hope/aim or omit fallback.
+F8 scope_limit: First payment cannot be cancelled because already shipped; request concerns only duplicate £36. Do not widen refund scope.
+
+UNRESOLVED
+Actual approval and arrival remain unknown. Do not invent a refund reference, approval, tracking detail, calendar date for Friday, or completion.
+
+EXISTING DELETION SENSITIVITY
+P1 +0.001399 percentage points; P2 +0.714957 percentage points; P3 +0.114816 percentage points; P4 +0.335187 percentage points; P5 +0.018565 percentage points
+Delta = baseline AI-involvement minus score after deletion; length/context confound it. These are not paragraph authorship probabilities or editing instructions. No classifier feature explanation is inferred.
+
+Adopt changes only for meaningful readability improvement with source fidelity. Detector movement alone is not improvement; leaving a sound passage intact is valid.
+Reviewed 5/5 paragraphs, none excluded. No new inference or source edits. Exact anchors, model metadata and source constraints are in the accompanying JSON/HTML.
+Source SHA256: 8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e

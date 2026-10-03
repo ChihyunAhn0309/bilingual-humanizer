@@ -1,0 +1,17 @@
+reading-reflection round 2: independent post-score whole-document review
+Candidate SHA256: 6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f
+Full current post-score review: both accepted round-1 findings resolved, all source constraints preserved, no new justified repair. Native Human changed from 0.014873377% to 0.021193785% (+0.006320408 percentage points). This uncalibrated auxiliary score movement does not invalidate reader/fidelity resolution and does not create a new defect. All four classes are retained; Humanized is not Human. Known supplied AI origin remains unchanged. Every paragraph reviewed; no exclusion.
+
+RESOLUTION
+R1-UNSUPPORTED-CONNECTIVE -> R1-UNSUPPORTED-CONNECTIVE-RESOLUTION: resolved. Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective.
+R2-MODEST-BENEFIT-FRAMING -> R2-MODEST-BENEFIT-FRAMING-RESOLUTION: resolved. The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim.
+
+ACTUAL NATIVE OUTPUT
+human 0.021193785%, ai 99.897962809%, ai_edited 0.001004071%, humanized 0.079841877%
+Uncalibrated experimental auxiliary classes, documented pilot false positives; not word shares or verified origin.
+
+SENSITIVITY
+P1: baseline 99.978806215%, after deletion 99.858416372%, delta +0.120389843 percentage points; P2: baseline 99.978806215%, after deletion 99.938863382%, delta +0.039942833 percentage points; P3: baseline 99.978806215%, after deletion 98.371618241%, delta +1.607187974 percentage points
+P3 has the largest absolute sensitivity in this run. Every paragraph was examined in context. The source-required memory uncertainty, observations, personal value, limits and tentative next step each still serve distinct roles; the sensitivity supplies no new editorial defect or permission to remove them.
+
+NEW REPAIRS: none. All paragraphs freshly rechecked. Keep the candidate quality-eligible; preserve prior checkpoints with their own review state. No inference run by this reviewer.

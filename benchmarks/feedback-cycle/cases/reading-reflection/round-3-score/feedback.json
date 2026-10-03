@@ -1,0 +1,10 @@
+{
+  "input_sha256": "8e0cc21b22fc44030b2af235c244ee8e79eb7399e8d31a79a865f8c6d52ce161",
+  "status": "unavailable",
+  "language": "en",
+  "reason": "Not executed: independent pre-score fidelity review rejected expectation-to-hope modality drift. Existing revision budget is consumed; recover the previously closed, scored round-2 candidate.",
+  "human_percent": null,
+  "native_class_probabilities": null,
+  "inference_executed": false,
+  "review_sha256": "31a9226517fc9e424f1bd8d03edc3a21f425c1c40dbc682edddafa6b00c73c06"
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "case": "support-email",
+  "review_round": 2,
+  "reviewed_at_utc": "2026-10-03T09:45:32.174728+00:00",
+  "mode": "current_whole_document_review_after_actual_feedback",
+  "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-2.txt",
+  "candidate_sha256": "badf900d9b49f594b6e044382381fc297708e2fbea070ef60b6516791677aabe",
+  "source_fidelity": "pass",
+  "quality_eligible": true,
+  "accepted_findings_all_resolved": true,
+  "followup": [
+    {
+      "parent_finding_id": "S1-ACKNOWLEDGEMENT-ORDER",
+      "parent_ledger_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-1-review\\ledger.json",
+      "parent_candidate_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+      "current_finding_id": "S1-ACKNOWLEDGEMENT-ORDER-RESOLUTION",
+      "status": "resolved",
+      "evidence": {
+        "start": 132,
+        "end": 243,
+        "quote": "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you."
+      },
+      "reason": "Acknowledgement and apology now occur in opening body paragraph P2, before refund restrictions and conditional timing. Follow-up stays at the end."
+    },
+    {
+      "parent_finding_id": "S2-REPEATED-SCOPE",
+      "parent_ledger_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-1-review\\ledger.json",
+      "parent_candidate_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+      "current_finding_id": "S2-REPEATED-SCOPE-RESOLUTION",
+      "status": "resolved",
+      "evidence": {
+        "start": 245,
+        "end": 469,
+        "quote": "This morning I requested a refund of the duplicate £36 payment. The payment team hasn't approved it yet. The request covers only that duplicate payment; I can't cancel the first payment because the order has already shipped."
+      },
+      "reason": "The amount appears once. The short backward reference preserves the essential only-duplicate limitation and relates it to the first-payment exception in one paragraph. Remaining repetition of request/duplicate is useful disambiguation, not a new defect."
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "S1-ACKNOWLEDGEMENT-ORDER-RESOLUTION",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "S2-REPEATED-SCOPE-RESOLUTION",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "RETAIN-P1",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "RETAIN-P2",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "RETAIN-P3",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "RETAIN-P4",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "RETAIN-P5",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "RETAIN-P6",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "HISTORY",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    },
+    {
+      "finding_id": "MODEL-SENSITIVITY",
+      "decision": "retain",
+      "action_hypothesis": "Preserve this resolved or sound passage and its source constraints; no further repair justified."
+    }
+  ],
+  "revision_request": [],
+  "unresolved_findings": [],
+  "new_findings": [],
+  "measured_review": {
+    "source": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-2-score\\model-result.json",
+    "raw_result_sha256": "ded71bb3a903fd0190de1ffee712a020cd818f4033ca561bc15259ffb5171d3a",
+    "native_class_probabilities": {
+      "human": 0.000713048386387527,
+      "ai": 0.937963604927063,
+      "ai_edited": 0.00011166670446982607,
+      "humanized": 0.061211660504341125
+    },
+    "human_percent": 0.0713048386387527,
+    "prior_human_percent": 0.31406020279973745,
+    "change_percentage_points": -0.24275536416098475,
+    "highest_sensitivity_paragraph": "P2",
+    "highest_sensitivity_delta_percentage_points": 2.093639981467277,
+    "contextual_interpretation": "P2 has the largest absolute sensitivity. Its thanks, confirmed date, acknowledgement and apology each have a source-required role. Early placement resolves the accepted audience issue. The measured sensitivity supplies no new editorial reason to delete or degrade that paragraph.",
+    "calibrated": false,
+    "authorship_verified": false
+  },
+  "checkpoint_policy": "Preserve prior round-1 candidate and its larger or smaller Human measurement together with its own open-finding state. Current round 2 remains quality-eligible after accepted issue closure; score alone cannot reverse a fidelity/reader judgment.",
+  "budget": {
+    "max_post_draft_revisions": 3,
+    "prior_revisions_used": 0,
+    "current_round_2_revision_uses": 1,
+    "revisions_used_after_round_2": 1,
+    "remaining_after_round_2": 2,
+    "evidence": {
+      "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\inherited-writer-review.md",
+      "text_sha256": "9c9a09ccf699d1554f2b6fca2a9edf3cc315848a44f6078400235aa91a842eab",
+      "start": 3325,
+      "end": 3386,
+      "quote": "One initial complete candidate; no post-draft revision cycle.",
+      "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+    },
+    "note": "The inherited pre-freeze fidelity repair counts toward the same three-revision limit. A new measurement phase does not reset that budget. Earlier complete pre-repair reflection candidate unavailable here; no invented full-text/hash for it."
+  },
+  "composition_variant_policy": "A separately requested useful composition variant may be considered within the remaining original budget, with explicit reader purpose and pre-score review. Do not call an optional alternative a new defect or use remaining budget as a mandatory quota.",
+  "new_inference_runs_by_reviewer": 0
+}

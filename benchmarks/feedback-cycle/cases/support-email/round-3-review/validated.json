@@ -1,0 +1,406 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "52dc6484005cf26f6f6f9d81dae10f290cd49578a42ca24876c5f97ac35792fd",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Round 3 remains faithful and reader-eligible after actual scoring. All seven paragraphs and every source constraint were reviewed; no new defect and no recurrence of accepted round-1 issues. This was a useful action-first alternative, not a necessary repair or demonstrated overall reader improvement over round 2. Native Human fell from 0.071304839% to 0.065802247% (-0.005502591 percentage points). Preserve both candidates; round 2 has the higher Human output among these eligible, feedback-closed choices. This uncalibrated four-class output has documented pilot false positives and does not authenticate authorship; Humanized remains separate from Human.",
+  "document_analysis": {
+    "structure": "P1 greeting; P2 request/status first; P3 gratitude, acknowledgment and apology before restrictions; P4 scope; P5 no-form reassurance and conditional timing; P6 follow-up; P7 sign-off. The local benefit is immediate access to the current answer, with more short paragraphs than round 2.",
+    "reasoning_specificity": "All amount/date/status distinctions, only-duplicate scope, shipped-order restriction, approval prerequisite, estimated original-card timing and next contact are explicit. The action-first sequence does not claim an approved or completed refund. Confirmation-before-request follows the narrative sequence already given in the source.",
+    "voice_consistency": "Professional first-person voice and courtesy are retained. Please treat that as an estimate is a direct service instruction clarifying an existing caveat, not a new customer task. Reply here is anchored by the email context.",
+    "rhythm_repetition": "The amount is named once. Only the duplicate payment is a useful narrower reference. More standalone paragraphs aid scanning at the cost of compactness; neither construction establishes a clear overall win. There is no repeated-amount regression.",
+    "language_features": "English is idiomatic and fits a support email. Contractions and conditional clauses are ordinary conventions. Earlier delayed apology is not repeated: acknowledgement precedes limitations and timing.",
+    "citations_provenance": "No citations are asserted. Supplied origin remains synthetic AI source plus AI rewrite. Actual new native result, feedback, prescore and current candidate hashes match. Reviewer ran no inference and attaches the caller-produced completed one-window measurement."
+  },
+  "findings": [
+    {
+      "id": "RETAIN-P1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 10,
+          "quote": "Hi Morgan,",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "Named greeting retains Morgan.",
+      "interpretation": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output.",
+      "human_alternative": "A human support agent can use the same genre conventions and content-specific instructions. Natural language and ordinary courtesy do not distinguish origin.",
+      "discriminating_evidence": "Exact source comparison and whole-document reader review determine editorial eligibility. Representative labeled evaluations would be needed for model-performance claims; authenticated records are needed for external authorship. This local score is not a quality or origin certificate."
+    },
+    {
+      "id": "RETAIN-P2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 12,
+          "end": 220,
+          "quote": "I've submitted a request to refund the duplicate £36 payment on order R-214. I sent it this morning after confirming that the second payment was taken on 18 September. The payment team hasn't approved it yet.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "Action-first opening retains submitted request, duplicate £36, R-214, this morning, confirmed second payment on 18 September and pending payment-team approval. Confirmation before submission follows the source narrative sequence; no new date or approved/completed status is asserted.",
+      "interpretation": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output.",
+      "human_alternative": "A human support agent can use the same genre conventions and content-specific instructions. Natural language and ordinary courtesy do not distinguish origin.",
+      "discriminating_evidence": "Exact source comparison and whole-document reader review determine editorial eligibility. Representative labeled evaluations would be needed for model-performance claims; authenticated records are needed for external authorship. This local score is not a quality or origin certificate."
+    },
+    {
+      "id": "RETAIN-P3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 222,
+          "end": 383,
+          "quote": "Thank you for your patience while I checked this. I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "Thanks, explicit frustration acknowledgment and apology for extra work are early, before restrictions/timing.",
+      "interpretation": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output.",
+      "human_alternative": "A human support agent can use the same genre conventions and content-specific instructions. Natural language and ordinary courtesy do not distinguish origin.",
+      "discriminating_evidence": "Exact source comparison and whole-document reader review determine editorial eligibility. Representative labeled evaluations would be needed for model-performance claims; authenticated records are needed for external authorship. This local score is not a quality or origin certificate."
+    },
+    {
+      "id": "RETAIN-P4",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 385,
+          "end": 507,
+          "quote": "Only the duplicate payment is covered by this request. The order has already shipped, so I can't cancel the first payment.",
+          "line": 7,
+          "column": 1,
+          "paragraph_ids": [
+            "P4"
+          ]
+        }
+      ],
+      "observation": "Duplicate-only scope plus inability to cancel first payment because already shipped remain. Short reference to duplicate payment is useful; amount is not repeated.",
+      "interpretation": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output.",
+      "human_alternative": "A human support agent can use the same genre conventions and content-specific instructions. Natural language and ordinary courtesy do not distinguish origin.",
+      "discriminating_evidence": "Exact source comparison and whole-document reader review determine editorial eligibility. Representative labeled evaluations would be needed for model-performance claims; authenticated records are needed for external authorship. This local score is not a quality or origin certificate."
+    },
+    {
+      "id": "RETAIN-P5",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 509,
+          "end": 739,
+          "quote": "You don't need to fill in another form while the request is pending. If the team approves it, the money should reach the original card within five working days. Please treat that as an estimate; I can't guarantee the arrival date.",
+          "line": 9,
+          "column": 1,
+          "paragraph_ids": [
+            "P5"
+          ]
+        }
+      ],
+      "observation": "No additional form while pending, approval condition, original card, five working days, estimate and no guaranteed date all remain.",
+      "interpretation": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output.",
+      "human_alternative": "A human support agent can use the same genre conventions and content-specific instructions. Natural language and ordinary courtesy do not distinguish origin.",
+      "discriminating_evidence": "Exact source comparison and whole-document reader review determine editorial eligibility. Representative labeled evaluations would be needed for model-performance claims; authenticated records are needed for external authorship. This local score is not a quality or origin certificate."
+    },
+    {
+      "id": "RETAIN-P6",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 741,
+          "end": 882,
+          "quote": "I'll email you by 3 p.m. on Friday, even if there's still no decision. If that email doesn't arrive, please reply here with the order number.",
+          "line": 11,
+          "column": 1,
+          "paragraph_ids": [
+            "P6"
+          ]
+        }
+      ],
+      "observation": "Firm Friday 3 p.m. email promise even without decision and reply-to-this-email with order number if no update are preserved.",
+      "interpretation": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output.",
+      "human_alternative": "A human support agent can use the same genre conventions and content-specific instructions. Natural language and ordinary courtesy do not distinguish origin.",
+      "discriminating_evidence": "Exact source comparison and whole-document reader review determine editorial eligibility. Representative labeled evaluations would be needed for model-performance claims; authenticated records are needed for external authorship. This local score is not a quality or origin certificate."
+    },
+    {
+      "id": "RETAIN-P7",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 884,
+          "end": 894,
+          "quote": "Best,\nAlex",
+          "line": 13,
+          "column": 1,
+          "paragraph_ids": [
+            "P7"
+          ]
+        }
+      ],
+      "observation": "Sign-off names Alex.",
+      "interpretation": "Post-score whole-document review confirms this passage is functional and source-faithful; no new necessary repair is justified by the actual text. Its role must remain even when a deletion changes the classifier output.",
+      "human_alternative": "A human support agent can use the same genre conventions and content-specific instructions. Natural language and ordinary courtesy do not distinguish origin.",
+      "discriminating_evidence": "Exact source comparison and whole-document reader review determine editorial eligibility. Representative labeled evaluations would be needed for model-performance claims; authenticated records are needed for external authorship. This local score is not a quality or origin certificate."
+    },
+    {
+      "id": "HISTORY",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "strong",
+      "spans": [
+        {
+          "start": 12,
+          "end": 220,
+          "quote": "I've submitted a request to refund the duplicate £36 payment on order R-214. I sent it this morning after confirming that the second payment was taken on 18 September. The payment team hasn't approved it yet.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "The supplied evaluation record identifies AI-authored synthetic source and AI rewriting, including this optional composition variant.",
+      "interpretation": "A native Human output cannot change the supplied generation history. No transaction or customer history is authenticated by this exercise.",
+      "human_alternative": "A human could write similar email content; resemblance does not overwrite the supplied generation record.",
+      "discriminating_evidence": "Exact source comparison and whole-document reader review determine editorial eligibility. Representative labeled evaluations would be needed for model-performance claims; authenticated records are needed for external authorship. This local score is not a quality or origin certificate.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\inherited-history-review.json; parent revision record and composition-hypotheses.md."
+    },
+    {
+      "id": "MODEL-SENSITIVITY",
+      "basis": "local_occlusion",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 10,
+          "quote": "Hi Morgan,",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        },
+        {
+          "start": 12,
+          "end": 220,
+          "quote": "I've submitted a request to refund the duplicate £36 payment on order R-214. I sent it this morning after confirming that the second payment was taken on 18 September. The payment team hasn't approved it yet.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 222,
+          "end": 383,
+          "quote": "Thank you for your patience while I checked this. I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        },
+        {
+          "start": 385,
+          "end": 507,
+          "quote": "Only the duplicate payment is covered by this request. The order has already shipped, so I can't cancel the first payment.",
+          "line": 7,
+          "column": 1,
+          "paragraph_ids": [
+            "P4"
+          ]
+        },
+        {
+          "start": 509,
+          "end": 739,
+          "quote": "You don't need to fill in another form while the request is pending. If the team approves it, the money should reach the original card within five working days. Please treat that as an estimate; I can't guarantee the arrival date.",
+          "line": 9,
+          "column": 1,
+          "paragraph_ids": [
+            "P5"
+          ]
+        },
+        {
+          "start": 741,
+          "end": 882,
+          "quote": "I'll email you by 3 p.m. on Friday, even if there's still no decision. If that email doesn't arrive, please reply here with the order number.",
+          "line": 11,
+          "column": 1,
+          "paragraph_ids": [
+            "P6"
+          ]
+        },
+        {
+          "start": 884,
+          "end": 894,
+          "quote": "Best,\nAlex",
+          "line": 13,
+          "column": 1,
+          "paragraph_ids": [
+            "P7"
+          ]
+        }
+      ],
+      "observation": "P1: baseline 99.934197753%, after removal 99.917267135%, delta +0.016930618 percentage points; P2: baseline 99.934197753%, after removal 99.186546821%, delta +0.747650932 percentage points; P3: baseline 99.934197753%, after removal 99.682533392%, delta +0.251664361 percentage points; P4: baseline 99.934197753%, after removal 99.967861912%, delta -0.033664159 percentage points; P5: baseline 99.934197753%, after removal 99.603082659%, delta +0.331115094 percentage points; P6: baseline 99.934197753%, after removal 98.761330731%, delta +1.172867022 percentage points; P7: baseline 99.934197753%, after removal 99.837867811%, delta +0.096329942 percentage points. P6 has the largest absolute deletion sensitivity, +1.172867022 percentage points. It contains the source-required firm Friday 3 p.m. update even without a decision and the missing-email reply with order number. Both are essential customer instructions; no part should be dropped because of that score. P4 has a small negative delta, which likewise does not prove better quality or human authorship.",
+      "interpretation": "Actual measured single-paragraph deletion sensitivity on this exact one-window candidate. Length and context change on deletion. Deltas are not paragraph authorship probabilities, causal classifier reasoning, or editing permissions; changed paragraphing also prevents like-for-like causal comparison with earlier deltas.",
+      "human_alternative": "Human writing can yield similar sensitivity, and this experimental checkpoint has documented high-confidence human false positives in the saved 36-document pilot.",
+      "discriminating_evidence": "Exact source comparison and whole-document reader review determine editorial eligibility. Representative labeled evaluations would be needed for model-performance claims; authenticated records are needed for external authorship. This local score is not a quality or origin certificate.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-3-score\\model-result.json; occlusion.paragraphs; raw result SHA256 bf02618663bb9b86b87f6bac159c886dd33de0c904f3011de6fcdcdb6dace444"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 10,
+      "line": 1,
+      "text": "Hi Morgan,",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Named greeting retains Morgan. Independently rechecked after seeing actual new score; no new repair.",
+      "finding_ids": [
+        "RETAIN-P1",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 12,
+      "end": 220,
+      "line": 3,
+      "text": "I've submitted a request to refund the duplicate £36 payment on order R-214. I sent it this morning after confirming that the second payment was taken on 18 September. The payment team hasn't approved it yet.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Action-first opening retains submitted request, duplicate £36, R-214, this morning, confirmed second payment on 18 September and pending payment-team approval. Confirmation before submission follows the source narrative sequence; no new date or approved/completed status is asserted. Independently rechecked after seeing actual new score; no new repair.",
+      "finding_ids": [
+        "RETAIN-P2",
+        "HISTORY",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 222,
+      "end": 383,
+      "line": 5,
+      "text": "Thank you for your patience while I checked this. I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Thanks, explicit frustration acknowledgment and apology for extra work are early, before restrictions/timing. Independently rechecked after seeing actual new score; no new repair.",
+      "finding_ids": [
+        "RETAIN-P3",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "id": "P4",
+      "start": 385,
+      "end": 507,
+      "line": 7,
+      "text": "Only the duplicate payment is covered by this request. The order has already shipped, so I can't cancel the first payment.",
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "Duplicate-only scope plus inability to cancel first payment because already shipped remain. Short reference to duplicate payment is useful; amount is not repeated. Independently rechecked after seeing actual new score; no new repair.",
+      "finding_ids": [
+        "RETAIN-P4",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "id": "P5",
+      "start": 509,
+      "end": 739,
+      "line": 9,
+      "text": "You don't need to fill in another form while the request is pending. If the team approves it, the money should reach the original card within five working days. Please treat that as an estimate; I can't guarantee the arrival date.",
+      "paragraph_id": "P5",
+      "status": "reviewed",
+      "assessment": "No additional form while pending, approval condition, original card, five working days, estimate and no guaranteed date all remain. Independently rechecked after seeing actual new score; no new repair.",
+      "finding_ids": [
+        "RETAIN-P5",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "id": "P6",
+      "start": 741,
+      "end": 882,
+      "line": 11,
+      "text": "I'll email you by 3 p.m. on Friday, even if there's still no decision. If that email doesn't arrive, please reply here with the order number.",
+      "paragraph_id": "P6",
+      "status": "reviewed",
+      "assessment": "Firm Friday 3 p.m. email promise even without decision and reply-to-this-email with order number if no update are preserved. Independently rechecked after seeing actual new score; no new repair.",
+      "finding_ids": [
+        "RETAIN-P6",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "id": "P7",
+      "start": 884,
+      "end": 894,
+      "line": 13,
+      "text": "Best,\nAlex",
+      "paragraph_id": "P7",
+      "status": "reviewed",
+      "assessment": "Sign-off names Alex. Independently rechecked after seeing actual new score; no new repair.",
+      "finding_ids": [
+        "RETAIN-P7",
+        "MODEL-SENSITIVITY"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 7,
+    "paragraphs_reviewed": 7,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_local_model",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "measured_at_utc": "2026-10-03T09:50:01.543631+00:00",
+    "class_probabilities": {
+      "human": 0.0006580224726349115,
+      "ai": 0.9923093318939209,
+      "ai_edited": 0.0001810540707083419,
+      "humanized": 0.006851470097899437
+    },
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "calibration": null,
+    "applicability_cautions": [],
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "language_scope": "English only; independently uncalibrated",
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  }
+}

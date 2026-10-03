@@ -1,0 +1,33 @@
+{
+  "text_sha256": "8e0cc21b22fc44030b2af235c244ee8e79eb7399e8d31a79a865f8c6d52ce161",
+  "paragraphs": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 300,
+      "line": 1,
+      "text": "For eight weeks, I tried reading a chapter in the morning before I looked at my phone. I'd hoped to remember more of what I read. I could recall the plots of three novels at the end of those weeks, but I hadn't tested my memory before starting the experiment. I don't know whether my recall improved."
+    },
+    {
+      "id": "P2",
+      "start": 302,
+      "end": 550,
+      "line": 3,
+      "text": "What I noticed was simpler. I stopped breaking off mid-chapter to check messages, and I liked reading that way. I still checked my phone as soon as I'd finished. On two mornings I skipped reading altogether; I didn't stick to the routine every day."
+    },
+    {
+      "id": "P3",
+      "start": 552,
+      "end": 757,
+      "line": 5,
+      "text": "I'm reluctant to recommend it to everyone. My mornings were quiet during those weeks, and I didn't try it while travelling. Even without evidence that it helped my memory, the reading was worthwhile to me."
+    },
+    {
+      "id": "P4",
+      "start": 759,
+      "end": 846,
+      "line": 7,
+      "text": "Next month I'd like to try reading after dinner instead. I haven't picked a start date."
+    }
+  ]
+}

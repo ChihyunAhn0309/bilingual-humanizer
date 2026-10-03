@@ -1,0 +1,15 @@
+{
+  "scope": "Reported execution order and an artifact-timing limitation; not a signed authorization or independent timestamp proof.",
+  "exceptions": [
+    {
+      "case": "support-email",
+      "round": 2,
+      "candidate_sha256": "badf900d9b49f594b6e044382381fc297708e2fbea070ef60b6516791677aabe",
+      "prescore_recorded_at_utc": "2026-10-03T09:43:21.316697+00:00",
+      "native_measured_at_utc": "2026-10-03T09:43:05.786229+00:00",
+      "readiness_message_excerpt": "Pre-score reader/fidelity review complete: both round-2 candidates eligible, no necessary repair or new defect. Support SHA badf900d9b49f594b6e044382381fc297708e2fbea070ef60b6516791677aabe resolves S1 early acknowledgment and S2 amount/scope repetition while retaining explicit only-duplicate restriction.",
+      "basis": "The parent received this exact-hash reviewer readiness message before starting the serial support r2 adapter call. The reviewer then saved the complete JSON while that call was running.",
+      "limitation": "The prescore JSON timestamp is later than the native measurement timestamp by about 15.5 seconds. Its timestamp alone cannot establish a frozen pre-execution gate; the pre-score assessment order is a recorded agent communication claim. Do not backdate either artifact or describe this pair as independently timestamp-proven. Later measurements began after saved prescore records existed."
+    }
+  ]
+}

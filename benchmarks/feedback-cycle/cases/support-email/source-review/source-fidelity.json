@@ -1,0 +1,128 @@
+{
+  "source_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+  "case": "support-email",
+  "constraints": [
+    {
+      "id": "F1",
+      "topic": "identity",
+      "spans": [
+        {
+          "start": 0,
+          "end": 10,
+          "quote": "Hi Morgan,"
+        },
+        {
+          "start": 897,
+          "end": 907,
+          "quote": "Best,\nAlex"
+        }
+      ],
+      "preservation_rule": "Keep Morgan as recipient and Alex as sender; preserve email function."
+    },
+    {
+      "id": "F2",
+      "topic": "confirmed_charge",
+      "spans": [
+        {
+          "start": 94,
+          "end": 156,
+          "quote": "I confirmed that the second payment was taken on 18 September."
+        },
+        {
+          "start": 12,
+          "end": 93,
+          "quote": "Thank you for your patience while I reviewed the duplicate charge on order R-214."
+        }
+      ],
+      "preservation_rule": "Keep order R-214, duplicate/second charge, 18 September, completed review/confirmation."
+    },
+    {
+      "id": "F3",
+      "topic": "request_status",
+      "spans": [
+        {
+          "start": 157,
+          "end": 253,
+          "quote": "I submitted a refund request for £36 this morning, but the payment team has not approved it yet."
+        }
+      ],
+      "preservation_rule": "£36 request submitted this morning; payment team approval still pending. Do not turn submission into approval or a completed refund."
+    },
+    {
+      "id": "F4",
+      "topic": "courtesy",
+      "spans": [
+        {
+          "start": 254,
+          "end": 366,
+          "quote": "I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you."
+        }
+      ],
+      "preservation_rule": "Retain acknowledgement and apology for extra work, with flexible wording."
+    },
+    {
+      "id": "F5",
+      "topic": "refund_timing",
+      "spans": [
+        {
+          "start": 368,
+          "end": 468,
+          "quote": "If the team approves the request, the money should reach the original card within five working days."
+        },
+        {
+          "start": 469,
+          "end": 520,
+          "quote": "That is an estimate, not a guaranteed arrival date."
+        }
+      ],
+      "preservation_rule": "Keep approval prerequisite, original card, five working days, and non-guaranteed estimate. Do not imply the clock starts before approval."
+    },
+    {
+      "id": "F6",
+      "topic": "customer_action",
+      "spans": [
+        {
+          "start": 521,
+          "end": 598,
+          "quote": "There is no need for you to submit another form while the request is pending."
+        }
+      ],
+      "preservation_rule": "No additional form needed during pending request; do not add a required step."
+    },
+    {
+      "id": "F7",
+      "topic": "follow_up",
+      "spans": [
+        {
+          "start": 600,
+          "end": 679,
+          "quote": "I will email you by 3 p.m. on Friday even if I am still waiting for a decision."
+        },
+        {
+          "start": 680,
+          "end": 764,
+          "quote": "If you do not receive that update, please reply to this email with the order number."
+        }
+      ],
+      "preservation_rule": "Firm email commitment by 3 p.m. Friday regardless of decision; missing-update fallback is reply to this email with order number. Do not weaken to hope/aim or omit fallback."
+    },
+    {
+      "id": "F8",
+      "topic": "scope_limit",
+      "spans": [
+        {
+          "start": 765,
+          "end": 837,
+          "quote": "I cannot cancel the first payment because the order has already shipped."
+        },
+        {
+          "start": 838,
+          "end": 895,
+          "quote": "The refund request covers only the duplicate £36 payment."
+        }
+      ],
+      "preservation_rule": "First payment cannot be cancelled because already shipped; request concerns only duplicate £36. Do not widen refund scope."
+    }
+  ],
+  "unresolved": "Actual approval and arrival remain unknown. Do not invent a refund reference, approval, tracking detail, calendar date for Friday, or completion."
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T08:50:30.478906+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+  "token_count": 187,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 187,
+      "start": 0,
+      "end": 907,
+      "quote": "Hi Morgan,\n\nThank you for your patience while I reviewed the duplicate charge on order R-214. I confirmed that the second payment was taken on 18 September. I submitted a refund request for £36 this morning, but the payment team has not approved it yet. I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you.\n\nIf the team approves the request, the money should reach the original card within five working days. That is an estimate, not a guaranteed arrival date. There is no need for you to submit another form while the request is pending.\n\nI will email you by 3 p.m. on Friday even if I am still waiting for a decision. If you do not receive that update, please reply to this email with the order number. I cannot cancel the first payment because the order has already shipped. The refund request covers only the duplicate £36 payment.\n\nBest,\nAlex",
+      "class_probabilities": {
+        "human": 0.00012120229803258553,
+        "ai": 0.9928717017173767,
+        "ai_edited": 1.9343971871421672e-05,
+        "humanized": 0.006987790111452341
+      },
+      "ai_involvement_class_score": 0.9998787977019674
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.00012120229803258553,
+    "ai": 0.9928717017173767,
+    "ai_edited": 1.9343971871421672e-05,
+    "humanized": 0.006987790111452341
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 10,
+        "quote": "Hi Morgan,",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9998787977019674,
+        "after_removal_ai_involvement": 0.999864803176024,
+        "delta_percentage_points": 0.0013994525943417102
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 12,
+        "end": 366,
+        "quote": "Thank you for your patience while I reviewed the duplicate charge on order R-214. I confirmed that the second payment was taken on 18 September. I submitted a refund request for £36 this morning, but the payment team has not approved it yet. I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9998787977019674,
+        "after_removal_ai_involvement": 0.9927292307838798,
+        "delta_percentage_points": 0.7149566918087658
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 368,
+        "end": 598,
+        "quote": "If the team approves the request, the money should reach the original card within five working days. That is an estimate, not a guaranteed arrival date. There is no need for you to submit another form while the request is pending.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9998787977019674,
+        "after_removal_ai_involvement": 0.998730635852553,
+        "delta_percentage_points": 0.11481618494144641
+      },
+      {
+        "paragraph_id": "P4",
+        "start": 600,
+        "end": 895,
+        "quote": "I will email you by 3 p.m. on Friday even if I am still waiting for a decision. If you do not receive that update, please reply to this email with the order number. I cannot cancel the first payment because the order has already shipped. The refund request covers only the duplicate £36 payment.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9998787977019674,
+        "after_removal_ai_involvement": 0.9965269251260906,
+        "delta_percentage_points": 0.33518725758767687
+      },
+      {
+        "paragraph_id": "P5",
+        "start": 897,
+        "end": 907,
+        "quote": "Best,\nAlex",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9998787977019674,
+        "after_removal_ai_involvement": 0.9996931511268485,
+        "delta_percentage_points": 0.018564657511888072
+      }
+    ],
+    "total_paragraphs": 5,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

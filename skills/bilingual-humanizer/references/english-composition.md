@@ -43,6 +43,8 @@ Ask whether a polished sentence states a recoverable claim about this subject. T
 
 Read the whole draft for idiomatic collocations, pronoun reference, tense and ownership. Restoring omitted facts should not leave a trail of awkward add-on caveats. If repair makes a sentence dense, recompose the surrounding paragraph from the original source again.
 
+Preserve mental stance as carefully as an external fact. `Expected` states an anticipated outcome; `hoped` states a desired one. Neither is a free synonym for the other, and an informal rewrite must not replace expectation with preference. Check small linking words in the full sequence too: additive `either` needs an earlier corresponding negative or exception. An action that complies with a routine cannot become an implied earlier breach merely to connect it smoothly to a later lapse. These are meaning checks, not banned-word rules.
+
 ## Academic English: preserve the section's job
 
 Apply only to the relevant section, without imposing a new paper template:

@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "source": {
+    "path": "source.txt",
+    "sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e"
+  },
+  "revision_limit": 3,
+  "prior_revisions_used": 0,
+  "prior_revision_note": "One initial complete candidate; no post-draft revision cycle. The inherited pre-freeze fidelity repair counts toward the same three-revision limit. A new measurement phase does not reset that budget. Earlier complete pre-repair reflection candidate unavailable here; no invented full-text/hash for it.",
+  "provenance": {
+    "known_origin": "AI-authored synthetic evaluation sources and AI rewrites; not authenticated real events.",
+    "assembly_scope": "Records assembled now from preserved artifacts. Source-to-round-1 triage and closure are retrospective reconstruction, not a claim that an automated or independent feedback loop had already run in the inherited writer phase.",
+    "history_review": {
+      "path": "inherited-history-review.json",
+      "sha256": "252b8e4734ea8b941fd72661dae95e9f48af5a7becaeb58b0c8b4665ca68e4e7"
+    },
+    "inherited_writer_review": {
+      "path": "inherited-writer-review.md",
+      "sha256": "9c9a09ccf699d1554f2b6fca2a9edf3cc315848a44f6078400235aa91a842eab"
+    },
+    "source_triage": {
+      "path": "source-review/triage-feedback.json",
+      "sha256": "dcd390021590547fa33023a40ac7b36d94250d88287a48a7042691332e9e27d6"
+    },
+    "round_1_current_triage": {
+      "path": "round-1-review/triage.json",
+      "sha256": "e43336e27b684db7917d363fabbffb4c5d65b2fb32331c87245e398beca2e52c"
+    },
+    "measurement_reuse": "Source and round-1 native artifacts are reused byte for byte with original timestamps and all four classes. This assembly script performs zero inference."
+  },
+  "rounds": [
+    {
+      "id": "r0",
+      "candidate": {
+        "path": "source.txt",
+        "sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e"
+      },
+      "native": {
+        "path": "source-score/model-result.json",
+        "sha256": "d5dca695a233925ccbabb98b98837f28318450d5a6465607842c0bdf3fbb8e39"
+      },
+      "feedback": {
+        "path": "source-score/feedback.json",
+        "sha256": "e01a672e66043195c5d8d750dc4888cbb91064332ce6d50a6c9874bc0c4ce8f3"
+      },
+      "review": {
+        "path": "source-review/validated.json",
+        "sha256": "43e74f0ad06df2179de7c8fa15ab8c597915e4fdfde5f9d4353ad1c7e63cee24"
+      },
+      "fidelity": {
+        "source_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+        "eligible": true,
+        "reason": "Byte-identical immutable source; protected constraints recorded in source-review/source-fidelity.json."
+      },
+      "followup": [],
+      "reader": {
+        "eligible": true,
+        "reason": "Clear, useful support email. Optional low-priority improvement: group the refund scope with its pending status, then end with the promised update and fallback. Conventional courtesy is not itself a defect. Supplied origin: AI-authored synthetic fixture. Existing native scores are uncalibrated experimental model outputs, not verified authorship."
+      },
+      "triage": [
+        {
+          "finding_id": "S1",
+          "decision": "retain",
+          "reason": "Neutral email convention; no useful AI-style inference."
+        },
+        {
+          "finding_id": "S2",
+          "decision": "revise",
+          "reason": "Reconstructed accepted action from inherited writer and current lineage audit: Lightly tighten only where useful; retain gratitude, frustration acknowledgment and apology."
+        },
+        {
+          "finding_id": "S3",
+          "decision": "retain",
+          "reason": "Retain every condition. The caution prevents an estimate being mistaken for a promise; it is not padding."
+        },
+        {
+          "finding_id": "S4",
+          "decision": "revise",
+          "reason": "Reconstructed accepted action from inherited writer and current lineage audit: Relocate shipped-first-payment restriction and duplicate-only scope next to pending status, leaving contact instructions at the end."
+        },
+        {
+          "finding_id": "S5",
+          "decision": "retain",
+          "reason": "Neutral genre convention; retain sender identity and a courteous close."
+        },
+        {
+          "finding_id": "H1",
+          "decision": "retain",
+          "reason": "Known supplied origin is AI-authored synthetic evaluation material. Natural-sounding details or later editing do not change this origin."
+        }
+      ],
+      "improvement": false,
+      "improvement_reason": "Source baseline; no rewrite is asserted."
+    },
+    {
+      "id": "r1",
+      "candidate": {
+        "path": "round-1.txt",
+        "sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091"
+      },
+      "native": {
+        "path": "round-1-score/model-result.json",
+        "sha256": "a9e15e896b664589a6b29b13ac70c7830ed910db193c9531dde89493843631c0"
+      },
+      "feedback": {
+        "path": "round-1-score/feedback.json",
+        "sha256": "c813425c73b48bd619d708e5b014ca7c541c4bd0e2b4e6590fafe609ff178db4"
+      },
+      "review": {
+        "path": "round-1-review/validated.json",
+        "sha256": "b86b339b1d7c31150b6675ff8fedbdef524444edb2f5230b5d52f6e9cfba4849"
+      },
+      "fidelity": {
+        "source_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+        "eligible": true,
+        "reason": "pass; no missing fact or speech act, with small relational/emphasis refinements requested"
+      },
+      "followup": [
+        {
+          "parent_round": "r0",
+          "finding_id": "S4",
+          "status": "resolved",
+          "reason": "Retrospective current confirmation: Round 1 puts scope directly after the status paragraph rather than after the promised update. The targeted backtracking is removed. This resolution is verified now, retrospectively; no earlier independent resolution pass is claimed.",
+          "before": {
+            "start": 765,
+            "end": 895,
+            "quote": "I cannot cancel the first payment because the order has already shipped. The refund request covers only the duplicate £36 payment."
+          },
+          "after": {
+            "start": 280,
+            "end": 402,
+            "quote": "The request covers only the duplicate £36 payment. I can't cancel the first payment because the order has already shipped."
+          },
+          "finding_ids": [],
+          "new_findings_identified_separately": [
+            "S2-REPEATED-SCOPE"
+          ],
+          "provenance": "inherited-history-review.json; current reconstruction, not earlier review."
+        },
+        {
+          "parent_round": "r0",
+          "finding_id": "S2",
+          "status": "resolved",
+          "reason": "Retrospective current confirmation: Checked and contractions implement selective expression changes; all interpersonal functions survive. The optional source suggestion did not authorize deleting courtesy. Do not call every retained courtesy phrase an unresolved source defect.",
+          "before": {
+            "start": 12,
+            "end": 366,
+            "quote": "Thank you for your patience while I reviewed the duplicate charge on order R-214. I confirmed that the second payment was taken on 18 September. I submitted a refund request for £36 this morning, but the payment team has not approved it yet. I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you."
+          },
+          "after": {
+            "start": 12,
+            "end": 736,
+            "quote": "Thank you for your patience while I checked the duplicate charge on order R-214. I confirmed that the second payment was taken on 18 September and submitted a request this morning to refund the duplicate £36 payment. The payment team hasn't approved the request yet.\n\nThe request covers only the duplicate £36 payment. I can't cancel the first payment because the order has already shipped.\n\nIf the team approves the request, the money should reach the original card within five working days. That's an estimate, not a guaranteed arrival date. You don't need to submit another form while the request is pending.\n\nI understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you."
+          },
+          "finding_ids": [],
+          "new_findings_identified_separately": [
+            "S1-ACKNOWLEDGEMENT-ORDER"
+          ],
+          "provenance": "inherited-history-review.json; current reconstruction, not earlier review."
+        }
+      ],
+      "reader": {
+        "eligible": true,
+        "reason": "Current reviewer retains this faithful candidate as a baseline, while requesting the specific revisions recorded in round-1-review/triage.json. It is not feedback-closed."
+      },
+      "triage": [
+        {
+          "finding_id": "HISTORY",
+          "decision": "retain",
+          "reason": "Keep the provenance disclosure in evaluation records; never represent a improved Human score as a changed origin."
+        },
+        {
+          "finding_id": "S1-ACKNOWLEDGEMENT-ORDER",
+          "decision": "revise",
+          "reason": "Move the explicit frustration acknowledgement and apology for extra work into the opening body sequence. Keep the promised update and fallback together later. Preserve both speech acts, without adding blame, a resolved-refund claim, extra warmth or new promises."
+        },
+        {
+          "finding_id": "S2-REPEATED-SCOPE",
+          "decision": "revise",
+          "reason": "Consolidate or vary the adjacent refund-object explanation so the amount and only-duplicate restriction are stated clearly once in the relevant sequence. Preserve confirmation of the second payment on 18 September, request submitted this morning, lack of approval, and inability to cancel the first payment because shipment occurred."
+        },
+        {
+          "finding_id": "S3-QUALIFICATIONS",
+          "decision": "retain",
+          "reason": "Retain all conditions and the no-form reassurance. Wording may be adjusted as part of coherent restructuring, but do not remove qualifications to shorten the text or to respond to occlusion sensitivity."
+        },
+        {
+          "finding_id": "S4-FOLLOWUP",
+          "decision": "retain",
+          "reason": "Keep the Friday 3 p.m. promise, even-if-pending condition, and missing-update reply with order number. Preserve the sender and recipient names."
+        },
+        {
+          "finding_id": "MODEL-SENSITIVITY",
+          "decision": "retain",
+          "reason": "Use sensitivity to prioritize scrutiny, not as an editing target by itself. Re-measure any revised candidate and compare Human only among candidates passing all source/quality constraints. Preserve four native classes, with Humanized separate from Human."
+        }
+      ],
+      "improvement": true,
+      "improvement_reason": "Inherited writer declared reader improvements from the accepted source actions: Relocate shipped-first-payment restriction and duplicate-only scope next to pending status, leaving contact instructions at the end. Lightly tighten only where useful; retain gratitude, frustration acknowledgment and apology. Current independent review nevertheless found new actionable issues; this declaration is not a score-based or final quality verdict."
+    }
+  ],
+  "stop": {
+    "reason": "in_progress",
+    "detail": "Current round-1 feedback has two accepted revision findings. Round-2 text exists; its actual score and post-score whole-document re-review must be completed before appending it or claiming feedback closure."
+  }
+}

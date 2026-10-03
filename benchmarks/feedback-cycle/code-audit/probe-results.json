@@ -1,0 +1,47 @@
+{
+  "unchanged_resolved": {
+    "status": "complete",
+    "identical_candidate_hashes": true,
+    "open_findings": []
+  },
+  "review_only_budget": {
+    "status": "budget",
+    "claimed_revisions_used": 3,
+    "actual_text_revisions_after_first_draft": 0,
+    "open_findings": [
+      {
+        "parent_round": "r4",
+        "finding_id": "F1"
+      }
+    ]
+  },
+  "review_only_plateau": {
+    "status": "plateau",
+    "claimed_revisions_used": 2,
+    "actual_text_revisions_after_first_draft": 0,
+    "open_findings": [
+      {
+        "parent_round": "r3",
+        "finding_id": "F1"
+      }
+    ]
+  },
+  "fabricated_authorship_probability": {
+    "status": "complete",
+    "review_authorship_probabilities": {
+      "human": 1,
+      "ai": 0
+    },
+    "native_human_percent": 20.0
+  },
+  "unrelated_carried_anchor": {
+    "status": "in_progress",
+    "after_overlaps_linked_finding": false,
+    "open_findings": [
+      {
+        "parent_round": "r2",
+        "finding_id": "F2"
+      }
+    ]
+  }
+}

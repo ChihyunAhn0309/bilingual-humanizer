@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "case": "reading-reflection",
+  "review_round": 1,
+  "mode": "current_whole_document_review_after_actual_feedback",
+  "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\reading-reflection\\experimental.txt",
+  "candidate_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+  "source_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\reading-reflection\\source.txt",
+  "provenance": "AI-generated synthetic source and AI rewrite, per supplied history",
+  "old_review_role": "Read as prior observations; decisions above are newly made with current whole-document context and the actual scores visible.",
+  "measurement": {
+    "reused_unchanged_result": true,
+    "result_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\reading-reflection\\experimental-score\\model-result.json",
+    "result_sha256": "97258106c827921d2420658478a2fc9cc8f351fb154cc223597b3d41a94d2fa4",
+    "measured_at_utc": "2026-10-03T09:06:00.854622+00:00",
+    "native_class_probabilities": {
+      "human": 0.00014873377222102135,
+      "ai": 0.9992535710334778,
+      "ai_edited": 6.948819645913318e-06,
+      "humanized": 0.000590697571169585
+    },
+    "human_percent": 0.014873377222102135,
+    "caution": "Uncalibrated experimental auxiliary four-class output; pilot false positives; Humanized is not Human; no inference run by reviewer."
+  },
+  "source_fidelity": "pass; no missing fact or speech act, with small relational/emphasis refinements requested",
+  "source_constraints_reviewed": [
+    "eight weeks; morning chapter before phone",
+    "expected memory improvement",
+    "three novel plots recalled; no pretest; cannot tell if improved",
+    "stopped interrupting chapters for messages; simpler benefit; liked it",
+    "checked phone immediately after; two skipped mornings; inconsistent routine",
+    "reluctance to recommend to everyone",
+    "quiet mornings; no trial during travel",
+    "reading worthwhile despite no memory evidence",
+    "desire for after-dinner trial next month; no start date chosen"
+  ],
+  "findings": [
+    {
+      "finding_id": "HISTORY",
+      "decision": "retain",
+      "action_hypothesis": "Keep the provenance disclosure in evaluation records; never represent a improved Human score as a changed origin.",
+      "resolved": null
+    },
+    {
+      "finding_id": "R1-UNSUPPORTED-CONNECTIVE",
+      "decision": "revise",
+      "action_hypothesis": "Separate approval of uninterrupted reading, the continued post-reading phone check, and the two skipped mornings using relations the source actually supports. Remove either or replace the relation; avoid implying an invented goal of reducing all phone use. Keep all three observations and the admission that adherence was imperfect.",
+      "resolved": false
+    },
+    {
+      "finding_id": "R2-MODEST-BENEFIT-FRAMING",
+      "decision": "revise",
+      "action_hypothesis": "Introduce the actual change directly while keeping the idea that this was a simpler, more modest outcome than the unproven memory benefit. Do not turn fewer interruptions into a measured concentration, productivity or memory gain.",
+      "resolved": false
+    },
+    {
+      "finding_id": "R3-EVIDENCE-LIMIT",
+      "decision": "retain",
+      "action_hypothesis": "Keep the missing-baseline logic intact. Retain eight weeks, mornings, a chapter before phone, three novels, and uncertainty about actual improvement; do not manufacture a test or stronger causal claim.",
+      "resolved": null
+    },
+    {
+      "finding_id": "R4-ENDING",
+      "decision": "retain",
+      "action_hypothesis": "Preserve the personal value, universal-recommendation reluctance, quiet mornings, no trial during travel, next-month after-dinner desire, and no chosen start date. No forced fragment, invented anecdote, arbitrary synonym replacement, or quota-based edit is justified.",
+      "resolved": null
+    },
+    {
+      "finding_id": "MODEL-SENSITIVITY",
+      "decision": "retain",
+      "action_hypothesis": "Use sensitivity to prioritize scrutiny, not as an editing target by itself. Re-measure any revised candidate and compare Human only among candidates passing all source/quality constraints. Preserve four native classes, with Humanized separate from Human.",
+      "resolved": null
+    }
+  ],
+  "unresolved_findings": [],
+  "revision_request": [
+    "R1-UNSUPPORTED-CONNECTIVE",
+    "R2-MODEST-BENEFIT-FRAMING"
+  ],
+  "retain_candidate_as_baseline": true,
+  "subsequent_review_required": "Check resolution of every accepted finding, full source fidelity, all paragraphs, and any new issues on the exact revised candidate; do not merely confirm wording changes. Do not predict or manually alter its score.",
+  "revision_budget_context": "Parent reports initial draft already used and up to three post-draft revisions remain. This is one coherent proposed revision, not multiple scoring probes."
+}

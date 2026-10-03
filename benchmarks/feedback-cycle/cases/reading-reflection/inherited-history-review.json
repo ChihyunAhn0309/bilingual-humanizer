@@ -1,0 +1,108 @@
+{
+  "reviewed_at_utc": "2026-10-03T09:44:08.461757+00:00",
+  "review_scope": "Retrospective source-to-round-1 lineage audit using preserved texts and inherited writer record. These are current judgments about past artifacts, not evidence of a past automatic or independent resolution loop.",
+  "case": "reading-reflection",
+  "source_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+  "round_1_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+  "source_to_round_1": [
+    {
+      "source_finding_id": "S2",
+      "source_triage_id": "R1",
+      "retrospective_status": "compression_target_implemented_with_new_relational_issue",
+      "accepted_action": "Integrate or shorten adherence summary while preserving two skipped mornings and inconsistent adherence.",
+      "before": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\source.txt",
+          "text_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+          "start": 429,
+          "end": 590,
+          "quote": "I still checked my phone as soon as I finished, and on two mornings I skipped reading altogether. This was a routine I tried, not a rule I consistently followed.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "after": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-1.txt",
+          "text_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+          "start": 435,
+          "end": 533,
+          "quote": "I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "reason": "The separate routine/rule summary is integrated into the concrete missed-morning sentence. The intended compression occurred, but this does not mean the resulting paragraph was independently checked as problem-free then.",
+      "new_finding_ids": [
+        "R1-UNSUPPORTED-CONNECTIVE"
+      ],
+      "new_issue_evidence": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-1.txt",
+          "text_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+          "start": 364,
+          "end": 533,
+          "quote": "I liked that, although I still checked my phone as soon as I finished. I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "new_issue_reason": "Either relates missed mornings to phone checking after reading, although that checking complied with the routine. Record this as a new problem introduced during implementation, not evidence that source compression was never applied."
+    },
+    {
+      "source_finding_id": "S2",
+      "source_triage_id": null,
+      "retrospective_status": "separate_round_1_emphasis_refinement_identified_now",
+      "accepted_action": "Source protection included the modest observed benefit; there was no prior instruction to replace simpler with a category preface.",
+      "before": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\source.txt",
+          "text_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+          "start": 329,
+          "end": 414,
+          "quote": "The change I noticed was simpler: I stopped interrupting a chapter to check messages.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "after": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-1.txt",
+          "text_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+          "start": 272,
+          "end": 363,
+          "quote": "The change I noticed was in how I read: I stopped interrupting a chapter to check messages.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "reason": "The new preface is longer and makes the modest comparison less explicit. It is a small new clarity/emphasis finding from the current round-1 review, not an unfulfilled mandatory source revision.",
+      "new_finding_ids": [
+        "R2-MODEST-BENEFIT-FRAMING"
+      ],
+      "new_issue_evidence": [
+        {
+          "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-1.txt",
+          "text_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+          "start": 272,
+          "end": 363,
+          "quote": "The change I noticed was in how I read: I stopped interrupting a chapter to check messages.",
+          "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+        }
+      ],
+      "new_issue_reason": "Round 2 restores simpler while directly describing the observation; no new result is inferred."
+    }
+  ],
+  "revision_budget": {
+    "max_post_draft_revisions": 3,
+    "prior_revisions_used": 1,
+    "current_round_2_revision_uses": 1,
+    "revisions_used_after_round_2": 2,
+    "remaining_after_round_2": 1,
+    "evidence": {
+      "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\inherited-writer-review.md",
+      "text_sha256": "0b7790ca50c4a617ae3e3d1c3f9e2be29cdf68c3b138b27286ed733e9965a5df",
+      "start": 3377,
+      "end": 3619,
+      "quote": "One initial complete candidate plus one local fidelity repair. The first semantic pass found that `beforehand` could refer to the end-of-experiment recollection rather than the experiment's start; it was replaced with `before the experiment`.",
+      "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+    },
+    "note": "The inherited pre-freeze fidelity repair counts toward the same three-revision limit. A new measurement phase does not reset that budget. Earlier complete pre-repair reflection candidate unavailable here; no invented full-text/hash for it."
+  },
+  "no_inference_run": true
+}

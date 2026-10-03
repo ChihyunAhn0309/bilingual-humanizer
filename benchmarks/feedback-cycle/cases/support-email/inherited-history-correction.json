@@ -1,0 +1,12 @@
+{
+  "scope": "Correct a release-audit provenance wording error; no original artifact, candidate, native result, review decision or numerical revision count changed.",
+  "original_history_sha256": "252b8e4734ea8b941fd72661dae95e9f48af5a7becaeb58b0c8b4665ca68e4e7",
+  "affected_field": "revision_budget.note",
+  "problem": "A generic note about the reflection repair was copied into the support history even though prior_revisions_used=0 and the exact writer quote were correct.",
+  "corrected_prior_revision_note": "One initial complete candidate; no inherited post-draft repairs. Prior revisions used: 0. The separate reflection case has an inherited repair; it does not apply to this support email.",
+  "superseded_final_records": [
+    "superseded-before-provenance-correction-session.json",
+    "superseded-before-provenance-correction-final-status.json"
+  ],
+  "preliminary_records": "session-round-1/status-round-1 and session-round-2/status-round-2 preserve their original reconstruction wording and are superseded by session.json/final-status.json."
+}

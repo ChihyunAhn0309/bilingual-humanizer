@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T09:06:00.854622+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+  "token_count": 186,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 186,
+      "start": 0,
+      "end": 853,
+      "quote": "For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read. By the end, I could recall the plots of three novels. But I hadn't tested my memory before the experiment, so I can't tell whether my recall improved.\n\nThe change I noticed was in how I read: I stopped interrupting a chapter to check messages. I liked that, although I still checked my phone as soon as I finished. I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether.\n\nThe reading itself was worthwhile to me even without evidence of a memory benefit. I'm reluctant to recommend the routine to everyone, though. My mornings were quiet during those weeks, and I didn't try it while travelling. Next month I want to try reading after dinner instead, although I haven't chosen a start date.",
+      "class_probabilities": {
+        "human": 0.00014873377222102135,
+        "ai": 0.9992535710334778,
+        "ai_edited": 6.948819645913318e-06,
+        "humanized": 0.000590697571169585
+      },
+      "ai_involvement_class_score": 0.999851266227779
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.00014873377222102135,
+    "ai": 0.9992535710334778,
+    "ai_edited": 6.948819645913318e-06,
+    "humanized": 0.000590697571169585
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 270,
+        "quote": "For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read. By the end, I could recall the plots of three novels. But I hadn't tested my memory before the experiment, so I can't tell whether my recall improved.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.999851266227779,
+        "after_removal_ai_involvement": 0.9992291171802208,
+        "delta_percentage_points": 0.06221490475581959
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 272,
+        "end": 533,
+        "quote": "The change I noticed was in how I read: I stopped interrupting a chapter to check messages. I liked that, although I still checked my phone as soon as I finished. I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.999851266227779,
+        "after_removal_ai_involvement": 0.9993886338197626,
+        "delta_percentage_points": 0.04626324080163613
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 535,
+        "end": 853,
+        "quote": "The reading itself was worthwhile to me even without evidence of a memory benefit. I'm reluctant to recommend the routine to everyone, though. My mornings were quiet during those weeks, and I didn't try it while travelling. Next month I want to try reading after dinner instead, although I haven't chosen a start date.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.999851266227779,
+        "after_removal_ai_involvement": 0.995580074377358,
+        "delta_percentage_points": 0.4271191850421019
+      }
+    ],
+    "total_paragraphs": 3,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

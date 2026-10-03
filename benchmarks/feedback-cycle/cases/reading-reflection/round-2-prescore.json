@@ -1,0 +1,105 @@
+{
+  "review_type": "independent_pre_score_fidelity_and_reader_review",
+  "reviewed_at_utc": "2026-10-03T09:43:21.316697+00:00",
+  "case": "reading-reflection",
+  "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-2.txt",
+  "candidate_sha256": "6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f",
+  "source_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\source.txt",
+  "source_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+  "round_2_measurement_seen": false,
+  "new_inference_runs": 0,
+  "eligible_for_scoring": true,
+  "necessary_repairs": [],
+  "new_findings": [],
+  "fidelity": "pass",
+  "provenance": "AI-authored synthetic source plus AI rewrite; text review does not authenticate real events",
+  "historical_reconstruction_scope": "Retrospective mapping made now from preserved texts and inherited records. No past automatic loop or independent resolution review is asserted.",
+  "prior_resolutions": [
+    {
+      "finding_id": "R1-UNSUPPORTED-CONNECTIVE",
+      "status": "resolved",
+      "evidence": "I liked that. I still checked my phone as soon as I finished. I didn't keep to the routine every morning: on two mornings, I skipped reading altogether.",
+      "assessment": "Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective."
+    },
+    {
+      "finding_id": "R2-MODEST-BENEFIT-FRAMING",
+      "status": "resolved",
+      "evidence": "What changed was simpler: I stopped interrupting a chapter to check messages.",
+      "assessment": "The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim."
+    }
+  ],
+  "paragraphs": [
+    [
+      "P1",
+      "All routine and memory-evidence facts remain: eight weeks, chapter in morning before phone, memory expectation, three novel plots recalled, no pretest and improvement unknown."
+    ],
+    [
+      "P2",
+      "Simpler observed interruption benefit, liking, phone immediately after, two skipped mornings and non-perfect adherence all retained. Short consecutive first-person statements suit restrained reflection; the new logical relations are clear and need no forced variation."
+    ],
+    [
+      "P3",
+      "Reading worthwhile without memory evidence, reluctance to recommend universally, quiet mornings, no travel trial, next-month after-dinner desire and no selected start date remain. Each sentence has a distinct role."
+    ]
+  ],
+  "constraint_checks": [
+    [
+      "routine",
+      "Eight weeks; chapter before morning phone use; expected memory benefit",
+      "P1"
+    ],
+    [
+      "memory_result",
+      "Three novel plots recalled at end; no memory test before experiment; cannot tell whether improved",
+      "P1"
+    ],
+    [
+      "noticed_benefit",
+      "Simpler observed change: no mid-chapter message checking, liked that",
+      "P2"
+    ],
+    [
+      "adherence",
+      "Phone immediately after reading; two skipped mornings; did not follow every morning",
+      "P2"
+    ],
+    [
+      "applicability",
+      "Reluctant to recommend to everyone; quiet mornings; no trial while travelling",
+      "P3"
+    ],
+    [
+      "value_and_next",
+      "Worthwhile despite no memory evidence; wants after-dinner trial next month; no start date chosen",
+      "P3"
+    ]
+  ],
+  "reader_assessment": "The modest first-person voice and three-part progression remain. P2 now distinguishes observations cleanly. I liked that. is short but purposeful; the following first-person sentences do not create a consequential rhythm problem. No new detail, stronger result or future commitment was introduced.",
+  "history_mapping": [
+    {
+      "source_finding_id": "S2",
+      "source_triage_id": "R1",
+      "source_action": "Optionally integrate/compress the adherence-summary restatement while retaining two skipped mornings and inconsistent adherence.",
+      "round_1_retrospective_status": "compression implemented, with a new connective problem",
+      "basis": "Inherited writer record says it compressed routine/rule summary into non-adherence plus two-morning example; direct source vs experimental.txt comparison confirms this.",
+      "relationship_to_current_ids": "Mark the source compression target implemented; do not claim it was independently verified resolved then. Record new R1-UNSUPPORTED-CONNECTIVE for either/although and new R2-MODEST-BENEFIT-FRAMING for weakening simpler. Both current findings resolve in round 2."
+    }
+  ],
+  "inherited_revision_record": "Inherited writer record reports one complete initial candidate plus one local fidelity repair: beforehand changed to before the experiment. This was not a scored feedback revision, but it must not be relabeled as no earlier post-draft repair.",
+  "revision_budget": {
+    "max_post_draft_revisions": 3,
+    "prior_revisions_used": 1,
+    "current_round_2_revision_uses": 1,
+    "revisions_used_after_round_2": 2,
+    "remaining_after_round_2": 1,
+    "evidence": {
+      "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\inherited-writer-review.md",
+      "text_sha256": "0b7790ca50c4a617ae3e3d1c3f9e2be29cdf68c3b138b27286ed733e9965a5df",
+      "start": 3377,
+      "end": 3619,
+      "quote": "One initial complete candidate plus one local fidelity repair. The first semantic pass found that `beforehand` could refer to the end-of-experiment recollection rather than the experiment's start; it was replaced with `before the experiment`.",
+      "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+    },
+    "note": "The inherited pre-freeze fidelity repair counts toward the same three-revision limit. A new measurement phase does not reset that budget. Earlier complete pre-repair reflection candidate unavailable here; no invented full-text/hash for it."
+  }
+}

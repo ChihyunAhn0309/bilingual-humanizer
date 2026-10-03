@@ -1,0 +1,177 @@
+{
+  "text_sha256": "6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f",
+  "summary": "Full current post-score review: both accepted round-1 findings resolved, all source constraints preserved, no new justified repair. Native Human changed from 0.014873377% to 0.021193785% (+0.006320408 percentage points). This uncalibrated auxiliary score movement does not invalidate reader/fidelity resolution and does not create a new defect. All four classes are retained; Humanized is not Human. Known supplied AI origin remains unchanged. Every paragraph reviewed; no exclusion.",
+  "document_analysis": {
+    "structure": "P1 expectation and evidence limit; P2 simpler observed benefit, liking, continued phone use and missed mornings; P3 value, limits and tentative next step. The progression remains coherent after the two accepted P2 repairs.",
+    "reasoning_specificity": "All source observations and limits survive. Although/either no longer suggest that post-reading phone checking broke the routine. Simpler restores the modest comparison with unproven memory improvement. No new benefit or generalization is claimed.",
+    "voice_consistency": "Restrained first-person reflection remains. Short statements of liking and phone use are natural to this voice; no invented anecdote, affect or colourful persona was added.",
+    "rhythm_repetition": "P2 has consecutive I statements, but they clarify distinct observations and vary in length. The brief I liked that. is purposeful, not a required edit. P1 uncertainty and P3 value without memory proof have different functions.",
+    "language_features": "Plain English and British travelling are preserved. The current connectives accurately express the source relations. No arbitrary contraction, vocabulary or sentence variation is justified by the score alone.",
+    "citations_provenance": "No citation is asserted; described experiences are synthetic narrative facts, not authenticated autobiography. The exact native-result binding is checked, and known AI source plus AI rewrite history is unchanged. The inherited pre-freeze repair remains disclosed and counted in the original budget."
+  },
+  "findings": [
+    {
+      "id": "R1-UNSUPPORTED-CONNECTIVE-RESOLUTION",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 350,
+          "end": 502,
+          "quote": "I liked that. I still checked my phone as soon as I finished. I didn't keep to the routine every morning: on two mornings, I skipped reading altogether."
+        }
+      ],
+      "observation": "Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective.",
+      "interpretation": "The accepted prior editorial issue is resolved on the exact current text, independently of whether its native Human output rose or fell. All source constraints were checked again.",
+      "human_alternative": "A human editor could make these same clarity changes. Neither the prior awkwardness nor the correction identifies authorship.",
+      "discriminating_evidence": "Source comparison and complete reader review establish the editorial judgment. Repeated representative labeled evaluations would be needed for claims about the model; authenticated process records would be needed for external authorship. This review does not equate score with writing quality."
+    },
+    {
+      "id": "R2-MODEST-BENEFIT-FRAMING-RESOLUTION",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 272,
+          "end": 349,
+          "quote": "What changed was simpler: I stopped interrupting a chapter to check messages."
+        }
+      ],
+      "observation": "The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim.",
+      "interpretation": "The accepted prior editorial issue is resolved on the exact current text, independently of whether its native Human output rose or fell. All source constraints were checked again.",
+      "human_alternative": "A human editor could make these same clarity changes. Neither the prior awkwardness nor the correction identifies authorship.",
+      "discriminating_evidence": "Source comparison and complete reader review establish the editorial judgment. Repeated representative labeled evaluations would be needed for claims about the model; authenticated process records would be needed for external authorship. This review does not equate score with writing quality."
+    },
+    {
+      "id": "RETAIN-P1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 270,
+          "quote": "For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read. By the end, I could recall the plots of three novels. But I hadn't tested my memory before the experiment, so I can't tell whether my recall improved."
+        }
+      ],
+      "observation": "All routine and memory-evidence facts remain: eight weeks, chapter in morning before phone, memory expectation, three novel plots recalled, no pretest and improvement unknown.",
+      "interpretation": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here.",
+      "human_alternative": "Genre conventions and careful human editing can produce this same language. The absence of a defect is not a human-authorship verdict.",
+      "discriminating_evidence": "Source comparison and complete reader review establish the editorial judgment. Repeated representative labeled evaluations would be needed for claims about the model; authenticated process records would be needed for external authorship. This review does not equate score with writing quality."
+    },
+    {
+      "id": "RETAIN-P2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 272,
+          "end": 502,
+          "quote": "What changed was simpler: I stopped interrupting a chapter to check messages. I liked that. I still checked my phone as soon as I finished. I didn't keep to the routine every morning: on two mornings, I skipped reading altogether."
+        }
+      ],
+      "observation": "Simpler observed interruption benefit, liking, phone immediately after, two skipped mornings and non-perfect adherence all retained. Short consecutive first-person statements suit restrained reflection; the new logical relations are clear and need no forced variation.",
+      "interpretation": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here.",
+      "human_alternative": "Genre conventions and careful human editing can produce this same language. The absence of a defect is not a human-authorship verdict.",
+      "discriminating_evidence": "Source comparison and complete reader review establish the editorial judgment. Repeated representative labeled evaluations would be needed for claims about the model; authenticated process records would be needed for external authorship. This review does not equate score with writing quality."
+    },
+    {
+      "id": "RETAIN-P3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 504,
+          "end": 822,
+          "quote": "The reading itself was worthwhile to me even without evidence of a memory benefit. I'm reluctant to recommend the routine to everyone, though. My mornings were quiet during those weeks, and I didn't try it while travelling. Next month I want to try reading after dinner instead, although I haven't chosen a start date."
+        }
+      ],
+      "observation": "Reading worthwhile without memory evidence, reluctance to recommend universally, quiet mornings, no travel trial, next-month after-dinner desire and no selected start date remain. Each sentence has a distinct role.",
+      "interpretation": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here.",
+      "human_alternative": "Genre conventions and careful human editing can produce this same language. The absence of a defect is not a human-authorship verdict.",
+      "discriminating_evidence": "Source comparison and complete reader review establish the editorial judgment. Repeated representative labeled evaluations would be needed for claims about the model; authenticated process records would be needed for external authorship. This review does not equate score with writing quality."
+    },
+    {
+      "id": "HISTORY",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "strong",
+      "spans": [
+        {
+          "start": 0,
+          "end": 270,
+          "quote": "For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read. By the end, I could recall the plots of three novels. But I hadn't tested my memory before the experiment, so I can't tell whether my recall improved."
+        }
+      ],
+      "observation": "The supplied experiment identifies an AI-authored synthetic source followed by AI rewriting. The inherited writer record and current revision preserve that history.",
+      "interpretation": "A classifier Human score cannot change that known supplied origin or authenticate a transaction or lived event.",
+      "human_alternative": "A human could write similar prose; stylistic resemblance does not override the supplied history.",
+      "discriminating_evidence": "Source comparison and complete reader review establish the editorial judgment. Repeated representative labeled evaluations would be needed for claims about the model; authenticated process records would be needed for external authorship. This review does not equate score with writing quality.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\inherited-history-review.json; immutable source and inherited writer record; parent revision history."
+    },
+    {
+      "id": "MODEL-SENSITIVITY",
+      "basis": "local_occlusion",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 270,
+          "quote": "For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read. By the end, I could recall the plots of three novels. But I hadn't tested my memory before the experiment, so I can't tell whether my recall improved."
+        },
+        {
+          "start": 272,
+          "end": 502,
+          "quote": "What changed was simpler: I stopped interrupting a chapter to check messages. I liked that. I still checked my phone as soon as I finished. I didn't keep to the routine every morning: on two mornings, I skipped reading altogether."
+        },
+        {
+          "start": 504,
+          "end": 822,
+          "quote": "The reading itself was worthwhile to me even without evidence of a memory benefit. I'm reluctant to recommend the routine to everyone, though. My mornings were quiet during those weeks, and I didn't try it while travelling. Next month I want to try reading after dinner instead, although I haven't chosen a start date."
+        }
+      ],
+      "observation": "P1: baseline 99.978806215%, after deletion 99.858416372%, delta +0.120389843 percentage points; P2: baseline 99.978806215%, after deletion 99.938863382%, delta +0.039942833 percentage points; P3: baseline 99.978806215%, after deletion 98.371618241%, delta +1.607187974 percentage points. P3 has the largest absolute sensitivity in this run. Every paragraph was examined in context. The source-required memory uncertainty, observations, personal value, limits and tentative next step each still serve distinct roles; the sensitivity supplies no new editorial defect or permission to remove them.",
+      "interpretation": "These are actual paragraph-deletion score changes on this exact candidate. Deletion changes context and length; deltas are not paragraph authorship probabilities or causal feature explanations. Old and new paragraphs are not identical ablations, so delta changes do not isolate the effects of a particular edit.",
+      "human_alternative": "Human texts can show the same sensitivity, and the experimental checkpoint produced high-confidence human false positives in the saved 36-document pilot.",
+      "discriminating_evidence": "Source comparison and complete reader review establish the editorial judgment. Repeated representative labeled evaluations would be needed for claims about the model; authenticated process records would be needed for external authorship. This review does not equate score with writing quality.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\reading-reflection\\round-2-score\\model-result.json; occlusion.paragraphs; pinned one-window English inference; raw result SHA256 b72ef3d954a2dd30f71d8466c12ac78c07ee1864e37ae81c6b91b40b0c0ed175"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "All routine and memory-evidence facts remain: eight weeks, chapter in morning before phone, memory expectation, three novel plots recalled, no pretest and improvement unknown. Post-score contextual recheck finds no new issue; native sensitivity is reported separately.",
+      "finding_ids": [
+        "RETAIN-P1",
+        "HISTORY",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Simpler observed interruption benefit, liking, phone immediately after, two skipped mornings and non-perfect adherence all retained. Short consecutive first-person statements suit restrained reflection; the new logical relations are clear and need no forced variation. Post-score contextual recheck finds no new issue; native sensitivity is reported separately.",
+      "finding_ids": [
+        "R1-UNSUPPORTED-CONNECTIVE-RESOLUTION",
+        "R2-MODEST-BENEFIT-FRAMING-RESOLUTION",
+        "RETAIN-P2",
+        "MODEL-SENSITIVITY"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Reading worthwhile without memory evidence, reluctance to recommend universally, quiet mornings, no travel trial, next-month after-dinner desire and no selected start date remain. Each sentence has a distinct role. Post-score contextual recheck finds no new issue; native sensitivity is reported separately.",
+      "finding_ids": [
+        "RETAIN-P3",
+        "MODEL-SENSITIVITY"
+      ]
+    }
+  ]
+}

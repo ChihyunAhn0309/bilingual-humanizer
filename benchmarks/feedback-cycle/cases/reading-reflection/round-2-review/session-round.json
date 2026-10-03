@@ -1,0 +1,89 @@
+{
+  "candidate_sha256": "6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f",
+  "fidelity": {
+    "source_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+    "eligible": true,
+    "reason": "Every immutable-source fact, condition, uncertainty and speech act checked before scoring and in the current whole-document post-score review. No omission or unsupported addition."
+  },
+  "reader": {
+    "eligible": true,
+    "reason": "The modest first-person voice and three-part progression remain. P2 now distinguishes observations cleanly. I liked that. is short but purposeful; the following first-person sentences do not create a consequential rhythm problem. No new detail, stronger result or future commitment was introduced. All accepted round-1 issues resolved; no new justified repair."
+  },
+  "triage": [
+    {
+      "finding_id": "R1-UNSUPPORTED-CONNECTIVE-RESOLUTION",
+      "decision": "retain",
+      "reason": "The accepted prior editorial issue is resolved on the exact current text, independently of whether its native Human output rose or fell. All source constraints were checked again."
+    },
+    {
+      "finding_id": "R2-MODEST-BENEFIT-FRAMING-RESOLUTION",
+      "decision": "retain",
+      "reason": "The accepted prior editorial issue is resolved on the exact current text, independently of whether its native Human output rose or fell. All source constraints were checked again."
+    },
+    {
+      "finding_id": "RETAIN-P1",
+      "decision": "retain",
+      "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+    },
+    {
+      "finding_id": "RETAIN-P2",
+      "decision": "retain",
+      "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+    },
+    {
+      "finding_id": "RETAIN-P3",
+      "decision": "retain",
+      "reason": "This current paragraph was read in the complete source and candidate context. No new consequential fidelity, logic, voice or comprehension issue warrants a repair here."
+    },
+    {
+      "finding_id": "HISTORY",
+      "decision": "retain",
+      "reason": "A classifier Human score cannot change that known supplied origin or authenticate a transaction or lived event."
+    },
+    {
+      "finding_id": "MODEL-SENSITIVITY",
+      "decision": "retain",
+      "reason": "These are actual paragraph-deletion score changes on this exact candidate. Deletion changes context and length; deltas are not paragraph authorship probabilities or causal feature explanations. Old and new paragraphs are not identical ablations, so delta changes do not isolate the effects of a particular edit."
+    }
+  ],
+  "followup": [
+    {
+      "parent_round": "r1",
+      "finding_id": "R1-UNSUPPORTED-CONNECTIVE",
+      "before": {
+        "start": 364,
+        "end": 533,
+        "quote": "I liked that, although I still checked my phone as soon as I finished. I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether."
+      },
+      "after": {
+        "start": 350,
+        "end": 502,
+        "quote": "I liked that. I still checked my phone as soon as I finished. I didn't keep to the routine every morning: on two mornings, I skipped reading altogether."
+      },
+      "status": "resolved",
+      "finding_ids": [],
+      "reason": "Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective.",
+      "resolution_evidence_finding": "R1-UNSUPPORTED-CONNECTIVE-RESOLUTION"
+    },
+    {
+      "parent_round": "r1",
+      "finding_id": "R2-MODEST-BENEFIT-FRAMING",
+      "before": {
+        "start": 272,
+        "end": 363,
+        "quote": "The change I noticed was in how I read: I stopped interrupting a chapter to check messages."
+      },
+      "after": {
+        "start": 272,
+        "end": 349,
+        "quote": "What changed was simpler: I stopped interrupting a chapter to check messages."
+      },
+      "status": "resolved",
+      "finding_ids": [],
+      "reason": "The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim.",
+      "resolution_evidence_finding": "R2-MODEST-BENEFIT-FRAMING-RESOLUTION"
+    }
+  ],
+  "improvement": true,
+  "improvement_reason": "Accepted round-1 audience/coherence repairs resolved with source fidelity. Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective. The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim. Reader judgment is independent of native score movement."
+}

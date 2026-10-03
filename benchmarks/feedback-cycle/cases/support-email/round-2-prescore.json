@@ -1,0 +1,135 @@
+{
+  "review_type": "independent_pre_score_fidelity_and_reader_review",
+  "reviewed_at_utc": "2026-10-03T09:43:21.316697+00:00",
+  "case": "support-email",
+  "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\round-2.txt",
+  "candidate_sha256": "badf900d9b49f594b6e044382381fc297708e2fbea070ef60b6516791677aabe",
+  "source_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\source.txt",
+  "source_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+  "round_2_measurement_seen": false,
+  "new_inference_runs": 0,
+  "eligible_for_scoring": true,
+  "necessary_repairs": [],
+  "new_findings": [],
+  "fidelity": "pass",
+  "provenance": "AI-authored synthetic source plus AI rewrite; text review does not authenticate real events",
+  "historical_reconstruction_scope": "Retrospective mapping made now from preserved texts and inherited records. No past automatic loop or independent resolution review is asserted.",
+  "prior_resolutions": [
+    {
+      "finding_id": "S1-ACKNOWLEDGEMENT-ORDER",
+      "status": "resolved",
+      "evidence": "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you.",
+      "assessment": "Acknowledgement and apology now occur in opening body paragraph P2, before refund restrictions and conditional timing. Follow-up stays at the end."
+    },
+    {
+      "finding_id": "S2-REPEATED-SCOPE",
+      "status": "resolved",
+      "evidence": "This morning I requested a refund of the duplicate £36 payment. The payment team hasn't approved it yet. The request covers only that duplicate payment; I can't cancel the first payment because the order has already shipped.",
+      "assessment": "The amount appears once. The short backward reference preserves the essential only-duplicate limitation and relates it to the first-payment exception in one paragraph. Remaining repetition of request/duplicate is useful disambiguation, not a new defect."
+    }
+  ],
+  "paragraphs": [
+    [
+      "P1",
+      "Greeting names Morgan; unchanged function."
+    ],
+    [
+      "P2",
+      "Completed check of R-214 and confirmed second payment on 18 September are retained; thanks, acknowledgment of frustration and apology for extra work all remain. Early empathy resolves S1."
+    ],
+    [
+      "P3",
+      "This-morning refund request, duplicate £36, pending payment-team approval, only-duplicate scope and inability to cancel first payment because shipped are explicit. These are distinct conditions; new organization is coherent."
+    ],
+    [
+      "P4",
+      "Approval prerequisite, original card, five working days as estimate, explicit no guarantee and no additional form while pending all retained."
+    ],
+    [
+      "P5",
+      "Firm email promise by Friday 3 p.m. even without decision; if missing, reply to same email with order number. All scope and speech acts retained."
+    ],
+    [
+      "P6",
+      "Courteous sign-off names Alex."
+    ]
+  ],
+  "constraint_checks": [
+    [
+      "identity",
+      "Morgan recipient, Alex sender",
+      "P1/P6"
+    ],
+    [
+      "confirmation",
+      "Order R-214 checked; second payment taken 18 September confirmed",
+      "P2"
+    ],
+    [
+      "request",
+      "Refund request for duplicate £36 submitted this morning; not yet approved by payment team",
+      "P3"
+    ],
+    [
+      "courtesy",
+      "Thanks for patience, understands why two charges would frustrate, apology for caused extra work",
+      "P2"
+    ],
+    [
+      "arrival",
+      "If approved, original card within five working days; estimate, not guaranteed date",
+      "P4"
+    ],
+    [
+      "form",
+      "No additional form while pending",
+      "P4"
+    ],
+    [
+      "follow_up",
+      "Email by 3 p.m. Friday even if no decision; reply with order number if update missing",
+      "P5"
+    ],
+    [
+      "scope",
+      "First payment cannot be cancelled because order already shipped; only duplicate payment in refund request",
+      "P3"
+    ]
+  ],
+  "reader_assessment": "Clear support sequence: acknowledgement/confirmation, status and scope, conditional arrival/customer action, then follow-up. Professional warmth is preserved. The semicolon in P3 relates the scope and exception naturally; no artificial fragment, new promise or extraneous flourish appears.",
+  "history_mapping": [
+    {
+      "source_finding_id": "S4",
+      "source_triage_id": "R1",
+      "source_action": "Move first-payment/shipped explanation and duplicate-only scope next to request status; end with promised update and fallback.",
+      "round_1_retrospective_status": "implemented; target organization achieved",
+      "basis": "Inherited writer record says applied; direct source vs experimental.txt comparison confirms scope in P3 after status and before P4 timing/P5 follow-up.",
+      "relationship_to_current_ids": "Do not carry S4 as still unresolved. Record S2-REPEATED-SCOPE separately as a new adjacent repetition after relocation; round 2 resolves it."
+    },
+    {
+      "source_finding_id": "S2",
+      "source_triage_id": "R2",
+      "source_action": "Optional selective courtesy tightening while preserving acknowledgement and apology.",
+      "round_1_retrospective_status": "selectively implemented; optional courtesy retained as functional",
+      "basis": "Inherited writer record explicitly kept all courtesy speech acts and used contractions, moving apology to last body paragraph. Current comparison confirms this.",
+      "relationship_to_current_ids": "S1-ACKNOWLEDGEMENT-ORDER is a new round-1 audience/sequence tradeoff from that relocation, not proof that the original source S2 remained unaddressed. Round 2 resolves it by early acknowledgement without losing courtesy."
+    }
+  ],
+  "inherited_revision_record": "Support writer explicitly reports one complete initial candidate and no post-draft revision cycle.",
+  "revision_budget": {
+    "max_post_draft_revisions": 3,
+    "prior_revisions_used": 0,
+    "current_round_2_revision_uses": 1,
+    "revisions_used_after_round_2": 1,
+    "remaining_after_round_2": 2,
+    "evidence": {
+      "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\feedback-cycle\\cases\\support-email\\inherited-writer-review.md",
+      "text_sha256": "9c9a09ccf699d1554f2b6fca2a9edf3cc315848a44f6078400235aa91a842eab",
+      "start": 3325,
+      "end": 3386,
+      "quote": "One initial complete candidate; no post-draft revision cycle.",
+      "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+    },
+    "note": "The inherited pre-freeze fidelity repair counts toward the same three-revision limit. A new measurement phase does not reset that budget. Earlier complete pre-repair reflection candidate unavailable here; no invented full-text/hash for it."
+  }
+}

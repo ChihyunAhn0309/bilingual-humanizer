@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "status": "in_progress",
+  "stop_detail": "Accepted round-1 findings resolved in full post-score review. One explicitly requested composition alternative will be reviewed within the existing budget; earlier checkpoints preserved.",
+  "revision_limit": 3,
+  "revisions_used": 1,
+  "prior_revisions_used": 0,
+  "recorded_text_revisions": 1,
+  "prior_revision_note": "One initial complete candidate; no post-draft revision cycle. The inherited pre-freeze fidelity repair counts toward the same three-revision limit. A new measurement phase does not reset that budget. Earlier complete pre-repair reflection candidate unavailable here; no invented full-text/hash for it.",
+  "selected_candidate": {
+    "id": "r2",
+    "candidate": {
+      "path": "round-2.txt",
+      "sha256": "badf900d9b49f594b6e044382381fc297708e2fbea070ef60b6516791677aabe"
+    },
+    "human_percent": 0.0713048386387527,
+    "native_class_probabilities": {
+      "human": 0.000713048386387527,
+      "ai": 0.937963604927063,
+      "ai_edited": 0.00011166670446982607,
+      "humanized": 0.061211660504341125
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": true,
+    "declared_reader_improvement": true,
+    "human_change_percentage_points": -0.24275536416098475,
+    "improvement_reason": "Accepted round-1 audience/coherence repairs resolved with source fidelity. Acknowledgement and apology now occur in opening body paragraph P2, before refund restrictions and conditional timing. Follow-up stays at the end. The amount appears once. The short backward reference preserves the essential only-duplicate limitation and relates it to the first-payment exception in one paragraph. Remaining repetition of request/duplicate is useful disambiguation, not a new defect. Reader judgment is independent of native score movement."
+  },
+  "selection_basis": "highest_native_document_human",
+  "best_faithful_checkpoint": {
+    "id": "r1",
+    "candidate": {
+      "path": "round-1.txt",
+      "sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091"
+    },
+    "human_percent": 0.31406020279973745,
+    "native_class_probabilities": {
+      "human": 0.0031406020279973745,
+      "ai": 0.21059362590312958,
+      "ai_edited": 0.000247636140557006,
+      "humanized": 0.7860181331634521
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [
+      "S1-ACKNOWLEDGEMENT-ORDER",
+      "S2-REPEATED-SCOPE"
+    ],
+    "feedback_closed": false,
+    "is_revision": false,
+    "declared_reader_improvement": true,
+    "human_change_percentage_points": 0.3019399729964789,
+    "improvement_reason": "Inherited writer declared reader improvements from the accepted source actions: Relocate shipped-first-payment restriction and duplicate-only scope next to pending status, leaving contact instructions at the end. Lightly tighten only where useful; retain gratitude, frustration acknowledgment and apology. Current independent review nevertheless found new actionable issues; this declaration is not a score-based or final quality verdict."
+  },
+  "rounds": [
+    {
+      "id": "r0",
+      "candidate": {
+        "path": "source.txt",
+        "sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e"
+      },
+      "human_percent": 0.012120229803258553,
+      "native_class_probabilities": {
+        "human": 0.00012120229803258553,
+        "ai": 0.9928717017173767,
+        "ai_edited": 1.9343971871421672e-05,
+        "humanized": 0.006987790111452341
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [
+        "S2",
+        "S4"
+      ],
+      "feedback_closed": false,
+      "is_revision": false,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": null,
+      "improvement_reason": "Source baseline; no rewrite is asserted."
+    },
+    {
+      "id": "r1",
+      "candidate": {
+        "path": "round-1.txt",
+        "sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091"
+      },
+      "human_percent": 0.31406020279973745,
+      "native_class_probabilities": {
+        "human": 0.0031406020279973745,
+        "ai": 0.21059362590312958,
+        "ai_edited": 0.000247636140557006,
+        "humanized": 0.7860181331634521
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [
+        "S1-ACKNOWLEDGEMENT-ORDER",
+        "S2-REPEATED-SCOPE"
+      ],
+      "feedback_closed": false,
+      "is_revision": false,
+      "declared_reader_improvement": true,
+      "human_change_percentage_points": 0.3019399729964789,
+      "improvement_reason": "Inherited writer declared reader improvements from the accepted source actions: Relocate shipped-first-payment restriction and duplicate-only scope next to pending status, leaving contact instructions at the end. Lightly tighten only where useful; retain gratitude, frustration acknowledgment and apology. Current independent review nevertheless found new actionable issues; this declaration is not a score-based or final quality verdict."
+    },
+    {
+      "id": "r2",
+      "candidate": {
+        "path": "round-2.txt",
+        "sha256": "badf900d9b49f594b6e044382381fc297708e2fbea070ef60b6516791677aabe"
+      },
+      "human_percent": 0.0713048386387527,
+      "native_class_probabilities": {
+        "human": 0.000713048386387527,
+        "ai": 0.937963604927063,
+        "ai_edited": 0.00011166670446982607,
+        "humanized": 0.061211660504341125
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": true,
+      "declared_reader_improvement": true,
+      "human_change_percentage_points": -0.24275536416098475,
+      "improvement_reason": "Accepted round-1 audience/coherence repairs resolved with source fidelity. Acknowledgement and apology now occur in opening body paragraph P2, before refund restrictions and conditional timing. Follow-up stays at the end. The amount appears once. The short backward reference preserves the essential only-duplicate limitation and relates it to the first-payment exception in one paragraph. Remaining repetition of request/duplicate is useful disambiguation, not a new defect. Reader judgment is independent of native score movement."
+    }
+  ],
+  "current_open_findings": [],
+  "numeric_unavailable_rounds": [],
+  "validation_scope": "Saved records, exact hashes/spans, coverage, native values and followup links; not semantic truth, reviewer independence, execution authenticity or authorship."
+}

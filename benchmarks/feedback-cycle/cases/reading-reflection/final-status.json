@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "status": "budget",
+  "stop_detail": "All accepted r1 findings were resolved in r2. The final optional composition weakened expected to hoped and was rejected before scoring. Three revisions are used including the inherited repair; recover the highest-Human eligible closed r2 candidate and leave the rejected r3 finding visible. Native Human 50% target remains unmet.",
+  "revision_limit": 3,
+  "revisions_used": 3,
+  "prior_revisions_used": 1,
+  "recorded_text_revisions": 2,
+  "prior_revision_note": "One initial complete candidate plus one local fidelity repair. The first semantic pass found that `beforehand` could refer to the end-of-experiment recollection rather than the experiment's start; it was replaced with `before the experiment`. The inherited pre-freeze fidelity repair counts toward the same three-revision limit. A new measurement phase does not reset that budget. Earlier complete pre-repair reflection candidate unavailable here; no invented full-text/hash for it.",
+  "selected_candidate": {
+    "id": "r2",
+    "candidate": {
+      "path": "round-2.txt",
+      "sha256": "6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f"
+    },
+    "human_percent": 0.021193784778006375,
+    "native_class_probabilities": {
+      "human": 0.00021193784778006375,
+      "ai": 0.9989796280860901,
+      "ai_edited": 1.0040707820735406e-05,
+      "humanized": 0.0007984187686815858
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": true,
+    "declared_reader_improvement": true,
+    "human_change_percentage_points": 0.006320407555904239,
+    "improvement_reason": "Accepted round-1 audience/coherence repairs resolved with source fidelity. Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective. The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim. Reader judgment is independent of native score movement.",
+    "eligibility_review_round": "r2"
+  },
+  "selection_basis": "highest_native_document_human",
+  "best_faithful_checkpoint": {
+    "id": "r2",
+    "candidate": {
+      "path": "round-2.txt",
+      "sha256": "6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f"
+    },
+    "human_percent": 0.021193784778006375,
+    "native_class_probabilities": {
+      "human": 0.00021193784778006375,
+      "ai": 0.9989796280860901,
+      "ai_edited": 1.0040707820735406e-05,
+      "humanized": 0.0007984187686815858
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": true,
+    "declared_reader_improvement": true,
+    "human_change_percentage_points": 0.006320407555904239,
+    "improvement_reason": "Accepted round-1 audience/coherence repairs resolved with source fidelity. Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective. The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim. Reader judgment is independent of native score movement.",
+    "eligibility_review_round": "r2"
+  },
+  "rounds": [
+    {
+      "id": "r0",
+      "candidate": {
+        "path": "source.txt",
+        "sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498"
+      },
+      "human_percent": 0.0097576055850368,
+      "native_class_probabilities": {
+        "human": 9.757605585036799e-05,
+        "ai": 0.9992775321006775,
+        "ai_edited": 6.263084742386127e-06,
+        "humanized": 0.0006185798556543887
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [
+        "S2"
+      ],
+      "feedback_closed": false,
+      "is_revision": false,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": null,
+      "improvement_reason": "Source baseline; no rewrite is asserted."
+    },
+    {
+      "id": "r1",
+      "candidate": {
+        "path": "round-1.txt",
+        "sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8"
+      },
+      "human_percent": 0.014873377222102135,
+      "native_class_probabilities": {
+        "human": 0.00014873377222102135,
+        "ai": 0.9992535710334778,
+        "ai_edited": 6.948819645913318e-06,
+        "humanized": 0.000590697571169585
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [
+        "R1-UNSUPPORTED-CONNECTIVE",
+        "R2-MODEST-BENEFIT-FRAMING"
+      ],
+      "feedback_closed": false,
+      "is_revision": false,
+      "declared_reader_improvement": true,
+      "human_change_percentage_points": 0.005115771637065336,
+      "improvement_reason": "Inherited writer declared reader improvements from the accepted source actions: Integrate or shorten adherence summary while preserving two skipped mornings and inconsistent adherence. Current independent review nevertheless found new actionable issues; this declaration is not a score-based or final quality verdict."
+    },
+    {
+      "id": "r2",
+      "candidate": {
+        "path": "round-2.txt",
+        "sha256": "6544aeaa5d9b60ee7a1b2c6314e2f3868afed087e4f92867327d94f892aceb8f"
+      },
+      "human_percent": 0.021193784778006375,
+      "native_class_probabilities": {
+        "human": 0.00021193784778006375,
+        "ai": 0.9989796280860901,
+        "ai_edited": 1.0040707820735406e-05,
+        "humanized": 0.0007984187686815858
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": true,
+      "declared_reader_improvement": true,
+      "human_change_percentage_points": 0.006320407555904239,
+      "improvement_reason": "Accepted round-1 audience/coherence repairs resolved with source fidelity. Although and either are removed. Liking uninterrupted reading, continued compliant checking after reading, and two actual missed mornings are distinct, with no invented all-phone-use objective. The explicit modest/simpler comparison is restored and directly names the observation. It makes no additional measured cognitive or concentration claim. Reader judgment is independent of native score movement."
+    },
+    {
+      "id": "r3",
+      "candidate": {
+        "path": "round-3.txt",
+        "sha256": "8e0cc21b22fc44030b2af235c244ee8e79eb7399e8d31a79a865f8c6d52ce161"
+      },
+      "human_percent": null,
+      "native_class_probabilities": null,
+      "scope": "unavailable",
+      "fidelity_eligible": false,
+      "reader_eligible": true,
+      "open_findings": [
+        "R3-MEMORY-EXPECTATION"
+      ],
+      "feedback_closed": false,
+      "is_revision": true,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": null,
+      "improvement_reason": "Useful alternative composition with specific local reading benefits, but no clear defensible overall improvement over round 2. Fidelity also fails as written."
+    }
+  ],
+  "current_open_findings": [
+    {
+      "parent_round": "r3",
+      "finding_id": "R3-MEMORY-EXPECTATION"
+    }
+  ],
+  "numeric_unavailable_rounds": [
+    "r3"
+  ],
+  "validation_scope": "Saved records, exact hashes/spans, coverage, native values and followup links; not semantic truth, reviewer independence, execution authenticity or authorship."
+}
