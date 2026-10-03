@@ -1,0 +1,5 @@
+At 14:20 UTC on Tuesday, CSV exports began producing incomplete files for projects containing more than 10,000 records. Smaller projects were unaffected, and PDF exports remained available. To prevent customers from downloading partial data, we disabled CSV export at 14:47 and updated the status page at 15:05.
+
+We identified a pagination change released on Monday as the cause and rolled it back at 16:10. We then verified 25 affected projects; all 25 had complete row counts. CSV export was restored at 16:35. We have not established why the pre-release load test failed to detect the problem. By Friday, the platform team will add a test case exceeding 10,000 records and report whether the same coverage is needed for other paginated exports.
+
+No action is required unless you downloaded a CSV between 14:20 and 14:47. If you did, please export it again.

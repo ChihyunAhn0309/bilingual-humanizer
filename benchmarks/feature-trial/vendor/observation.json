@@ -1,0 +1,15 @@
+{
+  "vendor": "HIX Bypass",
+  "url": "https://hixbypass.com/humanize-ai",
+  "mode": "Latest",
+  "observed_at": "2026-10-03T03:39:21.394Z",
+  "access": "signed-out free trial, no account or payment",
+  "source_sha256": "e4bd41720c44885c1ac508de00ee02315f24d4a6c5d50b26a56d3f133e09a832",
+  "output_sha256": "1e677ad62c5021525d571de3da738b17426e189e8f38afd12947539a35c6e614",
+  "displayed_input_words": 148,
+  "displayed_output_words": 169,
+  "vendor_self_assessment": "The output content seems to be human-written.",
+  "independent_detector_score": null,
+  "status": "rejected_fidelity",
+  "reason": "Invented Oct 2023; changed PDF/unaffected scope; unresolved fault explanation no longer explicit."
+}

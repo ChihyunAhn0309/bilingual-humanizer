@@ -1,0 +1,70 @@
+heading Basic Scan, Value: 1
+							43 text Basic Scan
+						278 image
+						45 button Share
+							46 image
+							47 text Share
+						48 button Export
+							49 image
+							50 text Export
+					279 container
+						280 text This text is under 100 words
+						281 button Dismiss
+						282 text Your result may be less accurate.
+						283 image
+							284 text AI
+						285 image
+						286 text GPTZero AI Detection Model  4.1m We are highly confident this text was AI generated
+						287 text Chance this entire text is...
+						288 button AI 99%
+							289 text AI 99%
+							290 image
+						291 button Mixed 0%
+							292 text Mixed 0%
+							293 image
+						294 button Human 1%
+							295 text Human 1%
+							296 image
+						297 radio button 1
+						298 radio button 0
+						299 radio button 0
+						300 heading Your most AI sentences, Value: 6
+							301 text Your most AI sentences
+						302 content list
+							303 container
+								304 container Low impact
+									305 text High AI impact
+								306 container Medium impact
+									307 text High AI impact
+								308 container High impact
+									309 text High AI impact
+								310 text 참여하실 분은 금요일 오후 6시까지 단체 대화방 투표에 표시해 주세요.
+							311 container
+								312 container Low impact
+									313 text High AI impact
+								314 container Medium impact
+									315 text High AI impact
+								316 container High impact
+									317 text High AI impact
+								318 text 이번 주 토요일 오전 9시부터 11시까지 주민센터 뒤편 화단을 함께 정리하려고 합니다.
+						319 button See your most AI and human sentences
+							320 image
+							321 text See your most AI and human sentences
+							322 image
+						323 text What's next?
+						324 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs
+							325 image Paul Esau
+							326 image Wendy Snyder
+							327 text College Application feedback
+							328 image
+							329 text Reviewed by Emmy-Winners, Ivy League Profs
+							330 image
+						331 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							332 image
+							333 text Guidance for Teachers and reviewers
+					78 text Text up-to-date 346 characters • 86 words
+					79 button Re-scan
+						334 text Re-scan
+						335 image
+				82 container
+					336 

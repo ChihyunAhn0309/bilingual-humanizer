@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "method": "voice-anchor editing",
+  "production_release": "v1.5.1 (unchanged)",
+  "authorship_claim": false,
+  "documents": [
+    {
+      "document": "en-incident",
+      "path": "final/en-incident.txt",
+      "sha256": "c4c783248bdfc6c8f42da51365507c8fca15498779888bf7c36d95abda9770b2",
+      "gptzero": {
+        "status": "pending_no_authenticated_free_access",
+        "required_metric": "Human document probability",
+        "threshold": ">=50%",
+        "model": null,
+        "observed_at": null,
+        "receipt": null
+      },
+      "quillbot": {
+        "status": "pending_no_authenticated_free_access",
+        "required_metric": "Human-written text share",
+        "threshold": ">=50%",
+        "model": null,
+        "observed_at": null,
+        "receipt": null
+      }
+    },
+    {
+      "document": "en-letter",
+      "path": "final/en-letter.txt",
+      "sha256": "89a6690eb31474dbe18d75d9437e7aeb6ea85042682dd38ba7feabb7cb1e3c7b",
+      "gptzero": {
+        "status": "pending_no_authenticated_free_access",
+        "required_metric": "Human document probability",
+        "threshold": ">=50%",
+        "model": null,
+        "observed_at": null,
+        "receipt": null
+      },
+      "quillbot": {
+        "status": "pending_no_authenticated_free_access",
+        "required_metric": "Human-written text share",
+        "threshold": ">=50%",
+        "model": null,
+        "observed_at": null,
+        "receipt": null
+      }
+    },
+    {
+      "document": "ko-neighborhood",
+      "path": "final/ko-neighborhood.txt",
+      "sha256": "8d8b783634266185023a48a0bd0e1283e1ecfe7bcca4eb5c54b8e44986ebbbe7",
+      "gptzero": {
+        "status": "pending_no_authenticated_free_access",
+        "required_metric": "Human document probability",
+        "threshold": ">=50%",
+        "model": null,
+        "observed_at": null,
+        "receipt": null
+      },
+      "quillbot": {
+        "status": "pending_no_authenticated_free_access",
+        "required_metric": "Human-written text share",
+        "threshold": ">=50%",
+        "model": null,
+        "observed_at": null,
+        "receipt": null
+      }
+    },
+    {
+      "document": "ko-review",
+      "path": "final/ko-review.txt",
+      "sha256": "24aa7fa3e7249c549b6c9c65a9bc413e45de56cb1cc202d3ca425c97991398a1",
+      "gptzero": {
+        "status": "pending_no_authenticated_free_access",
+        "required_metric": "Human document probability",
+        "threshold": ">=50%",
+        "model": null,
+        "observed_at": null,
+        "receipt": null
+      },
+      "quillbot": {
+        "status": "pending_no_authenticated_free_access",
+        "required_metric": "Human-written text share",
+        "threshold": ">=50%",
+        "model": null,
+        "observed_at": null,
+        "receipt": null
+      }
+    }
+  ],
+  "note": "No commercial detector was opened or submitted in this Cloud task because no transferable authenticated free access was available. No score is inferred."
+}

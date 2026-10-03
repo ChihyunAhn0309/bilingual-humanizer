@@ -10,9 +10,17 @@ The default is active rewriting: reorganize paragraphs, recast sentences, preser
 
 [Editable PowerPoint](docs/assets/workflow.pptx) · [Design draft](docs/assets/composition-draft.png) · [Figure validation](docs/figure-evidence/render-review.md). The diagram was created using [JYS1025/paper-figure](https://github.com/JYS1025/paper-figure). External findings can inform another editorial review; that optional return path is described in the skill rather than drawn in this overview.
 
-## Latest continuation: retained release and checkpoints
+## Current release: v1.6.0
 
-Production remains **v1.5.1**, with all 22 skill files unchanged. [34 new commercial observations](benchmarks/renewal-trial/REPORT.md) tested source-sensitive editing, decision-document structure, and an independently applied v1.5.2 prototype. The requested **each-detector native Human >=50** target remains unmet. The prototype was not promoted. Two local HIP-model outputs were also generated on CPU and rejected for meaning changes before any detector submission.
+Public commercial features informed audience/register/scope controls, source-backed voice cues, and choosing local versus structural edits. An existing consolidation example now preserves both the review's duty to distinguish and the notice's duty to explain. No added review turns, paid service dependency, invented imperfections or detector guarantee. [Research and actual free trials](benchmarks/feature-trial/REPORT.md).
+
+Independent writing and review sessions found no actionable fidelity issue on two new cases. GPTZero Human was **16% → 98%** for a Korean notice and **0% → 0%** for an English memo. The Korean final was 98 words and triggered GPTZero's under-100-word accuracy warning; its source was 101 words, so the comparison crosses that warning boundary. QuillBot was unavailable after the free quota. This is one observed improvement against the source, not a v1.5.1 comparison or evidence of universal improvement. Previous exact checkpoints remain available.
+
+The completed [Cloud experiment and eight desktop checks](benchmarks/continuation-g/REPORT.md) scored GPTZero **0%, 0%, 1%, 6%** and QuillBot **100% on all four**. Korean inputs received a short-text warning. The metrics have different meanings and no candidate met both >=50 targets. All **166 external observations** are archived; vendor rewrite self-scores are excluded. [Independent review](benchmarks/feature-trial/independent-final-review.md).
+
+## Earlier continuation: v1.5.1 and exact checkpoints
+
+At that stage production remained **v1.5.1**, with all 22 skill files unchanged. [34 new commercial observations](benchmarks/renewal-trial/REPORT.md) tested source-sensitive editing, decision-document structure, and an independently applied v1.5.2 prototype. The requested **each-detector native Human >=50** target remains unmet. The prototype was not promoted. Two local HIP-model outputs were also generated on CPU and rejected for meaning changes before any detector submission.
 
 The [prior checkpoint registry](benchmarks/renewal-trial/checkpoint-registry.json) and [latest overrides](benchmarks/continuation-e/checkpoint-registry.json) retain exact candidates and their own evidence: Korean library **97% GPTZero Human / 30% QuillBot Human-written**; Korean essay **42% / 100%**; English support **0% / 83%**; English museum **0% / 100%**. These are different native metrics on four specific texts, not one authorship probability or a representative success rate. The museum's Sapling AI score is 91.3%; Korean ZeroGPT readings remain 100% AI. Some retained readings were observed earlier; the registries link their original timestamp and matching input hash. No cross-draft score merging occurs.
 
@@ -20,7 +28,7 @@ The [prior checkpoint registry](benchmarks/renewal-trial/checkpoint-registry.jso
 
 The prior release is recoverable from [its exact archived files](benchmarks/deeper-trial/retained-skill/). New challengers must preserve meaning and reader quality before replacing a checkpoint; missing checks and regressions do not overwrite it. [Prototype audit](benchmarks/renewal-trial/final-skill-audit.md) and [evidence audit](benchmarks/renewal-trial/final-evidence-audit.md) record the independent-context checks and their limitations.
 
-## Current release: v1.5.1
+## Previous release: v1.5.1
 
 This is a narrow fidelity and reporting fix, **not a demonstrated detector-performance breakthrough**. It explicitly preserves a document's review purpose and decision stage when rewriting an opening. The offline checker now supports strict `gt`/`lt`: exactly 50 does not pass a target of Human >50.
 
@@ -67,7 +75,7 @@ For requested detector checks, supply usable service access or existing reports.
 
 ## v1.5 measured outcome
 
-**Historical v1.5 decision:** a shorter reader-led instruction produced some development gains, but 17 further observations did not show an improvement on fresh topics; blind reader review also slightly preferred v1.5 on both fresh texts. The [additional experiment and retention decision](benchmarks/additional-trial/REPORT.md) disclose all outcomes. At that point production files were unchanged; that exact 20-file v1.5 snapshot is now archived with the experiment. The current v1.5.1 maintenance changes are described above.
+**Historical v1.5 decision:** a shorter reader-led instruction produced some development gains, but 17 further observations did not show an improvement on fresh topics; blind reader review also slightly preferred v1.5 on both fresh texts. The [additional experiment and retention decision](benchmarks/additional-trial/REPORT.md) disclose all outcomes. At that point production files were unchanged; that exact 20-file v1.5 snapshot is now archived with the experiment. The v1.5.1 maintenance changes are described above.
 
 The Korean technical development memo improved from 92% to 0% AI in QuillBot and from 100% to 79% AI in GPTZero. Other results worsened: the Korean library memo rose from 11% to 32% AI in GPTZero; the final English technical memo rose from 93% to 94.6% in Sapling and from 0% to 24% in QuillBot. **Broad detector acceptance has not been achieved.**
 

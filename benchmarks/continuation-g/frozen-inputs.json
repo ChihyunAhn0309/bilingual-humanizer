@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-10-03T02:40:37Z",
+  "note": "Timestamps record this task date, not an external notarization. Sources and candidates are AI-produced.",
+  "files": [
+    {
+      "path": "baseline/en-incident.txt",
+      "sha256": "eb7cf1cbeb8eedc1659c7196bc5e7c164bded22d12a9b28cde594c66879ffe98",
+      "bytes": 860
+    },
+    {
+      "path": "baseline/en-letter.txt",
+      "sha256": "c555cf9eb9a97512f38d2f76bbb34ca9e570a59ee2987660ef472341080764d9",
+      "bytes": 801
+    },
+    {
+      "path": "baseline/ko-neighborhood.txt",
+      "sha256": "91a1f2766bff86f60d86436833f4199cca33438ec4ac378ee1c2b196512092bc",
+      "bytes": 792
+    },
+    {
+      "path": "baseline/ko-review.txt",
+      "sha256": "0cb419a939ffc1f098ba6231cf1237a992c9786c875d5c92debcae4e009102a9",
+      "bytes": 873
+    },
+    {
+      "path": "challenger/en-incident.txt",
+      "sha256": "c4c783248bdfc6c8f42da51365507c8fca15498779888bf7c36d95abda9770b2",
+      "bytes": 848
+    },
+    {
+      "path": "challenger/en-letter.txt",
+      "sha256": "38ae3679a59703109c5301aaa0c54207252d8c673645f340d5482dced78a1dc7",
+      "bytes": 751
+    },
+    {
+      "path": "challenger/ko-neighborhood.txt",
+      "sha256": "6fb8da8fc7155ce9f838847cc6d12727c5ac4b8bf9278fc6cc39f4a49dcbd7ca",
+      "bytes": 834
+    },
+    {
+      "path": "challenger/ko-review.txt",
+      "sha256": "71b73732e2230c90abe6caeed9f1faa25fd6d023e4cd8565fc01c782fd8b4504",
+      "bytes": 824
+    },
+    {
+      "path": "drafts/en-incident-g-v1.txt",
+      "sha256": "668134eaa244beb1527ba0d2772809d6e2e65441838799c641d11b8a80427b7d",
+      "bytes": 839
+    },
+    {
+      "path": "final/en-incident.txt",
+      "sha256": "c4c783248bdfc6c8f42da51365507c8fca15498779888bf7c36d95abda9770b2",
+      "bytes": 848
+    },
+    {
+      "path": "final/en-letter.txt",
+      "sha256": "89a6690eb31474dbe18d75d9437e7aeb6ea85042682dd38ba7feabb7cb1e3c7b",
+      "bytes": 793
+    },
+    {
+      "path": "final/ko-neighborhood.txt",
+      "sha256": "8d8b783634266185023a48a0bd0e1283e1ecfe7bcca4eb5c54b8e44986ebbbe7",
+      "bytes": 840
+    },
+    {
+      "path": "final/ko-review.txt",
+      "sha256": "24aa7fa3e7249c549b6c9c65a9bc413e45de56cb1cc202d3ca425c97991398a1",
+      "bytes": 819
+    },
+    {
+      "path": "sources/en-incident.txt",
+      "sha256": "e4bd41720c44885c1ac508de00ee02315f24d4a6c5d50b26a56d3f133e09a832",
+      "bytes": 884
+    },
+    {
+      "path": "sources/en-letter.txt",
+      "sha256": "53025560430d7e6f3f70198b942956e399994f1dce32d0621d1e2596e3cddf38",
+      "bytes": 813
+    },
+    {
+      "path": "sources/ko-neighborhood.txt",
+      "sha256": "64d7295d800092a9b1050b5f2d43a7f8d5e7fca1cefe51d251eb18d520aab1e4",
+      "bytes": 879
+    },
+    {
+      "path": "sources/ko-review.txt",
+      "sha256": "6d4ba9c4a91aa77ef33e7bb13f3aca7945907983748cd6ed610b3c516a59d72b",
+      "bytes": 822
+    }
+  ]
+}

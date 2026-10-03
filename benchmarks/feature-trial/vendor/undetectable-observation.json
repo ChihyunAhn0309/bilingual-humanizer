@@ -1,0 +1,15 @@
+{
+  "vendor": "Undetectable AI",
+  "url": "https://undetectable.ai/ai-humanizer",
+  "mode": "Basic, General Writing, Undetectable toggle off",
+  "observed_at": "2026-10-03T03:41:24.895Z",
+  "access": "signed-out free basic mode, no account or payment",
+  "source_sha256": "64d7295d800092a9b1050b5f2d43a7f8d5e7fca1cefe51d251eb18d520aab1e4",
+  "output_sha256": "4f4206d6137dfbec169c86c949d1f80f72a315994a4e9eeff73bc467cfbd52af",
+  "displayed_output_words": 84,
+  "vendor_ai_score": 40,
+  "vendor_label": "Your text is written by AI",
+  "independent_detector_score": null,
+  "status": "reviewed_minor_fidelity_and_register_issues",
+  "review": "../independent-final-review.md"
+}

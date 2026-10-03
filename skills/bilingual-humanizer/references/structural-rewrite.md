@@ -19,7 +19,7 @@ Group genuinely repeated propositions. A single clear expression can cover sever
 
 Consolidate repeated instructions by comparing **actor / action / object / occasion / force**. If two instructions differ only by occasion, one statement can explicitly cover both occasions. If they differ by action or force, retain both verbs and their original modality while sharing the object. A repeated rationale can be expressed once with the instruction it supports. This is semantic consolidation, not permission to summarize away distinct points.
 
-For example, `The review must distinguish the temporary arrangement from permanent policy. The notice must also explain that distinction.` can become `Both the review and the notice must distinguish the temporary arrangement from permanent policy.` The two audiences and the obligation survive. Merely saying `The arrangement is temporary` loses both instructions.
+For example, `The review must distinguish the temporary arrangement from permanent policy. The notice must also explain that distinction.` can become `The review must distinguish the temporary arrangement from permanent policy, and the notice must explain the distinction.` The two different actions and their obligations survive. `Both must distinguish` loses the notice's duty to explain; merely saying `The arrangement is temporary` loses both instructions.
 
 For a short passage this map can be mental. For a dense, high-stakes or audited document record a source-to-candidate coverage table. Do not burden the normal output with it.
 

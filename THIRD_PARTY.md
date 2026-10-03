@@ -6,6 +6,8 @@ The diagram workflow used [JYS1025/paper-figure](https://github.com/JYS1025/pape
 
 Commercial detector names, interface screenshots and returned results belong to their respective providers. They are included as dated test evidence, not as endorsements, product assets under the repository's MIT license, or authorship certificates. Synthetic submitted text is part of this project's test corpus. References to papers and official documentation are links, not copies of those works.
 
+The 2026-10-03 commercial feature review links official QuillBot, Undetectable AI, WriteHuman, StealthWriter and HIX Bypass pages and the DAMAGE paper. Product descriptions are summarized, not implementations of undisclosed models. Two signed-out free rewrite outputs on our synthetic inputs are archived in `benchmarks/feature-trial/vendor/` for comparison; provider names, UI excerpts and returned output are evidence, not redistributed proprietary software. Unrelated page marketing was omitted from the public browser excerpts. No new account, paid trial, purchase or paid API was used.
+
 
 ## Local model probe, 2026-10-03
 

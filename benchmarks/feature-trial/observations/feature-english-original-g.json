@@ -1,0 +1,17 @@
+{
+  "id": "feature-english-original-g",
+  "vendor": "GPTZero",
+  "input_path": "forward/english-original.txt",
+  "input_sha256": "cc27de30a484660282879cdf364dd038bcdac05a0aa47c1eb439fa6154af9ded",
+  "submitted_sha256": "4bbdeded0e701e31cbb642ab14cbdc4ded673534b1c85106a223d8bf463ddb7e",
+  "observed_at": "2026-10-03T03:43:51.891Z",
+  "metric": "Human document probability",
+  "score": 0,
+  "model": "4o",
+  "receipt": "receipts/feature-english-original-g.txt",
+  "input_verified_in_dom": true,
+  "ai": 100,
+  "human": 0,
+  "mixed": 0,
+  "scan_type": "Basic"
+}

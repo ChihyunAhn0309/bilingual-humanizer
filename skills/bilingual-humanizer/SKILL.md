@@ -2,7 +2,7 @@
 name: bilingual-humanizer
 description: "Actively rewrite Korean, English, or mixed-language prose to sound natural while preserving meaning, evidence, and the writer's voice. Use for humanizing AI drafts, removing translationese or formulaic phrasing, restructuring documents, and matching supplied writing samples across general, business, academic, technical, and creative genres. Also explain supplied AI-detector results without certifying authorship."
 metadata:
-  version: "1.5.1"
+  version: "1.6.0"
 ---
 
 # Bilingual Humanizer
@@ -43,6 +43,8 @@ When an edit would require choosing among materially different readings, keep th
 
 For substantial active rewriting, read [structural-rewrite.md](references/structural-rewrite.md). Establish a short editorial brief, reduce the source to meaning and voice notes, consolidate repeated functions, then compose for the reader from those notes. The source remains the authority for the later fidelity check; its sentence order is not the drafting scaffold. This strengthens the drafting method without increasing the iteration budget.
 
+Use [editing-controls.md](references/editing-controls.md) to turn the brief into concrete choices: required reading knowledge, distance from the reader, source-backed voice cues, protected expressions, and where structural or local editing is useful. Infer these from the request and source rather than asking the user to configure a menu. Strong rewriting permits substantial change; it does not require replacing an already effective passage. For a passage with several plausible edits, compare a small number of local alternatives by meaning and reader effect before choosing one. Keep the existing review budget.
+
 Work toward a positive writing target: a recognizable purpose, a suitable distance from the reader, concrete predicates, and a progressing argument. Do not write a neutral compliance commentary around every source fact. Preserve a caution or recommendation at its original strength, but integrate its reason, scope and application instead of restating it in several safe-sounding sentences. Keep qualifications beside the claims they qualify and citations beside the claims they support.
 
 Remove reader-irrelevant chatbot wrappers, repeated previews, empty praise, unsupported rhetorical inflation, and generic conclusions when they do not carry the writer's stance. Do not replace a cliché with a milder cliché. Keep needed courtesy, safety emphasis, technical definitions, recurring terms, navigation, and genuine contrasts.
@@ -81,3 +83,5 @@ If the user asks for detector guarantees or proof of human authorship, explain o
 [research-sources.md](references/research-sources.md) records the upstream skills, selected ideas, rejected assumptions, and primary research. Detector descriptions were checked on 2026-10-02, with a focused GPTZero/QuillBot follow-up on 2026-10-03; refresh the particular vendor source when interpreting a current product result. [The expanded review](references/further-reference-review.md) separates prompt-level hypotheses from methods requiring trained models. None of the vendor scores, benchmark AUROCs, or community pattern counts validates this skill's performance.
 
 For future behavioral evaluation, use [evaluation.md](references/evaluation.md) and the synthetic cases under `evals/`. Keep naturalness, fidelity, and authorship assessment separate.
+
+[Commercial feature review](references/commercial-feature-review.md) distinguishes publicly documented product behavior from undisclosed models and unverified performance claims. These features inform editorial controls; they are not implementations of those vendors' models.

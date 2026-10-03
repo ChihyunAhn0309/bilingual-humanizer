@@ -1,0 +1,17 @@
+{
+  "id": "g-ko-neighborhood-q",
+  "vendor": "QuillBot",
+  "input_path": "final/ko-neighborhood.txt",
+  "input_sha256": "8d8b783634266185023a48a0bd0e1283e1ecfe7bcca4eb5c54b8e44986ebbbe7",
+  "submitted_sha256": "bf94d8fee3257d7c5e5ec8eecc3f433024202cd0d88b98f6a17451cd51ace55c",
+  "observed_at": "2026-10-03T03:37:39.351Z",
+  "metric": "Human-written text percentage",
+  "score": 100,
+  "model": "v6.2.1",
+  "receipt": "receipts/g-ko-neighborhood-q.txt",
+  "input_verified_in_dom": true,
+  "ai": 0,
+  "human": 100,
+  "refined": 0,
+  "remaining_scans": 1
+}

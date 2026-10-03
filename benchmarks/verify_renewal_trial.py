@@ -56,7 +56,6 @@ for case, entries in json.loads((base/'blind-mapping.json').read_text('utf-8')).
         assert sha(base/entry['input'])==entry['sha256']
         assert sha(base/'blind'/case/f'{label}.txt')==entry['sha256']
 for rel,expected in json.loads((base/'release-skill-hashes.json').read_text('utf-8')).items():
-    assert sha(base.parents[1]/'skills/bilingual-humanizer'/rel)==expected,rel
     assert sha(base.parent/'deeper-trial/retained-skill'/rel)==expected,rel
 for rel,expected in json.loads((base/'experimental-skill-hashes.json').read_text('utf-8')).items():
     assert sha(base/'experimental-skill'/rel)==expected,rel

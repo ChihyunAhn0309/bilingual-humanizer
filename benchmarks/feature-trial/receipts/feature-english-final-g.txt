@@ -1,0 +1,67 @@
+heading Basic Scan, Value: 1
+							43 text Basic Scan
+						476 image
+						45 button Share
+							46 image
+							47 text Share
+						48 button Export
+							49 image
+							50 text Export
+					477 container
+						478 image
+							479 text AI
+						480 image
+						481 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						482 text Chance this entire text is...
+						483 button AI 100%
+							484 text AI 100%
+							485 image
+						486 button Mixed 0%
+							487 text Mixed 0%
+							488 image
+						489 button Human 0%
+							490 text Human 0%
+							491 image
+						492 radio button 1
+						493 radio button 0
+						494 radio button 0
+						495 heading Your most AI sentences, Value: 6
+							496 text Your most AI sentences
+						497 content list
+							498 container
+								499 container Low impact
+									500 text High AI impact
+								501 container Medium impact
+									502 text High AI impact
+								503 container High impact
+									504 text High AI impact
+								505 text I found the shared index easier to use, though I still prefer the paper cards for tracing earlier descriptions.
+							506 container
+								507 container Low impact
+									508 text High AI impact
+								509 container Medium impact
+									510 text High AI impact
+								511 container High impact
+									512 text High AI impact
+								513 text Before extending the trial, the archive lead should check whether the volunteer rota can support it.
+						514 button See your most AI and human sentences
+							515 image
+							516 text See your most AI and human sentences
+							517 image
+						518 text What's next?
+						519 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs
+							520 image Paul Esau
+							521 image Wendy Snyder
+							522 text College Application feedback
+							523 image
+							524 text Reviewed by Emmy-Winners, Ivy League Profs
+							525 image
+						526 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							527 image
+							528 text Guidance for Teachers and reviewers
+					78 text Text up-to-date 831 characters • 135 words
+					79 button Re-scan
+						529 text Re-scan
+						530 image
+				82 container
+					531 

@@ -1,0 +1,67 @@
+heading Basic Scan, Value: 1
+							43 text Basic Scan
+						138 image
+						45 button Share
+							46 image
+							47 text Share
+						48 button Export
+							49 image
+							50 text Export
+					139 container
+						140 image
+							141 text AI
+						142 image
+						143 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						144 text Chance this entire text is...
+						145 button AI 100%
+							146 text AI 100%
+							147 image
+						148 button Mixed 0%
+							149 text Mixed 0%
+							150 image
+						151 button Human 0%
+							152 text Human 0%
+							153 image
+						154 radio button 1
+						155 radio button 0
+						156 radio button 0
+						157 heading Your most AI sentences, Value: 6
+							158 text Your most AI sentences
+						159 content list
+							160 container
+								161 container Low impact
+									162 text High AI impact
+								163 container Medium impact
+									164 text High AI impact
+								165 container High impact
+									166 text High AI impact
+								167 text Projects with more than 10,000 records received incomplete files; smaller projects were unaffected, and PDF exports kept working.
+							168 container
+								169 container Low impact
+									170 text High AI impact
+								171 container Medium impact
+									172 text High AI impact
+								173 container High impact
+									174 text High AI impact
+								175 text At 14:47 we switched off CSV export rather than let customers download partial data, and at 15:05 we updated the status page.
+						176 button See your most AI and human sentences
+							177 image
+							178 text See your most AI and human sentences
+							179 image
+						180 text What's next?
+						181 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs
+							182 image Paul Esau
+							183 image Wendy Snyder
+							184 text College Application feedback
+							185 image
+							186 text Reviewed by Emmy-Winners, Ivy League Profs
+							187 image
+						188 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							189 image
+							190 text Guidance for Teachers and reviewers
+					78 text Text up-to-date 845 characters • 140 words
+					79 button Re-scan
+						191 text Re-scan
+						192 image
+				82 container
+					193 

@@ -1,0 +1,17 @@
+{
+  "id": "g-en-letter-q",
+  "vendor": "QuillBot",
+  "input_path": "final/en-letter.txt",
+  "input_sha256": "89a6690eb31474dbe18d75d9437e7aeb6ea85042682dd38ba7feabb7cb1e3c7b",
+  "submitted_sha256": "a497aecea732bbc9cc99584dcd2e1ea5d5a83526727410312e3204a32ecb0278",
+  "observed_at": "2026-10-03T03:35:39.768Z",
+  "metric": "Human-written text percentage",
+  "score": 100,
+  "model": "v7.1.0",
+  "receipt": "receipts/g-en-letter-q.txt",
+  "input_verified_in_dom": true,
+  "ai": 0,
+  "human": 100,
+  "refined": 0,
+  "remaining_scans": 2
+}

@@ -1,0 +1,70 @@
+heading Basic Scan, Value: 1
+							43 text Basic Scan
+						349 image
+						45 button Share
+							46 image
+							47 text Share
+						48 button Export
+							49 image
+							50 text Export
+					350 container
+						351 text This text is under 100 words
+						352 button Dismiss
+						353 text Your result may be less accurate.
+						354 image
+							355 text AI
+						356 image
+						357 text GPTZero AI Detection Model  4.1m We are highly confident this text was AI generated
+						358 text Chance this entire text is...
+						359 button AI 91%
+							360 text AI 91%
+							361 image
+						362 button Mixed 3%
+							363 text Mixed 3%
+							364 image
+						365 button Human 6%
+							366 text Human 6%
+							367 image
+						368 radio button 1
+						369 radio button 0
+						370 radio button 0
+						371 heading Your most AI sentences, Value: 6
+							372 text Your most AI sentences
+						373 content list
+							374 container
+								375 container Low impact
+									376 text High AI impact
+								377 container Medium impact
+									378 text High AI impact
+								379 container High impact
+									380 text High AI impact
+								381 text 덕분에 선이 아니라 그 길을 다닌 사람을 보게 됐다.
+							382 container
+								383 container Low impact
+									384 text High AI impact
+								385 container Medium impact
+									386 text High AI impact
+								387 container High impact
+									388 text High AI impact
+								389 text 그래도 마지막 지도 앞에 의자를 둔 선택은 반가웠다.
+						390 button See your most AI and human sentences
+							391 image
+							392 text See your most AI and human sentences
+							393 image
+						394 text What's next?
+						395 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs
+							396 image Paul Esau
+							397 image Wendy Snyder
+							398 text College Application feedback
+							399 image
+							400 text Reviewed by Emmy-Winners, Ivy League Profs
+							401 image
+						402 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							403 image
+							404 text Guidance for Teachers and reviewers
+					78 text Text up-to-date 345 characters • 97 words
+					79 button Re-scan
+						405 text Re-scan
+						406 image
+				82 container
+					407 

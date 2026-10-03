@@ -1,0 +1,17 @@
+{
+  "id": "g-ko-review-q",
+  "vendor": "QuillBot",
+  "input_path": "final/ko-review.txt",
+  "input_sha256": "24aa7fa3e7249c549b6c9c65a9bc413e45de56cb1cc202d3ca425c97991398a1",
+  "submitted_sha256": "0a93cb9586b2a270a1d994dde6c5a63add1073cb8665aa071a7579d91a9230e7",
+  "observed_at": "2026-10-03T03:38:12.405Z",
+  "metric": "Human-written text percentage",
+  "score": 100,
+  "model": "v6.2.1",
+  "receipt": "receipts/g-ko-review-q.txt",
+  "input_verified_in_dom": true,
+  "ai": 0,
+  "human": 100,
+  "refined": 0,
+  "remaining_scans": 0
+}

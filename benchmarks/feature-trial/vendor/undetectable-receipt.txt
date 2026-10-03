@@ -1,0 +1,88 @@
+Public UI excerpt: input/output controls and displayed results only. Unrelated marketing sections omitted.
+
+Browser tab: 15, Title: "Humanize AI Text: Free AI Humanizer (Unlimited, No Signup)", URL: "https://undetectable.ai/ai-humanizer?abtv=172.2".
+1 AXWebArea Humanize AI Text: Free AI Humanizer (Unlimited, No Signup), URL: undetectable.ai/ai-humanizer
+	2 container
+		3 container Notifications Alt+T
+			484 container 2
+				485 container
+					486 text Success! Copied to Clipboard!
+				487 button Close notification
+		4 link Description: undetectable TM AI, Value: undetectable.ai/
+		5 content list
+			6 button Products, ID: nav-link-product-dropdown
+				7 text Products
+				8 image
+			9 link Description: AI Detector, Value: undetectable.ai/ai-detector, ID: nav-link-ai-detector
+			10 link Description: AI Humanizer, Value: undetectable.ai/ai-humanizer, ID: nav-link-ai-humanizer
+			11 link Description: PricingSALE, Value: undetectable.ai/pricing, ID: nav-link-pricing
+			12 link Description: Business Solutions, Value: undetectable.ai/business-solutions, ID: nav-link-business-solutions
+			13 link Description: API, Value: undetectable.ai/develop, ID: nav-link-develop
+			14 link Description: Earn, Value: undetectable.ai/earn, ID: nav-link-earn
+			15 combo box (collapsed) Description: Change Language, Value: EN EN, Secondary Actions: Expand
+				16 container
+					17 image EN
+					18 text EN
+			19 button Description: Sign in, ID: signIn
+			20 button Description: Start FREE Trial, ID: try-for-free-header
+		21 container Main Sidebar
+			456 container
+				457 link Description: Extension, Value: undetectable.ai/chrome-extension, ID: sidebar-chrome-extension
+				458 link Description: AI Detector, Value: undetectable.ai/ai-detector, ID: sidebar-ai-detector
+				459 link Description: AI Humanizer, Value: undetectable.ai/ai-humanizer, ID: sidebar-ai-humanizer
+				460 link Description: AI Image Detector, Value: undetectable.ai/ai-image-detector, ID: sidebar-ai-image-detector
+				461 link Description: AI Job Applier, Value: undetectable.ai/smart-applier, ID: sidebar-smart-applier
+				462 link Description: AI SEO Writer, Value: undetectable.ai/ai-seo-writer, ID: sidebar-ai-seo-writer
+				463 container More Menu Button
+					464 image
+					465 text More
+		32 container
+			33 image /assets/global-data/forbes.svg
+			34 text Rated #1 Best AI Detector by Forbes!
+			35 image /assets/global-data/buzz-feed.svg
+			36 text "Making AI-generated content more human-like"
+			37 image /assets/global-data/business-insider.svg
+			38 text "Unrivaled accuracy and writing styles!"
+		39 heading Advanced AI Humanizer: Humanize AI Text Instantly and Score as Human in Detectors, Value: 1
+			40 text Advanced AI Humanizer: Humanize AI Text Instantly and Score as Human in Detectors
+		41 button Basic
+		42 button Stealth
+		43 button General Writing
+		44 button Essay
+		45 button Article
+		46 button Marketing Material
+		47 button Story
+		48 button (collapsed) Description: More options, Secondary Actions: Expand
+			49 text More
+			50 image
+		51 container
+			52 text Undetectable
+			53 switch 0
+		449 container
+			450 button Clear text
+			466 text entry area (settable) Description: Input text, Value: 이번 주 토요일 오전 9시부터 11시까지 주민센터 뒤편 화단을 함께 정리하려고 합니다. 비가 많이 오면 행사는 다음 주 토요일 같은 시간으로 미룹니다. 참여하실 분은 금요일 오후 6시까지 단체 대화방 투표에 표시해 주세요. 장갑과 작은 삽은 각자 가져오셔야 하고, 쓰레기봉투는 주민회에서 준비합니다.
+
+지난번에는 시작할 때 구역을 나누지 않아 같은 곳에 사람이 몰렸습니다. 이번에는 도착한 순서대로 세 구역에 네 명씩 배정하겠습니다. 다만 어린이와 함께 오는 가정은 인원 계산에서 어린이를 빼고, 화단 가장자리의 잡초 뽑기만 맡아 주세요. 두 시간이 길게 느껴질 수 있지만, 꼭 끝까지 남으실 필요는 없습니다. 가능한 만큼만 손을 보태 주시면 됩니다.
+		55 container
+			56 text 272 Words
+		467 container
+			468 text 이번 주 토요일 오전 9시부터 11시까지 주민센터 뒤편 화단을  정리합니다.  비가 많이 오면 행사는 다음 주 토요일 같은 시간으로 미룹니다. 참여하실 분은 금요일 오후 6시까지 단체 대화방 투표에 표시해 주세요. 장갑과 작은 삽은 각자  가져오고,  쓰레기봉투는 주민회에서 준비합니다.
+
+지난번에는 구역을 나누지 않아 같은 곳에 사람이 몰렸습니다. 이번에는  도착  순서대로 세 구역에 네 명씩  배정합니다.  어린이와 함께 오는 가정은 인원 계산에서 어린이를  제외하고,  화단  가장자리  잡초 뽑기만 맡아 주세요. 두 시간이 길게 느껴질 수 있지만, 꼭 끝까지  남을  필요는 없습니다. 가능한 만큼만  도와  주시면 됩니다.
+		58 container
+			59 text 84 Words
+		469 button Copy to clipboard
+		470 button Switch to Undetectable
+		471 checkbox Description: Hide changed words, Value: 0
+		472 container
+			473 text 40 %
+			474 text AI / GPT
+		475 container
+			476 text Your text is written by AI
+		477 button Undetectable AI detector information
+		478 text Checked with the Undetectable AI detector Other Detectors
+		479 button Other detectors information
+		480 text Grammarly Quillbot GPTZero CopyLeaks ZeroGPT Originality
+		481 image Buzzfeed
+		482 container
+			483 text " Making AI-generated content more human-like "

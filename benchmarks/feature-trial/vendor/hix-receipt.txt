@@ -1,0 +1,95 @@
+Public UI excerpt: input/output controls and displayed results only. Unrelated marketing sections omitted.
+
+Browser tab: 14, Title: "Humanize AI & Get 99% Human Score Content | HIX Bypass", URL: "https://hixbypass.com/humanize-ai".
+0 AXWebArea Humanize AI & Get 99% Human Score Content | HIX Bypass, URL: hixbypass.com/humanize-ai
+	1 container
+		2 container app-body
+			3 container
+				4 link Description: HIX Bypass, Value: hixbypass.com/
+				5 link Description: Humanize AI, Value: hixbypass.com/humanize-ai
+				6 link Description: AI Detector, Value: hixbypass.com/ai-detector
+				7 text Supported Detectors
+				8 container
+					9 link Description: Originality.ai, Value: hixbypass.com/bypass-originality-ai
+					10 link Description: GPTZero, Value: hixbypass.com/bypass-gptzero
+					11 image Turnitin
+					12 link Description: Copyleaks, Value: hixbypass.com/bypass-copyleaks
+					13 link Description: ZeroGPT, Value: hixbypass.com/bypass-zerogpt
+					14 link Description: Content at Scale, Value: hixbypass.com/bypass-contentatscale-ai
+					15 link Description: Winston AI, Value: hixbypass.com/bypass-winston-ai
+					16 link Description: Sapling, Value: hixbypass.com/bypass-sapling
+					17 link Description: Writer, Value: hixbypass.com/bypass-writer
+					18 link Description: Scribbr, Value: hixbypass.com/bypass-scribbr
+					19 link Description: Crossplag, Value: hixbypass.com/bypass-crossplag
+					20 link Description: Quillbot, Value: hixbypass.com/bypass-quillbot-ai-detector
+				21 link Description: Resources, Value: hixbypass.com/hub
+				22 link Description: API, Value: hixbypass.com/developer
+				23 link Description: Pricing, Value: hixbypass.com/pricing
+				24 link Description: Login, Value: hixbypass.com/sign-in
+				25 link Description: Start for Free, Value: hixbypass.com/sign-up
+			26 container
+				342 container st-1
+					343 text 216
+					344 container
+						345 image facebook sharing button
+						346 text 130
+					347 container
+						348 image twitter sharing button
+						349 text 44
+					350 container
+						351 image linkedin sharing button
+						352 text 12
+					353 image sharethis sharing button
+					354 image arrow_left sharing button
+					370 text Shares
+				28 image Humanize AI Text with Our AI Humanizer
+				29 container
+					30 text HIX Bypass
+					31 heading Humanize AI Text to Get More Natural, Original Human Content, Value: 1
+						32 text Humanize AI Text to Get More Natural, Original Human Content
+					371 container bypassToolBoxId
+						372 container
+							373 text Your Content Usage tips
+							374 container
+								375 container At 14:20 UTC on Tuesday, the export service began returning incomplete CSV files for projects with more than 10,000 records. Projects below that threshold were not affected, and PDF exports continued to work. We disabled CSV export at 14:47 rather than risk customers downloading partial data. The status page was updated at 15:05.
+
+The team traced the issue to a pagination change released on Monday. We rolled that change back at 16:10, then checked 25 previously affected projects and found complete row counts in all 25. CSV export was restored at 16:35. We have not yet determined why the pre-release load test missed the fault. By Friday, the platform team will add a case above 10,000 records and will report whether other paginated exports need the same coverage. No customer action is required, but anyone who downloaded a CSV between 14:20 and 14:47 should export it again.
+									376 text At 14:20 UTC on Tuesday, the export service began returning incomplete CSV files for projects with more than 10,000 records. Projects below that threshold were not affected, and PDF exports continued to work. We disabled CSV export at 14:47 rather than risk customers downloading partial data. The status page was updated at 15:05.
+									377 text The team traced the issue to a pagination change released on Monday. We rolled that change back at 16:10, then checked 25 previously affected projects and found complete row counts in all 25. CSV export was restored at 16:35. We have not yet determined why the pre-release load test missed the fault. By Friday, the platform team will add a case above 10,000 records and will report whether other paginated exports need the same coverage. No customer action is required, but anyone who downloaded a CSV between 14:20 and 14:47 should export it again.
+							378 container
+								379 button Check for AI
+								380 text 148 Words Mode:
+								381 container
+									382 combo box (collapsed, settable) ID: rc_select_0, Secondary Actions: Expand
+									383 text Latest
+								384 button Humanize
+							385 container outputView
+								386 text Output
+								387 container
+									388 text The export service started returning incomplete CSV files for projects containing more than 10,000 records on Tuesday at 14:20 UTC. PDF exports continued to work for projects below that threshold (Oct 2023), and only projects above it were impacted. CSV export was disabled at 14:47 to avoid customers downloading incomplete data. Updated at 15:05 PM on the status page.
+									389 text The root of the problem was a pagination change introduced on Monday, the team traced. We rolled the change back at 16:10, then looked at 25 projects that had previously been affected and found full row counts in all. CSV export was restored at 16:35. So we still asked why the fault was not caught in the load test itself, as it happened pre-release. The platform team will add a case above 10,000 records by Friday and report back if any other paginated exports require this coverage. Customers do not need to take any action – but anyone who downloaded a CSV between 14:20 and 14:47 should export it again.
+									390 text 169 Words
+						391 container detectionResultView
+							392 text The output content seems to be human-written.
+							393 text Checking result:
+							394 content list
+								395 container
+									396 text GPTzero
+								397 container
+									398 image Copyleaks logo
+									399 text Copyleaks
+								400 container
+									401 image ZeroGPT logo
+									402 text ZeroGPT
+								403 container
+									404 text Crossplag
+								405 container
+									406 text Sapling
+								407 container
+									408 text Writer
+								409 container
+									410 text BrandWell
+							411 content list
+								412 text Human-written
+								413 text 50% Human-written
+								414 text AI-generated

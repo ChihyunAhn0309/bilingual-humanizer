@@ -75,3 +75,8 @@ if (BASE.parent/'renewal-trial/results.json').exists():
 if (BASE.parent/'continuation-e/results.json').exists():
     import runpy
     runpy.run_path(str(BASE.parent/'verify_continuation_e.py'),run_name='__main__')
+
+if (BASE.parent/'continuation-g/results.json').exists():
+    import runpy
+    runpy.run_path(str(BASE.parent/'verify_continuation_g.py'),run_name='__main__')
+    runpy.run_path(str(BASE.parent/'verify_current_observations.py'),run_name='__main__')

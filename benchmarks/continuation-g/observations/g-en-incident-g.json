@@ -1,0 +1,17 @@
+{
+  "id": "g-en-incident-g",
+  "vendor": "GPTZero",
+  "input_path": "final/en-incident.txt",
+  "input_sha256": "c4c783248bdfc6c8f42da51365507c8fca15498779888bf7c36d95abda9770b2",
+  "submitted_sha256": "a2c613c7afced092dc0ac7c8bc23ffba51fd213926f4da0a616ca02a99e26c19",
+  "observed_at": "2026-10-03T03:34:49.466Z",
+  "metric": "Human document probability",
+  "score": 0,
+  "model": "4o",
+  "receipt": "receipts/g-en-incident-g.txt",
+  "input_verified_in_dom": true,
+  "ai": 100,
+  "human": 0,
+  "mixed": 0,
+  "scan_type": "Basic"
+}
