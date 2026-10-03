@@ -1,0 +1,26 @@
+Archive candidate B — detector 전체 검토
+
+Human 0.6660% / AI 97.8809% / AI-edited 0.0644% / Humanized 1.3887%
+미보정 실험용 네 클래스 출력이며 작성 이력 확률·단어 비율이 아니다. 고득점 인간 글 오탐이 관찰된 모델이다. Humanized를 Human에 합치지 않는다. 알려진 이력은 AI 합성 재작성이다.
+
+REVISE: 추가로 고칠 독해 결함을 찾지 못했다.
+RETAIN P1: 카드 선호를 앞세우되 index 편의와 두 개인 판단의 강도를 보존한다.
+RETAIN P2: 범위→수치→보고 의무가 자연스럽고 각 한계·표본·지표를 유지한다.
+RETAIN P3: lead 점검·미승인·영구 미결정·review/public notice 의무가 구분된다.
+UNRESOLVED: 개인 기여를 먼저 듣는 독자인지 연장 조건을 먼저 찾는 독자인지에 따라 도입의 효용이 다르다.
+
+편집 선택: B는 유효한 참여자 관점 대안이지만 원문/EN1보다 전반적인 독해 개선은 확인하지 못했다. 연장 조건을 빨리 찾는 독자에게는 A가 더 직접적이다. 추가 재작성은 필요하지 않다.
+수치 기록용 checkpoint: B의 native Human은 A보다 +0.024353620%p 높다(A 0.641658530% / B 0.666012149%). 이는 실용적·편집적 개선이나 실제 인간 기여 증가의 근거가 아니다. B를 수치 기록용으로 남기는 결정과 편집 최종본 선택을 분리한다.
+
+삭제 민감도(기존 측정, 삭제 전→후):
+P1: 99.333988% → 65.904531%, delta +33.429457%p
+P2: 99.333988% → 98.626365%, delta +0.707623%p
+P3: 99.333988% → 35.925788%, delta +63.408200%p
+delta=삭제 전−후 percentage points. 문단의 AI 작성 확률·모델 내부 이유·문체 결함·삭제 권고가 아니다. 큰 차이도 필수 의미를 버리는 근거가 될 수 없다.
+
+모델 wasitaigeneratedcom/ai-text-detector-small, revision f1795c86806e6838d4afa33d0b1427f8430c9615
+측정 UTC 2026-10-03T07:33:24.315607+00:00, weight SHA256 4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087
+입력 SHA256 031c40b06e4933cf4bb57ebe608f6fdc513b05ae808b9b7a22fca1389493f487
+840 codepoints / 140 공백 단위 / 156 model tokens / 1창, 전체 토큰 측정.
+전체 3/3문단 검토, 제외·미검토 없음. input.txt는 candidate-b.txt와 scoring 입력의 정확한 snapshot이다. 후보·원문·모델 기록 변경 및 새 추론 없음.
+상세: ledger.json, validated.json, analysis.html.

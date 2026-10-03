@@ -1,0 +1,93 @@
+{
+  "status": "review_completed",
+  "input_sha256": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+  "native_class_probabilities": {
+    "human": 7.394120621029288e-05,
+    "ai": 0.9983372688293457,
+    "ai_edited": 1.30302059915266e-05,
+    "humanized": 0.001575786154717207
+  },
+  "authorship_verified": false,
+  "known_origin": "Parent confirmed newly generated wholly AI-authored synthetic evaluation source, not real user experience.",
+  "coverage": {
+    "reviewed": 4,
+    "total": 4,
+    "excluded": 0,
+    "not_reviewed": 0
+  },
+  "composition_experiment": {
+    "justified": true,
+    "scope": "Limited, optional comparison of process-instruction placement and abstract closing lesson. Not a mandatory full rewrite.",
+    "success_requires": "All supplied facts, uncertainties, deadlines, agency and checking duties preserved; actual readability improvement judged independently of detector numbers."
+  },
+  "revise": [
+    {
+      "id": "R1",
+      "finding_ids": [
+        "S1",
+        "S5"
+      ],
+      "priority": "low",
+      "locations": [
+        "P2 last sentence",
+        "P3 last sentence",
+        "P4 last sentence"
+      ],
+      "issue": "구체적 경험 뒤마다 확인·작성 원칙을 설명하고 결말에서 다시 일반적 교훈으로 추상화해 마무리가 다소 설명적으로 느껴질 수 있음.",
+      "editor_action": "제한적인 구성 실험에서 중복된 일반론과 절차 문장의 배치를 점검한다. P4의 일요일 시한은 유지하고, 각 한계와 확인 의무가 실제로 더 쉽게 구별되는지를 원문과 비교한다. 특정 문단을 삭제하라는 모델 권고가 아니다.",
+      "must_preserve": [
+        "P1의 단일 측정이라는 한계",
+        "P2의 평소 출입 시간 미확인 상태",
+        "P3의 대체 접근 경로 미확인과 발송 전 확인 의무",
+        "P4의 일요일까지 유용한 안내를 보내려는 의지"
+      ],
+      "human_alternative": "성찰문에서 배운 점을 명시하는 결말은 의도적일 수 있으므로 원문 유지도 정당한 선택이다.",
+      "success_criterion": "모든 고정 사실·불확실성·시점·의무가 보존되고, 반복 설명이 줄어 준비 상태를 더 쉽게 읽을 수 있을 때만 채택. 모델 수치 상승은 성공 기준 아님."
+    }
+  ],
+  "retain": [
+    {
+      "id": "K1",
+      "locations": [
+        "P1"
+      ],
+      "content": "친구의 일요일 방문 목적, 수요일 답사, 역→오래된 보행교, 20분 예상, 35분 한 번의 기록, 거리 이름 두 개 확인에 멈춘 영향, 두 번째 시간을 재지 않았다는 사실."
+    },
+    {
+      "id": "K2",
+      "locations": [
+        "P2"
+      ],
+      "content": "시장까지 지도 사용, 가판 뒤 경로와 방문 당시 잠긴 문, 상시 잠금/방문 시각 문제 구분 불가, 평소 출입 시간 미확인 상태로 관측을 기술하려는 요구."
+    },
+    {
+      "id": "K3",
+      "locations": [
+        "P3"
+      ],
+      "content": "조용한 강변 선호, 고르지 않은 포장, 휠체어 이용자에게 추천하기 망설임, 대체 접근 경로 미확인, 보내기 전 그 점을 확인할 의무. 실제 부적합 판정이나 적합 보장으로 강화하지 않음."
+    },
+    {
+      "id": "K4",
+      "locations": [
+        "P1",
+        "P4"
+      ],
+      "content": "1인칭 성찰 목소리와 일요일까지 유용한 안내를 보내려는 시한. 새 체험·주소·경로·접근성 결과를 추가하지 않음."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "U1",
+      "issue": "성찰 에세이인지 실제 친구에게 전달할 길 안내인지가 별도 외부 형식으로 지정되지 않음.",
+      "handling": "현재 문면은 안내를 준비하는 성찰문으로 읽는다. 그 범위 안에서 구성만 실험하고, 실제 경로 안내서로 전환하거나 방향·지명을 창작하지 않는다."
+    },
+    {
+      "id": "U2",
+      "issue": "평소 출입 시간과 접근 가능한 대체 경로는 원고 안에서 미확인.",
+      "handling": "이를 외부 조사로 채우는 과제가 아니므로 불확실성을 그대로 남긴다. 특히 발송 전 접근성 확인 의무를 단순 고려로 약화하지 않는다."
+    }
+  ],
+  "new_inference_runs": 0,
+  "source_edits": 0
+}

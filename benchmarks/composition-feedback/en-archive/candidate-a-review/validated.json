@@ -1,0 +1,321 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "c62bacb9b9f1f3a3520c0fdbffcd22da520f05ef7d4714c22dbe4b43479c1440",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Human 0.6417% / AI 98.4824% / AI-edited 0.0624% / Humanized 0.8136%. 보정되지 않은 실험용 영어 모델의 네 클래스 출력이며 작성 이력 확률·단어 비율이 아니다. 36개 영어 pilot에는 고득점 인간 글 오탐이 있었다. Humanized를 Human에 합치지 않는다. 전체 146 model tokens가 1창에서 측정됐고 AI 관여 보조 합산값은 99.3583%다. 알려진 이력은 AI 합성 재작성이다. 후보는 연장 조건→근거와 개인 평가→문서별 의무라는 사전 선언된 내부 메모 구성에 맞고, 세 문단에서 추가 수정할 독해 결함을 찾지 못했다. 큰 문단 삭제 민감도는 필요한 내용을 제거한 입력 반응이지 결함이나 삭제 제안이 아니다. 전체 3/3문단 검토, 제외·미검토 없음. 입력 snapshot은 candidate-a.txt 및 실제 scoring 입력과 byte-identical이며 새 추론·후보 수정 없음.",
+  "document_analysis": {
+    "structure": "brief의 Audience는 trial을 검토하고 report/review/public notice를 준비하는 동료다. P1은 영구 결정 부재와 pre-extension 조건, P2는 결과·제한·개인 평가, P3은 문서별 의무다. 연장 조건을 먼저 찾는 독자에게 유효한 배열이며, 과거 원문의 결과 우선 배열이 결함이었다고 소급해 주장하지 않는다.",
+    "reasoning_specificity": "June archive trial과 24건의 중앙값 18→11분, 최장 시간 미기록, 정리된 자료에 한정된 적용 범위가 유지된다. 개인의 ease/preference는 1인칭으로 구분된다. lead의 check와 rota approval status, 영구 결정 없음, 세 문서 의무가 서로 다른 내용으로 보존되어 보인다. 외부 현실 자료의 사실 인증은 아니다.",
+    "voice_consistency": "절제된 내부 메모 어조와 British catalogued/rota를 유지한다. we의 기록 누락과 I의 경험 평가가 구분되며 개인 감정·일화를 추가하지 않는다. 정량 결과 뒤 개인 평가 배치가 형식적으로 급격한 목소리 단절을 만들지 않는다.",
+    "rhythm_repetition": "각 문단은 세 문장으로 구성되지만 P1 조건, P2 근거, P3 조치라는 내용상 기능이 다르다. P3의 The trial report/The review/The public notice 반복은 의무 구분에 도움을 주는 병렬 구조다. 문장 수가 같다는 이유만으로 템플릿 결함이나 AI 흔적으로 판정하지 않는다.",
+    "language_features": "영어 산문을 직접 확인했다. 문법·연결·지시어가 자연스럽고 that distinction은 시범/영구 구분을 명확히 받는다. 미정리 자료의 성능이 확립되지 않았다는 문장이 실패 예측으로 강화되지 않는다. 점수 때문에 새로운 상투어·쉼표 문제를 만들어 내지 않았다.",
+    "citations_provenance": "상위 세션이 known synthetic AI rewrite라고 명시했고 독립 fidelity pass를 보고했다. 이번에는 후보·원문·사전 brief를 읽고 후보의 독해를 검토했다. 실제 집계자료·작성 로그의 독립 진위는 미검증이다. candidate-a-score의 model-result/feedback/execution은 성공 결과와 동일 hash를 보이며 현재 snapshot과 일치한다. 모델 추론이나 원고 편집을 수행하지 않았다."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "quote": "No decision has been made on a permanent service.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        },
+        {
+          "start": 50,
+          "end": 163,
+          "quote": "Before extending the June archive trial, the archive lead should check whether the volunteer rota can support it.",
+          "line": 1,
+          "column": 51,
+          "paragraph_ids": [
+            "P1"
+          ]
+        },
+        {
+          "start": 164,
+          "end": 199,
+          "quote": "The rota has not yet been approved.",
+          "line": 1,
+          "column": 165,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "P1(1행)은 영구 서비스 결정이 없다는 상태, 연장 전 archive lead의 rota 지원 가능성 점검, rota 미승인 상태를 먼저 묶는다. check와 approve는 서로 다른 상태·행위로 유지된다.",
+      "interpretation": "사전 작성된 brief의 독자인 연장을 검토하는 동료가 판단 조건을 먼저 찾을 수 있다. 결과 중심 원문과 다른 유효한 순서이며, 새로운 결함을 고쳤다고 주장하지 않는다. 업무 문서의 정상적인 조건 우선 구성이다.",
+      "human_alternative": "사람 작성자도 다음 결정을 내려야 하는 독자를 위해 조건과 승인 상태를 먼저 제시할 수 있다. 형식적인 어조는 작성자를 가르는 단서가 아니다.",
+      "discriminating_evidence": "실제 독자가 결과 파악보다 연장 의사결정을 먼저 하는지에 따라 선호 순서는 달라질 수 있다. 이 작업에서는 brief에 그 목적이 명시되어 있어 추가 수정할 이유를 찾지 못했다."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 201,
+          "end": 334,
+          "quote": "The trial reduced median lookup time from 18 minutes to 11 minutes across 24 requests, but we did not record the longest lookup time.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 335,
+          "end": 469,
+          "quote": "Because it covered only material already catalogued, the results do not establish how the system will work with uncatalogued material.",
+          "line": 3,
+          "column": 135,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "P2(3행)는 24건·중앙값 18→11분, we가 최장 시간을 기록하지 않았다는 제한, 정리된 자료만 포함한 범위와 미정리 자료로의 비일반화를 함께 둔다. June은 P1의 같은 trial에 연결되어 있다.",
+      "interpretation": "관측 결과와 적용 한계가 붙어 있어 내용 없는 일반론이라는 해석의 반대 근거다. AI도 이런 구체성을 생성할 수 있으므로 사람 작성 증명은 아니다. 이 문단의 큰 삭제 민감도가 문체 결함을 증명하지 않는다.",
+      "human_alternative": "실무자가 수치와 제한을 한 곳에 묶어 보고하는 것은 흔한 합리적 구성이다.",
+      "discriminating_evidence": "원 측정 자료와 비교 설계가 있어야 수치·인과 표현의 진위를 검증할 수 있다. 이 검토는 제공 원문과의 의미·독해를 다루며 실제 효과를 인증하지 않는다."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 470,
+          "end": 583,
+          "quote": "I found the shared index easier to use, although I still prefer the paper cards for tracing earlier descriptions.",
+          "line": 3,
+          "column": 270,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "P2 마지막 문장은 I found와 I still prefer로 개인의 사용 편의 평가와 특정 작업에서 종이 카드를 선호함을 구분한다. 앞의 we가 기록하지 못한 지표와 개인 의견의 주체가 섞이지 않는다.",
+      "interpretation": "측정 결과 뒤에 개인 평가를 붙였지만 1인칭 표지가 명확해 집계 결과와 개인 취향을 구별할 수 있다. 별도 문단으로 돌려야 할 혼동은 확인되지 않았다.",
+      "human_alternative": "보고에 참여한 사람이 정량 결과 다음에 자신이 관찰한 사용 경험을 붙일 수 있다. 알려진 합성 원고에서도 같은 효과를 구현할 수 있으므로 이 문장은 실제 체험의 증거가 아니다.",
+      "discriminating_evidence": "brief는 개인 기여를 포함한 내부 메모를 요구한다. 실제 기관 양식에서 주관 평가의 분리를 요구한다는 추가 조건은 제공되지 않았다."
+    },
+    {
+      "id": "S4",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 585,
+          "end": 670,
+          "quote": "The trial report should state that the change in median time is based on 24 requests.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        },
+        {
+          "start": 671,
+          "end": 745,
+          "quote": "The review must distinguish this temporary trial from a permanent service.",
+          "line": 5,
+          "column": 87,
+          "paragraph_ids": [
+            "P3"
+          ]
+        },
+        {
+          "start": 746,
+          "end": 794,
+          "quote": "The public notice must explain that distinction.",
+          "line": 5,
+          "column": 162,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "P3(5행)는 세 문장을 The trial report / The review / The public notice로 시작한다. 각각 24건 근거 명시(should), 시범/영구 구분(must), 그 구분 설명(must)이라는 다른 문서의 의무를 표현한다.",
+      "interpretation": "평행한 문장 구조가 있지만 독자가 문서별 할 일을 구별하는 데 기여한다. 기능적 반복이므로 AI 유사 단서나 불필요한 중복으로 단정하지 않는다. 읽는 데 걸리는 실제 문제를 찾지 못했다.",
+      "human_alternative": "사람도 책임·산출물이 다른 업무 요구를 병렬로 나열하여 빠짐없이 전달할 수 있다.",
+      "discriminating_evidence": "세 문서의 용도·독자가 실제로 다른지 확인할 수 있으나 원문과 brief에서 구분된 의무가 이미 주어졌다. 점수를 낮추려고 하나로 합치거나 삭제하면 내용이 손실될 수 있다."
+    },
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "quote": "No decision has been made on a permanent service.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "검토 의뢰는 이 후보를 알려진 synthetic AI rewrite라고 명시했다. 원문도 앞선 작업에서 합성 평가 표본으로 제공되었으며 후보 A는 그 전체 구성 대안이다. 인용은 입력 식별용이다.",
+      "interpretation": "알려진 AI 합성 재작성 이력을 유지한다. 모델 네 클래스 값을 실제 사람/AI의 기여율로 읽거나 Humanized를 Human에 합치지 않는다. 자연스러운 문체는 인간 작성 증명이 아니다.",
+      "human_alternative": "사람도 동일한 구성을 작성할 수 있지만 이번 후보에 제공된 생성 이력을 바꾸는 근거는 아니다.",
+      "discriminating_evidence": "완전한 생성·편집 기록의 독립 인증은 하지 않았다. 원문·후보·brief를 읽었고 입력 hash와 성공 측정 기록을 대조했다.",
+      "source_record": "상위 작업 지시의 known synthetic AI rewrite 및 candidate A independent fidelity pass 설명. ROOT/brief.md의 사전 선언한 Candidate A 경로와 ROOT/source.txt를 함께 검토. 별도 fidelity 판정 내용을 모델 증거로 취급하지 않음."
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 199,
+          "quote": "No decision has been made on a permanent service. Before extending the June archive trial, the archive lead should check whether the volunteer rota can support it. The rota has not yet been approved.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "P1 삭제 전 AI 관여 합산값 99.358341470361%, 삭제 후 99.724005884491%, 삭제 전−후 -0.365664414130 percentage points(%p).",
+      "interpretation": "음의 차이는 이 문단을 제거한 새 입력에서 합산 점수가 높아졌다는 뜻이다. 변화가 커도 해당 문단의 AI 작성 확률, 모델의 내부 이유, 문체 결함 또는 삭제 권고가 아니다. 삭제는 길이·맥락·자료와 의무의 구성을 함께 바꾼다. 각 삭제 실험을 더해서 문서 원인 비율로 계산하지 않는다.",
+      "human_alternative": "사람이 쓴 문단에서도 길이와 남은 문맥 변화 때문에 큰 점수 차이가 생길 수 있다. 판단 조건·결과·개인 평가·문서 의무를 버리는 것은 의미 손실이며 점수 개선으로 평가할 수 없다.",
+      "discriminating_evidence": "실제 작성 이력은 과정 증거로, 문체 적합성은 S 항목의 독해로 각각 판단한다. 독립 반복 자료 없이 삭제 민감도의 안정성·인과성을 주장하지 않는다. 이 세션에서는 새 추론을 실행하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-a-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P1]; baseline_ai_involvement=0.9935834147036076; after_removal_ai_involvement=0.9972400588449091; delta_percentage_points=-0.36566441413015127; 원문 146-token 단일 창을 각 문단 삭제 후 같은 모델로 측정한 기존 결과; measured_at_utc=2026-10-03T07:32:15.828840+00:00."
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 201,
+          "end": 583,
+          "quote": "The trial reduced median lookup time from 18 minutes to 11 minutes across 24 requests, but we did not record the longest lookup time. Because it covered only material already catalogued, the results do not establish how the system will work with uncatalogued material. I found the shared index easier to use, although I still prefer the paper cards for tracing earlier descriptions.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "P2 삭제 전 AI 관여 합산값 99.358341470361%, 삭제 후 6.816107034683%, 삭제 전−후 +92.542234435678 percentage points(%p).",
+      "interpretation": "양의 차이는 이 문단을 제거한 새 입력에서 합산 점수가 낮아졌다는 뜻이다. 변화가 커도 해당 문단의 AI 작성 확률, 모델의 내부 이유, 문체 결함 또는 삭제 권고가 아니다. 삭제는 길이·맥락·자료와 의무의 구성을 함께 바꾼다. 각 삭제 실험을 더해서 문서 원인 비율로 계산하지 않는다.",
+      "human_alternative": "사람이 쓴 문단에서도 길이와 남은 문맥 변화 때문에 큰 점수 차이가 생길 수 있다. 판단 조건·결과·개인 평가·문서 의무를 버리는 것은 의미 손실이며 점수 개선으로 평가할 수 없다.",
+      "discriminating_evidence": "실제 작성 이력은 과정 증거로, 문체 적합성은 S 항목의 독해로 각각 판단한다. 독립 반복 자료 없이 삭제 민감도의 안정성·인과성을 주장하지 않는다. 이 세션에서는 새 추론을 실행하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-a-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P2]; baseline_ai_involvement=0.9935834147036076; after_removal_ai_involvement=0.06816107034683228; delta_percentage_points=92.54223443567753; 원문 146-token 단일 창을 각 문단 삭제 후 같은 모델로 측정한 기존 결과; measured_at_utc=2026-10-03T07:32:15.828840+00:00."
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 585,
+          "end": 794,
+          "quote": "The trial report should state that the change in median time is based on 24 requests. The review must distinguish this temporary trial from a permanent service. The public notice must explain that distinction.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "P3 삭제 전 AI 관여 합산값 99.358341470361%, 삭제 후 40.534794330597%, 삭제 전−후 +58.823547139764 percentage points(%p).",
+      "interpretation": "양의 차이는 이 문단을 제거한 새 입력에서 합산 점수가 낮아졌다는 뜻이다. 변화가 커도 해당 문단의 AI 작성 확률, 모델의 내부 이유, 문체 결함 또는 삭제 권고가 아니다. 삭제는 길이·맥락·자료와 의무의 구성을 함께 바꾼다. 각 삭제 실험을 더해서 문서 원인 비율로 계산하지 않는다.",
+      "human_alternative": "사람이 쓴 문단에서도 길이와 남은 문맥 변화 때문에 큰 점수 차이가 생길 수 있다. 판단 조건·결과·개인 평가·문서 의무를 버리는 것은 의미 손실이며 점수 개선으로 평가할 수 없다.",
+      "discriminating_evidence": "실제 작성 이력은 과정 증거로, 문체 적합성은 S 항목의 독해로 각각 판단한다. 독립 반복 자료 없이 삭제 민감도의 안정성·인과성을 주장하지 않는다. 이 세션에서는 새 추론을 실행하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-a-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P3]; baseline_ai_involvement=0.9935834147036076; after_removal_ai_involvement=0.40534794330596924; delta_percentage_points=58.82354713976383; 원문 146-token 단일 창을 각 문단 삭제 후 같은 모델로 측정한 기존 결과; measured_at_utc=2026-10-03T07:32:15.828840+00:00."
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 199,
+      "line": 1,
+      "text": "No decision has been made on a permanent service. Before extending the June archive trial, the archive lead should check whether the volunteer rota can support it. The rota has not yet been approved.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "retain. 연장을 검토하는 독자에게 미결정 상태·인력 점검·미승인 상태를 먼저 제시한다. 확인/승인 행위가 혼동되지 않으며 새 수정 사유 없음. O1 음의 변화는 이 독해 평가와 별개다.",
+      "finding_ids": [
+        "S1",
+        "H1",
+        "O1"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 201,
+      "end": 583,
+      "line": 3,
+      "text": "The trial reduced median lookup time from 18 minutes to 11 minutes across 24 requests, but we did not record the longest lookup time. Because it covered only material already catalogued, the results do not establish how the system will work with uncatalogued material. I found the shared index easier to use, although I still prefer the paper cards for tracing earlier descriptions.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "retain. 정량 결과와 두 한계를 모으고 개인 평가를 명시적으로 붙인다. 큰 O2 민감도 때문에 이 필수 근거 문단을 결함으로 보거나 삭제하지 않는다.",
+      "finding_ids": [
+        "S2",
+        "S3",
+        "O2"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 585,
+      "end": 794,
+      "line": 5,
+      "text": "The trial report should state that the change in median time is based on 24 requests. The review must distinguish this temporary trial from a permanent service. The public notice must explain that distinction.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "retain. 세 문서의 서로 다른 의무를 읽기 쉽게 구분한다. 동일한 문장 시작은 기능적 병렬이며 추가 수정할 문제 없음. O3 민감도는 의무 제거의 모델 반응이다.",
+      "finding_ids": [
+        "S4",
+        "O3"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 3,
+    "paragraphs_reviewed": 3,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_local_model",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "measured_at_utc": "2026-10-03T07:32:15.828840+00:00",
+    "class_probabilities": {
+      "human": 0.006416585296392441,
+      "ai": 0.9848235845565796,
+      "ai_edited": 0.0006240382790565491,
+      "humanized": 0.008135831914842129
+    },
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "calibration": null,
+    "applicability_cautions": [],
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "language_scope": "English only; independently uncalibrated",
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  }
+}

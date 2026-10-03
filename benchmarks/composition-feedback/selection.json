@@ -1,0 +1,45 @@
+{
+  "release_version": "1.8.0",
+  "release_reason": "Promote a bounded, explicitly requested composition-comparison option with measured development gains; not universal detector acceptance. Keep the unchanged revision ceiling and source-fidelity gate.",
+  "selections": [
+    {
+      "case": "ko-library",
+      "selected_input": "ko-library/candidate-a.txt",
+      "editorial_input": "ko-library/candidate-a.txt",
+      "score_record": "benchmarks/composition-feedback/ko-library/candidate-a-score/feedback.json",
+      "reason": "Conditions-first route passes fidelity and offers a reader benefit; native local Human increased. Earlier commercial checkpoint is retained separately."
+    },
+    {
+      "case": "en-archive",
+      "selected_input": "en-archive/candidate-b.txt",
+      "editorial_input": "en-archive/candidate-a.txt",
+      "score_record": "benchmarks/composition-feedback/en-archive/candidate-b-score/feedback.json",
+      "reason": "Both alternatives pass fidelity. A better suits locating extension conditions; the slightly higher-scoring complete eligible text is retained separately. No practical or statistical significance is established."
+    },
+    {
+      "case": "fresh-en",
+      "selected_input": "fresh-en/candidate-a.txt",
+      "editorial_input": "fresh-en/source.txt",
+      "score_record": "benchmarks/composition-feedback/fresh-en/candidate-a-score/feedback.json",
+      "reason": "Fresh independent review accepts the alternative but finds a denser opening and weaker separation of reflection. Preserve the unhurried original as the editorial option; the best native-score eligible text remains separately identified."
+    }
+  ],
+  "revision_accounting": {
+    "en-archive": {
+      "prior_revisions": 1,
+      "new_complete_alternatives": 2,
+      "cumulative_revisions": 3
+    },
+    "ko-library": {
+      "prior_revisions": 2,
+      "new_complete_alternatives": 1,
+      "cumulative_revisions": 3
+    },
+    "fresh-en": {
+      "initial_complete_candidate": 1,
+      "revision_cycles": 0
+    },
+    "default_ceiling_increased": false,
+    "additional_paid_or_commercial_calls": 0
+  }
+}

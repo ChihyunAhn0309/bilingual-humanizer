@@ -1,0 +1,54 @@
+{
+  "status": "review_completed",
+  "input_sha256": "031c40b06e4933cf4bb57ebe608f6fdc513b05ae808b9b7a22fca1389493f487",
+  "native_class_probabilities": {
+    "human": 0.006660121493041515,
+    "ai": 0.9788092970848083,
+    "ai_edited": 0.0006439443095587194,
+    "humanized": 0.01388656534254551
+  },
+  "authorship_verified": false,
+  "known_origin": "Synthetic AI rewrite, supplied by parent session",
+  "coverage": {
+    "reviewed": 3,
+    "total": 3,
+    "excluded": 0,
+    "not_reviewed": 0
+  },
+  "revise": [],
+  "retain": [
+    {
+      "paragraph_id": "P1",
+      "reason": "카드 선호를 전면화한 참여자 관점 대안. index 편의와 특정 작업에서의 선호, I 주체·시제·강도 모두 유지."
+    },
+    {
+      "paragraph_id": "P2",
+      "reason": "범위→수치→보고 의무가 자연스럽고 모든 한계·표본·지표를 구분. 추가 문체 결함 없음."
+    },
+    {
+      "paragraph_id": "P3",
+      "reason": "lead 점검·미승인·영구 미결정·review/public notice 의무가 읽기 쉽게 연결됨. 콜론 문장도 의미를 보존."
+    }
+  ],
+  "unresolved": [
+    {
+      "issue": "개인 기여를 먼저 듣는 독자와 연장 조건을 먼저 찾는 독자 사이의 최종 우선순위.",
+      "handling": "사전 brief가 각각의 대안을 허용하므로 목적에 따라 편집본을 선택한다. 점수로 결정하지 않는다."
+    }
+  ],
+  "checkpoint_options": {
+    "editorial": {
+      "recommendation": "후보 B는 참여자 관점 우선 대안으로 유지 가능하나 원문/EN1보다 전반적 독해가 개선됐다고 확인하지 못했다. 연장 조건을 먼저 찾는 독자에게는 A의 조건 우선 배열이 더 직접적이다. 독자 목적에 따라 원문/EN1/A 중 편집본을 택할 수 있으며 B의 작은 수치 우위로 교체할 이유는 없다.",
+      "new_revision_required": false
+    },
+    "score_record_only": {
+      "label": "Among A and B, B has the higher native Human output; retain as numerical checkpoint only if useful.",
+      "candidate_a_native_human": 0.006416585296392441,
+      "candidate_b_native_human": 0.006660121493041515,
+      "difference_percentage_points": 0.024353619664907455,
+      "not_an_editorial_or_authorship_gain": true
+    }
+  },
+  "new_inference_runs": 0,
+  "candidate_edits": 0
+}

@@ -2,7 +2,7 @@
 name: bilingual-humanizer
 description: "Actively rewrite Korean, English, or mixed-language prose to sound natural while preserving meaning, evidence, and the writer's voice. Use for humanizing AI drafts, removing translationese or formulaic phrasing, restructuring documents, and matching supplied writing samples across general, business, academic, technical, and creative genres. When the local bilingual-ai-detector is installed, substantial rewriting starts with its evidence review and alternates feedback, revision and fidelity checks. Also explain detector results without certifying authorship."
 metadata:
-  version: "1.8.0"
+  version: "1.7.0"
 ---
 
 # Bilingual Humanizer
@@ -26,8 +26,6 @@ For rewriting, use the review loop in [iterative-review.md](references/iterative
 For substantial rewriting, check whether the trusted local `bilingual-ai-detector` skill is installed. If present, **default to detector-first feedback mode** unless the user requests editing without detection. Follow [local-detector-loop.md](references/local-detector-loop.md): read the detector skill, measure and review the unchanged source before drafting, triage exact-span findings, rewrite, check fidelity, then measure and review the complete candidate again. Reuse this mode across follow-up turns without repeatedly asking permission. Light edits and review-only requests keep their narrower scope; detection there is opt-in. Missing or repeatedly failing local inference does not block the editorial review or authorize a commercial fallback. A learned character contribution is not an editing instruction. Editing without the optional detector remains supported.
 
 For Korean prose read [korean.md](references/korean.md); for English prose read [english.md](references/english.md). Read both for substantial prose in both languages, not merely English product names within Korean sentences. Consult [genres-and-voice.md](references/genres-and-voice.md) when genre constraints or voice matching affect choices. Reuse references already read in the session.
-
-When the user explicitly requests stronger detector-oriented rewriting after ordinary feedback reaches a plateau, use [composition-variants.md](references/composition-variants.md) to compare a bounded number of source-grounded complete compositions within the same revision budget. Alternatives need a stated reader purpose and must pass fidelity and reader reviews before scoring; they are not corrections to invented defects. This explicitly requested comparison is an exception to stopping solely because no line-level defect remains.
 
 ## Preserve before changing
 

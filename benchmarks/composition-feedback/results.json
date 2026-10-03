@@ -1,0 +1,159 @@
+{
+  "detector_version": "3.1.2",
+  "release_version": "1.8.0",
+  "measurements": [
+    {
+      "language": "en",
+      "input_sha256": "c62bacb9b9f1f3a3520c0fdbffcd22da520f05ef7d4714c22dbe4b43479c1440",
+      "native_class_probabilities": {
+        "human": 0.006416585296392441,
+        "ai": 0.9848235845565796,
+        "ai_edited": 0.0006240382790565491,
+        "humanized": 0.008135831914842129
+      },
+      "human_percent": 0.6416585296392441,
+      "measured_at_utc": "2026-10-03T07:32:15.828840+00:00",
+      "scope": "whole_document",
+      "directory": "en-archive/candidate-a-score"
+    },
+    {
+      "language": "en",
+      "input_sha256": "031c40b06e4933cf4bb57ebe608f6fdc513b05ae808b9b7a22fca1389493f487",
+      "native_class_probabilities": {
+        "human": 0.006660121493041515,
+        "ai": 0.9788092970848083,
+        "ai_edited": 0.0006439443095587194,
+        "humanized": 0.01388656534254551
+      },
+      "human_percent": 0.6660121493041515,
+      "measured_at_utc": "2026-10-03T07:33:24.315607+00:00",
+      "scope": "whole_document",
+      "directory": "en-archive/candidate-b-score"
+    },
+    {
+      "language": "en",
+      "input_sha256": "22f7d6a8e6563d306b81d704b6343acef5d84a84a75aa276851b0224b6ee7014",
+      "native_class_probabilities": {
+        "human": 0.00023041819804348052,
+        "ai": 0.9852633476257324,
+        "ai_edited": 4.314089164836332e-05,
+        "humanized": 0.014463149942457676
+      },
+      "human_percent": 0.02304181980434805,
+      "measured_at_utc": "2026-10-03T07:37:01.130083+00:00",
+      "scope": "whole_document",
+      "directory": "fresh-en/candidate-a-score"
+    },
+    {
+      "language": "en",
+      "input_sha256": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+      "native_class_probabilities": {
+        "human": 7.394120621029288e-05,
+        "ai": 0.9983372688293457,
+        "ai_edited": 1.30302059915266e-05,
+        "humanized": 0.001575786154717207
+      },
+      "human_percent": 0.007394120621029288,
+      "measured_at_utc": "2026-10-03T07:25:36.324450+00:00",
+      "scope": "whole_document",
+      "directory": "fresh-en/source-score"
+    },
+    {
+      "language": "ko",
+      "input_sha256": "6612a212c67b6573cc78ef771ae5d3330574d2c5f955d872ea263d4974af0e14",
+      "native_class_probabilities": {
+        "human": 0.914627563992884,
+        "ai": 0.08537243600711591
+      },
+      "human_percent": 91.46275639928841,
+      "measured_at_utc": "2026-10-03T07:31:27.396785+00:00",
+      "scope": "whole_document",
+      "directory": "ko-library/candidate-a-score"
+    }
+  ],
+  "reviews": [
+    {
+      "input": "en-archive/candidate-a-score/input.txt",
+      "ledger": "en-archive/candidate-a-review/ledger.json",
+      "index": "en-archive/candidate-a-review/index.json",
+      "validated": "en-archive/candidate-a-review/validated.json"
+    },
+    {
+      "input": "en-archive/candidate-b-score/input.txt",
+      "ledger": "en-archive/candidate-b-review/ledger.json",
+      "index": "en-archive/candidate-b-review/index.json",
+      "validated": "en-archive/candidate-b-review/validated.json"
+    },
+    {
+      "input": "fresh-en/candidate-a-score/input.txt",
+      "ledger": "fresh-en/candidate-a-review/ledger.json",
+      "index": "fresh-en/candidate-a-review/index.json",
+      "validated": "fresh-en/candidate-a-review/validated.json"
+    },
+    {
+      "input": "fresh-en/source-score/input.txt",
+      "ledger": "fresh-en/source-review/ledger.json",
+      "index": "fresh-en/source-review/index.json",
+      "validated": "fresh-en/source-review/validated.json"
+    },
+    {
+      "input": "ko-library/candidate-a-score/input.txt",
+      "ledger": "ko-library/candidate-a-review/ledger.json",
+      "index": "ko-library/candidate-a-review/index.json",
+      "validated": "ko-library/candidate-a-review/validated.json"
+    }
+  ],
+  "selections": [
+    {
+      "case": "ko-library",
+      "selected_input": "ko-library/candidate-a.txt",
+      "editorial_input": "ko-library/candidate-a.txt",
+      "score_record": "benchmarks/composition-feedback/ko-library/candidate-a-score/feedback.json",
+      "reason": "Conditions-first route passes fidelity and offers a reader benefit; native local Human increased. Earlier commercial checkpoint is retained separately.",
+      "selected_sha256": "6612a212c67b6573cc78ef771ae5d3330574d2c5f955d872ea263d4974af0e14",
+      "human_percent": 91.46275639928841
+    },
+    {
+      "case": "en-archive",
+      "selected_input": "en-archive/candidate-b.txt",
+      "editorial_input": "en-archive/candidate-a.txt",
+      "score_record": "benchmarks/composition-feedback/en-archive/candidate-b-score/feedback.json",
+      "reason": "Both alternatives pass fidelity. A better suits locating extension conditions; the slightly higher-scoring complete eligible text is retained separately. No practical or statistical significance is established.",
+      "selected_sha256": "031c40b06e4933cf4bb57ebe608f6fdc513b05ae808b9b7a22fca1389493f487",
+      "human_percent": 0.6660121493041515
+    },
+    {
+      "case": "fresh-en",
+      "selected_input": "fresh-en/candidate-a.txt",
+      "editorial_input": "fresh-en/source.txt",
+      "score_record": "benchmarks/composition-feedback/fresh-en/candidate-a-score/feedback.json",
+      "reason": "Fresh independent review accepts the alternative but finds a denser opening and weaker separation of reflection. Preserve the unhurried original as the editorial option; the best native-score eligible text remains separately identified.",
+      "selected_sha256": "22f7d6a8e6563d306b81d704b6343acef5d84a84a75aa276851b0224b6ee7014",
+      "human_percent": 0.02304181980434805
+    }
+  ],
+  "revision_accounting": {
+    "en-archive": {
+      "prior_revisions": 1,
+      "new_complete_alternatives": 2,
+      "cumulative_revisions": 3
+    },
+    "ko-library": {
+      "prior_revisions": 2,
+      "new_complete_alternatives": 1,
+      "cumulative_revisions": 3
+    },
+    "fresh-en": {
+      "initial_complete_candidate": 1,
+      "revision_cycles": 0
+    },
+    "default_ceiling_increased": false,
+    "additional_paid_or_commercial_calls": 0
+  },
+  "external_detector_calls": 0,
+  "paid_actions": 0,
+  "authorship_verified": false,
+  "commercial_transfer_measured": false,
+  "statistical_cross_validation": false,
+  "all_selected_human_ge_50_targets_met": false
+}

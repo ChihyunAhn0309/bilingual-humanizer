@@ -10,7 +10,13 @@ The default is active rewriting: reorganize paragraphs, recast sentences, preser
 
 [Editable PowerPoint](docs/assets/workflow.pptx) · [Design draft](docs/assets/composition-draft.png) · [Figure validation](docs/figure-evidence/render-review.md). The diagram was created using [JYS1025/paper-figure](https://github.com/JYS1025/paper-figure). External findings can inform another editorial review; that optional return path is described in the skill rather than drawn in this overview.
 
-## Current release: v1.7.0
+## Current release: v1.8.0
+
+The repaired local detector **v3.1.2** is working. The skill now compares a bounded number of source-grounded complete compositions when stronger detector-oriented rewriting is explicitly requested, with source-fidelity and reader review before scoring. The revision ceiling is unchanged; the best faithful checkpoint is retained separately from editorial preference.
+
+Five new local measurements: Korean library Human **80.12% → 91.46%**; English archive previous-best **0.323% → 0.666%**; fresh English source/candidate **0.0074% → 0.0230%**. These native local class values do not establish human authorship; English remains below 50%. No new commercial transfer is claimed. [Full results, independent reviews and retained choices](benchmarks/composition-feedback/REPORT.md). The prior [v1.7.0 skill](benchmarks/composition-feedback/retained-skill/) and 179 commercial observations remain available.
+
+## Previous release: v1.7.0
 
 The user-authorized detector repair is now published as **v3.1.2**. Both English texts and the installed humanizer adapter ran successfully with unchanged model weights and score semantics. Native Human was **0.083% → 0.323%**, still below 50%. The 27 humanizer skill files are unchanged; the original failure receipts remain archived. [Successful runtime follow-up and actual scores](benchmarks/local-runtime-followup/REPORT.md).
 

@@ -1,0 +1,322 @@
+{
+  "text_sha256": "22f7d6a8e6563d306b81d704b6343acef5d84a84a75aa276851b0224b6ee7014",
+  "summary": "3/3문단 전체 검토 완료; 제외·미검토 0. 추가 수정이 필요한 구체적인 독해·문체 결함을 찾지 못했다. 첫 문단에 일요일 목표와 접근성 확인을 함께 놓고, 중간의 시간 자료와 끝의 출입 관측을 분리한 재배치는 사용할 수 있다. 더 조밀한 도입과 덜 독립적인 결말은 선택의 차이이며 절대적인 독해 개선을 주장하지 않는다. 네 원출력: human 0.023041819804% / ai 98.526334762573% / ai_edited 0.004314089165% / humanized 1.446314994246%. 이 영어 모델은 미보정 실험용 보조 점수이며 문장·단어의 AI 비율이나 실제 작성 이력 확률이 아니다. 36문서 pilot에서 인간 글 12개 중 3개 오탐했고 높은 점수의 오탐도 있었다. Humanized는 Human과 합치지 않았다. 전체 240 모델 토큰이 1창에서 측정됐다. 알려진 이력은 AI 합성 성찰문을 humanizer로 고친 것으로 실제 사용자 체험이 아니다. 원문 Human 0.007394120621% → 후보 0.023041819804%(+0.015647699183pp)는 이 한 쌍의 작은 수치 변화일 뿐 방법의 성능·작성 품질·진짜 사람 작성의 개선을 뜻하지 않는다. 네 클래스의 미세한 합계 차이는 저장된 부동소수점 출력 그대로 보존했으며 재정규화하지 않았다. 원문·후보·기존 결과 변경 및 새 추론 없음.",
+  "document_analysis": {
+    "structure": "원문은 답사 시간→시장 출입→강변 접근성→발송 목표/교훈의 4문단이다. 후보는 목표/접근성→시간→시장/결말의 3문단으로 독자에게 미완료 행동을 먼저 보여준다. 실제 안내서가 아닌 준비에 관한 성찰문을 유지한다. 원문 source-review의 제한적 구성 비교 취지를 구현했고 결말을 새로 발명하지 않았다.",
+    "reasoning_specificity": "P1의 접근성 대안 미확인과 발송 전 확인 의무, P2의 20/35분 역할·두 거리 이름·재측정 부재, P3의 관측 당시 잠금과 통상 출입 미확인을 구별한다. 일반화 제한은 각 증거 바로 곁에 있고 서로 다른 한계를 한 가지 면책으로 바꾸지 않았다. 별도 score-blind fidelity review도 의미·시점·의무 손실 없음으로 기록했다. 이 보고서는 그 검토와 분리된 score-aware 읽기이다.",
+    "voice_consistency": "I meant/I liked/On Wednesday의 과거 경험과 I still want/I need/I should의 현재 계획이 일관된다. 담담한 1인칭에서 갑작스러운 전문가 보장이나 가짜 감정으로 전환하지 않는다. 가상 경험의 자연스러움은 사람 작성 이력의 증거가 아니다.",
+    "rhythm_repetition": "문단별 문장 수는 4/3/4다. 긴 시간 설명 뒤 짧은 I did not time a second walk가 오고, P1의 짧은 미확인 상태가 긴 판단과 섞인다. P1/P2/P3의 제한 문장은 대상이 달라 중복 결함으로 세지 않았다(S4). 두 세미콜론은 관련된 판단을 잇고 있으며 개수만으로 AI 문체를 판단하지 않는다. 마지막 일반론은 원문 고정 비교라 단순 삭제 대상이 아니다.",
+    "language_features": "원문을 독해해 영어임을 확인했다. then은 Sunday, that은 accessible alternative, it은 locked gate로 회수 가능하다. 단순 어휘와 정확한 문법은 비진단적이다. 스타일 관찰은 블랙박스 모델의 내부 원인 설명이 아니며 영어 모델에는 한국어식 문자 특징 기여도가 제공되지 않았다. 유일한 위치별 모델 측정은 문단 삭제 민감도이다.",
+    "citations_provenance": "외부 인용·검증 가능한 실제 지명은 없으며 현장 접근성·출입 시간을 외부 조사하지 않았다. brief.md는 합성 AI 원고와 고정 서사 제약을 명시한다. writer-review.md와 fresh-independent-review.md의 후보 해시가 현재 입력과 일치한다. 후보 모델은 wasitaigeneratedcom/ai-text-detector-small, revision f1795c86806e6838d4afa33d0b1427f8430c9615, weight SHA256 4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087, 측정 2026-10-03T07:37:01.130083+00:00이다. execution의 완료/returncode 0, input/index/model/feedback 결합을 확인했지만 해시는 저자나 결과 파일의 진실성을 인증하지 않는다."
+  },
+  "findings": [
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 69,
+          "quote": "I meant to make a short walking guide for a friend's visit on Sunday."
+        }
+      ],
+      "observation": "제공된 작업 이력은 새 AI 합성 성찰문을 humanizer로 구성 변경한 후보라고 명시한다. 첫 문장은 대상 식별용이며 문체 의심 구절이 아니다.",
+      "interpretation": "AI 작성·수정이라는 알려진 이력이 출처 판단의 근거다. 가상 1인칭 경험을 실제 사용자 체험으로 읽거나 모델 Human 클래스를 실제 저자 이력으로 해석하지 않는다.",
+      "human_alternative": "동일한 담담한 성찰문은 사람이 쓸 수도 있지만 이번 후보의 제공된 생성 이력을 바꾸지는 않는다.",
+      "discriminating_evidence": "전체 생성 로그의 독립 인증은 하지 않았다. 별도의 score-blind fidelity review는 의미 보존을 확인한 것이며 작성자 인증은 아니다.",
+      "source_record": "상위 작업 지시 및 fresh-en/brief.md: AI-authored synthetic reflection rewritten. fresh-en/writer-review.md의 frozen candidate hash 및 work/composition-feedback/fresh-independent-review.md의 후보 hash가 현재 입력과 일치."
+    },
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 70,
+          "end": 219,
+          "quote": "I still want to send something useful by then, but first I need to check whether there is an accessible alternative to the quieter road by the river."
+        },
+        {
+          "start": 220,
+          "end": 248,
+          "quote": "I have not checked that yet."
+        },
+        {
+          "start": 249,
+          "end": 429,
+          "quote": "I liked the road, though its uneven pavement would make me hesitate to recommend it to someone using a wheelchair; I should not present my preferred route as suitable for everyone."
+        }
+      ],
+      "observation": "P1은 일요일 발송 의지와 선행 접근성 확인을 먼저 놓고, 미확인 상태와 강변 길에 대한 개인 판단을 묶는다. that은 직전의 대체 경로 존재 여부를 받는다. 미완료 사실과 확인 의무는 다른 정보다.",
+      "interpretation": "원문 P3·P4의 핵심 내용을 앞에 배치해 미완료 과제를 빨리 보여준다. 문장이 조밀하지만 성찰문 목적에 맞으며 점수 때문에 반복 결함으로 만들 이유가 없다.",
+      "human_alternative": "사람도 자신의 준비 상태를 먼저 설명하려고 이 순서를 선택할 수 있다. 익숙한 1인칭이나 신중한 표현은 저자를 가르지 않는다.",
+      "discriminating_evidence": "행동을 먼저 알리고 싶은 독자라면 후보가 유용하고, 순차적인 답사 서술을 원한다면 원문이 더 편할 수 있다. 독자 선호 비교가 필요하며 필수 수리는 없다."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 431,
+          "end": 611,
+          "quote": "On Wednesday, the walk from the station to the old footbridge took me thirty-five minutes instead of the twenty I had estimated, partly because I stopped to check two street names."
+        },
+        {
+          "start": 612,
+          "end": 732,
+          "quote": "I did not time a second walk. Those thirty-five minutes are a record of that trip, not a reliable estimate for everyone."
+        }
+      ],
+      "observation": "P2는 수요일, 역→보행교, 20분 예상과 35분 관측, 거리 이름 두 개 확인이라는 부분 원인을 연결한다. 다음 두 문장은 재측정 부재와 한 번의 관측 한계를 바로 붙인다.",
+      "interpretation": "구체적 사실과 그 해석 한계가 가까워 내용 없는 균형론이라는 해석을 약화한다. 이는 독해상의 장점이며 AI도 같은 수치와 사실감을 생성할 수 있으므로 인간 체험 증거는 아니다.",
+      "human_alternative": "실제로 답사한 사람이 예상과 관측을 분리하고 일반화를 제한하는 글과 양립한다.",
+      "discriminating_evidence": "실제 답사 진위는 외부 기록이 필요하지만 이번 과제는 가상 원문의 고정 내용을 보존하는 편집이다. 시간 정보를 점수 때문에 바꿀 이유는 없다."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 820,
+          "end": 873,
+          "quote": "When I got there, a locked gate blocked the entrance."
+        },
+        {
+          "start": 874,
+          "end": 957,
+          "quote": "I cannot tell whether it is normally locked or whether I arrived at the wrong time."
+        },
+        {
+          "start": 958,
+          "end": 1169,
+          "quote": "I should describe what I found in the guide and leave the usual access hours unconfirmed; a clear note about what I have and have not checked would help more than pretending that one walk settled every question."
+        }
+      ],
+      "observation": "P3은 방문 당시 문 잠김과 평소 접근성을 구별하고, 안내에 관측 사실 및 출입 시간 미확인을 남기도록 한다. 원문의 별도 마지막 문단에 있던 비교를 같은 문단 마지막에 연결했다.",
+      "interpretation": "마지막 문장은 길고 넓은 교훈을 덧붙이지만 원문에 지정된 비교를 실제 보고 의무에 연결한다. 성찰문 결말로 기능하며 새로운 결함으로 판정하지 않는다. 별도 결말의 강조가 줄어든 점은 구성상 선택이다.",
+      "human_alternative": "사람이 구체적 사례로 글 전체의 신중한 태도를 마무리하는 자연스러운 구성일 수 있다.",
+      "discriminating_evidence": "결론 강조와 간결한 통합 중 어느 쪽이 필요한지 독자에 따라 달라진다. 넓은 checked/unchecked 구분과 한 번의 답사라는 범위를 삭제하거나 시장 정보에만 한정해서는 안 된다."
+    },
+    {
+      "id": "S4",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 220,
+          "end": 248,
+          "quote": "I have not checked that yet."
+        },
+        {
+          "start": 612,
+          "end": 641,
+          "quote": "I did not time a second walk."
+        },
+        {
+          "start": 874,
+          "end": 957,
+          "quote": "I cannot tell whether it is normally locked or whether I arrived at the wrong time."
+        }
+      ],
+      "observation": "세 문단에 각각 미확인·재측정 부재·상시 잠금 여부 미확인 문장이 있다. 모두 제한을 설명하지만 대상은 접근 가능한 대안, 보행 시간 대표성, 출입 조건으로 서로 다르다.",
+      "interpretation": "반복된 신중함은 성찰문의 주제적 일관성으로 충분히 설명된다. 이를 AI 점수의 원인이나 불필요한 반복으로 추정하지 않았다. 원문 검토의 약한 배치 개선 후보는 재배치됐지만 내용상 한계는 유지해야 한다.",
+      "human_alternative": "확인 범위를 정확히 밝히려는 사람도 각 쟁점의 한계를 별도로 적는다. 고른 문법·I·세미콜론은 단독으로 진단하지 않는다.",
+      "discriminating_evidence": "실제 독자 혼란이나 중복 정보가 관찰돼야 추가 편집을 정당화할 수 있다. 현재는 필수 수정 항목을 찾지 못했다."
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 429,
+          "quote": "I meant to make a short walking guide for a friend's visit on Sunday. I still want to send something useful by then, but first I need to check whether there is an accessible alternative to the quieter road by the river. I have not checked that yet. I liked the road, though its uneven pavement would make me hesitate to recommend it to someone using a wheelchair; I should not present my preferred route as suitable for everyone."
+        }
+      ],
+      "observation": "기존 AI 관여 보조점수 99.976958180196%에서 P1 삭제 후 99.928549490869%로 변했다. 삭제 전−후 차이는 +0.048408689327 퍼센트포인트다.",
+      "interpretation": "양의 delta는 문단을 지운 뒤 해당 점수가 낮아졌다는 측정이다. 모두 0.1pp 미만이며 안정성·유의성은 검증하지 않았다. 문단의 AI 작성 확률, 모델의 내부 이유, 문체 결함이 아니다. 길이와 문맥이 함께 바뀌므로 인과적인 특징 기여도로 해석하지 않는다.",
+      "human_alternative": "실제 사람 문단을 삭제해도 같은 방향의 변화가 가능하다. 신중한 표현이나 구체적 사실을 점수 때문에 없앨 수 없다.",
+      "discriminating_evidence": "별도 과정 기록은 저자 이력을, 원문 비교는 편집 품질을 평가한다. 현재 저장된 삭제 실험만 인용했고 새로운 추론을 하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\candidate-a-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P1]; baseline_ai_involvement=0.9997695818019565; after_removal_ai_involvement=0.9992854949086905; delta_percentage_points=0.04840868932660669; 240-token 단일 창 및 같은 체크포인트; 측정 2026-10-03T07:37:01.130083+00:00."
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 431,
+          "end": 732,
+          "quote": "On Wednesday, the walk from the station to the old footbridge took me thirty-five minutes instead of the twenty I had estimated, partly because I stopped to check two street names. I did not time a second walk. Those thirty-five minutes are a record of that trip, not a reliable estimate for everyone."
+        }
+      ],
+      "observation": "기존 AI 관여 보조점수 99.976958180196%에서 P2 삭제 후 99.896591273136%로 변했다. 삭제 전−후 차이는 +0.080366907059 퍼센트포인트다.",
+      "interpretation": "양의 delta는 문단을 지운 뒤 해당 점수가 낮아졌다는 측정이다. 모두 0.1pp 미만이며 안정성·유의성은 검증하지 않았다. 문단의 AI 작성 확률, 모델의 내부 이유, 문체 결함이 아니다. 길이와 문맥이 함께 바뀌므로 인과적인 특징 기여도로 해석하지 않는다.",
+      "human_alternative": "실제 사람 문단을 삭제해도 같은 방향의 변화가 가능하다. 신중한 표현이나 구체적 사실을 점수 때문에 없앨 수 없다.",
+      "discriminating_evidence": "별도 과정 기록은 저자 이력을, 원문 비교는 편집 품질을 평가한다. 현재 저장된 삭제 실험만 인용했고 새로운 추론을 하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\candidate-a-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P2]; baseline_ai_involvement=0.9997695818019565; after_removal_ai_involvement=0.9989659127313644; delta_percentage_points=0.08036690705921501; 240-token 단일 창 및 같은 체크포인트; 측정 2026-10-03T07:37:01.130083+00:00."
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 734,
+          "end": 1169,
+          "quote": "The map had helped me as far as the market, where it showed a path behind the stalls. When I got there, a locked gate blocked the entrance. I cannot tell whether it is normally locked or whether I arrived at the wrong time. I should describe what I found in the guide and leave the usual access hours unconfirmed; a clear note about what I have and have not checked would help more than pretending that one walk settled every question."
+        }
+      ],
+      "observation": "기존 AI 관여 보조점수 99.976958180196%에서 P3 삭제 후 99.916341371136%로 변했다. 삭제 전−후 차이는 +0.060616809060 퍼센트포인트다.",
+      "interpretation": "양의 delta는 문단을 지운 뒤 해당 점수가 낮아졌다는 측정이다. 모두 0.1pp 미만이며 안정성·유의성은 검증하지 않았다. 문단의 AI 작성 확률, 모델의 내부 이유, 문체 결함이 아니다. 길이와 문맥이 함께 바뀌므로 인과적인 특징 기여도로 해석하지 않는다.",
+      "human_alternative": "실제 사람 문단을 삭제해도 같은 방향의 변화가 가능하다. 신중한 표현이나 구체적 사실을 점수 때문에 없앨 수 없다.",
+      "discriminating_evidence": "별도 과정 기록은 저자 이력을, 원문 비교는 편집 품질을 평가한다. 현재 저장된 삭제 실험만 인용했고 새로운 추론을 하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\candidate-a-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P3]; baseline_ai_involvement=0.9997695818019565; after_removal_ai_involvement=0.9991634137113579; delta_percentage_points=0.06061680905986577; 240-token 단일 창 및 같은 체크포인트; 측정 2026-10-03T07:37:01.130083+00:00."
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "1행, 4문장. 발송 목표·선행 확인·미확인 상태·강변에 대한 개인 판단을 묶은 도입. 상대적으로 조밀하지만 지시어와 의무가 명확하다. 추가 수정 필요 없음; 첫 문장도 중립적으로 검토했다.",
+      "finding_ids": [
+        "H1",
+        "S1",
+        "S4",
+        "O1"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "3행, 3문장. 관측과 예상, 부분 원인과 대표성 한계를 함께 두어 읽힌다. 구체적 정보 보존. 모델에서 세 삭제 중 delta가 가장 크다는 사실은 문체 결함이나 삭제 우선순위가 아니다.",
+      "finding_ids": [
+        "S2",
+        "S4",
+        "O2"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "5행, 4문장. 관측→미확인→안내의 처리 요구→전체 성찰의 비교 순서. 원문의 독립 결말은 통합됐고 넓은 범위는 살아 있다. 마지막 문장의 길이는 선택상 비용이지만 이 목적에서 필수 수정 결함으로 보지 않는다.",
+      "finding_ids": [
+        "S3",
+        "S4",
+        "O3"
+      ]
+    }
+  ],
+  "measurement_record": {
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "measured_at_utc": "2026-10-03T07:37:01.130083+00:00",
+    "text_sha256": "22f7d6a8e6563d306b81d704b6343acef5d84a84a75aa276851b0224b6ee7014",
+    "token_count": 240,
+    "document_class_probabilities": {
+      "human": 0.00023041819804348052,
+      "ai": 0.9852633476257324,
+      "ai_edited": 4.314089164836332e-05,
+      "humanized": 0.014463149942457676
+    },
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "occlusion": {
+      "performed": true,
+      "paragraphs": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 429,
+          "quote": "I meant to make a short walking guide for a friend's visit on Sunday. I still want to send something useful by then, but first I need to check whether there is an accessible alternative to the quieter road by the river. I have not checked that yet. I liked the road, though its uneven pavement would make me hesitate to recommend it to someone using a wheelchair; I should not present my preferred route as suitable for everyone.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9997695818019565,
+          "after_removal_ai_involvement": 0.9992854949086905,
+          "delta_percentage_points": 0.04840868932660669
+        },
+        {
+          "paragraph_id": "P2",
+          "start": 431,
+          "end": 732,
+          "quote": "On Wednesday, the walk from the station to the old footbridge took me thirty-five minutes instead of the twenty I had estimated, partly because I stopped to check two street names. I did not time a second walk. Those thirty-five minutes are a record of that trip, not a reliable estimate for everyone.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9997695818019565,
+          "after_removal_ai_involvement": 0.9989659127313644,
+          "delta_percentage_points": 0.08036690705921501
+        },
+        {
+          "paragraph_id": "P3",
+          "start": 734,
+          "end": 1169,
+          "quote": "The map had helped me as far as the market, where it showed a path behind the stalls. When I got there, a locked gate blocked the entrance. I cannot tell whether it is normally locked or whether I arrived at the wrong time. I should describe what I found in the guide and leave the usual access hours unconfirmed; a clear note about what I have and have not checked would help more than pretending that one walk settled every question.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9997695818019565,
+          "after_removal_ai_involvement": 0.9991634137113579,
+          "delta_percentage_points": 0.06061680905986577
+        }
+      ],
+      "total_paragraphs": 3,
+      "unmeasured_due_to_limit": 0,
+      "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+    }
+  },
+  "comparison_record": {
+    "source_input_sha256": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+    "source_native_class_probabilities": {
+      "human": 7.394120621029288e-05,
+      "ai": 0.9983372688293457,
+      "ai_edited": 1.30302059915266e-05,
+      "humanized": 0.001575786154717207
+    },
+    "candidate_native_class_probabilities": {
+      "human": 0.00023041819804348052,
+      "ai": 0.9852633476257324,
+      "ai_edited": 4.314089164836332e-05,
+      "humanized": 0.014463149942457676
+    },
+    "human_class_delta_percentage_points": 0.015647699183318764,
+    "interpretation": "One source/candidate pair only; not a quality score, accuracy change, general humanizer effect, or authorship certification."
+  },
+  "source_fingerprints": {
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source.txt": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\candidate-a.txt": "22f7d6a8e6563d306b81d704b6343acef5d84a84a75aa276851b0224b6ee7014",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\brief.md": "74d4175508a5d92b28cc58b2ab336d584234b85f79774cb1e005a09fd7880162",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\writer-review.md": "0c5be728a7ad57648984838d2807135e0511514640427f3e74809f97261e6ded",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-review\\ledger.json": "4196d66aba6150a61c5153d0c25db8d0175ff3368716d4a543894262385ec124",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-review\\triage-feedback.txt": "bbac9aa4b67edc3dd50ea6a6f8808f3a25852a6918b68056b8878f7fe5998e51",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-score\\model-result.json": "ebccc7efef078b5e8b8e22b174bc8554fdb598ec90ff684b1fd3daa5535b72bf",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-independent-review.md": "f65697bba2c5fb3f2d35b2853ab884627fb15af31f086026eb10edf5f432ae08",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\candidate-a-score\\execution.json": "6e316f8e020b517cde5e1ea6feee2b7de6d77d8df4a260d0ec56694b150398fb",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\candidate-a-score\\feedback.json": "e13a04907be9ea606e356a5488f2ff00828af095c5bbd160837198800b8c7342",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\candidate-a-score\\index.json": "5420ff9c808c236e443b2cf1bab915f2cdf90e9fd1cab592f1820dddd935bb4d",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\candidate-a-score\\input.txt": "22f7d6a8e6563d306b81d704b6343acef5d84a84a75aa276851b0224b6ee7014",
+    "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\candidate-a-score\\model-result.json": "c2dd6375bae7691b8e71b2733948283b187726c5b339ebc3619b7fd6fa4f7d50"
+  },
+  "triage": {
+    "revise": [],
+    "retain": [
+      "P1의 발송 전 접근성 확인과 조건부 개인 판단",
+      "P2의 관측·예상·부분 원인과 한 번 측정 제한",
+      "P3의 잠금 관측·접근 시간 미확인·안내 의무·checked/unchecked 비교"
+    ],
+    "unresolved": [
+      "모델의 높은 AI 클래스 점수와 독해상 무결함 판단은 별도 결과다.",
+      "조밀한 도입과 덜 강조된 결말은 독자 선호에 따라 선택한다.",
+      "실제 접근성·출입 시간·작성 로그 전체는 독립 검증하지 않았다."
+    ]
+  }
+}

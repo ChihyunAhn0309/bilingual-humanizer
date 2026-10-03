@@ -1,0 +1,107 @@
+{
+  "review_type": "independent_score_blind_source_fidelity_and_reader_review",
+  "source": {
+    "path": "work/composition-feedback/fresh-en/source.txt",
+    "sha256": "77FA35FA6EF54C5A645514E5953A0E40BCE8F8A762BC3735B7B5EAF4A5BE16FA"
+  },
+  "candidate": {
+    "path": "work/composition-feedback/fresh-en/candidate-a.txt",
+    "sha256": "22F7D6A8E6563D306B81D704B6343ACEF5D84A84A75AA276851B0224B6EE7014"
+  },
+  "eligibility_for_scoring": {
+    "eligible": true,
+    "basis": "No material loss, addition, or change in facts, uncertainty, obligations, time, scope, or first-person voice; readable complete rewrite.",
+    "required_repairs": [],
+    "scope": "Eligibility on source fidelity and reader quality only; no detector score was read, computed, or inferred."
+  },
+  "proposition_checks": [
+    {
+      "source_location": "paragraph 1",
+      "candidate_location": "paragraph 1",
+      "proposition": "Short walking guide for a friend visiting on Sunday.",
+      "result": "preserved"
+    },
+    {
+      "source_location": "paragraph 1",
+      "candidate_location": "paragraph 2",
+      "proposition": "Narrator walked on Wednesday from the station to the old footbridge; estimated twenty minutes, recorded thirty-five; checking two street names partly explains the time.",
+      "result": "preserved"
+    },
+    {
+      "source_location": "paragraph 1",
+      "candidate_location": "paragraph 2",
+      "proposition": "No second walk was timed; thirty-five minutes describes that trip and is not a reliable estimate for everyone.",
+      "result": "preserved"
+    },
+    {
+      "source_location": "paragraph 2",
+      "candidate_location": "paragraph 3",
+      "proposition": "Map was useful up to the market; mapped path behind stalls had its entrance blocked by a locked gate upon arrival.",
+      "result": "preserved"
+    },
+    {
+      "source_location": "paragraph 2",
+      "candidate_location": "paragraph 3",
+      "proposition": "Whether the gate is normally locked or arrival time explains it remains unknown; guide should report the observation and leave usual access hours unconfirmed.",
+      "result": "preserved"
+    },
+    {
+      "source_location": "paragraph 3",
+      "candidate_location": "paragraph 1",
+      "proposition": "Narrator liked the quieter riverside road; uneven pavement gives reason to hesitate about recommending it to a wheelchair user, without asserting definitive inaccessibility.",
+      "result": "preserved"
+    },
+    {
+      "source_location": "paragraph 3",
+      "candidate_location": "paragraph 1",
+      "proposition": "Accessible alternative is unverified and must be checked before sending; preferred route should not be presented as universally suitable.",
+      "result": "preserved"
+    },
+    {
+      "source_location": "paragraph 4",
+      "candidate_location": "paragraphs 1 and 3",
+      "proposition": "Narrator still wants to send something useful by Sunday; transparently separating checked and unchecked points is preferable to implying one walk resolved everything.",
+      "result": "preserved"
+    }
+  ],
+  "voice": {
+    "result": "preserved",
+    "detail": "First-person ownership, modest certainty, practical concern for the friend, and self-questioning tone remain. Reordering shifts emphasis toward the outstanding accessibility obligation."
+  },
+  "issues": [
+    {
+      "severity": "minor",
+      "blocking": false,
+      "type": "reader_tradeoff",
+      "location": "candidate paragraph 1",
+      "detail": "Moving the accessibility check ahead of the Wednesday walk gives the reader the next action immediately, but makes the opening denser and delays the chronological account."
+    },
+    {
+      "severity": "minor",
+      "blocking": false,
+      "type": "reader_tradeoff",
+      "location": "candidate paragraph 3, final sentence",
+      "detail": "The broad closing reflection is attached by a semicolon to the access-hours instruction. It still clearly mentions one walk and all checked or unchecked points, but has less emphasis as a conclusion than the source's separate final paragraph."
+    }
+  ],
+  "reader_benefit": "The Sunday goal and the check needed before sending are brought together near the start. The walk timing and gate observation each remain easy to follow in their own paragraphs.",
+  "overall_reader_assessment": "Clear and usable, with an action-first structure. The reorganization is defensible rather than an unequivocal readability improvement over the source; two denser passages modestly reduce the original's unhurried narrative rhythm.",
+  "blinding": {
+    "status": "maintained",
+    "read_inputs": [
+      "work/composition-feedback/fresh-en/source.txt",
+      "work/composition-feedback/fresh-en/candidate-a.txt",
+      "work/composition-feedback/skill/references/fidelity-and-documents.md"
+    ],
+    "not_read": [
+      "writer brief",
+      "writer self-review",
+      "detector results",
+      "intended conclusions",
+      "other candidate files"
+    ],
+    "known_provenance": "Both texts are synthetic AI evaluation texts, as stated in the assignment.",
+    "authorship_assessment": "None. Eligibility and readability are not evidence of human authorship."
+  },
+  "limitations": "This is direct semantic preservation and reader review, not external fact verification. No automated surface checker was run. Hashes identify the exact reviewed file bytes, not authorship."
+}

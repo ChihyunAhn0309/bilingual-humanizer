@@ -1,0 +1,33 @@
+{
+  "text_sha256": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+  "paragraphs": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 398,
+      "line": 1,
+      "text": "I meant to make a short walking guide for a friend who was visiting on Sunday. On Wednesday I walked the route myself, starting at the station and ending at the old footbridge. I had estimated twenty minutes. It took thirty-five, partly because I stopped to check two street names. I did not time a second walk, so thirty-five minutes is a record of that trip, not a reliable estimate for everyone."
+    },
+    {
+      "id": "P2",
+      "start": 400,
+      "end": 732,
+      "line": 3,
+      "text": "The map was useful until I reached the market. It showed a path behind the stalls, but a locked gate blocked the entrance when I got there. I cannot tell whether that gate is normally locked or whether I happened to arrive at the wrong time. In the guide, I should describe what I found and leave the usual access hours unconfirmed."
+    },
+    {
+      "id": "P3",
+      "start": 734,
+      "end": 1052,
+      "line": 5,
+      "text": "I liked the quieter road by the river, although its uneven pavement would make me hesitate to recommend it to someone using a wheelchair. I have not checked whether there is an accessible alternative. Before sending the guide, I need to check that point rather than present my preferred route as suitable for everyone."
+    },
+    {
+      "id": "P4",
+      "start": 1054,
+      "end": 1224,
+      "line": 7,
+      "text": "I still want to send something useful by Sunday. A clear note about what I have and have not checked would help more than pretending that one walk settled every question."
+    }
+  ]
+}

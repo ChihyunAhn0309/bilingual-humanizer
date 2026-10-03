@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "mode": "observations_only",
+  "text_sha256": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+  "file_sha256": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+  "characters_codepoints": 1225,
+  "non_whitespace_characters": 1003,
+  "whitespace_units": 219,
+  "hangul_letters": 0,
+  "latin_letters": 979,
+  "other_letters": 0,
+  "hangul_share_of_letters": 0.0,
+  "latin_share_of_letters": 1.0,
+  "rough_sentence_count": 14,
+  "rough_sentence_mean_characters": 86.28571428571429,
+  "rough_sentence_length_cv": 0.3530063792535387,
+  "comma_count": 8,
+  "commas_per_1000_codepoints": 6.530612244897959,
+  "surface_type_token_ratio": 0.6484018264840182,
+  "repeated_surface_forms": [
+    {
+      "surface_form": "i",
+      "count": 16
+    },
+    {
+      "surface_form": "the",
+      "count": 13
+    },
+    {
+      "surface_form": "a",
+      "count": 9
+    },
+    {
+      "surface_form": "to",
+      "count": 7
+    },
+    {
+      "surface_form": "not",
+      "count": 4
+    },
+    {
+      "surface_form": "that",
+      "count": 4
+    },
+    {
+      "surface_form": "for",
+      "count": 3
+    },
+    {
+      "surface_form": "at",
+      "count": 3
+    },
+    {
+      "surface_form": "and",
+      "count": 3
+    },
+    {
+      "surface_form": "it",
+      "count": 3
+    },
+    {
+      "surface_form": "is",
+      "count": 3
+    },
+    {
+      "surface_form": "whether",
+      "count": 3
+    },
+    {
+      "surface_form": "have",
+      "count": 3
+    },
+    {
+      "surface_form": "make",
+      "count": 2
+    },
+    {
+      "surface_form": "was",
+      "count": 2
+    }
+  ],
+  "unicode_observations": [],
+  "unicode_observation_count": 0,
+  "unicode_observations_truncated": false,
+  "authorship_probabilities": null,
+  "notes": [
+    "Counts are observations, not authorship evidence or a detector score.",
+    "Whitespace units are neither model tokens nor Korean morphemes.",
+    "Sentence splitting is approximate; inspect punctuation context.",
+    "Script counts do not establish language, fluency or identity.",
+    "Unicode controls are not proof of an AI watermark."
+  ]
+}

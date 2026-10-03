@@ -122,7 +122,7 @@ def verify():
             rec = next(r for r in data['measurements'] if r['id'] == checkpoint['measurement_id'])
             assert checkpoint['input_sha256'] == rec['input_sha256']
             assert checkpoint['human_percent'] == rec['human_percent']
-    skill = ROOT.parents[1] / 'skills/bilingual-humanizer'
+    skill = ROOT.parent / 'composition-feedback/retained-skill'
     release = read('release-skill-hashes.json')
     actual = {p.relative_to(skill).as_posix(): digest(p) for p in skill.rglob('*')
               if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'}

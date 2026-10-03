@@ -1,0 +1,17 @@
+{
+  "current_skill_files": 28,
+  "retained_v17_files": 27,
+  "all_current_copies_and_two_zips_match": true,
+  "original_source_bytes_match_prior": true,
+  "measurements": 5,
+  "whole_document_reviews": 5,
+  "reviewed_paragraphs": 20,
+  "native_Human_percent": {
+    "en-archive/candidate-a-score": 0.6416585296392441,
+    "en-archive/candidate-b-score": 0.6660121493041515,
+    "fresh-en/candidate-a-score": 0.02304181980434805,
+    "fresh-en/source-score": 0.007394120621029288,
+    "ko-library/candidate-a-score": 91.46275639928841
+  },
+  "unmet_all_50_target": true
+}

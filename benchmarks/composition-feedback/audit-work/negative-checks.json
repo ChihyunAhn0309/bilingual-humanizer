@@ -1,0 +1,74 @@
+{
+  "verifier_sha256": "1ac33b49e251d24bdd405b15501be0f91cdac79cabce40aa7b8b84b02fffe99f",
+  "baseline": {
+    "accepted": true,
+    "stdout": "PASS: 5 new exact local measurements, complete reviews, frozen experiment and selected checkpoint scores."
+  },
+  "cases": [
+    {
+      "case": "feedback Human mismatch",
+      "accepted": false,
+      "error": "AssertionError: en-archive/candidate-b-score"
+    },
+    {
+      "case": "feedback model identity mismatch",
+      "accepted": false,
+      "error": "AssertionError: en-archive/candidate-b-score"
+    },
+    {
+      "case": "feedback cautions removed",
+      "accepted": false,
+      "error": "AssertionError: en-archive/candidate-b-score"
+    },
+    {
+      "case": "feedback semantics relabelled",
+      "accepted": false,
+      "error": "AssertionError: en-archive/candidate-b-score"
+    },
+    {
+      "case": "validated model identity mismatch",
+      "accepted": false,
+      "error": "AssertionError: "
+    },
+    {
+      "case": "validated authorship invented",
+      "accepted": false,
+      "error": "AssertionError: "
+    },
+    {
+      "case": "validated caution context removed",
+      "accepted": false,
+      "error": "AssertionError: "
+    },
+    {
+      "case": "complete paragraph review omitted",
+      "accepted": false,
+      "error": "AssertionError: "
+    },
+    {
+      "case": "invented exact quote in both ledger and validated report",
+      "accepted": false,
+      "error": "AssertionError: "
+    },
+    {
+      "case": "index tail omitted",
+      "accepted": false,
+      "error": "AssertionError: "
+    },
+    {
+      "case": "frozen candidate bytes changed",
+      "accepted": false,
+      "error": "AssertionError: Frozen experiment evidence changed"
+    },
+    {
+      "case": "candidate changed with refreshed byte manifest",
+      "accepted": false,
+      "error": "AssertionError: "
+    }
+  ],
+  "tests": 12,
+  "rejected": 12,
+  "no_inference": true,
+  "no_remote_calls": true,
+  "mutations": "Only a copied repository fixture under audit-work; frozen manifests refreshed for semantic-consistency cases."
+}

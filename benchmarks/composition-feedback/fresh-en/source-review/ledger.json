@@ -1,0 +1,390 @@
+{
+  "text_sha256": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+  "summary": "Human 0.0074% / AI 99.8337% / AI-edited 0.0013% / Humanized 0.1576%. 보정되지 않은 실험용 영어 모델의 네 클래스 출력이며 실제 작성 이력 확률이나 단어 비중이 아니다. 36개 영어 pilot에서 높은 점수의 인간 글 오탐이 있었다. Humanized를 Human에 합치지 않았다. 전체 245 model tokens가 1창에서 측정됐고 AI 관여 보조 합산값은 99.9926%다. 제공 이력은 이 세션에서 만든 전적으로 AI 작성된 합성 성찰 에세이로, 실제 사용자 체험이 아니다. 전체 내용은 구체적이고 사실·미확인 상태가 분리되어 있다. 약한 편집 후보는 여러 경험 뒤의 작성 원칙과 P4의 일반적 교훈 반복이며, 제한적인 구성 비교는 가능하되 전면 수정이 필수라는 판단은 아니다. 시간·문 출입·접근성의 각 한계와 발송 전 확인 의무는 유지해야 한다. 4/4문단 검토, 제외·미검토 없음. 기존 모델 결과만 읽었고 원문 수정·추론 재실행 없음.",
+  "document_analysis": {
+    "structure": "P1 안내 목적과 단일 답사 시간, P2 시장 문 접근, P3 강변 선호와 접근성 확인, P4 일요일 시한과 정직한 기술의 원칙으로 전개된다. 장소별 경험과 한계가 따라가는 순서는 이해 가능하다. 다만 P2/P3의 guide 작성·확인 지시 후 P4가 다시 일반적 교훈으로 닫혀 글의 마지막 부분에 설명이 겹친다. 절차 문장의 배치와 결말 일반론에 한정해 구성 실험을 할 독자상 이유가 있다.",
+    "reasoning_specificity": "수요일·일요일, 역/보행교·시장/강변, 20분/35분·거리 이름 두 개가 기능적으로 연결된다. 단일 보행 시간의 대표성, 방문 당시 문 잠김의 일반화, 개인 선호와 접근성은 서로 다른 추론 문제다. 각각의 불확실성을 한 문장의 막연한 주의로 대체하면 안 된다. 제공된 합성 사실을 편집의 고정 내용으로 취급한다.",
+    "voice_consistency": "담담한 1인칭 경험에서 현재의 작성 의무와 일요일까지의 의지로 이어진다. 시제 전환은 과거 답사와 현재 계획의 차이에 맞아 그 자체로 오류가 아니다. P4의 pretending 대비는 다소 교훈적이지만 개인 성찰의 목소리로도 설명 가능하다. 감정·일화·I 빈도는 작성자를 증명하지 않는다.",
+    "rhythm_repetition": "P1의 짧은 예상 문장과 긴 제한 문장이 섞이고 문단별 문장 수는 5/4/3/2다. 일률적인 문장 길이라고 보지 않는다. 반복은 단어 빈도보다 경험 뒤에 한계·작성 원칙을 설명하는 수사 구조에서 나타난다. P2/P3/P4 세 곳의 meta-level 작성·확인 언급을 실제 인용으로 묶었으며, 내용이 다른 사실적 한계는 중복으로 세지 않았다.",
+    "language_features": "영어 원문을 독해로 확인했다. walking guide, market stalls, uneven pavement, accessible alternative는 맥락상 자연스럽다. that point는 접근 가능한 대체 경로 확인으로 읽혀 별도 모호성 문제로 지적하지 않았다. 쉼표·문법 정확성·단순 어휘는 AI 증거가 아니다. 핵심 편집 관찰은 번역투보다 마지막 일반론의 중복이다.",
+    "citations_provenance": "외부 인용이 없으며 실제 장소·시간·접근성 자료는 검증하지 않았다. 상위 세션이 prepare.py로 새로 만든 wholly AI-authored synthetic evaluation source라고 알려 준 이력을 별도로 기록한다. 생성 스크립트는 읽지 않았다. source/source-score input과 실제 모델·feedback·execution hash 및 성공 상태를 대조했다. 과거 원고나 이전 결과의 결론을 새 원고의 근거로 재사용하지 않았다."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 282,
+          "end": 398,
+          "quote": "I did not time a second walk, so thirty-five minutes is a record of that trip, not a reliable estimate for everyone."
+        },
+        {
+          "start": 642,
+          "end": 732,
+          "quote": "In the guide, I should describe what I found and leave the usual access hours unconfirmed."
+        },
+        {
+          "start": 935,
+          "end": 1052,
+          "quote": "Before sending the guide, I need to check that point rather than present my preferred route as suitable for everyone."
+        },
+        {
+          "start": 1103,
+          "end": 1224,
+          "quote": "A clear note about what I have and have not checked would help more than pretending that one walk settled every question."
+        }
+      ],
+      "observation": "P1~P3은 각각 구체적 경험 뒤에 관측의 한계나 안내문 작성 원칙을 붙인다. 특히 P2 말미의 guide에 쓰는 방식, P3 말미의 보내기 전 확인 의무, P4 말미의 확인한 것과 안 한 것을 밝히자는 문장까지 세 번 글쓰기·확인 과정을 직접 설명한다. P4 마지막 문장은 새 장소 정보나 확인 항목 없이 앞선 주의를 일반적 교훈으로 정리한다.",
+      "interpretation": "짧은 체험 서술에서 매번 교훈을 명시하고 결말에서 다시 추상화하면 독자가 이미 이해한 취지를 설명받는 느낌이 날 수 있다. 이는 AI가 균형·신중함을 반복 표지하는 구성과 양립하는 약한 문체 관찰이다. 높은 모델 AI 값의 내부 이유로 주장하지 않는다. 실제 편집 후보는 P4의 추상적 재설명과 절차 문장의 배치이며, 구체적 한계나 확인 의무 자체가 아니다.",
+      "human_alternative": "신뢰할 수 있는 안내를 만들려는 사람의 성찰문에서도 확인 범위를 반복해서 강조할 수 있다. 불확실성을 정직하게 드러내는 것이 글의 주제라면 이 반복은 의도적인 통일성일 수 있다.",
+      "discriminating_evidence": "독자가 에세이의 성찰을 읽는지, 일요일 전 준비 상태를 빠르게 확인하는지에 따라 결말의 효용이 달라진다. 제한적인 구성 비교에서는 새 사실 없이 중복된 일반론을 줄였을 때 구체적 한계·시점·의무가 더 잘 읽히는지 확인한다."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 79,
+          "end": 176,
+          "quote": "On Wednesday I walked the route myself, starting at the station and ending at the old footbridge."
+        },
+        {
+          "start": 177,
+          "end": 208,
+          "quote": "I had estimated twenty minutes."
+        },
+        {
+          "start": 209,
+          "end": 281,
+          "quote": "It took thirty-five, partly because I stopped to check two street names."
+        },
+        {
+          "start": 282,
+          "end": 398,
+          "quote": "I did not time a second walk, so thirty-five minutes is a record of that trip, not a reliable estimate for everyone."
+        }
+      ],
+      "observation": "P1(1행)은 수요일, 역에서 오래된 보행교까지의 경로, 20분 예상과 35분의 실제 한 번 측정, 거리 이름 두 개를 확인한 정지를 구별한다. 짧은 예상 문장 뒤에 관측값과 한계를 붙여 읽는 순서가 명료하다.",
+      "interpretation": "시간 수치가 맥락 없이 나열되지 않고 왜 차이가 났는지 연결된다. 이는 공허한 일반론이라는 해석의 반대 근거다. 이 원고의 알려진 합성 이력처럼 AI도 구체적 기억을 생성할 수 있으므로 사람 경험의 증명은 아니다.",
+      "human_alternative": "실제로 경로를 시험한 사람이라면 예상과 관측을 분리해 적고 한 번만 걸었다는 제한을 남길 수 있다. 여기서는 그런 사실감을 표현의 기능으로만 평가한다.",
+      "discriminating_evidence": "실제 체험 여부는 과정 기록이 필요하다. 이번 원고는 평가용 합성으로 제공됐으므로 측정값을 현실 자료로 검증하지 않고 편집 시 보존할 서사 사실로 취급한다."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 447,
+          "end": 539,
+          "quote": "It showed a path behind the stalls, but a locked gate blocked the entrance when I got there."
+        },
+        {
+          "start": 540,
+          "end": 641,
+          "quote": "I cannot tell whether that gate is normally locked or whether I happened to arrive at the wrong time."
+        },
+        {
+          "start": 642,
+          "end": 732,
+          "quote": "In the guide, I should describe what I found and leave the usual access hours unconfirmed."
+        }
+      ],
+      "observation": "P2(3행)는 지도에 있던 시장 가판 뒤 길과 방문 당시 잠긴 문을 대비한다. 문이 늘 잠기는지 방문 시점 문제인지는 모른다고 구분하며, 안내에는 관측과 평소 출입 시간 미확인 상태를 남기려 한다.",
+      "interpretation": "관측된 잠금 상태와 통상 접근성을 혼동하지 않는 구체적 제한이다. P1의 보행 시간 대표성 문제와 다른 정보이므로 한 문장의 일반적 면책으로 합치면 의미를 잃는다. 작성 원칙 문장의 배치는 바꿀 수 있으나 미확인 상태는 보존해야 한다.",
+      "human_alternative": "사람도 한 번 본 잠금 상태를 상시 폐쇄로 오해시키지 않으려고 이렇게 쓸 수 있다. 평범한 신중함은 작성자를 가르지 않는다.",
+      "discriminating_evidence": "현실의 출입 시간은 외부 정보가 있어야 확인되지만, 이 합성 원고의 재작성 과제에서는 새 영업시간·대체 출입구·상시 폐쇄를 만들어 넣지 않는다."
+    },
+    {
+      "id": "S4",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 734,
+          "end": 871,
+          "quote": "I liked the quieter road by the river, although its uneven pavement would make me hesitate to recommend it to someone using a wheelchair."
+        },
+        {
+          "start": 872,
+          "end": 934,
+          "quote": "I have not checked whether there is an accessible alternative."
+        },
+        {
+          "start": 935,
+          "end": 1052,
+          "quote": "Before sending the guide, I need to check that point rather than present my preferred route as suitable for everyone."
+        }
+      ],
+      "observation": "P3(5행)는 조용한 강변 길에 대한 개인 선호, 고르지 않은 포장 때문에 휠체어 사용자에게 추천하기 망설인다는 판단, 접근 가능한 대체 경로 미확인, 발송 전 그 점을 확인해야 한다는 의무를 구별한다.",
+      "interpretation": "선호와 적합성을 분리하는 필요한 내용이다. 미확인 사실과 확인할 의무는 서로 다르며 어느 하나를 없애서 중복을 줄이면 충실성이 나빠진다. that point는 바로 앞의 accessible alternative로 충분히 회수 가능하다.",
+      "human_alternative": "안내 작성자는 자신이 좋아하는 길이 모든 이용자에게 맞는다고 가정하지 않으려 이런 점검을 할 수 있다. AI도 같은 신중한 구조를 만들 수 있다.",
+      "discriminating_evidence": "실제 접근성은 별도 현장·자료 확인이 필요하지만, 이번 편집에서는 확인됐다고 쓰거나 본래 없는 보장·우회로를 추가할 수 없다. Before sending의 선후 조건과 need to check의 강도를 유지해야 한다."
+    },
+    {
+      "id": "S5",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "quote": "I meant to make a short walking guide for a friend who was visiting on Sunday."
+        },
+        {
+          "start": 1054,
+          "end": 1102,
+          "quote": "I still want to send something useful by Sunday."
+        },
+        {
+          "start": 1103,
+          "end": 1224,
+          "quote": "A clear note about what I have and have not checked would help more than pretending that one walk settled every question."
+        }
+      ],
+      "observation": "P1은 일요일에 오는 친구를 위한 짧은 안내라는 목적을 제시하고, P4(7행)는 일요일까지 뭔가 유용한 것을 보내겠다는 현재 의지를 되받는다. 마지막 문장의 pretending 대비는 앞선 구체적인 자기 점검보다 추상적·교훈적이다.",
+      "interpretation": "일요일이라는 시한을 회수하는 마무리는 유용하다. 일반적 도덕 교훈을 덜 설명하고 준비 상태가 보이도록 결말을 점검할 수 있지만, 결말 전체 삭제나 새 결론 도입은 필요하지 않다. 시한·유용성 의지를 유지하는 제한적 편집 후보로 본다.",
+      "human_alternative": "개인 성찰 에세이는 마지막에 배운 점을 분명히 적는 것이 자연스럽다. 독자가 성찰을 기대한다면 현재 결말을 유지해도 타당하다.",
+      "discriminating_evidence": "출력 장르가 성찰문인지 실제 친구에게 보낼 안내인지가 정해지면 결말의 기능을 평가할 수 있다. 현재 텍스트는 안내문 자체보다 안내를 준비하는 성찰문으로 읽히므로 곧바로 길 안내 형식으로 바꾸지 않는다."
+    },
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 78,
+          "quote": "I meant to make a short walking guide for a friend who was visiting on Sunday."
+        }
+      ],
+      "observation": "상위 작업 세션은 이 원문을 2026-10-03에 work/composition-feedback/prepare.py로 새로 만든 전적으로 AI 작성된 합성 walking-guide essay 평가 표본이라고 확인했다. 실제 사용자 경험이 아니라는 이력도 제공했다. 첫 문장 인용은 대상 식별용이다.",
+      "interpretation": "보고할 이력은 AI 합성 평가 원고다. 개인적 경험처럼 읽힌다는 반대 관찰이나 Humanized 출력이 이 이력을 인간 작성으로 바꾸지 않는다. 수정 시에는 주어진 1인칭 서사 사실을 과제의 고정 내용으로 보존한다.",
+      "human_alternative": "이와 유사한 문체는 사람의 실제 경험에서도 가능하지만 이번 원고의 제공 이력을 뒤집는 설명은 아니다. 표현의 자연스러움과 실제 체험 여부를 구분한다.",
+      "discriminating_evidence": "생성 코드·전체 실행 이력을 별도로 열어 진위를 독립 확인하지는 않았다. 이번 근거는 상위 세션의 명시적 생성 이력 설명과 현재 원문의 정확한 입력 hash에 한정된다.",
+      "source_record": "상위 세션의 후속 메시지: parent created fresh-en/source.txt using work/composition-feedback/prepare.py at 2026-10-03 this session as a NEW wholly AI-authored synthetic walking-guide essay evaluation source, not real user experience. 생성 스크립트는 이번 검토에서 읽거나 실행하지 않음."
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 398,
+          "quote": "I meant to make a short walking guide for a friend who was visiting on Sunday. On Wednesday I walked the route myself, starting at the station and ending at the old footbridge. I had estimated twenty minutes. It took thirty-five, partly because I stopped to check two street names. I did not time a second walk, so thirty-five minutes is a record of that trip, not a reliable estimate for everyone."
+        }
+      ],
+      "observation": "P1 삭제 전 AI 관여 합산값 99.992605879379%, 삭제 후 99.970812397078%, 삭제 전−후 +0.021793482301 percentage points(%p).",
+      "interpretation": "양의 차이는 삭제 후 해당 합산점수가 낮아졌다는 뜻이다. 문단의 작성 확률이나 저자 증거, 모델의 내부 이유, 문체 품질이 아니다. 길이·맥락 변화가 섞인 별개 삭제 실험이며 숫자를 합산하지 않는다. 작은 차이의 재현성·유의성도 이 자료만으로 정하지 않는다.",
+      "human_alternative": "사람이 쓴 문단을 지워도 같은 방향의 변화가 가능하다. 유지할 서사 사실과 확인 의무를 점수 변화 때문에 삭제할 수 없다.",
+      "discriminating_evidence": "작성 이력은 H1의 과정 정보로, 편집 필요성은 S 항목의 내용 비교로 판단한다. 안정성은 별도 반복·독립 자료가 필요하며 이번 검토에서는 추론을 재실행하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P1]; baseline_ai_involvement=0.9999260587937897; after_removal_ai_involvement=0.9997081239707768; delta_percentage_points=0.02179348230129108; 단일 245-token 원문 창, 각 문단 삭제 후 같은 체크포인트의 기존 측정; measured_at_utc=2026-10-03T07:25:36.324450+00:00."
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 400,
+          "end": 732,
+          "quote": "The map was useful until I reached the market. It showed a path behind the stalls, but a locked gate blocked the entrance when I got there. I cannot tell whether that gate is normally locked or whether I happened to arrive at the wrong time. In the guide, I should describe what I found and leave the usual access hours unconfirmed."
+        }
+      ],
+      "observation": "P2 삭제 전 AI 관여 합산값 99.992605879379%, 삭제 후 99.973149725702%, 삭제 전−후 +0.019456153677 percentage points(%p).",
+      "interpretation": "양의 차이는 삭제 후 해당 합산점수가 낮아졌다는 뜻이다. 문단의 작성 확률이나 저자 증거, 모델의 내부 이유, 문체 품질이 아니다. 길이·맥락 변화가 섞인 별개 삭제 실험이며 숫자를 합산하지 않는다. 작은 차이의 재현성·유의성도 이 자료만으로 정하지 않는다.",
+      "human_alternative": "사람이 쓴 문단을 지워도 같은 방향의 변화가 가능하다. 유지할 서사 사실과 확인 의무를 점수 변화 때문에 삭제할 수 없다.",
+      "discriminating_evidence": "작성 이력은 H1의 과정 정보로, 편집 필요성은 S 항목의 내용 비교로 판단한다. 안정성은 별도 반복·독립 자료가 필요하며 이번 검토에서는 추론을 재실행하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P2]; baseline_ai_involvement=0.9999260587937897; after_removal_ai_involvement=0.9997314972570166; delta_percentage_points=0.019456153677310795; 단일 245-token 원문 창, 각 문단 삭제 후 같은 체크포인트의 기존 측정; measured_at_utc=2026-10-03T07:25:36.324450+00:00."
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 734,
+          "end": 1052,
+          "quote": "I liked the quieter road by the river, although its uneven pavement would make me hesitate to recommend it to someone using a wheelchair. I have not checked whether there is an accessible alternative. Before sending the guide, I need to check that point rather than present my preferred route as suitable for everyone."
+        }
+      ],
+      "observation": "P3 삭제 전 AI 관여 합산값 99.992605879379%, 삭제 후 99.989438155899%, 삭제 전−후 +0.003167723480 percentage points(%p).",
+      "interpretation": "양의 차이는 삭제 후 해당 합산점수가 낮아졌다는 뜻이다. 문단의 작성 확률이나 저자 증거, 모델의 내부 이유, 문체 품질이 아니다. 길이·맥락 변화가 섞인 별개 삭제 실험이며 숫자를 합산하지 않는다. 작은 차이의 재현성·유의성도 이 자료만으로 정하지 않는다.",
+      "human_alternative": "사람이 쓴 문단을 지워도 같은 방향의 변화가 가능하다. 유지할 서사 사실과 확인 의무를 점수 변화 때문에 삭제할 수 없다.",
+      "discriminating_evidence": "작성 이력은 H1의 과정 정보로, 편집 필요성은 S 항목의 내용 비교로 판단한다. 안정성은 별도 반복·독립 자료가 필요하며 이번 검토에서는 추론을 재실행하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P3]; baseline_ai_involvement=0.9999260587937897; after_removal_ai_involvement=0.9998943815589882; delta_percentage_points=0.0031677234801463783; 단일 245-token 원문 창, 각 문단 삭제 후 같은 체크포인트의 기존 측정; measured_at_utc=2026-10-03T07:25:36.324450+00:00."
+    },
+    {
+      "id": "O4",
+      "basis": "local_occlusion",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 1054,
+          "end": 1224,
+          "quote": "I still want to send something useful by Sunday. A clear note about what I have and have not checked would help more than pretending that one walk settled every question."
+        }
+      ],
+      "observation": "P4 삭제 전 AI 관여 합산값 99.992605879379%, 삭제 후 99.994894005795%, 삭제 전−후 -0.002288126416 percentage points(%p).",
+      "interpretation": "음의 차이는 삭제 후 해당 합산점수가 높아졌다는 뜻이다. 문단의 작성 확률이나 저자 증거, 모델의 내부 이유, 문체 품질이 아니다. 길이·맥락 변화가 섞인 별개 삭제 실험이며 숫자를 합산하지 않는다. 작은 차이의 재현성·유의성도 이 자료만으로 정하지 않는다.",
+      "human_alternative": "사람이 쓴 문단을 지워도 같은 방향의 변화가 가능하다. 유지할 서사 사실과 확인 의무를 점수 변화 때문에 삭제할 수 없다.",
+      "discriminating_evidence": "작성 이력은 H1의 과정 정보로, 편집 필요성은 S 항목의 내용 비교로 판단한다. 안정성은 별도 반복·독립 자료가 필요하며 이번 검토에서는 추론을 재실행하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P4]; baseline_ai_involvement=0.9999260587937897; after_removal_ai_involvement=0.9999489400579478; delta_percentage_points=-0.002288126415805891; 단일 245-token 원문 창, 각 문단 삭제 후 같은 체크포인트의 기존 측정; measured_at_utc=2026-10-03T07:25:36.324450+00:00."
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "목적·답사 경로·예상과 관측·단일 측정 한계가 명확하다. 새 독해 문제를 찾지 못했다. 20→35 차이와 두 번 측정하지 않았다는 제한을 유지해야 한다. 첫 단계의 한계는 이후 일반론 반복과 달리 구체적 정보다.",
+      "finding_ids": [
+        "S1",
+        "S2",
+        "H1",
+        "O1"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "관측된 문 잠김과 평소 운영을 구별한다. 이 한계는 유지한다. 마지막 작성 지시의 위치만 전체 구성에서 점검할 수 있으며, 미확인 상태를 임의로 해소하거나 상시 폐쇄로 바꾸면 안 된다.",
+      "finding_ids": [
+        "S1",
+        "S3",
+        "O2"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "개인 선호·포장 상태·추천 망설임·대안 미확인·발송 전 확인 의무가 서로 구별된다. 핵심 의미는 유지 대상이며, 절차 문장 배치 실험에서도 의무 강도와 시점을 보존해야 한다.",
+      "finding_ids": [
+        "S1",
+        "S4",
+        "O3"
+      ]
+    },
+    {
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "일요일 시한을 회수하는 첫 문장은 유용하다. 마지막 문장의 일반적 교훈은 앞선 세 단락의 취지를 다시 말해 약한 revise 후보지만 성찰문 결말로 유지할 사람 글의 대안도 충분하다. O4의 음의 민감도와 이 편집 판단은 독립적이다.",
+      "finding_ids": [
+        "S1",
+        "S5",
+        "O4"
+      ]
+    }
+  ],
+  "measurement_record": {
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "measured_at_utc": "2026-10-03T07:25:36.324450+00:00",
+    "input_sha256": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+    "class_probabilities": {
+      "human": 7.394120621029288e-05,
+      "ai": 0.9983372688293457,
+      "ai_edited": 1.30302059915266e-05,
+      "humanized": 0.001575786154717207
+    },
+    "ai_involvement_native_score": 0.9999260587937897,
+    "calibrated": false,
+    "characters_codepoints": 1225,
+    "whitespace_units": 219,
+    "model_tokens": 245,
+    "windows": 1,
+    "weight_loading_backend": "pread",
+    "input_and_measurement_fingerprints": {
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source.txt": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-score\\input.txt": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-score\\model-result.json": "ebccc7efef078b5e8b8e22b174bc8554fdb598ec90ff684b1fd3daa5535b72bf",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-score\\feedback.json": "78c5a7d65870a2a6b5a27c54082ecc3cdabff8f7dd233cf5d0aabd0011de48cf",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-score\\execution.json": "0700a7c62c74425aff6065a8457d720787cb64f7961223a133d88ee621be8685",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\fresh-en\\source-score\\index.json": "99e433c1d208915f3eb6a2adab0233a76db670c20f54bc2fd25313ce10eade20"
+    }
+  },
+  "editor_triage": {
+    "revise": [
+      {
+        "id": "R1",
+        "finding_ids": [
+          "S1",
+          "S5"
+        ],
+        "priority": "low",
+        "locations": [
+          "P2 last sentence",
+          "P3 last sentence",
+          "P4 last sentence"
+        ],
+        "issue": "구체적 경험 뒤마다 확인·작성 원칙을 설명하고 결말에서 다시 일반적 교훈으로 추상화해 마무리가 다소 설명적으로 느껴질 수 있음.",
+        "editor_action": "제한적인 구성 실험에서 중복된 일반론과 절차 문장의 배치를 점검한다. P4의 일요일 시한은 유지하고, 각 한계와 확인 의무가 실제로 더 쉽게 구별되는지를 원문과 비교한다. 특정 문단을 삭제하라는 모델 권고가 아니다.",
+        "must_preserve": [
+          "P1의 단일 측정이라는 한계",
+          "P2의 평소 출입 시간 미확인 상태",
+          "P3의 대체 접근 경로 미확인과 발송 전 확인 의무",
+          "P4의 일요일까지 유용한 안내를 보내려는 의지"
+        ],
+        "human_alternative": "성찰문에서 배운 점을 명시하는 결말은 의도적일 수 있으므로 원문 유지도 정당한 선택이다.",
+        "success_criterion": "모든 고정 사실·불확실성·시점·의무가 보존되고, 반복 설명이 줄어 준비 상태를 더 쉽게 읽을 수 있을 때만 채택. 모델 수치 상승은 성공 기준 아님."
+      }
+    ],
+    "retain": [
+      {
+        "id": "K1",
+        "locations": [
+          "P1"
+        ],
+        "content": "친구의 일요일 방문 목적, 수요일 답사, 역→오래된 보행교, 20분 예상, 35분 한 번의 기록, 거리 이름 두 개 확인에 멈춘 영향, 두 번째 시간을 재지 않았다는 사실."
+      },
+      {
+        "id": "K2",
+        "locations": [
+          "P2"
+        ],
+        "content": "시장까지 지도 사용, 가판 뒤 경로와 방문 당시 잠긴 문, 상시 잠금/방문 시각 문제 구분 불가, 평소 출입 시간 미확인 상태로 관측을 기술하려는 요구."
+      },
+      {
+        "id": "K3",
+        "locations": [
+          "P3"
+        ],
+        "content": "조용한 강변 선호, 고르지 않은 포장, 휠체어 이용자에게 추천하기 망설임, 대체 접근 경로 미확인, 보내기 전 그 점을 확인할 의무. 실제 부적합 판정이나 적합 보장으로 강화하지 않음."
+      },
+      {
+        "id": "K4",
+        "locations": [
+          "P1",
+          "P4"
+        ],
+        "content": "1인칭 성찰 목소리와 일요일까지 유용한 안내를 보내려는 시한. 새 체험·주소·경로·접근성 결과를 추가하지 않음."
+      }
+    ],
+    "unresolved": [
+      {
+        "id": "U1",
+        "issue": "성찰 에세이인지 실제 친구에게 전달할 길 안내인지가 별도 외부 형식으로 지정되지 않음.",
+        "handling": "현재 문면은 안내를 준비하는 성찰문으로 읽는다. 그 범위 안에서 구성만 실험하고, 실제 경로 안내서로 전환하거나 방향·지명을 창작하지 않는다."
+      },
+      {
+        "id": "U2",
+        "issue": "평소 출입 시간과 접근 가능한 대체 경로는 원고 안에서 미확인.",
+        "handling": "이를 외부 조사로 채우는 과제가 아니므로 불확실성을 그대로 남긴다. 특히 발송 전 접근성 확인 의무를 단순 고려로 약화하지 않는다."
+      }
+    ]
+  }
+}

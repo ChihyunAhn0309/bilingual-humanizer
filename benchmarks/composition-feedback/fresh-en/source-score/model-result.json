@@ -1,0 +1,105 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T07:25:36.324450+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "77fa35fa6ef54c5a645514e5953a0e40bce8f8a762bc3735b7b5eaf4a5be16fa",
+  "token_count": 245,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 245,
+      "start": 0,
+      "end": 1224,
+      "quote": "I meant to make a short walking guide for a friend who was visiting on Sunday. On Wednesday I walked the route myself, starting at the station and ending at the old footbridge. I had estimated twenty minutes. It took thirty-five, partly because I stopped to check two street names. I did not time a second walk, so thirty-five minutes is a record of that trip, not a reliable estimate for everyone.\n\nThe map was useful until I reached the market. It showed a path behind the stalls, but a locked gate blocked the entrance when I got there. I cannot tell whether that gate is normally locked or whether I happened to arrive at the wrong time. In the guide, I should describe what I found and leave the usual access hours unconfirmed.\n\nI liked the quieter road by the river, although its uneven pavement would make me hesitate to recommend it to someone using a wheelchair. I have not checked whether there is an accessible alternative. Before sending the guide, I need to check that point rather than present my preferred route as suitable for everyone.\n\nI still want to send something useful by Sunday. A clear note about what I have and have not checked would help more than pretending that one walk settled every question.",
+      "class_probabilities": {
+        "human": 7.394120621029288e-05,
+        "ai": 0.9983372688293457,
+        "ai_edited": 1.30302059915266e-05,
+        "humanized": 0.001575786154717207
+      },
+      "ai_involvement_class_score": 0.9999260587937897
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 7.394120621029288e-05,
+    "ai": 0.9983372688293457,
+    "ai_edited": 1.30302059915266e-05,
+    "humanized": 0.001575786154717207
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 398,
+        "quote": "I meant to make a short walking guide for a friend who was visiting on Sunday. On Wednesday I walked the route myself, starting at the station and ending at the old footbridge. I had estimated twenty minutes. It took thirty-five, partly because I stopped to check two street names. I did not time a second walk, so thirty-five minutes is a record of that trip, not a reliable estimate for everyone.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9999260587937897,
+        "after_removal_ai_involvement": 0.9997081239707768,
+        "delta_percentage_points": 0.02179348230129108
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 400,
+        "end": 732,
+        "quote": "The map was useful until I reached the market. It showed a path behind the stalls, but a locked gate blocked the entrance when I got there. I cannot tell whether that gate is normally locked or whether I happened to arrive at the wrong time. In the guide, I should describe what I found and leave the usual access hours unconfirmed.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9999260587937897,
+        "after_removal_ai_involvement": 0.9997314972570166,
+        "delta_percentage_points": 0.019456153677310795
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 734,
+        "end": 1052,
+        "quote": "I liked the quieter road by the river, although its uneven pavement would make me hesitate to recommend it to someone using a wheelchair. I have not checked whether there is an accessible alternative. Before sending the guide, I need to check that point rather than present my preferred route as suitable for everyone.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9999260587937897,
+        "after_removal_ai_involvement": 0.9998943815589882,
+        "delta_percentage_points": 0.0031677234801463783
+      },
+      {
+        "paragraph_id": "P4",
+        "start": 1054,
+        "end": 1224,
+        "quote": "I still want to send something useful by Sunday. A clear note about what I have and have not checked would help more than pretending that one walk settled every question.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9999260587937897,
+        "after_removal_ai_involvement": 0.9999489400579478,
+        "delta_percentage_points": -0.002288126415805891
+      }
+    ],
+    "total_paragraphs": 4,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

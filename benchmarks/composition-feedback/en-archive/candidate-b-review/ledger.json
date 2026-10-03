@@ -1,0 +1,268 @@
+{
+  "text_sha256": "031c40b06e4933cf4bb57ebe608f6fdc513b05ae808b9b7a22fca1389493f487",
+  "summary": "Human 0.6660% / AI 97.8809% / AI-edited 0.0644% / Humanized 1.3887%. 네 값은 보정되지 않은 실험용 영어 모델 클래스 출력이며 실제 작성 이력 확률이나 단어 비율이 아니다. 36개 영어 pilot에서 고득점 인간 글 오탐이 있었다. Humanized를 Human에 합치지 않는다. 전체 156 model tokens가 1창에서 측정됐고 AI 관여 보조 합산값은 99.3340%다. 알려진 이력은 AI 합성 재작성이다. 후보 B는 카드 선호→범위·결과·보고→후속 조건·안내라는 참여자 관점 우선 구성이며 새 독해 결함을 찾지 못했다. 다만 원문/EN1보다 전반적 개선이 확인된 것은 아니다. A 대비 Human +0.024353620%p는 미보정 모델의 작은 수치 차이로 실용적·편집적 개선의 증거가 아니다. 편집본 선택과 수치 기록용 checkpoint를 분리한다. 전체 3/3문단 검토, 제외·미검토 없음. 후보 수정·새 추론 없음.",
+  "document_analysis": {
+    "structure": "사전 brief의 B 경로는 participant view first다. P1은 지속되는 카드 선호와 index 편의, P2는 catalogued 범위와 결과·보고 요구, P3은 연장 전 점검과 승인·미결정 상태·문서 의무다. 이 구성은 유효하지만 원문의 결과 우선이나 A의 조건 우선보다 보편적으로 더 읽기 쉽다는 근거는 없다. 주 독자 목적에 맞춰 선택할 대안이다.",
+    "reasoning_specificity": "June, catalogued-only, uncatalogued 성능 미확립, 24건·median lookup minutes 18→11, we의 최장 시간 미기록, 보고서의 24건 명시 의무가 보존된다. 개인 평가와 운영 조건은 별도 문단으로 구별된다. 새로운 사실·승인·능력 보장을 더하지 않는다. 현실 원자료 진위는 미검증이다.",
+    "voice_consistency": "I still prefer를 앞세워 카드 선호의 담화상 비중을 높이지만 원래의 past ease finding과 continuing preference 모두 남는다. we의 집계 기록과 I의 개인 경험을 혼합하지 않는다. 내부 참여자 의견이라는 brief의 목소리와 맞는다.",
+    "rhythm_repetition": "짧은 1문장 P1, 3문장 P2/P3로 길이가 역할에 따라 다르다. trial/extension/permanent service가 반복되지만 각각 대상과 상태·의무를 받는다. P3 마지막은 여러 절을 묶지만 접속관계가 분명하다. 길이·문장부호만으로 결함이나 AI 흔적을 지적하지 않았다.",
+    "language_features": "영어 문법·지시어·시제·양보 관계를 직접 검토했다. that distinction은 temporary/permanent 구분을 받으며, support the extension은 rota 점검 대상을 명확히 한다. British catalogued/rota와 절제된 문체를 유지한다. score 차이에서 자연스러움의 향상을 역추론하지 않았다.",
+    "citations_provenance": "상위 작업에서 같은 synthetic AI rewrite 이력과 독립 fidelity 통과를 알려 주었다. 이번에는 원문·brief·A/B 내용을 독립적으로 읽고 B의 전체 문단을 검토했다. 완전한 생성 로그·현실 데이터는 인증하지 않았다. B snapshot/candidate/scoring input과 model/feedback/execution hash 일치 및 성공 상태를 확인했다. A 모델 값은 수치 비교에만 사용했다."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "quote": "I still prefer the paper cards for tracing earlier descriptions, though I found the shared index easier to use."
+        }
+      ],
+      "observation": "P1(1행)은 paper cards에 대한 계속되는 선호를 주절에 두고 shared index가 더 쓰기 편했다는 평가를 though 절에 둔다. 원문은 편의를 먼저 말하고 카드 선호를 양보절에 놓는다. 두 개인 평가와 특정 작업의 범위는 유지되고 강조점이 바뀐다.",
+      "interpretation": "사전 brief의 participant-view-first 경로와 맞는 대안이다. 참여자 관점을 먼저 듣는 독자에게는 자연스럽지만, 결과나 연장 조건을 먼저 찾는 독자에게 더 빠르다고 보장할 수 없다. 강조 변경을 충실성 실패 또는 AI 문체 결함이라고 단정하지 않는다.",
+      "human_alternative": "사람 참여자도 자신의 지속되는 선호를 먼저 밝힌 뒤 새 도구의 장점을 인정할 수 있다. 주절/양보절 선택은 논점 우선순위의 문제다.",
+      "discriminating_evidence": "독자가 개인 참여자의 의견을 듣는지 연장 여부를 검토하는지에 따라 선호되는 도입이 달라진다. 이 문장의 큰 삭제 민감도는 그 독자 선호를 측정하지 않는다."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 113,
+          "end": 280,
+          "quote": "In June, the archive trial covered only material that had already been catalogued, so its results do not establish how the system will work with uncatalogued material."
+        },
+        {
+          "start": 281,
+          "end": 419,
+          "quote": "The trial reduced median lookup time from 18 minutes to 11 minutes across 24 requests, although we did not record the longest lookup time."
+        },
+        {
+          "start": 420,
+          "end": 510,
+          "quote": "The trial report should make clear that the change in median time is based on 24 requests."
+        }
+      ],
+      "observation": "P2(3행)는 June trial의 catalogued-only 범위와 uncatalogued 결과 미확립을 먼저 제시하고, 24건·중앙값 18→11분·we의 최장 시간 미기록을 연결한다. 마지막으로 보고서가 24건 근거를 명시해야 한다는 should 의무를 붙인다.",
+      "interpretation": "제한을 먼저 알려 수치를 적용 범위 안에서 읽게 하는 유효한 구성이다. 구체적 사실·관계가 있어 빈 일반론이라는 해석의 반대 근거다. 모델 AI 출력이 높아도 이 점을 문체 결함으로 바꾸지 않는다.",
+      "human_alternative": "사람 보고자도 수치 이전에 표본 범위를 말해 해석의 범위를 제한할 수 있다. 구체성 자체가 사람 작성의 증명은 아니다.",
+      "discriminating_evidence": "기초 기록이 있어야 수치나 인과 표현을 현실 자료로 인증할 수 있다. 이번 과제는 합성 원고의 내용과 독해를 평가하므로 실제 효과를 검증한 것으로 말하지 않는다."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 512,
+          "end": 625,
+          "quote": "Before the trial is extended, the archive lead should check whether the volunteer rota can support the extension."
+        },
+        {
+          "start": 626,
+          "end": 661,
+          "quote": "The rota has not yet been approved."
+        }
+      ],
+      "observation": "P3(5행) 앞의 두 문장은 연장 전 archive lead가 rota 지원 가능성을 확인해야 한다는 should 의무와 아직 승인되지 않은 상태를 분리한다. support the extension은 점검 대상을 명시적으로 받는다.",
+      "interpretation": "시점·행위자·행위 강도가 읽기 쉽다. 원문의 check를 approve로 바꾸거나 승인 완료를 암시하는 문제가 없다. 문장 배치를 바꿔야 할 독해 장애는 확인되지 않았다.",
+      "human_alternative": "사람 작성자도 같은 업무의 실행 가능성과 승인 상태를 각각 짧게 쓸 수 있다.",
+      "discriminating_evidence": "실제 rota와 승인 절차는 별도 원자료로 확인해야 한다. 이 재작성에서 새로운 승인 책임자·조건을 도입할 근거는 없다."
+    },
+    {
+      "id": "S4",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 662,
+          "end": 839,
+          "quote": "No decision has been made on a permanent service: the review must distinguish this temporary trial from a permanent service, and the public notice must explain that distinction."
+        }
+      ],
+      "observation": "P3 마지막은 콜론으로 영구 서비스 미결정 상태와 review/public notice의 두 must 의무를 한 문장에 연결한다. 서로 다른 문서의 action과 공통된 temporary/permanent distinction을 명시한다.",
+      "interpretation": "긴 문장이나 접속 관계와 지시어가 분명해 실제 혼란을 확인하지 못했다. A의 짧은 문서별 문장보다 압축된 대안이며 무조건 더 낫거나 나쁘다고 평가할 근거는 없다. 의무들을 하나로 합쳐 의미를 없애지는 않는다.",
+      "human_alternative": "사람도 미결정 상태가 갖는 문서 작성상의 결과를 콜론으로 설명할 수 있다. 특정 문장부호는 AI 증거가 아니다.",
+      "discriminating_evidence": "빠른 작업 체크리스트가 필요한 독자라면 분리된 문장을 선호할 수 있으나 그 요구를 새로운 결함으로 가정하지 않는다. 현재 원문·brief의 내부 기여문 범위에서는 유지 가능하다."
+    },
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "quote": "I still prefer the paper cards for tracing earlier descriptions, though I found the shared index easier to use."
+        }
+      ],
+      "observation": "상위 의뢰는 후보 B도 같은 알려진 AI 합성 재작성이라고 명시했다. 1인칭 문장은 제공 원문의 개인 평가를 재배치한 것이며 새 실제 사용자 체험으로 주장하지 않는다.",
+      "interpretation": "AI 합성이라는 알려진 이력을 유지한다. Humanized 범주를 Human으로 합치거나 native Human 출력의 작은 증가를 실제 인간 기여 증가로 해석하지 않는다.",
+      "human_alternative": "사람 역시 같은 구성을 만들 수 있지만 이번 후보에 제공된 이력을 뒤집는 증거는 아니다.",
+      "discriminating_evidence": "완전한 생성·수정 이력의 독립 인증은 하지 않았다. 현재 원문·후보·brief 및 실제 성공 scoring 입력의 hash를 확인했다.",
+      "source_record": "상위 세션 메시지의 same known synthetic origin/full review 요청. C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\brief.md Candidate B 경로 및 C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\source.txt를 참조. 상위의 독립 fidelity 통과 보고는 모델 근거와 별개로 취급."
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 111,
+          "quote": "I still prefer the paper cards for tracing earlier descriptions, though I found the shared index easier to use."
+        }
+      ],
+      "observation": "P1 삭제 전 AI 관여 합산값 99.333987850696%, 삭제 후 65.904530882835%, 삭제 전−후 +33.429456967860 percentage points(%p).",
+      "interpretation": "양의 차이는 삭제한 입력의 모델 합산점수가 낮아졌다는 측정이다. 문단의 AI 작성 확률, 내부 이유, 문체 결함 또는 삭제 권고가 아니다. 문단을 삭제하면 개인 평가·수치·의무 등의 구성과 길이·맥락이 함께 바뀐다. 각 삭제 delta를 독립 원인처럼 합산하지 않는다.",
+      "human_alternative": "사람 문단을 지운 경우에도 남은 문맥과 길이의 변화로 같은 방향의 결과가 날 수 있다. 고정 의미를 버려 점수를 낮추는 것은 편집 개선이 아니다.",
+      "discriminating_evidence": "작성 이력·독해·모델 민감도는 별도로 검토해야 한다. 별도 반복·독립 자료 없이 안정성·인과성이나 문단별 확률을 주장하지 않는다. 이번 세션은 새 inference를 하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-b-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P1]; baseline_ai_involvement=0.9933398785069585; after_removal_ai_involvement=0.6590453088283539; delta_percentage_points=33.42945696786046; 원래 156-token 단일 창에서 각 문단 삭제 후 동일 모델로 실행된 저장 결과; measured_at_utc=2026-10-03T07:33:24.315607+00:00."
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 113,
+          "end": 510,
+          "quote": "In June, the archive trial covered only material that had already been catalogued, so its results do not establish how the system will work with uncatalogued material. The trial reduced median lookup time from 18 minutes to 11 minutes across 24 requests, although we did not record the longest lookup time. The trial report should make clear that the change in median time is based on 24 requests."
+        }
+      ],
+      "observation": "P2 삭제 전 AI 관여 합산값 99.333987850696%, 삭제 후 98.626364767551%, 삭제 전−후 +0.707623083144 percentage points(%p).",
+      "interpretation": "양의 차이는 삭제한 입력의 모델 합산점수가 낮아졌다는 측정이다. 문단의 AI 작성 확률, 내부 이유, 문체 결함 또는 삭제 권고가 아니다. 문단을 삭제하면 개인 평가·수치·의무 등의 구성과 길이·맥락이 함께 바뀐다. 각 삭제 delta를 독립 원인처럼 합산하지 않는다.",
+      "human_alternative": "사람 문단을 지운 경우에도 남은 문맥과 길이의 변화로 같은 방향의 결과가 날 수 있다. 고정 의미를 버려 점수를 낮추는 것은 편집 개선이 아니다.",
+      "discriminating_evidence": "작성 이력·독해·모델 민감도는 별도로 검토해야 한다. 별도 반복·독립 자료 없이 안정성·인과성이나 문단별 확률을 주장하지 않는다. 이번 세션은 새 inference를 하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-b-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P2]; baseline_ai_involvement=0.9933398785069585; after_removal_ai_involvement=0.9862636476755142; delta_percentage_points=0.7076230831444263; 원래 156-token 단일 창에서 각 문단 삭제 후 동일 모델로 실행된 저장 결과; measured_at_utc=2026-10-03T07:33:24.315607+00:00."
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 512,
+          "end": 839,
+          "quote": "Before the trial is extended, the archive lead should check whether the volunteer rota can support the extension. The rota has not yet been approved. No decision has been made on a permanent service: the review must distinguish this temporary trial from a permanent service, and the public notice must explain that distinction."
+        }
+      ],
+      "observation": "P3 삭제 전 AI 관여 합산값 99.333987850696%, 삭제 후 35.925787687302%, 삭제 전−후 +63.408200163394 percentage points(%p).",
+      "interpretation": "양의 차이는 삭제한 입력의 모델 합산점수가 낮아졌다는 측정이다. 문단의 AI 작성 확률, 내부 이유, 문체 결함 또는 삭제 권고가 아니다. 문단을 삭제하면 개인 평가·수치·의무 등의 구성과 길이·맥락이 함께 바뀐다. 각 삭제 delta를 독립 원인처럼 합산하지 않는다.",
+      "human_alternative": "사람 문단을 지운 경우에도 남은 문맥과 길이의 변화로 같은 방향의 결과가 날 수 있다. 고정 의미를 버려 점수를 낮추는 것은 편집 개선이 아니다.",
+      "discriminating_evidence": "작성 이력·독해·모델 민감도는 별도로 검토해야 한다. 별도 반복·독립 자료 없이 안정성·인과성이나 문단별 확률을 주장하지 않는다. 이번 세션은 새 inference를 하지 않았다.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-b-score\\model-result.json :: occlusion.paragraphs[paragraph_id=P3]; baseline_ai_involvement=0.9933398785069585; after_removal_ai_involvement=0.35925787687301636; delta_percentage_points=63.40820016339421; 원래 156-token 단일 창에서 각 문단 삭제 후 동일 모델로 실행된 저장 결과; measured_at_utc=2026-10-03T07:33:24.315607+00:00."
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "retain. 카드 선호가 먼저라는 강조 변경은 목적에 맞는 대안이다. 두 평가와 범위를 보존했으며 새 결함 없음. O1 삭제 민감도는 독자 효용과 별개다.",
+      "finding_ids": [
+        "S1",
+        "H1",
+        "O1"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "retain. 범위를 먼저 알리고 수치·한계·보고 요구를 연결한다. 표본 규모와 각 미확인 내용을 유지하며 추가 수정 필요 없음.",
+      "finding_ids": [
+        "S2",
+        "O2"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "retain. 연장 전 점검/미승인/미결정/두 문서 의무가 구분된다. 마지막 문장은 길지만 이해 가능하며 고칠 실제 문제를 찾지 못했다. O3가 크다는 이유로 의무를 삭제하지 않는다.",
+      "finding_ids": [
+        "S3",
+        "S4",
+        "O3"
+      ]
+    }
+  ],
+  "measurement_record": {
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "measured_at_utc": "2026-10-03T07:33:24.315607+00:00",
+    "text_sha256": "031c40b06e4933cf4bb57ebe608f6fdc513b05ae808b9b7a22fca1389493f487",
+    "native_class_probabilities": {
+      "human": 0.006660121493041515,
+      "ai": 0.9788092970848083,
+      "ai_edited": 0.0006439443095587194,
+      "humanized": 0.01388656534254551
+    },
+    "ai_involvement_native_score": 0.9933398785069585,
+    "independently_calibrated": false,
+    "characters_codepoints": 840,
+    "whitespace_units": 140,
+    "model_tokens": 156,
+    "windows": 1,
+    "weight_loading_backend": "pread",
+    "preserved_fingerprints": {
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-b.txt": "031c40b06e4933cf4bb57ebe608f6fdc513b05ae808b9b7a22fca1389493f487",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\source.txt": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\brief.md": "073c4fabc0ee484206662ee9bc52c48aef863a40bc152e79d6c7abc2619d192f",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-a-score\\model-result.json": "6dfa9c015f7710ce739e208ffe5d64652601e92db083dd79b4ebd9f7942e4a39",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-b-score\\input.txt": "031c40b06e4933cf4bb57ebe608f6fdc513b05ae808b9b7a22fca1389493f487",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-b-score\\model-result.json": "16d3855475b79129edd707ef14734b54353aa9880ae086c9f11123da0cdfd057",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-b-score\\feedback.json": "1840dfe19238c102a6c78e9a47da22fdc0110ad9f00f8aefa9ec5adc34e4ab42",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-b-score\\execution.json": "ec0a8108e10b433d9496424e3a39184032be3555b081c076056d7176f92d1d49",
+      "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\composition-feedback\\en-archive\\candidate-b-score\\index.json": "b523198b4d3ea0ffb3300b210ef9083b97c955b5d7fbd84bf6309ac2e690538f"
+    },
+    "native_human_delta_vs_A_percentage_points": 0.024353619664907455
+  },
+  "editor_triage": {
+    "revise": [],
+    "retain": [
+      {
+        "paragraph_id": "P1",
+        "reason": "카드 선호를 전면화한 참여자 관점 대안. index 편의와 특정 작업에서의 선호, I 주체·시제·강도 모두 유지."
+      },
+      {
+        "paragraph_id": "P2",
+        "reason": "범위→수치→보고 의무가 자연스럽고 모든 한계·표본·지표를 구분. 추가 문체 결함 없음."
+      },
+      {
+        "paragraph_id": "P3",
+        "reason": "lead 점검·미승인·영구 미결정·review/public notice 의무가 읽기 쉽게 연결됨. 콜론 문장도 의미를 보존."
+      }
+    ],
+    "unresolved": [
+      {
+        "issue": "개인 기여를 먼저 듣는 독자와 연장 조건을 먼저 찾는 독자 사이의 최종 우선순위.",
+        "handling": "사전 brief가 각각의 대안을 허용하므로 목적에 따라 편집본을 선택한다. 점수로 결정하지 않는다."
+      }
+    ],
+    "checkpoint_options": {
+      "editorial": {
+        "recommendation": "후보 B는 참여자 관점 우선 대안으로 유지 가능하나 원문/EN1보다 전반적 독해가 개선됐다고 확인하지 못했다. 연장 조건을 먼저 찾는 독자에게는 A의 조건 우선 배열이 더 직접적이다. 독자 목적에 따라 원문/EN1/A 중 편집본을 택할 수 있으며 B의 작은 수치 우위로 교체할 이유는 없다.",
+        "new_revision_required": false
+      },
+      "score_record_only": {
+        "label": "Among A and B, B has the higher native Human output; retain as numerical checkpoint only if useful.",
+        "candidate_a_native_human": 0.006416585296392441,
+        "candidate_b_native_human": 0.006660121493041515,
+        "difference_percentage_points": 0.024353619664907455,
+        "not_an_editorial_or_authorship_gain": true
+      }
+    }
+  }
+}

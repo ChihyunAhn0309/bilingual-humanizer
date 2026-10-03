@@ -1,0 +1,42 @@
+{
+  "status": "review_completed",
+  "input_sha256": "c62bacb9b9f1f3a3520c0fdbffcd22da520f05ef7d4714c22dbe4b43479c1440",
+  "native_class_probabilities": {
+    "human": 0.006416585296392441,
+    "ai": 0.9848235845565796,
+    "ai_edited": 0.0006240382790565491,
+    "humanized": 0.008135831914842129
+  },
+  "authorship_verified": false,
+  "known_origin": "Synthetic AI rewrite, supplied by parent session",
+  "coverage": {
+    "reviewed": 3,
+    "total": 3,
+    "excluded": 0,
+    "not_reviewed": 0
+  },
+  "revise": [],
+  "retain": [
+    {
+      "paragraph_id": "P1",
+      "reason": "연장 조건과 영구 결정 부재를 먼저 제시하는 순서가 사전 선언된 의사결정 중심 독자 목적에 맞음. lead/check/should/before extension와 rota 미승인 상태를 유지."
+    },
+    {
+      "paragraph_id": "P2",
+      "reason": "수치·결과 한계·범위·개인 평가가 정확히 구분됨. June trial, 24건, 중앙값 18→11분, we의 미기록, catalogued-only와 uncatalogued 결과 미확립, I의 상반된 개인 평가를 유지."
+    },
+    {
+      "paragraph_id": "P3",
+      "reason": "report/review/public notice의 다른 should/must 의무를 기능적으로 병렬화함. 반복된 The만을 이유로 합치거나 삭제할 필요 없음."
+    }
+  ],
+  "unresolved": [
+    {
+      "issue": "현실의 원 측정자료·인력 계획·승인 상태는 이 검토에서 검증하지 않았음.",
+      "handling": "합성 평가 원고의 제공 사실을 유지하며 새 결과·책임자·승인 조건을 추가하지 않는다. 이는 후보 수정이 필요한 문체 결함을 뜻하지 않는다."
+    }
+  ],
+  "recommendation": "현재 후보 A 유지 가능. 사전 선언한 조건→근거→문서 의무 구성에 맞으며 추가 독해 결함을 찾지 못했다. B와의 선택이나 원문보다의 전체 우열은 이 후보 단독 검토로 확정하지 않는다.",
+  "new_inference_runs": 0,
+  "candidate_edits": 0
+}
