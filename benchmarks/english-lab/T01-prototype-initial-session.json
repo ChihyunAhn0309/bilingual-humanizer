@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "source": {
+    "path": "transfer/T01-repair-queue.source.txt",
+    "sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697"
+  },
+  "revision_limit": 3,
+  "rounds": [
+    {
+      "fidelity": {
+        "eligible": true,
+        "source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+        "reason": "Frozen supplied synthetic source and all semantic constraints preserved, as checked by the independent paragraph/constraint review."
+      },
+      "reader": {
+        "eligible": true,
+        "reason": "Whole-document independent review found a suitable reader route and no necessary repair."
+      },
+      "followup": [],
+      "improvement": false,
+      "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original.",
+      "id": "source",
+      "candidate": {
+        "path": "transfer/T01-repair-queue.source.txt",
+        "sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697"
+      },
+      "native": {
+        "path": "transfer-scores/T01/source/model-result.json",
+        "sha256": "6346754780ef97f3f012ef970553338d5a6b7db15d96c12100487f63f50b7b4f"
+      },
+      "feedback": {
+        "path": "transfer-scores/T01/source/feedback.json",
+        "sha256": "117d43a52c4124cd0f9df7732038016f1aec8fd0e306f5d749a7e124f0ebe33b"
+      },
+      "review": {
+        "path": "transfer-reviews/T01.validated-full.json",
+        "sha256": "0be7370dde517627a4f6538561a4dbf45263703fe73620ed7089377064bab4ba"
+      },
+      "triage": [
+        {
+          "finding_id": "E1",
+          "decision": "retain",
+          "reason": "Read in the common pre-draft feedback and retained in the writer record. The repeated explanatory wrap-up creates a polished, planned cadence that can occur in generated exposition. The claim is about visible rhetoric, not a model feature or proof of origin. No source-fidelity or reader defect was established."
+        },
+        {
+          "finding_id": "E2",
+          "decision": "retain",
+          "reason": "Read in the common pre-draft feedback and retained in the writer record. These details counter a characterization of the source as vague or padded and are compatible with careful explanatory writing. They do not indicate human origin: the case is known to be synthetic. No source-fidelity or reader defect was established."
+        },
+        {
+          "finding_id": "E3",
+          "decision": "retain",
+          "reason": "Read in the common pre-draft feedback and retained in the writer record. A generated explanation can use this condition-and-consequence pair. Its conventional phrasing alone gives no directional authorship evidence in this context. No source-fidelity or reader defect was established."
+        },
+        {
+          "finding_id": "E4",
+          "decision": "retain",
+          "reason": "Read in the common pre-draft feedback and retained in the writer record. The symmetrical close is compatible with generated explanatory prose, although this observation overlaps with E1 and must not count as an independent authorship vote. No source-fidelity or reader defect was established."
+        },
+        {
+          "finding_id": "E5",
+          "decision": "retain",
+          "reason": "Read in the common pre-draft feedback and retained in the writer record. The limited recommendation counters an allegation of inflated certainty or an obligatory upbeat ending. It is compatible with attentive human editing and equally reproducible by AI. No source-fidelity or reader defect was established."
+        },
+        {
+          "finding_id": "O1",
+          "decision": "retain",
+          "reason": "Read in the common pre-draft feedback and retained in the writer record. This is measured sensitivity to deleting the whole paragraph. A positive delta means the shortened input scored lower. It is not that paragraph's AI probability, a defective-phrase location, a causal feature attribution, or an editorial repair instruction. Qualitative strength remains weak as authorship evidence regardless of numerical magnitude. No source-fidelity or reader defect was established."
+        },
+        {
+          "finding_id": "O2",
+          "decision": "retain",
+          "reason": "Read in the common pre-draft feedback and retained in the writer record. This is measured sensitivity to deleting the whole paragraph. A positive delta means the shortened input scored lower. It is not that paragraph's AI probability, a defective-phrase location, a causal feature attribution, or an editorial repair instruction. Qualitative strength remains weak as authorship evidence regardless of numerical magnitude. No source-fidelity or reader defect was established."
+        },
+        {
+          "finding_id": "O3",
+          "decision": "retain",
+          "reason": "Read in the common pre-draft feedback and retained in the writer record. This is measured sensitivity to deleting the whole paragraph. A positive delta means the shortened input scored lower. It is not that paragraph's AI probability, a defective-phrase location, a causal feature attribution, or an editorial repair instruction. Qualitative strength remains weak as authorship evidence regardless of numerical magnitude. No source-fidelity or reader defect was established."
+        }
+      ]
+    },
+    {
+      "fidelity": {
+        "eligible": true,
+        "source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+        "reason": "Frozen supplied synthetic source and all semantic constraints preserved, as checked by the independent paragraph/constraint review."
+      },
+      "reader": {
+        "eligible": true,
+        "reason": "Whole-document independent review found a suitable reader route and no necessary repair."
+      },
+      "followup": [],
+      "improvement": false,
+      "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original.",
+      "id": "draft-1",
+      "candidate": {
+        "path": "prototype-output/T01/draft-1.txt",
+        "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1"
+      },
+      "native": {
+        "path": "transfer-scores/T01/B/model-result.json",
+        "sha256": "acaf71a38bb5fb9fff89b3400209555dd7696f3fa58a742c77412088cf2d3db6"
+      },
+      "feedback": {
+        "path": "transfer-scores/T01/B/feedback.json",
+        "sha256": "7919e2e5c5bdd6453918bea64bf95d028810d9df423ae58b157529174a70624e"
+      },
+      "review": {
+        "path": "candidate-feedback/T01/B/validated-full.json",
+        "sha256": "ec0d58d0cb0672b7fe72f59af8b101c0ebc0ce0c1cf1508caeadb7b5383a6306"
+      },
+      "triage": [
+        {
+          "finding_id": "S1",
+          "decision": "retain",
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified."
+        },
+        {
+          "finding_id": "S2",
+          "decision": "retain",
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified."
+        },
+        {
+          "finding_id": "S3",
+          "decision": "retain",
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified."
+        },
+        {
+          "finding_id": "O1",
+          "decision": "retain",
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score."
+        },
+        {
+          "finding_id": "O2",
+          "decision": "retain",
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score."
+        },
+        {
+          "finding_id": "O3",
+          "decision": "retain",
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score."
+        }
+      ]
+    }
+  ],
+  "stop": {
+    "reason": "complete",
+    "detail": "Actual source feedback preceded this draft; its exact local measurement and full independent post-draft review contain no actionable editing findings. This manifest is assembled after those events; it is not an autonomous rewriting execution log. Later explicitly requested alternative continuations are recorded separately with the initial comparison preserved."
+  }
+}

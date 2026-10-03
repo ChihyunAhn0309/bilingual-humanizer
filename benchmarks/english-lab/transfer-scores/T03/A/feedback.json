@@ -1,0 +1,88 @@
+{
+  "status": "completed",
+  "language": "en",
+  "input_sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07",
+  "measured_at_utc": "2026-10-03T10:46:13.114240+00:00",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "scope": "whole_document",
+  "native_class_probabilities": {
+    "human": 0.0013351638335734606,
+    "ai": 0.9593549370765686,
+    "ai_edited": 0.00019556059851311147,
+    "humanized": 0.039114341139793396
+  },
+  "human_percent": 0.13351638335734606,
+  "probability_semantics": "Native Human/AI/AI-edited/Humanized classes; not word shares or verified writing history.",
+  "calibration": null,
+  "cautions": [
+    "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "English four-class outputs are uncalibrated experimental auxiliary scores."
+  ],
+  "measured_evidence": {
+    "windows": [
+      {
+        "token_start": 0,
+        "token_end": 197,
+        "start": 0,
+        "end": 947,
+        "quote": "My warning system was a folded towel on the seat of a loose chair. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood the warning, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt; an awkward joint did not seem reason enough to throw it out.\n\nLast Sunday I finally took it apart. The back came away with one careful pull, though I had expected the old glue to resist. There is a pale patch underneath that might be a repair or just where the finish wore off. I cannot remember whether my aunt ever repaired it herself. I left the patch alone.\n\nThe chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe.",
+        "class_probabilities": {
+          "human": 0.0013351638335734606,
+          "ai": 0.9593549370765686,
+          "ai_edited": 0.00019556059851311147,
+          "humanized": 0.039114341139793396
+        },
+        "ai_involvement_class_score": 0.9986648361664265
+      }
+    ],
+    "occlusion": {
+      "performed": true,
+      "paragraphs": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 337,
+          "quote": "My warning system was a folded towel on the seat of a loose chair. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood the warning, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt; an awkward joint did not seem reason enough to throw it out.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9986648361664265,
+          "after_removal_ai_involvement": 0.9910065736621618,
+          "delta_percentage_points": 0.7658262504264712
+        },
+        {
+          "paragraph_id": "P2",
+          "start": 339,
+          "end": 638,
+          "quote": "Last Sunday I finally took it apart. The back came away with one careful pull, though I had expected the old glue to resist. There is a pale patch underneath that might be a repair or just where the finish wore off. I cannot remember whether my aunt ever repaired it herself. I left the patch alone.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9986648361664265,
+          "after_removal_ai_involvement": 0.9226508811116219,
+          "delta_percentage_points": 7.601395505480468
+        },
+        {
+          "paragraph_id": "P3",
+          "start": 640,
+          "end": 947,
+          "quote": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9986648361664265,
+          "after_removal_ai_involvement": 0.9931864854879677,
+          "delta_percentage_points": 0.547835067845881
+        }
+      ],
+      "total_paragraphs": 3,
+      "unmeasured_due_to_limit": 0,
+      "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+    }
+  },
+  "authorship_verified": false,
+  "semantic_review_required": true,
+  "style_review_completed": false,
+  "external_detector_calls": 0,
+  "raw_result_sha256": "0421eae019c1b3f1e9feefe1190461d5e632bb20a643d966bbd092ff74fa0bd7",
+  "paragraph_review_required": [
+    "P1",
+    "P2",
+    "P3"
+  ]
+}

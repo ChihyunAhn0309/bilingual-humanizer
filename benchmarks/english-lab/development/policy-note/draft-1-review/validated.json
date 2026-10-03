@@ -1,0 +1,200 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "c7ad6b4a34578e1e0a67308ab88d10a6c4d776de1e143a195e3ce07f9eb25d80",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Completed source-to-draft follow-up: recommendation and staffing now form P1; the evidence comparison and limitation form P2; proposed actions and limits form P3. Source findings S1 and S2 are resolved without losing content. Parent pre-score review found the complete candidate faithful and useful. Native Human rose from 0.1958006% to 0.6336482%, a small absolute change, not validated authorship or general detector improvement. No necessary new repair.",
+  "document_analysis": {
+    "structure": "P1 states recommendation and its operating risk together. P2 gives Saturday's real attendance advantage and the records-only basis. P3 covers review, counting and the limits of completed repairs.",
+    "reasoning_specificity": "All numeric comparisons and staff constraints survive; the recommendation remains contestable and the absence of a survey remains explicit.",
+    "voice_consistency": "Contractions make the committee recommendation more ordinary without changing its cautious, practical stance. No invented personality or emotion.",
+    "rhythm_repetition": "Longer P1 holds one dependency; P2 and P3 vary naturally with their different jobs. Repeated Wednesday/Saturday names prevent ambiguity rather than signalling an origin.",
+    "language_features": "Natural professional English. 'I'd keep' expresses recommendation, 'could leave' keeps risk conditional, and 'suits' refers to convenience.",
+    "citations_provenance": "Known AI source and rewrite. Parent separate-from-writer prescore report exists; this post-score analysis is self-review. No commercial output or human authorship claim."
+  },
+  "findings": [
+    {
+      "id": "D1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "Staffing reason now follows the recommendation immediately, then gives both the extra-volunteer requirement and Mara's exact availability.",
+      "interpretation": "This resolves source S1/S2's delayed reason and abstract framing; the full source comparison preserves welcome stance and possible risk.",
+      "human_alternative": "Either arrangement could be written by a human; the useful hierarchy is an editorial judgment.",
+      "discriminating_evidence": "Independent parent review and full source comparison support fidelity; they do not predict model behavior.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 412,
+          "quote": "I'd keep the repair session on Wednesdays this winter rather than move it to Saturday. Higher attendance is welcome, but moving now could leave the electrical bench unavailable just when more visitors arrive. Each Saturday trial needed a second volunteer at that bench. Mara can cover Wednesdays until the end of February, but she hasn't committed to Saturdays, and we don't yet have another qualified volunteer.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "observation": "Exact comparison remains beside its limited record basis and absent survey.",
+      "interpretation": "Concrete evidence is not substituted for preferences of people who have not attended.",
+      "human_alternative": "Human committee notes often use the same comparison and caution.",
+      "discriminating_evidence": "Counts do not authenticate the fictional event; source matching only establishes rewrite fidelity.",
+      "spans": [
+        {
+          "start": 414,
+          "end": 643,
+          "quote": "Saturday did attract more people: 20 and 23 at the two trials, compared with 11 to 18 on Wednesdays. I'm basing the recommendation on attendance records from the last six sessions, not a survey of everyone who might want to come.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "observation": "January review is conditional, waiting-loss counts are proposed, and completed-repair totals remain limited evidence.",
+      "interpretation": "Distinct action statuses and temporal scopes are clear.",
+      "human_alternative": "Specific restrained operational prose is compatible with human writing.",
+      "discriminating_evidence": "No source fact or instruction can be removed for a detector gain.",
+      "spans": [
+        {
+          "start": 645,
+          "end": 939,
+          "quote": "If another volunteer comes forward, I suggest we review the decision in January. Meanwhile, we should count the people who leave without a repair because they can't wait. So far we've counted completed repairs, but those totals can't tell us whether Wednesday suits people who haven't attended.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "basis": "local_occlusion",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 412,
+          "quote": "I'd keep the repair session on Wednesdays this winter rather than move it to Saturday. Higher attendance is welcome, but moving now could leave the electrical bench unavailable just when more visitors arrive. Each Saturday trial needed a second volunteer at that bench. Mara can cover Wednesdays until the end of February, but she hasn't committed to Saturdays, and we don't yet have another qualified volunteer.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "Largest absolute paragraph-deletion sensitivity: P1. Baseline AI-involvement=0.9936635177582502; after deletion=0.459178626537323; delta=53.448489122092724 percentage points.",
+      "interpretation": "Measured context/length sensitivity, not paragraph authorship probability or proof of a defective phrase. Reviewed this paragraph in the whole document.",
+      "human_alternative": "Conventional human prose can receive high-confidence false positives on this experimental model; deleting text also changes context and length.",
+      "discriminating_evidence": "A complete faithful alternative can test model response but cannot authenticate writing history.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\policy-note\\draft-1-score\\model-result.json"
+    },
+    {
+      "id": "H",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 412,
+          "quote": "I'd keep the repair session on Wednesdays this winter rather than move it to Saturday. Higher attendance is welcome, but moving now could leave the electrical bench unavailable just when more visitors arrive. Each Saturday trial needed a second volunteer at that bench. Mara can cover Wednesdays until the end of February, but she hasn't committed to Saturdays, and we don't yet have another qualified volunteer.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "New AI-origin synthetic source and AI-authored development rewrites, created for this experiment.",
+      "interpretation": "Known generation history is separate from naturalness and the uncalibrated native classes.",
+      "human_alternative": "A human could write similar prose; that possibility does not change this fixture creation record.",
+      "discriminating_evidence": "No claim is made that the described events occurred. Hashes identify exact artifacts, not authorship.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\PROTOCOL.md"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 412,
+      "line": 1,
+      "text": "I'd keep the repair session on Wednesdays this winter rather than move it to Saturday. Higher attendance is welcome, but moving now could leave the electrical bench unavailable just when more visitors arrive. Each Saturday trial needed a second volunteer at that bench. Mara can cover Wednesdays until the end of February, but she hasn't committed to Saturdays, and we don't yet have another qualified volunteer.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Source accepted issues resolved; the recommendation and constraints are now directly connected.",
+      "finding_ids": [
+        "D1",
+        "H",
+        "M"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 414,
+      "end": 643,
+      "line": 3,
+      "text": "Saturday did attract more people: 20 and 23 at the two trials, compared with 11 to 18 on Wednesdays. I'm basing the recommendation on attendance records from the last six sessions, not a survey of everyone who might want to come.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Exact evidence and limitation preserved with clear wording.",
+      "finding_ids": [
+        "D2"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 645,
+      "end": 939,
+      "line": 5,
+      "text": "If another volunteer comes forward, I suggest we review the decision in January. Meanwhile, we should count the people who leave without a repair because they can't wait. So far we've counted completed repairs, but those totals can't tell us whether Wednesday suits people who haven't attended.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "All distinct future and past-count functions preserved.",
+      "finding_ids": [
+        "D3"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 3,
+    "paragraphs_reviewed": 3,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_local_model",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "measured_at_utc": "2026-10-03T10:16:06.577258+00:00",
+    "class_probabilities": {
+      "human": 0.0063364822417497635,
+      "ai": 0.9717162847518921,
+      "ai_edited": 0.001993664773181081,
+      "humanized": 0.01995362527668476
+    },
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "calibration": null,
+    "applicability_cautions": [],
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "language_scope": "English only; independently uncalibrated",
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  }
+}

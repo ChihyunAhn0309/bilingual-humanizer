@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "stop_detail": "Accepted feedback closed. Source plus two faithful complete drafts were measured. The intermediate draft-2 text is retained and fully reviewed but deliberately not submitted because of fidelity failure. All actual changed drafts counted: two post-draft revisions. Select draft-1 by highest native Human among faithful reader-eligible closed candidates. The alternative did not improve the score; no universal target or authorship claim.",
+  "revision_limit": 3,
+  "revisions_used": 2,
+  "prior_revisions_used": 0,
+  "recorded_text_revisions": 2,
+  "prior_revision_note": null,
+  "selected_candidate": {
+    "id": "draft-1",
+    "candidate": {
+      "path": "draft-1.txt",
+      "sha256": "c7ad6b4a34578e1e0a67308ab88d10a6c4d776de1e143a195e3ce07f9eb25d80"
+    },
+    "human_percent": 0.6336482241749763,
+    "native_class_probabilities": {
+      "human": 0.0063364822417497635,
+      "ai": 0.9717162847518921,
+      "ai_edited": 0.001993664773181081,
+      "humanized": 0.01995362527668476
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": false,
+    "declared_reader_improvement": true,
+    "human_change_percentage_points": 0.437847594730556,
+    "improvement_reason": "Places recommendation and staffing reason together and keeps actual evidence with its limitation; separate parent reader review supports the benefit.",
+    "eligibility_review_round": "draft-1"
+  },
+  "selection_basis": "highest_native_document_human",
+  "best_faithful_checkpoint": {
+    "id": "draft-1",
+    "candidate": {
+      "path": "draft-1.txt",
+      "sha256": "c7ad6b4a34578e1e0a67308ab88d10a6c4d776de1e143a195e3ce07f9eb25d80"
+    },
+    "human_percent": 0.6336482241749763,
+    "native_class_probabilities": {
+      "human": 0.0063364822417497635,
+      "ai": 0.9717162847518921,
+      "ai_edited": 0.001993664773181081,
+      "humanized": 0.01995362527668476
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": false,
+    "declared_reader_improvement": true,
+    "human_change_percentage_points": 0.437847594730556,
+    "improvement_reason": "Places recommendation and staffing reason together and keeps actual evidence with its limitation; separate parent reader review supports the benefit.",
+    "eligibility_review_round": "draft-1"
+  },
+  "rounds": [
+    {
+      "id": "source",
+      "candidate": {
+        "path": "source.txt",
+        "sha256": "0a5d039cb791a4b9043f176ae85f4b550bdaf8313af7f7dce67bb1cf4a28f478"
+      },
+      "human_percent": 0.19580062944442034,
+      "native_class_probabilities": {
+        "human": 0.0019580062944442034,
+        "ai": 0.9766160249710083,
+        "ai_edited": 0.00028002308681607246,
+        "humanized": 0.021146036684513092
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [
+        "S1",
+        "S2"
+      ],
+      "feedback_closed": false,
+      "is_revision": false,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": null,
+      "improvement_reason": "Original reviewed before rewriting; source S1/S2 accepted as useful organization changes."
+    },
+    {
+      "id": "draft-1",
+      "candidate": {
+        "path": "draft-1.txt",
+        "sha256": "c7ad6b4a34578e1e0a67308ab88d10a6c4d776de1e143a195e3ce07f9eb25d80"
+      },
+      "human_percent": 0.6336482241749763,
+      "native_class_probabilities": {
+        "human": 0.0063364822417497635,
+        "ai": 0.9717162847518921,
+        "ai_edited": 0.001993664773181081,
+        "humanized": 0.01995362527668476
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": false,
+      "declared_reader_improvement": true,
+      "human_change_percentage_points": 0.437847594730556,
+      "improvement_reason": "Places recommendation and staffing reason together and keeps actual evidence with its limitation; separate parent reader review supports the benefit."
+    },
+    {
+      "id": "draft-2",
+      "candidate": {
+        "path": "draft-2.txt",
+        "sha256": "d1d6373faa40b820f3a78e454d4d7336ad75ffb85d203c68e87f51083df49333"
+      },
+      "human_percent": null,
+      "native_class_probabilities": null,
+      "scope": "unavailable",
+      "fidelity_eligible": false,
+      "reader_eligible": true,
+      "open_findings": [
+        "E1"
+      ],
+      "feedback_closed": false,
+      "is_revision": true,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": null,
+      "improvement_reason": "A potentially useful evidence-first alternative introduced a broader survey-conduct assertion; rejected unscored, no quality gain claimed."
+    },
+    {
+      "id": "draft-3",
+      "candidate": {
+        "path": "draft-3.txt",
+        "sha256": "34136cbcc5e27fa42a1e45cf32c38436fae71066a44d4317b5f63735ede80444"
+      },
+      "human_percent": 0.5177709739655256,
+      "native_class_probabilities": {
+        "human": 0.005177709739655256,
+        "ai": 0.8966549634933472,
+        "ai_edited": 0.0006868013879284263,
+        "humanized": 0.09748055040836334
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": true,
+      "declared_reader_improvement": true,
+      "human_change_percentage_points": null,
+      "improvement_reason": "Repairs the survey-basis drift while preserving the complete evidence-first route; compared with draft-1 it is an alternative, not an established overall reader win."
+    }
+  ],
+  "current_open_findings": [],
+  "numeric_unavailable_rounds": [
+    "draft-2"
+  ],
+  "validation_scope": "Saved records, exact hashes/spans, coverage, native values and followup links; not semantic truth, reviewer independence, execution authenticity or authorship."
+}

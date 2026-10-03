@@ -1,0 +1,92 @@
+{
+  "text_sha256": "d5e79d5787e61d7a86c6018bff60a46ea9363235ee0d7e17cfc42cb0501d0269",
+  "summary": "Fresh-context brief-only composition is coherent but fails fidelity on expectation and the ongoing knowledge limit. Parent review withheld scoring. The complete draft is preserved; no numeric measurement exists. This full ledger is assembled from the saved draft and pre-score rejection after repair preparation, not claimed as a prior validated artifact. No reader superiority is established by fresh context alone.",
+  "document_analysis": {
+    "structure": "Guide content and interview in P1, operation/navigation and price verdict in P2, exhibition visit in P3. Conventional but coherent review route.",
+    "reasoning_specificity": "Concrete detail remains, and uncertain causality is explicit. Two mental-state claims drift: expectation becomes a wish and current uncertainty becomes past inability.",
+    "voice_consistency": "Generally restrained British first-person review, but 'hoping' changes the source's stance rather than just its surface voice.",
+    "rhythm_repetition": "P3 separately repeats closure already implied in the conditional longer visit; understandable but not a proved reader improvement. No noise or arbitrary fragments.",
+    "language_features": "Fluent English masks the two fidelity shifts. The exact brief supplied expectation and current inability, so omission in the brief is not an excuse for this returned wording.",
+    "citations_provenance": "AI-origin source; parent-dispatched fresh-context writer saw only the meaning/voice brief, not source/old drafts/scores. Parent reviewed source independently before any inference. Context isolation is a workflow variable, not an instruction-only effect."
+  },
+  "findings": [
+    {
+      "id": "E1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "Hoping expresses desire; the source and brief supply expectation about the guide's explanatory content.",
+      "interpretation": "Fidelity defect needing repair, not authorship evidence.",
+      "human_alternative": "A human paraphraser might also choose a fluent near-synonym with a different mental stance.",
+      "discriminating_evidence": "Source 'I expected it to explain' and brief 'Expected subject' support expectation only.",
+      "spans": [
+        {
+          "start": 72,
+          "end": 121,
+          "quote": "hoping to hear how the port had changed over time"
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "Past couldn't tell does not explicitly preserve the source's present cannot tell.",
+      "interpretation": "The review's ongoing epistemic limit must remain while keeping the causal uncertainty explicit.",
+      "human_alternative": "A human editor may switch tense to fit surrounding narrative and inadvertently weaken a current qualification.",
+      "discriminating_evidence": "Compare the source's current cannot tell against the candidate's couldn't tell.",
+      "spans": [
+        {
+          "start": 704,
+          "end": 798,
+          "quote": "I couldn't tell whether the mismatch was permanent or had been caused by exhibits being moved."
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 479,
+          "quote": "I hired the £4 audio guide on Sunday's visit to the harbour exhibition, hoping to hear how the port had changed over time. Most of the recordings described objects already identified by the labels. One exception was a six-minute interview with a former crane operator, who explained why crews resorted to hand signals when the radio failed. That account of how they worked helped me understand a photograph I had walked past earlier. I would recommend listening to the interview."
+        }
+      ],
+      "observation": "New AI-origin synthetic source and AI-authored development rewrites, created for this experiment.",
+      "interpretation": "Known generation history is separate from naturalness and the uncalibrated native classes.",
+      "human_alternative": "A human could write similar prose; that possibility does not change this fixture creation record.",
+      "discriminating_evidence": "No claim is made that the described events occurred. Hashes identify exact artifacts, not authorship.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\PROTOCOL.md"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Content, price, interview and photograph preserved; expectation must be restored.",
+      "finding_ids": [
+        "E1",
+        "H"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Operation, order, double-back count and judgment preserved; current uncertainty must be restored.",
+      "finding_ids": [
+        "E2"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Overall positive judgment, duration, upstairs condition and desk nonstatement retained.",
+      "finding_ids": []
+    }
+  ],
+  "review_method": "Distinct same-context self-review by the writer; parent pre-score review saved separately where available."
+}

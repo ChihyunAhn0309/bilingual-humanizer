@@ -1,0 +1,73 @@
+{
+  "text_sha256": "d1d6373faa40b820f3a78e454d4d7336ad75ffb85d203c68e87f51083df49333",
+  "summary": "Rejected before scoring by writer's source comparison: a recommendation based on records rather than a survey became a claim that the group had not surveyed. Full candidate is saved, not missing. This ledger documents the known rejection after the repair was prepared; no initial validated-review timing is claimed. The evidence-first reader route remains a legitimate alternative, but semantic error prevents eligibility.",
+  "document_analysis": {
+    "structure": "P1 attendance advantage and evidence basis, P2 staffing turn and recommendation, P3 next actions and limits of existing counts.",
+    "reasoning_specificity": "All numeric/staff details remain; survey statement overreaches the original evidence-basis limit.",
+    "voice_consistency": "Ordinary professional first-person recommendation with welcome for attendance and cautious operational risk.",
+    "rhythm_repetition": "'What we don't yet have' gives the constraint focus; no numerical variation target or arbitrary fragment.",
+    "language_features": "The conditional 'Move ... could' remains a possibility, not a command. 'We haven't surveyed' changes agency and scope and needs repair.",
+    "citations_provenance": "AI-origin synthetic source and same-context rewrite. draft-3-writer-review.md records the actual self-rejection; no native detector score was requested for draft-2."
+  },
+  "findings": [
+    {
+      "id": "E1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "A limit on the recommendation's evidence basis is rewritten as a claim about whether the group conducted a survey.",
+      "interpretation": "The source does not establish the broader operational claim. Repair required regardless of readability.",
+      "human_alternative": "A human editor could also infer too much from a methodological disclaimer.",
+      "discriminating_evidence": "Original says the recommendation is based on records rather than a survey; that is the supported scope.",
+      "spans": [
+        {
+          "start": 177,
+          "end": 231,
+          "quote": "We haven't surveyed everyone who might want to attend."
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 231,
+          "quote": "Saturday drew the bigger crowds in the two trials: 20 and 23 people, compared with 11 to 18 on Wednesdays. These figures come from attendance records for the last six sessions. We haven't surveyed everyone who might want to attend."
+        }
+      ],
+      "observation": "New AI-origin synthetic source and AI-authored development rewrites, created for this experiment.",
+      "interpretation": "Known generation history is separate from naturalness and the uncalibrated native classes.",
+      "human_alternative": "A human could write similar prose; that possibility does not change this fixture creation record.",
+      "discriminating_evidence": "No claim is made that the described events occurred. Hashes identify exact artifacts, not authorship.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\PROTOCOL.md"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Correct counts and comparison; reject added assertion about conducting a survey.",
+      "finding_ids": [
+        "E1",
+        "H"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "All staffing facts and possible risk remain; natural evidence-to-constraint turn.",
+      "finding_ids": []
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Conditional review, count request and nonattendee limitation retained.",
+      "finding_ids": []
+    }
+  ],
+  "review_method": "Distinct same-context self-review by the writer; parent pre-score review saved separately where available."
+}

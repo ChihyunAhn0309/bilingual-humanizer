@@ -1,0 +1,348 @@
+{
+  "text_sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+  "summary": "Anonymous candidate T01/B passes the frozen source-fidelity review and is reader-eligible. All 3 paragraphs were reviewed. No necessary repair was identified; retain the version. Native quantitative feedback is not yet attached. Its later model scores must remain separate from fidelity and reader quality.",
+  "document_analysis": {
+    "structure": "P1 starts with the same lamp/chair example and puts specialist availability immediately after it. It then combines bench count and capacity limitation. P2 and P3 retain the source progression from owner approval to a bounded communication proposal.",
+    "reasoning_specificity": "All numbers, times, mechanisms, labels, and limitations survive. The work required partly determines the queue and arrival time is not the only consideration preserve the original partial rule. Does not necessarily mean it has been neglected preserves uncertainty.",
+    "voice_consistency": "The explanatory voice is calm and slightly more conversational through contractions. It remains appropriate for a general public audience without becoming jokey or assigning blame.",
+    "rhythm_repetition": "P1 groups the bench count with what an empty bench does not imply. P2 carries the owner wait and its invisibility in a single linked sentence. This makes the explanation flow smoothly without suppressing any qualification.",
+    "language_features": "The paraphrases are idiomatic and clear. Capacity is an appropriate ordinary term here. The contractions do not change confidence, instruction strength, or agency. No colloquial phrase jars with the genre.",
+    "citations_provenance": "The fictional workshop is still expressly fictional. No citation or purported observation is added. Candidate identity and method are unknown; natural phrasing does not establish human origin."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 459,
+          "quote": "At the fictional Bell Street Repair Room, a lamp may sit on the shelf waiting for the electrical volunteer while a chair brought in later goes straight to someone who works with wood. Only one volunteer handles electrical faults, and she comes on alternate Saturdays. The workshop has four benches, but an empty one doesn't always mean there's capacity for another job. The work required partly determines the queue; arrival time isn't the only consideration."
+        }
+      ],
+      "observation": "P1 preserves every fact and qualifier while linking benches directly to the capacity claim. The lamp example still concerns possible ordering and does not become a universal service rule. The explanation of the queue is clear.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 461,
+          "end": 724,
+          "quote": "Volunteers also need the owner's agreement before buying a replacement part. A repair may be ready to continue and still have to wait for that reply, a pause visitors cannot easily see. The job is unfinished, but that doesn't necessarily mean it's been neglected."
+        }
+      ],
+      "observation": "P2 preserves owner agreement before purchase, a repair that may otherwise be ready, the hard-to-see pause, and non-necessary neglect. Linking the pause to the waiting sentence is a fluent alternative to the source layout.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 726,
+          "end": 1068,
+          "quote": "The workshop could make those differences clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Clearer labels wouldn't add volunteer hours or guarantee a completion date."
+        }
+      ],
+      "observation": "P3 preserves the hypothetical board improvement, exact example labels and generic-column comparison, qualified next-action benefit, and limits on hours/dates. Clearer labels is an accurate referent, not a new proposal.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "P1 preserves every fact and qualifier while linking benches directly to the capacity claim. The lamp example still concerns possible ordering and does not become a universal service rule. The explanation of the queue is clear.",
+      "finding_ids": [
+        "S1"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "P2 preserves owner agreement before purchase, a repair that may otherwise be ready, the hard-to-see pause, and non-necessary neglect. Linking the pause to the waiting sentence is a fluent alternative to the source layout.",
+      "finding_ids": [
+        "S2"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "P3 preserves the hypothetical board improvement, exact example labels and generic-column comparison, qualified next-action benefit, and limits on hours/dates. Clearer labels is an accurate referent, not a new proposal.",
+      "finding_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "authorship_probabilities": null,
+  "review_metadata": {
+    "case_id": "T01",
+    "anonymous_candidate": "B",
+    "genre": "Explanatory public-facing article",
+    "language": "English",
+    "frozen_blind_review_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-review\\round-1.json",
+    "frozen_blind_review_sha256": "dc87c8a1a42ccfd5575e6ae093e38f01a55fe2c584aa813a32686edd14e6494d",
+    "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-pairs\\T01\\B.txt",
+    "candidate_sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+    "original_source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+    "source_constraints_sha256": "86dbe511ac51163642a8e778410ee345e52e14c37b23d02b6e25a448aa37355e",
+    "candidate_scores_read_at_qualitative_preparation": false,
+    "method_identities_read": false,
+    "inference_run_by_reviewer": false,
+    "known_history": "Anonymous rewrite of a known AI-generated synthetic source. Fictional people, situations, and memories are not human-authored ground truth.",
+    "numeric_status": "Pending supplied native results; no inference requested or executed by this reviewer."
+  },
+  "editorial_closure": {
+    "fidelity_pass": true,
+    "reader_eligible": true,
+    "necessary_repairs": [],
+    "decision": "retain",
+    "reason": "No source-fidelity or reader-quality defect was found in the pre-score review. Optional stylistic differences do not compel another rewrite.",
+    "blind_pair_preference": {
+      "choice": "B",
+      "strength": "slight",
+      "reason": "Both versions pass fidelity and read well. B links the bench count directly to the capacity limitation and folds the invisible pause into its cause, which produces a smoother explanatory flow. This is a small preference in organization and phrasing, not a repair finding or evidence of general method superiority.",
+      "exact_candidate_evidence": {
+        "A": [
+          {
+            "start": 185,
+            "end": 372,
+            "quote": "The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          },
+          {
+            "start": 521,
+            "end": 639,
+            "quote": "A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ],
+        "B": [
+          {
+            "start": 268,
+            "end": 369,
+            "quote": "The workshop has four benches, but an empty one doesn't always mean there's capacity for another job.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          },
+          {
+            "start": 538,
+            "end": 646,
+            "quote": "A repair may be ready to continue and still have to wait for that reply, a pause visitors cannot easily see.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ]
+      },
+      "counterconsideration": "A's shorter separate sentence about visitors may be easier for some readers to scan. Its more formal register is legitimate, so the preference is deliberately slight.",
+      "fidelity_overrides_applied": false,
+      "method_identity_inference": null
+    }
+  },
+  "full_constraint_coverage": [
+    {
+      "original_paragraph_id": "P1",
+      "original_anchor": {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 447,
+        "quote": "An empty bench does not always mean a repair workshop can take another job. At the fictional Bell Street Repair Room, there are four benches, but only one volunteer handles electrical faults. She comes on alternate Saturdays. A lamp waiting for her may therefore stay on the shelf while a chair, brought in later, goes straight to someone who works with wood. The queue is organized partly by the work required, rather than simply by arrival time."
+      },
+      "candidate_paragraph_ids": [
+        "P1"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 459,
+          "quote": "At the fictional Bell Street Repair Room, a lamp may sit on the shelf waiting for the electrical volunteer while a chair brought in later goes straight to someone who works with wood. Only one volunteer handles electrical faults, and she comes on alternate Saturdays. The workshop has four benches, but an empty one doesn't always mean there's capacity for another job. The work required partly determines the queue; arrival time isn't the only consideration."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "An empty bench does not always indicate capacity to take another repair.",
+          "pass": true
+        },
+        {
+          "constraint": "Bell Street Repair Room is explicitly a fictional example.",
+          "pass": true
+        },
+        {
+          "constraint": "The workshop has four benches.",
+          "pass": true
+        },
+        {
+          "constraint": "Only one volunteer handles electrical faults, and she attends on alternate Saturdays.",
+          "pass": true
+        },
+        {
+          "constraint": "A lamp can wait for that volunteer while a later-arriving chair is handled by a wood-working volunteer.",
+          "pass": true
+        },
+        {
+          "constraint": "The queue is organized partly by required work rather than solely by arrival time.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Explain a possible mechanism; do not imply all workshops follow this system.",
+          "pass": true
+        },
+        {
+          "constraint": "Retain the possibility in the lamp/chair example rather than guaranteeing every such ordering.",
+          "pass": true
+        }
+      ],
+      "reason": "Candidate P1 retains every quantitative and causal detail. Doesn't always and partly retain the source limitations."
+    },
+    {
+      "original_paragraph_id": "P2",
+      "original_anchor": {
+        "paragraph_id": "P2",
+        "start": 449,
+        "end": 736,
+        "quote": "There is another pause that visitors cannot easily see. Volunteers need an owner's agreement before buying a replacement part. Until the owner replies, a repair may be ready to continue but unable to move forward. Calling that job unfinished is accurate; calling it neglected may not be."
+      },
+      "candidate_paragraph_ids": [
+        "P2"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P2",
+          "start": 461,
+          "end": 724,
+          "quote": "Volunteers also need the owner's agreement before buying a replacement part. A repair may be ready to continue and still have to wait for that reply, a pause visitors cannot easily see. The job is unfinished, but that doesn't necessarily mean it's been neglected."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "Some pauses are not visible to visitors.",
+          "pass": true
+        },
+        {
+          "constraint": "Volunteers require the owner's agreement before purchasing a replacement part.",
+          "pass": true
+        },
+        {
+          "constraint": "A repair may otherwise be ready to continue but wait for the owner's reply.",
+          "pass": true
+        },
+        {
+          "constraint": "Such a repair can accurately be called unfinished; it is not necessarily neglected.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Qualify the inference from delay to neglect, without asserting that neglect never occurs.",
+          "pass": true
+        },
+        {
+          "constraint": "Do not assign fault to all owners or imply they must buy parts themselves.",
+          "pass": true
+        }
+      ],
+      "reason": "Candidate P2 preserves the same approval condition and modal possibility. Doesn't necessarily mean it's been neglected is equivalent to may not be accurate to call it neglected."
+    },
+    {
+      "original_paragraph_id": "P3",
+      "original_anchor": {
+        "paragraph_id": "P3",
+        "start": 738,
+        "end": 1097,
+        "quote": "The workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. They would not create extra volunteer hours or guarantee a completion date. They would at least give owners a better idea of what, if anything, they can do next."
+      },
+      "candidate_paragraph_ids": [
+        "P3"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P3",
+          "start": 726,
+          "end": 1068,
+          "quote": "The workshop could make those differences clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Clearer labels wouldn't add volunteer hours or guarantee a completion date."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "The workshop could make the distinctions clearer on its status board.",
+          "pass": true
+        },
+        {
+          "constraint": "Suggested labels distinguish waiting for a specialist from waiting for the owner's reply.",
+          "pass": true
+        },
+        {
+          "constraint": "These labels would explain more than one generic in-progress column.",
+          "pass": true
+        },
+        {
+          "constraint": "The status-board change would neither add volunteer hours nor guarantee a completion date.",
+          "pass": true
+        },
+        {
+          "constraint": "It could clarify what, if anything, owners can do next.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Make a suggestion, not report an implemented system or issue an obligation.",
+          "pass": true
+        },
+        {
+          "constraint": "Retain the possibility that the owner has no next action.",
+          "pass": true
+        }
+      ],
+      "reason": "Candidate P3 retains the proposal and its strictly informational benefit. Could/would remain intact despite the contractions."
+    }
+  ],
+  "voice_constraint_checks": [
+    {
+      "constraint": "Keep the explanation accessible and calm.",
+      "pass": true
+    },
+    {
+      "constraint": "Do not turn the suggestion into promotional copy, a moral lesson, or a criticism of volunteers.",
+      "pass": true
+    },
+    {
+      "constraint": "Preserve the limited claim about what communication can accomplish.",
+      "pass": true
+    }
+  ],
+  "finding_triage_requirement": "Every style or measurement finding must have exactly one action: revise, retain, or unresolved, with its reason. Score magnitude alone does not create a revise action."
+}

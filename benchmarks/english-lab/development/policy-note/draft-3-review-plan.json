@@ -1,0 +1,21 @@
+{
+  "summary":"The evidence-first complete alternative is faithful after the survey-basis repair and has no open reader defect. Parent pre-score review agrees on fidelity and treats the route as a trade-off, not a guaranteed quality win. Native Human is 0.5177710%, below draft-1's 0.6336482% and above source's 0.1958006%. Preserve draft-1 as the stronger eligible checkpoint. No additional wording search is warranted.",
+  "document_analysis":{
+    "structure":"Attendance advantage and its basis precede the staffing turn; recommendation concludes P2; P3 keeps future review/counting and the past-count limit.",
+    "reasoning_specificity":"Numbers, six-session basis, no survey as recommendation evidence, named volunteer constraints, possible risk and all distinct actions preserved.",
+    "voice_consistency":"Natural restrained professional argument. Welcoming more visitors remains compatible with keeping Wednesday; no new stance or emotional detail.",
+    "rhythm_repetition":"The focal 'What we don't yet have' is a supported contrast, not generic rebuttal. Paragraph lengths follow the argument; no manufactured irregularity.",
+    "language_features":"Survey contrast now governs the recommendation's basis. The conditional imperative form expresses a possible consequence, not an instruction to move.",
+    "citations_provenance":"AI-origin fixture and rewrite. Saved unscored draft-2 and writer rejection document the intermediate error. Independent parent review predates this score; post-score ledger is self-review."
+  },
+  "findings":[
+    {"id":"D1","basis":"style_observation","direction":"neutral","strength":"weak","quotes":["P1"],"observation":"Recommendation evidence is explicitly attendance records rather than a survey; no claim about whether a survey was conducted remains.","interpretation":"Intermediate draft-2 E1 is resolved against the original and full revised sentence.","human_alternative":"Methodological caveats of this kind occur in careful human planning notes.","discriminating_evidence":"Exact source/candidate relation supports fidelity, not historical authorship.","decision":"retain","reason":"Repair is complete; attendance-first presentation is a legitimate alternative."},
+    {"id":"D2","basis":"style_observation","direction":"neutral","strength":"weak","quotes":["P2"],"observation":"Missing qualified volunteer receives sentence focus; staffing evidence supports the possible consequence and winter recommendation.","interpretation":"The reader sees the constraint before the recommendation, a different route from draft-1. No overall superiority is asserted.","human_alternative":"Humans can plausibly lead with either proposal or supporting evidence.","discriminating_evidence":"Parent finds the full route coherent; lower native Human value does not make it a reader defect.","decision":"retain","reason":"All conditions and voice retained; select between eligible complete versions by the user's score objective."},
+    {"id":"D3","basis":"style_observation","direction":"human_compatible","strength":"weak","quotes":["P3"],"observation":"Conditional January review, proposed count of wait-related departures, and completed-repair limitation remain separate.","interpretation":"The proposed actions preserve temporal and modal distinctions.","human_alternative":"Specific operational suggestions fit ordinary committee prose.","discriminating_evidence":"No real event is authenticated by these details.","decision":"retain","reason":"No new open fidelity or reader problem."}
+  ],
+  "paragraph_reviews":[
+    {"paragraph_id":"P1","status":"reviewed","assessment":"Survey-basis repair verified and numeric comparison intact.","finding_ids":["D1"]},
+    {"paragraph_id":"P2","status":"reviewed","assessment":"Source-grounded constraint focus and consequence; useful alternative, not proven better.","finding_ids":["D2"]},
+    {"paragraph_id":"P3","status":"reviewed","assessment":"Complete and natural set of next actions and evidence limits.","finding_ids":["D3"]}
+  ]
+}

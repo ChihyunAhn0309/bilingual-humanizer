@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T10:18:34.425656+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4",
+  "token_count": 186,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 186,
+      "start": 0,
+      "end": 902,
+      "quote": "The harbour exhibition was worth the visit on Sunday. I spent about an hour there and would have stayed longer if the upstairs room had been open. The ticket desk didn't say when it would reopen.\n\nI hired the audio guide for £4, expecting it to explain how the port had changed. Most recordings described objects the labels had already identified. One six-minute interview, though, helped me understand a photograph I'd walked past: a former crane operator explained why crews used hand signals when the radio failed. I'd recommend that interview.\n\nThe guide was easy to use. I could replay a recording without starting the whole sequence again, but the numbers on the cases didn't always follow the guide's order. I doubled back twice. I don't know whether the mismatch was permanent or resulted from exhibits being moved. Even with the interview, I wouldn't hire the guide again at its current price.",
+      "class_probabilities": {
+        "human": 0.2506692409515381,
+        "ai": 0.5133237838745117,
+        "ai_edited": 0.1358390897512436,
+        "humanized": 0.10016787052154541
+      },
+      "ai_involvement_class_score": 0.7493307590484619
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.2506692409515381,
+    "ai": 0.5133237838745117,
+    "ai_edited": 0.1358390897512436,
+    "humanized": 0.10016787052154541
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 195,
+        "quote": "The harbour exhibition was worth the visit on Sunday. I spent about an hour there and would have stayed longer if the upstairs room had been open. The ticket desk didn't say when it would reopen.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.7493307590484619,
+        "after_removal_ai_involvement": 0.5675077140331268,
+        "delta_percentage_points": 18.18230450153351
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 197,
+        "end": 547,
+        "quote": "I hired the audio guide for £4, expecting it to explain how the port had changed. Most recordings described objects the labels had already identified. One six-minute interview, though, helped me understand a photograph I'd walked past: a former crane operator explained why crews used hand signals when the radio failed. I'd recommend that interview.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.7493307590484619,
+        "after_removal_ai_involvement": 0.1259172558784485,
+        "delta_percentage_points": 62.34135031700134
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 549,
+        "end": 902,
+        "quote": "The guide was easy to use. I could replay a recording without starting the whole sequence again, but the numbers on the cases didn't always follow the guide's order. I doubled back twice. I don't know whether the mismatch was permanent or resulted from exhibits being moved. Even with the interview, I wouldn't hire the guide again at its current price.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.7493307590484619,
+        "after_removal_ai_involvement": 0.20407110452651978,
+        "delta_percentage_points": 54.525965452194214
+      }
+    ],
+    "total_paragraphs": 3,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

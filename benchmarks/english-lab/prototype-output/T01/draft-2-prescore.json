@@ -1,0 +1,19 @@
+{
+  "reviewed_at_utc": "2026-10-03T10:53:36.322096+00:00",
+  "reviewer": "parent separate from writer, aware of earlier scores/method; not a new blind or human reviewer",
+  "candidate_sha256": "698c859e5a09aa303a28306f488bd6ce9d68684c456f8df70b88f7d963021a94",
+  "source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+  "eligible_for_scoring": true,
+  "fidelity_pass": true,
+  "reader_eligible": true,
+  "necessary_repairs": [],
+  "candidate_score_seen": false,
+  "paragraph_reviews": [
+    "P1 preserves fictional Bell Street setting, possible ready repair awaiting owner reply, agreement before buying a replacement part, limited visitor visibility and unfinished versus not necessarily neglected. Moving this mechanism before specialist staffing does not introduce blame or certainty.",
+    "P2 preserves four benches, qualified empty-bench capacity claim, one electrical volunteer, alternate Saturdays, possible lamp/later chair order with woodworking specialist, and partly work-dependent queue rather than solely arrival time.",
+    "P3 retains a suggested status board change, all three exact label strings, comparative explanatory value, owner next action qualified by if anything, and no added volunteer hours or guaranteed completion date."
+  ],
+  "reader_assessment": "A coherent owner-reply-first route followed by the separate staffing constraint and joint communication proposal. All paragraphs and transitions reread against the original. The less visual opening is a legitimate trade-off; no further editorial defect found.",
+  "scope": "Feedback-driven continuation after the frozen first comparison; not untouched transfer. Writer has disclosed limited other-arm excerpt exposure in released feedback.",
+  "budget": "One initial draft plus one changed revision; the earlier candidate remains intact."
+}

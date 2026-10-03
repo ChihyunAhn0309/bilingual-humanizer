@@ -1,0 +1,371 @@
+{
+  "text_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+  "summary": "A coherent hypothetical explanation of workshop delays, followed by a limited communication proposal. The prose uses several tidy contrasts, but each serves the explanation. Concrete mechanisms and careful qualifications counter an interpretation based only on generic polish. Known AI origin comes from the generation record, not these stylistic observations. Supplied unvalidated local model class outputs are Human 0.30726318%, AI 93.45326424%, AI-edited 0.04357806%, and Humanized 6.19588643%. The recorded AI-involvement class score is 99.69273682%. These are experimental model responses, not personal-authorship probabilities, word shares, or writing-quality ratings. The installed skill reports high-confidence false positives in its 36-document English pilot. The pre-score qualitative decisions remain unchanged. The largest deletion sensitivity is P1 (+82.86542173009366 percentage points): removing the mechanism and example changes the input substantially. This does not locate a defective phrase, explain the model's internals, or justify removing useful exposition. P2 and P3 deletions change the score by +0.3357914509251714 and +2.0857394440099597 points respectively. All three paragraph-level retain decisions remain unchanged.",
+  "document_analysis": {
+    "structure": "P1 separates bench availability from the availability of a relevant specialist; P2 adds owner approval as a second source of delay; P3 proposes status labels and specifies their limits. This progression is deliberately orderly. It is also a sensible explanatory sequence, so orderliness alone carries little authorship information.",
+    "reasoning_specificity": "P1 gives four benches, one electrical volunteer attending on alternate Saturdays, and a later-arriving chair as a causal counterexample to a simple arrival queue. P2 identifies approval before purchasing a part as another necessary condition. P3 only claims improved information; it does not promise more labour or faster completion. These are specific internal premises of a fictional example, not verified observations of a real workshop.",
+    "voice_consistency": "The calm public-facing explanatory voice is sustained throughout P1-P3. The article explains why a visitor might misread a delay without accusing visitors or volunteers. P2's unfinished/neglected distinction is a slightly more pointed rhetorical moment, but it remains consistent with that explanatory purpose.",
+    "rhythm_repetition": "P1 contains the short sentence \"She comes on alternate Saturdays.\" within longer causal sentences. P2 ends with a balanced unfinished/neglected contrast. P3 has two consecutive sentences beginning \"They would\"; the first limits expectations and the second names the benefit. That local repetition is real, but it is not document-wide uniformity. The profiler reports 13 rough sentences; these counts are descriptive, not an authorship threshold.",
+    "language_features": "English is directly readable and idiomatic. \"rather than simply\", the repeated \"calling\", and \"They would\" make distinctions explicit. \"may\", \"could\", \"would\", and \"if anything\" preserve scope and uncertainty. Generic phrases such as \"move forward\" could be tightened editorially, but in P2 they refer to a concrete blocked repair. No word or punctuation mark is treated as diagnostic.",
+    "citations_provenance": "No citations, quotations from real people, or externally checkable claims are offered. P1 expressly calls Bell Street fictional; the registry identifies the entire source as generated synthetic material. Status-board labels are invented example labels. The source hash matches the frozen registry. This verifies input identity, not external authorship authentication; the local session record supplies known AI origin. A separately supplied native model result is bound to this exact hash and a single window covering all input tokens. Its four-class output and deletion sensitivity are separate evidence types; they do not authenticate authorship or explain internal model causation."
+  },
+  "findings": [
+    {
+      "id": "E1",
+      "basis": "style_observation",
+      "direction": "ai_like",
+      "strength": "weak",
+      "observation": "P1 and P2 each finish by explicitly contrasting two ways of interpreting the same repair delay. The second contrast repeats \"calling\" across a semicolon.",
+      "interpretation": "The repeated explanatory wrap-up creates a polished, planned cadence that can occur in generated exposition. The claim is about visible rhetoric, not a model feature or proof of origin.",
+      "human_alternative": "A human explainer could use these contrasts to correct two plausible misunderstandings: first-come service and neglect. Both endings add a distinction rather than merely restating a slogan.",
+      "discriminating_evidence": "Draft history could show whether the contrasts were drafted, edited, or generated. No stylistic comparison corpus or detector attribution has been supplied.",
+      "spans": [
+        {
+          "start": 360,
+          "end": 447,
+          "quote": "The queue is organized partly by the work required, rather than simply by arrival time.",
+          "paragraph_id": "P1",
+          "line": 1
+        },
+        {
+          "start": 663,
+          "end": 736,
+          "quote": "Calling that job unfinished is accurate; calling it neglected may not be.",
+          "paragraph_id": "P2",
+          "line": 3
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "observation": "The schedule and the lamp/chair comparison give a concrete mechanism for unequal waits; they are not disconnected decorative detail.",
+      "interpretation": "These details counter a characterization of the source as vague or padded and are compatible with careful explanatory writing. They do not indicate human origin: the case is known to be synthetic.",
+      "human_alternative": "A human author could construct this same hypothetical to make a resource bottleneck accessible to visitors.",
+      "discriminating_evidence": "Observed workshop records would be needed if the example were claimed as real. Here the fictional premise is explicit, and provenance comes from the generation record.",
+      "spans": [
+        {
+          "start": 192,
+          "end": 225,
+          "quote": "She comes on alternate Saturdays.",
+          "paragraph_id": "P1",
+          "line": 1
+        },
+        {
+          "start": 226,
+          "end": 359,
+          "quote": "A lamp waiting for her may therefore stay on the shelf while a chair, brought in later, goes straight to someone who works with wood.",
+          "paragraph_id": "P1",
+          "line": 1
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "The second sentence states the practical consequence of the approval requirement in the first. \"move forward\" is conventional wording, but the dependency is explicit.",
+      "interpretation": "A generated explanation can use this condition-and-consequence pair. Its conventional phrasing alone gives no directional authorship evidence in this context.",
+      "human_alternative": "A human service writer could spell out the dependency because readers may assume that every unfinished repair is actively being worked on.",
+      "discriminating_evidence": "Earlier drafts or an audience comprehension test would distinguish unnecessary restatement from useful clarification; neither is available.",
+      "spans": [
+        {
+          "start": 505,
+          "end": 575,
+          "quote": "Volunteers need an owner's agreement before buying a replacement part.",
+          "paragraph_id": "P2",
+          "line": 3
+        },
+        {
+          "start": 576,
+          "end": 662,
+          "quote": "Until the owner replies, a repair may be ready to continue but unable to move forward.",
+          "paragraph_id": "P2",
+          "line": 3
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "basis": "style_observation",
+      "direction": "ai_like",
+      "strength": "weak",
+      "observation": "P3 ends with two consecutive \"They would\" sentences, first denying a capacity benefit and then asserting an information benefit.",
+      "interpretation": "The symmetrical close is compatible with generated explanatory prose, although this observation overlaps with E1 and must not count as an independent authorship vote.",
+      "human_alternative": "Parallel wording efficiently keeps the same subject while distinguishing a limited communication improvement from an operational promise.",
+      "discriminating_evidence": "A local deletion or model attribution experiment would be needed to claim a measured model response. None was run. Editorial preference can be judged separately without such a claim.",
+      "spans": [
+        {
+          "start": 936,
+          "end": 1011,
+          "quote": "They would not create extra volunteer hours or guarantee a completion date.",
+          "paragraph_id": "P3",
+          "line": 5
+        },
+        {
+          "start": 1012,
+          "end": 1097,
+          "quote": "They would at least give owners a better idea of what, if anything, they can do next.",
+          "paragraph_id": "P3",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "observation": "The proposal is marked by \"could\", and the final qualification allows for the owner to have no available action.",
+      "interpretation": "The limited recommendation counters an allegation of inflated certainty or an obligatory upbeat ending. It is compatible with attentive human editing and equally reproducible by AI.",
+      "human_alternative": "A knowledgeable human writer could avoid promising action or faster repairs when better labels cannot supply specialist time.",
+      "discriminating_evidence": "Writing history is needed to identify the process. The qualifiers themselves establish only the scope of the claim.",
+      "spans": [
+        {
+          "start": 738,
+          "end": 809,
+          "quote": "The workshop could make these distinctions clearer on its status board.",
+          "paragraph_id": "P3",
+          "line": 5
+        },
+        {
+          "start": 1061,
+          "end": 1097,
+          "quote": "what, if anything, they can do next.",
+          "paragraph_id": "P3",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 447,
+          "quote": "An empty bench does not always mean a repair workshop can take another job. At the fictional Bell Street Repair Room, there are four benches, but only one volunteer handles electrical faults. She comes on alternate Saturdays. A lamp waiting for her may therefore stay on the shelf while a chair, brought in later, goes straight to someone who works with wood. The queue is organized partly by the work required, rather than simply by arrival time.",
+          "paragraph_id": "P1",
+          "line": 1
+        }
+      ],
+      "observation": "For P1, the supplied model measured baseline AI-involvement 0.9969273682218045, after-removal score 0.16827315092086792, and baseline-minus-removal delta 82.86542173009366 percentage points.",
+      "interpretation": "This is measured sensitivity to deleting the whole paragraph. A positive delta means the shortened input scored lower. It is not that paragraph's AI probability, a defective-phrase location, a causal feature attribution, or an editorial repair instruction. Qualitative strength remains weak as authorship evidence regardless of numerical magnitude.",
+      "human_alternative": "Length, remaining context, disrupted argument or narrative, and ordinary genre features can change this model's response to human or AI prose. This particular source is already known AI-generated from the generation record, not from the deletion result.",
+      "discriminating_evidence": "Controlled equal-length edits and independent validation would be needed to distinguish wording effects from context/length effects. None is claimed or authorized here. Retain the pre-score editorial decision unless independent source-fidelity or reader-quality evidence warrants a change.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T01\\\\source\\\\model-result.json\", \"file_sha256\": \"6346754780ef97f3f012ef970553338d5a6b7db15d96c12100487f63f50b7b4f\", \"field\": \"occlusion.paragraphs[0]\", \"conditions\": \"Single-window English input; one full paragraph removed and remaining text rescored by the pinned local checkpoint; supplied result, no inference performed by this reviewer.\"}"
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 449,
+          "end": 736,
+          "quote": "There is another pause that visitors cannot easily see. Volunteers need an owner's agreement before buying a replacement part. Until the owner replies, a repair may be ready to continue but unable to move forward. Calling that job unfinished is accurate; calling it neglected may not be.",
+          "paragraph_id": "P2",
+          "line": 3
+        }
+      ],
+      "observation": "For P2, the supplied model measured baseline AI-involvement 0.9969273682218045, after-removal score 0.9935694537125528, and baseline-minus-removal delta 0.3357914509251714 percentage points.",
+      "interpretation": "This is measured sensitivity to deleting the whole paragraph. A positive delta means the shortened input scored lower. It is not that paragraph's AI probability, a defective-phrase location, a causal feature attribution, or an editorial repair instruction. Qualitative strength remains weak as authorship evidence regardless of numerical magnitude.",
+      "human_alternative": "Length, remaining context, disrupted argument or narrative, and ordinary genre features can change this model's response to human or AI prose. This particular source is already known AI-generated from the generation record, not from the deletion result.",
+      "discriminating_evidence": "Controlled equal-length edits and independent validation would be needed to distinguish wording effects from context/length effects. None is claimed or authorized here. Retain the pre-score editorial decision unless independent source-fidelity or reader-quality evidence warrants a change.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T01\\\\source\\\\model-result.json\", \"file_sha256\": \"6346754780ef97f3f012ef970553338d5a6b7db15d96c12100487f63f50b7b4f\", \"field\": \"occlusion.paragraphs[1]\", \"conditions\": \"Single-window English input; one full paragraph removed and remaining text rescored by the pinned local checkpoint; supplied result, no inference performed by this reviewer.\"}"
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 738,
+          "end": 1097,
+          "quote": "The workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. They would not create extra volunteer hours or guarantee a completion date. They would at least give owners a better idea of what, if anything, they can do next.",
+          "paragraph_id": "P3",
+          "line": 5
+        }
+      ],
+      "observation": "For P3, the supplied model measured baseline AI-involvement 0.9969273682218045, after-removal score 0.9760699737817049, and baseline-minus-removal delta 2.0857394440099597 percentage points.",
+      "interpretation": "This is measured sensitivity to deleting the whole paragraph. A positive delta means the shortened input scored lower. It is not that paragraph's AI probability, a defective-phrase location, a causal feature attribution, or an editorial repair instruction. Qualitative strength remains weak as authorship evidence regardless of numerical magnitude.",
+      "human_alternative": "Length, remaining context, disrupted argument or narrative, and ordinary genre features can change this model's response to human or AI prose. This particular source is already known AI-generated from the generation record, not from the deletion result.",
+      "discriminating_evidence": "Controlled equal-length edits and independent validation would be needed to distinguish wording effects from context/length effects. None is claimed or authorized here. Retain the pre-score editorial decision unless independent source-fidelity or reader-quality evidence warrants a change.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T01\\\\source\\\\model-result.json\", \"file_sha256\": \"6346754780ef97f3f012ef970553338d5a6b7db15d96c12100487f63f50b7b4f\", \"field\": \"occlusion.paragraphs[2]\", \"conditions\": \"Single-window English input; one full paragraph removed and remaining text rescored by the pinned local checkpoint; supplied result, no inference performed by this reviewer.\"}"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Role: explain the first bottleneck. The alternate-Saturday schedule and lamp/chair comparison make the reasoning accessible. The explicit closing contrast is mildly polished but appropriate to the purpose. Counterexplanation: a human explainer would reasonably correct first-come assumptions in this way. No strong style-only authorship inference. Preserve four benches, the one relevant volunteer, her schedule, and the partly/possibly qualified queue claim.",
+      "finding_ids": [
+        "E1",
+        "E2",
+        "O1"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Role: add a separate approval bottleneck. The condition and its consequence are coherent. The semicolon contrast is rhetorically neat, not evidence of a universal AI formula. Counterexplanation: it distinguishes unfinished work from possible neglect without denying that neglect could ever happen. Preserve owner agreement before purchase and the \"may not\" qualification.",
+      "finding_ids": [
+        "E1",
+        "E3",
+        "O2"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Role: suggest status labels and limit the claimed benefit. Two \"They would\" openings produce local parallelism, while the lack of extra hours or guaranteed dates prevents overclaiming. Counterexplanation: deliberate parallelism makes the proposal easier to assess. Preserve the hypothetical suggestion, both types of waiting, and the possibility that an owner can do nothing next.",
+      "finding_ids": [
+        "E4",
+        "E5",
+        "O3"
+      ]
+    }
+  ],
+  "review_metadata": {
+    "case_id": "T01",
+    "language": "English",
+    "genre": "Explanatory public-facing article",
+    "created_at_utc": "2026-10-03T10:29:23.003155+00:00",
+    "review_type": "Independent-of-candidates qualitative source review; source origin is known.",
+    "reviewer_created_source": true,
+    "prototype_or_development_read": false,
+    "candidate_outputs_read": false,
+    "detector_scores_read": true,
+    "inference_run": false,
+    "external_uploads": false,
+    "measured_authorship_probabilities": null,
+    "numeric_status": "Supplied one-window native result checked and attached; unvalidated class outputs only.",
+    "surface_measurement_source": "T01.profile.json",
+    "surface_measurement_limit": "Counts are descriptive observations, not detector scores, model attributions, or population norms.",
+    "known_origin": "AI-generated synthetic source in this evaluation session. Not human ground truth; no real people, events, or personal memories are claimed.",
+    "provenance_record": "../transfer/registry.json",
+    "coverage": {
+      "reviewed": 3,
+      "excluded": 0,
+      "not_reviewed": 0
+    },
+    "future_integration": "Preserve this pre-score ledger. Attach subsequently supplied quantitative results only after exact source-hash, schema, model-identity, coverage, and score-semantics checks. Record any later interpretation separately.",
+    "phase": "Supplied native results integrated after qualitative freeze; no candidate output, candidate score, or method identity seen.",
+    "integrated_at_utc": "2026-10-03T10:32:06.515043+00:00",
+    "qualitative_scores_blind_snapshot": "T01.qualitative-ledger.json",
+    "measurement_file": "T01.validated-full.json"
+  },
+  "editorial_decisions": {
+    "overall_decision": "Retain as an effective explanatory article. No necessary repair identified. A different reader route is optional, not an improvement established by this source review.",
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "The empty-bench opening gives the reader an immediate question.",
+          "Keep the schedule and lamp/chair example because they explain the mechanism.",
+          "Keep partly and may so the example does not become a universal queue rule."
+        ],
+        "optional_alternate_route": "If a rewrite is requested, begin with the lamp and later-arriving chair, then explain the specialist schedule and general point.",
+        "reason_optional": "The current general-to-specific route already works; a scene-first route may suit a more magazine-like presentation.",
+        "semantic_risk": "Moving the example must not imply that the lamp always waits, that all jobs are first-come except these two, or that four benches equal four available workers."
+      },
+      {
+        "paragraph_id": "P2",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Preserve owner agreement before purchase as a separate bottleneck.",
+          "Keep the difference between unfinished and possibly neglected."
+        ],
+        "optional_alternate_route": "The approval requirement can lead the paragraph directly, with the invisible pause explained afterward.",
+        "reason_optional": "This changes emphasis without repairing a demonstrated defect. The current transition clearly links the second cause to the first.",
+        "semantic_risk": "Do not blame the owner, assume non-response, remove the approval condition, or turn may not be neglected into is never neglected."
+      },
+      {
+        "paragraph_id": "P3",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Keep the two proposed statuses, their contrast with a generic in-progress label, and the distinction between information and capacity.",
+          "Keep what, if anything to permit no owner action."
+        ],
+        "optional_alternate_route": "For a more direct service-page style, group the proposed labels and the limited next-action benefit before the sentence about hours and dates.",
+        "reason_optional": "The existing two They would sentences are understandable and parallel for a reason. Varying them is preference, not required humanization.",
+        "semantic_risk": "A shorter ending must not promise faster repair, extra capacity, a date, or an action for every owner."
+      }
+    ],
+    "source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697"
+  },
+  "measurement_record": {
+    "model_result_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\transfer-scores\\T01\\source\\model-result.json",
+    "model_result_sha256": "6346754780ef97f3f012ef970553338d5a6b7db15d96c12100487f63f50b7b4f",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "measured_at_utc": "2026-10-03T10:29:43.707817+00:00",
+    "source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+    "language": "English, manually verified",
+    "window_count": 1,
+    "token_count": 215,
+    "all_input_tokens_scored": true,
+    "class_probabilities": {
+      "human": 0.0030726317781955004,
+      "ai": 0.934532642364502,
+      "ai_edited": 0.0004357806174084544,
+      "humanized": 0.06195886433124542
+    },
+    "ai_involvement_class_score": 0.9969273682218045,
+    "aggregation_semantics": "AI-involvement is AI + AI-edited + Humanized versus Human-only. The native score is stored as 1-Human; the class sum agrees within float rounding. Neither value is a percentage of words or a calibrated probability of personal authorship.",
+    "independently_calibrated_here": false,
+    "authorship_verified_by_model": false,
+    "observed_limit": "Installed bilingual-ai-detector free-local-model.md reports high-confidence false positives on human texts in a 36-document English pilot. These three synthetic sources are not a calibration or general performance benchmark.",
+    "occlusion": {
+      "performed": true,
+      "paragraphs": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 447,
+          "quote": "An empty bench does not always mean a repair workshop can take another job. At the fictional Bell Street Repair Room, there are four benches, but only one volunteer handles electrical faults. She comes on alternate Saturdays. A lamp waiting for her may therefore stay on the shelf while a chair, brought in later, goes straight to someone who works with wood. The queue is organized partly by the work required, rather than simply by arrival time.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9969273682218045,
+          "after_removal_ai_involvement": 0.16827315092086792,
+          "delta_percentage_points": 82.86542173009366
+        },
+        {
+          "paragraph_id": "P2",
+          "start": 449,
+          "end": 736,
+          "quote": "There is another pause that visitors cannot easily see. Volunteers need an owner's agreement before buying a replacement part. Until the owner replies, a repair may be ready to continue but unable to move forward. Calling that job unfinished is accurate; calling it neglected may not be.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9969273682218045,
+          "after_removal_ai_involvement": 0.9935694537125528,
+          "delta_percentage_points": 0.3357914509251714
+        },
+        {
+          "paragraph_id": "P3",
+          "start": 738,
+          "end": 1097,
+          "quote": "The workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. They would not create extra volunteer hours or guarantee a completion date. They would at least give owners a better idea of what, if anything, they can do next.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9969273682218045,
+          "after_removal_ai_involvement": 0.9760699737817049,
+          "delta_percentage_points": 2.0857394440099597
+        }
+      ],
+      "total_paragraphs": 3,
+      "unmeasured_due_to_limit": 0,
+      "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+    },
+    "editorial_interpretation": "The largest deletion sensitivity is P1 (+82.86542173009366 percentage points): removing the mechanism and example changes the input substantially. This does not locate a defective phrase, explain the model's internals, or justify removing useful exposition. P2 and P3 deletions change the score by +0.3357914509251714 and +2.0857394440099597 points respectively. All three paragraph-level retain decisions remain unchanged."
+  }
+}

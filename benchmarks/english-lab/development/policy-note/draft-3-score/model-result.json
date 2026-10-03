@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T10:20:54.439382+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "34136cbcc5e27fa42a1e45cf32c38436fae71066a44d4317b5f63735ede80444",
+  "token_count": 192,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 192,
+      "start": 0,
+      "end": 960,
+      "quote": "Saturday drew the bigger crowds in the two trials: 20 and 23 people, compared with 11 to 18 on Wednesdays. I'm basing the recommendation on attendance records from the last six sessions, rather than on a survey of everyone who might want to attend.\n\nMore visitors are welcome. What we don't yet have is another qualified volunteer for the electrical bench, where each Saturday trial needed a second person. Mara can cover Wednesdays until the end of February, but she hasn't committed to Saturdays. Move the session now and we could have more visitors arriving while that bench is unavailable. For this winter, I'd keep Wednesday rather than move to Saturday.\n\nI suggest we revisit the decision in January if another volunteer comes forward. Meanwhile, we should count the people who leave without a repair because they can't wait. We've been counting completed repairs, but that doesn't tell us whether Wednesday is convenient for people who haven't attended.",
+      "class_probabilities": {
+        "human": 0.005177709739655256,
+        "ai": 0.8966549634933472,
+        "ai_edited": 0.0006868013879284263,
+        "humanized": 0.09748055040836334
+      },
+      "ai_involvement_class_score": 0.9948222902603447
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.005177709739655256,
+    "ai": 0.8966549634933472,
+    "ai_edited": 0.0006868013879284263,
+    "humanized": 0.09748055040836334
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 248,
+        "quote": "Saturday drew the bigger crowds in the two trials: 20 and 23 people, compared with 11 to 18 on Wednesdays. I'm basing the recommendation on attendance records from the last six sessions, rather than on a survey of everyone who might want to attend.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9948222902603447,
+        "after_removal_ai_involvement": 0.9852103134617209,
+        "delta_percentage_points": 0.96119767986238
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 250,
+        "end": 659,
+        "quote": "More visitors are welcome. What we don't yet have is another qualified volunteer for the electrical bench, where each Saturday trial needed a second person. Mara can cover Wednesdays until the end of February, but she hasn't committed to Saturdays. Move the session now and we could have more visitors arriving while that bench is unavailable. For this winter, I'd keep Wednesday rather than move to Saturday.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9948222902603447,
+        "after_removal_ai_involvement": 0.7062465250492096,
+        "delta_percentage_points": 28.857576521113515
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 661,
+        "end": 960,
+        "quote": "I suggest we revisit the decision in January if another volunteer comes forward. Meanwhile, we should count the people who leave without a repair because they can't wait. We've been counting completed repairs, but that doesn't tell us whether Wednesday is convenient for people who haven't attended.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9948222902603447,
+        "after_removal_ai_involvement": 0.9772791676223278,
+        "delta_percentage_points": 1.754312263801694
+      }
+    ],
+    "total_paragraphs": 3,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "frozen_at_utc": "2026-10-03T10:28:53.912825+00:00",
+  "skill_root": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\skill",
+  "metadata_version": "1.11.0-dev",
+  "manifest": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\prototype-skill-hashes.json",
+  "manifest_sha256": "634980ce361c7defc551e94d075695e991cc5def4d9e389fb2be87beae4d41c5",
+  "changed_files": {
+    "references/english-composition.md": "df915a0c6f03decbf4f198ac5ca86402c732267a13046118e10ace706f07cd5b",
+    "references/english-reference-review.md": "ed946f6bd4435c25f926a530d02ba5a287be5b6a8a0a893ef397c1d19a89861a",
+    "SKILL.md": "14185ea256964ce2a20afdef86079dddb18179cb7ea1203054cb0424efbeb97e"
+  },
+  "unchanged_scripts": true,
+  "inference_runs": 6,
+  "inference_active": false,
+  "inference_ownership": "Handed to parent after last English worker finished. This agent will not run further inference during transfer.",
+  "transfer_access": "No transfer source or candidate was read. No further prototype edits after this freeze."
+}

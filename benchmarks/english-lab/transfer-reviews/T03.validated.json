@@ -1,0 +1,240 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "An understated fictional first-person reflection moves from a towel used as a warning, through a repair and uncertain memory, to a useful chair without emotional closure. Concrete details and sentence variation make the narration readable. The crafted circular object detail and refusal of a moral are still literary devices that AI can produce. Known AI origin comes from generation history. AI/Human probabilities are unavailable here because inference was deliberately not run and no quantitative result was supplied.",
+  "document_analysis": {
+    "structure": "P1 establishes the stalled decision and the chair's connection to the aunt. P2 narrates taking it apart and leaves the pale mark unexplained. P3 returns the towel to its hook, records an imperfect practical result, and leaves the broader inheritance choices open. The return of the towel supplies a modest arc without asserting emotional resolution.",
+    "reasoning_specificity": "The folded towel, the old glue, one careful pull, a pale patch, an uneven floor, and a box above the wardrobe are concrete and internally connected. The text distinguishes expected resistance from easy separation and explicitly offers two explanations for the patch. These are fictional details; they are not testimony or proof of lived experience.",
+    "voice_consistency": "The narrator remains matter-of-fact, mildly self-aware, and reluctant to inflate the significance of the repair. \"That was my warning system\" and \"mostly it gave me another place to sit\" share that restrained register. The aunt is not given invented speech or motives, and uncertainty is not resolved into a consoling memory.",
+    "rhythm_repetition": "Short sentences such as \"That was my warning system.\" and \"I left it alone.\" interrupt longer sentences with subordinate clauses. The towel appears in P1 and returns in P3, giving continuity. First-person forms recur because this is a first-person reflection. The profiler reports 13 rough sentences, but no comparison distribution supports calling the rhythm more or less human.",
+    "language_features": "The English is idiomatic, with ordinary material nouns and qualified statements: \"seemed\", \"cannot remember\", \"might\", and \"mostly\". The final \"I would like to say ... but\" construction is a recognizable essay device; its presence permits an editorial observation about a crafted ending, not an inference that the experience or writer is real.",
+    "citations_provenance": "There are no external citations or attributed quotations. Every memory, relative, action, and object belongs to a synthetic scenario. The source hash matches the frozen registry, whose generation record documents AI origin. The reviewer also created this source; source-origin blinding is therefore absent. This does not expose the reviewer to candidate identities or detector scores."
+  },
+  "findings": [
+    {
+      "id": "E1",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "observation": "P1 gives a small practical arrangement and then notes that the narrator kept explaining it despite the visitors' understanding.",
+      "interpretation": "The imperfectly efficient habit gives the narrator a specific attitude and counters a description of the prose as generic emotional exposition. It remains an invented detail, not evidence of human experience.",
+      "human_alternative": "A human memoir writer could remember such a mundane warning and the redundant explanation because it shows how long the repair was deferred.",
+      "discriminating_evidence": "Independent writing history or authentic personal records would be required to support lived experience; no such claim is made for this synthetic source.",
+      "spans": [
+        {
+          "start": 75,
+          "end": 135,
+          "quote": "with a folded towel on its seat. That was my warning system.",
+          "line": 1,
+          "column": 76,
+          "paragraph_ids": [
+            "P1"
+          ]
+        },
+        {
+          "start": 136,
+          "end": 227,
+          "quote": "Visitors understood it, although I still explained the wobble every time someone came over.",
+          "line": 1,
+          "column": 137,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "observation": "P2 explicitly separates a gap in memory from two tentative explanations of a physical mark.",
+      "interpretation": "The uncertainty is specific rather than an all-purpose hedge and prevents an invented sentimental connection from being asserted. AI can intentionally write this restraint, so it is counterevidence to overconfident narration, not to documented AI origin.",
+      "human_alternative": "A human narrator could honestly resist claiming an aunt's handiwork when the patch does not identify its cause.",
+      "discriminating_evidence": "Reliable records of the object's history could resolve the repair question in a real case. They would still not identify who drafted this prose.",
+      "spans": [
+        {
+          "start": 485,
+          "end": 544,
+          "quote": "I cannot remember whether my aunt ever repaired it herself.",
+          "line": 3,
+          "column": 123,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 545,
+          "end": 645,
+          "quote": "There is a pale patch underneath that might be a repair, or might just be where the finish wore off.",
+          "line": 3,
+          "column": 183,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "The four-word and five-word sentences quoted here sit alongside a longer expectation-and-result sentence. Rhythm varies at the sentence level.",
+      "interpretation": "This contradicts a blanket claim that every sentence has the same structure or length. It does not establish a human rhythm or a model's response to rhythm.",
+      "human_alternative": "A human writer could use short sentences to mark small decisions and longer ones to carry narrative detail.",
+      "discriminating_evidence": "A stated comparison corpus would be required for population claims about rhythm. No such comparison or model attribution is available.",
+      "spans": [
+        {
+          "start": 108,
+          "end": 135,
+          "quote": "That was my warning system.",
+          "line": 1,
+          "column": 109,
+          "paragraph_ids": [
+            "P1"
+          ]
+        },
+        {
+          "start": 400,
+          "end": 484,
+          "quote": "I had expected the old glue to resist, but the back came away with one careful pull.",
+          "line": 3,
+          "column": 38,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 646,
+          "end": 662,
+          "quote": "I left it alone.",
+          "line": 3,
+          "column": 284,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "basis": "style_observation",
+      "direction": "ai_like",
+      "strength": "weak",
+      "observation": "P3 explicitly raises the possibility of a reflective lesson and declines it, then ends on an object that carries the unresolved choices.",
+      "interpretation": "This carefully managed anti-resolution can be generated as readily as a conventional moral. It makes the ending feel composed, but it is a single literary device, not strong authorship evidence.",
+      "human_alternative": "A human essayist could revise toward exactly this ending to avoid claiming a repair settled a difficult question about possessions.",
+      "discriminating_evidence": "Drafts could show whether this ending developed from events or a writing prompt. Neither the emotional effect nor the absence of closure supplies that history.",
+      "spans": [
+        {
+          "start": 784,
+          "end": 905,
+          "quote": "I would like to say the afternoon settled something about keeping her things, but mostly it gave me another place to sit.",
+          "line": 5,
+          "column": 121,
+          "paragraph_ids": [
+            "P3"
+          ]
+        },
+        {
+          "start": 906,
+          "end": 965,
+          "quote": "The harder choices are still in the box above the wardrobe.",
+          "line": 5,
+          "column": 243,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "A towel introduced as a warning in P1 is returned to its hook in P3, showing practical completion through the same object.",
+      "interpretation": "The callback is a visible craft choice and helps continuity. Human and generated prose can both use it; it should not be counted as independent confirmation of E4.",
+      "human_alternative": "A human writer might preserve the towel detail because its change of place says more economically that the chair is usable again.",
+      "discriminating_evidence": "Revision history could identify how the callback was selected. The frozen text only establishes that it is present.",
+      "spans": [
+        {
+          "start": 75,
+          "end": 107,
+          "quote": "with a folded towel on its seat.",
+          "line": 1,
+          "column": 76,
+          "paragraph_ids": [
+            "P1"
+          ]
+        },
+        {
+          "start": 748,
+          "end": 783,
+          "quote": "I moved the towel back to its hook.",
+          "line": 5,
+          "column": 85,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ]
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 361,
+      "line": 1,
+      "text": "For most of the winter, the loose chair stayed in the corner of my kitchen with a folded towel on its seat. That was my warning system. Visitors understood it, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt, and throwing it out seemed like a decision that needed a better reason than an awkward joint.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Role: establish delay, the towel warning, and reluctance to discard an inherited chair. Concrete detail conveys the narrator's attitude without naming a large emotion. Counterexplanation to an AI-style reading: a human personal essay can select the same small domestic detail. No origin claim follows. Preserve the visitors' understanding, repeated explanation, inheritance from the aunt, and the narrator's limited reason for keeping it.",
+      "finding_ids": [
+        "E1",
+        "E3",
+        "E5"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 363,
+      "end": 662,
+      "line": 3,
+      "text": "Last Sunday I finally took it apart. I had expected the old glue to resist, but the back came away with one careful pull. I cannot remember whether my aunt ever repaired it herself. There is a pale patch underneath that might be a repair, or might just be where the finish wore off. I left it alone.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Role: describe disassembly and an uncertain trace of earlier work. The expectation/result contrast is coherent, and the memory gap remains unresolved. Counterexplanation: a careful human narrator could distinguish observation from wishful inference in exactly this way. Preserve last Sunday, the one careful pull, both explanations of the patch, and leaving it alone.",
+      "finding_ids": [
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 664,
+      "end": 965,
+      "line": 5,
+      "text": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. I would like to say the afternoon settled something about keeping her things, but mostly it gave me another place to sit. The harder choices are still in the box above the wardrobe.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Role: record practical success with a remaining imperfection and no broader closure. The towel callback and anti-resolution are crafted but compatible with ordinary essay revision. Counterexplanation: the writer may deliberately avoid a neat moral. Preserve the leg catching on an uneven floor, the towel's return, the limited gain of another seat, and the unexamined box; do not invent its contents.",
+      "finding_ids": [
+        "E4",
+        "E5"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 3,
+    "paragraphs_reviewed": 3,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated."
+}

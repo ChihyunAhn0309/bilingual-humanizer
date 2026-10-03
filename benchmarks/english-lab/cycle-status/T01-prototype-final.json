@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "stop_detail": "The completed optional comparison received exact native output and whole-document feedback. No actionable finding remains; the best eligible earlier text is retained when the new route scores lower. This continuation is post-feedback development, not untouched transfer, and does not enlarge the revision budget.",
+  "revision_limit": 3,
+  "revisions_used": 1,
+  "prior_revisions_used": 0,
+  "recorded_text_revisions": 1,
+  "prior_revision_note": null,
+  "selected_candidate": {
+    "id": "draft-1",
+    "candidate": {
+      "path": "prototype-output/T01/draft-1.txt",
+      "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1"
+    },
+    "human_percent": 0.9622050449252129,
+    "native_class_probabilities": {
+      "human": 0.009622050449252129,
+      "ai": 0.3345760107040405,
+      "ai_edited": 0.0008108244510367513,
+      "humanized": 0.6549911499023438
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": false,
+    "declared_reader_improvement": false,
+    "human_change_percentage_points": 0.6549418671056628,
+    "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original.",
+    "eligibility_review_round": "draft-1"
+  },
+  "selection_basis": "highest_native_document_human",
+  "best_faithful_checkpoint": {
+    "id": "draft-1",
+    "candidate": {
+      "path": "prototype-output/T01/draft-1.txt",
+      "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1"
+    },
+    "human_percent": 0.9622050449252129,
+    "native_class_probabilities": {
+      "human": 0.009622050449252129,
+      "ai": 0.3345760107040405,
+      "ai_edited": 0.0008108244510367513,
+      "humanized": 0.6549911499023438
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": false,
+    "declared_reader_improvement": false,
+    "human_change_percentage_points": 0.6549418671056628,
+    "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original.",
+    "eligibility_review_round": "draft-1"
+  },
+  "rounds": [
+    {
+      "id": "source",
+      "candidate": {
+        "path": "transfer/T01-repair-queue.source.txt",
+        "sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697"
+      },
+      "human_percent": 0.30726317781955004,
+      "native_class_probabilities": {
+        "human": 0.0030726317781955004,
+        "ai": 0.934532642364502,
+        "ai_edited": 0.0004357806174084544,
+        "humanized": 0.06195886433124542
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": false,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": null,
+      "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original."
+    },
+    {
+      "id": "draft-1",
+      "candidate": {
+        "path": "prototype-output/T01/draft-1.txt",
+        "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1"
+      },
+      "human_percent": 0.9622050449252129,
+      "native_class_probabilities": {
+        "human": 0.009622050449252129,
+        "ai": 0.3345760107040405,
+        "ai_edited": 0.0008108244510367513,
+        "humanized": 0.6549911499023438
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": false,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": 0.6549418671056628,
+      "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original."
+    },
+    {
+      "id": "draft-2",
+      "candidate": {
+        "path": "prototype-output/T01/draft-2.txt",
+        "sha256": "698c859e5a09aa303a28306f488bd6ce9d68684c456f8df70b88f7d963021a94"
+      },
+      "human_percent": 0.32673710957169533,
+      "native_class_probabilities": {
+        "human": 0.0032673710957169533,
+        "ai": 0.9432140588760376,
+        "ai_edited": 0.0002578019630163908,
+        "humanized": 0.05326070263981819
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": true,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": -0.6354679353535175,
+      "improvement_reason": "Explicitly requested source-grounded alternate reader route. Independent review found it valid but no decisive reader advantage. Numeric movement remains separate from editorial quality."
+    }
+  ],
+  "current_open_findings": [],
+  "numeric_unavailable_rounds": [],
+  "validation_scope": "Saved records, exact hashes/spans, coverage, native values and followup links; not semantic truth, reviewer independence, execution authenticity or authorship."
+}

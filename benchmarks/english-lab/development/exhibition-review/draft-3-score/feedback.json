@@ -1,0 +1,11 @@
+{
+  "status": "unavailable",
+  "measurement_status": "not_submitted",
+  "reason": "Not submitted: parent review rejected expectation-to-desire and current-to-past uncertainty drift in fresh-context candidate. Full text is retained.",
+  "input_sha256": "d5e79d5787e61d7a86c6018bff60a46ea9363235ee0d7e17cfc42cb0501d0269",
+  "human_percent": null,
+  "native_class_probabilities": null,
+  "external_detector_calls": 0,
+  "local_detector_calls": 0,
+  "style_review_completed": false
+}

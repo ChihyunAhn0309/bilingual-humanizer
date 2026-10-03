@@ -1,0 +1,19 @@
+{
+  "summary":"Rejected before scoring by writer's source comparison: a recommendation based on records rather than a survey became a claim that the group had not surveyed. Full candidate is saved, not missing. This ledger documents the known rejection after the repair was prepared; no initial validated-review timing is claimed. The evidence-first reader route remains a legitimate alternative, but semantic error prevents eligibility.",
+  "document_analysis":{
+    "structure":"P1 attendance advantage and evidence basis, P2 staffing turn and recommendation, P3 next actions and limits of existing counts.",
+    "reasoning_specificity":"All numeric/staff details remain; survey statement overreaches the original evidence-basis limit.",
+    "voice_consistency":"Ordinary professional first-person recommendation with welcome for attendance and cautious operational risk.",
+    "rhythm_repetition":"'What we don't yet have' gives the constraint focus; no numerical variation target or arbitrary fragment.",
+    "language_features":"The conditional 'Move ... could' remains a possibility, not a command. 'We haven't surveyed' changes agency and scope and needs repair.",
+    "citations_provenance":"AI-origin synthetic source and same-context rewrite. draft-3-writer-review.md records the actual self-rejection; no native detector score was requested for draft-2."
+  },
+  "findings":[
+    {"id":"E1","basis":"style_observation","direction":"neutral","strength":"weak","quotes":["We haven't surveyed everyone who might want to attend."],"observation":"A limit on the recommendation's evidence basis is rewritten as a claim about whether the group conducted a survey.","interpretation":"The source does not establish the broader operational claim. Repair required regardless of readability.","human_alternative":"A human editor could also infer too much from a methodological disclaimer.","discriminating_evidence":"Original says the recommendation is based on records rather than a survey; that is the supported scope.","decision":"revise","reason":"Attach survey contrast to the recommendation's basis, retaining six-session records and all possible attendees."}
+  ],
+  "paragraph_reviews":[
+    {"paragraph_id":"P1","status":"reviewed","assessment":"Correct counts and comparison; reject added assertion about conducting a survey.","finding_ids":["E1"]},
+    {"paragraph_id":"P2","status":"reviewed","assessment":"All staffing facts and possible risk remain; natural evidence-to-constraint turn.","finding_ids":[]},
+    {"paragraph_id":"P3","status":"reviewed","assessment":"Conditional review, count request and nonattendee limitation retained.","finding_ids":[]}
+  ]
+}

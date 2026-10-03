@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-03T10:44:37.342217+00:00",
+  "source_blind_review_sha256": "dc87c8a1a42ccfd5575e6ae093e38f01a55fe2c584aa813a32686edd14e6494d",
+  "candidate_scores_read_at_preparation": false,
+  "method_identities_read": false,
+  "preparation_scope": "Only the frozen all-paragraph reader review and exact anonymous candidate files. Native measurements will be attached separately after availability.",
+  "files": {
+    "T01/A/qualitative-ledger.json": "c38215b89d2b967061f1e5f404d4bb2028ba680035a1e96f5b8ca4d6c474f4f3",
+    "T01/B/qualitative-ledger.json": "403ea46b0aed98228d365d5875bee270d44f6a119cb852b772bdf5b26619db2b",
+    "T02/A/qualitative-ledger.json": "e7cf7bcbad920185d64a5de70f4a6c1c2d526d09829d757aa4be5d450922415c",
+    "T02/B/qualitative-ledger.json": "24ee033e7ac4dff5a64f8ce478cb97afa41cea5aabc5f273ffaa80006daa1f32",
+    "T03/A/qualitative-ledger.json": "32a9793082cdcc3a49e1c63654cc8809152a08f154ff78c464f797340b966630",
+    "T03/B/qualitative-ledger.json": "b39cffaa0f472cf068da044a5045e36918a70e05a593442c93a3d3080c8047f6"
+  }
+}

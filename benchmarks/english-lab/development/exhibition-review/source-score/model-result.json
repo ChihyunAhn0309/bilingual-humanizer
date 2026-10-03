@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T10:12:59.633862+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167",
+  "token_count": 198,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 198,
+      "start": 0,
+      "end": 1020,
+      "quote": "I visited the harbour exhibition on Sunday and hired the audio guide for £4. I expected it to explain how the port had changed, but most of the recordings described objects already identified on the labels. The exception was a six-minute interview with a former crane operator. He explained why crews used hand signals when the radio failed, and that account helped me understand a photograph I had previously walked past.\n\nThe guide was easy to operate, and I could replay an individual recording without restarting the whole sequence. However, the numbering on the cases did not always match the order in the guide. I doubled back twice, although I cannot tell whether this was a permanent problem or the result of exhibits being moved.\n\nI would recommend the interview, but I would not hire the guide again at its current price. The exhibition itself was worth the visit. I spent about an hour there, and I would have stayed longer if the upstairs room had been open. The ticket desk did not say when it would reopen.",
+      "class_probabilities": {
+        "human": 0.00016359800065401942,
+        "ai": 0.9991766810417175,
+        "ai_edited": 2.2823302060714923e-05,
+        "humanized": 0.000636905780993402
+      },
+      "ai_involvement_class_score": 0.999836401999346
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.00016359800065401942,
+    "ai": 0.9991766810417175,
+    "ai_edited": 2.2823302060714923e-05,
+    "humanized": 0.000636905780993402
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 422,
+        "quote": "I visited the harbour exhibition on Sunday and hired the audio guide for £4. I expected it to explain how the port had changed, but most of the recordings described objects already identified on the labels. The exception was a six-minute interview with a former crane operator. He explained why crews used hand signals when the radio failed, and that account helped me understand a photograph I had previously walked past.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.999836401999346,
+        "after_removal_ai_involvement": 0.9985231397440657,
+        "delta_percentage_points": 0.13132622552802786
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 424,
+        "end": 738,
+        "quote": "The guide was easy to operate, and I could replay an individual recording without restarting the whole sequence. However, the numbering on the cases did not always match the order in the guide. I doubled back twice, although I cannot tell whether this was a permanent problem or the result of exhibits being moved.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.999836401999346,
+        "after_removal_ai_involvement": 0.9996878165111411,
+        "delta_percentage_points": 0.01485854882048443
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 740,
+        "end": 1020,
+        "quote": "I would recommend the interview, but I would not hire the guide again at its current price. The exhibition itself was worth the visit. I spent about an hour there, and I would have stayed longer if the upstairs room had been open. The ticket desk did not say when it would reopen.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.999836401999346,
+        "after_removal_ai_involvement": 0.9991321458946913,
+        "delta_percentage_points": 0.07042561046546325
+      }
+    ],
+    "total_paragraphs": 3,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "05cf11d7d0d26dd4ba049fd64f2ecdc94ef008e8291a9d70dcedde9bbe71f924",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Rejected before scoring because uncertainty about why the mismatch occurred changed into uncertainty about whether exhibits were moving. Text is preserved in full; no detector run was attempted. This full ledger is assembled after the rejection from the saved candidate and parent prescore review, not claimed as an earlier validated review. Other source points and the three-paragraph route remain useful.",
+  "document_analysis": {
+    "structure": "Exhibition value and closure in P1, interview exception in P2, guide usability and verdict in P3; useful separation of the two appraisals.",
+    "reasoning_specificity": "All observations and numeric details remain, but P3 changes one uncertain causal relationship into an event-occurrence question.",
+    "voice_consistency": "Restrained British personal review consistent with the source; no new persona.",
+    "rhythm_repetition": "Unequal paragraph roles are natural; no harmful repeated construction identified.",
+    "language_features": "Fluent grammar masks the changed scope of 'whether'. That meaning error must be fixed despite readability.",
+    "citations_provenance": "AI-origin development text. Parent draft-1-prescore.json documents the actual rejection before scoring; source and candidate files remain. No native score exists for this candidate."
+  },
+  "findings": [
+    {
+      "id": "E1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "The second 'whether' makes exhibit movement itself uncertain; the source concerns movement as an explanation of the mismatch.",
+      "interpretation": "Fidelity failure requiring repair; not a sign of authorship.",
+      "human_alternative": "A human editor could make the same subtle scope error while smoothing a sentence.",
+      "discriminating_evidence": "Compare the source's 'or the result of exhibits being moved' with this exact clause.",
+      "spans": [
+        {
+          "start": 737,
+          "end": 822,
+          "quote": "I don't know whether the mismatch was permanent or whether exhibits were being moved.",
+          "line": 5,
+          "column": 189,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 195,
+          "quote": "The harbour exhibition was worth the visit on Sunday. I spent about an hour there and would have stayed longer if the upstairs room had been open. The ticket desk didn't say when it would reopen.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "New AI-origin synthetic source and AI-authored development rewrites, created for this experiment.",
+      "interpretation": "Known generation history is separate from naturalness and the uncalibrated native classes.",
+      "human_alternative": "A human could write similar prose; that possibility does not change this fixture creation record.",
+      "discriminating_evidence": "No claim is made that the described events occurred. Hashes identify exact artifacts, not authorship.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\PROTOCOL.md"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 195,
+      "line": 1,
+      "text": "The harbour exhibition was worth the visit on Sunday. I spent about an hour there and would have stayed longer if the upstairs room had been open. The ticket desk didn't say when it would reopen.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Visit, value, duration, closed room and desk nonstatement all retained; no necessary problem.",
+      "finding_ids": [
+        "H"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 197,
+      "end": 547,
+      "line": 3,
+      "text": "I hired the audio guide for £4, expecting it to explain how the port had changed. Most recordings described objects the labels had already identified. One six-minute interview, though, helped me understand a photograph I'd walked past: a former crane operator explained why crews used hand signals when the radio failed. I'd recommend that interview.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Price, expected topic, described objects, interview and photograph are faithful; no new unsupported detail.",
+      "finding_ids": []
+    },
+    {
+      "id": "P3",
+      "start": 549,
+      "end": 901,
+      "line": 5,
+      "text": "The guide was easy to use. I could replay a recording without starting the whole sequence again, but the numbers on the cases didn't always follow the guide's order. I doubled back twice. I don't know whether the mismatch was permanent or whether exhibits were being moved. Even with the interview, I wouldn't hire the guide again at its current price.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Usability, doubled-back count and price judgment remain; causal uncertainty must be restored before eligibility.",
+      "finding_ids": [
+        "E1"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 3,
+    "paragraphs_reviewed": 3,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated."
+}

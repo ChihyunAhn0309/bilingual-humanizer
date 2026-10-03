@@ -1,0 +1,37 @@
+{
+  "review_type": "parent_separate_from_writer_prescore_fidelity_and_reader_followup",
+  "reviewed_at_utc": "2026-10-03T10:25:53.492047+00:00",
+  "source_sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167",
+  "candidate_sha256": "fd481b2dcafaacd3c65bb3e6af0dade075d407996b5ab2e421b59b4ebd5f1972",
+  "eligible_for_scoring": true,
+  "fidelity_pass": true,
+  "necessary_repairs": [],
+  "candidate_score_seen": false,
+  "resolved_findings": [
+    {
+      "id": "EXPECTED-NOT-HOPED",
+      "after": "expecting to hear how the port had changed over time",
+      "assessment": "Expectation of the hired guide providing port history is restored; desire is no longer substituted."
+    },
+    {
+      "id": "PRESENT-UNCERTAINTY",
+      "after": "I can't tell whether the mismatch was permanent or had been caused by exhibits being moved.",
+      "assessment": "Present uncertainty and the proposed cause both remain explicit."
+    }
+  ],
+  "paragraph_reviews": [
+    "P1 preserves Sunday, harbour exhibition, £4 hire, expected port history, most recordings and labels, six-minute former operator interview, radio failure/hand signals explanation, earlier photograph and interview recommendation.",
+    "P2 preserves ease of operation, replay of one recording, whole-sequence distinction, intermittent numbering/order mismatch, two backtracks, present uncertainty over permanence versus relocation as cause, refusal to hire again at current price.",
+    "P3 preserves positive visit assessment, approximate hour, conditional longer visit, upstairs closure and ticket desk nonstatement about reopening."
+  ],
+  "reader_assessment": "The guide content, usability and overall visit form a coherent review. Full reread found no material reader defect or additional semantic error. No score-based preference has been made.",
+  "independence_limit": "Parent did not author either candidate; same model agents and parent aware of earlier results, not human or fully blind review.",
+  "prior_review_sha256": "95c59f26ebc4b7a765f895d5749c4109a30869391df44936a2105a5bca20ada6",
+  "repair_collision": {
+    "detail": "Two agents repaired the same feedback concurrently. Development writer saved the first repair, then the brief-only writer overwrote draft-4 before the stop message arrived. Its exact byte-identical first artifact is reconstructed from unchanged draft-3 and reported replacements, with its previously reported SHA verified. Both versions are retained. Current brief-writer version chosen before measurement because it preserves the brief-only drafting lineage; no selection by score.",
+    "alternate_path": "draft-4-lead-parallel-repair-unscored.txt",
+    "alternate_sha256": "0cf7560051216f642588619a6e4606f5e8415725cabf97b0e08fe943878a0b7c",
+    "alternate_score": null,
+    "budget_deviation": "Three planned revision stages after initial draft, but the duplicate parallel repair produced one extra distinct unscored artifact beyond the four-artifact cap. Disclose this orchestration error; no additional revision or measurement is authorized for the duplicate."
+  }
+}

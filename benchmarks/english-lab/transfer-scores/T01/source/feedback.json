@@ -1,0 +1,88 @@
+{
+  "status": "completed",
+  "language": "en",
+  "input_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+  "measured_at_utc": "2026-10-03T10:29:43.707817+00:00",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "scope": "whole_document",
+  "native_class_probabilities": {
+    "human": 0.0030726317781955004,
+    "ai": 0.934532642364502,
+    "ai_edited": 0.0004357806174084544,
+    "humanized": 0.06195886433124542
+  },
+  "human_percent": 0.30726317781955004,
+  "probability_semantics": "Native Human/AI/AI-edited/Humanized classes; not word shares or verified writing history.",
+  "calibration": null,
+  "cautions": [
+    "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "English four-class outputs are uncalibrated experimental auxiliary scores."
+  ],
+  "measured_evidence": {
+    "windows": [
+      {
+        "token_start": 0,
+        "token_end": 215,
+        "start": 0,
+        "end": 1097,
+        "quote": "An empty bench does not always mean a repair workshop can take another job. At the fictional Bell Street Repair Room, there are four benches, but only one volunteer handles electrical faults. She comes on alternate Saturdays. A lamp waiting for her may therefore stay on the shelf while a chair, brought in later, goes straight to someone who works with wood. The queue is organized partly by the work required, rather than simply by arrival time.\n\nThere is another pause that visitors cannot easily see. Volunteers need an owner's agreement before buying a replacement part. Until the owner replies, a repair may be ready to continue but unable to move forward. Calling that job unfinished is accurate; calling it neglected may not be.\n\nThe workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. They would not create extra volunteer hours or guarantee a completion date. They would at least give owners a better idea of what, if anything, they can do next.",
+        "class_probabilities": {
+          "human": 0.0030726317781955004,
+          "ai": 0.934532642364502,
+          "ai_edited": 0.0004357806174084544,
+          "humanized": 0.06195886433124542
+        },
+        "ai_involvement_class_score": 0.9969273682218045
+      }
+    ],
+    "occlusion": {
+      "performed": true,
+      "paragraphs": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 447,
+          "quote": "An empty bench does not always mean a repair workshop can take another job. At the fictional Bell Street Repair Room, there are four benches, but only one volunteer handles electrical faults. She comes on alternate Saturdays. A lamp waiting for her may therefore stay on the shelf while a chair, brought in later, goes straight to someone who works with wood. The queue is organized partly by the work required, rather than simply by arrival time.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9969273682218045,
+          "after_removal_ai_involvement": 0.16827315092086792,
+          "delta_percentage_points": 82.86542173009366
+        },
+        {
+          "paragraph_id": "P2",
+          "start": 449,
+          "end": 736,
+          "quote": "There is another pause that visitors cannot easily see. Volunteers need an owner's agreement before buying a replacement part. Until the owner replies, a repair may be ready to continue but unable to move forward. Calling that job unfinished is accurate; calling it neglected may not be.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9969273682218045,
+          "after_removal_ai_involvement": 0.9935694537125528,
+          "delta_percentage_points": 0.3357914509251714
+        },
+        {
+          "paragraph_id": "P3",
+          "start": 738,
+          "end": 1097,
+          "quote": "The workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. They would not create extra volunteer hours or guarantee a completion date. They would at least give owners a better idea of what, if anything, they can do next.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9969273682218045,
+          "after_removal_ai_involvement": 0.9760699737817049,
+          "delta_percentage_points": 2.0857394440099597
+        }
+      ],
+      "total_paragraphs": 3,
+      "unmeasured_due_to_limit": 0,
+      "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+    }
+  },
+  "authorship_verified": false,
+  "semantic_review_required": true,
+  "style_review_completed": false,
+  "external_detector_calls": 0,
+  "raw_result_sha256": "6346754780ef97f3f012ef970553338d5a6b7db15d96c12100487f63f50b7b4f",
+  "paragraph_review_required": [
+    "P1",
+    "P2",
+    "P3"
+  ]
+}

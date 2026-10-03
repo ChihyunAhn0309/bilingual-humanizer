@@ -1,0 +1,365 @@
+{
+  "text_sha256": "39739e2375cd2c7becddb0ffe5f7f6956f8886dd1a5e8efbccf4cd86f5b8580d",
+  "authorship_probabilities": null,
+  "summary": "Prototype continuation T02/draft-2 independently passes source fidelity and reader eligibility. No necessary repair was found. This is a disclosed feedback-driven continuation, not an untouched blind transfer case. This is a faithful, usable alternative. Grouping file access and fallback is reasonable, while the previous separate deadline paragraph was easier to scan. I find no decisive reader advantage over the prior competent memo versions and no necessary repair.",
+  "document_analysis": {
+    "structure": "P1 announces the trial. P2 groups the pre-trial access deadline with the during-trial file fallback. P3 then gives the return workflow; P4 states that retention is undecided before promising review. This order is coherent and keeps every original paragraph function.",
+    "reasoning_specificity": "Both equipment classes and desks, next Monday, two weeks, unchanged borrowing limits, Friday 3 p.m., Nia, paper location, next-morning transcription, no duplicate entry, logging before storage, inspection branch, availability restriction, safety exception, and later review all remain explicit.",
+    "voice_consistency": "The memo stays collegial and directive. Contractions are normal for an internal memo and do not weaken record, leave, add, or please do not instructions. Starting with undecided retention in P4 does not withdraw the writer's review commitment.",
+    "rhythm_repetition": "Four paragraphs replace the prior versions' five. Grouping the access request and file fallback makes P2 a compact technology paragraph, while the workflow remains separate. The chronology is still clearly marked by this Friday, during the trial, and after the second week. Neither this grouping nor the prior split requires repair.",
+    "language_features": "Record is a faithful substitute for enter. Doesn't need to wait retains permission rather than instructing a borrower to leave. The fronted immediate-safety exception preserves the narrow condition. There's no need to enter them again retains the exemption from duplicate work.",
+    "citations_provenance": "No real events, absolute dates, citations, or new people are introduced. This is an explicitly identified prototype continuation of a synthetic work memo. It is not independent human ground truth or an untouched blind case."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 207,
+          "quote": "Next Monday, we'll start a two-week trial of a shared return log for borrowed projectors and audio kits at the North and Annex desks. The borrowing limits stay the same; we're changing how we record returns."
+        }
+      ],
+      "observation": "P1 retains next Monday, the two-week shared-log trial, projectors and audio kits, both desks, and unchanged borrowing limits. Start a trial is faithful to the authorized trial announcement; it is not a permanent policy.",
+      "interpretation": "This is a grounded editorial observation about retained meaning and a legitimate arrangement. It identifies no necessary defect and is not an authorship or model-causation inference.",
+      "human_alternative": "A human editor could make the same ordering and phrasing choices under these source constraints. The synthetic detail does not establish lived experience.",
+      "discriminating_evidence": "Actual process records would be needed to distinguish authoring histories. For the editorial decision, the exact source comparison supports retention.",
+      "triage": {
+        "action": "retain",
+        "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+        "repair_required": false,
+        "unresolved_scope": "Selection as the final best is a separate comparison; a valid paragraph need not be chosen merely because it is newer."
+      }
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 209,
+          "end": 472,
+          "quote": "If you can't open the shared file, please tell Nia by 3 p.m. this Friday. During the trial, use the paper sheet beside the cupboard if the file is unavailable. Nia will transfer those entries the following morning, so there's no need to enter them again yourself."
+        }
+      ],
+      "observation": "P2 retains the access trigger and Friday 3 p.m. deadline, then explicitly changes scope to during the trial for the file-unavailability fallback. The paper sheet remains beside the cupboard, Nia transfers the entries the following morning, and desk staff need not duplicate them. The grouped paragraph is clear.",
+      "interpretation": "This is a grounded editorial observation about retained meaning and a legitimate arrangement. It identifies no necessary defect and is not an authorship or model-causation inference.",
+      "human_alternative": "A human editor could make the same ordering and phrasing choices under these source constraints. The synthetic detail does not establish lived experience.",
+      "discriminating_evidence": "Actual process records would be needed to distinguish authoring histories. For the editorial decision, the exact source comparison supports retention.",
+      "triage": {
+        "action": "retain",
+        "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+        "repair_required": false,
+        "unresolved_scope": "Selection as the final best is a separate comparison; a valid paragraph need not be chosen merely because it is newer."
+      }
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 474,
+          "end": 832,
+          "quote": "When equipment comes back, record the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. Unless there's an immediate safety concern, the person returning it doesn't need to wait at the desk."
+        }
+      ],
+      "observation": "P3 preserves logging before storage, kit number and return time, the missing-item shelf and note, no marking available during checking, and the borrower's permission to leave except for an immediate safety concern. The exception-first sentence and record synonym change neither agency nor force.",
+      "interpretation": "This is a grounded editorial observation about retained meaning and a legitimate arrangement. It identifies no necessary defect and is not an authorship or model-causation inference.",
+      "human_alternative": "A human editor could make the same ordering and phrasing choices under these source constraints. The synthetic detail does not establish lived experience.",
+      "discriminating_evidence": "Actual process records would be needed to distinguish authoring histories. For the editorial decision, the exact source comparison supports retention.",
+      "triage": {
+        "action": "retain",
+        "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+        "repair_required": false,
+        "unresolved_scope": "Selection as the final best is a separate comparison; a valid paragraph need not be chosen merely because it is newer."
+      }
+    },
+    {
+      "id": "S4",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 834,
+          "end": 988,
+          "quote": "We haven't decided whether to keep using the shared log. After the second week, I'll review the logs and ask both desks whether the extra step was useful."
+        }
+      ],
+      "observation": "P4 retains an undecided permanent outcome and the writer's review after week two, including both desks and the usefulness question. Reversing the two sentences does not prejudge the result or weaken consultation.",
+      "interpretation": "This is a grounded editorial observation about retained meaning and a legitimate arrangement. It identifies no necessary defect and is not an authorship or model-causation inference.",
+      "human_alternative": "A human editor could make the same ordering and phrasing choices under these source constraints. The synthetic detail does not establish lived experience.",
+      "discriminating_evidence": "Actual process records would be needed to distinguish authoring histories. For the editorial decision, the exact source comparison supports retention.",
+      "triage": {
+        "action": "retain",
+        "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+        "repair_required": false,
+        "unresolved_scope": "Selection as the final best is a separate comparison; a valid paragraph need not be chosen merely because it is newer."
+      }
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "P1 retains next Monday, the two-week shared-log trial, projectors and audio kits, both desks, and unchanged borrowing limits. Start a trial is faithful to the authorized trial announcement; it is not a permanent policy.",
+      "finding_ids": [
+        "S1"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "P2 retains the access trigger and Friday 3 p.m. deadline, then explicitly changes scope to during the trial for the file-unavailability fallback. The paper sheet remains beside the cupboard, Nia transfers the entries the following morning, and desk staff need not duplicate them. The grouped paragraph is clear.",
+      "finding_ids": [
+        "S2"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "P3 preserves logging before storage, kit number and return time, the missing-item shelf and note, no marking available during checking, and the borrower's permission to leave except for an immediate safety concern. The exception-first sentence and record synonym change neither agency nor force.",
+      "finding_ids": [
+        "S3"
+      ]
+    },
+    {
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "P4 retains an undecided permanent outcome and the writer's review after week two, including both desks and the usefulness question. Reversing the two sentences does not prejudge the result or weaken consultation.",
+      "finding_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "review_metadata": {
+    "reviewed_at_utc": "2026-10-03T10:57:18.966400+00:00",
+    "case_id": "T02",
+    "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\prototype-output\\T02\\draft-2.txt",
+    "candidate_sha256": "39739e2375cd2c7becddb0ffe5f7f6956f8886dd1a5e8efbccf4cd86f5b8580d",
+    "source_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+    "constraints_sha256": "91e8884aec65ff49713dc485f16592e0693ce438e45f06b0fa270ca63e06556a",
+    "method_identity": "prototype, explicitly disclosed",
+    "score_disclosure_before_review": "No draft-2 native score was available to this reviewer during the independent prose reading or this qualitative preparation. Method identity is explicitly prototype; source and earlier candidate scores were already known.",
+    "inference_run_by_reviewer": false,
+    "parent_chronology": "Parent-maintained draft-2-prescore.json remains authoritative; not edited or adopted as this independent verdict."
+  },
+  "full_constraint_coverage": [
+    {
+      "source_paragraph": "P1",
+      "source_anchor": {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 237,
+        "quote": "Starting next Monday, we will try a shared return log for borrowed projectors and audio kits. The trial will run for two weeks at the North and Annex desks. This is a change to how we record returns, not a change to the borrowing limits."
+      },
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 207,
+          "quote": "Next Monday, we'll start a two-week trial of a shared return log for borrowed projectors and audio kits at the North and Annex desks. The borrowing limits stay the same; we're changing how we record returns."
+        }
+      ],
+      "propositions": [
+        {
+          "constraint": "A shared return log starts next Monday.",
+          "pass": true
+        },
+        {
+          "constraint": "The equipment scope is borrowed projectors and audio kits.",
+          "pass": true
+        },
+        {
+          "constraint": "The trial lasts two weeks.",
+          "pass": true
+        },
+        {
+          "constraint": "It covers both the North and Annex desks.",
+          "pass": true
+        },
+        {
+          "constraint": "Only return recording changes; borrowing limits do not.",
+          "pass": true
+        }
+      ],
+      "speech_acts": [
+        {
+          "constraint": "Announce an authorized trial, rather than propose one or describe a permanent policy.",
+          "pass": true
+        },
+        {
+          "constraint": "Retain the relative scheduling and do not invent calendar dates.",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "source_paragraph": "P2",
+      "source_anchor": {
+        "paragraph_id": "P2",
+        "start": 239,
+        "end": 599,
+        "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark it available while we are still checking it. The person returning it does not need to wait at the desk unless there is an immediate safety concern."
+      },
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P3",
+          "start": 474,
+          "end": 832,
+          "quote": "When equipment comes back, record the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. Unless there's an immediate safety concern, the person returning it doesn't need to wait at the desk."
+        }
+      ],
+      "propositions": [
+        {
+          "constraint": "Staff enter the kit number and return time when equipment returns.",
+          "pass": true
+        },
+        {
+          "constraint": "They make that entry before putting the kit in the cupboard.",
+          "pass": true
+        },
+        {
+          "constraint": "A kit missing anything goes on the inspection shelf, with a short note in the log.",
+          "pass": true
+        },
+        {
+          "constraint": "Staff must not mark a kit available while it is still being checked.",
+          "pass": true
+        },
+        {
+          "constraint": "The person returning equipment need not remain at the desk unless there is an immediate safety concern.",
+          "pass": true
+        }
+      ],
+      "speech_acts": [
+        {
+          "constraint": "Preserve the required action sequence and negative instruction.",
+          "pass": true
+        },
+        {
+          "constraint": "Preserve permission to leave and its narrow safety exception; do not substitute a general requirement to wait or to leave.",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "source_paragraph": "P3",
+      "source_anchor": {
+        "paragraph_id": "P3",
+        "start": 601,
+        "end": 863,
+        "quote": "By 3 p.m. this Friday, please tell Nia if you cannot open the shared file. If the file is unavailable during the trial, use the paper sheet beside the cupboard; Nia will transfer those entries the following morning. There is no need to enter them again yourself."
+      },
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P2",
+          "start": 209,
+          "end": 472,
+          "quote": "If you can't open the shared file, please tell Nia by 3 p.m. this Friday. During the trial, use the paper sheet beside the cupboard if the file is unavailable. Nia will transfer those entries the following morning, so there's no need to enter them again yourself."
+        }
+      ],
+      "propositions": [
+        {
+          "constraint": "Anyone unable to open the shared file should tell Nia by 3 p.m. this Friday.",
+          "pass": true
+        },
+        {
+          "constraint": "During a trial outage, staff use the paper sheet beside the cupboard.",
+          "pass": true
+        },
+        {
+          "constraint": "Nia will transfer those paper entries the following morning.",
+          "pass": true
+        },
+        {
+          "constraint": "Desk staff do not need to enter the same records again themselves.",
+          "pass": true
+        }
+      ],
+      "speech_acts": [
+        {
+          "constraint": "Keep the access-reporting request and its deadline.",
+          "pass": true
+        },
+        {
+          "constraint": "Keep the contingency distinct from ordinary operation.",
+          "pass": true
+        },
+        {
+          "constraint": "Preserve Nia's assigned follow-up and the explicit exemption from duplicate entry.",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "source_paragraph": "P4",
+      "source_anchor": {
+        "paragraph_id": "P4",
+        "start": 865,
+        "end": 1003,
+        "quote": "I will review the logs after the second week and ask both desks whether the extra step was useful. We have not decided whether to keep it."
+      },
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P4",
+          "start": 834,
+          "end": 988,
+          "quote": "We haven't decided whether to keep using the shared log. After the second week, I'll review the logs and ask both desks whether the extra step was useful."
+        }
+      ],
+      "propositions": [
+        {
+          "constraint": "The writer will review the logs after the second week.",
+          "pass": true
+        },
+        {
+          "constraint": "The writer will ask both desks whether the extra step was useful.",
+          "pass": true
+        },
+        {
+          "constraint": "Keeping the process permanently is undecided.",
+          "pass": true
+        }
+      ],
+      "speech_acts": [
+        {
+          "constraint": "Preserve the writer's commitments.",
+          "pass": true
+        },
+        {
+          "constraint": "Do not promise retention, cancellation, or improvement before review.",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "voice_constraint_checks": [
+    {
+      "constraint": "Be clear and collegial while preserving the authority of operational instructions.",
+      "pass": true
+    },
+    {
+      "constraint": "Do not soften required actions into optional suggestions.",
+      "pass": true
+    },
+    {
+      "constraint": "Do not add enthusiasm, blame, apology, urgency, or performance claims absent from the source.",
+      "pass": true
+    }
+  ],
+  "editorial_closure": {
+    "fidelity_pass": true,
+    "reader_eligible": true,
+    "necessary_repairs": [],
+    "text_action": "retain as a valid alternative",
+    "reader_judgment": "This is a faithful, usable alternative. Grouping file access and fallback is reasonable, while the previous separate deadline paragraph was easier to scan. I find no decisive reader advantage over the prior competent memo versions and no necessary repair.",
+    "selection_recommendation": "Treat draft-2 as eligible, not automatically best because it is newer. Preserve a prior passing version if the new measured response regresses and no independent reader advantage warrants replacement; final measurement binding will record the result."
+  }
+}

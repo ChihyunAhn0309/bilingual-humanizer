@@ -1,0 +1,1687 @@
+{
+  "schema_version": 1,
+  "round": 1,
+  "reviewed_at_utc": "2026-10-03T10:42:25.319961+00:00",
+  "status": "frozen_before_candidate_scores_or_identities",
+  "review_scope": "All three anonymous pairs, every candidate paragraph, all frozen source propositions and speech-act constraints, reader suitability, and six qualitative dimensions. No rewrites or inference.",
+  "blindness_record": {
+    "candidate_identities_read": false,
+    "candidate_scores_read": false,
+    "prototype_or_development_read": false,
+    "baseline_or_prototype_output_directories_read": false,
+    "permitted_blind_pair_files_only": true,
+    "source_scores_previously_seen": true,
+    "source_scores_limit": "Common source feedback was known for both methods; no candidate model output existed at release. Preference is based on prose and source fidelity.",
+    "reviewer_created_synthetic_sources": true
+  },
+  "inference_run": false,
+  "external_uploads": false,
+  "decision_rule": "A faithful alternative is not a defect. Mark only actual proposition, uncertainty, role, permission, request-strength, or material voice changes as necessary repairs. Reader preferences may be slight or tied. Do not infer method identity or model response.",
+  "cases": [
+    {
+      "case_id": "T01",
+      "genre": "Explanatory public-facing article",
+      "original_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+      "constraints_sha256": "86dbe511ac51163642a8e778410ee345e52e14c37b23d02b6e25a448aa37355e",
+      "candidates": {
+        "A": {
+          "file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-pairs\\T01\\A.txt",
+          "sha256": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d",
+          "word_count_whitespace": 180,
+          "fidelity_pass": true,
+          "reader_eligible": true,
+          "necessary_repairs": [],
+          "decision": "Retain as a legitimate faithful version; no necessary repair identified.",
+          "paragraph_assessments": [
+            {
+              "paragraph_id": "P1",
+              "start": 0,
+              "end": 446,
+              "quote": "At the fictional Bell Street Repair Room, a lamp waiting for the electrical volunteer may stay on the shelf while a chair brought in later goes straight to someone who works with wood. The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job. Work is queued partly by the repair required, not simply by arrival time.",
+              "status": "reviewed",
+              "assessment": "P1 retains the entire resource-and-queue explanation. Starting with the lamp/chair contrast is a legitimate route. Four benches and the specialist schedule are explicit, and may/partly prevent universal claims. The general empty-bench sentence repeats the workshop noun but does not impair comprehension.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P2",
+              "start": 448,
+              "end": 711,
+              "quote": "Before buying a replacement part, volunteers need the owner's agreement. A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause. The job is unfinished, though calling it neglected may not be accurate.",
+              "status": "reviewed",
+              "assessment": "P2 retains agreement before buying a part, possible waiting for the owner, the pause being hard for visitors to see, and the distinction between unfinished and possibly neglected. Its reordered approval-first opening is clear and does not blame the owner.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P3",
+              "start": 713,
+              "end": 1058,
+              "quote": "The workshop could use its status board to explain these different waits. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Better labels would not add volunteer hours or guarantee a completion date.",
+              "status": "reviewed",
+              "assessment": "P3 retains a proposed change rather than a reported policy, both example labels, comparison with a generic status, the qualified owner benefit, and no extra hours or guaranteed date. Moving the limit to the end is a legitimate choice.",
+              "necessary_repair": false
+            }
+          ],
+          "six_dimension_review": {
+            "argument_structure": "The candidate takes the optional example-first route in P1, follows with owner approval in P2, and ends with the status-board proposal and its limits in P3. The causal progression and all original paragraph functions remain clear.",
+            "reasoning_specificity": "The four benches, one electrical volunteer, alternate Saturdays, later-arriving chair, purchase approval, and both waiting labels survive. The modal may and scope word partly still qualify the queue example. There is no invented workshop policy or completion promise.",
+            "voice_continuity": "The calm explanatory voice remains consistent. Work is queued partly by the repair required is slightly administrative in register, but fits the topic and is not a defect. There is no added blame, promotion, or condescension.",
+            "rhythm_repetition": "P1 contains four sentences, including the general empty-bench claim after the example. P2 uses four short logical steps. P3 combines labels and their benefit into one longer sentence. The variation is readable; no sentence requires repair.",
+            "language_features": "English is idiomatic. The conditional and negative phrases preserve scope. Calling it neglected may not be accurate is a legitimate paraphrase of the original caution. The wording remains somewhat formal, which is acceptable for the public article.",
+            "citations_provenance": "The fictional designation is retained. No citations, real-world events, or new external evidence appear. The candidate is reviewed as an anonymous rewrite of known synthetic AI text; its generation method is unknown to this reviewer."
+          },
+          "full_constraint_coverage": [
+            {
+              "original_paragraph_id": "P1",
+              "original_anchor": {
+                "paragraph_id": "P1",
+                "start": 0,
+                "end": 447,
+                "quote": "An empty bench does not always mean a repair workshop can take another job. At the fictional Bell Street Repair Room, there are four benches, but only one volunteer handles electrical faults. She comes on alternate Saturdays. A lamp waiting for her may therefore stay on the shelf while a chair, brought in later, goes straight to someone who works with wood. The queue is organized partly by the work required, rather than simply by arrival time."
+              },
+              "candidate_paragraph_ids": [
+                "P1"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P1",
+                  "start": 0,
+                  "end": 446,
+                  "quote": "At the fictional Bell Street Repair Room, a lamp waiting for the electrical volunteer may stay on the shelf while a chair brought in later goes straight to someone who works with wood. The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job. Work is queued partly by the repair required, not simply by arrival time."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "An empty bench does not always indicate capacity to take another repair.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Bell Street Repair Room is explicitly a fictional example.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The workshop has four benches.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Only one volunteer handles electrical faults, and she attends on alternate Saturdays.",
+                  "pass": true
+                },
+                {
+                  "constraint": "A lamp can wait for that volunteer while a later-arriving chair is handled by a wood-working volunteer.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The queue is organized partly by required work rather than solely by arrival time.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Explain a possible mechanism; do not imply all workshops follow this system.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Retain the possibility in the lamp/chair example rather than guaranteeing every such ordering.",
+                  "pass": true
+                }
+              ],
+              "reason": "The lamp/chair possibility, all counts/schedule details, the empty-bench limitation, and partially work-based queue are preserved in candidate P1."
+            },
+            {
+              "original_paragraph_id": "P2",
+              "original_anchor": {
+                "paragraph_id": "P2",
+                "start": 449,
+                "end": 736,
+                "quote": "There is another pause that visitors cannot easily see. Volunteers need an owner's agreement before buying a replacement part. Until the owner replies, a repair may be ready to continue but unable to move forward. Calling that job unfinished is accurate; calling it neglected may not be."
+              },
+              "candidate_paragraph_ids": [
+                "P2"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P2",
+                  "start": 448,
+                  "end": 711,
+                  "quote": "Before buying a replacement part, volunteers need the owner's agreement. A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause. The job is unfinished, though calling it neglected may not be accurate."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "Some pauses are not visible to visitors.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Volunteers require the owner's agreement before purchasing a replacement part.",
+                  "pass": true
+                },
+                {
+                  "constraint": "A repair may otherwise be ready to continue but wait for the owner's reply.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Such a repair can accurately be called unfinished; it is not necessarily neglected.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Qualify the inference from delay to neglect, without asserting that neglect never occurs.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not assign fault to all owners or imply they must buy parts themselves.",
+                  "pass": true
+                }
+              ],
+              "reason": "Candidate P2 preserves both the procedural condition and the caution against inferring neglect; no source fact is lost by changing sentence order."
+            },
+            {
+              "original_paragraph_id": "P3",
+              "original_anchor": {
+                "paragraph_id": "P3",
+                "start": 738,
+                "end": 1097,
+                "quote": "The workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. They would not create extra volunteer hours or guarantee a completion date. They would at least give owners a better idea of what, if anything, they can do next."
+              },
+              "candidate_paragraph_ids": [
+                "P3"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P3",
+                  "start": 713,
+                  "end": 1058,
+                  "quote": "The workshop could use its status board to explain these different waits. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Better labels would not add volunteer hours or guarantee a completion date."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "The workshop could make the distinctions clearer on its status board.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Suggested labels distinguish waiting for a specialist from waiting for the owner's reply.",
+                  "pass": true
+                },
+                {
+                  "constraint": "These labels would explain more than one generic in-progress column.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The status-board change would neither add volunteer hours nor guarantee a completion date.",
+                  "pass": true
+                },
+                {
+                  "constraint": "It could clarify what, if anything, owners can do next.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Make a suggestion, not report an implemented system or issue an obligation.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Retain the possibility that the owner has no next action.",
+                  "pass": true
+                }
+              ],
+              "reason": "Candidate P3 preserves the suggestion, both labels, their informational advantage, and all limits; giving them a better idea remains within the hypothetical would clause."
+            }
+          ],
+          "voice_constraint_checks": [
+            {
+              "constraint": "Keep the explanation accessible and calm.",
+              "pass": true
+            },
+            {
+              "constraint": "Do not turn the suggestion into promotional copy, a moral lesson, or a criticism of volunteers.",
+              "pass": true
+            },
+            {
+              "constraint": "Preserve the limited claim about what communication can accomplish.",
+              "pass": true
+            }
+          ],
+          "coverage": {
+            "paragraphs_total": 3,
+            "reviewed": 3,
+            "excluded": 0,
+            "not_reviewed": 0
+          }
+        },
+        "B": {
+          "file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-pairs\\T01\\B.txt",
+          "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+          "word_count_whitespace": 176,
+          "fidelity_pass": true,
+          "reader_eligible": true,
+          "necessary_repairs": [],
+          "decision": "Retain as a legitimate faithful version; no necessary repair identified.",
+          "paragraph_assessments": [
+            {
+              "paragraph_id": "P1",
+              "start": 0,
+              "end": 459,
+              "quote": "At the fictional Bell Street Repair Room, a lamp may sit on the shelf waiting for the electrical volunteer while a chair brought in later goes straight to someone who works with wood. Only one volunteer handles electrical faults, and she comes on alternate Saturdays. The workshop has four benches, but an empty one doesn't always mean there's capacity for another job. The work required partly determines the queue; arrival time isn't the only consideration.",
+              "status": "reviewed",
+              "assessment": "P1 preserves every fact and qualifier while linking benches directly to the capacity claim. The lamp example still concerns possible ordering and does not become a universal service rule. The explanation of the queue is clear.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P2",
+              "start": 461,
+              "end": 724,
+              "quote": "Volunteers also need the owner's agreement before buying a replacement part. A repair may be ready to continue and still have to wait for that reply, a pause visitors cannot easily see. The job is unfinished, but that doesn't necessarily mean it's been neglected.",
+              "status": "reviewed",
+              "assessment": "P2 preserves owner agreement before purchase, a repair that may otherwise be ready, the hard-to-see pause, and non-necessary neglect. Linking the pause to the waiting sentence is a fluent alternative to the source layout.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P3",
+              "start": 726,
+              "end": 1068,
+              "quote": "The workshop could make those differences clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Clearer labels wouldn't add volunteer hours or guarantee a completion date.",
+              "status": "reviewed",
+              "assessment": "P3 preserves the hypothetical board improvement, exact example labels and generic-column comparison, qualified next-action benefit, and limits on hours/dates. Clearer labels is an accurate referent, not a new proposal.",
+              "necessary_repair": false
+            }
+          ],
+          "six_dimension_review": {
+            "argument_structure": "P1 starts with the same lamp/chair example and puts specialist availability immediately after it. It then combines bench count and capacity limitation. P2 and P3 retain the source progression from owner approval to a bounded communication proposal.",
+            "reasoning_specificity": "All numbers, times, mechanisms, labels, and limitations survive. The work required partly determines the queue and arrival time is not the only consideration preserve the original partial rule. Does not necessarily mean it has been neglected preserves uncertainty.",
+            "voice_continuity": "The explanatory voice is calm and slightly more conversational through contractions. It remains appropriate for a general public audience without becoming jokey or assigning blame.",
+            "rhythm_repetition": "P1 groups the bench count with what an empty bench does not imply. P2 carries the owner wait and its invisibility in a single linked sentence. This makes the explanation flow smoothly without suppressing any qualification.",
+            "language_features": "The paraphrases are idiomatic and clear. Capacity is an appropriate ordinary term here. The contractions do not change confidence, instruction strength, or agency. No colloquial phrase jars with the genre.",
+            "citations_provenance": "The fictional workshop is still expressly fictional. No citation or purported observation is added. Candidate identity and method are unknown; natural phrasing does not establish human origin."
+          },
+          "full_constraint_coverage": [
+            {
+              "original_paragraph_id": "P1",
+              "original_anchor": {
+                "paragraph_id": "P1",
+                "start": 0,
+                "end": 447,
+                "quote": "An empty bench does not always mean a repair workshop can take another job. At the fictional Bell Street Repair Room, there are four benches, but only one volunteer handles electrical faults. She comes on alternate Saturdays. A lamp waiting for her may therefore stay on the shelf while a chair, brought in later, goes straight to someone who works with wood. The queue is organized partly by the work required, rather than simply by arrival time."
+              },
+              "candidate_paragraph_ids": [
+                "P1"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P1",
+                  "start": 0,
+                  "end": 459,
+                  "quote": "At the fictional Bell Street Repair Room, a lamp may sit on the shelf waiting for the electrical volunteer while a chair brought in later goes straight to someone who works with wood. Only one volunteer handles electrical faults, and she comes on alternate Saturdays. The workshop has four benches, but an empty one doesn't always mean there's capacity for another job. The work required partly determines the queue; arrival time isn't the only consideration."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "An empty bench does not always indicate capacity to take another repair.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Bell Street Repair Room is explicitly a fictional example.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The workshop has four benches.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Only one volunteer handles electrical faults, and she attends on alternate Saturdays.",
+                  "pass": true
+                },
+                {
+                  "constraint": "A lamp can wait for that volunteer while a later-arriving chair is handled by a wood-working volunteer.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The queue is organized partly by required work rather than solely by arrival time.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Explain a possible mechanism; do not imply all workshops follow this system.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Retain the possibility in the lamp/chair example rather than guaranteeing every such ordering.",
+                  "pass": true
+                }
+              ],
+              "reason": "Candidate P1 retains every quantitative and causal detail. Doesn't always and partly retain the source limitations."
+            },
+            {
+              "original_paragraph_id": "P2",
+              "original_anchor": {
+                "paragraph_id": "P2",
+                "start": 449,
+                "end": 736,
+                "quote": "There is another pause that visitors cannot easily see. Volunteers need an owner's agreement before buying a replacement part. Until the owner replies, a repair may be ready to continue but unable to move forward. Calling that job unfinished is accurate; calling it neglected may not be."
+              },
+              "candidate_paragraph_ids": [
+                "P2"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P2",
+                  "start": 461,
+                  "end": 724,
+                  "quote": "Volunteers also need the owner's agreement before buying a replacement part. A repair may be ready to continue and still have to wait for that reply, a pause visitors cannot easily see. The job is unfinished, but that doesn't necessarily mean it's been neglected."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "Some pauses are not visible to visitors.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Volunteers require the owner's agreement before purchasing a replacement part.",
+                  "pass": true
+                },
+                {
+                  "constraint": "A repair may otherwise be ready to continue but wait for the owner's reply.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Such a repair can accurately be called unfinished; it is not necessarily neglected.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Qualify the inference from delay to neglect, without asserting that neglect never occurs.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not assign fault to all owners or imply they must buy parts themselves.",
+                  "pass": true
+                }
+              ],
+              "reason": "Candidate P2 preserves the same approval condition and modal possibility. Doesn't necessarily mean it's been neglected is equivalent to may not be accurate to call it neglected."
+            },
+            {
+              "original_paragraph_id": "P3",
+              "original_anchor": {
+                "paragraph_id": "P3",
+                "start": 738,
+                "end": 1097,
+                "quote": "The workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. They would not create extra volunteer hours or guarantee a completion date. They would at least give owners a better idea of what, if anything, they can do next."
+              },
+              "candidate_paragraph_ids": [
+                "P3"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P3",
+                  "start": 726,
+                  "end": 1068,
+                  "quote": "The workshop could make those differences clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Clearer labels wouldn't add volunteer hours or guarantee a completion date."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "The workshop could make the distinctions clearer on its status board.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Suggested labels distinguish waiting for a specialist from waiting for the owner's reply.",
+                  "pass": true
+                },
+                {
+                  "constraint": "These labels would explain more than one generic in-progress column.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The status-board change would neither add volunteer hours nor guarantee a completion date.",
+                  "pass": true
+                },
+                {
+                  "constraint": "It could clarify what, if anything, owners can do next.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Make a suggestion, not report an implemented system or issue an obligation.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Retain the possibility that the owner has no next action.",
+                  "pass": true
+                }
+              ],
+              "reason": "Candidate P3 retains the proposal and its strictly informational benefit. Could/would remain intact despite the contractions."
+            }
+          ],
+          "voice_constraint_checks": [
+            {
+              "constraint": "Keep the explanation accessible and calm.",
+              "pass": true
+            },
+            {
+              "constraint": "Do not turn the suggestion into promotional copy, a moral lesson, or a criticism of volunteers.",
+              "pass": true
+            },
+            {
+              "constraint": "Preserve the limited claim about what communication can accomplish.",
+              "pass": true
+            }
+          ],
+          "coverage": {
+            "paragraphs_total": 3,
+            "reviewed": 3,
+            "excluded": 0,
+            "not_reviewed": 0
+          }
+        }
+      },
+      "pairwise_reader_preference": {
+        "choice": "B",
+        "strength": "slight",
+        "reason": "Both versions pass fidelity and read well. B links the bench count directly to the capacity limitation and folds the invisible pause into its cause, which produces a smoother explanatory flow. This is a small preference in organization and phrasing, not a repair finding or evidence of general method superiority.",
+        "exact_candidate_evidence": {
+          "A": [
+            {
+              "start": 185,
+              "end": 372,
+              "quote": "The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            },
+            {
+              "start": 521,
+              "end": 639,
+              "quote": "A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ],
+          "B": [
+            {
+              "start": 268,
+              "end": 369,
+              "quote": "The workshop has four benches, but an empty one doesn't always mean there's capacity for another job.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            },
+            {
+              "start": 538,
+              "end": 646,
+              "quote": "A repair may be ready to continue and still have to wait for that reply, a pause visitors cannot easily see.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ]
+        },
+        "counterconsideration": "A's shorter separate sentence about visitors may be easier for some readers to scan. Its more formal register is legitimate, so the preference is deliberately slight.",
+        "fidelity_overrides_applied": false,
+        "method_identity_inference": null
+      }
+    },
+    {
+      "case_id": "T02",
+      "genre": "Internal operational work memo",
+      "original_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+      "constraints_sha256": "91e8884aec65ff49713dc485f16592e0693ce438e45f06b0fa270ca63e06556a",
+      "candidates": {
+        "A": {
+          "file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-pairs\\T02\\A.txt",
+          "sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+          "word_count_whitespace": 171,
+          "fidelity_pass": true,
+          "reader_eligible": true,
+          "necessary_repairs": [],
+          "decision": "Retain as a legitimate faithful version; no necessary repair identified.",
+          "paragraph_assessments": [
+            {
+              "paragraph_id": "P1",
+              "start": 0,
+              "end": 214,
+              "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. Only the way we record returns is changing; the borrowing limits stay the same.",
+              "status": "reviewed",
+              "assessment": "P1 combines duration, next-Monday start, equipment, and both desks into one announcement and keeps borrowing limits unchanged. Only the way we record returns is changing is faithful within the announced trial scope.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P2",
+              "start": 216,
+              "end": 288,
+              "quote": "Please tell Nia by 3 p.m. this Friday if you can't open the shared file.",
+              "status": "reviewed",
+              "assessment": "P2 preserves Nia as contact, the 3 p.m. Friday deadline, and the inability-to-open trigger. Separating this earlier preparation from the later outage fallback improves scanning without changing urgency.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P3",
+              "start": 290,
+              "end": 638,
+              "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern.",
+              "status": "reviewed",
+              "assessment": "P3 preserves logging before cupboard storage, the missing-item shelf and note, the prohibition on availability during checking, and permission to leave except for an immediate safety concern. Needn't is a legitimate stylistic choice, not a defect.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P4",
+              "start": 640,
+              "end": 828,
+              "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you don't need to enter them again yourself.",
+              "status": "reviewed",
+              "assessment": "P4 retains the trial-only file-unavailability condition, the paper sheet beside the cupboard, Nia's next-morning transfer, and no duplicate entry by staff. Splitting the original semicolon does not change assigned responsibility.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P5",
+              "start": 830,
+              "end": 965,
+              "quote": "I'll review the logs after the second week and ask both desks whether the extra step was useful. We haven't decided whether to keep it.",
+              "status": "reviewed",
+              "assessment": "P5 preserves the writer's review after week two, consultation with both desks, and undecided retention. The short close is effective and does not need an added justification or motivational claim.",
+              "necessary_repair": false
+            }
+          ],
+          "six_dimension_review": {
+            "argument_structure": "The candidate foregrounds the trial duration, then moves the Friday access check into its own paragraph before the return workflow. The outage fallback and later review follow. This five-paragraph order is sensible for pre-trial preparation and preserves all source functions.",
+            "reasoning_specificity": "The two desks, equipment types, duration, start, unchanged limits, logging order, inspection branch, availability restriction, safety exception, deadline, paper location, Nia's transcription duty, and undecided outcome are all retained.",
+            "voice_continuity": "The memo remains collegial and authoritative. Contractions make it more conversational, but Please don't still directs staff not to mark the kit available. Needn't is a valid permission to leave, not an instruction to leave.",
+            "rhythm_repetition": "The isolated deadline is easy to find. Repeated if-conditions serve distinct operational branches. The workflow remains a longer paragraph because those actions belong together. The shorter review close is proportionate.",
+            "language_features": "The English is clear and idiomatic. Can't, don't, needn't, and haven't are acceptable in an internal memo. Pronoun it has a clear kit referent in context. None of those choices weakens the operational requirements.",
+            "citations_provenance": "No new workplace facts, actual dates, citations, or identities are introduced. The relative days and synthetic setting remain as supplied. The anonymous method and candidate detector scores remain unseen."
+          },
+          "full_constraint_coverage": [
+            {
+              "original_paragraph_id": "P1",
+              "original_anchor": {
+                "paragraph_id": "P1",
+                "start": 0,
+                "end": 237,
+                "quote": "Starting next Monday, we will try a shared return log for borrowed projectors and audio kits. The trial will run for two weeks at the North and Annex desks. This is a change to how we record returns, not a change to the borrowing limits."
+              },
+              "candidate_paragraph_ids": [
+                "P1"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P1",
+                  "start": 0,
+                  "end": 214,
+                  "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. Only the way we record returns is changing; the borrowing limits stay the same."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "A shared return log starts next Monday.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The equipment scope is borrowed projectors and audio kits.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The trial lasts two weeks.",
+                  "pass": true
+                },
+                {
+                  "constraint": "It covers both the North and Annex desks.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Only return recording changes; borrowing limits do not.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Announce an authorized trial, rather than propose one or describe a permanent policy.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Retain the relative scheduling and do not invent calendar dates.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P1 maps to candidate P1: every timing, scope, and non-change claim survives."
+            },
+            {
+              "original_paragraph_id": "P2",
+              "original_anchor": {
+                "paragraph_id": "P2",
+                "start": 239,
+                "end": 599,
+                "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark it available while we are still checking it. The person returning it does not need to wait at the desk unless there is an immediate safety concern."
+              },
+              "candidate_paragraph_ids": [
+                "P3"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P3",
+                  "start": 290,
+                  "end": 638,
+                  "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "Staff enter the kit number and return time when equipment returns.",
+                  "pass": true
+                },
+                {
+                  "constraint": "They make that entry before putting the kit in the cupboard.",
+                  "pass": true
+                },
+                {
+                  "constraint": "A kit missing anything goes on the inspection shelf, with a short note in the log.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Staff must not mark a kit available while it is still being checked.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The person returning equipment need not remain at the desk unless there is an immediate safety concern.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Preserve the required action sequence and negative instruction.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Preserve permission to leave and its narrow safety exception; do not substitute a general requirement to wait or to leave.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P2 maps to candidate P3: all required actions, sequence, prohibition, permission, and exception survive. Contractions retain their force."
+            },
+            {
+              "original_paragraph_id": "P3",
+              "original_anchor": {
+                "paragraph_id": "P3",
+                "start": 601,
+                "end": 863,
+                "quote": "By 3 p.m. this Friday, please tell Nia if you cannot open the shared file. If the file is unavailable during the trial, use the paper sheet beside the cupboard; Nia will transfer those entries the following morning. There is no need to enter them again yourself."
+              },
+              "candidate_paragraph_ids": [
+                "P2",
+                "P4"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P2",
+                  "start": 216,
+                  "end": 288,
+                  "quote": "Please tell Nia by 3 p.m. this Friday if you can't open the shared file."
+                },
+                {
+                  "paragraph_id": "P4",
+                  "start": 640,
+                  "end": 828,
+                  "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you don't need to enter them again yourself."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "Anyone unable to open the shared file should tell Nia by 3 p.m. this Friday.",
+                  "pass": true
+                },
+                {
+                  "constraint": "During a trial outage, staff use the paper sheet beside the cupboard.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Nia will transfer those paper entries the following morning.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Desk staff do not need to enter the same records again themselves.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Keep the access-reporting request and its deadline.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Keep the contingency distinct from ordinary operation.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Preserve Nia's assigned follow-up and the explicit exemption from duplicate entry.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P3 maps to candidate P2 and P4: the access deadline and fallback are separated without losing any trigger, person, time, location, or exemption."
+            },
+            {
+              "original_paragraph_id": "P4",
+              "original_anchor": {
+                "paragraph_id": "P4",
+                "start": 865,
+                "end": 1003,
+                "quote": "I will review the logs after the second week and ask both desks whether the extra step was useful. We have not decided whether to keep it."
+              },
+              "candidate_paragraph_ids": [
+                "P5"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P5",
+                  "start": 830,
+                  "end": 965,
+                  "quote": "I'll review the logs after the second week and ask both desks whether the extra step was useful. We haven't decided whether to keep it."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "The writer will review the logs after the second week.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The writer will ask both desks whether the extra step was useful.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Keeping the process permanently is undecided.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Preserve the writer's commitments.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not promise retention, cancellation, or improvement before review.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P4 maps to candidate P5: review commitment and undecided outcome both remain explicit."
+            }
+          ],
+          "voice_constraint_checks": [
+            {
+              "constraint": "Be clear and collegial while preserving the authority of operational instructions.",
+              "pass": true
+            },
+            {
+              "constraint": "Do not soften required actions into optional suggestions.",
+              "pass": true
+            },
+            {
+              "constraint": "Do not add enthusiasm, blame, apology, urgency, or performance claims absent from the source.",
+              "pass": true
+            }
+          ],
+          "coverage": {
+            "paragraphs_total": 5,
+            "reviewed": 5,
+            "excluded": 0,
+            "not_reviewed": 0
+          }
+        },
+        "B": {
+          "file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-pairs\\T02\\B.txt",
+          "sha256": "bf570a78c32b2cf9d05f95532a468a1fd08cbd62574dd9ab4dd03276e842c1bb",
+          "word_count_whitespace": 179,
+          "fidelity_pass": true,
+          "reader_eligible": true,
+          "necessary_repairs": [],
+          "decision": "Retain as a legitimate faithful version; no necessary repair identified.",
+          "paragraph_assessments": [
+            {
+              "paragraph_id": "P1",
+              "start": 0,
+              "end": 212,
+              "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. This trial changes how we record returns; the borrowing limits stay the same.",
+              "status": "reviewed",
+              "assessment": "P1 retains the trial duration, next-Monday start, shared log, equipment types, both desks, and unchanged borrowing limits. The phrase This trial changes how we record returns accurately describes the limited scope.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P2",
+              "start": 214,
+              "end": 287,
+              "quote": "Please tell Nia by 3 p.m. this Friday if you cannot open the shared file.",
+              "status": "reviewed",
+              "assessment": "P2 retains the exact contact, deadline, and access-failure condition. Cannot is simply a fuller form than can't and is equally suitable here.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P3",
+              "start": 289,
+              "end": 655,
+              "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark the kit available while we are still checking it. Unless there is an immediate safety concern, the person returning it does not need to wait at the desk.",
+              "status": "reviewed",
+              "assessment": "P3 retains all action sequence and missing-item requirements. Mark the kit available makes the referent explicit. Moving the safety exception to the start leaves the permission and exception unchanged.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P4",
+              "start": 657,
+              "end": 846,
+              "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you do not need to enter them again yourself.",
+              "status": "reviewed",
+              "assessment": "P4 retains paper fallback location, the outage trigger, Nia's following-morning duty, and no duplicate entry. The two sentences remain clear and actionable.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P5",
+              "start": 848,
+              "end": 985,
+              "quote": "After the second week, I'll review the logs and ask both desks whether the extra step was useful. We have not decided whether to keep it.",
+              "status": "reviewed",
+              "assessment": "P5 preserves review after the second week, both desks' input, the usefulness question, and the undecided outcome. Fronting the time phrase is a valid emphasis choice.",
+              "necessary_repair": false
+            }
+          ],
+          "six_dimension_review": {
+            "argument_structure": "The same five-paragraph organization separates pre-trial access reporting from the return workflow and outage process. The final paragraph front-loads the review timing. All stages remain easy to locate.",
+            "reasoning_specificity": "All required operational details and restrictions survive. The explicit kit referent and exception-first sentence clarify the same original instructions without adding a requirement. No new process is introduced.",
+            "voice_continuity": "First-person contractions in the announcement and review coexist naturally with full negative forms in instructions. That variation reflects function and does not create an inconsistent persona. The overall voice remains collegial and direct.",
+            "rhythm_repetition": "The short access paragraph and separate fallback aid scanning. The safety condition comes first in its sentence, and the review timing comes first in P5. These are legitimate emphasis choices, neither inherently better nor defective.",
+            "language_features": "The wording is plain and precise. Mark the kit available names the referent explicitly; does not need to wait preserves permission rather than ordering departure. No unnecessary jargon, invented formality, or changed certainty appears.",
+            "citations_provenance": "The candidate adds no sources or real-world claims beyond the fictional original. No absolute dates are invented. Its method identity and scores are not known to the reviewer."
+          },
+          "full_constraint_coverage": [
+            {
+              "original_paragraph_id": "P1",
+              "original_anchor": {
+                "paragraph_id": "P1",
+                "start": 0,
+                "end": 237,
+                "quote": "Starting next Monday, we will try a shared return log for borrowed projectors and audio kits. The trial will run for two weeks at the North and Annex desks. This is a change to how we record returns, not a change to the borrowing limits."
+              },
+              "candidate_paragraph_ids": [
+                "P1"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P1",
+                  "start": 0,
+                  "end": 212,
+                  "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. This trial changes how we record returns; the borrowing limits stay the same."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "A shared return log starts next Monday.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The equipment scope is borrowed projectors and audio kits.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The trial lasts two weeks.",
+                  "pass": true
+                },
+                {
+                  "constraint": "It covers both the North and Annex desks.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Only return recording changes; borrowing limits do not.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Announce an authorized trial, rather than propose one or describe a permanent policy.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Retain the relative scheduling and do not invent calendar dates.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P1 maps to candidate P1 with all scope and time details unchanged."
+            },
+            {
+              "original_paragraph_id": "P2",
+              "original_anchor": {
+                "paragraph_id": "P2",
+                "start": 239,
+                "end": 599,
+                "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark it available while we are still checking it. The person returning it does not need to wait at the desk unless there is an immediate safety concern."
+              },
+              "candidate_paragraph_ids": [
+                "P3"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P3",
+                  "start": 289,
+                  "end": 655,
+                  "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark the kit available while we are still checking it. Unless there is an immediate safety concern, the person returning it does not need to wait at the desk."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "Staff enter the kit number and return time when equipment returns.",
+                  "pass": true
+                },
+                {
+                  "constraint": "They make that entry before putting the kit in the cupboard.",
+                  "pass": true
+                },
+                {
+                  "constraint": "A kit missing anything goes on the inspection shelf, with a short note in the log.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Staff must not mark a kit available while it is still being checked.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The person returning equipment need not remain at the desk unless there is an immediate safety concern.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Preserve the required action sequence and negative instruction.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Preserve permission to leave and its narrow safety exception; do not substitute a general requirement to wait or to leave.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P2 maps to candidate P3. Explicit kit and the fronted safety condition preserve the same referent and logic."
+            },
+            {
+              "original_paragraph_id": "P3",
+              "original_anchor": {
+                "paragraph_id": "P3",
+                "start": 601,
+                "end": 863,
+                "quote": "By 3 p.m. this Friday, please tell Nia if you cannot open the shared file. If the file is unavailable during the trial, use the paper sheet beside the cupboard; Nia will transfer those entries the following morning. There is no need to enter them again yourself."
+              },
+              "candidate_paragraph_ids": [
+                "P2",
+                "P4"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P2",
+                  "start": 214,
+                  "end": 287,
+                  "quote": "Please tell Nia by 3 p.m. this Friday if you cannot open the shared file."
+                },
+                {
+                  "paragraph_id": "P4",
+                  "start": 657,
+                  "end": 846,
+                  "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you do not need to enter them again yourself."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "Anyone unable to open the shared file should tell Nia by 3 p.m. this Friday.",
+                  "pass": true
+                },
+                {
+                  "constraint": "During a trial outage, staff use the paper sheet beside the cupboard.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Nia will transfer those paper entries the following morning.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Desk staff do not need to enter the same records again themselves.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Keep the access-reporting request and its deadline.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Keep the contingency distinct from ordinary operation.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Preserve Nia's assigned follow-up and the explicit exemption from duplicate entry.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P3 maps to candidate P2 and P4 without omission or reassignment."
+            },
+            {
+              "original_paragraph_id": "P4",
+              "original_anchor": {
+                "paragraph_id": "P4",
+                "start": 865,
+                "end": 1003,
+                "quote": "I will review the logs after the second week and ask both desks whether the extra step was useful. We have not decided whether to keep it."
+              },
+              "candidate_paragraph_ids": [
+                "P5"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P5",
+                  "start": 848,
+                  "end": 985,
+                  "quote": "After the second week, I'll review the logs and ask both desks whether the extra step was useful. We have not decided whether to keep it."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "The writer will review the logs after the second week.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The writer will ask both desks whether the extra step was useful.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Keeping the process permanently is undecided.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Preserve the writer's commitments.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not promise retention, cancellation, or improvement before review.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P4 maps to candidate P5. Fronting after the second week does not change when review or consultation occurs."
+            }
+          ],
+          "voice_constraint_checks": [
+            {
+              "constraint": "Be clear and collegial while preserving the authority of operational instructions.",
+              "pass": true
+            },
+            {
+              "constraint": "Do not soften required actions into optional suggestions.",
+              "pass": true
+            },
+            {
+              "constraint": "Do not add enthusiasm, blame, apology, urgency, or performance claims absent from the source.",
+              "pass": true
+            }
+          ],
+          "coverage": {
+            "paragraphs_total": 5,
+            "reviewed": 5,
+            "excluded": 0,
+            "not_reviewed": 0
+          }
+        }
+      },
+      "pairwise_reader_preference": {
+        "choice": "tie",
+        "strength": "no_material_preference",
+        "reason": "Both versions are clear, complete, and equally usable as an internal memo. A is slightly more conversational and compact; B makes the kit referent explicit and uses fuller negative forms. The difference does not produce a meaningful reader-quality advantage in this context.",
+        "exact_candidate_evidence": {
+          "A": [
+            {
+              "start": 484,
+              "end": 638,
+              "quote": "Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ],
+          "B": [
+            {
+              "start": 483,
+              "end": 655,
+              "quote": "Please do not mark the kit available while we are still checking it. Unless there is an immediate safety concern, the person returning it does not need to wait at the desk.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ]
+        },
+        "counterconsideration": "A house style preferring contractions could favor A; a procedural template preferring full negatives could favor B. Neither preference is supplied, and both retain the required force.",
+        "fidelity_overrides_applied": false,
+        "method_identity_inference": null
+      }
+    },
+    {
+      "case_id": "T03",
+      "genre": "First-person personal reflection",
+      "original_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+      "constraints_sha256": "4a0da27e1721b8cb3b5e52921c82dd28c0432bfa10e13c14743a6f2b7e1a6393",
+      "candidates": {
+        "A": {
+          "file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-pairs\\T03\\A.txt",
+          "sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07",
+          "word_count_whitespace": 177,
+          "fidelity_pass": true,
+          "reader_eligible": true,
+          "necessary_repairs": [],
+          "decision": "Retain as a legitimate faithful version; no necessary repair identified.",
+          "paragraph_assessments": [
+            {
+              "paragraph_id": "P1",
+              "start": 0,
+              "end": 337,
+              "quote": "My warning system was a folded towel on the seat of a loose chair. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood the warning, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt; an awkward joint did not seem reason enough to throw it out.",
+              "status": "reviewed",
+              "assessment": "P1 keeps the warning system, winter-long location, visitors understanding despite repeated explanations, inheritance, and reason for not discarding the chair. The semicolon is a normal narrative choice, not an artificiality defect.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P2",
+              "start": 339,
+              "end": 638,
+              "quote": "Last Sunday I finally took it apart. The back came away with one careful pull, though I had expected the old glue to resist. There is a pale patch underneath that might be a repair or just where the finish wore off. I cannot remember whether my aunt ever repaired it herself. I left the patch alone.",
+              "status": "reviewed",
+              "assessment": "P2 preserves last Sunday, the careful pull, expected resistance, uncertainty about the aunt's repairs, both possible causes of the pale patch, and leaving it alone. Moving the patch before the memory sentence does not resolve the uncertainty.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P3",
+              "start": 640,
+              "end": 947,
+              "quote": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe.",
+              "status": "reviewed",
+              "assessment": "P3 preserves practical usability, the leg catching on an uneven floor, the towel returned to the hook, modest gain, wish for a broader resolution, and the unresolved box. The final but-clause still rejects a claim of closure; no necessary repair is warranted.",
+              "necessary_repair": false
+            }
+          ],
+          "six_dimension_review": {
+            "argument_structure": "P1 foregrounds the warning towel and retains the winter delay and inherited chair. P2 gives disassembly and uncertainty, with the patch before the memory gap. P3 states practical gain before the wished-for broader resolution and unresolved box. All source functions survive.",
+            "reasoning_specificity": "The towel, kitchen corner, visitors, aunt, one careful pull, expected glue resistance, ambiguous patch, uneven floor, and wardrobe box all remain. The source's uncertainty and limited emotional claim are preserved; no tools, memories, feelings, or box contents are invented.",
+            "voice_continuity": "The first-person voice remains understated and a little formal. Naming my aunt's things instead of her things clarifies the reference without changing emotional intensity. The source's refusal of closure is intact.",
+            "rhythm_repetition": "Short opening and action sentences are mixed with longer reflective ones. The final sentence carries both the wish for resolution and the remaining choices. This is clear, though slightly denser than B's separated beats.",
+            "language_features": "English is idiomatic. The semicolon joining inheritance and reluctance is legitimate. Repair or just where the finish wore off leaves both alternatives under might. I left the patch alone makes the original pronoun referent explicit.",
+            "citations_provenance": "All experiences remain fictional. No authentic personal history or quotation is added. A readable anecdote is not human-authorship evidence; candidate method and scores are unknown."
+          },
+          "full_constraint_coverage": [
+            {
+              "original_paragraph_id": "P1",
+              "original_anchor": {
+                "paragraph_id": "P1",
+                "start": 0,
+                "end": 361,
+                "quote": "For most of the winter, the loose chair stayed in the corner of my kitchen with a folded towel on its seat. That was my warning system. Visitors understood it, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt, and throwing it out seemed like a decision that needed a better reason than an awkward joint."
+              },
+              "candidate_paragraph_ids": [
+                "P1"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P1",
+                  "start": 0,
+                  "end": 337,
+                  "quote": "My warning system was a folded towel on the seat of a loose chair. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood the warning, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt; an awkward joint did not seem reason enough to throw it out."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "For most of the winter, a loose chair stood in the kitchen corner.",
+                  "pass": true
+                },
+                {
+                  "constraint": "A folded towel on its seat served as a warning.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Visitors understood the signal, but the narrator still explained the wobble on each visit.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The chair was inherited from the narrator's aunt.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The narrator felt that discarding it needed a stronger reason than an awkward joint.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Report a fictional first-person memory and a personal judgment.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not turn the personal reluctance into a general rule about inherited possessions.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P1 maps to candidate P1. The narrator's personal reluctance remains a personal judgment rather than a universal rule."
+            },
+            {
+              "original_paragraph_id": "P2",
+              "original_anchor": {
+                "paragraph_id": "P2",
+                "start": 363,
+                "end": 662,
+                "quote": "Last Sunday I finally took it apart. I had expected the old glue to resist, but the back came away with one careful pull. I cannot remember whether my aunt ever repaired it herself. There is a pale patch underneath that might be a repair, or might just be where the finish wore off. I left it alone."
+              },
+              "candidate_paragraph_ids": [
+                "P2"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P2",
+                  "start": 339,
+                  "end": 638,
+                  "quote": "Last Sunday I finally took it apart. The back came away with one careful pull, though I had expected the old glue to resist. There is a pale patch underneath that might be a repair or just where the finish wore off. I cannot remember whether my aunt ever repaired it herself. I left the patch alone."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "The narrator took the chair apart last Sunday.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The old glue was expected to resist.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The back instead came away with one careful pull.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The narrator cannot remember whether the aunt repaired the chair herself.",
+                  "pass": true
+                },
+                {
+                  "constraint": "A pale patch underneath might be a repair or merely worn finish.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The narrator left that patch alone.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Preserve the contrast between expectation and what happened.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Preserve both explanations of the patch and the uncertainty about the aunt.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not invent repair techniques, tools, dialogue, or remembered scenes.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P2 maps to candidate P2. Reordering the patch and memory statements keeps both uncertainties; explicit patch is a supported pronoun resolution."
+            },
+            {
+              "original_paragraph_id": "P3",
+              "original_anchor": {
+                "paragraph_id": "P3",
+                "start": 664,
+                "end": 965,
+                "quote": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. I would like to say the afternoon settled something about keeping her things, but mostly it gave me another place to sit. The harder choices are still in the box above the wardrobe."
+              },
+              "candidate_paragraph_ids": [
+                "P3"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P3",
+                  "start": 640,
+                  "end": 947,
+                  "quote": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "The chair is now usable.",
+                  "pass": true
+                },
+                {
+                  "constraint": "One leg still catches slightly on the uneven floor.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The narrator returned the towel to its hook.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The narrator would like to claim the afternoon settled something about keeping the aunt's belongings, but it mainly provided another place to sit.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Harder choices remain in a box above the wardrobe.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Preserve the wish for resolution and the refusal to claim it occurred.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not assert a new lesson, closure, healing, or a decision about the box.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not invent what is in the box or the aunt's wishes.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P3 maps to candidate P3. Moving practical gain earlier retains both the wish for resolution and the statement that harder choices remain."
+            }
+          ],
+          "voice_constraint_checks": [
+            {
+              "constraint": "Keep the first-person perspective and modest emotional register.",
+              "pass": true
+            },
+            {
+              "constraint": "Retain concrete details that carry the feeling instead of replacing them with explicit psychological explanation.",
+              "pass": true
+            },
+            {
+              "constraint": "Do not add sentimentality, jokiness, inspirational advice, or a polished moral.",
+              "pass": true
+            }
+          ],
+          "coverage": {
+            "paragraphs_total": 3,
+            "reviewed": 3,
+            "excluded": 0,
+            "not_reviewed": 0
+          }
+        },
+        "B": {
+          "file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-pairs\\T03\\B.txt",
+          "sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0",
+          "word_count_whitespace": 170,
+          "fidelity_pass": true,
+          "reader_eligible": true,
+          "necessary_repairs": [],
+          "decision": "Retain as a legitimate faithful version; no necessary repair identified.",
+          "paragraph_assessments": [
+            {
+              "paragraph_id": "P1",
+              "start": 0,
+              "end": 321,
+              "quote": "A folded towel on the loose chair's seat was my warning system. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood it, but I still explained the wobble every time someone came over. I'd inherited the chair from my aunt, and an awkward joint didn't seem reason enough to throw it out.",
+              "status": "reviewed",
+              "assessment": "P1 preserves every setting and behavioral detail, including the visitors understanding and continued explanations. The towel-first wording is concrete and relaxed. Contractions do not add emotion or alter the inherited relationship.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P2",
+              "start": 323,
+              "end": 619,
+              "quote": "When I finally took it apart last Sunday, the back came away with one careful pull. I'd expected the old glue to resist. I can't remember whether my aunt ever repaired it herself. There's a pale patch underneath that might be a repair, or might just be where the finish wore off. I left it alone.",
+              "status": "reviewed",
+              "assessment": "P2 preserves last Sunday and the contrast between expected resistance and a one-pull separation. The memory gap precedes the two possible explanations as in the source. I left it alone still clearly refers to the patch in context.",
+              "necessary_repair": false
+            },
+            {
+              "paragraph_id": "P3",
+              "start": 621,
+              "end": 927,
+              "quote": "I've moved the towel back to its hook. The chair is usable now, though one leg still catches slightly on the uneven floor. I'd like to say that afternoon settled something about keeping her things. Mostly, though, it gave me another place to sit. The harder choices are still in the box above the wardrobe.",
+              "status": "reviewed",
+              "assessment": "P3 preserves the completed towel move, usable yet imperfect chair, wished-for emotional resolution, modest actual gain, and unresolved box. The change in order and tense is legitimate narration. The short Mostly, though sentence keeps the crucial contrast explicit.",
+              "necessary_repair": false
+            }
+          ],
+          "six_dimension_review": {
+            "argument_structure": "The towel leads P1, the repair action leads P2, and moving the towel back opens P3. The chair's remaining imperfection and the limited practical gain follow. The source's unresolved ending is retained in its own closing sentence.",
+            "reasoning_specificity": "All objects, times, actions, and qualifications survive. Both explanations of the patch remain tentative. Present perfect I've moved still reports the completed towel move and does not introduce a new event or meaningful timing claim.",
+            "voice_continuity": "Contractions make the narrator slightly more conversational while preserving understatement. The voice never claims healing, sentimental discovery, or a moral. Her things has the same clear aunt referent as in the source.",
+            "rhythm_repetition": "The longer first action sentence in P2 is followed by the short expectation sentence. P3 separates the wish for a larger meaning from the modest result, then leaves the box as a separate final beat. This supports the restrained voice without losing meaning.",
+            "language_features": "The phrasing is ordinary and idiomatic. I'd, can't, and there's are stylistic choices, not authorship signals. Mostly, though supplies the contrast that prevents the preceding wish from being read as an achieved resolution.",
+            "citations_provenance": "No sources, actual experiences, dialogue, motives, or people are added. The story remains synthetic. Candidate provenance is not inferred from its conversational tone or concrete detail."
+          },
+          "full_constraint_coverage": [
+            {
+              "original_paragraph_id": "P1",
+              "original_anchor": {
+                "paragraph_id": "P1",
+                "start": 0,
+                "end": 361,
+                "quote": "For most of the winter, the loose chair stayed in the corner of my kitchen with a folded towel on its seat. That was my warning system. Visitors understood it, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt, and throwing it out seemed like a decision that needed a better reason than an awkward joint."
+              },
+              "candidate_paragraph_ids": [
+                "P1"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P1",
+                  "start": 0,
+                  "end": 321,
+                  "quote": "A folded towel on the loose chair's seat was my warning system. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood it, but I still explained the wobble every time someone came over. I'd inherited the chair from my aunt, and an awkward joint didn't seem reason enough to throw it out."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "For most of the winter, a loose chair stood in the kitchen corner.",
+                  "pass": true
+                },
+                {
+                  "constraint": "A folded towel on its seat served as a warning.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Visitors understood the signal, but the narrator still explained the wobble on each visit.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The chair was inherited from the narrator's aunt.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The narrator felt that discarding it needed a stronger reason than an awkward joint.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Report a fictional first-person memory and a personal judgment.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not turn the personal reluctance into a general rule about inherited possessions.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P1 maps to candidate P1 with all details and personal judgment retained."
+            },
+            {
+              "original_paragraph_id": "P2",
+              "original_anchor": {
+                "paragraph_id": "P2",
+                "start": 363,
+                "end": 662,
+                "quote": "Last Sunday I finally took it apart. I had expected the old glue to resist, but the back came away with one careful pull. I cannot remember whether my aunt ever repaired it herself. There is a pale patch underneath that might be a repair, or might just be where the finish wore off. I left it alone."
+              },
+              "candidate_paragraph_ids": [
+                "P2"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P2",
+                  "start": 323,
+                  "end": 619,
+                  "quote": "When I finally took it apart last Sunday, the back came away with one careful pull. I'd expected the old glue to resist. I can't remember whether my aunt ever repaired it herself. There's a pale patch underneath that might be a repair, or might just be where the finish wore off. I left it alone."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "The narrator took the chair apart last Sunday.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The old glue was expected to resist.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The back instead came away with one careful pull.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The narrator cannot remember whether the aunt repaired the chair herself.",
+                  "pass": true
+                },
+                {
+                  "constraint": "A pale patch underneath might be a repair or merely worn finish.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The narrator left that patch alone.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Preserve the contrast between expectation and what happened.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Preserve both explanations of the patch and the uncertainty about the aunt.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not invent repair techniques, tools, dialogue, or remembered scenes.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P2 maps to candidate P2. The standalone expectation sentence does not invert events or make the uncertain repair history certain."
+            },
+            {
+              "original_paragraph_id": "P3",
+              "original_anchor": {
+                "paragraph_id": "P3",
+                "start": 664,
+                "end": 965,
+                "quote": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. I would like to say the afternoon settled something about keeping her things, but mostly it gave me another place to sit. The harder choices are still in the box above the wardrobe."
+              },
+              "candidate_paragraph_ids": [
+                "P3"
+              ],
+              "candidate_anchors": [
+                {
+                  "paragraph_id": "P3",
+                  "start": 621,
+                  "end": 927,
+                  "quote": "I've moved the towel back to its hook. The chair is usable now, though one leg still catches slightly on the uneven floor. I'd like to say that afternoon settled something about keeping her things. Mostly, though, it gave me another place to sit. The harder choices are still in the box above the wardrobe."
+                }
+              ],
+              "proposition_checks": [
+                {
+                  "constraint": "The chair is now usable.",
+                  "pass": true
+                },
+                {
+                  "constraint": "One leg still catches slightly on the uneven floor.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The narrator returned the towel to its hook.",
+                  "pass": true
+                },
+                {
+                  "constraint": "The narrator would like to claim the afternoon settled something about keeping the aunt's belongings, but it mainly provided another place to sit.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Harder choices remain in a box above the wardrobe.",
+                  "pass": true
+                }
+              ],
+              "speech_act_checks": [
+                {
+                  "constraint": "Preserve the wish for resolution and the refusal to claim it occurred.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not assert a new lesson, closure, healing, or a decision about the box.",
+                  "pass": true
+                },
+                {
+                  "constraint": "Do not invent what is in the box or the aunt's wishes.",
+                  "pass": true
+                }
+              ],
+              "reason": "Original P3 maps to candidate P3. I've moved is a completed action; the wish and its limiting contrast remain separate but connected, and the choices remain unresolved."
+            }
+          ],
+          "voice_constraint_checks": [
+            {
+              "constraint": "Keep the first-person perspective and modest emotional register.",
+              "pass": true
+            },
+            {
+              "constraint": "Retain concrete details that carry the feeling instead of replacing them with explicit psychological explanation.",
+              "pass": true
+            },
+            {
+              "constraint": "Do not add sentimentality, jokiness, inspirational advice, or a polished moral.",
+              "pass": true
+            }
+          ],
+          "coverage": {
+            "paragraphs_total": 3,
+            "reviewed": 3,
+            "excluded": 0,
+            "not_reviewed": 0
+          }
+        }
+      },
+      "pairwise_reader_preference": {
+        "choice": "B",
+        "strength": "slight",
+        "reason": "Both versions retain the restrained voice and all meaning. B's concrete towel-first opening and separated wish/practical-result/final-box beats feel a little more natural and give the quiet ending more room. A is also good and slightly more compact in its final reflection.",
+        "exact_candidate_evidence": {
+          "A": [
+            {
+              "start": 0,
+              "end": 66,
+              "quote": "My warning system was a folded towel on the seat of a loose chair.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            },
+            {
+              "start": 760,
+              "end": 947,
+              "quote": "The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ],
+          "B": [
+            {
+              "start": 0,
+              "end": 63,
+              "quote": "A folded towel on the loose chair's seat was my warning system.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            },
+            {
+              "start": 744,
+              "end": 927,
+              "quote": "I'd like to say that afternoon settled something about keeping her things. Mostly, though, it gave me another place to sit. The harder choices are still in the box above the wardrobe.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ]
+        },
+        "counterconsideration": "A's explicit my aunt's things and combined final sentence may suit a reader who prefers a more formal, compact reflection. B's contractions and pauses are a slight genre preference, not universal markers of quality.",
+        "fidelity_overrides_applied": false,
+        "method_identity_inference": null
+      }
+    }
+  ],
+  "aggregate": {
+    "candidate_count": 6,
+    "fidelity_pass_count": 6,
+    "reader_eligible_count": 6,
+    "necessary_repair_count": 0,
+    "paragraphs_reviewed": 22,
+    "anonymous_preferences": {
+      "T01": "B",
+      "T02": "tie",
+      "T03": "B"
+    },
+    "claim_limit": "Two slight B preferences and one tie describe these particular prose pairs only. They cannot establish a general method advantage, detector advantage, or authorship."
+  }
+}

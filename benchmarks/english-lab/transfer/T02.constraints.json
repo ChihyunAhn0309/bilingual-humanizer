@@ -1,0 +1,91 @@
+{
+  "origin": "Known AI-generated synthetic source, written in this evaluation subagent session.",
+  "truth_scope": "All people, organizations, events, situations, and first-person memories are fictional. This is neither human-authored ground truth nor evidence about a real person or event.",
+  "source_selection": "Three genres chosen before any candidate rewrites or detector outputs. No detector inference, detector-based selection, or score-based source revision occurred.",
+  "allowed_revision": [
+    "Rephrase, reorganize, and vary sentence or paragraph length when meaning and speech acts survive.",
+    "Remove genuinely redundant wording without losing a proposition, qualification, operational distinction, or important image.",
+    "Preserve genre-appropriate voice without mimicking an identifiable real person."
+  ],
+  "prohibited_revision": [
+    "Invent facts, sources, names, dates, quantities, experiences, emotions, motives, or consequences.",
+    "Resolve an uncertainty the source leaves open.",
+    "Strengthen or weaken a request, permission, promise, factual scope, or causal claim without source support.",
+    "Treat a detector label as evidence of writing quality or actual authorship."
+  ],
+  "id": "T02",
+  "filename": "T02-return-pilot.source.txt",
+  "genre": "Internal operational work memo",
+  "scenario": "A fictional team pilots an equipment return log at two service desks.",
+  "voice_basis": "Collegial authority shown by concise instructions, contingencies, named responsibility, and a reversible decision.",
+  "audience": "Staff working the North and Annex desks.",
+  "paragraph_constraints": [
+    {
+      "paragraph_id": "P1",
+      "role": "Announce scope and duration of the trial.",
+      "propositions": [
+        "A shared return log starts next Monday.",
+        "The equipment scope is borrowed projectors and audio kits.",
+        "The trial lasts two weeks.",
+        "It covers both the North and Annex desks.",
+        "Only return recording changes; borrowing limits do not."
+      ],
+      "speech_acts": [
+        "Announce an authorized trial, rather than propose one or describe a permanent policy.",
+        "Retain the relative scheduling and do not invent calendar dates."
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "role": "Specify the return process and the missing-item exception.",
+      "propositions": [
+        "Staff enter the kit number and return time when equipment returns.",
+        "They make that entry before putting the kit in the cupboard.",
+        "A kit missing anything goes on the inspection shelf, with a short note in the log.",
+        "Staff must not mark a kit available while it is still being checked.",
+        "The person returning equipment need not remain at the desk unless there is an immediate safety concern."
+      ],
+      "speech_acts": [
+        "Preserve the required action sequence and negative instruction.",
+        "Preserve permission to leave and its narrow safety exception; do not substitute a general requirement to wait or to leave."
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "role": "Set an access-reporting deadline and an outage fallback.",
+      "propositions": [
+        "Anyone unable to open the shared file should tell Nia by 3 p.m. this Friday.",
+        "During a trial outage, staff use the paper sheet beside the cupboard.",
+        "Nia will transfer those paper entries the following morning.",
+        "Desk staff do not need to enter the same records again themselves."
+      ],
+      "speech_acts": [
+        "Keep the access-reporting request and its deadline.",
+        "Keep the contingency distinct from ordinary operation.",
+        "Preserve Nia's assigned follow-up and the explicit exemption from duplicate entry."
+      ]
+    },
+    {
+      "paragraph_id": "P4",
+      "role": "State review timing and the unresolved permanent decision.",
+      "propositions": [
+        "The writer will review the logs after the second week.",
+        "The writer will ask both desks whether the extra step was useful.",
+        "Keeping the process permanently is undecided."
+      ],
+      "speech_acts": [
+        "Preserve the writer's commitments.",
+        "Do not promise retention, cancellation, or improvement before review."
+      ]
+    }
+  ],
+  "voice_constraints": [
+    "Be clear and collegial while preserving the authority of operational instructions.",
+    "Do not soften required actions into optional suggestions.",
+    "Do not add enthusiasm, blame, apology, urgency, or performance claims absent from the source."
+  ],
+  "source_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+  "hash_basis": "Exact UTF-8 source file bytes, including final newline.",
+  "word_count_whitespace": 186,
+  "paragraph_count": 4
+}

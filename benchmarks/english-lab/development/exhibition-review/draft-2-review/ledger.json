@@ -1,0 +1,130 @@
+{
+  "text_sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4",
+  "summary": "The full corrected draft preserves the two different judgments and all observed details. Parent review caught and then verified repair of causal uncertainty before scoring. Source S3 is resolved: exhibition value and closure are together, interview recommendation follows its explanation, and the guide verdict closes the usability evidence. Native Human is 25.0669241% versus source 0.0163598%; this is a single-case local gain on an uncalibrated model, not a historical-authorship result. No necessary new repair.",
+  "document_analysis": {
+    "structure": "P1 resolves the wider exhibition appraisal and unfinished visit. P2 explains what the hired guide did and where one recording helped. P3 gives usability, navigation uncertainty and a price verdict.",
+    "reasoning_specificity": "Price, six-minute interview, hand signals, failed radio, photograph, replay, two reversals and room closure survive. A single useful recording is kept distinct from the overall hire recommendation.",
+    "voice_consistency": "Restrained personal review, natural contractions, neither promotional nor aggrieved. Existing mixed judgment remains the source of the voice.",
+    "rhythm_repetition": "Paragraphs have unequal informational roles rather than repeated mini-conclusions. The small 'though' turn supports a real exception; the final concession retains the interview's value.",
+    "language_features": "Idiomatic British English and clear reference to guide, recordings and cases. 'Resulted from' now preserves the uncertain cause of the mismatch instead of uncertainty about the event alone.",
+    "citations_provenance": "AI-origin fixture and rewrite. Parent separate-context fidelity/reader reviews were saved before scoring; this complete post-score review is same-context self-review."
+  },
+  "findings": [
+    {
+      "id": "D1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "The worthwhile exhibition, Sunday visit, about-an-hour stay and conditional longer visit now share one paragraph.",
+      "interpretation": "Resolves the exhibition half of source S3 without implying the desk was asked or did not know reopening information.",
+      "human_alternative": "A human visitor could reasonably place overall visit impressions either first or last.",
+      "discriminating_evidence": "The new order has a useful reader purpose, not inherent authorship significance.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 195,
+          "quote": "The harbour exhibition was worth the visit on Sunday. I spent about an hour there and would have stayed longer if the upstairs room had been open. The ticket desk didn't say when it would reopen."
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "observation": "The recording's content explains its effect on a specific photograph; the interview recommendation follows immediately.",
+      "interpretation": "Concrete causal account is source-backed. Most recordings describing already-labelled objects remains narrower than asserting they merely repeat labels.",
+      "human_alternative": "Humans and models can write such specific personal accounts.",
+      "discriminating_evidence": "Known synthetic origin remains; style and model value do not authenticate a visit.",
+      "spans": [
+        {
+          "start": 197,
+          "end": 547,
+          "quote": "I hired the audio guide for £4, expecting it to explain how the port had changed. Most recordings described objects the labels had already identified. One six-minute interview, though, helped me understand a photograph I'd walked past: a former crane operator explained why crews used hand signals when the radio failed. I'd recommend that interview."
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "Guide replay, mismatched order, two reversals and uncertain cause lead to the price judgment.",
+      "interpretation": "Parent-identified draft-1 causal drift is repaired by 'resulted from exhibits being moved'; source S3 guide verdict is now connected to its evidence.",
+      "human_alternative": "A careful human reviewer may qualify criticism and keep positive usability features.",
+      "discriminating_evidence": "All clauses checked against source; the final price judgment is the supplied one, not added disapproval.",
+      "spans": [
+        {
+          "start": 549,
+          "end": 902,
+          "quote": "The guide was easy to use. I could replay a recording without starting the whole sequence again, but the numbers on the cases didn't always follow the guide's order. I doubled back twice. I don't know whether the mismatch was permanent or resulted from exhibits being moved. Even with the interview, I wouldn't hire the guide again at its current price."
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "basis": "local_occlusion",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 197,
+          "end": 547,
+          "quote": "I hired the audio guide for £4, expecting it to explain how the port had changed. Most recordings described objects the labels had already identified. One six-minute interview, though, helped me understand a photograph I'd walked past: a former crane operator explained why crews used hand signals when the radio failed. I'd recommend that interview."
+        }
+      ],
+      "observation": "Largest absolute paragraph-deletion sensitivity: P2. Baseline AI-involvement=0.7493307590484619; after deletion=0.1259172558784485; delta=62.34135031700134 percentage points.",
+      "interpretation": "Measured context/length sensitivity, not paragraph authorship probability or proof of a defective phrase. Reviewed this paragraph in the whole document.",
+      "human_alternative": "Conventional human prose can receive high-confidence false positives on this experimental model; deleting text also changes context and length.",
+      "discriminating_evidence": "A complete faithful alternative can test model response but cannot authenticate writing history.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\exhibition-review\\draft-2-score\\model-result.json"
+    },
+    {
+      "id": "H",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 195,
+          "quote": "The harbour exhibition was worth the visit on Sunday. I spent about an hour there and would have stayed longer if the upstairs room had been open. The ticket desk didn't say when it would reopen."
+        }
+      ],
+      "observation": "New AI-origin synthetic source and AI-authored development rewrites, created for this experiment.",
+      "interpretation": "Known generation history is separate from naturalness and the uncalibrated native classes.",
+      "human_alternative": "A human could write similar prose; that possibility does not change this fixture creation record.",
+      "discriminating_evidence": "No claim is made that the described events occurred. Hashes identify exact artifacts, not authorship.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\PROTOCOL.md"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Exhibition appraisal and limits are faithful and cohesive.",
+      "finding_ids": [
+        "D1",
+        "H"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Interview exception is clearly grounded, with adjacent recommendation.",
+      "finding_ids": [
+        "D2",
+        "M"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Causal uncertainty repaired, all usability observations and verdict retained.",
+      "finding_ids": [
+        "D3"
+      ]
+    }
+  ],
+  "review_method": "Distinct same-context self-review by the writer; parent pre-score review saved separately where available."
+}

@@ -1,0 +1,88 @@
+{
+  "status": "completed",
+  "language": "en",
+  "input_sha256": "fd481b2dcafaacd3c65bb3e6af0dade075d407996b5ab2e421b59b4ebd5f1972",
+  "measured_at_utc": "2026-10-03T10:26:57.866098+00:00",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "scope": "whole_document",
+  "native_class_probabilities": {
+    "human": 0.0018962293397635221,
+    "ai": 0.9928049445152283,
+    "ai_edited": 0.0002220163296442479,
+    "humanized": 0.005076845642179251
+  },
+  "human_percent": 0.18962293397635221,
+  "probability_semantics": "Native Human/AI/AI-edited/Humanized classes; not word shares or verified writing history.",
+  "calibration": null,
+  "cautions": [
+    "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "English four-class outputs are uncalibrated experimental auxiliary scores."
+  ],
+  "measured_evidence": {
+    "windows": [
+      {
+        "token_start": 0,
+        "token_end": 217,
+        "start": 0,
+        "end": 1098,
+        "quote": "I hired the £4 audio guide on Sunday's visit to the harbour exhibition, expecting to hear how the port had changed over time. Most of the recordings described objects already identified by the labels. One exception was a six-minute interview with a former crane operator, who explained why crews resorted to hand signals when the radio failed. That account of how they worked helped me understand a photograph I had walked past earlier. I would recommend listening to the interview.\n\nThe guide was easy to operate, and I could replay an individual recording without starting the whole sequence again. The numbering on the cases did not always match the order in the guide, though, and I doubled back twice. I can't tell whether the mismatch was permanent or had been caused by exhibits being moved. Even with the interview, I wouldn't hire the guide again at its current price.\n\nThe exhibition itself was worth visiting. I spent about an hour there and would have stayed longer if the upstairs room had been open. It was closed during my visit, and the ticket desk did not say when it would reopen.",
+        "class_probabilities": {
+          "human": 0.0018962293397635221,
+          "ai": 0.9928049445152283,
+          "ai_edited": 0.0002220163296442479,
+          "humanized": 0.005076845642179251
+        },
+        "ai_involvement_class_score": 0.9981037706602365
+      }
+    ],
+    "occlusion": {
+      "performed": true,
+      "paragraphs": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 482,
+          "quote": "I hired the £4 audio guide on Sunday's visit to the harbour exhibition, expecting to hear how the port had changed over time. Most of the recordings described objects already identified by the labels. One exception was a six-minute interview with a former crane operator, who explained why crews resorted to hand signals when the radio failed. That account of how they worked helped me understand a photograph I had walked past earlier. I would recommend listening to the interview.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9981037706602365,
+          "after_removal_ai_involvement": 0.9894922133535147,
+          "delta_percentage_points": 0.8611557306721807
+        },
+        {
+          "paragraph_id": "P2",
+          "start": 484,
+          "end": 877,
+          "quote": "The guide was easy to operate, and I could replay an individual recording without starting the whole sequence again. The numbering on the cases did not always match the order in the guide, though, and I doubled back twice. I can't tell whether the mismatch was permanent or had been caused by exhibits being moved. Even with the interview, I wouldn't hire the guide again at its current price.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9981037706602365,
+          "after_removal_ai_involvement": 0.9884766153991222,
+          "delta_percentage_points": 0.962715526111424
+        },
+        {
+          "paragraph_id": "P3",
+          "start": 879,
+          "end": 1098,
+          "quote": "The exhibition itself was worth visiting. I spent about an hour there and would have stayed longer if the upstairs room had been open. It was closed during my visit, and the ticket desk did not say when it would reopen.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9981037706602365,
+          "after_removal_ai_involvement": 0.9495719261467457,
+          "delta_percentage_points": 4.85318445134908
+        }
+      ],
+      "total_paragraphs": 3,
+      "unmeasured_due_to_limit": 0,
+      "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+    }
+  },
+  "authorship_verified": false,
+  "semantic_review_required": true,
+  "style_review_completed": false,
+  "external_detector_calls": 0,
+  "raw_result_sha256": "f84890db26335bfe32a68b48862e68d8cb8d352472a45ea3c5556d61c3c5fbcb",
+  "paragraph_review_required": [
+    "P1",
+    "P2",
+    "P3"
+  ]
+}

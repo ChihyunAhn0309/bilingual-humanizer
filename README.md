@@ -10,6 +10,12 @@ The default is active rewriting: reorganize paragraphs, recast sentences, preser
 
 [Editable PowerPoint](docs/assets/workflow.pptx) · [Design draft](docs/assets/composition-draft.png) · [Figure validation](docs/figure-evidence/render-review.md). The diagram was created using [JYS1025/paper-figure](https://github.com/JYS1025/paper-figure). External findings can inform another editorial review; that optional return path is described in the skill rather than drawn in this overview.
 
+## Latest English experiment: production retained
+
+An independent developer tested a shorter English composition guide with the installed detector's complete feedback and repeated rewriting. Three frozen fresh-source comparisons preferred the prototype slightly for two reader judgments, but its native Human values were only **0.962%, 0.453%, and 0.135%**. Two further feedback-driven routes did not beat the retained best eligible texts. A development exhibition review reached **25.067%**, which did not generalize to those fresh cases.
+
+**v1.10.0 remains installed and released.** The experimental guide, all 17 new local submissions, full feedback, unsuccessful alternatives, original fallbacks, and independent audit are preserved in the [English lab report](benchmarks/english-lab/REPORT.md). No new commercial scans or detector fees; the Human >=50 target remains unmet. These uncalibrated local classes do not establish authorship or commercial performance.
+
 ## Current release: v1.10.0
 
 The installed local detector now drives an explicit feedback → rewrite → whole-document re-review loop. Every accepted finding must be linked to a later checked resolution or carried forward; a finished scan is not loop completion. The new offline record validator catches missing findings, stale scores, unchanged-text false repairs and obsolete same-text reviews. It keeps the best faithful checkpoint separately from the highest-Human candidate with feedback closed. The assistant performs the actual rewriting and local detector calls; no paid service or autonomous hosted agent is bundled.

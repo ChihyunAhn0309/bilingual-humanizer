@@ -1,0 +1,130 @@
+{
+  "text_sha256": "34136cbcc5e27fa42a1e45cf32c38436fae71066a44d4317b5f63735ede80444",
+  "summary": "The evidence-first complete alternative is faithful after the survey-basis repair and has no open reader defect. Parent pre-score review agrees on fidelity and treats the route as a trade-off, not a guaranteed quality win. Native Human is 0.5177710%, below draft-1's 0.6336482% and above source's 0.1958006%. Preserve draft-1 as the stronger eligible checkpoint. No additional wording search is warranted.",
+  "document_analysis": {
+    "structure": "Attendance advantage and its basis precede the staffing turn; recommendation concludes P2; P3 keeps future review/counting and the past-count limit.",
+    "reasoning_specificity": "Numbers, six-session basis, no survey as recommendation evidence, named volunteer constraints, possible risk and all distinct actions preserved.",
+    "voice_consistency": "Natural restrained professional argument. Welcoming more visitors remains compatible with keeping Wednesday; no new stance or emotional detail.",
+    "rhythm_repetition": "The focal 'What we don't yet have' is a supported contrast, not generic rebuttal. Paragraph lengths follow the argument; no manufactured irregularity.",
+    "language_features": "Survey contrast now governs the recommendation's basis. The conditional imperative form expresses a possible consequence, not an instruction to move.",
+    "citations_provenance": "AI-origin fixture and rewrite. Saved unscored draft-2 and writer rejection document the intermediate error. Independent parent review predates this score; post-score ledger is self-review."
+  },
+  "findings": [
+    {
+      "id": "D1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "Recommendation evidence is explicitly attendance records rather than a survey; no claim about whether a survey was conducted remains.",
+      "interpretation": "Intermediate draft-2 E1 is resolved against the original and full revised sentence.",
+      "human_alternative": "Methodological caveats of this kind occur in careful human planning notes.",
+      "discriminating_evidence": "Exact source/candidate relation supports fidelity, not historical authorship.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 248,
+          "quote": "Saturday drew the bigger crowds in the two trials: 20 and 23 people, compared with 11 to 18 on Wednesdays. I'm basing the recommendation on attendance records from the last six sessions, rather than on a survey of everyone who might want to attend."
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "Missing qualified volunteer receives sentence focus; staffing evidence supports the possible consequence and winter recommendation.",
+      "interpretation": "The reader sees the constraint before the recommendation, a different route from draft-1. No overall superiority is asserted.",
+      "human_alternative": "Humans can plausibly lead with either proposal or supporting evidence.",
+      "discriminating_evidence": "Parent finds the full route coherent; lower native Human value does not make it a reader defect.",
+      "spans": [
+        {
+          "start": 250,
+          "end": 659,
+          "quote": "More visitors are welcome. What we don't yet have is another qualified volunteer for the electrical bench, where each Saturday trial needed a second person. Mara can cover Wednesdays until the end of February, but she hasn't committed to Saturdays. Move the session now and we could have more visitors arriving while that bench is unavailable. For this winter, I'd keep Wednesday rather than move to Saturday."
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "observation": "Conditional January review, proposed count of wait-related departures, and completed-repair limitation remain separate.",
+      "interpretation": "The proposed actions preserve temporal and modal distinctions.",
+      "human_alternative": "Specific operational suggestions fit ordinary committee prose.",
+      "discriminating_evidence": "No real event is authenticated by these details.",
+      "spans": [
+        {
+          "start": 661,
+          "end": 960,
+          "quote": "I suggest we revisit the decision in January if another volunteer comes forward. Meanwhile, we should count the people who leave without a repair because they can't wait. We've been counting completed repairs, but that doesn't tell us whether Wednesday is convenient for people who haven't attended."
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "basis": "local_occlusion",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 250,
+          "end": 659,
+          "quote": "More visitors are welcome. What we don't yet have is another qualified volunteer for the electrical bench, where each Saturday trial needed a second person. Mara can cover Wednesdays until the end of February, but she hasn't committed to Saturdays. Move the session now and we could have more visitors arriving while that bench is unavailable. For this winter, I'd keep Wednesday rather than move to Saturday."
+        }
+      ],
+      "observation": "Largest absolute paragraph-deletion sensitivity: P2. Baseline AI-involvement=0.9948222902603447; after deletion=0.7062465250492096; delta=28.857576521113515 percentage points.",
+      "interpretation": "Measured context/length sensitivity, not paragraph authorship probability or proof of a defective phrase. Reviewed this paragraph in the whole document.",
+      "human_alternative": "Conventional human prose can receive high-confidence false positives on this experimental model; deleting text also changes context and length.",
+      "discriminating_evidence": "A complete faithful alternative can test model response but cannot authenticate writing history.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\policy-note\\draft-3-score\\model-result.json"
+    },
+    {
+      "id": "H",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 248,
+          "quote": "Saturday drew the bigger crowds in the two trials: 20 and 23 people, compared with 11 to 18 on Wednesdays. I'm basing the recommendation on attendance records from the last six sessions, rather than on a survey of everyone who might want to attend."
+        }
+      ],
+      "observation": "New AI-origin synthetic source and AI-authored development rewrites, created for this experiment.",
+      "interpretation": "Known generation history is separate from naturalness and the uncalibrated native classes.",
+      "human_alternative": "A human could write similar prose; that possibility does not change this fixture creation record.",
+      "discriminating_evidence": "No claim is made that the described events occurred. Hashes identify exact artifacts, not authorship.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\PROTOCOL.md"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Survey-basis repair verified and numeric comparison intact.",
+      "finding_ids": [
+        "D1",
+        "H"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Source-grounded constraint focus and consequence; useful alternative, not proven better.",
+      "finding_ids": [
+        "D2",
+        "M"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Complete and natural set of next actions and evidence limits.",
+      "finding_ids": [
+        "D3"
+      ]
+    }
+  ],
+  "review_method": "Distinct same-context self-review by the writer; parent pre-score review saved separately where available."
+}

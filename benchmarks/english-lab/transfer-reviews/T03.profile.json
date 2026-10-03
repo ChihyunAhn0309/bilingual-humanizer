@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "mode": "observations_only",
+  "text_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+  "file_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+  "characters_codepoints": 966,
+  "non_whitespace_characters": 784,
+  "whitespace_units": 180,
+  "hangul_letters": 0,
+  "latin_letters": 764,
+  "other_letters": 0,
+  "hangul_share_of_letters": 0.0,
+  "latin_share_of_letters": 1.0,
+  "rough_sentence_count": 13,
+  "rough_sentence_mean_characters": 73.15384615384616,
+  "rough_sentence_length_cv": 0.49292625248049465,
+  "comma_count": 7,
+  "commas_per_1000_codepoints": 7.246376811594203,
+  "surface_type_token_ratio": 0.6888888888888889,
+  "repeated_surface_forms": [
+    {
+      "surface_form": "the",
+      "count": 15
+    },
+    {
+      "surface_form": "i",
+      "count": 8
+    },
+    {
+      "surface_form": "a",
+      "count": 5
+    },
+    {
+      "surface_form": "it",
+      "count": 5
+    },
+    {
+      "surface_form": "my",
+      "count": 4
+    },
+    {
+      "surface_form": "to",
+      "count": 4
+    },
+    {
+      "surface_form": "chair",
+      "count": 3
+    },
+    {
+      "surface_form": "that",
+      "count": 3
+    },
+    {
+      "surface_form": "still",
+      "count": 3
+    },
+    {
+      "surface_form": "of",
+      "count": 2
+    },
+    {
+      "surface_form": "in",
+      "count": 2
+    },
+    {
+      "surface_form": "with",
+      "count": 2
+    },
+    {
+      "surface_form": "towel",
+      "count": 2
+    },
+    {
+      "surface_form": "on",
+      "count": 2
+    },
+    {
+      "surface_form": "its",
+      "count": 2
+    }
+  ],
+  "unicode_observations": [],
+  "unicode_observation_count": 0,
+  "unicode_observations_truncated": false,
+  "authorship_probabilities": null,
+  "notes": [
+    "Counts are observations, not authorship evidence or a detector score.",
+    "Whitespace units are neither model tokens nor Korean morphemes.",
+    "Sentence splitting is approximate; inspect punctuation context.",
+    "Script counts do not establish language, fluency or identity.",
+    "Unicode controls are not proof of an AI watermark."
+  ]
+}

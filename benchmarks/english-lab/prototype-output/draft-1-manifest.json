@@ -1,0 +1,80 @@
+{
+  "created_at_utc": "2026-10-03T10:39:23.618487+00:00",
+  "method": "frozen-prototype-1.11.0-dev",
+  "prototype_manifest_sha256": "634980ce361c7defc551e94d075695e991cc5def4d9e389fb2be87beae4d41c5",
+  "prototype_unchanged": true,
+  "source_feedback_sha256": "81a99e4d250ff737d1415c6837ea00f353185ec34102e0b0e98bf28e71f0a6d2",
+  "inference_calls": 0,
+  "baseline_outputs_read": false,
+  "blind_reviews_read": false,
+  "status": "ready_for_independent_prescore_review",
+  "cases": [
+    {
+      "id": "T01",
+      "source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+      "candidate_path": "T01/draft-1.txt",
+      "candidate_sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+      "candidate_words": 176,
+      "writer_review_path": "T01/writer-review.md",
+      "writer_review_sha256": "87d6bb1a29755d5151a463052b3717d3d6c5100ef1772f11798f37fc0cafed72",
+      "initial_drafts": 1,
+      "post_draft_revisions_used": 0,
+      "revision_limit": 3,
+      "source_findings_triaged": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "O1",
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "id": "T02",
+      "source_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+      "candidate_path": "T02/draft-1.txt",
+      "candidate_sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+      "candidate_words": 171,
+      "writer_review_path": "T02/writer-review.md",
+      "writer_review_sha256": "da84cb16b112e283a7eca0c3cb2f177a00ea6b1f5dff24992a6c44d74a8a9b76",
+      "initial_drafts": 1,
+      "post_draft_revisions_used": 0,
+      "revision_limit": 3,
+      "source_findings_triaged": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    {
+      "id": "T03",
+      "source_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+      "candidate_path": "T03/draft-1.txt",
+      "candidate_sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0",
+      "candidate_words": 170,
+      "writer_review_path": "T03/writer-review.md",
+      "writer_review_sha256": "8ad04428057497ff1c99db86210f04fd5749df7a28fc66134331fd6688d8ffe6",
+      "initial_drafts": 1,
+      "post_draft_revisions_used": 0,
+      "revision_limit": 3,
+      "source_findings_triaged": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "O1",
+        "O2",
+        "O3"
+      ]
+    }
+  ]
+}

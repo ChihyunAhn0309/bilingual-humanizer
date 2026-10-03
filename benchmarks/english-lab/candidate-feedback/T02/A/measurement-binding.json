@@ -1,0 +1,96 @@
+{
+  "native_result_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\transfer-scores\\T02\\A\\model-result.json",
+  "native_result_sha256": "9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a",
+  "candidate_sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "measured_at_utc": "2026-10-03T10:44:44.158154+00:00",
+  "language": "English, manually verified",
+  "window_count": 1,
+  "token_count": 209,
+  "all_input_tokens_scored": true,
+  "class_probabilities": {
+    "human": 0.004531035199761391,
+    "ai": 0.973919689655304,
+    "ai_edited": 0.0015044831670820713,
+    "humanized": 0.020044874399900436
+  },
+  "ai_involvement_class_score": 0.9954689648002386,
+  "semantics": "Unvalidated local four-class outputs. AI involvement = AI + AI-edited + Humanized; native 1-Human agrees within floating-point rounding. No value is a verified authorship probability or a fraction of words.",
+  "source_native_sha256": "de70b45b4c0d690e4c7d2de02742aa043751d29d0946a0e6ca364c52f69b84b3",
+  "source_class_probabilities": {
+    "human": 0.006715842988342047,
+    "ai": 0.9494030475616455,
+    "ai_edited": 0.0012066115159541368,
+    "humanized": 0.04267454519867897
+  },
+  "candidate_minus_source_percentage_points": {
+    "human": -0.2184807788580656,
+    "ai": 2.4516642093658447,
+    "ai_edited": 0.029787165112793446,
+    "humanized": -2.2629670798778534
+  },
+  "comparison_limit": "A rise in the Human class or fall in the AI class does not establish improved writing, human origin, or general detection performance. Movement into AI-edited or Humanized remains inside the AI-involvement aggregate.",
+  "independently_calibrated_here": false,
+  "authorship_verified_by_model": false,
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 214,
+        "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. Only the way we record returns is changing; the borrowing limits stay the same.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9954689648002386,
+        "after_removal_ai_involvement": 0.9042721092700958,
+        "delta_percentage_points": 9.119685553014278
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 216,
+        "end": 288,
+        "quote": "Please tell Nia by 3 p.m. this Friday if you can't open the shared file.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9954689648002386,
+        "after_removal_ai_involvement": 0.999299826216884,
+        "delta_percentage_points": -0.3830861416645348
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 290,
+        "end": 638,
+        "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9954689648002386,
+        "after_removal_ai_involvement": 0.922807015478611,
+        "delta_percentage_points": 7.266194932162762
+      },
+      {
+        "paragraph_id": "P4",
+        "start": 640,
+        "end": 828,
+        "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you don't need to enter them again yourself.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9954689648002386,
+        "after_removal_ai_involvement": 0.7239516973495483,
+        "delta_percentage_points": 27.151726745069027
+      },
+      {
+        "paragraph_id": "P5",
+        "start": 830,
+        "end": 965,
+        "quote": "I'll review the logs after the second week and ask both desks whether the extra step was useful. We haven't decided whether to keep it.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9954689648002386,
+        "after_removal_ai_involvement": 0.983866473659873,
+        "delta_percentage_points": 1.16024911403656
+      }
+    ],
+    "total_paragraphs": 5,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "guard_checks": "Successful serialized worker exit, pinned model and weight hashes, exact input hash, complete single-window token coverage, finite four-class outputs/sum, and exact deletion anchors/deltas checked."
+}

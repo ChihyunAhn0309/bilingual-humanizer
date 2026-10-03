@@ -1,0 +1,68 @@
+{
+  "registry_version": 1,
+  "set_id": "english-transfer-3-v1",
+  "status": "frozen",
+  "frozen_at_utc": "2026-10-03T10:12:09.366238+00:00",
+  "case_count": 3,
+  "scope": "A small, fresh transfer probe for general English rewriting across explanation, operational instruction, and personal reflection. It cannot establish general superiority or detector robustness.",
+  "provenance": "Known AI-generated synthetic source, written in this evaluation subagent session.",
+  "truth_scope": "All people, organizations, events, situations, and first-person memories are fictional. This is neither human-authored ground truth nor evidence about a real person or event.",
+  "exposure_record": {
+    "prototype_read": false,
+    "lead_development_read": false,
+    "existing_detector_scores_read": false,
+    "detector_inference_run": false,
+    "external_uploads": false,
+    "sources_disclosed_to_improvement_lead_before_prototype_freeze": false,
+    "methodology_read": [
+      "Installed bilingual-ai-detector/SKILL.md",
+      "Installed bilingual-ai-detector/references/evidence-protocol.md"
+    ]
+  },
+  "selection_rule": "Create exactly three realistic synthetic English cases of 140-200 whitespace-delimited words, one per chosen genre. Choose for distinct voice and semantic/speech-act demands, never by measured or imagined detector difficulty. No source substitution, exclusion, or score-based edits after freeze.",
+  "evaluation_order": [
+    "Receive anonymous baseline and prototype candidates after prototype freeze.",
+    "Verify source hashes and evaluate every candidate against all source constraints before viewing scores or method identities.",
+    "Record source fidelity, speech-act fidelity, voice appropriateness, naturalness, clarity, and pairwise reader preference with exact passage evidence.",
+    "Lock qualitative decisions before identity and detector-score disclosure.",
+    "Interpret later score feedback as experimental model response, separately from reader quality and known AI provenance."
+  ],
+  "evaluation_criteria": {
+    "fidelity_gate": "Every factual proposition, uncertainty, logical distinction, assignment of responsibility, deadline, permission, instruction strength, and unresolved outcome must survive. Flag omissions and inventions regardless of fluency.",
+    "reader_preference": "Choose the version that best serves its audience with clear, idiomatic, sustained voice and appropriate rhythm. A tie is allowed. Do not reward novelty, informality, detail, or length by itself.",
+    "claim_boundary": "Report these three cases individually and in aggregate without extrapolating to natural human writing, other genres, or population accuracy.",
+    "detector_boundary": "Detector percentages are not votes on prose quality or verified authorship; all original sources are known AI-generated."
+  },
+  "cases": [
+    {
+      "id": "T01",
+      "genre": "Explanatory public-facing article",
+      "source_file": "T01-repair-queue.source.txt",
+      "source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+      "constraints_file": "T01.constraints.json",
+      "constraints_sha256": "86dbe511ac51163642a8e778410ee345e52e14c37b23d02b6e25a448aa37355e",
+      "word_count_whitespace": 185,
+      "paragraph_count": 3
+    },
+    {
+      "id": "T02",
+      "genre": "Internal operational work memo",
+      "source_file": "T02-return-pilot.source.txt",
+      "source_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+      "constraints_file": "T02.constraints.json",
+      "constraints_sha256": "91e8884aec65ff49713dc485f16592e0693ce438e45f06b0fa270ca63e06556a",
+      "word_count_whitespace": 186,
+      "paragraph_count": 4
+    },
+    {
+      "id": "T03",
+      "genre": "First-person personal reflection",
+      "source_file": "T03-chair-reflection.source.txt",
+      "source_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+      "constraints_file": "T03.constraints.json",
+      "constraints_sha256": "4a0da27e1721b8cb3b5e52921c82dd28c0432bfa10e13c14743a6f2b7e1a6393",
+      "word_count_whitespace": 180,
+      "paragraph_count": 3
+    }
+  ]
+}

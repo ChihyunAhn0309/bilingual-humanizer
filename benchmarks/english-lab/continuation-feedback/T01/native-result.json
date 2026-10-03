@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T10:54:15.769883+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "698c859e5a09aa303a28306f488bd6ce9d68684c456f8df70b88f7d963021a94",
+  "token_count": 205,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 205,
+      "start": 0,
+      "end": 1013,
+      "quote": "A repair at the fictional Bell Street Repair Room may be ready to continue yet remain on hold for its owner's reply. Volunteers need the owner's agreement before buying a replacement part. Visitors cannot easily see this pause. The job is unfinished; it hasn't necessarily been neglected.\n\nThe workshop has four benches, but an empty bench doesn't always mean it can take another job. Only one volunteer handles electrical faults, and she comes on alternate Saturdays. A lamp waiting for her may stay on the shelf while a chair brought in later goes straight to someone who works with wood. The queue depends partly on the work needed, rather than on arrival time alone.\n\nThe workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. Owners would have a better idea of what, if anything, they can do next. The labels wouldn't add volunteer hours or guarantee a completion date.",
+      "class_probabilities": {
+        "human": 0.0032673710957169533,
+        "ai": 0.9432140588760376,
+        "ai_edited": 0.0002578019630163908,
+        "humanized": 0.05326070263981819
+      },
+      "ai_involvement_class_score": 0.996732628904283
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.0032673710957169533,
+    "ai": 0.9432140588760376,
+    "ai_edited": 0.0002578019630163908,
+    "humanized": 0.05326070263981819
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 288,
+        "quote": "A repair at the fictional Bell Street Repair Room may be ready to continue yet remain on hold for its owner's reply. Volunteers need the owner's agreement before buying a replacement part. Visitors cannot easily see this pause. The job is unfinished; it hasn't necessarily been neglected.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.996732628904283,
+        "after_removal_ai_involvement": 0.917919434607029,
+        "delta_percentage_points": 7.8813194297254086
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 290,
+        "end": 670,
+        "quote": "The workshop has four benches, but an empty bench doesn't always mean it can take another job. Only one volunteer handles electrical faults, and she comes on alternate Saturdays. A lamp waiting for her may stay on the shelf while a chair brought in later goes straight to someone who works with wood. The queue depends partly on the work needed, rather than on arrival time alone.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.996732628904283,
+        "after_removal_ai_involvement": 0.10479038953781128,
+        "delta_percentage_points": 89.19422393664718
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 672,
+        "end": 1013,
+        "quote": "The workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. Owners would have a better idea of what, if anything, they can do next. The labels wouldn't add volunteer hours or guarantee a completion date.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.996732628904283,
+        "after_removal_ai_involvement": 0.9889580560848117,
+        "delta_percentage_points": 0.7774572819471359
+      }
+    ],
+    "total_paragraphs": 3,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

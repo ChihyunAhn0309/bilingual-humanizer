@@ -1,0 +1,26 @@
+{
+  "review_type": "parent_separate_from_writer_prescore_fidelity_and_reader_review",
+  "reviewed_at_utc": "2026-10-03T10:16:34.776309+00:00",
+  "source_sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167",
+  "candidate_sha256": "05cf11d7d0d26dd4ba049fd64f2ecdc94ef008e8291a9d70dcedde9bbe71f924",
+  "eligible_for_scoring": false,
+  "fidelity_pass": false,
+  "candidate_score_seen": false,
+  "independence_limit": "Parent coordinates the study and knows the hypothesis/source value; did not write this candidate, not blind or human review.",
+  "necessary_repairs": [
+    {
+      "id": "CAUSE-VS-OCCURRENCE",
+      "source_quote": "I cannot tell whether this was a permanent problem or the result of exhibits being moved.",
+      "candidate_quote": "I don't know whether the mismatch was permanent or whether exhibits were being moved.",
+      "reason": "The source is uncertain whether moving exhibits caused the mismatch. The rewrite instead explicitly makes the occurrence of moving exhibits unknown; this drops the causal relation and shifts the scope of uncertainty. Readers may infer the cause, but preserving it directly avoids changing the stated knowledge.",
+      "repair_direction": "Keep uncertainty about whether the mismatch was permanent or resulted from moving exhibits, rather than uncertainty merely about whether exhibits were moved."
+    }
+  ],
+  "paragraph_reviews": [
+    "P1 preserves the Sunday harbour visit, positive exhibition judgment, approximate hour, desire to stay longer conditional on upstairs being open, and ticket desk not saying when it would reopen.",
+    "P2 preserves the £4 hired audio guide, expectation of port-change explanation, most recordings duplicating labeled identification, six-minute exception, former crane operator, hand signals when radio failed, the previously passed photograph and interview recommendation.",
+    "P3 retains usability, individual replay without restarting the sequence, case-number/order mismatch, two backtracks and refusal to hire again at current price. Required repair: preserve uncertainty about the cause of that mismatch."
+  ],
+  "reader_assessment": "The three paragraph functions distinguish exhibition value, the interview exception and the guide purchase verdict. This is a useful coherent alternative. No forced fragments or new persona are introduced; a narrow meaning repair is needed before scoring.",
+  "retention": "Preserve this unscored draft and review. Count a changed post-draft repair within the existing revision allowance and review the complete corrected text."
+}

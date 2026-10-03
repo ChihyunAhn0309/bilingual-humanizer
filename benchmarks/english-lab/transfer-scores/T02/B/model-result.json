@@ -1,0 +1,115 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T10:45:30.749396+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "bf570a78c32b2cf9d05f95532a468a1fd08cbd62574dd9ab4dd03276e842c1bb",
+  "token_count": 205,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 205,
+      "start": 0,
+      "end": 985,
+      "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. This trial changes how we record returns; the borrowing limits stay the same.\n\nPlease tell Nia by 3 p.m. this Friday if you cannot open the shared file.\n\nWhen equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark the kit available while we are still checking it. Unless there is an immediate safety concern, the person returning it does not need to wait at the desk.\n\nIf the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you do not need to enter them again yourself.\n\nAfter the second week, I'll review the logs and ask both desks whether the extra step was useful. We have not decided whether to keep it.",
+      "class_probabilities": {
+        "human": 0.005585690028965473,
+        "ai": 0.9513620138168335,
+        "ai_edited": 0.0017817243933677673,
+        "humanized": 0.04127057269215584
+      },
+      "ai_involvement_class_score": 0.9944143099710345
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.005585690028965473,
+    "ai": 0.9513620138168335,
+    "ai_edited": 0.0017817243933677673,
+    "humanized": 0.04127057269215584
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 212,
+        "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. This trial changes how we record returns; the borrowing limits stay the same.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9944143099710345,
+        "after_removal_ai_involvement": 0.8225340992212296,
+        "delta_percentage_points": 17.188021074980497
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 214,
+        "end": 287,
+        "quote": "Please tell Nia by 3 p.m. this Friday if you cannot open the shared file.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9944143099710345,
+        "after_removal_ai_involvement": 0.9991506558726542,
+        "delta_percentage_points": -0.4736345901619643
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 289,
+        "end": 655,
+        "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark the kit available while we are still checking it. Unless there is an immediate safety concern, the person returning it does not need to wait at the desk.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9944143099710345,
+        "after_removal_ai_involvement": 0.9557625465095043,
+        "delta_percentage_points": 3.865176346153021
+      },
+      {
+        "paragraph_id": "P4",
+        "start": 657,
+        "end": 846,
+        "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you do not need to enter them again yourself.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9944143099710345,
+        "after_removal_ai_involvement": 0.8357357382774353,
+        "delta_percentage_points": 15.867857169359922
+      },
+      {
+        "paragraph_id": "P5",
+        "start": 848,
+        "end": 985,
+        "quote": "After the second week, I'll review the logs and ask both desks whether the extra step was useful. We have not decided whether to keep it.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9944143099710345,
+        "after_removal_ai_involvement": 0.9579554162919521,
+        "delta_percentage_points": 3.6458893679082394
+      }
+    ],
+    "total_paragraphs": 5,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

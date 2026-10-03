@@ -1,0 +1,21 @@
+{
+  "summary":"Completed source-to-draft follow-up: recommendation and staffing now form P1; the evidence comparison and limitation form P2; proposed actions and limits form P3. Source findings S1 and S2 are resolved without losing content. Parent pre-score review found the complete candidate faithful and useful. Native Human rose from 0.1958006% to 0.6336482%, a small absolute change, not validated authorship or general detector improvement. No necessary new repair.",
+  "document_analysis":{
+    "structure":"P1 states recommendation and its operating risk together. P2 gives Saturday's real attendance advantage and the records-only basis. P3 covers review, counting and the limits of completed repairs.",
+    "reasoning_specificity":"All numeric comparisons and staff constraints survive; the recommendation remains contestable and the absence of a survey remains explicit.",
+    "voice_consistency":"Contractions make the committee recommendation more ordinary without changing its cautious, practical stance. No invented personality or emotion.",
+    "rhythm_repetition":"Longer P1 holds one dependency; P2 and P3 vary naturally with their different jobs. Repeated Wednesday/Saturday names prevent ambiguity rather than signalling an origin.",
+    "language_features":"Natural professional English. 'I'd keep' expresses recommendation, 'could leave' keeps risk conditional, and 'suits' refers to convenience.",
+    "citations_provenance":"Known AI source and rewrite. Parent separate-from-writer prescore report exists; this post-score analysis is self-review. No commercial output or human authorship claim."
+  },
+  "findings":[
+    {"id":"D1","basis":"style_observation","direction":"neutral","strength":"weak","quotes":["P1"],"observation":"Staffing reason now follows the recommendation immediately, then gives both the extra-volunteer requirement and Mara's exact availability.","interpretation":"This resolves source S1/S2's delayed reason and abstract framing; the full source comparison preserves welcome stance and possible risk.","human_alternative":"Either arrangement could be written by a human; the useful hierarchy is an editorial judgment.","discriminating_evidence":"Independent parent review and full source comparison support fidelity; they do not predict model behavior.","decision":"retain","reason":"No remaining necessary repair; a new route would be an explicitly requested comparison, not defect repair."},
+    {"id":"D2","basis":"style_observation","direction":"human_compatible","strength":"weak","quotes":["P2"],"observation":"Exact comparison remains beside its limited record basis and absent survey.","interpretation":"Concrete evidence is not substituted for preferences of people who have not attended.","human_alternative":"Human committee notes often use the same comparison and caution.","discriminating_evidence":"Counts do not authenticate the fictional event; source matching only establishes rewrite fidelity.","decision":"retain","reason":"Retain full comparison, six-session scope and no-survey limitation."},
+    {"id":"D3","basis":"style_observation","direction":"human_compatible","strength":"weak","quotes":["P3"],"observation":"January review is conditional, waiting-loss counts are proposed, and completed-repair totals remain limited evidence.","interpretation":"Distinct action statuses and temporal scopes are clear.","human_alternative":"Specific restrained operational prose is compatible with human writing.","discriminating_evidence":"No source fact or instruction can be removed for a detector gain.","decision":"retain","reason":"Complete, readable and faithful ending; no unresolved finding."}
+  ],
+  "paragraph_reviews":[
+    {"paragraph_id":"P1","status":"reviewed","assessment":"Source accepted issues resolved; the recommendation and constraints are now directly connected.","finding_ids":["D1"]},
+    {"paragraph_id":"P2","status":"reviewed","assessment":"Exact evidence and limitation preserved with clear wording.","finding_ids":["D2"]},
+    {"paragraph_id":"P3","status":"reviewed","assessment":"All distinct future and past-count functions preserved.","finding_ids":["D3"]}
+  ]
+}

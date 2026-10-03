@@ -1,0 +1,14 @@
+{
+  "set_id": "english-transfer-3-v1",
+  "registry_sha256": "1e917df633d6841ae98ead548685612ef522c39958f28f079b1e947ee9100132",
+  "immutable_files": [
+    "registry.json",
+    "T01-repair-queue.source.txt",
+    "T01.constraints.json",
+    "T02-return-pilot.source.txt",
+    "T02.constraints.json",
+    "T03-chair-reflection.source.txt",
+    "T03.constraints.json"
+  ],
+  "freeze_rule": "Do not edit frozen files. If a later clerical correction is essential, retain v1 and issue a separately dated amendment with old/new hashes and rationale before reading outcomes."
+}

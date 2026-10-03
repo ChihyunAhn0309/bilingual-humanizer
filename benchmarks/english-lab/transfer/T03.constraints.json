@@ -1,0 +1,81 @@
+{
+  "origin": "Known AI-generated synthetic source, written in this evaluation subagent session.",
+  "truth_scope": "All people, organizations, events, situations, and first-person memories are fictional. This is neither human-authored ground truth nor evidence about a real person or event.",
+  "source_selection": "Three genres chosen before any candidate rewrites or detector outputs. No detector inference, detector-based selection, or score-based source revision occurred.",
+  "allowed_revision": [
+    "Rephrase, reorganize, and vary sentence or paragraph length when meaning and speech acts survive.",
+    "Remove genuinely redundant wording without losing a proposition, qualification, operational distinction, or important image.",
+    "Preserve genre-appropriate voice without mimicking an identifiable real person."
+  ],
+  "prohibited_revision": [
+    "Invent facts, sources, names, dates, quantities, experiences, emotions, motives, or consequences.",
+    "Resolve an uncertainty the source leaves open.",
+    "Strengthen or weaken a request, permission, promise, factual scope, or causal claim without source support.",
+    "Treat a detector label as evidence of writing quality or actual authorship."
+  ],
+  "id": "T03",
+  "filename": "T03-chair-reflection.source.txt",
+  "genre": "First-person personal reflection",
+  "scenario": "A fictional narrator repairs an inherited chair without reaching a broader emotional resolution.",
+  "voice_basis": "Understatement, a mundane warning system, incomplete memory, and resistance to a neat ending.",
+  "audience": "General readers of a personal essay or reflective newsletter.",
+  "paragraph_constraints": [
+    {
+      "paragraph_id": "P1",
+      "role": "Introduce the unrepaired chair and reluctance to discard it.",
+      "propositions": [
+        "For most of the winter, a loose chair stood in the kitchen corner.",
+        "A folded towel on its seat served as a warning.",
+        "Visitors understood the signal, but the narrator still explained the wobble on each visit.",
+        "The chair was inherited from the narrator's aunt.",
+        "The narrator felt that discarding it needed a stronger reason than an awkward joint."
+      ],
+      "speech_acts": [
+        "Report a fictional first-person memory and a personal judgment.",
+        "Do not turn the personal reluctance into a general rule about inherited possessions."
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "role": "Describe repair and preserve uncertainty about an older mark.",
+      "propositions": [
+        "The narrator took the chair apart last Sunday.",
+        "The old glue was expected to resist.",
+        "The back instead came away with one careful pull.",
+        "The narrator cannot remember whether the aunt repaired the chair herself.",
+        "A pale patch underneath might be a repair or merely worn finish.",
+        "The narrator left that patch alone."
+      ],
+      "speech_acts": [
+        "Preserve the contrast between expectation and what happened.",
+        "Preserve both explanations of the patch and the uncertainty about the aunt.",
+        "Do not invent repair techniques, tools, dialogue, or remembered scenes."
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "role": "Describe a useful but imperfect repair and leave larger decisions unresolved.",
+      "propositions": [
+        "The chair is now usable.",
+        "One leg still catches slightly on the uneven floor.",
+        "The narrator returned the towel to its hook.",
+        "The narrator would like to claim the afternoon settled something about keeping the aunt's belongings, but it mainly provided another place to sit.",
+        "Harder choices remain in a box above the wardrobe."
+      ],
+      "speech_acts": [
+        "Preserve the wish for resolution and the refusal to claim it occurred.",
+        "Do not assert a new lesson, closure, healing, or a decision about the box.",
+        "Do not invent what is in the box or the aunt's wishes."
+      ]
+    }
+  ],
+  "voice_constraints": [
+    "Keep the first-person perspective and modest emotional register.",
+    "Retain concrete details that carry the feeling instead of replacing them with explicit psychological explanation.",
+    "Do not add sentimentality, jokiness, inspirational advice, or a polished moral."
+  ],
+  "source_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+  "hash_basis": "Exact UTF-8 source file bytes, including final newline.",
+  "word_count_whitespace": 180,
+  "paragraph_count": 3
+}

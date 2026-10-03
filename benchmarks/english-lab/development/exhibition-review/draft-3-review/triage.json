@@ -1,0 +1,17 @@
+[
+  {
+    "finding_id": "E1",
+    "decision": "revise",
+    "reason": "Restore expectation with the guide as its object without stronger assurance."
+  },
+  {
+    "finding_id": "E2",
+    "decision": "revise",
+    "reason": "Use current inability and retain permanence-versus-cause relationship."
+  },
+  {
+    "finding_id": "H",
+    "decision": "retain",
+    "reason": "Preserve known AI-origin provenance regardless of scores."
+  }
+]

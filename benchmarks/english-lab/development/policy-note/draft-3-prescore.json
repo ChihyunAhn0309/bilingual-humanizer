@@ -1,0 +1,81 @@
+{
+  "review_type": "parent_separate_from_writer_prescore_fidelity_and_reader_review",
+  "reviewed_at_utc": "2026-10-03T10:20:05.634879+00:00",
+  "source_sha256": "0a5d039cb791a4b9043f176ae85f4b550bdaf8313af7f7dce67bb1cf4a28f478",
+  "candidate_sha256": "34136cbcc5e27fa42a1e45cf32c38436fae71066a44d4317b5f63735ede80444",
+  "eligible_for_scoring": true,
+  "fidelity_pass": true,
+  "necessary_repairs": [],
+  "candidate_score_seen": false,
+  "coverage": [
+    {
+      "constraint": "Winter Wednesday recommendation rather than Saturday",
+      "source_quote": "I recommend retaining the Wednesday repair session during the winter rather than moving it to Saturday.",
+      "candidate_quote": "For this winter, I'd keep Wednesday rather than move to Saturday.",
+      "passed": true
+    },
+    {
+      "constraint": "Recommendation evidence basis, not a claim that no survey occurred",
+      "source_quote": "This recommendation is based on the attendance records from the last six sessions, rather than on a survey of everyone who might want to attend.",
+      "candidate_quote": "I'm basing the recommendation on attendance records from the last six sessions, rather than on a survey of everyone who might want to attend.",
+      "passed": true
+    },
+    {
+      "constraint": "Wednesday range and both Saturday trial counts",
+      "source_quote": "Wednesday attendance ranged from 11 to 18 people. The two Saturday trials attracted 20 and 23 people",
+      "candidate_quote": "20 and 23 people, compared with 11 to 18 on Wednesdays",
+      "passed": true
+    },
+    {
+      "constraint": "More visitors welcomed, qualified volunteer still missing",
+      "source_quote": "Higher attendance is welcome, although it does not by itself resolve the staffing question.",
+      "candidate_quote": "More visitors are welcome. What we don't yet have is another qualified volunteer for the electrical bench",
+      "passed": true
+    },
+    {
+      "constraint": "Second volunteer at electrical bench each Saturday",
+      "source_quote": "each required a second volunteer at the electrical bench",
+      "candidate_quote": "another qualified volunteer for the electrical bench, where each Saturday trial needed a second person",
+      "passed": true
+    },
+    {
+      "constraint": "Mara Wednesday ability to end February; no Saturday commitment",
+      "source_quote": "Mara can continue to cover Wednesdays until the end of February. She has not committed to Saturdays",
+      "candidate_quote": "Mara can cover Wednesdays until the end of February, but she hasn't committed to Saturdays",
+      "passed": true
+    },
+    {
+      "constraint": "Potential unavailable bench even with more visitors",
+      "source_quote": "Moving the session now could therefore leave the electrical bench unavailable even when more visitors arrive.",
+      "candidate_quote": "Move the session now and we could have more visitors arriving while that bench is unavailable.",
+      "passed": true
+    },
+    {
+      "constraint": "Conditional January review suggestion",
+      "source_quote": "I suggest reviewing the decision in January if another volunteer comes forward.",
+      "candidate_quote": "I suggest we revisit the decision in January if another volunteer comes forward.",
+      "passed": true
+    },
+    {
+      "constraint": "Unmet demand because of waiting",
+      "source_quote": "we should record how many people leave without a repair because they cannot wait",
+      "candidate_quote": "we should count the people who leave without a repair because they can't wait",
+      "passed": true
+    },
+    {
+      "constraint": "Completed-repair counts do not measure convenience for nonattendees",
+      "source_quote": "We have counted completed repairs so far, but those totals cannot tell us whether Wednesday is convenient for people who have not attended.",
+      "candidate_quote": "We've been counting completed repairs, but that doesn't tell us whether Wednesday is convenient for people who haven't attended.",
+      "passed": true
+    }
+  ],
+  "independence_limit": "Same parent reviewer, separate from writer; knows earlier development score and proposed reader route, not blinded or human review.",
+  "paragraph_reviews": [
+    "P1 begins with the genuine attendance advantage and then preserves the exact limited basis of the recommendation. It makes no claim about whether anyone has conducted a survey.",
+    "P2 welcomes higher attendance before contrasting bench staffing. The second person refers to the needed qualified volunteer in the same sentence. Mara's capability and noncommitment, possible bench unavailability and winter recommendation remain distinct.",
+    "P3 preserves all proposed follow-up actions, their January/volunteer condition and the inability to infer nonattendee convenience from completed repairs."
+  ],
+  "reader_assessment": "Eligible evidence-first alternative. The initial data give Saturday its fair case before the staffing constraint leads to Wednesday. The recommendation is delayed compared with draft-1, a reader-route tradeoff rather than a demonstrated overall improvement. Conditional imperative Move ... and we could is readable as a hypothetical, not an instruction to move.",
+  "self_repair_checked": "The archived draft-2 survey-conduct overstatement is absent; the complete draft-3 explicitly concerns the recommendation's evidential basis. No new issue found.",
+  "revision_count_note": "Initial draft-1; unscored alternative draft-2 revision1; repaired draft-3 revision2. Preserve the rejected draft and its erroneous self-review."
+}

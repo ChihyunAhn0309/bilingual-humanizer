@@ -1,0 +1,11 @@
+{
+  "command": "py -3.13 -B -X utf8 -m unittest discover -s work/english-lab/skill/evals -p test_*.py",
+  "exit_code": 0,
+  "tests_run": 107,
+  "passed": 106,
+  "skipped": 1,
+  "elapsed_seconds_reported_by_unittest": 1.416,
+  "scope": "Frozen prototype helper regression tests, not writing-quality or detector-performance evidence.",
+  "prototype_manifest_sha256": "634980ce361c7defc551e94d075695e991cc5def4d9e389fb2be87beae4d41c5",
+  "notes": "Two invalid-status lines were expected output from negative-path tests. No code changed after this test run."
+}

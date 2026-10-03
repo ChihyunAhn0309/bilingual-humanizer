@@ -1,0 +1,22 @@
+{
+  "round": 1,
+  "frozen_at_utc": "2026-10-03T10:42:25.326728+00:00",
+  "review_file": "round-1.json",
+  "review_sha256": "dc87c8a1a42ccfd5575e6ae093e38f01a55fe2c584aa813a32686edd14e6494d",
+  "candidate_hashes": {
+    "T01": {
+      "A": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d",
+      "B": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1"
+    },
+    "T02": {
+      "A": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+      "B": "bf570a78c32b2cf9d05f95532a468a1fd08cbd62574dd9ab4dd03276e842c1bb"
+    },
+    "T03": {
+      "A": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07",
+      "B": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0"
+    }
+  },
+  "no_identity_or_candidate_score_disclosure_before_freeze": true,
+  "amendment_rule": "Keep this review unchanged. Any later measured interpretation or corrections require a separate dated artifact and explicit rationale."
+}

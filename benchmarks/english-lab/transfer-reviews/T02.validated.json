@@ -1,0 +1,241 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "A clear operational memo that announces a temporary trial, assigns concrete actions, gives an outage fallback, and leaves the permanent decision open. Procedural repetition and neat paragraph functions follow the genre. There is little useful style-only evidence of authorship. The known AI origin is recorded separately. AI/Human probabilities are unavailable here because inference was deliberately not run and no quantitative result was supplied.",
+  "document_analysis": {
+    "structure": "P1 defines the trial; P2 gives the normal return workflow and the missing-item branch; P3 covers file access and an outage fallback; P4 commits to review without assuming retention. All four paragraphs contribute different operational information. The systematic structure is useful for desk staff, not intrinsically suspicious.",
+    "reasoning_specificity": "The equipment types, two desks, two-week period, kit number and return time, inspection shelf, 3 p.m. Friday deadline, named responsibility, and following-morning transcription are concrete. The safety exception and exemption from duplicate entry prevent two plausible workflow mistakes. The source does not supply calendar dates or actual organizational records because the setting is fictional.",
+    "voice_consistency": "The writer uses a collegial but authoritative internal voice: \"we will try\" for the trial, imperatives for desk duties, \"please\" for direct requests, and \"I will\" for the writer's review commitment. The shift from we to I distinguishes shared operations from individual accountability rather than changing persona.",
+    "rhythm_repetition": "P2 and P3 contain conditional openings with \"If\", plus repeated references to the file, log, and kit. The repetition keeps referents stable for a procedure. P4 is shorter than the process paragraphs. Manual reading yields 12 sentences; the profiler's rough count of 14 splits the abbreviation \"p.m.\" and must not be treated as a reliable sentence measurement or a detector feature.",
+    "language_features": "Plain English imperatives, clear time phrases, and explicit permissions suit a work memo. \"does not need to wait\" and \"There is no need to enter them again\" identify exemptions rather than filler. The P1 contrast limits the policy scope. Good grammar, ordinary vocabulary, repeated conditional grammar, and politeness are not diagnostic.",
+    "citations_provenance": "The memo supplies no sources and needs none for its fictional internal instructions. Nia, the desks, the dates relative to the memo, and the pilot are synthetic, not verified workplace facts. The source hash matches the frozen registry. Known AI origin comes from this session's generation record; a matching hash alone does not authenticate authorship."
+  },
+  "findings": [
+    {
+      "id": "E1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "P1 announces a trial and explicitly separates the changed record-keeping process from unchanged borrowing limits.",
+      "interpretation": "The clear scope contrast could be generated, but it serves an operational distinction. It does not justify an authorship-direction flag by itself.",
+      "human_alternative": "A human manager could anticipate confusion about loan policy and use the contrast to prevent it.",
+      "discriminating_evidence": "Actual internal policy or draft history would distinguish the origin of these instructions; no such real-world source is claimed here.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 93,
+          "quote": "Starting next Monday, we will try a shared return log for borrowed projectors and audio kits.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        },
+        {
+          "start": 157,
+          "end": 237,
+          "quote": "This is a change to how we record returns, not a change to the borrowing limits.",
+          "line": 1,
+          "column": 158,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "P2 and P3 each use an if-condition followed by an action. The first handles missing equipment; the second handles an unavailable file and assigns follow-up responsibility.",
+      "interpretation": "This is repeated syntax, but the repeated structure maps distinct decision branches. Calling it an AI template would ignore the genre function.",
+      "human_alternative": "A human procedure writer could deliberately standardize condition/action wording so staff can find the right response quickly.",
+      "discriminating_evidence": "Staff usability feedback could assess the repetition's usefulness. It would not, by itself, identify the authoring process.",
+      "spans": [
+        {
+          "start": 338,
+          "end": 432,
+          "quote": "If anything is missing, leave the kit on the inspection shelf and add a short note in the log.",
+          "line": 3,
+          "column": 100,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 676,
+          "end": 816,
+          "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard; Nia will transfer those entries the following morning.",
+          "line": 5,
+          "column": 76,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "observation": "P2 distinguishes equipment availability from whether the person returning it must remain, with a narrow safety exception.",
+      "interpretation": "The distinction is practical specificity rather than generic business phrasing. It counters a claim that the prose is empty or interchangeable, but not the known AI provenance.",
+      "human_alternative": "A human desk supervisor could clarify these separate states after observing staff unnecessarily detain borrowers or reissue unchecked kits. That possible motivation is not asserted as an event in this synthetic source.",
+      "discriminating_evidence": "Real workflow records would be needed to establish that experience-based explanation. The text alone supplies only the policy distinction.",
+      "spans": [
+        {
+          "start": 433,
+          "end": 496,
+          "quote": "Please do not mark it available while we are still checking it.",
+          "line": 3,
+          "column": 195,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 497,
+          "end": 599,
+          "quote": "The person returning it does not need to wait at the desk unless there is an immediate safety concern.",
+          "line": 3,
+          "column": 259,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "observation": "P3 gives a precise access-reporting deadline and tells desk staff not to duplicate the transcription assigned to Nia in the preceding sentence.",
+      "interpretation": "These details anchor the memo to an actionable workflow and reduce ambiguity. Detail can also be generated, so it is counterevidence to vagueness, not proof of a human author.",
+      "human_alternative": "A human colleague could name a contact and avoid double entry to make a small pilot workable during normal desk duties.",
+      "discriminating_evidence": "The planned pilot or source notes could establish where the details came from; no real pilot is claimed.",
+      "spans": [
+        {
+          "start": 601,
+          "end": 675,
+          "quote": "By 3 p.m. this Friday, please tell Nia if you cannot open the shared file.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        },
+        {
+          "start": 817,
+          "end": 863,
+          "quote": "There is no need to enter them again yourself.",
+          "line": 5,
+          "column": 217,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "P4 assigns review responsibility and explicitly withholds a permanent decision. It does not add a generic claim of future efficiency or success.",
+      "interpretation": "The ending is concise and calibrated to a trial. Either a human or AI can write this; the absence of promotional language is not an authorship test.",
+      "human_alternative": "A human manager could avoid prejudging the pilot while giving staff a concrete commitment to consultation.",
+      "discriminating_evidence": "An edit trail would be needed to establish the process. Subsequent real actions would test the commitment only if this were an actual memo.",
+      "spans": [
+        {
+          "start": 865,
+          "end": 963,
+          "quote": "I will review the logs after the second week and ask both desks whether the extra step was useful.",
+          "line": 7,
+          "column": 1,
+          "paragraph_ids": [
+            "P4"
+          ]
+        },
+        {
+          "start": 964,
+          "end": 1003,
+          "quote": "We have not decided whether to keep it.",
+          "line": 7,
+          "column": 100,
+          "paragraph_ids": [
+            "P4"
+          ]
+        }
+      ]
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 237,
+      "line": 1,
+      "text": "Starting next Monday, we will try a shared return log for borrowed projectors and audio kits. The trial will run for two weeks at the North and Annex desks. This is a change to how we record returns, not a change to the borrowing limits.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Role: announce scope and timing. It is readable and complete; the contrast between logging and borrowing limits prevents a substantive misunderstanding. Neutral authorship assessment because concise scope statements are normal workplace writing. Preserve the next-Monday start, two weeks, both equipment classes, both desks, and unchanged borrowing limits.",
+      "finding_ids": [
+        "E1"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 239,
+      "end": 599,
+      "line": 3,
+      "text": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark it available while we are still checking it. The person returning it does not need to wait at the desk unless there is an immediate safety concern.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Role: specify return actions and exceptions. Conditional and negative instructions are necessary, not gratuitous formality. Practical distinctions support clarity but do not establish origin. Counterexplanation: a human procedure writer would also spell out inspection and the borrower's permission to leave. Preserve action order and the immediate-safety exception.",
+      "finding_ids": [
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 601,
+      "end": 863,
+      "line": 5,
+      "text": "By 3 p.m. this Friday, please tell Nia if you cannot open the shared file. If the file is unavailable during the trial, use the paper sheet beside the cupboard; Nia will transfer those entries the following morning. There is no need to enter them again yourself.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Role: prevent file-access trouble and define the fallback. The conditional form recurs because the situation branches. Names, times, and the no-duplicate-entry sentence matter operationally. Counterexplanation: a human colleague would reduce confusion by assigning transcription to one person. Preserve Nia's responsibility, following-morning timing, and the Friday deadline.",
+      "finding_ids": [
+        "E2",
+        "E4"
+      ]
+    },
+    {
+      "id": "P4",
+      "start": 865,
+      "end": 1003,
+      "line": 7,
+      "text": "I will review the logs after the second week and ask both desks whether the extra step was useful. We have not decided whether to keep it.",
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "Role: promise review and keep the outcome undecided. The short ending fits the memo and gives an accountable next step. No forced stylistic flag is warranted. Preserve review after the second week, consultation with both desks, and the absence of a retention decision.",
+      "finding_ids": [
+        "E5"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 4,
+    "paragraphs_reviewed": 4,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated."
+}

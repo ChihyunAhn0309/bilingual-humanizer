@@ -1,0 +1,27 @@
+[
+  {
+    "finding_id": "D1",
+    "decision": "retain",
+    "reason": "No remaining necessary repair; a new route would be an explicitly requested comparison, not defect repair."
+  },
+  {
+    "finding_id": "D2",
+    "decision": "retain",
+    "reason": "Retain full comparison, six-session scope and no-survey limitation."
+  },
+  {
+    "finding_id": "D3",
+    "decision": "retain",
+    "reason": "Complete, readable and faithful ending; no unresolved finding."
+  },
+  {
+    "finding_id": "M",
+    "decision": "retain",
+    "reason": "Retain the complete information; inspect sensitivity without deleting the paragraph or inventing a defect."
+  },
+  {
+    "finding_id": "H",
+    "decision": "retain",
+    "reason": "Preserve known AI-origin provenance regardless of scores."
+  }
+]

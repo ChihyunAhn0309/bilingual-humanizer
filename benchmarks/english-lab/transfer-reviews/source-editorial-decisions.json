@@ -1,0 +1,136 @@
+{
+  "T01": {
+    "overall_decision": "Retain as an effective explanatory article. No necessary repair identified. A different reader route is optional, not an improvement established by this source review.",
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "The empty-bench opening gives the reader an immediate question.",
+          "Keep the schedule and lamp/chair example because they explain the mechanism.",
+          "Keep partly and may so the example does not become a universal queue rule."
+        ],
+        "optional_alternate_route": "If a rewrite is requested, begin with the lamp and later-arriving chair, then explain the specialist schedule and general point.",
+        "reason_optional": "The current general-to-specific route already works; a scene-first route may suit a more magazine-like presentation.",
+        "semantic_risk": "Moving the example must not imply that the lamp always waits, that all jobs are first-come except these two, or that four benches equal four available workers."
+      },
+      {
+        "paragraph_id": "P2",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Preserve owner agreement before purchase as a separate bottleneck.",
+          "Keep the difference between unfinished and possibly neglected."
+        ],
+        "optional_alternate_route": "The approval requirement can lead the paragraph directly, with the invisible pause explained afterward.",
+        "reason_optional": "This changes emphasis without repairing a demonstrated defect. The current transition clearly links the second cause to the first.",
+        "semantic_risk": "Do not blame the owner, assume non-response, remove the approval condition, or turn may not be neglected into is never neglected."
+      },
+      {
+        "paragraph_id": "P3",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Keep the two proposed statuses, their contrast with a generic in-progress label, and the distinction between information and capacity.",
+          "Keep what, if anything to permit no owner action."
+        ],
+        "optional_alternate_route": "For a more direct service-page style, group the proposed labels and the limited next-action benefit before the sentence about hours and dates.",
+        "reason_optional": "The existing two They would sentences are understandable and parallel for a reason. Varying them is preference, not required humanization.",
+        "semantic_risk": "A shorter ending must not promise faster repair, extra capacity, a date, or an action for every owner."
+      }
+    ],
+    "source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697"
+  },
+  "T02": {
+    "overall_decision": "Retain the memo as operationally clear. No necessary prose repair identified. Stability of responsibilities, conditions, sequence, and permissions is more valuable than stylistic novelty.",
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Keep both desk names, the equipment scope, start, duration, and unchanged borrowing limits together."
+        ],
+        "optional_alternate_route": "For a busy desk audience, put the two-week trial and its next-Monday start in the first sentence, followed by covered equipment and desks.",
+        "reason_optional": "The current order is already easy to follow; the alternative merely foregrounds trial timing.",
+        "semantic_risk": "Do not replace relative days with invented dates, imply permanent adoption, or omit a desk or equipment class."
+      },
+      {
+        "paragraph_id": "P2",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Keep logging before cupboard storage, the missing-item inspection branch, and the prohibition on marking a kit available while it is checked.",
+          "Keep the borrower permission to leave and its immediate-safety exception."
+        ],
+        "optional_alternate_route": "A format change to short numbered steps could improve lookup if the memo is posted beside the cupboard.",
+        "reason_optional": "This is a possible presentation choice for a different use setting, not evidence that the present prose is unclear. No added setting is assumed.",
+        "semantic_risk": "Numbering must not make the missing-item branch mandatory for every return, erase the availability restriction, or change the permission to leave."
+      },
+      {
+        "paragraph_id": "P3",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Keep the Friday 3 p.m. access deadline, Nia as contact, paper location, following-morning transcription, and the exemption from duplicate entry."
+        ],
+        "optional_alternate_route": "Separate the access-reporting request from the outage fallback if the format allows an additional paragraph.",
+        "reason_optional": "Two related tasks can be split for scanning, but the present paragraph is concise and coherent.",
+        "semantic_risk": "Do not change the trigger from file unavailability to any inconvenience or shift transcription back to desk staff."
+      },
+      {
+        "paragraph_id": "P4",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Keep the writer's review commitment, consultation with both desks, and undecided permanent outcome."
+        ],
+        "optional_alternate_route": null,
+        "reason_optional": "No alternate ending is needed; the current two sentences state the commitment and boundary directly.",
+        "semantic_risk": "Avoid adding assumed efficiency, success, staff enthusiasm, or a retention decision."
+      }
+    ],
+    "source_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c"
+  },
+  "T03": {
+    "overall_decision": "Retain the restrained reflection and its unresolved ending. No necessary repair identified. Its concrete details and uncertainty do meaningful work; replacing them with overt emotion would change the voice.",
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Keep the towel warning, the repeated explanation despite visitors understanding, and the inherited connection to the aunt.",
+          "Keep the narrator's limited reason for not discarding the chair."
+        ],
+        "optional_alternate_route": "A version could begin with the towel warning and introduce the winter-long delay in the next sentence.",
+        "reason_optional": "This would give the practical detail a little more emphasis; the existing opening already establishes time, place, and object efficiently.",
+        "semantic_risk": "Do not invent visitor dialogue, a named emotion, an aunt's wish, or a rule that inherited objects must be kept."
+      },
+      {
+        "paragraph_id": "P2",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Keep the easy separation after expected resistance, the memory gap, both explanations for the patch, and leaving it alone."
+        ],
+        "optional_alternate_route": null,
+        "reason_optional": "The current sequence follows the action and then the uncertainty naturally. No benefit from restructuring is established.",
+        "semantic_risk": "Do not convert the mark into evidence of the aunt's repair, make the memory certain, or add tools and techniques."
+      },
+      {
+        "paragraph_id": "P3",
+        "decision": "retain",
+        "necessary_repair": null,
+        "retain": [
+          "Keep the usable but imperfect chair, towel returned to its hook, limited practical gain, and remaining choices in the box above the wardrobe."
+        ],
+        "optional_alternate_route": "If a less explicitly reflective style is requested, the limited practical gain could be stated more directly while still preserving the narrator's wish for, and refusal to claim, broader resolution.",
+        "reason_optional": "The I would like to say construction is a visible essay device, not a defect. Removing it solely because it looks crafted could erase a meaning-bearing hesitation.",
+        "semantic_risk": "Do not supply closure, healing, a lesson, the box's contents, or a decision about the aunt's belongings."
+      }
+    ],
+    "source_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9"
+  }
+}

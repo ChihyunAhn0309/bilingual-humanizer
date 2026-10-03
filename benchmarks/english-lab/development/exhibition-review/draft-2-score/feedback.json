@@ -1,0 +1,88 @@
+{
+  "status": "completed",
+  "language": "en",
+  "input_sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4",
+  "measured_at_utc": "2026-10-03T10:18:34.425656+00:00",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "scope": "whole_document",
+  "native_class_probabilities": {
+    "human": 0.2506692409515381,
+    "ai": 0.5133237838745117,
+    "ai_edited": 0.1358390897512436,
+    "humanized": 0.10016787052154541
+  },
+  "human_percent": 25.06692409515381,
+  "probability_semantics": "Native Human/AI/AI-edited/Humanized classes; not word shares or verified writing history.",
+  "calibration": null,
+  "cautions": [
+    "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "English four-class outputs are uncalibrated experimental auxiliary scores."
+  ],
+  "measured_evidence": {
+    "windows": [
+      {
+        "token_start": 0,
+        "token_end": 186,
+        "start": 0,
+        "end": 902,
+        "quote": "The harbour exhibition was worth the visit on Sunday. I spent about an hour there and would have stayed longer if the upstairs room had been open. The ticket desk didn't say when it would reopen.\n\nI hired the audio guide for £4, expecting it to explain how the port had changed. Most recordings described objects the labels had already identified. One six-minute interview, though, helped me understand a photograph I'd walked past: a former crane operator explained why crews used hand signals when the radio failed. I'd recommend that interview.\n\nThe guide was easy to use. I could replay a recording without starting the whole sequence again, but the numbers on the cases didn't always follow the guide's order. I doubled back twice. I don't know whether the mismatch was permanent or resulted from exhibits being moved. Even with the interview, I wouldn't hire the guide again at its current price.",
+        "class_probabilities": {
+          "human": 0.2506692409515381,
+          "ai": 0.5133237838745117,
+          "ai_edited": 0.1358390897512436,
+          "humanized": 0.10016787052154541
+        },
+        "ai_involvement_class_score": 0.7493307590484619
+      }
+    ],
+    "occlusion": {
+      "performed": true,
+      "paragraphs": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 195,
+          "quote": "The harbour exhibition was worth the visit on Sunday. I spent about an hour there and would have stayed longer if the upstairs room had been open. The ticket desk didn't say when it would reopen.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.7493307590484619,
+          "after_removal_ai_involvement": 0.5675077140331268,
+          "delta_percentage_points": 18.18230450153351
+        },
+        {
+          "paragraph_id": "P2",
+          "start": 197,
+          "end": 547,
+          "quote": "I hired the audio guide for £4, expecting it to explain how the port had changed. Most recordings described objects the labels had already identified. One six-minute interview, though, helped me understand a photograph I'd walked past: a former crane operator explained why crews used hand signals when the radio failed. I'd recommend that interview.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.7493307590484619,
+          "after_removal_ai_involvement": 0.1259172558784485,
+          "delta_percentage_points": 62.34135031700134
+        },
+        {
+          "paragraph_id": "P3",
+          "start": 549,
+          "end": 902,
+          "quote": "The guide was easy to use. I could replay a recording without starting the whole sequence again, but the numbers on the cases didn't always follow the guide's order. I doubled back twice. I don't know whether the mismatch was permanent or resulted from exhibits being moved. Even with the interview, I wouldn't hire the guide again at its current price.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.7493307590484619,
+          "after_removal_ai_involvement": 0.20407110452651978,
+          "delta_percentage_points": 54.525965452194214
+        }
+      ],
+      "total_paragraphs": 3,
+      "unmeasured_due_to_limit": 0,
+      "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+    }
+  },
+  "authorship_verified": false,
+  "semantic_review_required": true,
+  "style_review_completed": false,
+  "external_detector_calls": 0,
+  "raw_result_sha256": "5308bb9c1750fe283af07f653c969c3c6e92a43003811483cbf11ab81a0b6b7f",
+  "paragraph_review_required": [
+    "P1",
+    "P2",
+    "P3"
+  ]
+}

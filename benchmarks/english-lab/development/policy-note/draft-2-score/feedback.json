@@ -1,0 +1,11 @@
+{
+  "status": "unavailable",
+  "measurement_status": "not_submitted",
+  "reason": "Not submitted to detector: writer source review rejected survey-conduct overstatement; candidate text exists and is retained.",
+  "input_sha256": "d1d6373faa40b820f3a78e454d4d7336ad75ffb85d203c68e87f51083df49333",
+  "human_percent": null,
+  "native_class_probabilities": null,
+  "external_detector_calls": 0,
+  "local_detector_calls": 0,
+  "style_review_completed": false
+}

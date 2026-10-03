@@ -1,0 +1,109 @@
+{
+  "case_id": "T01",
+  "candidate": "B",
+  "candidate_sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    }
+  ],
+  "summary": {
+    "revise": 0,
+    "retain": 6,
+    "unresolved": 0
+  },
+  "closure": {
+    "fidelity_pass": true,
+    "reader_eligible": true,
+    "necessary_repairs": [],
+    "decision": "retain",
+    "reason": "No source-fidelity or reader-quality defect was found in the pre-score review. Optional stylistic differences do not compel another rewrite.",
+    "blind_pair_preference": {
+      "choice": "B",
+      "strength": "slight",
+      "reason": "Both versions pass fidelity and read well. B links the bench count directly to the capacity limitation and folds the invisible pause into its cause, which produces a smoother explanatory flow. This is a small preference in organization and phrasing, not a repair finding or evidence of general method superiority.",
+      "exact_candidate_evidence": {
+        "A": [
+          {
+            "start": 185,
+            "end": 372,
+            "quote": "The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          },
+          {
+            "start": 521,
+            "end": 639,
+            "quote": "A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ],
+        "B": [
+          {
+            "start": 268,
+            "end": 369,
+            "quote": "The workshop has four benches, but an empty one doesn't always mean there's capacity for another job.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          },
+          {
+            "start": 538,
+            "end": 646,
+            "quote": "A repair may be ready to continue and still have to wait for that reply, a pause visitors cannot easily see.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ]
+      },
+      "counterconsideration": "A's shorter separate sentence about visitors may be easier for some readers to scan. Its more formal register is legitimate, so the preference is deliberately slight.",
+      "fidelity_overrides_applied": false,
+      "method_identity_inference": null
+    },
+    "post_measurement_action": "retain",
+    "post_measurement_reason": "The new native feedback is bound and reviewed. It supplies no independently grounded repair need. Keep the passing candidate and the frozen reader judgment; do not begin a rewrite solely to chase an uncalibrated score.",
+    "measured_feedback_reviewed": true,
+    "next_action": "Return the measured evidence and retain decisions to the writer; any later revision requires a separately stated real defect or changed user requirement."
+  }
+}

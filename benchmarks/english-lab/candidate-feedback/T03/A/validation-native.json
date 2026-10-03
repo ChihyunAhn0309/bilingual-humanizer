@@ -1,0 +1,260 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Anonymous candidate T03/A remains faithful and reader-eligible after all 3 paragraphs were reviewed. No necessary repair was identified. Supplied unvalidated model outputs: Human 0.13351638%, AI 95.93549371%, AI-edited 0.01955606%, Humanized 3.91143411%. The recorded AI-involvement class score is 99.86648362%. The highest model class is ai. These are experimental class responses, not verified authorship probabilities, word shares, or prose-quality ratings. The installed skill reports high-confidence false positives in its English pilot. Retain the candidate; the measured response does not create a prose defect.",
+  "document_analysis": {
+    "structure": "P1 foregrounds the warning towel and retains the winter delay and inherited chair. P2 gives disassembly and uncertainty, with the patch before the memory gap. P3 states practical gain before the wished-for broader resolution and unresolved box. All source functions survive.",
+    "reasoning_specificity": "The towel, kitchen corner, visitors, aunt, one careful pull, expected glue resistance, ambiguous patch, uneven floor, and wardrobe box all remain. The source's uncertainty and limited emotional claim are preserved; no tools, memories, feelings, or box contents are invented.",
+    "voice_consistency": "The first-person voice remains understated and a little formal. Naming my aunt's things instead of her things clarifies the reference without changing emotional intensity. The source's refusal of closure is intact.",
+    "rhythm_repetition": "Short opening and action sentences are mixed with longer reflective ones. The final sentence carries both the wish for resolution and the remaining choices. This is clear, though slightly denser than B's separated beats.",
+    "language_features": "English is idiomatic. The semicolon joining inheritance and reluctance is legitimate. Repair or just where the finish wore off leaves both alternatives under might. I left the patch alone makes the original pronoun referent explicit.",
+    "citations_provenance": "All experiences remain fictional. No authentic personal history or quotation is added. A readable anecdote is not human-authorship evidence; candidate method and scores are unknown. The supplied native result matches the exact candidate hash, pinned checkpoint, and one window covering all input tokens. Native model classification is separate from documented source history; method identity remains blind."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 337,
+          "quote": "My warning system was a folded towel on the seat of a loose chair. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood the warning, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt; an awkward joint did not seem reason enough to throw it out.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "P1 keeps the warning system, winter-long location, visitors understanding despite repeated explanations, inheritance, and reason for not discarding the chair. The semicolon is a normal narrative choice, not an artificiality defect.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 339,
+          "end": 638,
+          "quote": "Last Sunday I finally took it apart. The back came away with one careful pull, though I had expected the old glue to resist. There is a pale patch underneath that might be a repair or just where the finish wore off. I cannot remember whether my aunt ever repaired it herself. I left the patch alone.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "P2 preserves last Sunday, the careful pull, expected resistance, uncertainty about the aunt's repairs, both possible causes of the pale patch, and leaving it alone. Moving the patch before the memory sentence does not resolve the uncertainty.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 640,
+          "end": 947,
+          "quote": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "P3 preserves practical usability, the leg catching on an uneven floor, the towel returned to the hook, modest gain, wish for a broader resolution, and the unresolved box. The final but-clause still rejects a claim of closure; no necessary repair is warranted.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 337,
+          "quote": "My warning system was a folded towel on the seat of a loose chair. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood the warning, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt; an awkward joint did not seem reason enough to throw it out.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "For P1, the supplied baseline AI-involvement score is 0.9986648361664265, the after-removal score is 0.9910065736621618, and baseline minus after-removal is 0.7658262504264712 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T03\\\\A\\\\model-result.json\", \"sha256\": \"0421eae019c1b3f1e9feefe1190461d5e632bb20a643d966bbd092ff74fa0bd7\", \"field\": \"occlusion.paragraphs[0]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 339,
+          "end": 638,
+          "quote": "Last Sunday I finally took it apart. The back came away with one careful pull, though I had expected the old glue to resist. There is a pale patch underneath that might be a repair or just where the finish wore off. I cannot remember whether my aunt ever repaired it herself. I left the patch alone.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "For P2, the supplied baseline AI-involvement score is 0.9986648361664265, the after-removal score is 0.9226508811116219, and baseline minus after-removal is 7.601395505480468 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T03\\\\A\\\\model-result.json\", \"sha256\": \"0421eae019c1b3f1e9feefe1190461d5e632bb20a643d966bbd092ff74fa0bd7\", \"field\": \"occlusion.paragraphs[1]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 640,
+          "end": 947,
+          "quote": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "For P3, the supplied baseline AI-involvement score is 0.9986648361664265, the after-removal score is 0.9931864854879677, and baseline minus after-removal is 0.547835067845881 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T03\\\\A\\\\model-result.json\", \"sha256\": \"0421eae019c1b3f1e9feefe1190461d5e632bb20a643d966bbd092ff74fa0bd7\", \"field\": \"occlusion.paragraphs[2]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 337,
+      "line": 1,
+      "text": "My warning system was a folded towel on the seat of a loose chair. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood the warning, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt; an awkward joint did not seem reason enough to throw it out.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "P1 keeps the warning system, winter-long location, visitors understanding despite repeated explanations, inheritance, and reason for not discarding the chair. The semicolon is a normal narrative choice, not an artificiality defect.",
+      "finding_ids": [
+        "S1",
+        "O1"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 339,
+      "end": 638,
+      "line": 3,
+      "text": "Last Sunday I finally took it apart. The back came away with one careful pull, though I had expected the old glue to resist. There is a pale patch underneath that might be a repair or just where the finish wore off. I cannot remember whether my aunt ever repaired it herself. I left the patch alone.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "P2 preserves last Sunday, the careful pull, expected resistance, uncertainty about the aunt's repairs, both possible causes of the pale patch, and leaving it alone. Moving the patch before the memory sentence does not resolve the uncertainty.",
+      "finding_ids": [
+        "S2",
+        "O2"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 640,
+      "end": 947,
+      "line": 5,
+      "text": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "P3 preserves practical usability, the leg catching on an uneven floor, the towel returned to the hook, modest gain, wish for a broader resolution, and the unresolved box. The final but-clause still rejects a claim of closure; no necessary repair is warranted.",
+      "finding_ids": [
+        "S3",
+        "O3"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 3,
+    "paragraphs_reviewed": 3,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_local_model",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "measured_at_utc": "2026-10-03T10:46:13.114240+00:00",
+    "class_probabilities": {
+      "human": 0.0013351638335734606,
+      "ai": 0.9593549370765686,
+      "ai_edited": 0.00019556059851311147,
+      "humanized": 0.039114341139793396
+    },
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "calibration": null,
+    "applicability_cautions": [],
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "language_scope": "English only; independently uncalibrated",
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  }
+}

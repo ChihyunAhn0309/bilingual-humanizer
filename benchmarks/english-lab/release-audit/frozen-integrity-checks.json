@@ -1,0 +1,3041 @@
+{
+  "audited_at_utc": "2026-10-03T10:54:20.156643+00:00",
+  "scope": "Frozen development and first eligible transfer comparison only. No inference or later continuation evaluation.",
+  "checks_passed": 703,
+  "checks_total": 703,
+  "failures": [],
+  "changed_skill_files": [
+    "SKILL.md",
+    "references/english-composition.md",
+    "references/english-reference-review.md"
+  ],
+  "measurements": [
+    {
+      "file": "transfer-scores\\T01\\source",
+      "input_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+      "Human_percent": 0.30726317781955004,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:29:43.707817+00:00"
+    },
+    {
+      "file": "transfer-scores\\T01\\A",
+      "input_sha256": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d",
+      "Human_percent": 0.18796658841893077,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:43:28.234115+00:00"
+    },
+    {
+      "file": "transfer-scores\\T01\\B",
+      "input_sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+      "Human_percent": 0.9622050449252129,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:44:04.568503+00:00"
+    },
+    {
+      "file": "transfer-scores\\T02\\source",
+      "input_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+      "Human_percent": 0.6715842988342047,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:30:12.786393+00:00"
+    },
+    {
+      "file": "transfer-scores\\T02\\B",
+      "input_sha256": "bf570a78c32b2cf9d05f95532a468a1fd08cbd62574dd9ab4dd03276e842c1bb",
+      "Human_percent": 0.5585690028965473,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:45:30.749396+00:00"
+    },
+    {
+      "file": "transfer-scores\\T02\\A",
+      "input_sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+      "Human_percent": 0.45310351997613907,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:44:44.158154+00:00"
+    },
+    {
+      "file": "transfer-scores\\T03\\source",
+      "input_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+      "Human_percent": 0.023340170446317643,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:30:40.364890+00:00"
+    },
+    {
+      "file": "transfer-scores\\T03\\A",
+      "input_sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07",
+      "Human_percent": 0.13351638335734606,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:46:13.114240+00:00"
+    },
+    {
+      "file": "transfer-scores\\T03\\B",
+      "input_sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0",
+      "Human_percent": 0.1346115255728364,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:46:48.056224+00:00"
+    },
+    {
+      "file": "development\\policy-note\\source-score",
+      "input_sha256": "0a5d039cb791a4b9043f176ae85f4b550bdaf8313af7f7dce67bb1cf4a28f478",
+      "Human_percent": 0.19580062944442034,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:12:11.821684+00:00"
+    },
+    {
+      "file": "development\\policy-note\\draft-1-score",
+      "input_sha256": "c7ad6b4a34578e1e0a67308ab88d10a6c4d776de1e143a195e3ce07f9eb25d80",
+      "Human_percent": 0.6336482241749763,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:16:06.577258+00:00"
+    },
+    {
+      "file": "development\\policy-note\\draft-3-score",
+      "input_sha256": "34136cbcc5e27fa42a1e45cf32c38436fae71066a44d4317b5f63735ede80444",
+      "Human_percent": 0.5177709739655256,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:20:54.439382+00:00"
+    },
+    {
+      "file": "development\\exhibition-review\\source-score",
+      "input_sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167",
+      "Human_percent": 0.01635980006540194,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:12:59.633862+00:00"
+    },
+    {
+      "file": "development\\exhibition-review\\draft-2-score",
+      "input_sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4",
+      "Human_percent": 25.06692409515381,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:18:34.425656+00:00"
+    },
+    {
+      "file": "development\\exhibition-review\\draft-4-score",
+      "input_sha256": "fd481b2dcafaacd3c65bb3e6af0dade075d407996b5ab2e421b59b4ebd5f1972",
+      "Human_percent": 0.18962293397635221,
+      "model": "wasitaigeneratedcom/ai-text-detector-small",
+      "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+      "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+      "at": "2026-10-03T10:26:57.866098+00:00"
+    }
+  ],
+  "ledgers": [
+    {
+      "file": "transfer-reviews\\T01.validated-full.json",
+      "paragraphs": 3,
+      "findings": 8
+    },
+    {
+      "file": "candidate-feedback\\T01\\A\\validated-full.json",
+      "paragraphs": 3,
+      "findings": 6
+    },
+    {
+      "file": "candidate-feedback\\T01\\B\\validated-full.json",
+      "paragraphs": 3,
+      "findings": 6
+    },
+    {
+      "file": "transfer-reviews\\T02.validated-full.json",
+      "paragraphs": 4,
+      "findings": 9
+    },
+    {
+      "file": "candidate-feedback\\T02\\B\\validated-full.json",
+      "paragraphs": 5,
+      "findings": 10
+    },
+    {
+      "file": "candidate-feedback\\T02\\A\\validated-full.json",
+      "paragraphs": 5,
+      "findings": 10
+    },
+    {
+      "file": "transfer-reviews\\T03.validated-full.json",
+      "paragraphs": 3,
+      "findings": 8
+    },
+    {
+      "file": "candidate-feedback\\T03\\A\\validated-full.json",
+      "paragraphs": 3,
+      "findings": 6
+    },
+    {
+      "file": "candidate-feedback\\T03\\B\\validated-full.json",
+      "paragraphs": 3,
+      "findings": 6
+    },
+    {
+      "file": "development\\policy-note\\source-review\\validated.json",
+      "paragraphs": 3,
+      "findings": 5
+    },
+    {
+      "file": "development\\policy-note\\draft-1-review\\validated.json",
+      "paragraphs": 3,
+      "findings": 5
+    },
+    {
+      "file": "development\\policy-note\\draft-3-review\\validated.json",
+      "paragraphs": 3,
+      "findings": 5
+    },
+    {
+      "file": "development\\exhibition-review\\source-review\\validated.json",
+      "paragraphs": 3,
+      "findings": 5
+    },
+    {
+      "file": "development\\exhibition-review\\draft-2-review\\validated.json",
+      "paragraphs": 3,
+      "findings": 5
+    },
+    {
+      "file": "development\\exhibition-review\\draft-4-review\\validated.json",
+      "paragraphs": 3,
+      "findings": 5
+    }
+  ],
+  "all_checks": [
+    {
+      "check": "baseline-skill/SKILL.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/agents/openai.yaml",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/evals/examples.json",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/evals/test_audit.py",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/evals/test_feedback_cycle.py",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/evals/test_iteration.py",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/evals/test_local_feedback.py",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/commercial-feature-review.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/composition-variants.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/detector-report-format.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/detectors-and-authorship.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/editing-controls.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/english-composition.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/english-reference-review.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/english.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/evaluation.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/feedback-cycle-record.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/fidelity-and-documents.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/further-reference-review.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/further-sources.json",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/genres-and-voice.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/im-not-ai-review.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/iterative-review.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/korean.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/local-detector-loop.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/research-sources.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/skill-sources.json",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/structural-rewrite.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/references/v15-reference-review.md",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/scripts/audit_preservation.py",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/scripts/check_detector_report.py",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/scripts/feedback_cycle.py",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill/scripts/local_feedback.py",
+      "passed": true
+    },
+    {
+      "check": "baseline-skill manifest covers all files",
+      "passed": true
+    },
+    {
+      "check": "skill/agents/openai.yaml",
+      "passed": true
+    },
+    {
+      "check": "skill/evals/examples.json",
+      "passed": true
+    },
+    {
+      "check": "skill/evals/test_audit.py",
+      "passed": true
+    },
+    {
+      "check": "skill/evals/test_feedback_cycle.py",
+      "passed": true
+    },
+    {
+      "check": "skill/evals/test_iteration.py",
+      "passed": true
+    },
+    {
+      "check": "skill/evals/test_local_feedback.py",
+      "passed": true
+    },
+    {
+      "check": "skill/references/commercial-feature-review.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/composition-variants.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/detector-report-format.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/detectors-and-authorship.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/editing-controls.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/english-composition.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/english-reference-review.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/english.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/evaluation.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/feedback-cycle-record.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/fidelity-and-documents.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/further-reference-review.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/further-sources.json",
+      "passed": true
+    },
+    {
+      "check": "skill/references/genres-and-voice.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/im-not-ai-review.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/iterative-review.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/korean.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/local-detector-loop.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/research-sources.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/skill-sources.json",
+      "passed": true
+    },
+    {
+      "check": "skill/references/structural-rewrite.md",
+      "passed": true
+    },
+    {
+      "check": "skill/references/v15-reference-review.md",
+      "passed": true
+    },
+    {
+      "check": "skill/scripts/audit_preservation.py",
+      "passed": true
+    },
+    {
+      "check": "skill/scripts/check_detector_report.py",
+      "passed": true
+    },
+    {
+      "check": "skill/scripts/feedback_cycle.py",
+      "passed": true
+    },
+    {
+      "check": "skill/scripts/local_feedback.py",
+      "passed": true
+    },
+    {
+      "check": "skill/SKILL.md",
+      "passed": true
+    },
+    {
+      "check": "skill manifest covers all files",
+      "passed": true
+    },
+    {
+      "check": "only intended three skill files changed",
+      "passed": true
+    },
+    {
+      "check": "prototype manifest freeze",
+      "passed": true
+    },
+    {
+      "check": "comparison/method_freeze pointer METHOD-FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/source_registry pointer transfer/registry.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/blind_review pointer blind-review/round-1.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/identity_mapping pointer pair-identities.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/source/candidate pointer transfer/T01-repair-queue.source.txt",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/source/native pointer transfer-scores/T01/source/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/source/feedback pointer transfer-scores/T01/source/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/source/execution pointer transfer-scores/T01/source/execution.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/baseline/candidate pointer baseline-output/T01/draft-1.txt",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/baseline/native pointer transfer-scores/T01/A/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/baseline/feedback pointer transfer-scores/T01/A/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/baseline/execution pointer transfer-scores/T01/A/execution.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/prototype/candidate pointer prototype-output/T01/draft-1.txt",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/prototype/native pointer transfer-scores/T01/B/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/prototype/feedback pointer transfer-scores/T01/B/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/0/prototype/execution pointer transfer-scores/T01/B/execution.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/source/candidate pointer transfer/T02-return-pilot.source.txt",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/source/native pointer transfer-scores/T02/source/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/source/feedback pointer transfer-scores/T02/source/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/source/execution pointer transfer-scores/T02/source/execution.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/prototype/candidate pointer prototype-output/T02/draft-1.txt",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/prototype/native pointer transfer-scores/T02/A/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/prototype/feedback pointer transfer-scores/T02/A/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/prototype/execution pointer transfer-scores/T02/A/execution.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/baseline/candidate pointer baseline-output/T02/draft-1.txt",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/baseline/native pointer transfer-scores/T02/B/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/baseline/feedback pointer transfer-scores/T02/B/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/1/baseline/execution pointer transfer-scores/T02/B/execution.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/source/candidate pointer transfer/T03-chair-reflection.source.txt",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/source/native pointer transfer-scores/T03/source/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/source/feedback pointer transfer-scores/T03/source/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/source/execution pointer transfer-scores/T03/source/execution.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/baseline/candidate pointer baseline-output/T03/draft-1.txt",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/baseline/native pointer transfer-scores/T03/A/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/baseline/feedback pointer transfer-scores/T03/A/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/baseline/execution pointer transfer-scores/T03/A/execution.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/prototype/candidate pointer prototype-output/T03/draft-1.txt",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/prototype/native pointer transfer-scores/T03/B/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/prototype/feedback pointer transfer-scores/T03/B/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "comparison/cases/2/prototype/execution pointer transfer-scores/T03/B/execution.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/A/qualitative-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/A/full-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/A/native-result.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/A/measurement-binding.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/A/validation-native.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/A/validated-full.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/A/triage.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/A/evidence.html",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/B/qualitative-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/B/full-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/B/native-result.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/B/measurement-binding.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/B/validation-native.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/B/validated-full.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/B/triage.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/B/evidence.html",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/pair-feedback.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T01/pair-feedback-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/A/qualitative-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/A/full-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/A/native-result.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/A/measurement-binding.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/A/validation-native.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/A/validated-full.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/A/triage.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/A/evidence.html",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/B/qualitative-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/B/full-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/B/native-result.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/B/measurement-binding.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/B/validation-native.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/B/validated-full.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/B/triage.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/B/evidence.html",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/pair-feedback.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T02/pair-feedback-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/A/qualitative-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/A/full-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/A/native-result.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/A/measurement-binding.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/A/validation-native.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/A/validated-full.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/A/triage.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/A/evidence.html",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/B/qualitative-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/B/full-ledger.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/B/native-result.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/B/measurement-binding.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/B/validation-native.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/B/validated-full.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/B/triage.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/B/evidence.html",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/pair-feedback.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest T03/pair-feedback-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest final-review.json",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback manifest qualitative-preparation.json",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\source exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\source completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\source serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\source complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\source four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\source Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\source raw result binding",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\source zero external calls",
+      "passed": true
+    },
+    {
+      "check": "T01/source summary classes",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json exact input",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json finding fields E1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span E1/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span E1/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json finding fields E2",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span E2/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span E2/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json finding fields E3",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span E3/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span E3/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json finding fields E4",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span E4/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span E4/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json finding fields E5",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span E5/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span E5/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json finding fields O1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span O1/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json finding fields O2",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span O2/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json finding fields O3",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json span O3/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T01.validated-full.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\A exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\A completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\A serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\A complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\A four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\A Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\A raw result binding",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\A zero external calls",
+      "passed": true
+    },
+    {
+      "check": "T01/baseline summary classes",
+      "passed": true
+    },
+    {
+      "check": "T01/baseline blind pair bytes",
+      "passed": true
+    },
+    {
+      "check": "T01/baseline all findings triaged",
+      "passed": true
+    },
+    {
+      "check": "T01/baseline no accepted repair hidden",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json exact input",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json finding fields S1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json span S1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json finding fields S2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json span S2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json finding fields S3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json span S3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json finding fields O1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json span O1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json finding fields O2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json span O2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json finding fields O3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json span O3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\A\\validated-full.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\B exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\B completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\B serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\B complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\B four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\B Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\B raw result binding",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T01\\B zero external calls",
+      "passed": true
+    },
+    {
+      "check": "T01/prototype summary classes",
+      "passed": true
+    },
+    {
+      "check": "T01/prototype blind pair bytes",
+      "passed": true
+    },
+    {
+      "check": "T01/prototype all findings triaged",
+      "passed": true
+    },
+    {
+      "check": "T01/prototype no accepted repair hidden",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json exact input",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json finding fields S1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json span S1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json finding fields S2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json span S2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json finding fields S3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json span S3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json finding fields O1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json span O1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json finding fields O2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json span O2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json finding fields O3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json span O3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T01\\B\\validated-full.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "T01 delta arithmetic",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\source exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\source completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\source serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\source complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\source four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\source Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\source raw result binding",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\source zero external calls",
+      "passed": true
+    },
+    {
+      "check": "T02/source summary classes",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json exact input",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json paragraph P4",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json finding fields E1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span E1/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span E1/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json finding fields E2",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span E2/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span E2/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json finding fields E3",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span E3/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span E3/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json finding fields E4",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span E4/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span E4/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json finding fields E5",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span E5/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span E5/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json finding fields O1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span O1/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json finding fields O2",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span O2/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json finding fields O3",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span O3/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json finding fields O4",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json span O4/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T02.validated-full.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\B exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\B completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\B serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\B complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\B four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\B Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\B raw result binding",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\B zero external calls",
+      "passed": true
+    },
+    {
+      "check": "T02/baseline summary classes",
+      "passed": true
+    },
+    {
+      "check": "T02/baseline blind pair bytes",
+      "passed": true
+    },
+    {
+      "check": "T02/baseline all findings triaged",
+      "passed": true
+    },
+    {
+      "check": "T02/baseline no accepted repair hidden",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json exact input",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json paragraph P4",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json paragraph P5",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json finding fields S1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json span S1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json finding fields S2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json span S2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json finding fields S3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json span S3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json finding fields S4",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json span S4/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json finding fields S5",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json span S5/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json finding fields O1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json span O1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json finding fields O2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json span O2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json finding fields O3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json span O3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json finding fields O4",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json span O4/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json finding fields O5",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json span O5/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\B\\validated-full.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\A exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\A completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\A serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\A complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\A four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\A Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\A raw result binding",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T02\\A zero external calls",
+      "passed": true
+    },
+    {
+      "check": "T02/prototype summary classes",
+      "passed": true
+    },
+    {
+      "check": "T02/prototype blind pair bytes",
+      "passed": true
+    },
+    {
+      "check": "T02/prototype all findings triaged",
+      "passed": true
+    },
+    {
+      "check": "T02/prototype no accepted repair hidden",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json exact input",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json paragraph P4",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json paragraph P5",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json finding fields S1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json span S1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json finding fields S2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json span S2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json finding fields S3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json span S3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json finding fields S4",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json span S4/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json finding fields S5",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json span S5/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json finding fields O1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json span O1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json finding fields O2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json span O2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json finding fields O3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json span O3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json finding fields O4",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json span O4/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json finding fields O5",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json span O5/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T02\\A\\validated-full.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "T02 delta arithmetic",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\source exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\source completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\source serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\source complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\source four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\source Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\source raw result binding",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\source zero external calls",
+      "passed": true
+    },
+    {
+      "check": "T03/source summary classes",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json exact input",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json finding fields E1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E1/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E1/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json finding fields E2",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E2/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E2/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json finding fields E3",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E3/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E3/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E3/2",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json finding fields E4",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E4/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E4/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json finding fields E5",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E5/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span E5/1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json finding fields O1",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span O1/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json finding fields O2",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span O2/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json finding fields O3",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json span O3/0",
+      "passed": true
+    },
+    {
+      "check": "transfer-reviews\\T03.validated-full.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\A exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\A completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\A serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\A complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\A four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\A Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\A raw result binding",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\A zero external calls",
+      "passed": true
+    },
+    {
+      "check": "T03/baseline summary classes",
+      "passed": true
+    },
+    {
+      "check": "T03/baseline blind pair bytes",
+      "passed": true
+    },
+    {
+      "check": "T03/baseline all findings triaged",
+      "passed": true
+    },
+    {
+      "check": "T03/baseline no accepted repair hidden",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json exact input",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json finding fields S1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json span S1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json finding fields S2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json span S2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json finding fields S3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json span S3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json finding fields O1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json span O1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json finding fields O2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json span O2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json finding fields O3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json span O3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\A\\validated-full.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\B exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\B completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\B serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\B complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\B four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\B Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\B raw result binding",
+      "passed": true
+    },
+    {
+      "check": "transfer-scores\\T03\\B zero external calls",
+      "passed": true
+    },
+    {
+      "check": "T03/prototype summary classes",
+      "passed": true
+    },
+    {
+      "check": "T03/prototype blind pair bytes",
+      "passed": true
+    },
+    {
+      "check": "T03/prototype all findings triaged",
+      "passed": true
+    },
+    {
+      "check": "T03/prototype no accepted repair hidden",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json exact input",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json finding fields S1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json span S1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json finding fields S2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json span S2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json finding fields S3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json span S3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json finding fields O1",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json span O1/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json finding fields O2",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json span O2/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json finding fields O3",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json span O3/0",
+      "passed": true
+    },
+    {
+      "check": "candidate-feedback\\T03\\B\\validated-full.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "T03 delta arithmetic",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/source pointer source.txt",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/0/candidate pointer source.txt",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/0/native pointer source-score/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/0/feedback pointer source-score/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/0/review pointer source-review/validated.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/1/candidate pointer draft-1.txt",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/1/native pointer draft-1-score/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/1/feedback pointer draft-1-score/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/1/review pointer draft-1-review/validated.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/1/parent_prescore_review pointer draft-1-prescore.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/2/candidate pointer draft-2.txt",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/2/feedback pointer draft-2-score/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/2/review pointer draft-2-review/validated.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/3/candidate pointer draft-3.txt",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/3/native pointer draft-3-score/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/3/feedback pointer draft-3-score/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/3/review pointer draft-3-review/validated.json",
+      "passed": true
+    },
+    {
+      "check": "development/policy-note/rounds/3/parent_prescore_review pointer draft-3-prescore.json",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-score exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-score completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-score serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-score complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-score four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-score Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-score raw result binding",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-score zero external calls",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json exact input",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json finding fields S1",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json span S1/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json finding fields S2",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json span S2/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json finding fields S3",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json span S3/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json finding fields M",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json span M/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json finding fields H",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json span H/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\source-review\\validated.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-score exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-score completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-score serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-score complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-score four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-score Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-score raw result binding",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-score zero external calls",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json exact input",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json finding fields D1",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json span D1/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json finding fields D2",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json span D2/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json finding fields D3",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json span D3/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json finding fields M",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json span M/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json finding fields H",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json span H/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-1-review\\validated.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-score exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-score completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-score serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-score complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-score four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-score Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-score raw result binding",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-score zero external calls",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json exact input",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json finding fields D1",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json span D1/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json finding fields D2",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json span D2/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json finding fields D3",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json span D3/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json finding fields M",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json span M/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json finding fields H",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json span H/0",
+      "passed": true
+    },
+    {
+      "check": "development\\policy-note\\draft-3-review\\validated.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/source pointer source.txt",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/0/candidate pointer source.txt",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/0/native pointer source-score/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/0/feedback pointer source-score/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/0/review pointer source-review/validated.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/1/candidate pointer draft-1.txt",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/1/feedback pointer draft-1-score/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/1/review pointer draft-1-review/validated.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/1/parent_prescore_review pointer draft-1-prescore.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/2/candidate pointer draft-2.txt",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/2/native pointer draft-2-score/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/2/feedback pointer draft-2-score/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/2/review pointer draft-2-review/validated.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/2/parent_prescore_review pointer draft-2-prescore.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/3/candidate pointer draft-3.txt",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/3/feedback pointer draft-3-score/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/3/review pointer draft-3-review/validated.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/3/parent_prescore_review pointer draft-3-prescore.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/4/candidate pointer draft-4.txt",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/4/native pointer draft-4-score/model-result.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/4/feedback pointer draft-4-score/feedback.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/4/review pointer draft-4-review/validated.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/rounds/4/parent_prescore_review pointer draft-4-prescore.json",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/provenance/fresh_writer_brief pointer fresh-writer-brief.md",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/provenance/repair_provenance_correction pointer draft-4-provenance-correction.md",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/protocol_deviation/additional_unscored_candidate pointer draft-4-lead-parallel-repair-unscored.txt",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/protocol_deviation/describing_writer_review pointer draft-4-writer-review.md",
+      "passed": true
+    },
+    {
+      "check": "development/exhibition-review/protocol_deviation/selected_for_scoring pointer draft-4.txt",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-score exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-score completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-score serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-score complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-score four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-score Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-score raw result binding",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-score zero external calls",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json exact input",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json finding fields S1",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json span S1/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json finding fields S2",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json span S2/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json finding fields S3",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json span S3/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json finding fields M",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json span M/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json finding fields H",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json span H/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\source-review\\validated.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-score exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-score completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-score serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-score complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-score four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-score Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-score raw result binding",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-score zero external calls",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json exact input",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json finding fields D1",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json span D1/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json finding fields D2",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json span D2/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json finding fields D3",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json span D3/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json finding fields M",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json span M/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json finding fields H",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json span H/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-2-review\\validated.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-score exact original/input/native/adapter/execution",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-score completed subprocesses",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-score serialized successful worker",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-score complete one-window coverage",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-score four classes unchanged",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-score Human percent exact",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-score raw result binding",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-score zero external calls",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json exact input",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json all paragraphs reviewed",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json six dimensions",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json history unauthenticated",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json paragraph P1",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json paragraph P2",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json paragraph P3",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json finding fields D1",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json span D1/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json finding fields D2",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json span D2/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json finding fields D3",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json span D3/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json finding fields M",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json span M/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json finding fields H",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json span H/0",
+      "passed": true
+    },
+    {
+      "check": "development\\exhibition-review\\draft-4-review\\validated.json actual four classes",
+      "passed": true
+    },
+    {
+      "check": "one model and pinned weights across 15 frozen document submissions",
+      "passed": true
+    },
+    {
+      "check": "blind review timestamp before all candidate scores",
+      "passed": true
+    }
+  ],
+  "limits": "Hash, field and anchor consistency do not authenticate a run independently or prove semantic judgments. Source/candidate semantics were separately reviewed by the auditor."
+}

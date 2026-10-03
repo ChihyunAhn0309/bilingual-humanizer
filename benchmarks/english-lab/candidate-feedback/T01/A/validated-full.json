@@ -1,0 +1,585 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Anonymous candidate T01/A remains faithful and reader-eligible after all 3 paragraphs were reviewed. No necessary repair was identified. Supplied unvalidated model outputs: Human 0.18796659%, AI 4.83665876%, AI-edited 0.01825620%, Humanized 94.95711923%. The recorded AI-involvement class score is 99.81203341%. The highest model class is humanized. These are experimental class responses, not verified authorship probabilities, word shares, or prose-quality ratings. The installed skill reports high-confidence false positives in its English pilot. Retain the candidate; the measured response does not create a prose defect.",
+  "document_analysis": {
+    "structure": "The candidate takes the optional example-first route in P1, follows with owner approval in P2, and ends with the status-board proposal and its limits in P3. The causal progression and all original paragraph functions remain clear.",
+    "reasoning_specificity": "The four benches, one electrical volunteer, alternate Saturdays, later-arriving chair, purchase approval, and both waiting labels survive. The modal may and scope word partly still qualify the queue example. There is no invented workshop policy or completion promise.",
+    "voice_consistency": "The calm explanatory voice remains consistent. Work is queued partly by the repair required is slightly administrative in register, but fits the topic and is not a defect. There is no added blame, promotion, or condescension.",
+    "rhythm_repetition": "P1 contains four sentences, including the general empty-bench claim after the example. P2 uses four short logical steps. P3 combines labels and their benefit into one longer sentence. The variation is readable; no sentence requires repair.",
+    "language_features": "English is idiomatic. The conditional and negative phrases preserve scope. Calling it neglected may not be accurate is a legitimate paraphrase of the original caution. The wording remains somewhat formal, which is acceptable for the public article.",
+    "citations_provenance": "The fictional designation is retained. No citations, real-world events, or new external evidence appear. The candidate is reviewed as an anonymous rewrite of known synthetic AI text; its generation method is unknown to this reviewer. The supplied native result matches the exact candidate hash, pinned checkpoint, and one window covering all input tokens. Native model classification is separate from documented source history; method identity remains blind."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 446,
+          "quote": "At the fictional Bell Street Repair Room, a lamp waiting for the electrical volunteer may stay on the shelf while a chair brought in later goes straight to someone who works with wood. The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job. Work is queued partly by the repair required, not simply by arrival time.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "P1 retains the entire resource-and-queue explanation. Starting with the lamp/chair contrast is a legitimate route. Four benches and the specialist schedule are explicit, and may/partly prevent universal claims. The general empty-bench sentence repeats the workshop noun but does not impair comprehension.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 448,
+          "end": 711,
+          "quote": "Before buying a replacement part, volunteers need the owner's agreement. A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause. The job is unfinished, though calling it neglected may not be accurate.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "P2 retains agreement before buying a part, possible waiting for the owner, the pause being hard for visitors to see, and the distinction between unfinished and possibly neglected. Its reordered approval-first opening is clear and does not blame the owner.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 713,
+          "end": 1058,
+          "quote": "The workshop could use its status board to explain these different waits. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Better labels would not add volunteer hours or guarantee a completion date.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "P3 retains a proposed change rather than a reported policy, both example labels, comparison with a generic status, the qualified owner benefit, and no extra hours or guaranteed date. Moving the limit to the end is a legitimate choice.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 446,
+          "quote": "At the fictional Bell Street Repair Room, a lamp waiting for the electrical volunteer may stay on the shelf while a chair brought in later goes straight to someone who works with wood. The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job. Work is queued partly by the repair required, not simply by arrival time.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "For P1, the supplied baseline AI-involvement score is 0.9981203341158107, the after-removal score is 0.46886563301086426, and baseline minus after-removal is 52.92547011049464 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T01\\\\A\\\\model-result.json\", \"sha256\": \"2d561d71e0c22c14f4f668b0ec15edcc00212e5281e877f5d62238b40ba6c306\", \"field\": \"occlusion.paragraphs[0]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 448,
+          "end": 711,
+          "quote": "Before buying a replacement part, volunteers need the owner's agreement. A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause. The job is unfinished, though calling it neglected may not be accurate.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "For P2, the supplied baseline AI-involvement score is 0.9981203341158107, the after-removal score is 0.992747200652957, and baseline minus after-removal is 0.537313346285373 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T01\\\\A\\\\model-result.json\", \"sha256\": \"2d561d71e0c22c14f4f668b0ec15edcc00212e5281e877f5d62238b40ba6c306\", \"field\": \"occlusion.paragraphs[1]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 713,
+          "end": 1058,
+          "quote": "The workshop could use its status board to explain these different waits. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Better labels would not add volunteer hours or guarantee a completion date.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "For P3, the supplied baseline AI-involvement score is 0.9981203341158107, the after-removal score is 0.9513664841651917, and baseline minus after-removal is 4.675384995061904 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T01\\\\A\\\\model-result.json\", \"sha256\": \"2d561d71e0c22c14f4f668b0ec15edcc00212e5281e877f5d62238b40ba6c306\", \"field\": \"occlusion.paragraphs[2]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 446,
+      "line": 1,
+      "text": "At the fictional Bell Street Repair Room, a lamp waiting for the electrical volunteer may stay on the shelf while a chair brought in later goes straight to someone who works with wood. The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job. Work is queued partly by the repair required, not simply by arrival time.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "P1 retains the entire resource-and-queue explanation. Starting with the lamp/chair contrast is a legitimate route. Four benches and the specialist schedule are explicit, and may/partly prevent universal claims. The general empty-bench sentence repeats the workshop noun but does not impair comprehension.",
+      "finding_ids": [
+        "S1",
+        "O1"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 448,
+      "end": 711,
+      "line": 3,
+      "text": "Before buying a replacement part, volunteers need the owner's agreement. A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause. The job is unfinished, though calling it neglected may not be accurate.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "P2 retains agreement before buying a part, possible waiting for the owner, the pause being hard for visitors to see, and the distinction between unfinished and possibly neglected. Its reordered approval-first opening is clear and does not blame the owner.",
+      "finding_ids": [
+        "S2",
+        "O2"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 713,
+      "end": 1058,
+      "line": 5,
+      "text": "The workshop could use its status board to explain these different waits. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Better labels would not add volunteer hours or guarantee a completion date.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "P3 retains a proposed change rather than a reported policy, both example labels, comparison with a generic status, the qualified owner benefit, and no extra hours or guaranteed date. Moving the limit to the end is a legitimate choice.",
+      "finding_ids": [
+        "S3",
+        "O3"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 3,
+    "paragraphs_reviewed": 3,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_local_model",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "measured_at_utc": "2026-10-03T10:43:28.234115+00:00",
+    "class_probabilities": {
+      "human": 0.0018796658841893077,
+      "ai": 0.04836658760905266,
+      "ai_edited": 0.0001825620129238814,
+      "humanized": 0.9495711922645569
+    },
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "calibration": null,
+    "applicability_cautions": [],
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "language_scope": "English only; independently uncalibrated",
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  },
+  "triage_summary": {
+    "revise": 0,
+    "retain": 6,
+    "unresolved": 0
+  },
+  "measurement_record": {
+    "native_result_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\transfer-scores\\T01\\A\\model-result.json",
+    "native_result_sha256": "2d561d71e0c22c14f4f668b0ec15edcc00212e5281e877f5d62238b40ba6c306",
+    "candidate_sha256": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "measured_at_utc": "2026-10-03T10:43:28.234115+00:00",
+    "language": "English, manually verified",
+    "window_count": 1,
+    "token_count": 210,
+    "all_input_tokens_scored": true,
+    "class_probabilities": {
+      "human": 0.0018796658841893077,
+      "ai": 0.04836658760905266,
+      "ai_edited": 0.0001825620129238814,
+      "humanized": 0.9495711922645569
+    },
+    "ai_involvement_class_score": 0.9981203341158107,
+    "semantics": "Unvalidated local four-class outputs. AI involvement = AI + AI-edited + Humanized; native 1-Human agrees within floating-point rounding. No value is a verified authorship probability or a fraction of words.",
+    "source_native_sha256": "6346754780ef97f3f012ef970553338d5a6b7db15d96c12100487f63f50b7b4f",
+    "source_class_probabilities": {
+      "human": 0.0030726317781955004,
+      "ai": 0.934532642364502,
+      "ai_edited": 0.0004357806174084544,
+      "humanized": 0.06195886433124542
+    },
+    "candidate_minus_source_percentage_points": {
+      "human": -0.11929658940061927,
+      "ai": -88.61660547554493,
+      "ai_edited": -0.0253218604484573,
+      "humanized": 88.76123279333115
+    },
+    "comparison_limit": "A rise in the Human class or fall in the AI class does not establish improved writing, human origin, or general detection performance. Movement into AI-edited or Humanized remains inside the AI-involvement aggregate.",
+    "independently_calibrated_here": false,
+    "authorship_verified_by_model": false,
+    "occlusion": {
+      "performed": true,
+      "paragraphs": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 446,
+          "quote": "At the fictional Bell Street Repair Room, a lamp waiting for the electrical volunteer may stay on the shelf while a chair brought in later goes straight to someone who works with wood. The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job. Work is queued partly by the repair required, not simply by arrival time.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9981203341158107,
+          "after_removal_ai_involvement": 0.46886563301086426,
+          "delta_percentage_points": 52.92547011049464
+        },
+        {
+          "paragraph_id": "P2",
+          "start": 448,
+          "end": 711,
+          "quote": "Before buying a replacement part, volunteers need the owner's agreement. A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause. The job is unfinished, though calling it neglected may not be accurate.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9981203341158107,
+          "after_removal_ai_involvement": 0.992747200652957,
+          "delta_percentage_points": 0.537313346285373
+        },
+        {
+          "paragraph_id": "P3",
+          "start": 713,
+          "end": 1058,
+          "quote": "The workshop could use its status board to explain these different waits. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Better labels would not add volunteer hours or guarantee a completion date.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9981203341158107,
+          "after_removal_ai_involvement": 0.9513664841651917,
+          "delta_percentage_points": 4.675384995061904
+        }
+      ],
+      "total_paragraphs": 3,
+      "unmeasured_due_to_limit": 0,
+      "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+    },
+    "guard_checks": "Successful serialized worker exit, pinned model and weight hashes, exact input hash, complete single-window token coverage, finite four-class outputs/sum, and exact deletion anchors/deltas checked."
+  },
+  "editorial_closure": {
+    "fidelity_pass": true,
+    "reader_eligible": true,
+    "necessary_repairs": [],
+    "decision": "retain",
+    "reason": "No source-fidelity or reader-quality defect was found in the pre-score review. Optional stylistic differences do not compel another rewrite.",
+    "blind_pair_preference": {
+      "choice": "B",
+      "strength": "slight",
+      "reason": "Both versions pass fidelity and read well. B links the bench count directly to the capacity limitation and folds the invisible pause into its cause, which produces a smoother explanatory flow. This is a small preference in organization and phrasing, not a repair finding or evidence of general method superiority.",
+      "exact_candidate_evidence": {
+        "A": [
+          {
+            "start": 185,
+            "end": 372,
+            "quote": "The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          },
+          {
+            "start": 521,
+            "end": 639,
+            "quote": "A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ],
+        "B": [
+          {
+            "start": 268,
+            "end": 369,
+            "quote": "The workshop has four benches, but an empty one doesn't always mean there's capacity for another job.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          },
+          {
+            "start": 538,
+            "end": 646,
+            "quote": "A repair may be ready to continue and still have to wait for that reply, a pause visitors cannot easily see.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ]
+      },
+      "counterconsideration": "A's shorter separate sentence about visitors may be easier for some readers to scan. Its more formal register is legitimate, so the preference is deliberately slight.",
+      "fidelity_overrides_applied": false,
+      "method_identity_inference": null
+    },
+    "post_measurement_action": "retain",
+    "post_measurement_reason": "The new native feedback is bound and reviewed. It supplies no independently grounded repair need. Keep the passing candidate and the frozen reader judgment; do not begin a rewrite solely to chase an uncalibrated score.",
+    "measured_feedback_reviewed": true,
+    "next_action": "Return the measured evidence and retain decisions to the writer; any later revision requires a separately stated real defect or changed user requirement."
+  },
+  "review_metadata": {
+    "case_id": "T01",
+    "anonymous_candidate": "A",
+    "genre": "Explanatory public-facing article",
+    "language": "English",
+    "frozen_blind_review_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-review\\round-1.json",
+    "frozen_blind_review_sha256": "dc87c8a1a42ccfd5575e6ae093e38f01a55fe2c584aa813a32686edd14e6494d",
+    "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-pairs\\T01\\A.txt",
+    "candidate_sha256": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d",
+    "original_source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+    "source_constraints_sha256": "86dbe511ac51163642a8e778410ee345e52e14c37b23d02b6e25a448aa37355e",
+    "candidate_scores_read_at_qualitative_preparation": false,
+    "method_identities_read": false,
+    "inference_run_by_reviewer": false,
+    "known_history": "Anonymous rewrite of a known AI-generated synthetic source. Fictional people, situations, and memories are not human-authored ground truth.",
+    "numeric_status": "Supplied native single-window output bound exactly; four-class semantics preserved.",
+    "native_results_read": true,
+    "integrated_at_utc": "2026-10-03T10:45:59.752049+00:00"
+  },
+  "full_constraint_coverage": [
+    {
+      "original_paragraph_id": "P1",
+      "original_anchor": {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 447,
+        "quote": "An empty bench does not always mean a repair workshop can take another job. At the fictional Bell Street Repair Room, there are four benches, but only one volunteer handles electrical faults. She comes on alternate Saturdays. A lamp waiting for her may therefore stay on the shelf while a chair, brought in later, goes straight to someone who works with wood. The queue is organized partly by the work required, rather than simply by arrival time."
+      },
+      "candidate_paragraph_ids": [
+        "P1"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 446,
+          "quote": "At the fictional Bell Street Repair Room, a lamp waiting for the electrical volunteer may stay on the shelf while a chair brought in later goes straight to someone who works with wood. The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job. Work is queued partly by the repair required, not simply by arrival time."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "An empty bench does not always indicate capacity to take another repair.",
+          "pass": true
+        },
+        {
+          "constraint": "Bell Street Repair Room is explicitly a fictional example.",
+          "pass": true
+        },
+        {
+          "constraint": "The workshop has four benches.",
+          "pass": true
+        },
+        {
+          "constraint": "Only one volunteer handles electrical faults, and she attends on alternate Saturdays.",
+          "pass": true
+        },
+        {
+          "constraint": "A lamp can wait for that volunteer while a later-arriving chair is handled by a wood-working volunteer.",
+          "pass": true
+        },
+        {
+          "constraint": "The queue is organized partly by required work rather than solely by arrival time.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Explain a possible mechanism; do not imply all workshops follow this system.",
+          "pass": true
+        },
+        {
+          "constraint": "Retain the possibility in the lamp/chair example rather than guaranteeing every such ordering.",
+          "pass": true
+        }
+      ],
+      "reason": "The lamp/chair possibility, all counts/schedule details, the empty-bench limitation, and partially work-based queue are preserved in candidate P1."
+    },
+    {
+      "original_paragraph_id": "P2",
+      "original_anchor": {
+        "paragraph_id": "P2",
+        "start": 449,
+        "end": 736,
+        "quote": "There is another pause that visitors cannot easily see. Volunteers need an owner's agreement before buying a replacement part. Until the owner replies, a repair may be ready to continue but unable to move forward. Calling that job unfinished is accurate; calling it neglected may not be."
+      },
+      "candidate_paragraph_ids": [
+        "P2"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P2",
+          "start": 448,
+          "end": 711,
+          "quote": "Before buying a replacement part, volunteers need the owner's agreement. A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause. The job is unfinished, though calling it neglected may not be accurate."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "Some pauses are not visible to visitors.",
+          "pass": true
+        },
+        {
+          "constraint": "Volunteers require the owner's agreement before purchasing a replacement part.",
+          "pass": true
+        },
+        {
+          "constraint": "A repair may otherwise be ready to continue but wait for the owner's reply.",
+          "pass": true
+        },
+        {
+          "constraint": "Such a repair can accurately be called unfinished; it is not necessarily neglected.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Qualify the inference from delay to neglect, without asserting that neglect never occurs.",
+          "pass": true
+        },
+        {
+          "constraint": "Do not assign fault to all owners or imply they must buy parts themselves.",
+          "pass": true
+        }
+      ],
+      "reason": "Candidate P2 preserves both the procedural condition and the caution against inferring neglect; no source fact is lost by changing sentence order."
+    },
+    {
+      "original_paragraph_id": "P3",
+      "original_anchor": {
+        "paragraph_id": "P3",
+        "start": 738,
+        "end": 1097,
+        "quote": "The workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. They would not create extra volunteer hours or guarantee a completion date. They would at least give owners a better idea of what, if anything, they can do next."
+      },
+      "candidate_paragraph_ids": [
+        "P3"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P3",
+          "start": 713,
+          "end": 1058,
+          "quote": "The workshop could use its status board to explain these different waits. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Better labels would not add volunteer hours or guarantee a completion date."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "The workshop could make the distinctions clearer on its status board.",
+          "pass": true
+        },
+        {
+          "constraint": "Suggested labels distinguish waiting for a specialist from waiting for the owner's reply.",
+          "pass": true
+        },
+        {
+          "constraint": "These labels would explain more than one generic in-progress column.",
+          "pass": true
+        },
+        {
+          "constraint": "The status-board change would neither add volunteer hours nor guarantee a completion date.",
+          "pass": true
+        },
+        {
+          "constraint": "It could clarify what, if anything, owners can do next.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Make a suggestion, not report an implemented system or issue an obligation.",
+          "pass": true
+        },
+        {
+          "constraint": "Retain the possibility that the owner has no next action.",
+          "pass": true
+        }
+      ],
+      "reason": "Candidate P3 preserves the suggestion, both labels, their informational advantage, and all limits; giving them a better idea remains within the hypothetical would clause."
+    }
+  ],
+  "voice_constraint_checks": [
+    {
+      "constraint": "Keep the explanation accessible and calm.",
+      "pass": true
+    },
+    {
+      "constraint": "Do not turn the suggestion into promotional copy, a moral lesson, or a criticism of volunteers.",
+      "pass": true
+    },
+    {
+      "constraint": "Preserve the limited claim about what communication can accomplish.",
+      "pass": true
+    }
+  ],
+  "triage_validation_scope": "Analyst triage was keyed to every validated finding and checked for a valid action/reason. Exact hashes, quotations, coordinates, complete coverage, and native model binding were validated by evidence.py. Semantic judgments and triage correctness are not automatically authenticated."
+}

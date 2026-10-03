@@ -1,0 +1,26 @@
+{
+  "text_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+  "paragraphs": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 447,
+      "line": 1,
+      "text": "An empty bench does not always mean a repair workshop can take another job. At the fictional Bell Street Repair Room, there are four benches, but only one volunteer handles electrical faults. She comes on alternate Saturdays. A lamp waiting for her may therefore stay on the shelf while a chair, brought in later, goes straight to someone who works with wood. The queue is organized partly by the work required, rather than simply by arrival time."
+    },
+    {
+      "id": "P2",
+      "start": 449,
+      "end": 736,
+      "line": 3,
+      "text": "There is another pause that visitors cannot easily see. Volunteers need an owner's agreement before buying a replacement part. Until the owner replies, a repair may be ready to continue but unable to move forward. Calling that job unfinished is accurate; calling it neglected may not be."
+    },
+    {
+      "id": "P3",
+      "start": 738,
+      "end": 1097,
+      "line": 5,
+      "text": "The workshop could make these distinctions clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would explain more than a single \"in progress\" column. They would not create extra volunteer hours or guarantee a completion date. They would at least give owners a better idea of what, if anything, they can do next."
+    }
+  ]
+}

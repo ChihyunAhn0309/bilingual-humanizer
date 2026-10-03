@@ -1,0 +1,40 @@
+{
+  "text_sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+  "paragraphs": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 214,
+      "line": 1,
+      "text": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. Only the way we record returns is changing; the borrowing limits stay the same."
+    },
+    {
+      "id": "P2",
+      "start": 216,
+      "end": 288,
+      "line": 3,
+      "text": "Please tell Nia by 3 p.m. this Friday if you can't open the shared file."
+    },
+    {
+      "id": "P3",
+      "start": 290,
+      "end": 638,
+      "line": 5,
+      "text": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern."
+    },
+    {
+      "id": "P4",
+      "start": 640,
+      "end": 828,
+      "line": 7,
+      "text": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you don't need to enter them again yourself."
+    },
+    {
+      "id": "P5",
+      "start": 830,
+      "end": 965,
+      "line": 9,
+      "text": "I'll review the logs after the second week and ask both desks whether the extra step was useful. We haven't decided whether to keep it."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "native_result_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\transfer-scores\\T01\\A\\model-result.json",
+  "native_result_sha256": "2d561d71e0c22c14f4f668b0ec15edcc00212e5281e877f5d62238b40ba6c306",
+  "candidate_sha256": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "measured_at_utc": "2026-10-03T10:43:28.234115+00:00",
+  "language": "English, manually verified",
+  "window_count": 1,
+  "token_count": 210,
+  "all_input_tokens_scored": true,
+  "class_probabilities": {
+    "human": 0.0018796658841893077,
+    "ai": 0.04836658760905266,
+    "ai_edited": 0.0001825620129238814,
+    "humanized": 0.9495711922645569
+  },
+  "ai_involvement_class_score": 0.9981203341158107,
+  "semantics": "Unvalidated local four-class outputs. AI involvement = AI + AI-edited + Humanized; native 1-Human agrees within floating-point rounding. No value is a verified authorship probability or a fraction of words.",
+  "source_native_sha256": "6346754780ef97f3f012ef970553338d5a6b7db15d96c12100487f63f50b7b4f",
+  "source_class_probabilities": {
+    "human": 0.0030726317781955004,
+    "ai": 0.934532642364502,
+    "ai_edited": 0.0004357806174084544,
+    "humanized": 0.06195886433124542
+  },
+  "candidate_minus_source_percentage_points": {
+    "human": -0.11929658940061927,
+    "ai": -88.61660547554493,
+    "ai_edited": -0.0253218604484573,
+    "humanized": 88.76123279333115
+  },
+  "comparison_limit": "A rise in the Human class or fall in the AI class does not establish improved writing, human origin, or general detection performance. Movement into AI-edited or Humanized remains inside the AI-involvement aggregate.",
+  "independently_calibrated_here": false,
+  "authorship_verified_by_model": false,
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 446,
+        "quote": "At the fictional Bell Street Repair Room, a lamp waiting for the electrical volunteer may stay on the shelf while a chair brought in later goes straight to someone who works with wood. The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job. Work is queued partly by the repair required, not simply by arrival time.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9981203341158107,
+        "after_removal_ai_involvement": 0.46886563301086426,
+        "delta_percentage_points": 52.92547011049464
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 448,
+        "end": 711,
+        "quote": "Before buying a replacement part, volunteers need the owner's agreement. A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause. The job is unfinished, though calling it neglected may not be accurate.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9981203341158107,
+        "after_removal_ai_involvement": 0.992747200652957,
+        "delta_percentage_points": 0.537313346285373
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 713,
+        "end": 1058,
+        "quote": "The workshop could use its status board to explain these different waits. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Better labels would not add volunteer hours or guarantee a completion date.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9981203341158107,
+        "after_removal_ai_involvement": 0.9513664841651917,
+        "delta_percentage_points": 4.675384995061904
+      }
+    ],
+    "total_paragraphs": 3,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "guard_checks": "Successful serialized worker exit, pinned model and weight hashes, exact input hash, complete single-window token coverage, finite four-class outputs/sum, and exact deletion anchors/deltas checked."
+}

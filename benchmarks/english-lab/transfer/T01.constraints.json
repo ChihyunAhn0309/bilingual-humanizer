@@ -1,0 +1,78 @@
+{
+  "origin": "Known AI-generated synthetic source, written in this evaluation subagent session.",
+  "truth_scope": "All people, organizations, events, situations, and first-person memories are fictional. This is neither human-authored ground truth nor evidence about a real person or event.",
+  "source_selection": "Three genres chosen before any candidate rewrites or detector outputs. No detector inference, detector-based selection, or score-based source revision occurred.",
+  "allowed_revision": [
+    "Rephrase, reorganize, and vary sentence or paragraph length when meaning and speech acts survive.",
+    "Remove genuinely redundant wording without losing a proposition, qualification, operational distinction, or important image.",
+    "Preserve genre-appropriate voice without mimicking an identifiable real person."
+  ],
+  "prohibited_revision": [
+    "Invent facts, sources, names, dates, quantities, experiences, emotions, motives, or consequences.",
+    "Resolve an uncertainty the source leaves open.",
+    "Strengthen or weaken a request, permission, promise, factual scope, or causal claim without source support.",
+    "Treat a detector label as evidence of writing quality or actual authorship."
+  ],
+  "id": "T01",
+  "filename": "T01-repair-queue.source.txt",
+  "genre": "Explanatory public-facing article",
+  "scenario": "A hypothetical community repair workshop explains why visible capacity does not determine queue order.",
+  "voice_basis": "Patient explanation using concrete workshop operations, with a limited practical recommendation and a measured distinction between delay and neglect.",
+  "audience": "Members of the public trying to understand repair delays.",
+  "paragraph_constraints": [
+    {
+      "paragraph_id": "P1",
+      "role": "Explain why an empty bench and arrival order do not determine repair progress.",
+      "propositions": [
+        "An empty bench does not always indicate capacity to take another repair.",
+        "Bell Street Repair Room is explicitly a fictional example.",
+        "The workshop has four benches.",
+        "Only one volunteer handles electrical faults, and she attends on alternate Saturdays.",
+        "A lamp can wait for that volunteer while a later-arriving chair is handled by a wood-working volunteer.",
+        "The queue is organized partly by required work rather than solely by arrival time."
+      ],
+      "speech_acts": [
+        "Explain a possible mechanism; do not imply all workshops follow this system.",
+        "Retain the possibility in the lamp/chair example rather than guaranteeing every such ordering."
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "role": "Explain a second reason for a stalled repair and limit an inference about neglect.",
+      "propositions": [
+        "Some pauses are not visible to visitors.",
+        "Volunteers require the owner's agreement before purchasing a replacement part.",
+        "A repair may otherwise be ready to continue but wait for the owner's reply.",
+        "Such a repair can accurately be called unfinished; it is not necessarily neglected."
+      ],
+      "speech_acts": [
+        "Qualify the inference from delay to neglect, without asserting that neglect never occurs.",
+        "Do not assign fault to all owners or imply they must buy parts themselves."
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "role": "Propose a clearer status board while delimiting its benefit.",
+      "propositions": [
+        "The workshop could make the distinctions clearer on its status board.",
+        "Suggested labels distinguish waiting for a specialist from waiting for the owner's reply.",
+        "These labels would explain more than one generic in-progress column.",
+        "The status-board change would neither add volunteer hours nor guarantee a completion date.",
+        "It could clarify what, if anything, owners can do next."
+      ],
+      "speech_acts": [
+        "Make a suggestion, not report an implemented system or issue an obligation.",
+        "Retain the possibility that the owner has no next action."
+      ]
+    }
+  ],
+  "voice_constraints": [
+    "Keep the explanation accessible and calm.",
+    "Do not turn the suggestion into promotional copy, a moral lesson, or a criticism of volunteers.",
+    "Preserve the limited claim about what communication can accomplish."
+  ],
+  "source_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+  "hash_basis": "Exact UTF-8 source file bytes, including final newline.",
+  "word_count_whitespace": 185,
+  "paragraph_count": 3
+}

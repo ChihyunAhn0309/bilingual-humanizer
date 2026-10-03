@@ -1,0 +1,7 @@
+# Parallel-repair provenance correction
+
+The existing draft-4-writer-review.md describes the development lead's repair with SHA256 `0cf7560051216f642588619a6e4606f5e8415725cabf97b0e08fe943878a0b7c`, now retained as draft-4-lead-parallel-repair-unscored.txt. It does **not** describe the file currently named draft-4.txt.
+
+Before the stop/race-prevention message reached it, the fresh-context writer also saved its repair to draft-4.txt. Its SHA256 is `fd481b2dcafaacd3c65bb3e6af0dade075d407996b5ab2e421b59b4ebd5f1972`. That candidate changes only 'hoping' to 'expecting' and 'couldn't' to 'can't' from the fresh draft-3. The parent separately reviewed the complete source and current draft-4 and saved eligible draft-4-prescore.json before measurement. The current draft-4 is the sixth and final detector submission in this experiment; the lead's parallel repair remains unscored.
+
+The main sequence is initial draft-1, causal repair draft-2, fresh alternative draft-3, and fresh repair draft-4: three post-draft revisions. There is also one distinct, unscored parallel repair artifact. Thus the process produced five distinct draft artifacts, exceeding the planned initial-plus-three artifact ceiling by one because two writers repaired the same draft before coordination caught up. No budget reset, new authorization, or missing artifact is claimed. The cycle validator covers the main sequence; its passing result must not be reported as proof that the complete development process stayed within the artifact ceiling. No further text changes or measurements will be made.

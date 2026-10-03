@@ -1,0 +1,27 @@
+[
+  {
+    "finding_id": "D1",
+    "decision": "retain",
+    "reason": "Meaning repaired and full paragraph readable; no new necessary edit."
+  },
+  {
+    "finding_id": "D2",
+    "decision": "retain",
+    "reason": "Required repair complete; no lower-score-driven wording search."
+  },
+  {
+    "finding_id": "D3",
+    "decision": "retain",
+    "reason": "Retain complete meaningful paragraph; select earlier eligible draft-2 for requested native Human objective."
+  },
+  {
+    "finding_id": "M",
+    "decision": "retain",
+    "reason": "Retain the complete information; inspect sensitivity without deleting the paragraph or inventing a defect."
+  },
+  {
+    "finding_id": "H",
+    "decision": "retain",
+    "reason": "Preserve known AI-origin provenance regardless of scores."
+  }
+]

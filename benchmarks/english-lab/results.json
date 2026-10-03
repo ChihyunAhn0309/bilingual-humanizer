@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "production_version": "1.10.0",
+  "prototype_version": "1.11.0-dev",
+  "release_decision": "retain_production_and_archive_experiment",
+  "decision_reason": "Fresh comparison and two further feedback-driven routes do not establish a useful general high-Human advantage. Slight reader preferences remain documented; no detector-performance upgrade is claimed.",
+  "new_local_document_submissions": 17,
+  "development_submissions": 6,
+  "first_transfer_submissions": 9,
+  "continuation_submissions": 2,
+  "failed_model_submissions": 0,
+  "commercial_detector_calls": 0,
+  "paid_actions": 0,
+  "model_or_calibration_changes": false,
+  "comparison": "transfer-comparison.json",
+  "continuations": [
+    {
+      "case": "T01",
+      "candidate": "prototype-output/T01/draft-2.txt",
+      "candidate_sha256": "698c859e5a09aa303a28306f488bd6ce9d68684c456f8df70b88f7d963021a94",
+      "human_percent": 0.32673710957169533,
+      "native": "continuation-scores/T01/model-result.json",
+      "native_sha256": "6685d0be75621f562d486f4e71a278faa7b5ef21f47786e37e2aa6f2f606a015",
+      "final_state": "cycle-status/T01-prototype-final.json",
+      "selected": {
+        "id": "draft-1",
+        "candidate": {
+          "path": "prototype-output/T01/draft-1.txt",
+          "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1"
+        },
+        "human_percent": 0.9622050449252129,
+        "native_class_probabilities": {
+          "human": 0.009622050449252129,
+          "ai": 0.3345760107040405,
+          "ai_edited": 0.0008108244510367513,
+          "humanized": 0.6549911499023438
+        },
+        "scope": "whole_document",
+        "fidelity_eligible": true,
+        "reader_eligible": true,
+        "open_findings": [],
+        "feedback_closed": true,
+        "is_revision": false,
+        "declared_reader_improvement": false,
+        "human_change_percentage_points": 0.6549418671056628,
+        "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original.",
+        "eligibility_review_round": "draft-1"
+      }
+    },
+    {
+      "case": "T02",
+      "candidate": "prototype-output/T02/draft-2.txt",
+      "candidate_sha256": "39739e2375cd2c7becddb0ffe5f7f6956f8886dd1a5e8efbccf4cd86f5b8580d",
+      "human_percent": 0.6310708820819855,
+      "native": "continuation-scores/T02/model-result.json",
+      "native_sha256": "67b5ddc59bb6a360c83c8038ca6a285481292bd3712b032727b98ed77572beae",
+      "final_state": "cycle-status/T02-prototype-final.json",
+      "selected": {
+        "id": "source",
+        "candidate": {
+          "path": "transfer/T02-return-pilot.source.txt",
+          "sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c"
+        },
+        "human_percent": 0.6715842988342047,
+        "native_class_probabilities": {
+          "human": 0.006715842988342047,
+          "ai": 0.9494030475616455,
+          "ai_edited": 0.0012066115159541368,
+          "humanized": 0.04267454519867897
+        },
+        "scope": "whole_document",
+        "fidelity_eligible": true,
+        "reader_eligible": true,
+        "open_findings": [],
+        "feedback_closed": true,
+        "is_revision": false,
+        "declared_reader_improvement": false,
+        "human_change_percentage_points": null,
+        "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original.",
+        "eligibility_review_round": "source"
+      }
+    }
+  ],
+  "transfer_best_eligible_checkpoints": [
+    {
+      "case": "T01",
+      "selection": "prototype draft-1",
+      "candidate": {
+        "path": "prototype-output/T01/draft-1.txt",
+        "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1"
+      },
+      "human_percent": 0.9622050449252129,
+      "feedback_closed": true
+    },
+    {
+      "case": "T02",
+      "selection": "original source",
+      "candidate": {
+        "path": "transfer/T02-return-pilot.source.txt",
+        "sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c"
+      },
+      "human_percent": 0.6715842988342047,
+      "feedback_closed": true
+    },
+    {
+      "case": "T03",
+      "selection": "prototype draft-1",
+      "candidate": {
+        "path": "prototype-output/T03/draft-1.txt",
+        "sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0"
+      },
+      "human_percent": 0.1346115255728364,
+      "feedback_closed": true
+    }
+  ],
+  "target_human_ge_50_met": false,
+  "authorship_verified": false,
+  "commercial_transfer_measured": false,
+  "production_skill_hashes": "baseline-skill-hashes.json",
+  "production_zip_sha256": "e37c403d3d781e98e4682e7c602adab364ae2aeb34cfec993efa2c6212de4db9",
+  "script_tests": {
+    "command": "py -3.13 -B -X utf8 -m unittest discover -s work/english-lab/skill/evals -p test_*.py",
+    "exit_code": 0,
+    "tests_run": 107,
+    "passed": 106,
+    "skipped": 1,
+    "elapsed_seconds_reported_by_unittest": 1.416,
+    "scope": "Frozen prototype helper regression tests, not writing-quality or detector-performance evidence.",
+    "prototype_manifest_sha256": "634980ce361c7defc551e94d075695e991cc5def4d9e389fb2be87beae4d41c5",
+    "notes": "Two invalid-status lines were expected output from negative-path tests. No code changed after this test run."
+  },
+  "limitations": [
+    "The English score is uncalibrated, has known human false positives, and is not historical authorship probability.",
+    "Two synthetic development cases and three synthetic fresh cases are not representative accuracy evidence.",
+    "The first comparison was frozen and identity/score-blind at reader review; later continuations are feedback-driven development.",
+    "Both writers saw limited counterpart excerpts in released feedback after first drafts and reviews were frozen; subsequent continued blindness is not claimed.",
+    "A development repair race created one extra unscored artifact beyond the planned four-artifact exhibition cap. The selected earlier checkpoint predates that race; all versions remain saved.",
+    "All reviewers are same-model AI contexts, not human or cross-model raters."
+  ]
+}

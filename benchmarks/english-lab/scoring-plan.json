@@ -1,0 +1,57 @@
+{
+  "created_at_utc": "2026-10-03T10:42:56.196981+00:00",
+  "blind_review": {
+    "path": "blind-review/round-1.json",
+    "sha256": "dc87c8a1a42ccfd5575e6ae093e38f01a55fe2c584aa813a32686edd14e6494d"
+  },
+  "items": [
+    {
+      "case": "T01",
+      "alias": "A",
+      "input": "blind-pairs/T01/A.txt",
+      "sha256": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d",
+      "eligible": true,
+      "output": "transfer-scores/T01/A"
+    },
+    {
+      "case": "T01",
+      "alias": "B",
+      "input": "blind-pairs/T01/B.txt",
+      "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+      "eligible": true,
+      "output": "transfer-scores/T01/B"
+    },
+    {
+      "case": "T02",
+      "alias": "A",
+      "input": "blind-pairs/T02/A.txt",
+      "sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+      "eligible": true,
+      "output": "transfer-scores/T02/A"
+    },
+    {
+      "case": "T02",
+      "alias": "B",
+      "input": "blind-pairs/T02/B.txt",
+      "sha256": "bf570a78c32b2cf9d05f95532a468a1fd08cbd62574dd9ab4dd03276e842c1bb",
+      "eligible": true,
+      "output": "transfer-scores/T02/B"
+    },
+    {
+      "case": "T03",
+      "alias": "A",
+      "input": "blind-pairs/T03/A.txt",
+      "sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07",
+      "eligible": true,
+      "output": "transfer-scores/T03/A"
+    },
+    {
+      "case": "T03",
+      "alias": "B",
+      "input": "blind-pairs/T03/B.txt",
+      "sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0",
+      "eligible": true,
+      "output": "transfer-scores/T03/B"
+    }
+  ]
+}

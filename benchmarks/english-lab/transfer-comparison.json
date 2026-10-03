@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-03T10:47:26.921194+00:00",
+  "comparison": "First eligible drafts under a method frozen before source release. Synthetic fresh transfer probe; not representative or a formal statistical holdout.",
+  "method_freeze": {
+    "path": "METHOD-FREEZE.json",
+    "sha256": "33c12214b064380e786e1cc4c349369c9cd089aec50f550f4f1c40f510987f37"
+  },
+  "source_registry": {
+    "path": "transfer/registry.json",
+    "sha256": "1e917df633d6841ae98ead548685612ef522c39958f28f079b1e947ee9100132"
+  },
+  "blind_review": {
+    "path": "blind-review/round-1.json",
+    "sha256": "dc87c8a1a42ccfd5575e6ae093e38f01a55fe2c584aa813a32686edd14e6494d"
+  },
+  "identity_mapping": {
+    "path": "pair-identities.json",
+    "sha256": "e7fdf6d0164e08bff65f03c1db186401814c62a7e2e177fa42ce8cc801dd95c8"
+  },
+  "cases": [
+    {
+      "case": "T01",
+      "genre": "Explanatory public-facing article",
+      "source": {
+        "candidate": {
+          "path": "transfer/T01-repair-queue.source.txt",
+          "sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697"
+        },
+        "native": {
+          "path": "transfer-scores/T01/source/model-result.json",
+          "sha256": "6346754780ef97f3f012ef970553338d5a6b7db15d96c12100487f63f50b7b4f"
+        },
+        "feedback": {
+          "path": "transfer-scores/T01/source/feedback.json",
+          "sha256": "117d43a52c4124cd0f9df7732038016f1aec8fd0e306f5d749a7e124f0ebe33b"
+        },
+        "execution": {
+          "path": "transfer-scores/T01/source/execution.json",
+          "sha256": "751866d5839918014de0a21764f1676a3ca245bc0d9c4910558f7b18a317942c"
+        },
+        "human_percent": 0.30726317781955004,
+        "classes": {
+          "human": 0.0030726317781955004,
+          "ai": 0.934532642364502,
+          "ai_edited": 0.0004357806174084544,
+          "humanized": 0.06195886433124542
+        },
+        "measured_at_utc": "2026-10-03T10:29:43.707817+00:00"
+      },
+      "baseline": {
+        "candidate": {
+          "path": "baseline-output/T01/draft-1.txt",
+          "sha256": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d"
+        },
+        "native": {
+          "path": "transfer-scores/T01/A/model-result.json",
+          "sha256": "2d561d71e0c22c14f4f668b0ec15edcc00212e5281e877f5d62238b40ba6c306"
+        },
+        "feedback": {
+          "path": "transfer-scores/T01/A/feedback.json",
+          "sha256": "55ed47775c593b411f1ac6f37af5616ee9b0fcf6d0627d77b5c1cab05893bcd8"
+        },
+        "execution": {
+          "path": "transfer-scores/T01/A/execution.json",
+          "sha256": "2710018b65e66bff4791688708d9fff655de32ece4e18ffd44e77027b9de99db"
+        },
+        "human_percent": 0.18796658841893077,
+        "classes": {
+          "human": 0.0018796658841893077,
+          "ai": 0.04836658760905266,
+          "ai_edited": 0.0001825620129238814,
+          "humanized": 0.9495711922645569
+        },
+        "measured_at_utc": "2026-10-03T10:43:28.234115+00:00",
+        "alias": "A"
+      },
+      "prototype": {
+        "candidate": {
+          "path": "prototype-output/T01/draft-1.txt",
+          "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1"
+        },
+        "native": {
+          "path": "transfer-scores/T01/B/model-result.json",
+          "sha256": "acaf71a38bb5fb9fff89b3400209555dd7696f3fa58a742c77412088cf2d3db6"
+        },
+        "feedback": {
+          "path": "transfer-scores/T01/B/feedback.json",
+          "sha256": "7919e2e5c5bdd6453918bea64bf95d028810d9df423ae58b157529174a70624e"
+        },
+        "execution": {
+          "path": "transfer-scores/T01/B/execution.json",
+          "sha256": "550ad52b6137bc8085a809a9ebaa8b3774d5f8c03151a302e6249099b2c9b09e"
+        },
+        "human_percent": 0.9622050449252129,
+        "classes": {
+          "human": 0.009622050449252129,
+          "ai": 0.3345760107040405,
+          "ai_edited": 0.0008108244510367513,
+          "humanized": 0.6549911499023438
+        },
+        "measured_at_utc": "2026-10-03T10:44:04.568503+00:00",
+        "alias": "B"
+      },
+      "reader_preference": "prototype",
+      "reader_preference_strength": "slight",
+      "prototype_minus_baseline_pp": 0.7742384565062821,
+      "prototype_minus_source_pp": 0.6549418671056628
+    },
+    {
+      "case": "T02",
+      "genre": "Internal operational work memo",
+      "source": {
+        "candidate": {
+          "path": "transfer/T02-return-pilot.source.txt",
+          "sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c"
+        },
+        "native": {
+          "path": "transfer-scores/T02/source/model-result.json",
+          "sha256": "de70b45b4c0d690e4c7d2de02742aa043751d29d0946a0e6ca364c52f69b84b3"
+        },
+        "feedback": {
+          "path": "transfer-scores/T02/source/feedback.json",
+          "sha256": "6a3bcab1a49a6ebb84b5c43f82977d05e311401d5b60757d505bf29e6eefb969"
+        },
+        "execution": {
+          "path": "transfer-scores/T02/source/execution.json",
+          "sha256": "8d915039ea778da66e886db7f12d859bf9ac37433c7e6e138457c50b81558f5c"
+        },
+        "human_percent": 0.6715842988342047,
+        "classes": {
+          "human": 0.006715842988342047,
+          "ai": 0.9494030475616455,
+          "ai_edited": 0.0012066115159541368,
+          "humanized": 0.04267454519867897
+        },
+        "measured_at_utc": "2026-10-03T10:30:12.786393+00:00"
+      },
+      "prototype": {
+        "candidate": {
+          "path": "prototype-output/T02/draft-1.txt",
+          "sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d"
+        },
+        "native": {
+          "path": "transfer-scores/T02/A/model-result.json",
+          "sha256": "9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a"
+        },
+        "feedback": {
+          "path": "transfer-scores/T02/A/feedback.json",
+          "sha256": "c6f8e8e37fdacd3635677a84ac9b3b92343944a64b63ced3447c531429c5e35d"
+        },
+        "execution": {
+          "path": "transfer-scores/T02/A/execution.json",
+          "sha256": "b3772fa7f25facced22b516f1878adc97170135fd784be314facaccd5ef53687"
+        },
+        "human_percent": 0.45310351997613907,
+        "classes": {
+          "human": 0.004531035199761391,
+          "ai": 0.973919689655304,
+          "ai_edited": 0.0015044831670820713,
+          "humanized": 0.020044874399900436
+        },
+        "measured_at_utc": "2026-10-03T10:44:44.158154+00:00",
+        "alias": "A"
+      },
+      "baseline": {
+        "candidate": {
+          "path": "baseline-output/T02/draft-1.txt",
+          "sha256": "bf570a78c32b2cf9d05f95532a468a1fd08cbd62574dd9ab4dd03276e842c1bb"
+        },
+        "native": {
+          "path": "transfer-scores/T02/B/model-result.json",
+          "sha256": "f79eb175df00895e3432adf4a8f75b1119f92510a82f11e9d8ed1186214eade6"
+        },
+        "feedback": {
+          "path": "transfer-scores/T02/B/feedback.json",
+          "sha256": "d842952e7b6825bc0cc93c5b438d1c5eeb5d2a45219396ccc88ba7b7b5cdea5f"
+        },
+        "execution": {
+          "path": "transfer-scores/T02/B/execution.json",
+          "sha256": "2f188d0247a9cc6bc9f4c72a93fea0be3527833f10d5d679c9216207b71439f8"
+        },
+        "human_percent": 0.5585690028965473,
+        "classes": {
+          "human": 0.005585690028965473,
+          "ai": 0.9513620138168335,
+          "ai_edited": 0.0017817243933677673,
+          "humanized": 0.04127057269215584
+        },
+        "measured_at_utc": "2026-10-03T10:45:30.749396+00:00",
+        "alias": "B"
+      },
+      "reader_preference": "tie",
+      "reader_preference_strength": "no_material_preference",
+      "prototype_minus_baseline_pp": -0.10546548292040825,
+      "prototype_minus_source_pp": -0.2184807788580656
+    },
+    {
+      "case": "T03",
+      "genre": "First-person personal reflection",
+      "source": {
+        "candidate": {
+          "path": "transfer/T03-chair-reflection.source.txt",
+          "sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9"
+        },
+        "native": {
+          "path": "transfer-scores/T03/source/model-result.json",
+          "sha256": "61803748ef464da6925febd67056c7da32146f48a389be907c3a1ba7cdaa37d7"
+        },
+        "feedback": {
+          "path": "transfer-scores/T03/source/feedback.json",
+          "sha256": "c75c26415f5ad5b83d80ba60ea31f978f9e39dec1e88b5fc2cb3471e51474342"
+        },
+        "execution": {
+          "path": "transfer-scores/T03/source/execution.json",
+          "sha256": "8b195b34f907ef5efec4d83239850e56376fd27c5ff7a590c39133bd69bf6d83"
+        },
+        "human_percent": 0.023340170446317643,
+        "classes": {
+          "human": 0.00023340170446317643,
+          "ai": 0.9977485537528992,
+          "ai_edited": 2.3613234588992782e-05,
+          "humanized": 0.0019944419618695974
+        },
+        "measured_at_utc": "2026-10-03T10:30:40.364890+00:00"
+      },
+      "baseline": {
+        "candidate": {
+          "path": "baseline-output/T03/draft-1.txt",
+          "sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07"
+        },
+        "native": {
+          "path": "transfer-scores/T03/A/model-result.json",
+          "sha256": "0421eae019c1b3f1e9feefe1190461d5e632bb20a643d966bbd092ff74fa0bd7"
+        },
+        "feedback": {
+          "path": "transfer-scores/T03/A/feedback.json",
+          "sha256": "7e15d9a8ddea142971c152e4c402d22fd0d5c773279bd9e4380c83ac2ec7e5c0"
+        },
+        "execution": {
+          "path": "transfer-scores/T03/A/execution.json",
+          "sha256": "341b7d841e620c6041863c18a7d3b012c671c1549b307d1d7167b138f0c84229"
+        },
+        "human_percent": 0.13351638335734606,
+        "classes": {
+          "human": 0.0013351638335734606,
+          "ai": 0.9593549370765686,
+          "ai_edited": 0.00019556059851311147,
+          "humanized": 0.039114341139793396
+        },
+        "measured_at_utc": "2026-10-03T10:46:13.114240+00:00",
+        "alias": "A"
+      },
+      "prototype": {
+        "candidate": {
+          "path": "prototype-output/T03/draft-1.txt",
+          "sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0"
+        },
+        "native": {
+          "path": "transfer-scores/T03/B/model-result.json",
+          "sha256": "4fae9d5f90ea32a62e41c21ec018d8ea00d7b871b366194f97311f73687ebb57"
+        },
+        "feedback": {
+          "path": "transfer-scores/T03/B/feedback.json",
+          "sha256": "ce9035045a7b88019d9aec92fed4da34b7361d6afe3cad5010f3b509ea1cdbb7"
+        },
+        "execution": {
+          "path": "transfer-scores/T03/B/execution.json",
+          "sha256": "a4572cb38bf742aa1c982032171b7f04b5714472ba27031093408e0df83f0810"
+        },
+        "human_percent": 0.1346115255728364,
+        "classes": {
+          "human": 0.001346115255728364,
+          "ai": 0.9849531650543213,
+          "ai_edited": 0.000114055146696046,
+          "humanized": 0.013586649671196938
+        },
+        "measured_at_utc": "2026-10-03T10:46:48.056224+00:00",
+        "alias": "B"
+      },
+      "reader_preference": "prototype",
+      "reader_preference_strength": "slight",
+      "prototype_minus_baseline_pp": 0.0010951422154903412,
+      "prototype_minus_source_pp": 0.11127135512651876
+    }
+  ],
+  "local_measurements": 9,
+  "paid_actions": 0,
+  "commercial_calls": 0,
+  "prototype_human_wins": 2,
+  "prototype_reader_preferences": 2,
+  "reader_ties": 1,
+  "prototype_human_ge_50": 0,
+  "semantics": "Native uncalibrated Human class percentage; not 100 minus AI, word share or verified human authorship.",
+  "limitations": [
+    "Three AI-generated fixtures and one draft per arm; no repeated draws or population inference.",
+    "Same-model separate contexts. Baseline writer had fresh context; prototype writer also developed the method.",
+    "Blind evaluator authored the original sources and knew their constraints; candidate identity and scores were hidden for the initial review.",
+    "Development and transfer both happen to include repair-workshop topics; not a fully out-of-domain evaluation.",
+    "No commercial detector transfer or human reader ratings measured."
+  ]
+}

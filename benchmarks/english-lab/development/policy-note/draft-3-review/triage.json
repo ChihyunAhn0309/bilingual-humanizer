@@ -1,0 +1,27 @@
+[
+  {
+    "finding_id": "D1",
+    "decision": "retain",
+    "reason": "Repair is complete; attendance-first presentation is a legitimate alternative."
+  },
+  {
+    "finding_id": "D2",
+    "decision": "retain",
+    "reason": "All conditions and voice retained; select between eligible complete versions by the user's score objective."
+  },
+  {
+    "finding_id": "D3",
+    "decision": "retain",
+    "reason": "No new open fidelity or reader problem."
+  },
+  {
+    "finding_id": "M",
+    "decision": "retain",
+    "reason": "Retain the complete information; inspect sensitivity without deleting the paragraph or inventing a defect."
+  },
+  {
+    "finding_id": "H",
+    "decision": "retain",
+    "reason": "Preserve known AI-origin provenance regardless of scores."
+  }
+]

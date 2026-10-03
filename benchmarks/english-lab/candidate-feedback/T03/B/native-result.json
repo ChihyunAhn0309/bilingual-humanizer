@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T10:46:48.056224+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0",
+  "token_count": 207,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 207,
+      "start": 0,
+      "end": 927,
+      "quote": "A folded towel on the loose chair's seat was my warning system. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood it, but I still explained the wobble every time someone came over. I'd inherited the chair from my aunt, and an awkward joint didn't seem reason enough to throw it out.\n\nWhen I finally took it apart last Sunday, the back came away with one careful pull. I'd expected the old glue to resist. I can't remember whether my aunt ever repaired it herself. There's a pale patch underneath that might be a repair, or might just be where the finish wore off. I left it alone.\n\nI've moved the towel back to its hook. The chair is usable now, though one leg still catches slightly on the uneven floor. I'd like to say that afternoon settled something about keeping her things. Mostly, though, it gave me another place to sit. The harder choices are still in the box above the wardrobe.",
+      "class_probabilities": {
+        "human": 0.001346115255728364,
+        "ai": 0.9849531650543213,
+        "ai_edited": 0.000114055146696046,
+        "humanized": 0.013586649671196938
+      },
+      "ai_involvement_class_score": 0.9986538847442716
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.001346115255728364,
+    "ai": 0.9849531650543213,
+    "ai_edited": 0.000114055146696046,
+    "humanized": 0.013586649671196938
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 321,
+        "quote": "A folded towel on the loose chair's seat was my warning system. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood it, but I still explained the wobble every time someone came over. I'd inherited the chair from my aunt, and an awkward joint didn't seem reason enough to throw it out.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9986538847442716,
+        "after_removal_ai_involvement": 0.9817651119083166,
+        "delta_percentage_points": 1.6888772835955024
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 323,
+        "end": 619,
+        "quote": "When I finally took it apart last Sunday, the back came away with one careful pull. I'd expected the old glue to resist. I can't remember whether my aunt ever repaired it herself. There's a pale patch underneath that might be a repair, or might just be where the finish wore off. I left it alone.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9986538847442716,
+        "after_removal_ai_involvement": 0.9808057695627213,
+        "delta_percentage_points": 1.7848115181550384
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 621,
+        "end": 927,
+        "quote": "I've moved the towel back to its hook. The chair is usable now, though one leg still catches slightly on the uneven floor. I'd like to say that afternoon settled something about keeping her things. Mostly, though, it gave me another place to sit. The harder choices are still in the box above the wardrobe.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9986538847442716,
+        "after_removal_ai_involvement": 0.9349164739251137,
+        "delta_percentage_points": 6.373741081915796
+      }
+    ],
+    "total_paragraphs": 3,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

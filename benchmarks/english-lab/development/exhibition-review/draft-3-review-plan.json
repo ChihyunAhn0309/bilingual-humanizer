@@ -1,0 +1,20 @@
+{
+  "summary":"Fresh-context brief-only composition is coherent but fails fidelity on expectation and the ongoing knowledge limit. Parent review withheld scoring. The complete draft is preserved; no numeric measurement exists. This full ledger is assembled from the saved draft and pre-score rejection after repair preparation, not claimed as a prior validated artifact. No reader superiority is established by fresh context alone.",
+  "document_analysis":{
+    "structure":"Guide content and interview in P1, operation/navigation and price verdict in P2, exhibition visit in P3. Conventional but coherent review route.",
+    "reasoning_specificity":"Concrete detail remains, and uncertain causality is explicit. Two mental-state claims drift: expectation becomes a wish and current uncertainty becomes past inability.",
+    "voice_consistency":"Generally restrained British first-person review, but 'hoping' changes the source's stance rather than just its surface voice.",
+    "rhythm_repetition":"P3 separately repeats closure already implied in the conditional longer visit; understandable but not a proved reader improvement. No noise or arbitrary fragments.",
+    "language_features":"Fluent English masks the two fidelity shifts. The exact brief supplied expectation and current inability, so omission in the brief is not an excuse for this returned wording.",
+    "citations_provenance":"AI-origin source; parent-dispatched fresh-context writer saw only the meaning/voice brief, not source/old drafts/scores. Parent reviewed source independently before any inference. Context isolation is a workflow variable, not an instruction-only effect."
+  },
+  "findings":[
+    {"id":"E1","basis":"style_observation","direction":"neutral","strength":"weak","quotes":["hoping to hear how the port had changed over time"],"observation":"Hoping expresses desire; the source and brief supply expectation about the guide's explanatory content.","interpretation":"Fidelity defect needing repair, not authorship evidence.","human_alternative":"A human paraphraser might also choose a fluent near-synonym with a different mental stance.","discriminating_evidence":"Source 'I expected it to explain' and brief 'Expected subject' support expectation only.","decision":"revise","reason":"Restore expectation with the guide as its object without stronger assurance."},
+    {"id":"E2","basis":"style_observation","direction":"neutral","strength":"weak","quotes":["I couldn't tell whether the mismatch was permanent or had been caused by exhibits being moved."],"observation":"Past couldn't tell does not explicitly preserve the source's present cannot tell.","interpretation":"The review's ongoing epistemic limit must remain while keeping the causal uncertainty explicit.","human_alternative":"A human editor may switch tense to fit surrounding narrative and inadvertently weaken a current qualification.","discriminating_evidence":"Compare the source's current cannot tell against the candidate's couldn't tell.","decision":"revise","reason":"Use current inability and retain permanence-versus-cause relationship."}
+  ],
+  "paragraph_reviews":[
+    {"paragraph_id":"P1","status":"reviewed","assessment":"Content, price, interview and photograph preserved; expectation must be restored.","finding_ids":["E1"]},
+    {"paragraph_id":"P2","status":"reviewed","assessment":"Operation, order, double-back count and judgment preserved; current uncertainty must be restored.","finding_ids":["E2"]},
+    {"paragraph_id":"P3","status":"reviewed","assessment":"Overall positive judgment, duration, upstairs condition and desk nonstatement retained.","finding_ids":[]}
+  ]
+}

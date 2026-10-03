@@ -1,0 +1,76 @@
+{
+  "native_result_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\transfer-scores\\T03\\B\\model-result.json",
+  "native_result_sha256": "4fae9d5f90ea32a62e41c21ec018d8ea00d7b871b366194f97311f73687ebb57",
+  "candidate_sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "measured_at_utc": "2026-10-03T10:46:48.056224+00:00",
+  "language": "English, manually verified",
+  "window_count": 1,
+  "token_count": 207,
+  "all_input_tokens_scored": true,
+  "class_probabilities": {
+    "human": 0.001346115255728364,
+    "ai": 0.9849531650543213,
+    "ai_edited": 0.000114055146696046,
+    "humanized": 0.013586649671196938
+  },
+  "ai_involvement_class_score": 0.9986538847442716,
+  "semantics": "Unvalidated local four-class outputs. AI involvement = AI + AI-edited + Humanized; native 1-Human agrees within floating-point rounding. No value is a verified authorship probability or a fraction of words.",
+  "source_native_sha256": "61803748ef464da6925febd67056c7da32146f48a389be907c3a1ba7cdaa37d7",
+  "source_class_probabilities": {
+    "human": 0.00023340170446317643,
+    "ai": 0.9977485537528992,
+    "ai_edited": 2.3613234588992782e-05,
+    "humanized": 0.0019944419618695974
+  },
+  "candidate_minus_source_percentage_points": {
+    "human": 0.11127135512651876,
+    "ai": -1.279538869857788,
+    "ai_edited": 0.009044191210705321,
+    "humanized": 1.159220770932734
+  },
+  "comparison_limit": "A rise in the Human class or fall in the AI class does not establish improved writing, human origin, or general detection performance. Movement into AI-edited or Humanized remains inside the AI-involvement aggregate.",
+  "independently_calibrated_here": false,
+  "authorship_verified_by_model": false,
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 321,
+        "quote": "A folded towel on the loose chair's seat was my warning system. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood it, but I still explained the wobble every time someone came over. I'd inherited the chair from my aunt, and an awkward joint didn't seem reason enough to throw it out.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9986538847442716,
+        "after_removal_ai_involvement": 0.9817651119083166,
+        "delta_percentage_points": 1.6888772835955024
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 323,
+        "end": 619,
+        "quote": "When I finally took it apart last Sunday, the back came away with one careful pull. I'd expected the old glue to resist. I can't remember whether my aunt ever repaired it herself. There's a pale patch underneath that might be a repair, or might just be where the finish wore off. I left it alone.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9986538847442716,
+        "after_removal_ai_involvement": 0.9808057695627213,
+        "delta_percentage_points": 1.7848115181550384
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 621,
+        "end": 927,
+        "quote": "I've moved the towel back to its hook. The chair is usable now, though one leg still catches slightly on the uneven floor. I'd like to say that afternoon settled something about keeping her things. Mostly, though, it gave me another place to sit. The harder choices are still in the box above the wardrobe.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9986538847442716,
+        "after_removal_ai_involvement": 0.9349164739251137,
+        "delta_percentage_points": 6.373741081915796
+      }
+    ],
+    "total_paragraphs": 3,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "guard_checks": "Successful serialized worker exit, pinned model and weight hashes, exact input hash, complete single-window token coverage, finite four-class outputs/sum, and exact deletion anchors/deltas checked."
+}

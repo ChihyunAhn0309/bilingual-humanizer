@@ -1,0 +1,27 @@
+[
+  {
+    "finding_id": "S1",
+    "decision": "retain",
+    "reason": "No necessary repair; preserve the exception and the photograph experience in any requested stronger composition alternative."
+  },
+  {
+    "finding_id": "S2",
+    "decision": "retain",
+    "reason": "All functions are useful and none needs correction."
+  },
+  {
+    "finding_id": "S3",
+    "decision": "revise",
+    "reason": "Separate the guide judgment from the exhibition judgment so the mixed appraisal is easier to retain; preserve the ticket desk's nonstatement exactly in force."
+  },
+  {
+    "finding_id": "M",
+    "decision": "retain",
+    "reason": "Retain the complete information; inspect sensitivity without deleting the paragraph or inventing a defect."
+  },
+  {
+    "finding_id": "H",
+    "decision": "retain",
+    "reason": "Preserve known AI-origin provenance regardless of scores."
+  }
+]

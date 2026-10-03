@@ -1,0 +1,109 @@
+{
+  "case_id": "T03",
+  "candidate": "A",
+  "candidate_sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07",
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    }
+  ],
+  "summary": {
+    "revise": 0,
+    "retain": 6,
+    "unresolved": 0
+  },
+  "closure": {
+    "fidelity_pass": true,
+    "reader_eligible": true,
+    "necessary_repairs": [],
+    "decision": "retain",
+    "reason": "No source-fidelity or reader-quality defect was found in the pre-score review. Optional stylistic differences do not compel another rewrite.",
+    "blind_pair_preference": {
+      "choice": "B",
+      "strength": "slight",
+      "reason": "Both versions retain the restrained voice and all meaning. B's concrete towel-first opening and separated wish/practical-result/final-box beats feel a little more natural and give the quiet ending more room. A is also good and slightly more compact in its final reflection.",
+      "exact_candidate_evidence": {
+        "A": [
+          {
+            "start": 0,
+            "end": 66,
+            "quote": "My warning system was a folded towel on the seat of a loose chair.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          },
+          {
+            "start": 760,
+            "end": 947,
+            "quote": "The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ],
+        "B": [
+          {
+            "start": 0,
+            "end": 63,
+            "quote": "A folded towel on the loose chair's seat was my warning system.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          },
+          {
+            "start": 744,
+            "end": 927,
+            "quote": "I'd like to say that afternoon settled something about keeping her things. Mostly, though, it gave me another place to sit. The harder choices are still in the box above the wardrobe.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ]
+      },
+      "counterconsideration": "A's explicit my aunt's things and combined final sentence may suit a reader who prefers a more formal, compact reflection. B's contractions and pauses are a slight genre preference, not universal markers of quality.",
+      "fidelity_overrides_applied": false,
+      "method_identity_inference": null
+    },
+    "post_measurement_action": "retain",
+    "post_measurement_reason": "The new native feedback is bound and reviewed. It supplies no independently grounded repair need. Keep the passing candidate and the frozen reader judgment; do not begin a rewrite solely to chase an uncalibrated score.",
+    "measured_feedback_reviewed": true,
+    "next_action": "Return the measured evidence and retain decisions to the writer; any later revision requires a separately stated real defect or changed user requirement."
+  }
+}

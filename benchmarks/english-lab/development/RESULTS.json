@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "experiment": "two AI-origin synthetic English development sources; not held-out or baseline-versus-prototype comparison",
+  "detector_version": "3.1.2",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "native_semantics": "Human/AI/AI-edited/Humanized; uncalibrated auxiliary class outputs, not word shares or verified authorship",
+  "actual_detector_calls": 6,
+  "external_detector_calls": 0,
+  "all_actual_runs_completed": true,
+  "cases": [
+    {
+      "id": "policy-note",
+      "source_words": 176,
+      "known_origin": "AI-authored synthetic development source",
+      "source": {
+        "path": "development/policy-note/source.txt",
+        "sha256": "0a5d039cb791a4b9043f176ae85f4b550bdaf8313af7f7dce67bb1cf4a28f478"
+      },
+      "session": {
+        "path": "development/policy-note/session.json",
+        "sha256": "02cab0792fca182a2ba198217a50cf076080dadbc721d1894e80be05fd683e70"
+      },
+      "validated_session_status": {
+        "path": "development/policy-note/final-status.json",
+        "sha256": "5514414a70158ae0400bcadaac2ec023e8a14d87a7ad261fd9b44fb2d13d1724"
+      },
+      "main_path_revisions_used": 2,
+      "selected": {
+        "id": "draft-1",
+        "candidate": {
+          "path": "draft-1.txt",
+          "sha256": "c7ad6b4a34578e1e0a67308ab88d10a6c4d776de1e143a195e3ce07f9eb25d80"
+        },
+        "human_percent": 0.6336482241749763,
+        "native_class_probabilities": {
+          "human": 0.0063364822417497635,
+          "ai": 0.9717162847518921,
+          "ai_edited": 0.001993664773181081,
+          "humanized": 0.01995362527668476
+        },
+        "scope": "whole_document",
+        "fidelity_eligible": true,
+        "reader_eligible": true,
+        "open_findings": [],
+        "feedback_closed": true,
+        "is_revision": false,
+        "declared_reader_improvement": true,
+        "human_change_percentage_points": 0.437847594730556,
+        "improvement_reason": "Places recommendation and staffing reason together and keeps actual evidence with its limitation; separate parent reader review supports the benefit.",
+        "eligibility_review_round": "draft-1"
+      },
+      "measurements": [
+        {
+          "id": "source",
+          "input": {
+            "path": "development/policy-note/source.txt",
+            "sha256": "0a5d039cb791a4b9043f176ae85f4b550bdaf8313af7f7dce67bb1cf4a28f478"
+          },
+          "native_result": {
+            "path": "development/policy-note/source-score/model-result.json",
+            "sha256": "3dbb6c8d5f8ba2eb4fc2b56b831c5644066e5811b528b019c95c819925445709"
+          },
+          "adapter_feedback": {
+            "path": "development/policy-note/source-score/feedback.json",
+            "sha256": "f9c83b57836b8948bbb8ab07669425c01d99a81d83bcb1a0633f1532671f7e00"
+          },
+          "execution": {
+            "path": "development/policy-note/source-score/execution.json",
+            "sha256": "27f1086ae0073ed1cf99c5deed0902d41ef35e0f9f71ca2e72f5008f662cdb70"
+          },
+          "whole_document_review": {
+            "path": "development/policy-note/source-review/validated.json",
+            "sha256": "bb53d13cab1eafbde4c8572f7a22ba506e5b6daa3b7e1629b3e2173b1697b8ab"
+          },
+          "triage": {
+            "path": "development/policy-note/source-review/triage.json",
+            "sha256": "1daa12bd17dc95208edb85db9669f41b63bfc6eb1017a01212f264187a9f36a8"
+          },
+          "human_percent": 0.19580062944442034,
+          "native_class_probabilities": {
+            "human": 0.0019580062944442034,
+            "ai": 0.9766160249710083,
+            "ai_edited": 0.00028002308681607246,
+            "humanized": 0.021146036684513092
+          },
+          "measured_at_utc": "2026-10-03T10:12:11.821684+00:00",
+          "scope": "whole_document",
+          "cautions": [
+            "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+            "English four-class outputs are uncalibrated experimental auxiliary scores."
+          ]
+        },
+        {
+          "id": "draft-1",
+          "input": {
+            "path": "development/policy-note/draft-1.txt",
+            "sha256": "c7ad6b4a34578e1e0a67308ab88d10a6c4d776de1e143a195e3ce07f9eb25d80"
+          },
+          "native_result": {
+            "path": "development/policy-note/draft-1-score/model-result.json",
+            "sha256": "8b1d0097a11f190ddd2089f5b3ff173992c9318691887a0b537bec1062cdb159"
+          },
+          "adapter_feedback": {
+            "path": "development/policy-note/draft-1-score/feedback.json",
+            "sha256": "baafcfc81203e04400b1cef63316719977c2877650b4d0c4099a419dac1acff5"
+          },
+          "execution": {
+            "path": "development/policy-note/draft-1-score/execution.json",
+            "sha256": "ae812d1da963f3aa7586342bd3f6e3fb1d2c0f94381a6551be68d2e8d815bcd8"
+          },
+          "whole_document_review": {
+            "path": "development/policy-note/draft-1-review/validated.json",
+            "sha256": "04340eedbc73a3b5f8c320f8a9d70dd8e6cb2f32df41b128d313498fb1253d6f"
+          },
+          "triage": {
+            "path": "development/policy-note/draft-1-review/triage.json",
+            "sha256": "c42c058925de9f4c03469fadd7ea090b7d5940022ac093bc993f742294119c7e"
+          },
+          "human_percent": 0.6336482241749763,
+          "native_class_probabilities": {
+            "human": 0.0063364822417497635,
+            "ai": 0.9717162847518921,
+            "ai_edited": 0.001993664773181081,
+            "humanized": 0.01995362527668476
+          },
+          "measured_at_utc": "2026-10-03T10:16:06.577258+00:00",
+          "scope": "whole_document",
+          "cautions": [
+            "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+            "English four-class outputs are uncalibrated experimental auxiliary scores."
+          ],
+          "parent_prescore": {
+            "path": "development/policy-note/draft-1-prescore.json",
+            "sha256": "56234fb1a972e5d4ace3473e8030f08fb2381d015acd112f09e5ab39f913481b"
+          }
+        },
+        {
+          "id": "draft-3",
+          "input": {
+            "path": "development/policy-note/draft-3.txt",
+            "sha256": "34136cbcc5e27fa42a1e45cf32c38436fae71066a44d4317b5f63735ede80444"
+          },
+          "native_result": {
+            "path": "development/policy-note/draft-3-score/model-result.json",
+            "sha256": "cbe02fe41db8eb7005d2a22609a63a33b8768450191c3ddba5bd15f87ec1163c"
+          },
+          "adapter_feedback": {
+            "path": "development/policy-note/draft-3-score/feedback.json",
+            "sha256": "50feb8fe78fff67a1b229befeac7ee8dbaead41e5eb44ffe7ba961d700b29ba9"
+          },
+          "execution": {
+            "path": "development/policy-note/draft-3-score/execution.json",
+            "sha256": "86e1810fb9586f964843837691350e64db63f24951e7734b2b4d6e40bfe23932"
+          },
+          "whole_document_review": {
+            "path": "development/policy-note/draft-3-review/validated.json",
+            "sha256": "23a743f8073d3fe69ee6914513daf7b072f7c45e0617bc0db089255d754a5d6b"
+          },
+          "triage": {
+            "path": "development/policy-note/draft-3-review/triage.json",
+            "sha256": "f825fecba3770048aceab06f7c3abdd82e1a594bfe0b5aaee79d7ed49a2c9f71"
+          },
+          "human_percent": 0.5177709739655256,
+          "native_class_probabilities": {
+            "human": 0.005177709739655256,
+            "ai": 0.8966549634933472,
+            "ai_edited": 0.0006868013879284263,
+            "humanized": 0.09748055040836334
+          },
+          "measured_at_utc": "2026-10-03T10:20:54.439382+00:00",
+          "scope": "whole_document",
+          "cautions": [
+            "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+            "English four-class outputs are uncalibrated experimental auxiliary scores."
+          ],
+          "parent_prescore": {
+            "path": "development/policy-note/draft-3-prescore.json",
+            "sha256": "28ece96752def20c5ae8ea1d3467cf54d18f04baa87d9259d2e8609e1b54862c"
+          }
+        }
+      ],
+      "selected_gain_over_source_pp": 0.437847594730556
+    },
+    {
+      "id": "exhibition-review",
+      "source_words": 178,
+      "known_origin": "AI-authored synthetic development source",
+      "source": {
+        "path": "development/exhibition-review/source.txt",
+        "sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167"
+      },
+      "session": {
+        "path": "development/exhibition-review/session.json",
+        "sha256": "90be408d5bf4ac06aa49b2c3859cdbc44ca60110d6dc82b9e49b3c78fd536090"
+      },
+      "validated_session_status": {
+        "path": "development/exhibition-review/final-status.json",
+        "sha256": "bd919e987c4c6ba017c9ee555c2eec3b89cf26a0e50d1b181fb20c948cd1ad09"
+      },
+      "main_path_revisions_used": 3,
+      "selected": {
+        "id": "draft-2",
+        "candidate": {
+          "path": "draft-2.txt",
+          "sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4"
+        },
+        "human_percent": 25.06692409515381,
+        "native_class_probabilities": {
+          "human": 0.2506692409515381,
+          "ai": 0.5133237838745117,
+          "ai_edited": 0.1358390897512436,
+          "humanized": 0.10016787052154541
+        },
+        "scope": "whole_document",
+        "fidelity_eligible": true,
+        "reader_eligible": true,
+        "open_findings": [],
+        "feedback_closed": true,
+        "is_revision": true,
+        "declared_reader_improvement": true,
+        "human_change_percentage_points": null,
+        "improvement_reason": "Restores uncertain causality and preserves useful exhibition-versus-guide organization. Parent full-text review supports fidelity and reader clarity.",
+        "eligibility_review_round": "draft-2"
+      },
+      "measurements": [
+        {
+          "id": "source",
+          "input": {
+            "path": "development/exhibition-review/source.txt",
+            "sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167"
+          },
+          "native_result": {
+            "path": "development/exhibition-review/source-score/model-result.json",
+            "sha256": "617f9c476d13ad1a494e60be1d5fc5afbfe5992d06aa0d2abb70a3da9af44f41"
+          },
+          "adapter_feedback": {
+            "path": "development/exhibition-review/source-score/feedback.json",
+            "sha256": "720e6818416ba417b49501da13e3e73618e7b1caa7c639a5a780b77af39ccc96"
+          },
+          "execution": {
+            "path": "development/exhibition-review/source-score/execution.json",
+            "sha256": "f9724eb433866ad0d1022b0e5d4b232ae7e9753f2e903e3bad00ac806254b06e"
+          },
+          "whole_document_review": {
+            "path": "development/exhibition-review/source-review/validated.json",
+            "sha256": "eb541752581f34a7ca4f073d2cc032fd17269fe9d68d53f211ea3b01d975ace5"
+          },
+          "triage": {
+            "path": "development/exhibition-review/source-review/triage.json",
+            "sha256": "76cabe750ff5f82f2e20d80f2bc8bb565e6aa43b1fb6bf58d9bb493a799558c6"
+          },
+          "human_percent": 0.01635980006540194,
+          "native_class_probabilities": {
+            "human": 0.00016359800065401942,
+            "ai": 0.9991766810417175,
+            "ai_edited": 2.2823302060714923e-05,
+            "humanized": 0.000636905780993402
+          },
+          "measured_at_utc": "2026-10-03T10:12:59.633862+00:00",
+          "scope": "whole_document",
+          "cautions": [
+            "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+            "English four-class outputs are uncalibrated experimental auxiliary scores."
+          ]
+        },
+        {
+          "id": "draft-2",
+          "input": {
+            "path": "development/exhibition-review/draft-2.txt",
+            "sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4"
+          },
+          "native_result": {
+            "path": "development/exhibition-review/draft-2-score/model-result.json",
+            "sha256": "5308bb9c1750fe283af07f653c969c3c6e92a43003811483cbf11ab81a0b6b7f"
+          },
+          "adapter_feedback": {
+            "path": "development/exhibition-review/draft-2-score/feedback.json",
+            "sha256": "dd85d561ef08283885debbce2fab743ad0727fa8ed10fb5d602383a60edce437"
+          },
+          "execution": {
+            "path": "development/exhibition-review/draft-2-score/execution.json",
+            "sha256": "d22212fe7f4d15f8c79a3520931f17d0d70cdadd2233ca02602b59d513946caa"
+          },
+          "whole_document_review": {
+            "path": "development/exhibition-review/draft-2-review/validated.json",
+            "sha256": "b7aa5463ed85c779609fd9ef222bf8f39ce2a6b240dd0345e0c89e09a04f8925"
+          },
+          "triage": {
+            "path": "development/exhibition-review/draft-2-review/triage.json",
+            "sha256": "adba1c62a58b03ebc1e2a3e94e50eb72ced8b068fe4271c4faeef3924d6c72f0"
+          },
+          "human_percent": 25.06692409515381,
+          "native_class_probabilities": {
+            "human": 0.2506692409515381,
+            "ai": 0.5133237838745117,
+            "ai_edited": 0.1358390897512436,
+            "humanized": 0.10016787052154541
+          },
+          "measured_at_utc": "2026-10-03T10:18:34.425656+00:00",
+          "scope": "whole_document",
+          "cautions": [
+            "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+            "English four-class outputs are uncalibrated experimental auxiliary scores."
+          ],
+          "parent_prescore": {
+            "path": "development/exhibition-review/draft-2-prescore.json",
+            "sha256": "12cf643c3aa99d109268d76d65d88400994a2b254b799f56486ce864747ea599"
+          }
+        },
+        {
+          "id": "draft-4",
+          "input": {
+            "path": "development/exhibition-review/draft-4.txt",
+            "sha256": "fd481b2dcafaacd3c65bb3e6af0dade075d407996b5ab2e421b59b4ebd5f1972"
+          },
+          "native_result": {
+            "path": "development/exhibition-review/draft-4-score/model-result.json",
+            "sha256": "f84890db26335bfe32a68b48862e68d8cb8d352472a45ea3c5556d61c3c5fbcb"
+          },
+          "adapter_feedback": {
+            "path": "development/exhibition-review/draft-4-score/feedback.json",
+            "sha256": "37e0c1948ca21d3cd7fed0ef5716d2ba8269c227286ccacc3522923e2cbf7bd5"
+          },
+          "execution": {
+            "path": "development/exhibition-review/draft-4-score/execution.json",
+            "sha256": "11efdb19beb19fcbb5768a4229e4c6ee3c4c09642fd2d3f427071f4c4a0c3e2e"
+          },
+          "whole_document_review": {
+            "path": "development/exhibition-review/draft-4-review/validated.json",
+            "sha256": "be4f645423a843e1e2838c32ad7ff873784fa801eca7ffa2dba5af1ad6911754"
+          },
+          "triage": {
+            "path": "development/exhibition-review/draft-4-review/triage.json",
+            "sha256": "cd679b629265bb19baab4751a8e86fa2da291d74c1f254d736c4435a1680d4ff"
+          },
+          "human_percent": 0.18962293397635221,
+          "native_class_probabilities": {
+            "human": 0.0018962293397635221,
+            "ai": 0.9928049445152283,
+            "ai_edited": 0.0002220163296442479,
+            "humanized": 0.005076845642179251
+          },
+          "measured_at_utc": "2026-10-03T10:26:57.866098+00:00",
+          "scope": "whole_document",
+          "cautions": [
+            "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+            "English four-class outputs are uncalibrated experimental auxiliary scores."
+          ],
+          "parent_prescore": {
+            "path": "development/exhibition-review/draft-4-prescore.json",
+            "sha256": "3c403c460b85d35089778d2416d6ddf66a978e493ed047aac68db963705a9d6b"
+          }
+        }
+      ],
+      "selected_gain_over_source_pp": 25.050564295088407
+    }
+  ],
+  "unscored_rejected_or_parallel_candidates": [
+    {
+      "path": "development/policy-note/draft-2.txt",
+      "sha256": "d1d6373faa40b820f3a78e454d4d7336ad75ffb85d203c68e87f51083df49333"
+    },
+    {
+      "path": "development/exhibition-review/draft-1.txt",
+      "sha256": "05cf11d7d0d26dd4ba049fd64f2ecdc94ef008e8291a9d70dcedde9bbe71f924"
+    },
+    {
+      "path": "development/exhibition-review/draft-3.txt",
+      "sha256": "d5e79d5787e61d7a86c6018bff60a46ea9363235ee0d7e17cfc42cb0501d0269"
+    },
+    {
+      "path": "development/exhibition-review/draft-4-lead-parallel-repair-unscored.txt",
+      "sha256": "0cf7560051216f642588619a6e4606f5e8415725cabf97b0e08fe943878a0b7c"
+    }
+  ],
+  "protocol_deviation": {
+    "detail": "A race produced one extra distinct parallel exhibition repair beyond the planned four-draft artifact cap. Main-path session validation covers three revisions but does not certify total-artifact budget compliance. No additional detector call was spent on the parallel text.",
+    "record": {
+      "path": "development/exhibition-review/draft-4-provenance-correction.md",
+      "sha256": "cbda9770710fbac36e3ba4392c62686382b743fa33bb42cd6a96908fb0b6cb0d"
+    }
+  },
+  "release_assessment": "Do not claim general improvement or publish on development evidence alone. The narrowed composition method merits a fresh source comparison against v1.10.0; baseline unchanged. Brief-only fresh-context method was tested, failed to improve this case, and removed from recommendation."
+}

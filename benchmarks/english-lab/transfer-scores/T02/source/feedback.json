@@ -1,0 +1,99 @@
+{
+  "status": "completed",
+  "language": "en",
+  "input_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+  "measured_at_utc": "2026-10-03T10:30:12.786393+00:00",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "scope": "whole_document",
+  "native_class_probabilities": {
+    "human": 0.006715842988342047,
+    "ai": 0.9494030475616455,
+    "ai_edited": 0.0012066115159541368,
+    "humanized": 0.04267454519867897
+  },
+  "human_percent": 0.6715842988342047,
+  "probability_semantics": "Native Human/AI/AI-edited/Humanized classes; not word shares or verified writing history.",
+  "calibration": null,
+  "cautions": [
+    "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "English four-class outputs are uncalibrated experimental auxiliary scores."
+  ],
+  "measured_evidence": {
+    "windows": [
+      {
+        "token_start": 0,
+        "token_end": 208,
+        "start": 0,
+        "end": 1003,
+        "quote": "Starting next Monday, we will try a shared return log for borrowed projectors and audio kits. The trial will run for two weeks at the North and Annex desks. This is a change to how we record returns, not a change to the borrowing limits.\n\nWhen equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark it available while we are still checking it. The person returning it does not need to wait at the desk unless there is an immediate safety concern.\n\nBy 3 p.m. this Friday, please tell Nia if you cannot open the shared file. If the file is unavailable during the trial, use the paper sheet beside the cupboard; Nia will transfer those entries the following morning. There is no need to enter them again yourself.\n\nI will review the logs after the second week and ask both desks whether the extra step was useful. We have not decided whether to keep it.",
+        "class_probabilities": {
+          "human": 0.006715842988342047,
+          "ai": 0.9494030475616455,
+          "ai_edited": 0.0012066115159541368,
+          "humanized": 0.04267454519867897
+        },
+        "ai_involvement_class_score": 0.993284157011658
+      }
+    ],
+    "occlusion": {
+      "performed": true,
+      "paragraphs": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 237,
+          "quote": "Starting next Monday, we will try a shared return log for borrowed projectors and audio kits. The trial will run for two weeks at the North and Annex desks. This is a change to how we record returns, not a change to the borrowing limits.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.993284157011658,
+          "after_removal_ai_involvement": 0.9766785558313131,
+          "delta_percentage_points": 1.660560118034482
+        },
+        {
+          "paragraph_id": "P2",
+          "start": 239,
+          "end": 599,
+          "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark it available while we are still checking it. The person returning it does not need to wait at the desk unless there is an immediate safety concern.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.993284157011658,
+          "after_removal_ai_involvement": 0.7957115918397903,
+          "delta_percentage_points": 19.75725651718676
+        },
+        {
+          "paragraph_id": "P3",
+          "start": 601,
+          "end": 863,
+          "quote": "By 3 p.m. this Friday, please tell Nia if you cannot open the shared file. If the file is unavailable during the trial, use the paper sheet beside the cupboard; Nia will transfer those entries the following morning. There is no need to enter them again yourself.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.993284157011658,
+          "after_removal_ai_involvement": 0.821841299533844,
+          "delta_percentage_points": 17.144285747781396
+        },
+        {
+          "paragraph_id": "P4",
+          "start": 865,
+          "end": 1003,
+          "quote": "I will review the logs after the second week and ask both desks whether the extra step was useful. We have not decided whether to keep it.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.993284157011658,
+          "after_removal_ai_involvement": 0.9858775269240141,
+          "delta_percentage_points": 0.7406630087643862
+        }
+      ],
+      "total_paragraphs": 4,
+      "unmeasured_due_to_limit": 0,
+      "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+    }
+  },
+  "authorship_verified": false,
+  "semantic_review_required": true,
+  "style_review_completed": false,
+  "external_detector_calls": 0,
+  "raw_result_sha256": "de70b45b4c0d690e4c7d2de02742aa043751d29d0946a0e6ca364c52f69b84b3",
+  "paragraph_review_required": [
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ]
+}

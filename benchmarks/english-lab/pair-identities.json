@@ -1,0 +1,54 @@
+{
+  "created_at_utc": "2026-10-03T10:39:16.013791+00:00",
+  "assignment_rule": "Predetermined A/B assignment before coordinator saw any candidate; no model scores used.",
+  "items": [
+    {
+      "case": "T01",
+      "alias": "A",
+      "method": "baseline",
+      "candidate": "baseline-output/T01/draft-1.txt",
+      "blind_candidate": "blind-pairs/T01/A.txt",
+      "sha256": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d"
+    },
+    {
+      "case": "T01",
+      "alias": "B",
+      "method": "prototype",
+      "candidate": "prototype-output/T01/draft-1.txt",
+      "blind_candidate": "blind-pairs/T01/B.txt",
+      "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1"
+    },
+    {
+      "case": "T02",
+      "alias": "A",
+      "method": "prototype",
+      "candidate": "prototype-output/T02/draft-1.txt",
+      "blind_candidate": "blind-pairs/T02/A.txt",
+      "sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d"
+    },
+    {
+      "case": "T02",
+      "alias": "B",
+      "method": "baseline",
+      "candidate": "baseline-output/T02/draft-1.txt",
+      "blind_candidate": "blind-pairs/T02/B.txt",
+      "sha256": "bf570a78c32b2cf9d05f95532a468a1fd08cbd62574dd9ab4dd03276e842c1bb"
+    },
+    {
+      "case": "T03",
+      "alias": "A",
+      "method": "baseline",
+      "candidate": "baseline-output/T03/draft-1.txt",
+      "blind_candidate": "blind-pairs/T03/A.txt",
+      "sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07"
+    },
+    {
+      "case": "T03",
+      "alias": "B",
+      "method": "prototype",
+      "candidate": "prototype-output/T03/draft-1.txt",
+      "blind_candidate": "blind-pairs/T03/B.txt",
+      "sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0"
+    }
+  ]
+}

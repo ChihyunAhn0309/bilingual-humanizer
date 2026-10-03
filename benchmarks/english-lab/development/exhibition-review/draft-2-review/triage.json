@@ -1,0 +1,27 @@
+[
+  {
+    "finding_id": "D1",
+    "decision": "retain",
+    "reason": "Source coverage and source S3 resolution checked; no necessary repair."
+  },
+  {
+    "finding_id": "D2",
+    "decision": "retain",
+    "reason": "Retain useful focal relationship, exact price/length and expectation."
+  },
+  {
+    "finding_id": "D3",
+    "decision": "retain",
+    "reason": "No open necessary repair. A further complete route must be declared as an alternative, not invented criticism."
+  },
+  {
+    "finding_id": "M",
+    "decision": "retain",
+    "reason": "Retain the complete information; inspect sensitivity without deleting the paragraph or inventing a defect."
+  },
+  {
+    "finding_id": "H",
+    "decision": "retain",
+    "reason": "Preserve known AI-origin provenance regardless of scores."
+  }
+]

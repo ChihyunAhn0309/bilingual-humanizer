@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "stop_detail": "Accepted feedback on main path closed; selected draft-2 has Human25.0669241%. Fresh-context repaired alternative scored0.1896229% and is rejected as a performance improvement. Main path records3post-draft revisions, but an extra distinct parallel repair artifact exceeded the planned total artifact ceiling by1; see protocol_deviation. No further candidate or inference. Completion is editorial closure, not a detector target or process-compliance certification.",
+  "revision_limit": 3,
+  "revisions_used": 3,
+  "prior_revisions_used": 0,
+  "recorded_text_revisions": 3,
+  "prior_revision_note": null,
+  "selected_candidate": {
+    "id": "draft-2",
+    "candidate": {
+      "path": "draft-2.txt",
+      "sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4"
+    },
+    "human_percent": 25.06692409515381,
+    "native_class_probabilities": {
+      "human": 0.2506692409515381,
+      "ai": 0.5133237838745117,
+      "ai_edited": 0.1358390897512436,
+      "humanized": 0.10016787052154541
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": true,
+    "declared_reader_improvement": true,
+    "human_change_percentage_points": null,
+    "improvement_reason": "Restores uncertain causality and preserves useful exhibition-versus-guide organization. Parent full-text review supports fidelity and reader clarity.",
+    "eligibility_review_round": "draft-2"
+  },
+  "selection_basis": "highest_native_document_human",
+  "best_faithful_checkpoint": {
+    "id": "draft-2",
+    "candidate": {
+      "path": "draft-2.txt",
+      "sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4"
+    },
+    "human_percent": 25.06692409515381,
+    "native_class_probabilities": {
+      "human": 0.2506692409515381,
+      "ai": 0.5133237838745117,
+      "ai_edited": 0.1358390897512436,
+      "humanized": 0.10016787052154541
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": true,
+    "declared_reader_improvement": true,
+    "human_change_percentage_points": null,
+    "improvement_reason": "Restores uncertain causality and preserves useful exhibition-versus-guide organization. Parent full-text review supports fidelity and reader clarity.",
+    "eligibility_review_round": "draft-2"
+  },
+  "rounds": [
+    {
+      "id": "source",
+      "candidate": {
+        "path": "source.txt",
+        "sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167"
+      },
+      "human_percent": 0.01635980006540194,
+      "native_class_probabilities": {
+        "human": 0.00016359800065401942,
+        "ai": 0.9991766810417175,
+        "ai_edited": 2.2823302060714923e-05,
+        "humanized": 0.000636905780993402
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [
+        "S3"
+      ],
+      "feedback_closed": false,
+      "is_revision": false,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": null,
+      "improvement_reason": "Original source reviewed before any rewrite; accepted S3 separates the overall exhibition appraisal from the guide recommendation and price verdict."
+    },
+    {
+      "id": "draft-1",
+      "candidate": {
+        "path": "draft-1.txt",
+        "sha256": "05cf11d7d0d26dd4ba049fd64f2ecdc94ef008e8291a9d70dcedde9bbe71f924"
+      },
+      "human_percent": null,
+      "native_class_probabilities": null,
+      "scope": "unavailable",
+      "fidelity_eligible": false,
+      "reader_eligible": true,
+      "open_findings": [
+        "E1"
+      ],
+      "feedback_closed": false,
+      "is_revision": false,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": null,
+      "improvement_reason": "Useful three-paragraph route but parent found causal uncertainty changed into uncertainty about the moving event; rejected before inference."
+    },
+    {
+      "id": "draft-2",
+      "candidate": {
+        "path": "draft-2.txt",
+        "sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4"
+      },
+      "human_percent": 25.06692409515381,
+      "native_class_probabilities": {
+        "human": 0.2506692409515381,
+        "ai": 0.5133237838745117,
+        "ai_edited": 0.1358390897512436,
+        "humanized": 0.10016787052154541
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": true,
+      "declared_reader_improvement": true,
+      "human_change_percentage_points": null,
+      "improvement_reason": "Restores uncertain causality and preserves useful exhibition-versus-guide organization. Parent full-text review supports fidelity and reader clarity."
+    },
+    {
+      "id": "draft-3",
+      "candidate": {
+        "path": "draft-3.txt",
+        "sha256": "d5e79d5787e61d7a86c6018bff60a46ea9363235ee0d7e17cfc42cb0501d0269"
+      },
+      "human_percent": null,
+      "native_class_probabilities": null,
+      "scope": "unavailable",
+      "fidelity_eligible": false,
+      "reader_eligible": true,
+      "open_findings": [
+        "E1",
+        "E2"
+      ],
+      "feedback_closed": false,
+      "is_revision": true,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": null,
+      "improvement_reason": "Fresh-context composition remained coherent but changed expectation to desire and current uncertainty to past inability. Parent rejected before inference; no fresh-context advantage established."
+    },
+    {
+      "id": "draft-4",
+      "candidate": {
+        "path": "draft-4.txt",
+        "sha256": "fd481b2dcafaacd3c65bb3e6af0dade075d407996b5ab2e421b59b4ebd5f1972"
+      },
+      "human_percent": 0.18962293397635221,
+      "native_class_probabilities": {
+        "human": 0.0018962293397635221,
+        "ai": 0.9928049445152283,
+        "ai_edited": 0.0002220163296442479,
+        "humanized": 0.005076845642179251
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": true,
+      "declared_reader_improvement": true,
+      "human_change_percentage_points": null,
+      "improvement_reason": "Fresh writer repairs the two mental-state issues while preserving the full composition. This is a fidelity repair, not an established reader win over draft-2; its native Human is lower."
+    }
+  ],
+  "current_open_findings": [],
+  "numeric_unavailable_rounds": [
+    "draft-1",
+    "draft-3"
+  ],
+  "validation_scope": "Saved records, exact hashes/spans, coverage, native values and followup links; not semantic truth, reviewer independence, execution authenticity or authorship."
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "stop_detail": "Actual source feedback preceded this draft; its exact local measurement and full independent post-draft review contain no actionable editing findings. This manifest is assembled after those events; it is not an autonomous rewriting execution log. Later explicitly requested alternative continuations are recorded separately with the initial comparison preserved.",
+  "revision_limit": 3,
+  "revisions_used": 0,
+  "prior_revisions_used": 0,
+  "recorded_text_revisions": 0,
+  "prior_revision_note": null,
+  "selected_candidate": {
+    "id": "source",
+    "candidate": {
+      "path": "transfer/T02-return-pilot.source.txt",
+      "sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c"
+    },
+    "human_percent": 0.6715842988342047,
+    "native_class_probabilities": {
+      "human": 0.006715842988342047,
+      "ai": 0.9494030475616455,
+      "ai_edited": 0.0012066115159541368,
+      "humanized": 0.04267454519867897
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": false,
+    "declared_reader_improvement": false,
+    "human_change_percentage_points": null,
+    "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original.",
+    "eligibility_review_round": "source"
+  },
+  "selection_basis": "highest_native_document_human",
+  "best_faithful_checkpoint": {
+    "id": "source",
+    "candidate": {
+      "path": "transfer/T02-return-pilot.source.txt",
+      "sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c"
+    },
+    "human_percent": 0.6715842988342047,
+    "native_class_probabilities": {
+      "human": 0.006715842988342047,
+      "ai": 0.9494030475616455,
+      "ai_edited": 0.0012066115159541368,
+      "humanized": 0.04267454519867897
+    },
+    "scope": "whole_document",
+    "fidelity_eligible": true,
+    "reader_eligible": true,
+    "open_findings": [],
+    "feedback_closed": true,
+    "is_revision": false,
+    "declared_reader_improvement": false,
+    "human_change_percentage_points": null,
+    "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original.",
+    "eligibility_review_round": "source"
+  },
+  "rounds": [
+    {
+      "id": "source",
+      "candidate": {
+        "path": "transfer/T02-return-pilot.source.txt",
+        "sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c"
+      },
+      "human_percent": 0.6715842988342047,
+      "native_class_probabilities": {
+        "human": 0.006715842988342047,
+        "ai": 0.9494030475616455,
+        "ai_edited": 0.0012066115159541368,
+        "humanized": 0.04267454519867897
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": false,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": null,
+      "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original."
+    },
+    {
+      "id": "draft-1",
+      "candidate": {
+        "path": "prototype-output/T02/draft-1.txt",
+        "sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d"
+      },
+      "human_percent": 0.45310351997613907,
+      "native_class_probabilities": {
+        "human": 0.004531035199761391,
+        "ai": 0.973919689655304,
+        "ai_edited": 0.0015044831670820713,
+        "humanized": 0.020044874399900436
+      },
+      "scope": "whole_document",
+      "fidelity_eligible": true,
+      "reader_eligible": true,
+      "open_findings": [],
+      "feedback_closed": true,
+      "is_revision": false,
+      "declared_reader_improvement": false,
+      "human_change_percentage_points": -0.2184807788580656,
+      "improvement_reason": "An explicitly requested alternate composition; no required defect in the source, and no automatic claim of superiority to the original."
+    }
+  ],
+  "current_open_findings": [],
+  "numeric_unavailable_rounds": [],
+  "validation_scope": "Saved records, exact hashes/spans, coverage, native values and followup links; not semantic truth, reviewer independence, execution authenticity or authorship."
+}

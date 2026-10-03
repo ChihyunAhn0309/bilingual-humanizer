@@ -1,0 +1,1034 @@
+{
+  "created_at_utc": "2026-10-03T11:02:46.788231+00:00",
+  "status": "complete; archived experiment",
+  "scope": "Writer closure for three frozen-prototype transfer cases, including the two authorized measured continuations. This does not overwrite initial comparisons or development records.",
+  "frozen_method": {
+    "version": "1.11.0-dev",
+    "manifest": {
+      "path": "prototype-skill-hashes.json",
+      "sha256": "634980ce361c7defc551e94d075695e991cc5def4d9e389fb2be87beae4d41c5"
+    },
+    "all_33_files_unchanged": true,
+    "skill_edits_after_transfer": 0
+  },
+  "release_recommendation": {
+    "action": "Keep installed/published v1.10.0; do not release this prototype as a performance upgrade.",
+    "basis": "The fresh initial comparison and two bounded continuations do not demonstrate a substantial reusable detector-performance gain. All selected Human-class responses remain below 1%; one case selects its already eligible source. Editorial eligibility and small reader preferences do not establish the requested performance improvement.",
+    "parent_reported_independent_release_auditor_recommendation": "Keep installed v1.10.0. This writer agrees from the actual feedback read here; no auditor document was newly opened."
+  },
+  "counterpart_excerpt_exposure": "Initial candidate files and first comparison were frozen before exposure. The released T01/T02 pair-feedback packages later exposed some counterpart quoted wording during a broad read. No baseline-output or blind-review files were opened by this writer. Later reads were projected to own aliases. The continuations are feedback-driven and not blind to the other arm; they must not be reported as untouched transfer.",
+  "review_limits": {
+    "initial_review": "Independent blind review was frozen before candidate measurement; this writer read only the released own-candidate reviews afterward.",
+    "continuation_review": "Method identity disclosed for both. T01 new and prior Human values were known to the independent reviewer before prose reading; T02 new native score was unavailable during independent qualitative preparation, while method and prior scores were known. Parent pre-score records remain separate and untouched.",
+    "measurement": "Experimental, independently uncalibrated four-class model response; not verified authorship probabilities, word fractions or quality ratings. Humanized remains within AI involvement. Whole-paragraph deletion changes length and context and does not diagnose a defective passage."
+  },
+  "feedback_read_in_full": {
+    "continuation_feedback_packages": 2,
+    "continuation_validated_reviews": 2,
+    "embedded_continuation_findings_and_triage": 14,
+    "continuation_paragraphs": 7,
+    "native_result_hashes_bound": true,
+    "standalone_triage_files_required": false
+  },
+  "case_revision_counts": {
+    "T01": 1,
+    "T02": 1,
+    "T03": 0
+  },
+  "inference_by_writer_after_handoff": 0,
+  "new_drafts_in_closure": 0,
+  "open_editorial_findings": [],
+  "epistemic_uncertainties_not_editing_tasks": [
+    "Causes of the native model responses and deletion sensitivities remain unestablished.",
+    "Small synthetic-case results do not establish general English detector acceptance or authorship."
+  ],
+  "all_drafts_reviews_failures_and_sources_preserved": true,
+  "cases": [
+    {
+      "id": "T01",
+      "source": {
+        "path": "transfer/T01-repair-queue.source.txt",
+        "sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+        "eligible": true,
+        "class_probabilities": {
+          "human": 0.0030726317781955004,
+          "ai": 0.934532642364502,
+          "ai_edited": 0.0004357806174084544,
+          "humanized": 0.06195886433124542
+        }
+      },
+      "draft_1": {
+        "path": "prototype-output/T01/draft-1.txt",
+        "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+        "eligible": true,
+        "class_probabilities": {
+          "human": 0.009622050449252129,
+          "ai": 0.3345760107040405,
+          "ai_edited": 0.0008108244510367513,
+          "humanized": 0.6549911499023438
+        },
+        "full_review": "candidate-feedback/T01/B/validated-full.json",
+        "native_result": "candidate-feedback/T01/B/native-result.json"
+      },
+      "followup": {
+        "path": "prototype-output/T01/feedback-followup.md",
+        "sha256": "d5e27bf712174440b5ff8bf83140e81e555cd2a7c41b7bcd8021ea95f4938e41"
+      },
+      "initial_drafts": 1,
+      "continuation_revisions": 1,
+      "additional_drafts_authorized": 0,
+      "open_editorial_findings": [],
+      "source_fallback_used": false,
+      "selection_reason": "Select prototype draft 1. The concrete example-first explanation remains slightly preferred by the independent reader and has Human 0.9622050449252129%, above the valid owner-first continuation (0.32673710957169533%) and source. Keep draft 2 archived as a passing but unselected alternative.",
+      "finding_decisions": [
+        {
+          "id": "E1",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain the two real interpretive distinctions; a composed cadence alone is not a defect.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E2",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain the schedule and lamp/chair mechanism, including may and partly.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E3",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain owner agreement before purchase and the possibility of a ready repair waiting.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E4",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain both limits and the information benefit; repeated would has a purpose and is not an independent fault.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E5",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain could and what, if anything: the proposal remains optional and may give an owner no action.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "O1",
+          "stage": "source",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measured deletion response changes length and context; it identifies no independently supported editing defect. Preserve all source meaning.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "O2",
+          "stage": "source",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measured deletion response changes length and context; it identifies no independently supported editing defect. Preserve all source meaning.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "O3",
+          "stage": "source",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measured deletion response changes length and context; it identifies no independently supported editing defect. Preserve all source meaning.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "S1",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T01/B/validated-full.json"
+        },
+        {
+          "id": "S2",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T01/B/validated-full.json"
+        },
+        {
+          "id": "S3",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T01/B/validated-full.json"
+        },
+        {
+          "id": "O1",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T01/B/validated-full.json"
+        },
+        {
+          "id": "O2",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T01/B/validated-full.json"
+        },
+        {
+          "id": "O3",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T01/B/validated-full.json"
+        },
+        {
+          "id": "S1",
+          "stage": "draft-2",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+          "observation": "P1 accurately moves original P2 to the opening. A repair may be ready yet wait for its owner; agreement is still required before purchasing the part. Visitors cannot easily see the pause. The final semicolon preserves the distinction between unfinished and not necessarily neglected. No blame or universal claim is added.",
+          "feedback_file": "continuation-feedback/T01/validated-full.json"
+        },
+        {
+          "id": "S2",
+          "stage": "draft-2",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+          "observation": "P2 preserves original P1: four benches, limits of an empty bench, one electrical volunteer, alternate Saturdays, possible lamp/chair ordering, and a queue partly based on work. All details support the cause rather than functioning as decoration. No fact or qualification is missing.",
+          "feedback_file": "continuation-feedback/T01/validated-full.json"
+        },
+        {
+          "id": "S3",
+          "stage": "draft-2",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+          "observation": "P3 preserves original P3: a hypothetical clearer board, both example labels, comparison with in progress, qualified next-action information, and no added hours or promised completion date. Owners would have remains part of the hypothetical proposal; it does not claim the change has been implemented.",
+          "feedback_file": "continuation-feedback/T01/validated-full.json"
+        },
+        {
+          "id": "O1",
+          "stage": "draft-2",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measurement identifies no independent prose defect. Preserve all required meaning and the passing paragraph; a large delta is not a repair instruction.",
+          "observation": "P1 supplied baseline AI-involvement 0.996732628904283; after full-paragraph removal 0.917919434607029; baseline-minus-removal delta 7.8813194297254086 percentage points.",
+          "feedback_file": "continuation-feedback/T01/validated-full.json"
+        },
+        {
+          "id": "O2",
+          "stage": "draft-2",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measurement identifies no independent prose defect. Preserve all required meaning and the passing paragraph; a large delta is not a repair instruction.",
+          "observation": "P2 supplied baseline AI-involvement 0.996732628904283; after full-paragraph removal 0.10479038953781128; baseline-minus-removal delta 89.19422393664718 percentage points.",
+          "feedback_file": "continuation-feedback/T01/validated-full.json"
+        },
+        {
+          "id": "O3",
+          "stage": "draft-2",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measurement identifies no independent prose defect. Preserve all required meaning and the passing paragraph; a large delta is not a repair instruction.",
+          "observation": "P3 supplied baseline AI-involvement 0.996732628904283; after full-paragraph removal 0.9889580560848117; baseline-minus-removal delta 0.7774572819471359 percentage points.",
+          "feedback_file": "continuation-feedback/T01/validated-full.json"
+        }
+      ],
+      "draft_2": {
+        "path": "prototype-output/T01/draft-2.txt",
+        "sha256": "698c859e5a09aa303a28306f488bd6ce9d68684c456f8df70b88f7d963021a94",
+        "eligible": true,
+        "class_probabilities": {
+          "human": 0.0032673710957169533,
+          "ai": 0.9432140588760376,
+          "ai_edited": 0.0002578019630163908,
+          "humanized": 0.05326070263981819
+        },
+        "full_review": "continuation-feedback/T01/validated-full.json",
+        "feedback_package": "continuation-feedback/T01/feedback-package.json",
+        "native_result": "continuation-feedback/T01/native-result.json",
+        "parent_prescore": {
+          "path": "prototype-output/T01/draft-2-prescore.json",
+          "sha256": "74dec9be538a77cf2d959996c9ca61f47d851d31c76c7fc56838caf5c51fdfbb"
+        },
+        "reader_judgment": "The owner-first route is valid, but I retain a slight preference for the prior T01 B example-first explanation: the lamp/chair example provides a more concrete opening and connects directly to the specialist. The new version has no necessary defect; it simply offers no clear reader advantage to offset the disclosed numerical regression.",
+        "independent_review_score_disclosure": "Parent disclosed draft-2 Human 0.32673710957169533% and prior Human 0.962205% before this independent reading. This review is not score-blind.",
+        "paragraph_deletion_sensitivity_percentage_points": {
+          "P1": 7.8813194297254086,
+          "P2": 89.19422393664718,
+          "P3": 0.7774572819471359
+        },
+        "change_from_draft_1_percentage_points": {
+          "human": -0.6354679353535175,
+          "ai": 60.86380481719971,
+          "ai_edited": -0.05530224880203605,
+          "humanized": -60.173044726252556
+        },
+        "change_from_source_percentage_points": {
+          "human": 0.01947393175214529,
+          "ai": 0.8681416511535645,
+          "ai_edited": -0.017797865439206362,
+          "humanized": -0.8698161691427231
+        }
+      },
+      "continuation_triage_location": "continuation-feedback/T01/validated-full.json#/findings/*/triage",
+      "standalone_continuation_triage_file": "Not produced: complete authentic triage is embedded in the validated review and feedback package. This is not a missing review or failed measurement.",
+      "final_selection": {
+        "path": "prototype-output/T01/draft-1.txt",
+        "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+        "version": "draft-1",
+        "human_class_percent": 0.9622050449252129,
+        "native_classes": {
+          "human": 0.009622050449252129,
+          "ai": 0.3345760107040405,
+          "ai_edited": 0.0008108244510367513,
+          "humanized": 0.6549911499023438
+        }
+      },
+      "best_eligible_prototype_rewrite": {
+        "path": "prototype-output/T01/draft-1.txt",
+        "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+        "version": "draft-1",
+        "class_probabilities": {
+          "human": 0.009622050449252129,
+          "ai": 0.3345760107040405,
+          "ai_edited": 0.0008108244510367513,
+          "humanized": 0.6549911499023438
+        }
+      }
+    },
+    {
+      "id": "T02",
+      "source": {
+        "path": "transfer/T02-return-pilot.source.txt",
+        "sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+        "eligible": true,
+        "class_probabilities": {
+          "human": 0.006715842988342047,
+          "ai": 0.9494030475616455,
+          "ai_edited": 0.0012066115159541368,
+          "humanized": 0.04267454519867897
+        }
+      },
+      "draft_1": {
+        "path": "prototype-output/T02/draft-1.txt",
+        "sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+        "eligible": true,
+        "class_probabilities": {
+          "human": 0.004531035199761391,
+          "ai": 0.973919689655304,
+          "ai_edited": 0.0015044831670820713,
+          "humanized": 0.020044874399900436
+        },
+        "full_review": "candidate-feedback/T02/A/validated-full.json",
+        "native_result": "candidate-feedback/T02/A/native-result.json"
+      },
+      "followup": {
+        "path": "prototype-output/T02/feedback-followup.md",
+        "sha256": "cc64ff00772f1a5339b591a44a0c640aa1abfcbb5fff2bb64b4be6dd715efd70"
+      },
+      "initial_drafts": 1,
+      "continuation_revisions": 1,
+      "additional_drafts_authorized": 0,
+      "open_editorial_findings": [],
+      "source_fallback_used": true,
+      "selection_reason": "Select the original source. Its source review already found a clear, eligible memo, and its Human 0.6715842988342047% exceeds draft 2 (0.6310708820819855%) and draft 1. The independent review found no decisive reader advantage to replace it. Draft 2 is the highest-scoring eligible prototype rewrite, but this source fallback is not a successful humanization result.",
+      "finding_decisions": [
+        {
+          "id": "E1",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain the announcement and explicit unchanged borrowing limits.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E2",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain distinct if-branches for missing equipment and unavailable file; procedural repetition is useful.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E3",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain the distinction between kit availability and permission for its returner to leave, including immediate safety.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E4",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain the exact Nia deadline and no-duplicate-entry exemption.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E5",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain the writer's review commitment and undecided continuation; no success claim is needed.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "O1",
+          "stage": "source",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measured deletion response changes length and context; it identifies no independently supported editing defect. Preserve all source meaning.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "O2",
+          "stage": "source",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measured deletion response changes length and context; it identifies no independently supported editing defect. Preserve all source meaning.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "O3",
+          "stage": "source",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measured deletion response changes length and context; it identifies no independently supported editing defect. Preserve all source meaning.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "O4",
+          "stage": "source",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measured deletion response changes length and context; it identifies no independently supported editing defect. Preserve all source meaning.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "S1",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T02/A/validated-full.json"
+        },
+        {
+          "id": "S2",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T02/A/validated-full.json"
+        },
+        {
+          "id": "S3",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T02/A/validated-full.json"
+        },
+        {
+          "id": "S4",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T02/A/validated-full.json"
+        },
+        {
+          "id": "S5",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T02/A/validated-full.json"
+        },
+        {
+          "id": "O1",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T02/A/validated-full.json"
+        },
+        {
+          "id": "O2",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T02/A/validated-full.json"
+        },
+        {
+          "id": "O3",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T02/A/validated-full.json"
+        },
+        {
+          "id": "O4",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T02/A/validated-full.json"
+        },
+        {
+          "id": "O5",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T02/A/validated-full.json"
+        },
+        {
+          "id": "S1",
+          "stage": "draft-2",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+          "observation": "P1 retains next Monday, the two-week shared-log trial, projectors and audio kits, both desks, and unchanged borrowing limits. Start a trial is faithful to the authorized trial announcement; it is not a permanent policy.",
+          "feedback_file": "continuation-feedback/T02/validated-full.json"
+        },
+        {
+          "id": "S2",
+          "stage": "draft-2",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+          "observation": "P2 retains the access trigger and Friday 3 p.m. deadline, then explicitly changes scope to during the trial for the file-unavailability fallback. The paper sheet remains beside the cupboard, Nia transfers the entries the following morning, and desk staff need not duplicate them. The grouped paragraph is clear.",
+          "feedback_file": "continuation-feedback/T02/validated-full.json"
+        },
+        {
+          "id": "S3",
+          "stage": "draft-2",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+          "observation": "P3 preserves logging before storage, kit number and return time, the missing-item shelf and note, no marking available during checking, and the borrower's permission to leave except for an immediate safety concern. The exception-first sentence and record synonym change neither agency nor force.",
+          "feedback_file": "continuation-feedback/T02/validated-full.json"
+        },
+        {
+          "id": "S4",
+          "stage": "draft-2",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The paragraph preserves the source's propositions and speech acts and remains readable. No required repair is identified.",
+          "observation": "P4 retains an undecided permanent outcome and the writer's review after week two, including both desks and the usefulness question. Reversing the two sentences does not prejudge the result or weaken consultation.",
+          "feedback_file": "continuation-feedback/T02/validated-full.json"
+        },
+        {
+          "id": "O1",
+          "stage": "draft-2",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measurement identifies no independent prose defect. Preserve all required meaning and the passing paragraph; a large delta is not a repair instruction.",
+          "observation": "P1 supplied baseline AI-involvement 0.9936892911791801; after full-paragraph removal 0.9138666838407516; baseline-minus-removal delta 7.98226073384285 percentage points.",
+          "feedback_file": "continuation-feedback/T02/validated-full.json"
+        },
+        {
+          "id": "O2",
+          "stage": "draft-2",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measurement identifies no independent prose defect. Preserve all required meaning and the passing paragraph; a large delta is not a repair instruction.",
+          "observation": "P2 supplied baseline AI-involvement 0.9936892911791801; after full-paragraph removal 0.40887129306793213; baseline-minus-removal delta 58.4817998111248 percentage points.",
+          "feedback_file": "continuation-feedback/T02/validated-full.json"
+        },
+        {
+          "id": "O3",
+          "stage": "draft-2",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measurement identifies no independent prose defect. Preserve all required meaning and the passing paragraph; a large delta is not a repair instruction.",
+          "observation": "P3 supplied baseline AI-involvement 0.9936892911791801; after full-paragraph removal 0.9626839570701122; baseline-minus-removal delta 3.1005334109067917 percentage points.",
+          "feedback_file": "continuation-feedback/T02/validated-full.json"
+        },
+        {
+          "id": "O4",
+          "stage": "draft-2",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measurement identifies no independent prose defect. Preserve all required meaning and the passing paragraph; a large delta is not a repair instruction.",
+          "observation": "P4 supplied baseline AI-involvement 0.9936892911791801; after full-paragraph removal 0.9873531144112349; baseline-minus-removal delta 0.633617676794529 percentage points.",
+          "feedback_file": "continuation-feedback/T02/validated-full.json"
+        }
+      ],
+      "draft_2": {
+        "path": "prototype-output/T02/draft-2.txt",
+        "sha256": "39739e2375cd2c7becddb0ffe5f7f6956f8886dd1a5e8efbccf4cd86f5b8580d",
+        "eligible": true,
+        "class_probabilities": {
+          "human": 0.006310708820819855,
+          "ai": 0.969171404838562,
+          "ai_edited": 0.0018963919719681144,
+          "humanized": 0.022621504962444305
+        },
+        "full_review": "continuation-feedback/T02/validated-full.json",
+        "feedback_package": "continuation-feedback/T02/feedback-package.json",
+        "native_result": "continuation-feedback/T02/native-result.json",
+        "parent_prescore": {
+          "path": "prototype-output/T02/draft-2-prescore.json",
+          "sha256": "0c81d928c1907dbdc8e261e0e91ecc81cc4ac84b6a660cb25b5f0f51917e0c56"
+        },
+        "reader_judgment": "This is a faithful, usable alternative. Grouping file access and fallback is reasonable, while the previous separate deadline paragraph was easier to scan. I find no decisive reader advantage over the prior competent memo versions and no necessary repair.",
+        "independent_review_score_disclosure": "No draft-2 native score was available to this reviewer during the independent prose reading or this qualitative preparation. Method identity is explicitly prototype; source and earlier candidate scores were already known.",
+        "paragraph_deletion_sensitivity_percentage_points": {
+          "P1": 7.98226073384285,
+          "P2": 58.4817998111248,
+          "P3": 3.1005334109067917,
+          "P4": 0.633617676794529
+        },
+        "change_from_draft_1_percentage_points": {
+          "human": 0.1779673621058464,
+          "ai": -0.47482848167419434,
+          "ai_edited": 0.03919088048860431,
+          "humanized": 0.2576630562543869
+        },
+        "change_from_source_percentage_points": {
+          "human": -0.0405134167522192,
+          "ai": 1.9768357276916504,
+          "ai_edited": 0.06897804560139775,
+          "humanized": -2.0053040236234665
+        }
+      },
+      "continuation_triage_location": "continuation-feedback/T02/validated-full.json#/findings/*/triage",
+      "standalone_continuation_triage_file": "Not produced: complete authentic triage is embedded in the validated review and feedback package. This is not a missing review or failed measurement.",
+      "final_selection": {
+        "path": "transfer/T02-return-pilot.source.txt",
+        "sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+        "version": "original source",
+        "human_class_percent": 0.6715842988342047,
+        "native_classes": {
+          "human": 0.006715842988342047,
+          "ai": 0.9494030475616455,
+          "ai_edited": 0.0012066115159541368,
+          "humanized": 0.04267454519867897
+        }
+      },
+      "best_eligible_prototype_rewrite": {
+        "path": "prototype-output/T02/draft-2.txt",
+        "sha256": "39739e2375cd2c7becddb0ffe5f7f6956f8886dd1a5e8efbccf4cd86f5b8580d",
+        "version": "draft-2",
+        "class_probabilities": {
+          "human": 0.006310708820819855,
+          "ai": 0.969171404838562,
+          "ai_edited": 0.0018963919719681144,
+          "humanized": 0.022621504962444305
+        }
+      }
+    },
+    {
+      "id": "T03",
+      "source": {
+        "path": "transfer/T03-chair-reflection.source.txt",
+        "sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+        "eligible": true,
+        "class_probabilities": {
+          "human": 0.00023340170446317643,
+          "ai": 0.9977485537528992,
+          "ai_edited": 2.3613234588992782e-05,
+          "humanized": 0.0019944419618695974
+        }
+      },
+      "draft_1": {
+        "path": "prototype-output/T03/draft-1.txt",
+        "sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0",
+        "eligible": true,
+        "class_probabilities": {
+          "human": 0.001346115255728364,
+          "ai": 0.9849531650543213,
+          "ai_edited": 0.000114055146696046,
+          "humanized": 0.013586649671196938
+        },
+        "full_review": "candidate-feedback/T03/B/validated-full.json",
+        "native_result": "candidate-feedback/T03/B/native-result.json"
+      },
+      "followup": {
+        "path": "prototype-output/T03/feedback-followup.md",
+        "sha256": "7ed47ef9b11b200df607682c2569d6e0e33ed3e9a15cecaf7476852ee2c76869"
+      },
+      "initial_drafts": 1,
+      "continuation_revisions": 0,
+      "additional_drafts_authorized": 0,
+      "open_editorial_findings": [],
+      "source_fallback_used": false,
+      "selection_reason": "Select prototype draft 1, unchanged. Its independent initial review passed every paragraph and slightly preferred its restrained reader route. Human 0.1346115255728364% exceeds the source but remains very low. The small response and absence of necessary repairs do not warrant further rewriting.",
+      "finding_decisions": [
+        {
+          "id": "E1",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain the practical towel warning and continued explanations despite visitors understanding.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E2",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain present inability to remember and both tentative patch explanations.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E3",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain functional rhythm variation; no sentence-length target or added fragments.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E4",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain the anti-resolution and unresolved box, without adding a moral.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "E5",
+          "stage": "source",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Retain the towel callback as continuity, not an independent authorship vote.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "O1",
+          "stage": "source",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measured deletion response changes length and context; it identifies no independently supported editing defect. Preserve all source meaning.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "O2",
+          "stage": "source",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measured deletion response changes length and context; it identifies no independently supported editing defect. Preserve all source meaning.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "O3",
+          "stage": "source",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The measured deletion response changes length and context; it identifies no independently supported editing defect. Preserve all source meaning.",
+          "feedback_file": "transfer-reviews/common-feedback.json"
+        },
+        {
+          "id": "S1",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T03/B/validated-full.json"
+        },
+        {
+          "id": "S2",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T03/B/validated-full.json"
+        },
+        {
+          "id": "S3",
+          "stage": "draft-1",
+          "basis": "style_observation",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+          "feedback_file": "candidate-feedback/T03/B/validated-full.json"
+        },
+        {
+          "id": "O1",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T03/B/validated-full.json"
+        },
+        {
+          "id": "O2",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T03/B/validated-full.json"
+        },
+        {
+          "id": "O3",
+          "stage": "draft-1",
+          "basis": "local_occlusion",
+          "action": "retain",
+          "repair_required": false,
+          "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+          "feedback_file": "candidate-feedback/T03/B/validated-full.json"
+        }
+      ],
+      "final_selection": {
+        "path": "prototype-output/T03/draft-1.txt",
+        "sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0",
+        "version": "draft-1",
+        "human_class_percent": 0.1346115255728364,
+        "native_classes": {
+          "human": 0.001346115255728364,
+          "ai": 0.9849531650543213,
+          "ai_edited": 0.000114055146696046,
+          "humanized": 0.013586649671196938
+        }
+      },
+      "best_eligible_prototype_rewrite": {
+        "path": "prototype-output/T03/draft-1.txt",
+        "sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0",
+        "version": "draft-1",
+        "class_probabilities": {
+          "human": 0.001346115255728364,
+          "ai": 0.9849531650543213,
+          "ai_edited": 0.000114055146696046,
+          "humanized": 0.013586649671196938
+        }
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "transfer-reviews/common-feedback.json",
+      "sha256": "81a99e4d250ff737d1415c6837ea00f353185ec34102e0b0e98bf28e71f0a6d2"
+    },
+    {
+      "path": "prototype-skill-hashes.json",
+      "sha256": "634980ce361c7defc551e94d075695e991cc5def4d9e389fb2be87beae4d41c5"
+    },
+    {
+      "path": "METHOD-FREEZE.json",
+      "sha256": "33c12214b064380e786e1cc4c349369c9cd089aec50f550f4f1c40f510987f37"
+    },
+    {
+      "path": "prototype-output/draft-1-manifest.json",
+      "sha256": "b3cf6a03bb9bc9e0689c8c9d578574a64487bd715a1ff92a1fdd23ad8b77c0dc"
+    },
+    {
+      "path": "prototype-output/draft-2-manifest.json",
+      "sha256": "622f4db248c8df4ef34db6361a685d0ef8f349a6ae3bf5479c76618eaa5513fd"
+    },
+    {
+      "path": "continuation-feedback/complete-feedback-manifest.json",
+      "sha256": "db9c5c599e51ed5c14e9b6577e55dc2f4875e61351b72f33ffec6a5b4f32cde8"
+    },
+    {
+      "path": "transfer/T01-repair-queue.source.txt",
+      "sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697"
+    },
+    {
+      "path": "prototype-output/T01/draft-1.txt",
+      "sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1"
+    },
+    {
+      "path": "prototype-output/T01/feedback-followup.md",
+      "sha256": "d5e27bf712174440b5ff8bf83140e81e555cd2a7c41b7bcd8021ea95f4938e41"
+    },
+    {
+      "path": "prototype-output/T01/writer-review.md",
+      "sha256": "87d6bb1a29755d5151a463052b3717d3d6c5100ef1772f11798f37fc0cafed72"
+    },
+    {
+      "path": "candidate-feedback/T01/B/validated-full.json",
+      "sha256": "ec0d58d0cb0672b7fe72f59af8b101c0ebc0ce0c1cf1508caeadb7b5383a6306"
+    },
+    {
+      "path": "candidate-feedback/T01/B/triage.json",
+      "sha256": "784e777845e8d5fa8d9eb37a7968831e8db93c2945b526de5453f2050e72ce76"
+    },
+    {
+      "path": "candidate-feedback/T01/B/native-result.json",
+      "sha256": "acaf71a38bb5fb9fff89b3400209555dd7696f3fa58a742c77412088cf2d3db6"
+    },
+    {
+      "path": "prototype-output/T01/draft-2.txt",
+      "sha256": "698c859e5a09aa303a28306f488bd6ce9d68684c456f8df70b88f7d963021a94"
+    },
+    {
+      "path": "prototype-output/T01/draft-2-prescore.json",
+      "sha256": "74dec9be538a77cf2d959996c9ca61f47d851d31c76c7fc56838caf5c51fdfbb"
+    },
+    {
+      "path": "continuation-feedback/T01/validated-full.json",
+      "sha256": "0c5764681ae8ab5e5671f09cdf3abb35b915c685f840f2f40a5eec537a98781e"
+    },
+    {
+      "path": "continuation-feedback/T01/feedback-package.json",
+      "sha256": "a032ee7223baa3dc048e192bd09374dc194d27d8a2066adc4a8e9c6cca629251"
+    },
+    {
+      "path": "continuation-feedback/T01/native-result.json",
+      "sha256": "6685d0be75621f562d486f4e71a278faa7b5ef21f47786e37e2aa6f2f606a015"
+    },
+    {
+      "path": "transfer/T02-return-pilot.source.txt",
+      "sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c"
+    },
+    {
+      "path": "prototype-output/T02/draft-1.txt",
+      "sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d"
+    },
+    {
+      "path": "prototype-output/T02/feedback-followup.md",
+      "sha256": "cc64ff00772f1a5339b591a44a0c640aa1abfcbb5fff2bb64b4be6dd715efd70"
+    },
+    {
+      "path": "prototype-output/T02/writer-review.md",
+      "sha256": "da84cb16b112e283a7eca0c3cb2f177a00ea6b1f5dff24992a6c44d74a8a9b76"
+    },
+    {
+      "path": "candidate-feedback/T02/A/validated-full.json",
+      "sha256": "26928e27c3edb9639f37430319cd35bd08417b537e49aedaf85b2c9eb62977e4"
+    },
+    {
+      "path": "candidate-feedback/T02/A/triage.json",
+      "sha256": "d28303ea2ecd9f757f8b5ecc23d7efae0349b942f0e61aedfb31c9734e4757a6"
+    },
+    {
+      "path": "candidate-feedback/T02/A/native-result.json",
+      "sha256": "9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a"
+    },
+    {
+      "path": "prototype-output/T02/draft-2.txt",
+      "sha256": "39739e2375cd2c7becddb0ffe5f7f6956f8886dd1a5e8efbccf4cd86f5b8580d"
+    },
+    {
+      "path": "prototype-output/T02/draft-2-prescore.json",
+      "sha256": "0c81d928c1907dbdc8e261e0e91ecc81cc4ac84b6a660cb25b5f0f51917e0c56"
+    },
+    {
+      "path": "continuation-feedback/T02/validated-full.json",
+      "sha256": "915c8b94272842ac53bdbde9ad139a45f9bd5b4451bca46da26a01e45636b793"
+    },
+    {
+      "path": "continuation-feedback/T02/feedback-package.json",
+      "sha256": "49c800d2ed53c66bf56cf654fe2ab9b2c64406d799979b10129e826167e953b7"
+    },
+    {
+      "path": "continuation-feedback/T02/native-result.json",
+      "sha256": "67b5ddc59bb6a360c83c8038ca6a285481292bd3712b032727b98ed77572beae"
+    },
+    {
+      "path": "transfer/T03-chair-reflection.source.txt",
+      "sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9"
+    },
+    {
+      "path": "prototype-output/T03/draft-1.txt",
+      "sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0"
+    },
+    {
+      "path": "prototype-output/T03/feedback-followup.md",
+      "sha256": "7ed47ef9b11b200df607682c2569d6e0e33ed3e9a15cecaf7476852ee2c76869"
+    },
+    {
+      "path": "prototype-output/T03/writer-review.md",
+      "sha256": "8ad04428057497ff1c99db86210f04fd5749df7a28fc66134331fd6688d8ffe6"
+    },
+    {
+      "path": "candidate-feedback/T03/B/validated-full.json",
+      "sha256": "f778c9119aca6d6537e4b890339613197050a958bf6f49e17cf7af8511386f48"
+    },
+    {
+      "path": "candidate-feedback/T03/B/triage.json",
+      "sha256": "146d9fcf27b8bf0be72a6f4096eaca8017b40047888515440a8b072bfe29524d"
+    },
+    {
+      "path": "candidate-feedback/T03/B/native-result.json",
+      "sha256": "4fae9d5f90ea32a62e41c21ec018d8ea00d7b871b366194f97311f73687ebb57"
+    }
+  ],
+  "finding_totals": {
+    "source": 25,
+    "initial_prototype": 22,
+    "continuation": 14,
+    "all_retained": 61,
+    "revise": 0,
+    "unresolved_editorial": 0
+  }
+}

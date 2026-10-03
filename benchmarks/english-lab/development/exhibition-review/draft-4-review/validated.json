@@ -1,0 +1,200 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "fd481b2dcafaacd3c65bb3e6af0dade075d407996b5ab2e421b59b4ebd5f1972",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Fresh-writer repair restores expected content and present uncertainty; full source comparison and parent pre-score review find the current draft faithful. Native Human 0.1896229% is above source 0.0163598% but far below selected draft-2's 25.0669241%. Fresh context did not improve this case and is not adopted into the recommended method. No open fidelity repair; the main path has used three revisions. Parallel-repair artifact discrepancy is documented separately and must not be hidden by cycle validation.",
+  "document_analysis": {
+    "structure": "Guide expectation/content and interview in P1; operation, navigation and price judgment in P2; exhibition visit/closure in P3. Coherent alternative but no overall reader win over draft-2.",
+    "reasoning_specificity": "All source details and numeric values survive. Current inability to tell permanence versus moved-exhibits cause is explicit, and expectation remains expectation.",
+    "voice_consistency": "Measured British first-person review. No invented memory or sensation. This full file was repaired by the fresh writer, not the development lead's distinct retained parallel version.",
+    "rhythm_repetition": "Several conventional conjunctions and a closure restatement are readable; the lower native score does not justify manufacturing a style defect or another rewrite.",
+    "language_features": "The two pre-score faults are repaired by expecting and can't. Expected port history, described labelled objects, and photograph understanding preserve distinct functions.",
+    "citations_provenance": "AI-origin fixture and fresh-context AI composition. Parent prescore review bound fd481b2d... before model run. Development lead's parallel repair 0cf75600... is preserved unscored, and an explicit provenance correction records the extra artifact. This post-score review is by the development lead."
+  },
+  "findings": [
+    {
+      "id": "D1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "The opening now states expectation rather than hope, preserving the source's mental stance.",
+      "interpretation": "Fresh draft-3 E1 is resolved; guide detail and interview recommendation remain intact.",
+      "human_alternative": "A human reviewer can use this same direct narrative form; no authorship conclusion follows.",
+      "discriminating_evidence": "Parent and lead source comparisons support repair, not universal style superiority.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 482,
+          "quote": "I hired the £4 audio guide on Sunday's visit to the harbour exhibition, expecting to hear how the port had changed over time. Most of the recordings described objects already identified by the labels. One exception was a six-minute interview with a former crane operator, who explained why crews resorted to hand signals when the radio failed. That account of how they worked helped me understand a photograph I had walked past earlier. I would recommend listening to the interview.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "Can't tell explicitly preserves current uncertainty, with exhibit movement still offered as a possible cause of the mismatch.",
+      "interpretation": "Fresh draft-3 E2 is resolved while replay ability, order mismatch, two backtracks and price verdict remain.",
+      "human_alternative": "Careful human writing also preserves ongoing uncertainty in a past-event account.",
+      "discriminating_evidence": "The repair is verified against original tense and causal scope, independent of the model value.",
+      "spans": [
+        {
+          "start": 484,
+          "end": 877,
+          "quote": "The guide was easy to operate, and I could replay an individual recording without starting the whole sequence again. The numbering on the cases did not always match the order in the guide, though, and I doubled back twice. I can't tell whether the mismatch was permanent or had been caused by exhibits being moved. Even with the interview, I wouldn't hire the guide again at its current price.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "observation": "Worthwhile visit, approximate hour, conditional longer stay, room closure and desk nonstatement all remain.",
+      "interpretation": "The separate closure sentence repeats an implication but is understandable and source-supported. It does not justify another mandatory revision.",
+      "human_alternative": "A reviewer may explicitly state a closure to orient future visitors.",
+      "discriminating_evidence": "This is a reader-choice trade-off, not an AI-only pattern.",
+      "spans": [
+        {
+          "start": 879,
+          "end": 1098,
+          "quote": "The exhibition itself was worth visiting. I spent about an hour there and would have stayed longer if the upstairs room had been open. It was closed during my visit, and the ticket desk did not say when it would reopen.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "basis": "local_occlusion",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 879,
+          "end": 1098,
+          "quote": "The exhibition itself was worth visiting. I spent about an hour there and would have stayed longer if the upstairs room had been open. It was closed during my visit, and the ticket desk did not say when it would reopen.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "Largest absolute paragraph-deletion sensitivity: P3. Baseline AI-involvement=0.9981037706602365; after deletion=0.9495719261467457; delta=4.85318445134908 percentage points.",
+      "interpretation": "Measured context/length sensitivity, not paragraph authorship probability or proof of a defective phrase. Reviewed this paragraph in the whole document.",
+      "human_alternative": "Conventional human prose can receive high-confidence false positives on this experimental model; deleting text also changes context and length.",
+      "discriminating_evidence": "A complete faithful alternative can test model response but cannot authenticate writing history.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\exhibition-review\\draft-4-score\\model-result.json"
+    },
+    {
+      "id": "H",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 482,
+          "quote": "I hired the £4 audio guide on Sunday's visit to the harbour exhibition, expecting to hear how the port had changed over time. Most of the recordings described objects already identified by the labels. One exception was a six-minute interview with a former crane operator, who explained why crews resorted to hand signals when the radio failed. That account of how they worked helped me understand a photograph I had walked past earlier. I would recommend listening to the interview.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "New AI-origin synthetic source and AI-authored development rewrites, created for this experiment.",
+      "interpretation": "Known generation history is separate from naturalness and the uncalibrated native classes.",
+      "human_alternative": "A human could write similar prose; that possibility does not change this fixture creation record.",
+      "discriminating_evidence": "No claim is made that the described events occurred. Hashes identify exact artifacts, not authorship.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\development\\PROTOCOL.md"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 482,
+      "line": 1,
+      "text": "I hired the £4 audio guide on Sunday's visit to the harbour exhibition, expecting to hear how the port had changed over time. Most of the recordings described objects already identified by the labels. One exception was a six-minute interview with a former crane operator, who explained why crews resorted to hand signals when the radio failed. That account of how they worked helped me understand a photograph I had walked past earlier. I would recommend listening to the interview.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Expectation restored and interview-based explanation retained.",
+      "finding_ids": [
+        "D1",
+        "H"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 484,
+      "end": 877,
+      "line": 3,
+      "text": "The guide was easy to operate, and I could replay an individual recording without starting the whole sequence again. The numbering on the cases did not always match the order in the guide, though, and I doubled back twice. I can't tell whether the mismatch was permanent or had been caused by exhibits being moved. Even with the interview, I wouldn't hire the guide again at its current price.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Current uncertainty and causal relation retained with all operational observations.",
+      "finding_ids": [
+        "D2"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 879,
+      "end": 1098,
+      "line": 5,
+      "text": "The exhibition itself was worth visiting. I spent about an hour there and would have stayed longer if the upstairs room had been open. It was closed during my visit, and the ticket desk did not say when it would reopen.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Overall visit judgment and practical closure detail are intact and readable.",
+      "finding_ids": [
+        "D3",
+        "M"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 3,
+    "paragraphs_reviewed": 3,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_local_model",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "measured_at_utc": "2026-10-03T10:26:57.866098+00:00",
+    "class_probabilities": {
+      "human": 0.0018962293397635221,
+      "ai": 0.9928049445152283,
+      "ai_edited": 0.0002220163296442479,
+      "humanized": 0.005076845642179251
+    },
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "calibration": null,
+    "applicability_cautions": [],
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "language_scope": "English only; independently uncalibrated",
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  }
+}

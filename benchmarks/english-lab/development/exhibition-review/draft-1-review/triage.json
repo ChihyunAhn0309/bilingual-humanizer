@@ -1,0 +1,12 @@
+[
+  {
+    "finding_id": "E1",
+    "decision": "revise",
+    "reason": "Restore causal relationship without claiming the move actually caused the mismatch."
+  },
+  {
+    "finding_id": "H",
+    "decision": "retain",
+    "reason": "Preserve known AI-origin provenance regardless of scores."
+  }
+]

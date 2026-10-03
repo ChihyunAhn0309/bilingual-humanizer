@@ -1,0 +1,20 @@
+{
+  "reviewed_at_utc": "2026-10-03T10:54:55.713613+00:00",
+  "reviewer": "parent separate from writer, aware of earlier scores/method; not a new blind or human reviewer",
+  "candidate_sha256": "39739e2375cd2c7becddb0ffe5f7f6956f8886dd1a5e8efbccf4cd86f5b8580d",
+  "source_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+  "eligible_for_scoring": true,
+  "fidelity_pass": true,
+  "reader_eligible": true,
+  "necessary_repairs": [],
+  "candidate_score_seen": false,
+  "paragraph_reviews": [
+    "P1 preserves next-Monday two-week trial, shared return log, borrowed projectors/audio kits, North/Annex desks, recording change and unchanged borrowing limits. No dates or promised outcome invented.",
+    "P2 retains inability-to-open trigger, Nia, Friday 3 p.m. deadline, separately marked during-trial unavailability, paper sheet beside cupboard, Nia next-morning transcription and reader exemption from duplicate entry. Grouping does not make the outage condition depend on missing the deadline.",
+    "P3 retains return-time logging of kit number and time before cupboard placement, missing-item inspection shelf and short log note, prohibition during checking and permission for the returning person to leave unless an immediate safety concern exists.",
+    "P4 keeps permanent continuation undecided and retains writer review after week two plus asking both desks whether the extra step was useful. Sequence of review and final decision is not changed into an adoption commitment."
+  ],
+  "reader_assessment": "The file-access responsibilities are grouped before the return procedure, with timing distinctions still explicit. The Friday request is less visually prominent than in draft1, but the four-paragraph route remains clear and suitable. Full source comparison and sequential reader review found no necessary repair.",
+  "scope": "Feedback-driven continuation after the frozen first comparison; not untouched transfer. Writer has disclosed limited other-arm excerpt exposure in released feedback.",
+  "budget": "One initial draft plus one changed revision; the earlier candidate remains intact."
+}

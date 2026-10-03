@@ -1,0 +1,129 @@
+{
+  "case_id": "T02",
+  "candidate": "A",
+  "candidate_sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "S4",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "S5",
+      "basis": "style_observation",
+      "action": "retain",
+      "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+      "repair_required": false,
+      "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    },
+    {
+      "id": "O4",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    },
+    {
+      "id": "O5",
+      "basis": "local_occlusion",
+      "action": "retain",
+      "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+      "repair_required": false,
+      "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+    }
+  ],
+  "summary": {
+    "revise": 0,
+    "retain": 10,
+    "unresolved": 0
+  },
+  "closure": {
+    "fidelity_pass": true,
+    "reader_eligible": true,
+    "necessary_repairs": [],
+    "decision": "retain",
+    "reason": "No source-fidelity or reader-quality defect was found in the pre-score review. Optional stylistic differences do not compel another rewrite.",
+    "blind_pair_preference": {
+      "choice": "tie",
+      "strength": "no_material_preference",
+      "reason": "Both versions are clear, complete, and equally usable as an internal memo. A is slightly more conversational and compact; B makes the kit referent explicit and uses fuller negative forms. The difference does not produce a meaningful reader-quality advantage in this context.",
+      "exact_candidate_evidence": {
+        "A": [
+          {
+            "start": 484,
+            "end": 638,
+            "quote": "Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ],
+        "B": [
+          {
+            "start": 483,
+            "end": 655,
+            "quote": "Please do not mark the kit available while we are still checking it. Unless there is an immediate safety concern, the person returning it does not need to wait at the desk.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ]
+      },
+      "counterconsideration": "A house style preferring contractions could favor A; a procedural template preferring full negatives could favor B. Neither preference is supplied, and both retain the required force.",
+      "fidelity_overrides_applied": false,
+      "method_identity_inference": null
+    },
+    "post_measurement_action": "retain",
+    "post_measurement_reason": "The new native feedback is bound and reviewed. It supplies no independently grounded repair need. Keep the passing candidate and the frozen reader judgment; do not begin a rewrite solely to chase an uncalibrated score.",
+    "measured_feedback_reviewed": true,
+    "next_action": "Return the measured evidence and retain decisions to the writer; any later revision requires a separately stated real defect or changed user requirement."
+  }
+}

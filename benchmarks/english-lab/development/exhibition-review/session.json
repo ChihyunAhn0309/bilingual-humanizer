@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "source": {
+    "path": "source.txt",
+    "sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167"
+  },
+  "revision_limit": 3,
+  "prior_revisions_used": 0,
+  "rounds": [
+    {
+      "id": "source",
+      "candidate": {
+        "path": "source.txt",
+        "sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167"
+      },
+      "native": {
+        "path": "source-score/model-result.json",
+        "sha256": "617f9c476d13ad1a494e60be1d5fc5afbfe5992d06aa0d2abb70a3da9af44f41"
+      },
+      "feedback": {
+        "path": "source-score/feedback.json",
+        "sha256": "720e6818416ba417b49501da13e3e73618e7b1caa7c639a5a780b77af39ccc96"
+      },
+      "review": {
+        "path": "source-review/validated.json",
+        "sha256": "eb541752581f34a7ca4f073d2cc032fd17269fe9d68d53f211ea3b01d975ace5"
+      },
+      "fidelity": {
+        "eligible": true,
+        "reason": "A specific mixed personal review with a useful exception, usability facts, uncertainty and a price judgment. The content is already clear. The abstract 'The exception was' bridge separates the writer's expectation from the recording that met it, and the final paragraph puts the guide verdict before reopening the wider visit. A source-grounded alternative can make that distinction easier to follow. AI-origin fixture; native classes are experimental and uncalibrated.",
+        "source_sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167"
+      },
+      "reader": {
+        "eligible": true,
+        "reason": "All paragraphs read for idiom, tone, structure and reference. Original source reviewed before any rewrite; accepted S3 separates the overall exhibition appraisal from the guide recommendation and price verdict."
+      },
+      "triage": [
+        {
+          "finding_id": "S1",
+          "decision": "retain",
+          "reason": "No necessary repair; preserve the exception and the photograph experience in any requested stronger composition alternative."
+        },
+        {
+          "finding_id": "S2",
+          "decision": "retain",
+          "reason": "All functions are useful and none needs correction."
+        },
+        {
+          "finding_id": "S3",
+          "decision": "revise",
+          "reason": "Separate the guide judgment from the exhibition judgment so the mixed appraisal is easier to retain; preserve the ticket desk's nonstatement exactly in force."
+        },
+        {
+          "finding_id": "M",
+          "decision": "retain",
+          "reason": "Retain the complete information; inspect sensitivity without deleting the paragraph or inventing a defect."
+        },
+        {
+          "finding_id": "H",
+          "decision": "retain",
+          "reason": "Preserve known AI-origin provenance regardless of scores."
+        }
+      ],
+      "followup": [],
+      "improvement": false,
+      "improvement_reason": "Original source reviewed before any rewrite; accepted S3 separates the overall exhibition appraisal from the guide recommendation and price verdict."
+    },
+    {
+      "id": "draft-1",
+      "candidate": {
+        "path": "draft-1.txt",
+        "sha256": "05cf11d7d0d26dd4ba049fd64f2ecdc94ef008e8291a9d70dcedde9bbe71f924"
+      },
+      "native": null,
+      "feedback": {
+        "path": "draft-1-score/feedback.json",
+        "sha256": "9ece153d0a0e7711341e7ac8165570f981ee77a4b83afd6a94f3542dcac11cab"
+      },
+      "review": {
+        "path": "draft-1-review/validated.json",
+        "sha256": "c6c3e397c97c54af722bd9995f14b4a9377d7449923f2db32c163b9bd22f5ecf"
+      },
+      "fidelity": {
+        "eligible": false,
+        "reason": "Rejected before scoring because uncertainty about why the mismatch occurred changed into uncertainty about whether exhibits were moving. Text is preserved in full; no detector run was attempted. This full ledger is assembled after the rejection from the saved candidate and parent prescore review, not claimed as an earlier validated review. Other source points and the three-paragraph route remain useful.",
+        "source_sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167"
+      },
+      "reader": {
+        "eligible": true,
+        "reason": "All paragraphs read for idiom, tone, structure and reference. Useful three-paragraph route but parent found causal uncertainty changed into uncertainty about the moving event; rejected before inference."
+      },
+      "triage": [
+        {
+          "finding_id": "E1",
+          "decision": "revise",
+          "reason": "Restore causal relationship without claiming the move actually caused the mismatch."
+        },
+        {
+          "finding_id": "H",
+          "decision": "retain",
+          "reason": "Preserve known AI-origin provenance regardless of scores."
+        }
+      ],
+      "followup": [
+        {
+          "parent_round": "source",
+          "finding_id": "S3",
+          "status": "resolved",
+          "before": {
+            "start": 740,
+            "end": 1020,
+            "quote": "I would recommend the interview, but I would not hire the guide again at its current price. The exhibition itself was worth the visit. I spent about an hour there, and I would have stayed longer if the upstairs room had been open. The ticket desk did not say when it would reopen."
+          },
+          "after": {
+            "start": 0,
+            "end": 902,
+            "quote": "The harbour exhibition was worth the visit on Sunday. I spent about an hour there and would have stayed longer if the upstairs room had been open. The ticket desk didn't say when it would reopen.\n\nI hired the audio guide for £4, expecting it to explain how the port had changed. Most recordings described objects the labels had already identified. One six-minute interview, though, helped me understand a photograph I'd walked past: a former crane operator explained why crews used hand signals when the radio failed. I'd recommend that interview.\n\nThe guide was easy to use. I could replay a recording without starting the whole sequence again, but the numbers on the cases didn't always follow the guide's order. I doubled back twice. I don't know whether the mismatch was permanent or whether exhibits were being moved. Even with the interview, I wouldn't hire the guide again at its current price.\n"
+          },
+          "finding_ids": [],
+          "reason": "The exhibition appraisal and visit limits are now P1, interview recommendation follows its explanation in P2, and guide price verdict closes its operational evidence in P3. This organizational issue is resolved even though a separate causal-fidelity problem in the candidate remains open as E1."
+        }
+      ],
+      "improvement": false,
+      "improvement_reason": "Useful three-paragraph route but parent found causal uncertainty changed into uncertainty about the moving event; rejected before inference.",
+      "parent_prescore_review": {
+        "path": "draft-1-prescore.json",
+        "sha256": "67eb701d73b5fb7690262ee8c26e1b46a1ded2c7a9c839b711626f26eeee1e6b"
+      }
+    },
+    {
+      "id": "draft-2",
+      "candidate": {
+        "path": "draft-2.txt",
+        "sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4"
+      },
+      "native": {
+        "path": "draft-2-score/model-result.json",
+        "sha256": "5308bb9c1750fe283af07f653c969c3c6e92a43003811483cbf11ab81a0b6b7f"
+      },
+      "feedback": {
+        "path": "draft-2-score/feedback.json",
+        "sha256": "dd85d561ef08283885debbce2fab743ad0727fa8ed10fb5d602383a60edce437"
+      },
+      "review": {
+        "path": "draft-2-review/validated.json",
+        "sha256": "b7aa5463ed85c779609fd9ef222bf8f39ce2a6b240dd0345e0c89e09a04f8925"
+      },
+      "fidelity": {
+        "eligible": true,
+        "reason": "The full corrected draft preserves the two different judgments and all observed details. Parent review caught and then verified repair of causal uncertainty before scoring. Source S3 is resolved: exhibition value and closure are together, interview recommendation follows its explanation, and the guide verdict closes the usability evidence. Native Human is 25.0669241% versus source 0.0163598%; this is a single-case local gain on an uncalibrated model, not a historical-authorship result. No necessary new repair.",
+        "source_sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167"
+      },
+      "reader": {
+        "eligible": true,
+        "reason": "All paragraphs read for idiom, tone, structure and reference. Restores uncertain causality and preserves useful exhibition-versus-guide organization. Parent full-text review supports fidelity and reader clarity."
+      },
+      "triage": [
+        {
+          "finding_id": "D1",
+          "decision": "retain",
+          "reason": "Source coverage and source S3 resolution checked; no necessary repair."
+        },
+        {
+          "finding_id": "D2",
+          "decision": "retain",
+          "reason": "Retain useful focal relationship, exact price/length and expectation."
+        },
+        {
+          "finding_id": "D3",
+          "decision": "retain",
+          "reason": "No open necessary repair. A further complete route must be declared as an alternative, not invented criticism."
+        },
+        {
+          "finding_id": "M",
+          "decision": "retain",
+          "reason": "Retain the complete information; inspect sensitivity without deleting the paragraph or inventing a defect."
+        },
+        {
+          "finding_id": "H",
+          "decision": "retain",
+          "reason": "Preserve known AI-origin provenance regardless of scores."
+        }
+      ],
+      "followup": [
+        {
+          "parent_round": "draft-1",
+          "finding_id": "E1",
+          "status": "resolved",
+          "before": {
+            "start": 737,
+            "end": 822,
+            "quote": "I don't know whether the mismatch was permanent or whether exhibits were being moved."
+          },
+          "after": {
+            "start": 737,
+            "end": 823,
+            "quote": "I don't know whether the mismatch was permanent or resulted from exhibits being moved."
+          },
+          "finding_ids": [],
+          "reason": "Parent recheck and complete source comparison confirm that movement is again an uncertain cause of the mismatch, not merely an event whose occurrence is uncertain."
+        }
+      ],
+      "improvement": true,
+      "improvement_reason": "Restores uncertain causality and preserves useful exhibition-versus-guide organization. Parent full-text review supports fidelity and reader clarity.",
+      "parent_prescore_review": {
+        "path": "draft-2-prescore.json",
+        "sha256": "12cf643c3aa99d109268d76d65d88400994a2b254b799f56486ce864747ea599"
+      }
+    },
+    {
+      "id": "draft-3",
+      "candidate": {
+        "path": "draft-3.txt",
+        "sha256": "d5e79d5787e61d7a86c6018bff60a46ea9363235ee0d7e17cfc42cb0501d0269"
+      },
+      "native": null,
+      "feedback": {
+        "path": "draft-3-score/feedback.json",
+        "sha256": "0e6191fffe6a035828c5df496af2cc33ba0bbd4104d064293ef37014416add95"
+      },
+      "review": {
+        "path": "draft-3-review/validated.json",
+        "sha256": "3afa608d15ded2dc379cb2b4bac27d980631cf293e8cdb69dcfb6d89c91e9489"
+      },
+      "fidelity": {
+        "eligible": false,
+        "reason": "Fresh-context brief-only composition is coherent but fails fidelity on expectation and the ongoing knowledge limit. Parent review withheld scoring. The complete draft is preserved; no numeric measurement exists. This full ledger is assembled from the saved draft and pre-score rejection after repair preparation, not claimed as a prior validated artifact. No reader superiority is established by fresh context alone.",
+        "source_sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167"
+      },
+      "reader": {
+        "eligible": true,
+        "reason": "All paragraphs read for idiom, tone, structure and reference. Fresh-context composition remained coherent but changed expectation to desire and current uncertainty to past inability. Parent rejected before inference; no fresh-context advantage established."
+      },
+      "triage": [
+        {
+          "finding_id": "E1",
+          "decision": "revise",
+          "reason": "Restore expectation with the guide as its object without stronger assurance."
+        },
+        {
+          "finding_id": "E2",
+          "decision": "revise",
+          "reason": "Use current inability and retain permanence-versus-cause relationship."
+        },
+        {
+          "finding_id": "H",
+          "decision": "retain",
+          "reason": "Preserve known AI-origin provenance regardless of scores."
+        }
+      ],
+      "followup": [],
+      "improvement": false,
+      "improvement_reason": "Fresh-context composition remained coherent but changed expectation to desire and current uncertainty to past inability. Parent rejected before inference; no fresh-context advantage established.",
+      "parent_prescore_review": {
+        "path": "draft-3-prescore.json",
+        "sha256": "95c59f26ebc4b7a765f895d5749c4109a30869391df44936a2105a5bca20ada6"
+      }
+    },
+    {
+      "id": "draft-4",
+      "candidate": {
+        "path": "draft-4.txt",
+        "sha256": "fd481b2dcafaacd3c65bb3e6af0dade075d407996b5ab2e421b59b4ebd5f1972"
+      },
+      "native": {
+        "path": "draft-4-score/model-result.json",
+        "sha256": "f84890db26335bfe32a68b48862e68d8cb8d352472a45ea3c5556d61c3c5fbcb"
+      },
+      "feedback": {
+        "path": "draft-4-score/feedback.json",
+        "sha256": "37e0c1948ca21d3cd7fed0ef5716d2ba8269c227286ccacc3522923e2cbf7bd5"
+      },
+      "review": {
+        "path": "draft-4-review/validated.json",
+        "sha256": "be4f645423a843e1e2838c32ad7ff873784fa801eca7ffa2dba5af1ad6911754"
+      },
+      "fidelity": {
+        "eligible": true,
+        "reason": "Fresh-writer repair restores expected content and present uncertainty; full source comparison and parent pre-score review find the current draft faithful. Native Human 0.1896229% is above source 0.0163598% but far below selected draft-2's 25.0669241%. Fresh context did not improve this case and is not adopted into the recommended method. No open fidelity repair; the main path has used three revisions. Parallel-repair artifact discrepancy is documented separately and must not be hidden by cycle validation.",
+        "source_sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167"
+      },
+      "reader": {
+        "eligible": true,
+        "reason": "All paragraphs read for idiom, tone, structure and reference. Fresh writer repairs the two mental-state issues while preserving the full composition. This is a fidelity repair, not an established reader win over draft-2; its native Human is lower."
+      },
+      "triage": [
+        {
+          "finding_id": "D1",
+          "decision": "retain",
+          "reason": "Meaning repaired and full paragraph readable; no new necessary edit."
+        },
+        {
+          "finding_id": "D2",
+          "decision": "retain",
+          "reason": "Required repair complete; no lower-score-driven wording search."
+        },
+        {
+          "finding_id": "D3",
+          "decision": "retain",
+          "reason": "Retain complete meaningful paragraph; select earlier eligible draft-2 for requested native Human objective."
+        },
+        {
+          "finding_id": "M",
+          "decision": "retain",
+          "reason": "Retain the complete information; inspect sensitivity without deleting the paragraph or inventing a defect."
+        },
+        {
+          "finding_id": "H",
+          "decision": "retain",
+          "reason": "Preserve known AI-origin provenance regardless of scores."
+        }
+      ],
+      "followup": [
+        {
+          "parent_round": "draft-3",
+          "finding_id": "E1",
+          "status": "resolved",
+          "before": {
+            "start": 72,
+            "end": 121,
+            "quote": "hoping to hear how the port had changed over time"
+          },
+          "after": {
+            "start": 72,
+            "end": 124,
+            "quote": "expecting to hear how the port had changed over time"
+          },
+          "finding_ids": [],
+          "reason": "Parent and lead rechecked the complete passage: expectation is restored without added assurance or changed topic."
+        },
+        {
+          "parent_round": "draft-3",
+          "finding_id": "E2",
+          "status": "resolved",
+          "before": {
+            "start": 704,
+            "end": 798,
+            "quote": "I couldn't tell whether the mismatch was permanent or had been caused by exhibits being moved."
+          },
+          "after": {
+            "start": 707,
+            "end": 798,
+            "quote": "I can't tell whether the mismatch was permanent or had been caused by exhibits being moved."
+          },
+          "finding_ids": [],
+          "reason": "Current inability to determine the explanation is explicit again; causal permanence-versus-moving distinction stays intact."
+        }
+      ],
+      "improvement": true,
+      "improvement_reason": "Fresh writer repairs the two mental-state issues while preserving the full composition. This is a fidelity repair, not an established reader win over draft-2; its native Human is lower.",
+      "parent_prescore_review": {
+        "path": "draft-4-prescore.json",
+        "sha256": "3c403c460b85d35089778d2416d6ddf66a978e493ed047aac68db963705a9d6b"
+      }
+    }
+  ],
+  "stop": {
+    "reason": "complete",
+    "detail": "Accepted feedback on main path closed; selected draft-2 has Human25.0669241%. Fresh-context repaired alternative scored0.1896229% and is rejected as a performance improvement. Main path records3post-draft revisions, but an extra distinct parallel repair artifact exceeded the planned total artifact ceiling by1; see protocol_deviation. No further candidate or inference. Completion is editorial closure, not a detector target or process-compliance certification."
+  },
+  "provenance": {
+    "origin": "AI synthetic source and AI rewrites.",
+    "review_timing": "Source/scored-candidate complete reviews followed actual stages. Full ledgers for rejected unscored drafts1and3 were assembled after their actual parent rejections from retained files; no earlier validated-ledger timing is claimed.",
+    "withheld_scores": "Drafts1and3 were deliberately not submitted; all text exists. The feedback unavailable status is schema representation for absent numeric measurement, not a missing candidate/runtime failure.",
+    "fresh_writer_brief": {
+      "path": "fresh-writer-brief.md",
+      "sha256": "b0b79873f818ca6d6919c4c4b7ed5a2436d4dac4a0f1ee58096719bf0a787a96"
+    },
+    "repair_provenance_correction": {
+      "path": "draft-4-provenance-correction.md",
+      "sha256": "cbda9770710fbac36e3ba4392c62686382b743fa33bb42cd6a96908fb0b6cb0d"
+    }
+  },
+  "protocol_deviation": {
+    "type": "parallel_repair_extra_artifact",
+    "detail": "Lead and fresh writer repaired draft-3 concurrently before stop message delivery. Five distinct draft artifacts were produced rather than the planned maximum4. Only the parent-approved fresh-writer draft-4 was measured. Validator covers main path only; its pass cannot certify total-artifact-budget compliance. No user budget increase or reset is asserted.",
+    "additional_unscored_candidate": {
+      "path": "draft-4-lead-parallel-repair-unscored.txt",
+      "sha256": "0cf7560051216f642588619a6e4606f5e8415725cabf97b0e08fe943878a0b7c"
+    },
+    "describing_writer_review": {
+      "path": "draft-4-writer-review.md",
+      "sha256": "fecd73cc5e46695404ed70088e09e9bcfd4fd20aa541d2085fd4cd72d940158b"
+    },
+    "selected_for_scoring": {
+      "path": "draft-4.txt",
+      "sha256": "fd481b2dcafaacd3c65bb3e6af0dade075d407996b5ab2e421b59b4ebd5f1972"
+    }
+  }
+}

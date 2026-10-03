@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "audited_at_utc": "2026-10-03 11:07:34 UTC",
+  "audit_type": "Independent final staged-payload and claim verification",
+  "release_ready": true,
+  "release_scope": "Publish the experimental evidence archive while retaining production v1.10.0. This is not approval to promote the v1.11.0-dev prototype as a performance upgrade.",
+  "payload_sha256": "c9ac0ed1cde852f3089369c7eb85d57923e8ab196592dcb4f6ae1c79ca07b523",
+  "payload_included_files": 1858,
+  "payload_root": "outputs/github-repo",
+  "payload_algorithm": "SHA256(json.dumps({repo_relative_path: SHA256(file_bytes)}, sort_keys=True, separators=(',', ':')).encode('utf-8'))",
+  "payload_exclusions": {
+    "directories": [
+      "__pycache__"
+    ],
+    "suffixes": [
+      ".pyc"
+    ],
+    "exact_repo_relative_paths": [
+      "benchmarks/english-lab/frozen-files.json",
+      "benchmarks/english-lab/release-audit/FINAL-PAYLOAD-REVIEW.md",
+      "benchmarks/english-lab/release-audit/final-payload-review.json"
+    ]
+  },
+  "parent_expected_payload_matched": true,
+  "findings": [],
+  "recommendation": "Retain installed and published v1.10.0; archive all experiment outcomes. No useful general high-Human improvement is established.",
+  "verified_production": {
+    "version": "1.10.0",
+    "baseline_files": 33,
+    "installed_matches_baseline": true,
+    "staged_matches_baseline": true,
+    "both_zip_contents_match_baseline": true,
+    "zip_receipts": [
+      {
+        "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\outputs\\bilingual-humanizer-v1.10.0.zip",
+        "sha256": "e37c403d3d781e98e4682e7c602adab364ae2aeb34cfec993efa2c6212de4db9",
+        "file_count": 33
+      },
+      {
+        "path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\outputs\\bilingual-humanizer.zip",
+        "sha256": "e37c403d3d781e98e4682e7c602adab364ae2aeb34cfec993efa2c6212de4db9",
+        "file_count": 33
+      }
+    ]
+  },
+  "verification": {
+    "complete_repository_verifier": {
+      "command": "py -3.13 -B -X utf8 outputs/github-repo/benchmarks/verify_evidence.py",
+      "exit_code": 0,
+      "all_old_and_new_checks_passed": true
+    },
+    "independent_final_checks": {
+      "passed": 249,
+      "total": 249,
+      "failures": []
+    },
+    "frozen_first_comparison_preserved": true,
+    "earlier_independent_audit_preserved": true,
+    "native_document_submissions": 17,
+    "development_submissions": 6,
+    "first_transfer_submissions": 9,
+    "continuation_submissions": 2,
+    "original_input_hashes_and_native_values_checked": true,
+    "fixed_scorer_and_revision_checked": true,
+    "complete_serialized_worker_exits_checked": true,
+    "continuation_full_paragraphs_reviewed": 7,
+    "continuation_findings_retained": 14,
+    "writer_closure_hash_bindings_checked": 57,
+    "final_writer_feedback_acknowledgement_checked": true
+  },
+  "continuations": [
+    {
+      "case": "T01",
+      "human_percent": 0.32673710957169533,
+      "prescore_at_utc": "2026-10-03T10:53:36.322096+00:00",
+      "measured_at_utc": "2026-10-03T10:54:15.769883+00:00",
+      "qualitative_at_utc": "2026-10-03T10:57:18.964218+00:00",
+      "full_feedback_at_utc": "2026-10-03T10:58:39.305318+00:00",
+      "writer_ack_at_utc": "2026-10-03T11:02:46.788231+00:00",
+      "selected_id": "draft-1",
+      "selected_human_percent": 0.9622050449252129
+    },
+    {
+      "case": "T02",
+      "human_percent": 0.6310708820819855,
+      "prescore_at_utc": "2026-10-03T10:54:55.713613+00:00",
+      "measured_at_utc": "2026-10-03T10:55:36.127900+00:00",
+      "qualitative_at_utc": "2026-10-03T10:57:18.966400+00:00",
+      "full_feedback_at_utc": "2026-10-03T10:58:39.456470+00:00",
+      "writer_ack_at_utc": "2026-10-03T11:02:46.788231+00:00",
+      "selected_id": "source",
+      "selected_human_percent": 0.6715842988342047
+    }
+  ],
+  "native_receipts": [
+    {
+      "path": "development/exhibition-review/draft-2-score/model-result.json",
+      "sha256": "5308bb9c1750fe283af07f653c969c3c6e92a43003811483cbf11ab81a0b6b7f",
+      "input_sha256": "54e7d73ebd53161b4ce7c77bf613c75f3adb423e036f92bb75d397744cc3fdd4",
+      "human_percent": 25.06692409515381,
+      "measured_at_utc": "2026-10-03T10:18:34.425656+00:00"
+    },
+    {
+      "path": "development/exhibition-review/draft-4-score/model-result.json",
+      "sha256": "f84890db26335bfe32a68b48862e68d8cb8d352472a45ea3c5556d61c3c5fbcb",
+      "input_sha256": "fd481b2dcafaacd3c65bb3e6af0dade075d407996b5ab2e421b59b4ebd5f1972",
+      "human_percent": 0.18962293397635221,
+      "measured_at_utc": "2026-10-03T10:26:57.866098+00:00"
+    },
+    {
+      "path": "development/exhibition-review/source-score/model-result.json",
+      "sha256": "617f9c476d13ad1a494e60be1d5fc5afbfe5992d06aa0d2abb70a3da9af44f41",
+      "input_sha256": "f2e0524f73a8d7a54882bbb76ede54d8b9e78eaf6b5d8328395d4c6b4aefa167",
+      "human_percent": 0.01635980006540194,
+      "measured_at_utc": "2026-10-03T10:12:59.633862+00:00"
+    },
+    {
+      "path": "development/policy-note/draft-1-score/model-result.json",
+      "sha256": "8b1d0097a11f190ddd2089f5b3ff173992c9318691887a0b537bec1062cdb159",
+      "input_sha256": "c7ad6b4a34578e1e0a67308ab88d10a6c4d776de1e143a195e3ce07f9eb25d80",
+      "human_percent": 0.6336482241749763,
+      "measured_at_utc": "2026-10-03T10:16:06.577258+00:00"
+    },
+    {
+      "path": "development/policy-note/draft-3-score/model-result.json",
+      "sha256": "cbe02fe41db8eb7005d2a22609a63a33b8768450191c3ddba5bd15f87ec1163c",
+      "input_sha256": "34136cbcc5e27fa42a1e45cf32c38436fae71066a44d4317b5f63735ede80444",
+      "human_percent": 0.5177709739655256,
+      "measured_at_utc": "2026-10-03T10:20:54.439382+00:00"
+    },
+    {
+      "path": "development/policy-note/source-score/model-result.json",
+      "sha256": "3dbb6c8d5f8ba2eb4fc2b56b831c5644066e5811b528b019c95c819925445709",
+      "input_sha256": "0a5d039cb791a4b9043f176ae85f4b550bdaf8313af7f7dce67bb1cf4a28f478",
+      "human_percent": 0.19580062944442034,
+      "measured_at_utc": "2026-10-03T10:12:11.821684+00:00"
+    },
+    {
+      "path": "transfer-scores/T01/A/model-result.json",
+      "sha256": "2d561d71e0c22c14f4f668b0ec15edcc00212e5281e877f5d62238b40ba6c306",
+      "input_sha256": "1ffab05561c65b44c3d1c0b94faa311ac3cc1a7791b6c95c749e34886a9f0e9d",
+      "human_percent": 0.18796658841893077,
+      "measured_at_utc": "2026-10-03T10:43:28.234115+00:00"
+    },
+    {
+      "path": "transfer-scores/T01/B/model-result.json",
+      "sha256": "acaf71a38bb5fb9fff89b3400209555dd7696f3fa58a742c77412088cf2d3db6",
+      "input_sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+      "human_percent": 0.9622050449252129,
+      "measured_at_utc": "2026-10-03T10:44:04.568503+00:00"
+    },
+    {
+      "path": "transfer-scores/T01/source/model-result.json",
+      "sha256": "6346754780ef97f3f012ef970553338d5a6b7db15d96c12100487f63f50b7b4f",
+      "input_sha256": "51ac504da3c8f1cfa0d2bcfffabbb84fea8a2aa730fae7578a3e138e6c470697",
+      "human_percent": 0.30726317781955004,
+      "measured_at_utc": "2026-10-03T10:29:43.707817+00:00"
+    },
+    {
+      "path": "transfer-scores/T02/A/model-result.json",
+      "sha256": "9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a",
+      "input_sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+      "human_percent": 0.45310351997613907,
+      "measured_at_utc": "2026-10-03T10:44:44.158154+00:00"
+    },
+    {
+      "path": "transfer-scores/T02/B/model-result.json",
+      "sha256": "f79eb175df00895e3432adf4a8f75b1119f92510a82f11e9d8ed1186214eade6",
+      "input_sha256": "bf570a78c32b2cf9d05f95532a468a1fd08cbd62574dd9ab4dd03276e842c1bb",
+      "human_percent": 0.5585690028965473,
+      "measured_at_utc": "2026-10-03T10:45:30.749396+00:00"
+    },
+    {
+      "path": "transfer-scores/T02/source/model-result.json",
+      "sha256": "de70b45b4c0d690e4c7d2de02742aa043751d29d0946a0e6ca364c52f69b84b3",
+      "input_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+      "human_percent": 0.6715842988342047,
+      "measured_at_utc": "2026-10-03T10:30:12.786393+00:00"
+    },
+    {
+      "path": "transfer-scores/T03/A/model-result.json",
+      "sha256": "0421eae019c1b3f1e9feefe1190461d5e632bb20a643d966bbd092ff74fa0bd7",
+      "input_sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07",
+      "human_percent": 0.13351638335734606,
+      "measured_at_utc": "2026-10-03T10:46:13.114240+00:00"
+    },
+    {
+      "path": "transfer-scores/T03/B/model-result.json",
+      "sha256": "4fae9d5f90ea32a62e41c21ec018d8ea00d7b871b366194f97311f73687ebb57",
+      "input_sha256": "caf5661374d329532da88280f2d0f442a242b5682601e75a42a6b75434182ad0",
+      "human_percent": 0.1346115255728364,
+      "measured_at_utc": "2026-10-03T10:46:48.056224+00:00"
+    },
+    {
+      "path": "transfer-scores/T03/source/model-result.json",
+      "sha256": "61803748ef464da6925febd67056c7da32146f48a389be907c3a1ba7cdaa37d7",
+      "input_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+      "human_percent": 0.023340170446317643,
+      "measured_at_utc": "2026-10-03T10:30:40.364890+00:00"
+    },
+    {
+      "path": "continuation-scores/T01/model-result.json",
+      "sha256": "6685d0be75621f562d486f4e71a278faa7b5ef21f47786e37e2aa6f2f606a015",
+      "input_sha256": "698c859e5a09aa303a28306f488bd6ce9d68684c456f8df70b88f7d963021a94",
+      "human_percent": 0.32673710957169533,
+      "measured_at_utc": "2026-10-03T10:54:15.769883+00:00"
+    },
+    {
+      "path": "continuation-scores/T02/model-result.json",
+      "sha256": "67b5ddc59bb6a360c83c8038ca6a285481292bd3712b032727b98ed77572beae",
+      "input_sha256": "39739e2375cd2c7becddb0ffe5f7f6956f8886dd1a5e8efbccf4cd86f5b8580d",
+      "human_percent": 0.6310708820819855,
+      "measured_at_utc": "2026-10-03T10:55:36.127900+00:00"
+    }
+  ],
+  "claims_reviewed": [
+    "REPORT.md and results.json",
+    "English and Korean README experiment sections",
+    "Final writer closure and final cycle selections",
+    "Native Human class semantics and unmet 50% target",
+    "17 document submissions distinguished from internal forward evaluations",
+    "Development extra parallel repair and total artifact-cap deviation",
+    "Post-freeze counterpart-excerpt exposure and continuation review limits",
+    "Same-model synthetic evidence, no human/cross-model or commercial transfer claim"
+  ],
+  "independent_editorial_assessment": "Both complete continuations preserve all source constraints and remain readable. Neither establishes a decisive reader advantage that requires replacing the stronger eligible checkpoint. T01 correctly retains prototype draft-1 at 0.9622050449252129%; T02 correctly falls back to the source at 0.6715842988342047%. T03 remains prototype draft-1 at 0.1346115255728364%.",
+  "review_limits": [
+    "Auditor knew candidate identities and scores and is a separate AI context, not a human or cross-model rater.",
+    "No model inference, payment, external upload, installed-skill edit or staged-repository edit was performed by this auditor.",
+    "Hashes and saved execution records establish internal consistency, not independent cryptographic authentication of historical model execution.",
+    "The hash excludes the three declared self-referential finalization paths. The existing staged frozen-files manifest passed the verifier; after inserting these two audit files, its regeneration is a packaging step outside this audited hash.",
+    "Remote publication was not performed or verified in this audit."
+  ],
+  "auditor_check_adjustment": "The initial ad hoc wrapper equality check was corrected to compare feedback-package.json's feedback object to validated-full.json; both exact comparisons passed. No evidence or release payload changed."
+}
+

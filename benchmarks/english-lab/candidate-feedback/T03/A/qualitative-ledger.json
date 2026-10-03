@@ -1,0 +1,360 @@
+{
+  "text_sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07",
+  "summary": "Anonymous candidate T03/A passes the frozen source-fidelity review and is reader-eligible. All 3 paragraphs were reviewed. No necessary repair was identified; retain the version. Native quantitative feedback is not yet attached. Its later model scores must remain separate from fidelity and reader quality.",
+  "document_analysis": {
+    "structure": "P1 foregrounds the warning towel and retains the winter delay and inherited chair. P2 gives disassembly and uncertainty, with the patch before the memory gap. P3 states practical gain before the wished-for broader resolution and unresolved box. All source functions survive.",
+    "reasoning_specificity": "The towel, kitchen corner, visitors, aunt, one careful pull, expected glue resistance, ambiguous patch, uneven floor, and wardrobe box all remain. The source's uncertainty and limited emotional claim are preserved; no tools, memories, feelings, or box contents are invented.",
+    "voice_consistency": "The first-person voice remains understated and a little formal. Naming my aunt's things instead of her things clarifies the reference without changing emotional intensity. The source's refusal of closure is intact.",
+    "rhythm_repetition": "Short opening and action sentences are mixed with longer reflective ones. The final sentence carries both the wish for resolution and the remaining choices. This is clear, though slightly denser than B's separated beats.",
+    "language_features": "English is idiomatic. The semicolon joining inheritance and reluctance is legitimate. Repair or just where the finish wore off leaves both alternatives under might. I left the patch alone makes the original pronoun referent explicit.",
+    "citations_provenance": "All experiences remain fictional. No authentic personal history or quotation is added. A readable anecdote is not human-authorship evidence; candidate method and scores are unknown."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 337,
+          "quote": "My warning system was a folded towel on the seat of a loose chair. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood the warning, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt; an awkward joint did not seem reason enough to throw it out."
+        }
+      ],
+      "observation": "P1 keeps the warning system, winter-long location, visitors understanding despite repeated explanations, inheritance, and reason for not discarding the chair. The semicolon is a normal narrative choice, not an artificiality defect.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 339,
+          "end": 638,
+          "quote": "Last Sunday I finally took it apart. The back came away with one careful pull, though I had expected the old glue to resist. There is a pale patch underneath that might be a repair or just where the finish wore off. I cannot remember whether my aunt ever repaired it herself. I left the patch alone."
+        }
+      ],
+      "observation": "P2 preserves last Sunday, the careful pull, expected resistance, uncertainty about the aunt's repairs, both possible causes of the pale patch, and leaving it alone. Moving the patch before the memory sentence does not resolve the uncertainty.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 640,
+          "end": 947,
+          "quote": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe."
+        }
+      ],
+      "observation": "P3 preserves practical usability, the leg catching on an uneven floor, the towel returned to the hook, modest gain, wish for a broader resolution, and the unresolved box. The final but-clause still rejects a claim of closure; no necessary repair is warranted.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "P1 keeps the warning system, winter-long location, visitors understanding despite repeated explanations, inheritance, and reason for not discarding the chair. The semicolon is a normal narrative choice, not an artificiality defect.",
+      "finding_ids": [
+        "S1"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "P2 preserves last Sunday, the careful pull, expected resistance, uncertainty about the aunt's repairs, both possible causes of the pale patch, and leaving it alone. Moving the patch before the memory sentence does not resolve the uncertainty.",
+      "finding_ids": [
+        "S2"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "P3 preserves practical usability, the leg catching on an uneven floor, the towel returned to the hook, modest gain, wish for a broader resolution, and the unresolved box. The final but-clause still rejects a claim of closure; no necessary repair is warranted.",
+      "finding_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "authorship_probabilities": null,
+  "review_metadata": {
+    "case_id": "T03",
+    "anonymous_candidate": "A",
+    "genre": "First-person personal reflection",
+    "language": "English",
+    "frozen_blind_review_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-review\\round-1.json",
+    "frozen_blind_review_sha256": "dc87c8a1a42ccfd5575e6ae093e38f01a55fe2c584aa813a32686edd14e6494d",
+    "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-pairs\\T03\\A.txt",
+    "candidate_sha256": "d4802860b59a85859ddbc434ac81220885c9a5d94233f0a99a1485c090841e07",
+    "original_source_sha256": "12b9caa92885bd8e4f675e3ff8d3e1948e5e2b4e97d4001a44624f7c2c1ab2e9",
+    "source_constraints_sha256": "4a0da27e1721b8cb3b5e52921c82dd28c0432bfa10e13c14743a6f2b7e1a6393",
+    "candidate_scores_read_at_qualitative_preparation": false,
+    "method_identities_read": false,
+    "inference_run_by_reviewer": false,
+    "known_history": "Anonymous rewrite of a known AI-generated synthetic source. Fictional people, situations, and memories are not human-authored ground truth.",
+    "numeric_status": "Pending supplied native results; no inference requested or executed by this reviewer."
+  },
+  "editorial_closure": {
+    "fidelity_pass": true,
+    "reader_eligible": true,
+    "necessary_repairs": [],
+    "decision": "retain",
+    "reason": "No source-fidelity or reader-quality defect was found in the pre-score review. Optional stylistic differences do not compel another rewrite.",
+    "blind_pair_preference": {
+      "choice": "B",
+      "strength": "slight",
+      "reason": "Both versions retain the restrained voice and all meaning. B's concrete towel-first opening and separated wish/practical-result/final-box beats feel a little more natural and give the quiet ending more room. A is also good and slightly more compact in its final reflection.",
+      "exact_candidate_evidence": {
+        "A": [
+          {
+            "start": 0,
+            "end": 66,
+            "quote": "My warning system was a folded towel on the seat of a loose chair.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          },
+          {
+            "start": 760,
+            "end": 947,
+            "quote": "The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ],
+        "B": [
+          {
+            "start": 0,
+            "end": 63,
+            "quote": "A folded towel on the loose chair's seat was my warning system.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          },
+          {
+            "start": 744,
+            "end": 927,
+            "quote": "I'd like to say that afternoon settled something about keeping her things. Mostly, though, it gave me another place to sit. The harder choices are still in the box above the wardrobe.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ]
+      },
+      "counterconsideration": "A's explicit my aunt's things and combined final sentence may suit a reader who prefers a more formal, compact reflection. B's contractions and pauses are a slight genre preference, not universal markers of quality.",
+      "fidelity_overrides_applied": false,
+      "method_identity_inference": null
+    }
+  },
+  "full_constraint_coverage": [
+    {
+      "original_paragraph_id": "P1",
+      "original_anchor": {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 361,
+        "quote": "For most of the winter, the loose chair stayed in the corner of my kitchen with a folded towel on its seat. That was my warning system. Visitors understood it, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt, and throwing it out seemed like a decision that needed a better reason than an awkward joint."
+      },
+      "candidate_paragraph_ids": [
+        "P1"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 337,
+          "quote": "My warning system was a folded towel on the seat of a loose chair. The chair stayed in the corner of my kitchen for most of the winter. Visitors understood the warning, although I still explained the wobble every time someone came over. I had inherited the chair from my aunt; an awkward joint did not seem reason enough to throw it out."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "For most of the winter, a loose chair stood in the kitchen corner.",
+          "pass": true
+        },
+        {
+          "constraint": "A folded towel on its seat served as a warning.",
+          "pass": true
+        },
+        {
+          "constraint": "Visitors understood the signal, but the narrator still explained the wobble on each visit.",
+          "pass": true
+        },
+        {
+          "constraint": "The chair was inherited from the narrator's aunt.",
+          "pass": true
+        },
+        {
+          "constraint": "The narrator felt that discarding it needed a stronger reason than an awkward joint.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Report a fictional first-person memory and a personal judgment.",
+          "pass": true
+        },
+        {
+          "constraint": "Do not turn the personal reluctance into a general rule about inherited possessions.",
+          "pass": true
+        }
+      ],
+      "reason": "Original P1 maps to candidate P1. The narrator's personal reluctance remains a personal judgment rather than a universal rule."
+    },
+    {
+      "original_paragraph_id": "P2",
+      "original_anchor": {
+        "paragraph_id": "P2",
+        "start": 363,
+        "end": 662,
+        "quote": "Last Sunday I finally took it apart. I had expected the old glue to resist, but the back came away with one careful pull. I cannot remember whether my aunt ever repaired it herself. There is a pale patch underneath that might be a repair, or might just be where the finish wore off. I left it alone."
+      },
+      "candidate_paragraph_ids": [
+        "P2"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P2",
+          "start": 339,
+          "end": 638,
+          "quote": "Last Sunday I finally took it apart. The back came away with one careful pull, though I had expected the old glue to resist. There is a pale patch underneath that might be a repair or just where the finish wore off. I cannot remember whether my aunt ever repaired it herself. I left the patch alone."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "The narrator took the chair apart last Sunday.",
+          "pass": true
+        },
+        {
+          "constraint": "The old glue was expected to resist.",
+          "pass": true
+        },
+        {
+          "constraint": "The back instead came away with one careful pull.",
+          "pass": true
+        },
+        {
+          "constraint": "The narrator cannot remember whether the aunt repaired the chair herself.",
+          "pass": true
+        },
+        {
+          "constraint": "A pale patch underneath might be a repair or merely worn finish.",
+          "pass": true
+        },
+        {
+          "constraint": "The narrator left that patch alone.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Preserve the contrast between expectation and what happened.",
+          "pass": true
+        },
+        {
+          "constraint": "Preserve both explanations of the patch and the uncertainty about the aunt.",
+          "pass": true
+        },
+        {
+          "constraint": "Do not invent repair techniques, tools, dialogue, or remembered scenes.",
+          "pass": true
+        }
+      ],
+      "reason": "Original P2 maps to candidate P2. Reordering the patch and memory statements keeps both uncertainties; explicit patch is a supported pronoun resolution."
+    },
+    {
+      "original_paragraph_id": "P3",
+      "original_anchor": {
+        "paragraph_id": "P3",
+        "start": 664,
+        "end": 965,
+        "quote": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. I would like to say the afternoon settled something about keeping her things, but mostly it gave me another place to sit. The harder choices are still in the box above the wardrobe."
+      },
+      "candidate_paragraph_ids": [
+        "P3"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P3",
+          "start": 640,
+          "end": 947,
+          "quote": "The chair is usable now, though one leg still catches slightly on the uneven floor. I moved the towel back to its hook. The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "The chair is now usable.",
+          "pass": true
+        },
+        {
+          "constraint": "One leg still catches slightly on the uneven floor.",
+          "pass": true
+        },
+        {
+          "constraint": "The narrator returned the towel to its hook.",
+          "pass": true
+        },
+        {
+          "constraint": "The narrator would like to claim the afternoon settled something about keeping the aunt's belongings, but it mainly provided another place to sit.",
+          "pass": true
+        },
+        {
+          "constraint": "Harder choices remain in a box above the wardrobe.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Preserve the wish for resolution and the refusal to claim it occurred.",
+          "pass": true
+        },
+        {
+          "constraint": "Do not assert a new lesson, closure, healing, or a decision about the box.",
+          "pass": true
+        },
+        {
+          "constraint": "Do not invent what is in the box or the aunt's wishes.",
+          "pass": true
+        }
+      ],
+      "reason": "Original P3 maps to candidate P3. Moving practical gain earlier retains both the wish for resolution and the statement that harder choices remain."
+    }
+  ],
+  "voice_constraint_checks": [
+    {
+      "constraint": "Keep the first-person perspective and modest emotional register.",
+      "pass": true
+    },
+    {
+      "constraint": "Retain concrete details that carry the feeling instead of replacing them with explicit psychological explanation.",
+      "pass": true
+    },
+    {
+      "constraint": "Do not add sentimentality, jokiness, inspirational advice, or a polished moral.",
+      "pass": true
+    }
+  ],
+  "finding_triage_requirement": "Every style or measurement finding must have exactly one action: revise, retain, or unresolved, with its reason. Score magnitude alone does not create a revise action."
+}

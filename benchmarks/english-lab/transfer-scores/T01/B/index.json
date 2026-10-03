@@ -1,0 +1,26 @@
+{
+  "text_sha256": "334b14e1b0ca93d826fe9eb0341ebaa8d0586042b19971d33a713755fa1613b1",
+  "paragraphs": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 459,
+      "line": 1,
+      "text": "At the fictional Bell Street Repair Room, a lamp may sit on the shelf waiting for the electrical volunteer while a chair brought in later goes straight to someone who works with wood. Only one volunteer handles electrical faults, and she comes on alternate Saturdays. The workshop has four benches, but an empty one doesn't always mean there's capacity for another job. The work required partly determines the queue; arrival time isn't the only consideration."
+    },
+    {
+      "id": "P2",
+      "start": 461,
+      "end": 724,
+      "line": 3,
+      "text": "Volunteers also need the owner's agreement before buying a replacement part. A repair may be ready to continue and still have to wait for that reply, a pause visitors cannot easily see. The job is unfinished, but that doesn't necessarily mean it's been neglected."
+    },
+    {
+      "id": "P3",
+      "start": 726,
+      "end": 1068,
+      "line": 5,
+      "text": "The workshop could make those differences clearer on its status board. Labels such as \"waiting for a specialist\" and \"waiting for your reply\" would tell owners more than a single \"in progress\" column, giving them a better idea of what, if anything, they can do next. Clearer labels wouldn't add volunteer hours or guarantee a completion date."
+    }
+  ]
+}

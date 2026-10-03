@@ -1,0 +1,210 @@
+{
+  "reviewed_at_utc": "2026-10-03T10:48:11.910549+00:00",
+  "status": "frozen_before_method_identity_disclosure",
+  "scope": "Final all-paragraph prose and supplied native feedback review for all three anonymous pairs. No further rewrite or inference performed.",
+  "method_identities_read": false,
+  "candidate_scores_read": true,
+  "frozen_pre_score_review_sha256": "dc87c8a1a42ccfd5575e6ae093e38f01a55fe2c584aa813a32686edd14e6494d",
+  "pre_score_reader_judgments_changed": false,
+  "cases": [
+    {
+      "case_id": "T01",
+      "pair_feedback_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\candidate-feedback\\T01\\pair-feedback.json",
+      "pair_feedback_sha256": "a1ff1148ef68eb7eb1d4f7f9737ca7defc454988f5bb880ac4e9c20f53531ded",
+      "reader_preference": {
+        "choice": "B",
+        "strength": "slight",
+        "reason": "Both versions pass fidelity and read well. B links the bench count directly to the capacity limitation and folds the invisible pause into its cause, which produces a smoother explanatory flow. This is a small preference in organization and phrasing, not a repair finding or evidence of general method superiority.",
+        "exact_candidate_evidence": {
+          "A": [
+            {
+              "start": 185,
+              "end": 372,
+              "quote": "The workshop has four benches, but only one volunteer handles electrical faults, and she comes on alternate Saturdays. An empty bench does not always mean a workshop can take another job.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            },
+            {
+              "start": 521,
+              "end": 639,
+              "quote": "A repair may be ready to continue but still have to wait for the owner's reply. Visitors cannot easily see that pause.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ],
+          "B": [
+            {
+              "start": 268,
+              "end": 369,
+              "quote": "The workshop has four benches, but an empty one doesn't always mean there's capacity for another job.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            },
+            {
+              "start": 538,
+              "end": 646,
+              "quote": "A repair may be ready to continue and still have to wait for that reply, a pause visitors cannot easily see.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ]
+        },
+        "counterconsideration": "A's shorter separate sentence about visitors may be easier for some readers to scan. Its more formal register is legitimate, so the preference is deliberately slight.",
+        "fidelity_overrides_applied": false,
+        "method_identity_inference": null
+      },
+      "native_class_probabilities": {
+        "A": {
+          "human": 0.0018796658841893077,
+          "ai": 0.04836658760905266,
+          "ai_edited": 0.0001825620129238814,
+          "humanized": 0.9495711922645569
+        },
+        "B": {
+          "human": 0.009622050449252129,
+          "ai": 0.3345760107040405,
+          "ai_edited": 0.0008108244510367513,
+          "humanized": 0.6549911499023438
+        }
+      },
+      "Human_B_minus_A_percentage_points": 0.7742384565062821,
+      "source_to_candidate_Human_delta_percentage_points": {
+        "A": -0.11929658940061927,
+        "B": 0.6549418671056628
+      },
+      "post_measurement_action": "retain both",
+      "measurement_interpretation": "Both candidates have Humanized as their largest local model class. B has a modestly higher Human class than A, but both remain below one percent Human-only. The model redistributed class mass from the original AI class largely into Humanized; this is not a demonstrated human-authorship or quality gain. The slight blind reader preference for B stands on explanatory flow alone."
+    },
+    {
+      "case_id": "T02",
+      "pair_feedback_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\candidate-feedback\\T02\\pair-feedback.json",
+      "pair_feedback_sha256": "db7bf75fecad165edd663a643514a062e67c282c521a10a1607c309a32cc25c1",
+      "reader_preference": {
+        "choice": "tie",
+        "strength": "no_material_preference",
+        "reason": "Both versions are clear, complete, and equally usable as an internal memo. A is slightly more conversational and compact; B makes the kit referent explicit and uses fuller negative forms. The difference does not produce a meaningful reader-quality advantage in this context.",
+        "exact_candidate_evidence": {
+          "A": [
+            {
+              "start": 484,
+              "end": 638,
+              "quote": "Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ],
+          "B": [
+            {
+              "start": 483,
+              "end": 655,
+              "quote": "Please do not mark the kit available while we are still checking it. Unless there is an immediate safety concern, the person returning it does not need to wait at the desk.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ]
+        },
+        "counterconsideration": "A house style preferring contractions could favor A; a procedural template preferring full negatives could favor B. Neither preference is supplied, and both retain the required force.",
+        "fidelity_overrides_applied": false,
+        "method_identity_inference": null
+      },
+      "native_class_probabilities": {
+        "A": {
+          "human": 0.004531035199761391,
+          "ai": 0.973919689655304,
+          "ai_edited": 0.0015044831670820713,
+          "humanized": 0.020044874399900436
+        },
+        "B": {
+          "human": 0.005585690028965473,
+          "ai": 0.9513620138168335,
+          "ai_edited": 0.0017817243933677673,
+          "humanized": 0.04127057269215584
+        }
+      },
+      "Human_B_minus_A_percentage_points": 0.10546548292040825,
+      "source_to_candidate_Human_delta_percentage_points": {
+        "A": -0.2184807788580656,
+        "B": -0.11301529593765736
+      },
+      "post_measurement_action": "retain both",
+      "measurement_interpretation": "Both candidates remain dominated by the AI model class. Their Human-only outputs are lower than the source output. The prose remains complete and useful, and the blind reader result remains a tie. This shows why a lower source-to-rewrite detector result is not by itself a reason to damage clear instructions."
+    },
+    {
+      "case_id": "T03",
+      "pair_feedback_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\candidate-feedback\\T03\\pair-feedback.json",
+      "pair_feedback_sha256": "b410bfc855e846f1597b3310193b39265fb867c91d55bb6bb3dddda24a96c713",
+      "reader_preference": {
+        "choice": "B",
+        "strength": "slight",
+        "reason": "Both versions retain the restrained voice and all meaning. B's concrete towel-first opening and separated wish/practical-result/final-box beats feel a little more natural and give the quiet ending more room. A is also good and slightly more compact in its final reflection.",
+        "exact_candidate_evidence": {
+          "A": [
+            {
+              "start": 0,
+              "end": 66,
+              "quote": "My warning system was a folded towel on the seat of a loose chair.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            },
+            {
+              "start": 760,
+              "end": 947,
+              "quote": "The afternoon mostly gave me another place to sit. I would like to say it settled something about keeping my aunt's things, but the harder choices are still in the box above the wardrobe.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ],
+          "B": [
+            {
+              "start": 0,
+              "end": 63,
+              "quote": "A folded towel on the loose chair's seat was my warning system.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            },
+            {
+              "start": 744,
+              "end": 927,
+              "quote": "I'd like to say that afternoon settled something about keeping her things. Mostly, though, it gave me another place to sit. The harder choices are still in the box above the wardrobe.",
+              "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+            }
+          ]
+        },
+        "counterconsideration": "A's explicit my aunt's things and combined final sentence may suit a reader who prefers a more formal, compact reflection. B's contractions and pauses are a slight genre preference, not universal markers of quality.",
+        "fidelity_overrides_applied": false,
+        "method_identity_inference": null
+      },
+      "native_class_probabilities": {
+        "A": {
+          "human": 0.0013351638335734606,
+          "ai": 0.9593549370765686,
+          "ai_edited": 0.00019556059851311147,
+          "humanized": 0.039114341139793396
+        },
+        "B": {
+          "human": 0.001346115255728364,
+          "ai": 0.9849531650543213,
+          "ai_edited": 0.000114055146696046,
+          "humanized": 0.013586649671196938
+        }
+      },
+      "Human_B_minus_A_percentage_points": 0.0010951422154903412,
+      "source_to_candidate_Human_delta_percentage_points": {
+        "A": 0.11017621291102841,
+        "B": 0.11127135512651876
+      },
+      "post_measurement_action": "retain both",
+      "measurement_interpretation": "The Human outputs are 0.13351638335734606% for A and 0.1346115255728364% for B: a difference of about 0.00109514221549 percentage points. That tiny numerical separation does not support a meaningful general gain. The slight blind reader preference for B was based on narrative flow and remains separate from the model output."
+    }
+  ],
+  "aggregate": {
+    "candidates": 6,
+    "paragraphs_reviewed": 22,
+    "fidelity_pass": 6,
+    "reader_eligible": 6,
+    "findings": 44,
+    "triage": {
+      "revise": 0,
+      "retain": 44,
+      "unresolved": 0
+    }
+  },
+  "closure": "All six candidates remain faithful and reader-eligible; retain all six. No real prose defect requiring another pass was found before or after the measurements. Model-response causes remain uncertain but do not constitute an unresolved editing defect.",
+  "claim_limits": [
+    "This is a three-case synthetic transfer probe, not evidence of general English superiority, genuine human authorship, or detector robustness.",
+    "Human-class differences and AI/AI-edited/Humanized movement are experimental model responses, not writing-quality gains.",
+    "Method identities remain blind. A and B labels must not be assumed to denote the same method across cases.",
+    "No statistical significance or calibration inference is made from these point estimates."
+  ]
+}

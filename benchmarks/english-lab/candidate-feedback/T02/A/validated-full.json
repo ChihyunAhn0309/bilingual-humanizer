@@ -1,0 +1,787 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Anonymous candidate T02/A remains faithful and reader-eligible after all 5 paragraphs were reviewed. No necessary repair was identified. Supplied unvalidated model outputs: Human 0.45310352%, AI 97.39196897%, AI-edited 0.15044832%, Humanized 2.00448744%. The recorded AI-involvement class score is 99.54689648%. The highest model class is ai. These are experimental class responses, not verified authorship probabilities, word shares, or prose-quality ratings. The installed skill reports high-confidence false positives in its English pilot. Retain the candidate; the measured response does not create a prose defect.",
+  "document_analysis": {
+    "structure": "The candidate foregrounds the trial duration, then moves the Friday access check into its own paragraph before the return workflow. The outage fallback and later review follow. This five-paragraph order is sensible for pre-trial preparation and preserves all source functions.",
+    "reasoning_specificity": "The two desks, equipment types, duration, start, unchanged limits, logging order, inspection branch, availability restriction, safety exception, deadline, paper location, Nia's transcription duty, and undecided outcome are all retained.",
+    "voice_consistency": "The memo remains collegial and authoritative. Contractions make it more conversational, but Please don't still directs staff not to mark the kit available. Needn't is a valid permission to leave, not an instruction to leave.",
+    "rhythm_repetition": "The isolated deadline is easy to find. Repeated if-conditions serve distinct operational branches. The workflow remains a longer paragraph because those actions belong together. The shorter review close is proportionate.",
+    "language_features": "The English is clear and idiomatic. Can't, don't, needn't, and haven't are acceptable in an internal memo. Pronoun it has a clear kit referent in context. None of those choices weakens the operational requirements.",
+    "citations_provenance": "No new workplace facts, actual dates, citations, or identities are introduced. The relative days and synthetic setting remain as supplied. The anonymous method and candidate detector scores remain unseen. The supplied native result matches the exact candidate hash, pinned checkpoint, and one window covering all input tokens. Native model classification is separate from documented source history; method identity remains blind."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 214,
+          "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. Only the way we record returns is changing; the borrowing limits stay the same.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "P1 combines duration, next-Monday start, equipment, and both desks into one announcement and keeps borrowing limits unchanged. Only the way we record returns is changing is faithful within the announced trial scope.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 216,
+          "end": 288,
+          "quote": "Please tell Nia by 3 p.m. this Friday if you can't open the shared file.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "P2 preserves Nia as contact, the 3 p.m. Friday deadline, and the inability-to-open trigger. Separating this earlier preparation from the later outage fallback improves scanning without changing urgency.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 290,
+          "end": 638,
+          "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "P3 preserves logging before cupboard storage, the missing-item shelf and note, the prohibition on availability during checking, and permission to leave except for an immediate safety concern. Needn't is a legitimate stylistic choice, not a defect.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S4",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 640,
+          "end": 828,
+          "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you don't need to enter them again yourself.",
+          "line": 7,
+          "column": 1,
+          "paragraph_ids": [
+            "P4"
+          ]
+        }
+      ],
+      "observation": "P4 retains the trial-only file-unavailability condition, the paper sheet beside the cupboard, Nia's next-morning transfer, and no duplicate entry by staff. Splitting the original semicolon does not change assigned responsibility.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "S5",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 830,
+          "end": 965,
+          "quote": "I'll review the logs after the second week and ask both desks whether the extra step was useful. We haven't decided whether to keep it.",
+          "line": 9,
+          "column": 1,
+          "paragraph_ids": [
+            "P5"
+          ]
+        }
+      ],
+      "observation": "P5 preserves the writer's review after week two, consultation with both desks, and undecided retention. The short close is effective and does not need an added justification or motivational claim.",
+      "interpretation": "This paragraph-level editorial observation records a supported, genre-appropriate choice and retained meaning. It identifies no necessary repair and does not identify the authoring process. AI-assisted or human editing could produce these choices.",
+      "human_alternative": "A human editor following the same source constraints could legitimately choose this wording, ordering, or level of formality. The fictional details and source-derived specificity are not evidence of actual human experience.",
+      "discriminating_evidence": "Writing history would be needed to identify the editing process. The source-bound blind review is sufficient for this retain decision; no authorship conclusion is drawn from fluency.",
+      "triage": {
+        "action": "retain",
+        "reason": "The frozen review found this paragraph faithful and suitable for its reader. No actual defect or unsupported claim was identified.",
+        "repair_required": false,
+        "unresolved_scope": "Method identity and the causes of any later model score remain unknown; neither is a prose defect."
+      }
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 214,
+          "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. Only the way we record returns is changing; the borrowing limits stay the same.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "For P1, the supplied baseline AI-involvement score is 0.9954689648002386, the after-removal score is 0.9042721092700958, and baseline minus after-removal is 9.119685553014278 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T02\\\\A\\\\model-result.json\", \"sha256\": \"9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a\", \"field\": \"occlusion.paragraphs[0]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    },
+    {
+      "id": "O2",
+      "basis": "local_occlusion",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 216,
+          "end": 288,
+          "quote": "Please tell Nia by 3 p.m. this Friday if you can't open the shared file.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "For P2, the supplied baseline AI-involvement score is 0.9954689648002386, the after-removal score is 0.999299826216884, and baseline minus after-removal is -0.3830861416645348 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T02\\\\A\\\\model-result.json\", \"sha256\": \"9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a\", \"field\": \"occlusion.paragraphs[1]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    },
+    {
+      "id": "O3",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 290,
+          "end": 638,
+          "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "For P3, the supplied baseline AI-involvement score is 0.9954689648002386, the after-removal score is 0.922807015478611, and baseline minus after-removal is 7.266194932162762 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T02\\\\A\\\\model-result.json\", \"sha256\": \"9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a\", \"field\": \"occlusion.paragraphs[2]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    },
+    {
+      "id": "O4",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 640,
+          "end": 828,
+          "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you don't need to enter them again yourself.",
+          "line": 7,
+          "column": 1,
+          "paragraph_ids": [
+            "P4"
+          ]
+        }
+      ],
+      "observation": "For P4, the supplied baseline AI-involvement score is 0.9954689648002386, the after-removal score is 0.7239516973495483, and baseline minus after-removal is 27.151726745069027 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T02\\\\A\\\\model-result.json\", \"sha256\": \"9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a\", \"field\": \"occlusion.paragraphs[3]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    },
+    {
+      "id": "O5",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 830,
+          "end": 965,
+          "quote": "I'll review the logs after the second week and ask both desks whether the extra step was useful. We haven't decided whether to keep it.",
+          "line": 9,
+          "column": 1,
+          "paragraph_ids": [
+            "P5"
+          ]
+        }
+      ],
+      "observation": "For P5, the supplied baseline AI-involvement score is 0.9954689648002386, the after-removal score is 0.983866473659873, and baseline minus after-removal is 1.16024911403656 percentage points.",
+      "interpretation": "This is sensitivity to removing the whole paragraph and rescoring the changed input. A positive delta means removal lowered the score; a negative delta means removal raised it. It is not a paragraph AI probability, the model's causal explanation, a defective-phrase location, or a reason to remove required content.",
+      "human_alternative": "Changed length, remaining context, ordinary genre cues, and broken argument or narrative continuity can change the same scorer on human or AI prose. The experiment does not separate those effects.",
+      "discriminating_evidence": "Matched-length controlled edits and independent validation would be needed to attribute the response to a particular wording choice. No such claim is made. The fixed blind review found the intact paragraph faithful and suitable.",
+      "source_record": "{\"file\": \"C:\\\\Users\\\\ach18\\\\Documents\\\\Codex\\\\2026-10-02\\\\ai-humanizer-skill-skill-humanizer-skill\\\\work\\\\english-lab\\\\transfer-scores\\\\T02\\\\A\\\\model-result.json\", \"sha256\": \"9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a\", \"field\": \"occlusion.paragraphs[4]\", \"conditions\": \"Supplied pinned local English checkpoint; one-window whole-input baseline; deletion of this entire paragraph changes length and context; no inference by reviewer.\"}",
+      "triage": {
+        "action": "retain",
+        "reason": "Measured deletion sensitivity identifies no independently supported prose defect. The all-paragraph blind review passed this paragraph; required meanings must not be removed to lower a score.",
+        "repair_required": false,
+        "unresolved_scope": "The causes of the model sensitivity remain unresolved. This is uncertainty about the measurement, not an unresolved editing defect."
+      }
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 214,
+      "line": 1,
+      "text": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. Only the way we record returns is changing; the borrowing limits stay the same.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "P1 combines duration, next-Monday start, equipment, and both desks into one announcement and keeps borrowing limits unchanged. Only the way we record returns is changing is faithful within the announced trial scope.",
+      "finding_ids": [
+        "S1",
+        "O1"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 216,
+      "end": 288,
+      "line": 3,
+      "text": "Please tell Nia by 3 p.m. this Friday if you can't open the shared file.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "P2 preserves Nia as contact, the 3 p.m. Friday deadline, and the inability-to-open trigger. Separating this earlier preparation from the later outage fallback improves scanning without changing urgency.",
+      "finding_ids": [
+        "S2",
+        "O2"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 290,
+      "end": 638,
+      "line": 5,
+      "text": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "P3 preserves logging before cupboard storage, the missing-item shelf and note, the prohibition on availability during checking, and permission to leave except for an immediate safety concern. Needn't is a legitimate stylistic choice, not a defect.",
+      "finding_ids": [
+        "S3",
+        "O3"
+      ]
+    },
+    {
+      "id": "P4",
+      "start": 640,
+      "end": 828,
+      "line": 7,
+      "text": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you don't need to enter them again yourself.",
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "P4 retains the trial-only file-unavailability condition, the paper sheet beside the cupboard, Nia's next-morning transfer, and no duplicate entry by staff. Splitting the original semicolon does not change assigned responsibility.",
+      "finding_ids": [
+        "S4",
+        "O4"
+      ]
+    },
+    {
+      "id": "P5",
+      "start": 830,
+      "end": 965,
+      "line": 9,
+      "text": "I'll review the logs after the second week and ask both desks whether the extra step was useful. We haven't decided whether to keep it.",
+      "paragraph_id": "P5",
+      "status": "reviewed",
+      "assessment": "P5 preserves the writer's review after week two, consultation with both desks, and undecided retention. The short close is effective and does not need an added justification or motivational claim.",
+      "finding_ids": [
+        "S5",
+        "O5"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 5,
+    "paragraphs_reviewed": 5,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_local_model",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "measured_at_utc": "2026-10-03T10:44:44.158154+00:00",
+    "class_probabilities": {
+      "human": 0.004531035199761391,
+      "ai": 0.973919689655304,
+      "ai_edited": 0.0015044831670820713,
+      "humanized": 0.020044874399900436
+    },
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "calibration": null,
+    "applicability_cautions": [],
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "language_scope": "English only; independently uncalibrated",
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  },
+  "triage_summary": {
+    "revise": 0,
+    "retain": 10,
+    "unresolved": 0
+  },
+  "measurement_record": {
+    "native_result_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\transfer-scores\\T02\\A\\model-result.json",
+    "native_result_sha256": "9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a",
+    "candidate_sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "measured_at_utc": "2026-10-03T10:44:44.158154+00:00",
+    "language": "English, manually verified",
+    "window_count": 1,
+    "token_count": 209,
+    "all_input_tokens_scored": true,
+    "class_probabilities": {
+      "human": 0.004531035199761391,
+      "ai": 0.973919689655304,
+      "ai_edited": 0.0015044831670820713,
+      "humanized": 0.020044874399900436
+    },
+    "ai_involvement_class_score": 0.9954689648002386,
+    "semantics": "Unvalidated local four-class outputs. AI involvement = AI + AI-edited + Humanized; native 1-Human agrees within floating-point rounding. No value is a verified authorship probability or a fraction of words.",
+    "source_native_sha256": "de70b45b4c0d690e4c7d2de02742aa043751d29d0946a0e6ca364c52f69b84b3",
+    "source_class_probabilities": {
+      "human": 0.006715842988342047,
+      "ai": 0.9494030475616455,
+      "ai_edited": 0.0012066115159541368,
+      "humanized": 0.04267454519867897
+    },
+    "candidate_minus_source_percentage_points": {
+      "human": -0.2184807788580656,
+      "ai": 2.4516642093658447,
+      "ai_edited": 0.029787165112793446,
+      "humanized": -2.2629670798778534
+    },
+    "comparison_limit": "A rise in the Human class or fall in the AI class does not establish improved writing, human origin, or general detection performance. Movement into AI-edited or Humanized remains inside the AI-involvement aggregate.",
+    "independently_calibrated_here": false,
+    "authorship_verified_by_model": false,
+    "occlusion": {
+      "performed": true,
+      "paragraphs": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 214,
+          "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. Only the way we record returns is changing; the borrowing limits stay the same.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9954689648002386,
+          "after_removal_ai_involvement": 0.9042721092700958,
+          "delta_percentage_points": 9.119685553014278
+        },
+        {
+          "paragraph_id": "P2",
+          "start": 216,
+          "end": 288,
+          "quote": "Please tell Nia by 3 p.m. this Friday if you can't open the shared file.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9954689648002386,
+          "after_removal_ai_involvement": 0.999299826216884,
+          "delta_percentage_points": -0.3830861416645348
+        },
+        {
+          "paragraph_id": "P3",
+          "start": 290,
+          "end": 638,
+          "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9954689648002386,
+          "after_removal_ai_involvement": 0.922807015478611,
+          "delta_percentage_points": 7.266194932162762
+        },
+        {
+          "paragraph_id": "P4",
+          "start": 640,
+          "end": 828,
+          "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you don't need to enter them again yourself.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9954689648002386,
+          "after_removal_ai_involvement": 0.7239516973495483,
+          "delta_percentage_points": 27.151726745069027
+        },
+        {
+          "paragraph_id": "P5",
+          "start": 830,
+          "end": 965,
+          "quote": "I'll review the logs after the second week and ask both desks whether the extra step was useful. We haven't decided whether to keep it.",
+          "status": "measured",
+          "baseline_ai_involvement": 0.9954689648002386,
+          "after_removal_ai_involvement": 0.983866473659873,
+          "delta_percentage_points": 1.16024911403656
+        }
+      ],
+      "total_paragraphs": 5,
+      "unmeasured_due_to_limit": 0,
+      "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+    },
+    "guard_checks": "Successful serialized worker exit, pinned model and weight hashes, exact input hash, complete single-window token coverage, finite four-class outputs/sum, and exact deletion anchors/deltas checked."
+  },
+  "editorial_closure": {
+    "fidelity_pass": true,
+    "reader_eligible": true,
+    "necessary_repairs": [],
+    "decision": "retain",
+    "reason": "No source-fidelity or reader-quality defect was found in the pre-score review. Optional stylistic differences do not compel another rewrite.",
+    "blind_pair_preference": {
+      "choice": "tie",
+      "strength": "no_material_preference",
+      "reason": "Both versions are clear, complete, and equally usable as an internal memo. A is slightly more conversational and compact; B makes the kit referent explicit and uses fuller negative forms. The difference does not produce a meaningful reader-quality advantage in this context.",
+      "exact_candidate_evidence": {
+        "A": [
+          {
+            "start": 484,
+            "end": 638,
+            "quote": "Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ],
+        "B": [
+          {
+            "start": 483,
+            "end": 655,
+            "quote": "Please do not mark the kit available while we are still checking it. Unless there is an immediate safety concern, the person returning it does not need to wait at the desk.",
+            "offset_unit": "zero_based_unicode_codepoints_end_exclusive"
+          }
+        ]
+      },
+      "counterconsideration": "A house style preferring contractions could favor A; a procedural template preferring full negatives could favor B. Neither preference is supplied, and both retain the required force.",
+      "fidelity_overrides_applied": false,
+      "method_identity_inference": null
+    },
+    "post_measurement_action": "retain",
+    "post_measurement_reason": "The new native feedback is bound and reviewed. It supplies no independently grounded repair need. Keep the passing candidate and the frozen reader judgment; do not begin a rewrite solely to chase an uncalibrated score.",
+    "measured_feedback_reviewed": true,
+    "next_action": "Return the measured evidence and retain decisions to the writer; any later revision requires a separately stated real defect or changed user requirement."
+  },
+  "review_metadata": {
+    "case_id": "T02",
+    "anonymous_candidate": "A",
+    "genre": "Internal operational work memo",
+    "language": "English",
+    "frozen_blind_review_file": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-review\\round-1.json",
+    "frozen_blind_review_sha256": "dc87c8a1a42ccfd5575e6ae093e38f01a55fe2c584aa813a32686edd14e6494d",
+    "candidate_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-lab\\blind-pairs\\T02\\A.txt",
+    "candidate_sha256": "94d2606102eb229fde2f6ad4301d7d8acd90eca8e7e930b0cdfa7a128431601d",
+    "original_source_sha256": "79bc9eec91150e3fde72a0d26b8eefb89d8094e8f4a4022b63fd18279057966c",
+    "source_constraints_sha256": "91e8884aec65ff49713dc485f16592e0693ce438e45f06b0fa270ca63e06556a",
+    "candidate_scores_read_at_qualitative_preparation": false,
+    "method_identities_read": false,
+    "inference_run_by_reviewer": false,
+    "known_history": "Anonymous rewrite of a known AI-generated synthetic source. Fictional people, situations, and memories are not human-authored ground truth.",
+    "numeric_status": "Supplied native single-window output bound exactly; four-class semantics preserved.",
+    "native_results_read": true,
+    "integrated_at_utc": "2026-10-03T10:46:52.556080+00:00"
+  },
+  "full_constraint_coverage": [
+    {
+      "original_paragraph_id": "P1",
+      "original_anchor": {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 237,
+        "quote": "Starting next Monday, we will try a shared return log for borrowed projectors and audio kits. The trial will run for two weeks at the North and Annex desks. This is a change to how we record returns, not a change to the borrowing limits."
+      },
+      "candidate_paragraph_ids": [
+        "P1"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P1",
+          "start": 0,
+          "end": 214,
+          "quote": "For two weeks starting next Monday, we'll try a shared return log for borrowed projectors and audio kits at the North and Annex desks. Only the way we record returns is changing; the borrowing limits stay the same."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "A shared return log starts next Monday.",
+          "pass": true
+        },
+        {
+          "constraint": "The equipment scope is borrowed projectors and audio kits.",
+          "pass": true
+        },
+        {
+          "constraint": "The trial lasts two weeks.",
+          "pass": true
+        },
+        {
+          "constraint": "It covers both the North and Annex desks.",
+          "pass": true
+        },
+        {
+          "constraint": "Only return recording changes; borrowing limits do not.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Announce an authorized trial, rather than propose one or describe a permanent policy.",
+          "pass": true
+        },
+        {
+          "constraint": "Retain the relative scheduling and do not invent calendar dates.",
+          "pass": true
+        }
+      ],
+      "reason": "Original P1 maps to candidate P1: every timing, scope, and non-change claim survives."
+    },
+    {
+      "original_paragraph_id": "P2",
+      "original_anchor": {
+        "paragraph_id": "P2",
+        "start": 239,
+        "end": 599,
+        "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please do not mark it available while we are still checking it. The person returning it does not need to wait at the desk unless there is an immediate safety concern."
+      },
+      "candidate_paragraph_ids": [
+        "P3"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P3",
+          "start": 290,
+          "end": 638,
+          "quote": "When equipment comes back, enter the kit number and return time before putting it in the cupboard. If anything is missing, leave the kit on the inspection shelf and add a short note in the log. Please don't mark it available while we're still checking it. The person returning it needn't wait at the desk unless there's an immediate safety concern."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "Staff enter the kit number and return time when equipment returns.",
+          "pass": true
+        },
+        {
+          "constraint": "They make that entry before putting the kit in the cupboard.",
+          "pass": true
+        },
+        {
+          "constraint": "A kit missing anything goes on the inspection shelf, with a short note in the log.",
+          "pass": true
+        },
+        {
+          "constraint": "Staff must not mark a kit available while it is still being checked.",
+          "pass": true
+        },
+        {
+          "constraint": "The person returning equipment need not remain at the desk unless there is an immediate safety concern.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Preserve the required action sequence and negative instruction.",
+          "pass": true
+        },
+        {
+          "constraint": "Preserve permission to leave and its narrow safety exception; do not substitute a general requirement to wait or to leave.",
+          "pass": true
+        }
+      ],
+      "reason": "Original P2 maps to candidate P3: all required actions, sequence, prohibition, permission, and exception survive. Contractions retain their force."
+    },
+    {
+      "original_paragraph_id": "P3",
+      "original_anchor": {
+        "paragraph_id": "P3",
+        "start": 601,
+        "end": 863,
+        "quote": "By 3 p.m. this Friday, please tell Nia if you cannot open the shared file. If the file is unavailable during the trial, use the paper sheet beside the cupboard; Nia will transfer those entries the following morning. There is no need to enter them again yourself."
+      },
+      "candidate_paragraph_ids": [
+        "P2",
+        "P4"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P2",
+          "start": 216,
+          "end": 288,
+          "quote": "Please tell Nia by 3 p.m. this Friday if you can't open the shared file."
+        },
+        {
+          "paragraph_id": "P4",
+          "start": 640,
+          "end": 828,
+          "quote": "If the file is unavailable during the trial, use the paper sheet beside the cupboard. Nia will transfer those entries the following morning, so you don't need to enter them again yourself."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "Anyone unable to open the shared file should tell Nia by 3 p.m. this Friday.",
+          "pass": true
+        },
+        {
+          "constraint": "During a trial outage, staff use the paper sheet beside the cupboard.",
+          "pass": true
+        },
+        {
+          "constraint": "Nia will transfer those paper entries the following morning.",
+          "pass": true
+        },
+        {
+          "constraint": "Desk staff do not need to enter the same records again themselves.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Keep the access-reporting request and its deadline.",
+          "pass": true
+        },
+        {
+          "constraint": "Keep the contingency distinct from ordinary operation.",
+          "pass": true
+        },
+        {
+          "constraint": "Preserve Nia's assigned follow-up and the explicit exemption from duplicate entry.",
+          "pass": true
+        }
+      ],
+      "reason": "Original P3 maps to candidate P2 and P4: the access deadline and fallback are separated without losing any trigger, person, time, location, or exemption."
+    },
+    {
+      "original_paragraph_id": "P4",
+      "original_anchor": {
+        "paragraph_id": "P4",
+        "start": 865,
+        "end": 1003,
+        "quote": "I will review the logs after the second week and ask both desks whether the extra step was useful. We have not decided whether to keep it."
+      },
+      "candidate_paragraph_ids": [
+        "P5"
+      ],
+      "candidate_anchors": [
+        {
+          "paragraph_id": "P5",
+          "start": 830,
+          "end": 965,
+          "quote": "I'll review the logs after the second week and ask both desks whether the extra step was useful. We haven't decided whether to keep it."
+        }
+      ],
+      "proposition_checks": [
+        {
+          "constraint": "The writer will review the logs after the second week.",
+          "pass": true
+        },
+        {
+          "constraint": "The writer will ask both desks whether the extra step was useful.",
+          "pass": true
+        },
+        {
+          "constraint": "Keeping the process permanently is undecided.",
+          "pass": true
+        }
+      ],
+      "speech_act_checks": [
+        {
+          "constraint": "Preserve the writer's commitments.",
+          "pass": true
+        },
+        {
+          "constraint": "Do not promise retention, cancellation, or improvement before review.",
+          "pass": true
+        }
+      ],
+      "reason": "Original P4 maps to candidate P5: review commitment and undecided outcome both remain explicit."
+    }
+  ],
+  "voice_constraint_checks": [
+    {
+      "constraint": "Be clear and collegial while preserving the authority of operational instructions.",
+      "pass": true
+    },
+    {
+      "constraint": "Do not soften required actions into optional suggestions.",
+      "pass": true
+    },
+    {
+      "constraint": "Do not add enthusiasm, blame, apology, urgency, or performance claims absent from the source.",
+      "pass": true
+    }
+  ],
+  "triage_validation_scope": "Analyst triage was keyed to every validated finding and checked for a valid action/reason. Exact hashes, quotations, coordinates, complete coverage, and native model binding were validated by evidence.py. Semantic judgments and triage correctness are not automatically authenticated."
+}

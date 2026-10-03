@@ -1,0 +1,27 @@
+{
+  "case_id": "T02",
+  "completed_at_utc": "2026-10-03T10:46:52.833983+00:00",
+  "pair_feedback_sha256": "db7bf75fecad165edd663a643514a062e67c282c521a10a1607c309a32cc25c1",
+  "candidate_files": {
+    "A": {
+      "full-ledger.json": "ccdb0d228071ab025c42dd76ec24c31ce4289b83b33f3362c2b3f55ed0b8e96e",
+      "native-result.json": "9dd31098e6be542a8c32aeddc6ef870117065013248eb9b2ea288ae579f0177a",
+      "measurement-binding.json": "ea31ffccb29798019b347b93e138c21a1ebce12b1fc76b59316cd0935322d851",
+      "validation-native.json": "c2d301edf57d48806f181c0ecd6a046edbf52d577afa452a1cc3e32720beb107",
+      "validated-full.json": "26928e27c3edb9639f37430319cd35bd08417b537e49aedaf85b2c9eb62977e4",
+      "triage.json": "d28303ea2ecd9f757f8b5ecc23d7efae0349b942f0e61aedfb31c9734e4757a6",
+      "evidence.html": "5e1611cadfae91c10aacef9fad84cdb1d828b7c16e7a252dfedf4caaa11e7ad8"
+    },
+    "B": {
+      "full-ledger.json": "6bd29e3f89292fa2ceb85e7c1f37a62320e48e7eeb819efc0046ba27296a2b53",
+      "native-result.json": "f79eb175df00895e3432adf4a8f75b1119f92510a82f11e9d8ed1186214eade6",
+      "measurement-binding.json": "2bfaa64f2032b905f1cf11c7e5579c4b595a4b602c08eb243a01be1ec804fe57",
+      "validation-native.json": "e9ceb385349246a64d30fb13f272aa5077ccb73f3b0c7ef6e77d62b8858d93e4",
+      "validated-full.json": "7fe9c97a66aa4a07d475306188153362fd48073b7fdced692b477aa599368459",
+      "triage.json": "ea67cf58f039ea89a462e0899c7278f3ee03ebea29f3a559d08582ad71002782",
+      "evidence.html": "b0351e57a96fad6ef6b99f68cbbd4c2c1bd6baa9974d20464740a7e12cb65d38"
+    }
+  },
+  "blind_review_unchanged": true,
+  "method_identities_read": false
+}

@@ -1,0 +1,9 @@
+# Complete-composition alternative, revision 1
+
+The actual draft-1 post-score whole-document review resolved source S1/S2 and found no necessary new repair. Human remains low at 0.6336482%. This is an explicitly requested stronger whole-composition comparison within the same budget, not a correction to a manufactured defect.
+
+Reader route: first let the real Saturday attendance advantage stand with the limited evidence base. Then turn to the missing staffing resource, with 'What we don't yet have' focusing the actual obstacle. Derive the winter recommendation after its reason. Retain the future review/counting proposal and the limit of past completed-repair totals. This puts the recommendation at the end of its reasoning instead of the beginning; whether it is preferable is a real reader trade-off.
+
+Full fidelity review: all source propositions retained, including welcoming visitors, record basis/six sessions/no population survey, all counts, two Saturday trials/second volunteer, Mara's ability and noncommitment, missing qualified volunteer, possible unavailable bench with more arrivals, Wednesday winter recommendation, conditional January review, queue-loss recording, already counted repairs and nonattendee limitation. 'Move ... and we could' is a conditional construction, not an instruction to move or a certain prediction. 'We haven't surveyed' expresses the source's absence of a survey rather than adding a new duty. No suggestion that Mara refused Saturdays or that nobody could staff them.
+
+Reader pass: cohesive evidence-to-constraint turn, ordinary professional first-person stance, no fake anecdote or decorative emotion. The most debatable sentence is the conditional 'Move the session now and ...'; parent should check its register and logical force against the source. All text is saved and unscored pending separate review.

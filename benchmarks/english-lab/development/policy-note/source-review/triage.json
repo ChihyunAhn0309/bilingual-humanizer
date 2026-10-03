@@ -1,0 +1,27 @@
+[
+  {
+    "finding_id": "S1",
+    "decision": "revise",
+    "reason": "Bring the supported operational reason beside the recommendation; retain last six sessions and absence of survey explicitly."
+  },
+  {
+    "finding_id": "S2",
+    "decision": "revise",
+    "reason": "Give attendance and staffing a clear hierarchy without portraying Mara as unavailable or Saturday as impossible."
+  },
+  {
+    "finding_id": "S3",
+    "decision": "retain",
+    "reason": "All three functions are useful; wording may be integrated while preserving their force and scope."
+  },
+  {
+    "finding_id": "M",
+    "decision": "retain",
+    "reason": "Retain the complete information; inspect sensitivity without deleting the paragraph or inventing a defect."
+  },
+  {
+    "finding_id": "H",
+    "decision": "retain",
+    "reason": "Preserve known AI-origin provenance regardless of scores."
+  }
+]

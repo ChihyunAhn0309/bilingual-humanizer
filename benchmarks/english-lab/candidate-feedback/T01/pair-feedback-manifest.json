@@ -1,0 +1,27 @@
+{
+  "case_id": "T01",
+  "completed_at_utc": "2026-10-03T10:46:00.035393+00:00",
+  "pair_feedback_sha256": "a1ff1148ef68eb7eb1d4f7f9737ca7defc454988f5bb880ac4e9c20f53531ded",
+  "candidate_files": {
+    "A": {
+      "full-ledger.json": "1c09b884cdf364dafcb00e5f6c3b27f20554ed67be9dd02d762dc1b4978810fc",
+      "native-result.json": "2d561d71e0c22c14f4f668b0ec15edcc00212e5281e877f5d62238b40ba6c306",
+      "measurement-binding.json": "6a665d9037750fc1ad3dfd8daac74d3e101d849637d325cd0692c14ff0a2e684",
+      "validation-native.json": "032148a4c670853e8b55f9b2da173021cb6dc8fd76903ef6ec7e2b842e8e042b",
+      "validated-full.json": "06f5a17ea0ed04ef793d47678ab5a01c1aba33ad9815f0cd823f461bd8191684",
+      "triage.json": "e5c6a6709df834d7c2cb7a199d4c921779d91d0a30101fa5e2068ed6884fbdc8",
+      "evidence.html": "e559c202b9f0d43d2ad0879cdd05aa2f426de4544a343678acacd2f9d6de81e6"
+    },
+    "B": {
+      "full-ledger.json": "50eecd27c7f1c115f4537a23d5514e1a80015c761da81961bbe05aae249fefcf",
+      "native-result.json": "acaf71a38bb5fb9fff89b3400209555dd7696f3fa58a742c77412088cf2d3db6",
+      "measurement-binding.json": "dd0090af08124b8c29e78b85932ebc057a2aa6d46c3a4a078c7a3206d3768527",
+      "validation-native.json": "55526fe3b060bfc35ca8970f1303593712d81995ebdceda53e7cfd4b4d844aa3",
+      "validated-full.json": "ec0d58d0cb0672b7fe72f59af8b101c0ebc0ce0c1cf1508caeadb7b5383a6306",
+      "triage.json": "784e777845e8d5fa8d9eb37a7968831e8db93c2945b526de5453f2050e72ce76",
+      "evidence.html": "c1b950670ee9d6ba8aeef463ed1d215bfe187e6c9731152b2ab7143d5bbe4ee5"
+    }
+  },
+  "blind_review_unchanged": true,
+  "method_identities_read": false
+}

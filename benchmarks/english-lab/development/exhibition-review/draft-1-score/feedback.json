@@ -1,0 +1,11 @@
+{
+  "status": "unavailable",
+  "measurement_status": "not_submitted",
+  "reason": "Not submitted to detector: independent parent review rejected causal-to-event uncertainty drift; candidate text exists and is retained.",
+  "input_sha256": "05cf11d7d0d26dd4ba049fd64f2ecdc94ef008e8291a9d70dcedde9bbe71f924",
+  "human_percent": null,
+  "native_class_probabilities": null,
+  "external_detector_calls": 0,
+  "local_detector_calls": 0,
+  "style_review_completed": false
+}

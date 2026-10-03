@@ -1,0 +1,30 @@
+{
+  "frozen_at_utc": "2026-10-03T10:30:37.559816+00:00",
+  "scope": "Qualitative source reviews fixed before reading any detector output or any candidate. All ten paragraphs reviewed; source text unchanged.",
+  "detector_scores_seen": false,
+  "candidate_outputs_seen": false,
+  "checksums": {
+    "T01": {
+      "qualitative-ledger.json": "7f6dc2dab06b163ccd0626751396ff953efe7dae3506e0bbb1af7a3c5a02b555",
+      "validated.json": "90743cf2f8ce3757ed96d017f46d32835659ac91bdff8cbbf7f6bad75d440564",
+      "evidence.html": "f4e8c56e762a88d24aef9bca02e3268b6c8ff1e1322d02a32e399baa42c4b0b9",
+      "profile.json": "06092d10a9d63893bc7ba6de86cdf73c812c3d8630a21802ddcd75c1657edab6",
+      "index.json": "39b3b4ce57af8c4bbba2123e8a30327022d5a5ee05d3d345b9622c7bbe731d79"
+    },
+    "T02": {
+      "qualitative-ledger.json": "8e3989a0708531fe63762145a3f83447b341d8ceed0cd4e72263dd32af586f1d",
+      "validated.json": "13efd87c627ac5d9b401e663a1cf47cba433da400e11cd88158b0d899fbdeca2",
+      "evidence.html": "0170bf3f85c14fb384bd59d06b2c127f512a56994e70e8db7ae5ee407b932837",
+      "profile.json": "cfde8328506db49a4bdbcc3685926764d2769445555bf9fbab8b2c03ceb13004",
+      "index.json": "7185aae98a9c7c896ff92a6f82419ef909af8853e235ae1348e980f3e025e9cf"
+    },
+    "T03": {
+      "qualitative-ledger.json": "79856e532e515db7033fd0fda0081d87fe112cda52ae9054822e5385f7588b8b",
+      "validated.json": "1c69183dc30a1a974851ae0c223baaa9df9569ad959487f5dcc0cf04b17defb8",
+      "evidence.html": "d1e316f25d095417780a4b3922c4d1ce9e89430de8a9ceafa285c77c0bfbe828",
+      "profile.json": "99736cc2c67666d6b33a7b70e174fc1d6f383131602b76949440b3d023913eb6",
+      "index.json": "713b2b4d1494b79db754041269dc8bd409375caadcfdf3e8e4f45301a9d1ed2f"
+    }
+  },
+  "source_editorial_decisions_sha256": "9e178732d7a64b0460661f1ebf41697b2598d049f850ef176b2454045ff30758"
+}

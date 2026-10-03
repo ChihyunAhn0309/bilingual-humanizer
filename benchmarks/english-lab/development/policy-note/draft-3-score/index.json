@@ -1,0 +1,26 @@
+{
+  "text_sha256": "34136cbcc5e27fa42a1e45cf32c38436fae71066a44d4317b5f63735ede80444",
+  "paragraphs": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 248,
+      "line": 1,
+      "text": "Saturday drew the bigger crowds in the two trials: 20 and 23 people, compared with 11 to 18 on Wednesdays. I'm basing the recommendation on attendance records from the last six sessions, rather than on a survey of everyone who might want to attend."
+    },
+    {
+      "id": "P2",
+      "start": 250,
+      "end": 659,
+      "line": 3,
+      "text": "More visitors are welcome. What we don't yet have is another qualified volunteer for the electrical bench, where each Saturday trial needed a second person. Mara can cover Wednesdays until the end of February, but she hasn't committed to Saturdays. Move the session now and we could have more visitors arriving while that bench is unavailable. For this winter, I'd keep Wednesday rather than move to Saturday."
+    },
+    {
+      "id": "P3",
+      "start": 661,
+      "end": 960,
+      "line": 5,
+      "text": "I suggest we revisit the decision in January if another volunteer comes forward. Meanwhile, we should count the people who leave without a repair because they can't wait. We've been counting completed repairs, but that doesn't tell us whether Wednesday is convenient for people who haven't attended."
+    }
+  ]
+}
