@@ -1,0 +1,28 @@
+{
+  "decisions": [
+    {
+      "input_sha256": "8f32f993763aa507a46c51844b0ae39763260d5d298408f3ff5d814e627d1575",
+      "span_in_revision_1": {
+        "start": 122,
+        "end": 163,
+        "quote": "기간이 정해진 시범 운영안으로, 영구적인 운영 정책이 확정된 것은 아니다."
+      },
+      "decision": "repair",
+      "reason": "Restore negation scope: this proposal was not confirmed as permanent policy, not a general claim about whether permanent policy exists.",
+      "replacement": "기간이 정해진 시범 운영안이지 영구적인 운영 정책으로 확정된 것은 아니다."
+    },
+    {
+      "input_sha256": "8f32f993763aa507a46c51844b0ae39763260d5d298408f3ff5d814e627d1575",
+      "span_in_revision_1": {
+        "start": 658,
+        "end": 701,
+        "quote": "이후 판단에서도 연장 개관에 대한 관심을 인정하되 이 조건을 함께 봐야 한다."
+      },
+      "decision": "repair",
+      "reason": "Restore the explicit later checking duty; consideration alone weakens the source obligation.",
+      "replacement": "이후 판단에서도 연장 개관에 대한 관심을 인정하되 참여 가능성을 확인해야 한다."
+    }
+  ],
+  "candidate_sha256": "706bea14381f9dd45caeaceaf4eb445af4821db69c2ce5d099d50c653754bfba",
+  "revision_1_accepted": false
+}

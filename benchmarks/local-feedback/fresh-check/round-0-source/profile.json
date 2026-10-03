@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "mode": "observations_only",
+  "text_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+  "file_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+  "characters_codepoints": 609,
+  "non_whitespace_characters": 458,
+  "whitespace_units": 148,
+  "hangul_letters": 430,
+  "latin_letters": 0,
+  "other_letters": 0,
+  "hangul_share_of_letters": 1.0,
+  "latin_share_of_letters": 0.0,
+  "rough_sentence_count": 12,
+  "rough_sentence_mean_characters": 49.5,
+  "rough_sentence_length_cv": 0.4196885622337144,
+  "comma_count": 5,
+  "commas_per_1000_codepoints": 8.210180623973727,
+  "surface_type_token_ratio": 0.8851351351351351,
+  "repeated_surface_forms": [
+    {
+      "surface_form": "시범",
+      "count": 5
+    },
+    {
+      "surface_form": "예약",
+      "count": 4
+    },
+    {
+      "surface_form": "운영",
+      "count": 3
+    },
+    {
+      "surface_form": "방식을",
+      "count": 2
+    },
+    {
+      "surface_form": "자리를",
+      "count": 2
+    },
+    {
+      "surface_form": "예약한",
+      "count": 2
+    },
+    {
+      "surface_form": "이용자에게",
+      "count": 2
+    },
+    {
+      "surface_form": "한",
+      "count": 2
+    },
+    {
+      "surface_form": "수",
+      "count": 2
+    },
+    {
+      "surface_form": "있습니다.",
+      "count": 2
+    },
+    {
+      "surface_form": "의견을",
+      "count": 2
+    }
+  ],
+  "unicode_observations": [],
+  "unicode_observation_count": 0,
+  "unicode_observations_truncated": false,
+  "authorship_probabilities": null,
+  "notes": [
+    "Counts are observations, not authorship evidence or a detector score.",
+    "Whitespace units are neither model tokens nor Korean morphemes.",
+    "Sentence splitting is approximate; inspect punctuation context.",
+    "Script counts do not establish language, fluency or identity.",
+    "Unicode controls are not proof of an AI watermark."
+  ]
+}

@@ -101,7 +101,7 @@ def verify():
     assert data['prior_observation_count'] == prior_count == 166
     assert data['cumulative_observation_count'] == prior_count + len(records)
     hashes = json.loads((BASE / 'feature-trial/release-skill-hashes.json').read_text('utf-8'))
-    skill = BASE.parent / 'skills/bilingual-humanizer'
+    skill = BASE / 'local-feedback/retained-skill'  # Exact v1.6.0 archive
     actual = {p.relative_to(skill).as_posix(): digest(p) for p in skill.rglob('*')
               if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'}
     assert actual == hashes

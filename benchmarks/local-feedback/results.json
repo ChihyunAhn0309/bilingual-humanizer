@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "release": "1.7.0",
+  "detector_skill_version": "3.1.1",
+  "inspected_runtime_contract": "3.1",
+  "korean_model_sha256": "f3048088269f293b5f54b131a26571eefcdb9ffd57d86acfd41b4d8d71d41e1f",
+  "measurements": [
+    {
+      "id": "development-ko-baseline",
+      "input": "development/ko-original.txt",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "native_result": "development/ko-baseline.json",
+      "feedback": null,
+      "genre": "unknown",
+      "human_percent": 80.1151257577781,
+      "measured_at_utc": "2026-10-03T06:47:15.251744+00:00"
+    },
+    {
+      "id": "development-ko-round-1",
+      "input": "development/ko-round-1/input.txt",
+      "input_sha256": "8f32f993763aa507a46c51844b0ae39763260d5d298408f3ff5d814e627d1575",
+      "native_result": "development/ko-round-1/model-result.json",
+      "feedback": "development/ko-round-1/feedback.json",
+      "genre": "unknown",
+      "human_percent": 81.76249319356056,
+      "measured_at_utc": "2026-10-03T06:54:28.604892+00:00"
+    },
+    {
+      "id": "development-ko-round-2",
+      "input": "development/ko-round-2/input.txt",
+      "input_sha256": "706bea14381f9dd45caeaceaf4eb445af4821db69c2ce5d099d50c653754bfba",
+      "native_result": "development/ko-round-2/model-result.json",
+      "feedback": "development/ko-round-2/feedback.json",
+      "genre": "unknown",
+      "human_percent": 76.30360721973481,
+      "measured_at_utc": "2026-10-03T06:57:14.791280+00:00"
+    },
+    {
+      "id": "fresh-check-round-0-source",
+      "input": "fresh-check/round-0-source/input.txt",
+      "input_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+      "native_result": "fresh-check/round-0-source/model-result.json",
+      "feedback": "fresh-check/round-0-source/feedback.json",
+      "genre": "unknown",
+      "human_percent": 95.81196753246375,
+      "measured_at_utc": "2026-10-03T06:55:04.882735+00:00"
+    },
+    {
+      "id": "fresh-check-round-1-candidate",
+      "input": "fresh-check/round-1-candidate/input.txt",
+      "input_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+      "native_result": "fresh-check/round-1-candidate/model-result.json",
+      "feedback": "fresh-check/round-1-candidate/feedback.json",
+      "genre": "unknown",
+      "human_percent": 85.92462024974569,
+      "measured_at_utc": "2026-10-03T06:57:48.751956+00:00"
+    }
+  ],
+  "reviews": [
+    {
+      "input": "development/en-baseline-retry/input.txt",
+      "ledger": "development/en-review/ledger.json",
+      "validated": "development/en-review/validated.json"
+    },
+    {
+      "input": "development/en-revision-1.txt",
+      "ledger": "development/en-round-1-review/ledger.json",
+      "validated": "development/en-round-1-review/validated.json"
+    },
+    {
+      "input": "development/ko-original.txt",
+      "ledger": "development/ko-review/ledger.json",
+      "validated": "development/ko-review/validated.json"
+    },
+    {
+      "input": "development/ko-revision-1.txt",
+      "ledger": "development/ko-round-1-review/ledger.json",
+      "validated": "development/ko-round-1-review/validated.json"
+    },
+    {
+      "input": "development/ko-revision-2.txt",
+      "ledger": "development/ko-round-2-review/ledger.json",
+      "validated": "development/ko-round-2-review/validated.json"
+    },
+    {
+      "input": "fresh-check/round-0-source/input.txt",
+      "ledger": "fresh-check/round-0-source/ledger.json",
+      "validated": "fresh-check/round-0-source/validated.json"
+    },
+    {
+      "input": "fresh-check/round-1-candidate/input.txt",
+      "ledger": "fresh-check/round-1-candidate/ledger.json",
+      "validated": "fresh-check/round-1-candidate/validated.json"
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "library-retained",
+      "input": "development/ko-original.txt",
+      "role": "retained_prior_checkpoint",
+      "reason": "First higher-scoring edit failed fidelity; repaired alternative did not improve score or justify replacing the prior complete checkpoint.",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "measurement_id": "development-ko-baseline",
+      "human_percent": 80.1151257577781
+    },
+    {
+      "id": "library-repaired-alternative",
+      "input": "development/ko-revision-2.txt",
+      "role": "faithful_alternative_not_promoted",
+      "reason": "Preserves restored duties and scope; lower local score is disclosed.",
+      "input_sha256": "706bea14381f9dd45caeaceaf4eb445af4821db69c2ce5d099d50c653754bfba",
+      "measurement_id": "development-ko-round-2",
+      "human_percent": 76.30360721973481
+    },
+    {
+      "id": "workspace-score-checkpoint",
+      "input": "fresh-check/source.txt",
+      "role": "best_scoring_faithful_source",
+      "reason": "Retained independently of the editorial selection; original score is not assigned to the rewrite.",
+      "input_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+      "measurement_id": "fresh-check-round-0-source",
+      "human_percent": 95.81196753246375
+    },
+    {
+      "id": "workspace-editorial-final",
+      "input": "fresh-check/final.txt",
+      "role": "editorial_final",
+      "reason": "Independent review confirmed fidelity and clearer reader flow; measured Human value decreased.",
+      "input_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+      "measurement_id": "fresh-check-round-1-candidate",
+      "human_percent": 85.92462024974569
+    },
+    {
+      "id": "english-editorial-final",
+      "input": "development/en-revision-1.txt",
+      "role": "editorial_final_numeric_unavailable",
+      "reason": "One clarified reporting sentence passed independent fidelity review; repeated original runtime failure prevents numeric comparison.",
+      "input_sha256": "728fe7cabb22fea96dadb4678e7e6b52b361299b9c5f65f5a2f9c96aea05abff",
+      "measurement_id": null,
+      "human_percent": null
+    }
+  ],
+  "failures": [
+    {
+      "input": "development/en-baseline-retry/input.txt",
+      "feedback": "development/en-baseline-retry/feedback.json",
+      "execution": "development/en-baseline-retry/execution.json"
+    }
+  ],
+  "first_english_failure": "Also observed worker exit 3221225477 in terminal; only the second failure has an adapter receipt. Neither has a usable model score.",
+  "external_detector_calls": 0,
+  "paid_actions": 0,
+  "commercial_transfer_measured": false,
+  "authorship_verified": false,
+  "statistical_cross_validation": false,
+  "numeric_scope": "Two Korean synthetic source documents and their observed revisions. English numeric inference failed."
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "input_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+  "language": "en",
+  "started_at_utc": "2026-10-03T06:49:11.099299+00:00",
+  "detector_skill": "C:\\Users\\ach18\\.codex\\skills\\bilingual-ai-detector",
+  "adapter": "local_feedback_v1",
+  "status": "error",
+  "error": "score failed with exit code 2; no usable score",
+  "calls": [
+    {
+      "stage": "index",
+      "script_sha256": "e39f5672ad47ec0bb95bd4d7ee83f9833b3d16ef795cfb6f2d27d5946f5df705",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "stage": "score",
+      "script_sha256": "67f179db20cca697966069bbcf0ada792393e3e00b83c0869a937dbc8662dae9",
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "{\"error\": \"English worker failed (exit 3221225477); no authorship score is available. Local runtime loaded; verifying model files\", \"authorship_probabilities\": null, \"worker_exit_code\": 3221225477}\n"
+    }
+  ]
+}

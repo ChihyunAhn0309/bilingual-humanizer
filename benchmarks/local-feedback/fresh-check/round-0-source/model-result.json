@@ -1,0 +1,1176 @@
+{
+  "mode": "offline_korean_calibrated_classifier",
+  "model_id": "korean-char-style-logistic-v1",
+  "measured_at_utc": "2026-10-03T06:55:04.882735+00:00",
+  "model_sha256": "f3048088269f293b5f54b131a26571eefcdb9ffd57d86acfd41b4d8d71d41e1f",
+  "text_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+  "characters_codepoints": 609,
+  "all_input_scored": true,
+  "class_probabilities": {
+    "human": 0.9581196753246375,
+    "ai": 0.04188032467536252
+  },
+  "percentages": {
+    "human": 95.81,
+    "ai": 4.19
+  },
+  "probability_semantics": "Estimated Human/AI class probabilities conditional on the documented calibration reference, not a verified person's writing history.",
+  "calibration": {
+    "method": "held_out_regularized_sigmoid",
+    "slope": 1.613104005280206,
+    "intercept": -0.3249749806452906,
+    "n": 1907,
+    "group_n": 52,
+    "reference_ai_prior": 0.5,
+    "genre_weighting": "Equal essay/abstract/poetry and equal Human/AI within each genre",
+    "scope": "Korean public benchmark genres; no universal authorship guarantee"
+  },
+  "genre_requested": "unknown",
+  "applicability_cautions": [
+    "Genre is not explicitly within the evaluated essay/abstract/poetry scope; treat the numeric result as an extrapolation."
+  ],
+  "ngram_coverage": 0.45981772990886494,
+  "raw_logit": -1.7389960993859466,
+  "calibrated_logit": -3.1301565537314158,
+  "external_detector_calls": 0,
+  "authorship_verified": false,
+  "known_limits": [
+    "No validated Mixed/AI-assisted class; complementary probabilities are for the two training labels only.",
+    "Unknown modern generators, editing, translation and humanizers may change error rates.",
+    "Calibration is population-dependent; the declared 50% class prior is not a measured prevalence for the user's document."
+  ],
+  "feature_explanation": {
+    "lexical": [
+      {
+        "feature": "며,",
+        "contribution_to_calibrated_logit": 0.3057421166027956,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 228,
+            "end": 230,
+            "quote": "며,",
+            "line": 5,
+            "column": 32,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 427,
+            "end": 429,
+            "quote": "며,",
+            "line": 7,
+            "column": 49,
+            "paragraph_ids": [
+              "P4"
+            ]
+          },
+          {
+            "start": 529,
+            "end": 531,
+            "quote": "며,",
+            "line": 7,
+            "column": 151,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "며, ",
+        "contribution_to_calibrated_logit": 0.2977420753029773,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 228,
+            "end": 231,
+            "quote": "며, ",
+            "line": 5,
+            "column": 32,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 427,
+            "end": 430,
+            "quote": "며, ",
+            "line": 7,
+            "column": 49,
+            "paragraph_ids": [
+              "P4"
+            ]
+          },
+          {
+            "start": 529,
+            "end": 532,
+            "quote": "며, ",
+            "line": 7,
+            "column": 151,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "이용",
+        "contribution_to_calibrated_logit": -0.26430735945847794,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 33,
+            "end": 35,
+            "quote": "이용",
+            "line": 3,
+            "column": 11,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 155,
+            "end": 157,
+            "quote": "이용",
+            "line": 3,
+            "column": 133,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 178,
+            "end": 180,
+            "quote": "이용",
+            "line": 3,
+            "column": 156,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 209,
+            "end": 211,
+            "quote": "이용",
+            "line": 5,
+            "column": 13,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 283,
+            "end": 285,
+            "quote": "이용",
+            "line": 5,
+            "column": 87,
+            "paragraph_ids": [
+              "P3"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": " 이용",
+        "contribution_to_calibrated_logit": -0.2636777212502416,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 32,
+            "end": 35,
+            "quote": " 이용",
+            "line": 3,
+            "column": 10,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 154,
+            "end": 157,
+            "quote": " 이용",
+            "line": 3,
+            "column": 132,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 177,
+            "end": 180,
+            "quote": " 이용",
+            "line": 3,
+            "column": 155,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 208,
+            "end": 211,
+            "quote": " 이용",
+            "line": 5,
+            "column": 12,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 282,
+            "end": 285,
+            "quote": " 이용",
+            "line": 5,
+            "column": 86,
+            "paragraph_ids": [
+              "P3"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "다. ",
+        "contribution_to_calibrated_logit": -0.18716302676006238,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 107,
+            "end": 110,
+            "quote": "다. ",
+            "line": 3,
+            "column": 85,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 172,
+            "end": 175,
+            "quote": "다. ",
+            "line": 3,
+            "column": 150,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 193,
+            "end": 197,
+            "quote": "다.\n\n",
+            "line": 3,
+            "column": 171,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 256,
+            "end": 259,
+            "quote": "다. ",
+            "line": 5,
+            "column": 60,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 292,
+            "end": 295,
+            "quote": "다. ",
+            "line": 5,
+            "column": 96,
+            "paragraph_ids": [
+              "P3"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": ", ",
+        "contribution_to_calibrated_logit": 0.1711215659056346,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 135,
+            "end": 137,
+            "quote": ", ",
+            "line": 3,
+            "column": 113,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 229,
+            "end": 231,
+            "quote": ", ",
+            "line": 5,
+            "column": 33,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 410,
+            "end": 412,
+            "quote": ", ",
+            "line": 7,
+            "column": 32,
+            "paragraph_ids": [
+              "P4"
+            ]
+          },
+          {
+            "start": 428,
+            "end": 430,
+            "quote": ", ",
+            "line": 7,
+            "column": 50,
+            "paragraph_ids": [
+              "P4"
+            ]
+          },
+          {
+            "start": 530,
+            "end": 532,
+            "quote": ", ",
+            "line": 7,
+            "column": 152,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "다.",
+        "contribution_to_calibrated_logit": -0.16146116206438527,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 107,
+            "end": 109,
+            "quote": "다.",
+            "line": 3,
+            "column": 85,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 172,
+            "end": 174,
+            "quote": "다.",
+            "line": 3,
+            "column": 150,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 193,
+            "end": 195,
+            "quote": "다.",
+            "line": 3,
+            "column": 171,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 256,
+            "end": 258,
+            "quote": "다.",
+            "line": 5,
+            "column": 60,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 292,
+            "end": 294,
+            "quote": "다.",
+            "line": 5,
+            "column": 96,
+            "paragraph_ids": [
+              "P3"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": " 향",
+        "contribution_to_calibrated_logit": 0.1543932439476057,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 40,
+            "end": 42,
+            "quote": " 향",
+            "line": 3,
+            "column": 18,
+            "paragraph_ids": [
+              "P2"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "으며, ",
+        "contribution_to_calibrated_logit": 0.1396563674325752,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 426,
+            "end": 430,
+            "quote": "으며, ",
+            "line": 7,
+            "column": 48,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "내 ",
+        "contribution_to_calibrated_logit": 0.13464204094738932,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 20,
+            "end": 23,
+            "quote": "내\n\n",
+            "line": 1,
+            "column": 21,
+            "paragraph_ids": [
+              "P1"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "으며,",
+        "contribution_to_calibrated_logit": 0.12082779807132706,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 426,
+            "end": 429,
+            "quote": "으며,",
+            "line": 7,
+            "column": 48,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": " 1",
+        "contribution_to_calibrated_logit": -0.1062640799914322,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 220,
+            "end": 222,
+            "quote": " 1",
+            "line": 5,
+            "column": 24,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 314,
+            "end": 316,
+            "quote": " 1",
+            "line": 5,
+            "column": 118,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 385,
+            "end": 387,
+            "quote": " 1",
+            "line": 7,
+            "column": 7,
+            "paragraph_ids": [
+              "P4"
+            ]
+          },
+          {
+            "start": 393,
+            "end": 395,
+            "quote": " 1",
+            "line": 7,
+            "column": 15,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "니다. 이",
+        "contribution_to_calibrated_logit": 0.10342419104699743,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 192,
+            "end": 198,
+            "quote": "니다.\n\n이",
+            "line": 3,
+            "column": 170,
+            "paragraph_ids": [
+              "P2",
+              "P3"
+            ]
+          },
+          {
+            "start": 353,
+            "end": 358,
+            "quote": "니다. 이",
+            "line": 5,
+            "column": 157,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 445,
+            "end": 450,
+            "quote": "니다. 이",
+            "line": 7,
+            "column": 67,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "식의",
+        "contribution_to_calibrated_logit": -0.09904793848047518,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 542,
+            "end": 544,
+            "quote": "식의",
+            "line": 7,
+            "column": 164,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "식의 ",
+        "contribution_to_calibrated_logit": -0.09904793848047518,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 542,
+            "end": 545,
+            "quote": "식의 ",
+            "line": 7,
+            "column": 164,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": " 순",
+        "contribution_to_calibrated_logit": 0.09620746122846932,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 117,
+            "end": 119,
+            "quote": " 순",
+            "line": 3,
+            "column": 95,
+            "paragraph_ids": [
+              "P2"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "일 ",
+        "contribution_to_calibrated_logit": 0.09600499221111732,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 76,
+            "end": 78,
+            "quote": "일 ",
+            "line": 3,
+            "column": 54,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 176,
+            "end": 178,
+            "quote": "일 ",
+            "line": 3,
+            "column": 154,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 211,
+            "end": 213,
+            "quote": "일 ",
+            "line": 5,
+            "column": 15,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 214,
+            "end": 216,
+            "quote": "일 ",
+            "line": 5,
+            "column": 18,
+            "paragraph_ids": [
+              "P3"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": ". ",
+        "contribution_to_calibrated_logit": -0.09179634329978667,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 108,
+            "end": 110,
+            "quote": ". ",
+            "line": 3,
+            "column": 86,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 173,
+            "end": 175,
+            "quote": ". ",
+            "line": 3,
+            "column": 151,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 194,
+            "end": 197,
+            "quote": ".\n\n",
+            "line": 3,
+            "column": 172,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 257,
+            "end": 259,
+            "quote": ". ",
+            "line": 5,
+            "column": 61,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 293,
+            "end": 295,
+            "quote": ". ",
+            "line": 5,
+            "column": 97,
+            "paragraph_ids": [
+              "P3"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "자 ",
+        "contribution_to_calibrated_logit": -0.0912988699079875,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 35,
+            "end": 37,
+            "quote": "자 ",
+            "line": 3,
+            "column": 13,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 103,
+            "end": 105,
+            "quote": "자 ",
+            "line": 3,
+            "column": 81,
+            "paragraph_ids": [
+              "P2"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "으며",
+        "contribution_to_calibrated_logit": 0.09104523657301614,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 426,
+            "end": 428,
+            "quote": "으며",
+            "line": 7,
+            "column": 48,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "하여",
+        "contribution_to_calibrated_logit": -0.08275552561685608,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 58,
+            "end": 60,
+            "quote": "하여",
+            "line": 3,
+            "column": 36,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 202,
+            "end": 204,
+            "quote": "하여",
+            "line": 5,
+            "column": 6,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 591,
+            "end": 593,
+            "quote": "하여",
+            "line": 7,
+            "column": 213,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "식에",
+        "contribution_to_calibrated_logit": -0.07577486036642114,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 182,
+            "end": 184,
+            "quote": "식에",
+            "line": 3,
+            "column": 160,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 403,
+            "end": 405,
+            "quote": "식에",
+            "line": 7,
+            "column": 25,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": " 종",
+        "contribution_to_calibrated_logit": -0.07188202396266521,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 569,
+            "end": 571,
+            "quote": " 종",
+            "line": 7,
+            "column": 191,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "지 ",
+        "contribution_to_calibrated_logit": -0.07132437779237535,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 264,
+            "end": 266,
+            "quote": "지 ",
+            "line": 5,
+            "column": 68,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 440,
+            "end": 442,
+            "quote": "지 ",
+            "line": 7,
+            "column": 62,
+            "paragraph_ids": [
+              "P4"
+            ]
+          },
+          {
+            "start": 600,
+            "end": 602,
+            "quote": "지 ",
+            "line": 7,
+            "column": 222,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "여 ",
+        "contribution_to_calibrated_logit": -0.07071882676547753,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 59,
+            "end": 61,
+            "quote": "여 ",
+            "line": 3,
+            "column": 37,
+            "paragraph_ids": [
+              "P2"
+            ]
+          },
+          {
+            "start": 203,
+            "end": 205,
+            "quote": "여 ",
+            "line": 5,
+            "column": 7,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 592,
+            "end": 594,
+            "quote": "여 ",
+            "line": 7,
+            "column": 214,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "후 ",
+        "contribution_to_calibrated_logit": 0.06707140339770533,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 79,
+            "end": 81,
+            "quote": "후 ",
+            "line": 3,
+            "column": 57,
+            "paragraph_ids": [
+              "P2"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": " 변",
+        "contribution_to_calibrated_logit": -0.06469667621125974,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 15,
+            "end": 17,
+            "quote": " 변",
+            "line": 1,
+            "column": 16,
+            "paragraph_ids": [
+              "P1"
+            ]
+          },
+          {
+            "start": 185,
+            "end": 187,
+            "quote": " 변",
+            "line": 3,
+            "column": 163,
+            "paragraph_ids": [
+              "P2"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "고, ",
+        "contribution_to_calibrated_logit": 0.06457083191591964,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 409,
+            "end": 412,
+            "quote": "고, ",
+            "line": 7,
+            "column": 31,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": "고,",
+        "contribution_to_calibrated_logit": 0.06455749080282534,
+        "direction": "ai",
+        "occurrences": [
+          {
+            "start": 409,
+            "end": 411,
+            "quote": "고,",
+            "line": 7,
+            "column": 31,
+            "paragraph_ids": [
+              "P4"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      },
+      {
+        "feature": " 하",
+        "contribution_to_calibrated_logit": -0.06416998620365809,
+        "direction": "human",
+        "occurrences": [
+          {
+            "start": 236,
+            "end": 238,
+            "quote": " 하",
+            "line": 5,
+            "column": 40,
+            "paragraph_ids": [
+              "P3"
+            ]
+          },
+          {
+            "start": 262,
+            "end": 264,
+            "quote": " 하",
+            "line": 5,
+            "column": 66,
+            "paragraph_ids": [
+              "P3"
+            ]
+          }
+        ],
+        "interpretation": "Learned statistical contribution, not a universal AI phrase or causal authorship proof."
+      }
+    ],
+    "style": [
+      {
+        "feature": "comma_per_1000",
+        "observed_value": 8.210180623973727,
+        "contribution_to_calibrated_logit": -0.0
+      },
+      {
+        "feature": "period_per_1000",
+        "observed_value": 18.0623973727422,
+        "contribution_to_calibrated_logit": -0.0
+      },
+      {
+        "feature": "question_per_1000",
+        "observed_value": 0.0,
+        "contribution_to_calibrated_logit": -0.0
+      },
+      {
+        "feature": "exclamation_per_1000",
+        "observed_value": 0.0,
+        "contribution_to_calibrated_logit": -0.0
+      },
+      {
+        "feature": "newline_per_1000",
+        "observed_value": 11.494252873563218,
+        "contribution_to_calibrated_logit": 0.0
+      },
+      {
+        "feature": "digit_share",
+        "observed_value": 0.019704433497536946,
+        "contribution_to_calibrated_logit": 0.0
+      },
+      {
+        "feature": "latin_share",
+        "observed_value": 0.0,
+        "contribution_to_calibrated_logit": -0.0
+      },
+      {
+        "feature": "whitespace_share",
+        "observed_value": 0.24794745484400657,
+        "contribution_to_calibrated_logit": 0.0
+      },
+      {
+        "feature": "quote_per_1000",
+        "observed_value": 0.0,
+        "contribution_to_calibrated_logit": -0.0
+      },
+      {
+        "feature": "unit_mean_length",
+        "observed_value": 3.0945945945945947,
+        "contribution_to_calibrated_logit": -0.0
+      },
+      {
+        "feature": "surface_type_token_ratio",
+        "observed_value": 0.8851351351351351,
+        "contribution_to_calibrated_logit": 0.0
+      },
+      {
+        "feature": "repeated_bigram_share",
+        "observed_value": 0.006802721088435382,
+        "contribution_to_calibrated_logit": -0.0
+      },
+      {
+        "feature": "rough_sentence_length_cv",
+        "observed_value": 0.4196885622337144,
+        "contribution_to_calibrated_logit": 0.0
+      },
+      {
+        "feature": "formal_ending_share",
+        "observed_value": 0.75,
+        "contribution_to_calibrated_logit": 0.0
+      },
+      {
+        "feature": "sentence_per_1000",
+        "observed_value": 19.704433497536947,
+        "contribution_to_calibrated_logit": -0.0
+      },
+      {
+        "feature": "colon_per_1000",
+        "observed_value": 0.0,
+        "contribution_to_calibrated_logit": -0.0
+      }
+    ],
+    "intercept_contribution": -2.475802613579549,
+    "all_feature_contributions_sum": -0.6543539401518675,
+    "note": "All contributions plus intercept reconstruct calibrated logit. Only the largest lexical contributions are displayed; correlated overlapping ngrams are not independent votes."
+  },
+  "paragraph_sensitivity": {
+    "baseline_p_ai": 0.04188032467536252,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 21,
+        "quote": "공유 작업실 예약 방식 시범 변경 안내",
+        "status": "measured",
+        "after_removal_p_ai": 0.034480759236448534,
+        "delta_percentage_points": 0.7399565438913985
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 23,
+        "end": 195,
+        "quote": "우리 작업실에서는 이용자 경험의 향상과 운영 효율성의 제고를 위하여 다음 달부터 4주 동안 토요일 오후 예약 방식을 바꾸는 시범 운영을 진행하고자 합니다. 현재는 도착한 순서대로 자리를 배정하고 있지만, 시범 기간에는 온라인으로 예약한 이용자에게 먼저 자리를 배정합니다. 평일 이용 방식에는 변경이 없습니다.",
+        "status": "measured",
+        "after_removal_p_ai": 0.061606547285822516,
+        "delta_percentage_points": -1.9726222610459996
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 197,
+        "end": 377,
+        "quote": "이와 관련하여 예약은 이용일 7일 전 오전 10시에 열리며, 한 사람은 하루에 한 자리만 예약할 수 있습니다. 예약을 하지 않은 경우에도 빈자리가 있으면 이용할 수 있습니다. 다만 예약한 이용자가 예정 시각보다 15분 이상 늦을 경우에는 현장에서 기다리는 이용자에게 자리가 배정됩니다. 이러한 점을 유의해 주시기 바랍니다.",
+        "status": "measured",
+        "after_removal_p_ai": 0.054540993575684364,
+        "delta_percentage_points": -1.2660668900321845
+      },
+      {
+        "paragraph_id": "P4",
+        "start": 379,
+        "end": 608,
+        "quote": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다. 이는 의견을 낸 분들의 응답이므로 전체 이용자의 선호를 대표한다고 보기는 어렵습니다. 시범 운영 이후에는 대기 시간과 취소 건수를 확인할 예정이며, 현재로서는 예약 방식의 효과가 입증된 것은 아닙니다. 담당자는 시범 종료 뒤 의견과 운영 기록을 함께 검토하여 계속 운영할지 결정합니다.",
+        "status": "measured",
+        "after_removal_p_ai": 0.02846331472119519,
+        "delta_percentage_points": 1.341700995416733
+      }
+    ],
+    "total_paragraphs": 4,
+    "unmeasured_due_to_limit": 0,
+    "meaning": "Deletion sensitivity only. Length, context and normalization also change; this is not a paragraph authorship probability."
+  }
+}

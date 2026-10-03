@@ -1,0 +1,205 @@
+{
+  "decisions": [
+    {
+      "finding_id": "S1",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "basis": "style_observation",
+      "spans": [
+        {
+          "start": 122,
+          "end": 163,
+          "quote": "기간이 정해진 시범 운영안이지 영구적인 운영 정책으로 확정된 것은 아니다."
+        },
+        {
+          "start": 164,
+          "end": 213,
+          "quote": "저녁 연장 개관을 논의할 때는 향후 상시 운영 시간을 정하는 문제와 구분할 필요가 있다."
+        }
+      ],
+      "human_alternative": "업무 검토문에서는 임시 조치가 영구 결정으로 오해되는 일을 막으려 의도적으로 재강조할 수 있다. 현 상태와 다음 논의의 범위를 구별하려는 사람 편집도 충분한 설명이다.",
+      "decision": "revise",
+      "reason": "Reduce close repeated wording while preserving status and the distinct discussion/checking duties.",
+      "applied_replacement": {
+        "before": "기간이 정해진 시범 운영안이지 영구적인 운영 정책으로 확정된 것은 아니다. 저녁 연장 개관을 논의할 때는 향후 상시 운영 시간을 정하는 문제와 구분할 필요가 있다.",
+        "after": "기간이 정해진 시범 운영안으로, 영구적인 운영 정책이 확정된 것은 아니다. 논의할 때도 향후 상시 운영 시간을 정하는 문제와 구분할 필요가 있다."
+      }
+    },
+    {
+      "finding_id": "S2",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "basis": "style_observation",
+      "spans": [
+        {
+          "start": 568,
+          "end": 620,
+          "quote": "실제로 저녁에 운영할 수 있을지는 자원봉사자가 그 시간에 참여할 수 있는지부터 확인해야 한다."
+        },
+        {
+          "start": 664,
+          "end": 708,
+          "quote": "이후 판단에서도 연장 개관에 대한 관심을 인정하되 참여 가능성을 확인해야 한다."
+        }
+      ],
+      "human_alternative": "사람 작성자도 찬성 의견을 무시한다는 인상을 피하려 양보절을 넣고 실행 조건을 재강조할 수 있다. 사전 확인과 이후 판단을 분리하려는 의도도 가능하다.",
+      "decision": "revise",
+      "reason": "Reduce close repeated wording while preserving status and the distinct discussion/checking duties.",
+      "applied_replacement": {
+        "before": "실제로 저녁에 운영할 수 있을지는 자원봉사자가 그 시간에 참여할 수 있는지부터 확인해야 한다. 아직 풀리지 않은 조건이므로 시작한 뒤 챙길 세부 사항으로 넘기기는 어렵다. 이후 판단에서도 연장 개관에 대한 관심을 인정하되 참여 가능성을 확인해야 한다.",
+        "after": "자원봉사자가 저녁 시간에 참여할 수 있는지는 아직 확인되지 않았다. 실제 운영이 가능한지 판단하려면 먼저 확인해야 할 조건이므로, 시작한 뒤 챙길 세부 사항으로 넘기기는 어렵다. 이후 판단에서도 연장 개관에 대한 관심을 인정하되 이 조건을 함께 봐야 한다."
+      }
+    },
+    {
+      "finding_id": "S3",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "basis": "style_observation",
+      "spans": [
+        {
+          "start": 230,
+          "end": 300,
+          "quote": "늦게까지 문을 여는 데 찬성한 의견이 28건, 지금 일정을 선호한 의견이 9건이며 나머지 5건은 선호하는 안이 없다고 답했다."
+        },
+        {
+          "start": 301,
+          "end": 357,
+          "quote": "연장 개관에 관심이 있다는 것은 알 수 있지만, 이 분포를 모든 이용자의 요구로 받아들일 수는 없다."
+        },
+        {
+          "start": 480,
+          "end": 526,
+          "quote": "현재 자료로는 시간을 늘렸기 때문에 방문이 늘어난다는 인과관계도 뒷받침할 수 없다."
+        }
+      ],
+      "human_alternative": "검토자가 의견서 수치와 해석 가능한 범위를 신중하게 정리한 업무 문서에서도 자연스러운 구성이다.",
+      "decision": "retain",
+      "reason": "Retain substantive scope, causal limits, operational duties, or normal wording; model contribution/deletion sensitivity alone does not justify editing.",
+      "applied_replacement": null
+    },
+    {
+      "finding_id": "S4",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "basis": "style_observation",
+      "spans": [
+        {
+          "start": 709,
+          "end": 770,
+          "quote": "조용한 열람실은 정원이 12명으로, 문을 늦게 닫는다고 한 번에 더 많은 사람이 들어갈 수 있는 것은 아니다."
+        },
+        {
+          "start": 826,
+          "end": 881,
+          "quote": "이용 안내를 마련할 때는 도서관 이용 시간과 조용한 열람실의 동시 수용 인원을 각각 설명해야 한다."
+        },
+        {
+          "start": 926,
+          "end": 998,
+          "quote": "운영안 문서 역시 이번 시범 운영에 관한 결정이 앞으로의 영구적인 일정 변경까지 확정한 것으로 읽히지 않는지 점검할 필요가 있다."
+        }
+      ],
+      "human_alternative": "작성자는 내부 판단 기준을 이용자 안내와 결재 문서에 각각 반영하려 할 수 있다. 실무 산출물이 둘이라면 동일한 제한을 각각 적는 것이 유용하다.",
+      "decision": "retain",
+      "reason": "Retain substantive scope, causal limits, operational duties, or normal wording; model contribution/deletion sensitivity alone does not justify editing.",
+      "applied_replacement": null
+    },
+    {
+      "finding_id": "H1",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "basis": "documented_history",
+      "spans": [
+        {
+          "start": 0,
+          "end": 25,
+          "quote": "지역 도서관 저녁 연장 개관 시범 운영안 검토"
+        }
+      ],
+      "human_alternative": "사람 편집이 포함된 기록이므로 사람의 관여와 AI 관여가 함께 가능하다. 편집의 양·방향·작성자는 이 정보만으로 특정할 수 없다.",
+      "decision": "retain",
+      "reason": "Retain substantive scope, causal limits, operational duties, or normal wording; model contribution/deletion sensitivity alone does not justify editing.",
+      "applied_replacement": null
+    },
+    {
+      "finding_id": "M1",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "basis": "local_feature_contribution",
+      "spans": [
+        {
+          "start": 181,
+          "end": 183,
+          "quote": "향후"
+        }
+      ],
+      "human_alternative": "향후는 업무 검토문의 시간 범위를 표시하는 평범한 단어다. 사람이 이를 쓸 실무상 이유가 충분하다.",
+      "decision": "retain",
+      "reason": "Retain substantive scope, causal limits, operational duties, or normal wording; model contribution/deletion sensitivity alone does not justify editing.",
+      "applied_replacement": null
+    },
+    {
+      "finding_id": "M2",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "basis": "local_feature_contribution",
+      "spans": [
+        {
+          "start": 118,
+          "end": 122,
+          "quote": "한다. "
+        },
+        {
+          "start": 381,
+          "end": 385,
+          "quote": "한다. "
+        },
+        {
+          "start": 476,
+          "end": 480,
+          "quote": "한다. "
+        },
+        {
+          "start": 617,
+          "end": 621,
+          "quote": "한다. "
+        },
+        {
+          "start": 705,
+          "end": 709,
+          "quote": "한다. "
+        }
+      ],
+      "human_alternative": "한다체는 보고서의 정상적인 문체이며 AI도 똑같이 사용할 수 있다. 사람 방향 기여가 사람 작성의 증거가 되지 않는다.",
+      "decision": "retain",
+      "reason": "Retain substantive scope, causal limits, operational duties, or normal wording; model contribution/deletion sensitivity alone does not justify editing.",
+      "applied_replacement": null
+    },
+    {
+      "finding_id": "M3",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "basis": "local_occlusion",
+      "spans": [
+        {
+          "start": 568,
+          "end": 824,
+          "quote": "실제로 저녁에 운영할 수 있을지는 자원봉사자가 그 시간에 참여할 수 있는지부터 확인해야 한다. 아직 풀리지 않은 조건이므로 시작한 뒤 챙길 세부 사항으로 넘기기는 어렵다. 이후 판단에서도 연장 개관에 대한 관심을 인정하되 참여 가능성을 확인해야 한다. 조용한 열람실은 정원이 12명으로, 문을 늦게 닫는다고 한 번에 더 많은 사람이 들어갈 수 있는 것은 아니다. 시범 운영으로 제공할 수 있는 범위를 살필 때는 이용 가능한 시간과 이 정원을 함께 봐야 한다."
+        }
+      ],
+      "human_alternative": "어떤 사람이 쓴 문단을 삭제해도 길이, 문맥, 어휘 비중과 정규화가 함께 바뀌어 이런 차이가 생길 수 있다. 중요한 사실·제약을 제거해 점수가 낮아지는 것을 개선으로 보지 않는다.",
+      "decision": "retain",
+      "reason": "Retain substantive scope, causal limits, operational duties, or normal wording; model contribution/deletion sensitivity alone does not justify editing.",
+      "applied_replacement": null
+    },
+    {
+      "finding_id": "M4",
+      "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "basis": "local_occlusion",
+      "spans": [
+        {
+          "start": 215,
+          "end": 430,
+          "quote": "의견서는 42건 들어왔다. 늦게까지 문을 여는 데 찬성한 의견이 28건, 지금 일정을 선호한 의견이 9건이며 나머지 5건은 선호하는 안이 없다고 답했다. 연장 개관에 관심이 있다는 것은 알 수 있지만, 이 분포를 모든 이용자의 요구로 받아들일 수는 없다. 현재 일정을 원하는 의견도 함께 고려해야 한다. 몇 건씩 나왔는지만으로는 그렇게 답한 이유까지 알 수 있다고 가정해서도 안 된다."
+        }
+      ],
+      "human_alternative": "어떤 사람이 쓴 문단을 삭제해도 길이, 문맥, 어휘 비중과 정규화가 함께 바뀌어 이런 차이가 생길 수 있다. 중요한 사실·제약을 제거해 점수가 낮아지는 것을 개선으로 보지 않는다.",
+      "decision": "retain",
+      "reason": "Retain substantive scope, causal limits, operational duties, or normal wording; model contribution/deletion sensitivity alone does not justify editing.",
+      "applied_replacement": null
+    }
+  ],
+  "candidate_sha256": "8f32f993763aa507a46c51844b0ae39763260d5d298408f3ff5d814e627d1575"
+}

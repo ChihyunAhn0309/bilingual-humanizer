@@ -1,0 +1,32 @@
+{
+  "original_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+  "candidate_sha256": "8f32f993763aa507a46c51844b0ae39763260d5d298408f3ff5d814e627d1575",
+  "pairs": [
+    {
+      "label": "scope",
+      "original": {
+        "start": 122,
+        "end": 163,
+        "quote": "기간이 정해진 시범 운영안이지 영구적인 운영 정책으로 확정된 것은 아니다."
+      },
+      "candidate": {
+        "start": 122,
+        "end": 163,
+        "quote": "기간이 정해진 시범 운영안으로, 영구적인 운영 정책이 확정된 것은 아니다."
+      }
+    },
+    {
+      "label": "later_checking_duty",
+      "original": {
+        "start": 664,
+        "end": 708,
+        "quote": "이후 판단에서도 연장 개관에 대한 관심을 인정하되 참여 가능성을 확인해야 한다."
+      },
+      "candidate": {
+        "start": 658,
+        "end": 701,
+        "quote": "이후 판단에서도 연장 개관에 대한 관심을 인정하되 이 조건을 함께 봐야 한다."
+      }
+    }
+  ]
+}

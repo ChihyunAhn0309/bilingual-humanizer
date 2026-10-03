@@ -12,11 +12,13 @@ Default budget: one initial candidate plus at most **3 revision cycles**. When e
 
 ## The loop
 
+In installed-local-detector mode, first measure the unchanged source and complete its whole-document feedback/decision pass as described in [local-detector-loop.md](local-detector-loop.md). Then enter the draft/review sequence below. Do not postpone that baseline until after rewriting.
+
 1. Draft a complete candidate using the language and genre guidance. For substantial active rewriting, apply [structural-rewrite.md](structural-rewrite.md): map meaning and reader functions, choose a useful information order, and compose whole paragraphs rather than substituting words sentence by sentence. Preserve all source propositions and protected material.
 2. Review candidate versus original for meaning, quantities and their referents, attribution, confidence, conditions, negation, coverage and file structure. Use the offline checker when useful; its clean result never replaces this semantic comparison.
 3. Perform a reader review for natural collocations, translationese, paragraph logic, register, voice and unnecessary formulaic phrasing. Judge actual spans in context. Fluent formal prose, technical repetition and intentional punctuation are not defects by themselves.
 4. Revise concrete findings. Fix semantic drift before stylistic preferences. Then repeat fidelity review against the original and a reader review of the completed candidate, including untouched transitions. Reject revisions that make the text smoother by losing information or fabricating experience.
-5. If requested, incorporate actual external detector feedback under the rules below. Accept a revision only if fidelity and reader quality are retained. Preserve a best faithful candidate rather than blindly using the most recent one.
+5. Incorporate actual detector feedback when using the default installed-local-detector mode or an explicitly requested external check. For the installed local `bilingual-ai-detector`, use [local-detector-loop.md](local-detector-loop.md), beginning with source measurement and review before the first draft, to bind measurements and whole-document findings to exact inputs, triage them and rescore each accepted revision. Accept a revision only if fidelity and reader quality are retained. Preserve a best faithful candidate rather than blindly using the most recent one.
 
 Even a candidate with no findings receives the fidelity and final reader checks; it does not need artificial edits. A light-edit request keeps its narrow scope throughout the loop. A review-only request produces findings and does not enter a rewrite loop.
 
@@ -30,7 +32,7 @@ When delegation is unavailable, use distinct self-review stages and identify the
 
 ## Actual detector feedback
 
-Detector-guided iteration is enabled when the user requests it. A request to edit the skill is not permission to transmit arbitrary future documents or spend money. Reuse an already-authorized service/document scope instead of asking again. If the user supplies reports, work from those; do not pretend to call a detector.
+Local detector-guided iteration is the default for substantial rewriting when the trusted optional detector is installed, unless the user opts out. Explicit requests can also enable it for narrower edits. Source measurement and whole-document feedback precede the first rewrite. External services remain opt-in: a request to edit the skill is not permission to transmit arbitrary future documents or spend money. Reuse an already-authorized service/document scope instead of asking again. If the user supplies reports, work from those; do not pretend to call a detector.
 
 Before submitting a text, establish the named services, document, language/length eligibility, available authenticated tool or API, and any cost or query limit. Use the product's current official definitions. Never paste private credentials into a report. No specific vendor API client or account is bundled with this skill. If access is unavailable, finish the useful local editing and return the candidate with the external checks marked pending. Resume when the user supplies a new report or grants usable access; elapsed time is not an answer.
 

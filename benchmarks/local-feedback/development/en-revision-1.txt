@@ -1,0 +1,7 @@
+Across 24 requests, the June archive trial reduced median lookup time from 18 minutes to 11 minutes, although we did not record the longest lookup time. The trial covered only material that had already been catalogued, so the results do not establish how the system will work with uncatalogued material. The trial report should make clear that the change in median time is based on 24 requests.
+
+I found the shared index easier to use, though I still prefer the paper cards for tracing earlier descriptions.
+
+Before extending the trial, the archive lead should check whether the volunteer rota can support it. The rota has not yet been approved.
+
+No decision on a permanent service has been made. The review must distinguish this temporary trial from a permanent service, and the public notice must explain that distinction.

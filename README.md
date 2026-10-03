@@ -10,13 +10,21 @@ The default is active rewriting: reorganize paragraphs, recast sentences, preser
 
 [Editable PowerPoint](docs/assets/workflow.pptx) · [Design draft](docs/assets/composition-draft.png) · [Figure validation](docs/figure-evidence/render-review.md). The diagram was created using [JYS1025/paper-figure](https://github.com/JYS1025/paper-figure). External findings can inform another editorial review; that optional return path is described in the skill rather than drawn in this overview.
 
-## Current release: v1.6.0
+## Current release: v1.7.0
+
+For substantial rewrites, the skill now starts with a trusted installed **bilingual-ai-detector** by default, unless editing without detection is requested. Light edits and review-only tasks remain opt-in for detection. The adapter supports the inspected v3.1 runtime contract; the detector documentation was subsequently updated to v3.1.1 without a runtime change. It preserves an exact input snapshot, local model output and execution record; reviews every paragraph; turns anchored feedback into revise/retain/unresolved decisions; checks meaning against the original; then measures the completed candidate again. Character contributions and paragraph-deletion effects guide inspection, never automatic word bans or deletions. [Workflow and commands](skills/bilingual-humanizer/references/local-detector-loop.md).
+
+This release adds an optional offline adapter and a tested feedback workflow. It does not bundle detector weights, change the detector, or establish universal detection performance. Real trials include rejected higher-scoring edits, fidelity repairs, a separate fresh-source application, and an English runtime failure kept as unavailable. [Complete results and independent reviews](benchmarks/local-feedback/REPORT.md). Prior commercial checkpoints and all 179 external observations remain separate; this phase makes no new commercial transfer claim. The exact [v1.6.0 skill archive](benchmarks/local-feedback/retained-skill/) remains recoverable.
+
+Example: “Use bilingual-humanizer and my installed bilingual-ai-detector alternately. Review every paragraph, apply only justified feedback, preserve the source, and retain the best faithful version.” Ordinary rewriting does not require the detector or Python. Offline detector use has no vendor quota, but still requires local compute and an assistant session.
+
+## Previous release: v1.6.0
 
 Public commercial features informed audience/register/scope controls, source-backed voice cues, and choosing local versus structural edits. An existing consolidation example now preserves both the review's duty to distinguish and the notice's duty to explain. No added review turns, paid service dependency, invented imperfections or detector guarantee. [Research and actual free trials](benchmarks/feature-trial/REPORT.md).
 
 Independent writing and review sessions found no actionable fidelity issue on two new cases. GPTZero Human was **16% → 98%** for a Korean notice and **0% → 0%** for an English memo. The Korean final was 98 words and triggered GPTZero's under-100-word accuracy warning; its source was 101 words, so the comparison crosses that warning boundary. [Renewed free QuillBot checks](benchmarks/quill-renewal/REPORT.md) now show **100% → 100% for both source/final pairs**. The notice final meets both selected >=50 targets on its exact text; the English memo does not. This is not evidence of universal improvement or a QuillBot gain.
 
-The same follow-up tested two faithful new library rewrites. Their GPTZero / QuillBot Human readings were **47% / 14%** and **61% / 17%**, below retained library E at **97% / 30%** (QuillBot rechecked). With another user-provided login, a free commercial output with fidelity repairs reached **68% / 24%**; this also failed to replace E. All three candidates received independent source reviews. The skill remains v1.6.0 and previous exact checkpoints are retained; worse candidates were not promoted. Nine QuillBot scans completed across the two access periods without payment, with five scans remaining at the last observation. [Results, input hashes, commercial limits and review records](benchmarks/quill-renewal/REPORT.md).
+The same follow-up tested two faithful new library rewrites. Their GPTZero / QuillBot Human readings were **47% / 14%** and **61% / 17%**, below retained library E at **97% / 30%** (QuillBot rechecked). With another user-provided login, a free commercial output with fidelity repairs reached **68% / 24%**; this also failed to replace E. All three candidates received independent source reviews. At that stage the skill remained v1.6.0 and previous exact checkpoints were retained; worse candidates were not promoted. Nine QuillBot scans completed across the two access periods without payment, with five scans remaining at the last observation. [Results, input hashes, commercial limits and review records](benchmarks/quill-renewal/REPORT.md).
 
 The completed [Cloud experiment and eight desktop checks](benchmarks/continuation-g/REPORT.md) scored GPTZero **0%, 0%, 1%, 6%** and QuillBot **100% on all four**. Korean inputs received a short-text warning. The metrics have different meanings and none of those four candidates met both >=50 targets. All **179 external observations** are archived, including the thirteen renewed-access observations; vendor rewrite self-scores are excluded. [Independent release review](benchmarks/feature-trial/independent-final-review.md) · [Latest publication audit](benchmarks/quill-renewal/publication-audit.md).
 
@@ -73,7 +81,7 @@ Match the style of the supplied sample, using only the draft as the source of fa
 Review this text without rewriting it. Point to specific awkward passages.
 ```
 
-For requested detector checks, supply usable service access or existing reports. The skill does not bundle vendor accounts, API clients, or a paid subscription. It records per-service settings, input hashes, scope and receipts. Missing, stale, unsupported or blocked results are never counted as passed.
+For requested commercial detector checks, supply usable service access or existing reports. The local detector requires a separate trusted installation and its supported Python environment. The skill does not bundle vendor accounts, API clients, or a paid subscription. It records settings, input hashes, scope and receipts. Missing, stale, unsupported or blocked results are never counted as passed.
 
 ## v1.5 measured outcome
 
@@ -89,7 +97,7 @@ The repository includes synthetic source texts, frozen rewrites, real commercial
 
 Detector results disagree, and some revised texts still receive high AI scores. Scores are reported in their original units; they are not averaged across products or treated as proof of who wrote a text. See the [commercial test report](benchmarks/2026-10-02/REPORT.md) for complete outcomes and access limitations.
 
-Ordinary editing runs entirely as instructions. Python is optional for the two offline audit helpers:
+Editing without detection runs entirely as instructions. Python is needed for the optional offline audit helpers and installed-local-detector adapter:
 
 ```sh
 python skills/bilingual-humanizer/scripts/audit_preservation.py source.txt rewrite.txt

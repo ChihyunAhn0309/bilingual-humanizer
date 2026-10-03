@@ -1,0 +1,234 @@
+[
+  {
+    "finding_id": "S1",
+    "decision": "revise",
+    "reason": "일정과 시범 변경을 먼저 알리고 목적을 다음 문장으로 분리한다. 이용자 경험과 운영 효율이라는 두 목적, 의향 표현을 모두 남긴다.",
+    "candidate_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+    "spans": [
+      {
+        "start": 23,
+        "end": 109,
+        "quote": "우리 작업실에서는 이용자 경험의 향상과 운영 효율성의 제고를 위하여 다음 달부터 4주 동안 토요일 오후 예약 방식을 바꾸는 시범 운영을 진행하고자 합니다."
+      }
+    ],
+    "evidence_basis": "style_observation",
+    "human_alternative": "운영자가 기존 기관 공지 양식을 따랐을 수 있다.",
+    "result_candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "result_spans": [
+      {
+        "start": 23,
+        "end": 106,
+        "quote": "우리 작업실은 다음 달부터 4주 동안 토요일 오후 예약 방식을 시범적으로 바꾸려 합니다. 이용자 경험을 개선하고 운영 효율을 높이기 위한 시도입니다."
+      }
+    ],
+    "application": "applied reader-directed revision"
+  },
+  {
+    "finding_id": "S2",
+    "decision": "revise",
+    "reason": "독자가 예약 개시 시각을 바로 찾도록 연결구만 걷어낸다.",
+    "candidate_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+    "spans": [
+      {
+        "start": 197,
+        "end": 204,
+        "quote": "이와 관련하여"
+      }
+    ],
+    "evidence_basis": "style_observation",
+    "human_alternative": "사람도 공식 안내문에서 흔히 쓰는 연결 표현이다.",
+    "result_candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "result_spans": [
+      {
+        "start": 187,
+        "end": 213,
+        "quote": "예약은 이용일 7일 전 오전 10시에 열립니다."
+      }
+    ],
+    "application": "applied reader-directed revision"
+  },
+  {
+    "finding_id": "S3",
+    "decision": "revise",
+    "reason": "현재 효과 미입증과 종료 후 측정·검토·결정을 한 단위로 모은다. 미입증을 무효과로 바꾸지 않으며 담당자의 결정 책임을 남긴다.",
+    "candidate_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+    "spans": [
+      {
+        "start": 497,
+        "end": 608,
+        "quote": "시범 운영 이후에는 대기 시간과 취소 건수를 확인할 예정이며, 현재로서는 예약 방식의 효과가 입증된 것은 아닙니다. 담당자는 시범 종료 뒤 의견과 운영 기록을 함께 검토하여 계속 운영할지 결정합니다."
+      }
+    ],
+    "evidence_basis": "style_observation",
+    "human_alternative": "담당자가 독자의 오해를 막으려고 계획 옆에 유보를 넣었을 수 있다.",
+    "result_candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "result_spans": [
+      {
+        "start": 468,
+        "end": 572,
+        "quote": "예약 방식의 효과는 아직 입증되지 않았습니다. 시범 운영이 끝나면 대기 시간과 취소 건수를 확인할 예정이며, 담당자는 의견과 운영 기록을 함께 검토해 이 방식을 계속 운영할지 결정합니다."
+      }
+    ],
+    "application": "applied reader-directed revision"
+  },
+  {
+    "finding_id": "S4",
+    "decision": "retain",
+    "reason": "조건·배정 결과·유의 요청을 보존한다. 경우에는→늦으면 정도의 문장 정리는 가능하나 경계나 요청을 지우지 않는다.",
+    "candidate_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+    "spans": [
+      {
+        "start": 295,
+        "end": 377,
+        "quote": "다만 예약한 이용자가 예정 시각보다 15분 이상 늦을 경우에는 현장에서 기다리는 이용자에게 자리가 배정됩니다. 이러한 점을 유의해 주시기 바랍니다."
+      }
+    ],
+    "evidence_basis": "style_observation",
+    "human_alternative": "실제 이용자 분쟁을 막기 위한 정확한 안내 관습이다.",
+    "result_candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "result_spans": [
+      {
+        "start": 272,
+        "end": 350,
+        "quote": "다만 예약한 이용자가 예정 시각보다 15분 이상 늦으면 현장에서 기다리는 이용자에게 자리가 배정됩니다. 이러한 점에 유의해 주시기 바랍니다."
+      }
+    ],
+    "application": "substantive material retained; no feature-targeted change"
+  },
+  {
+    "finding_id": "S5",
+    "decision": "retain",
+    "reason": "18·11·4·3의 범주별 referent와 대표성 유보를 유지한다. 수치가 있다는 이유로 역사적 인간 작성의 증명으로 쓰지 않는다.",
+    "candidate_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+    "spans": [
+      {
+        "start": 379,
+        "end": 496,
+        "quote": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다. 이는 의견을 낸 분들의 응답이므로 전체 이용자의 선호를 대표한다고 보기는 어렵습니다."
+      }
+    ],
+    "evidence_basis": "style_observation",
+    "human_alternative": "실제 접수 의견을 담당자가 신중하게 정리했을 수 있다.",
+    "result_candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "result_spans": [
+      {
+        "start": 352,
+        "end": 466,
+        "quote": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다. 의견을 낸 분들의 응답이므로 전체 이용자의 선호를 대표한다고 보기는 어렵습니다."
+      }
+    ],
+    "application": "substantive material retained; no feature-targeted change"
+  },
+  {
+    "finding_id": "M1",
+    "decision": "retain",
+    "reason": "문자 기여만으로 바꾸지 않는다. M1의 열거용 어미는 허용하고 M2 주제어는 실제 의미에 필요한 곳에만 쓴다.",
+    "candidate_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+    "spans": [
+      {
+        "start": 228,
+        "end": 230,
+        "quote": "며,"
+      },
+      {
+        "start": 427,
+        "end": 429,
+        "quote": "며,"
+      },
+      {
+        "start": 529,
+        "end": 531,
+        "quote": "며,"
+      }
+    ],
+    "evidence_basis": "local_feature_contribution",
+    "human_alternative": "안내문의 정상적인 연결어미 또는 주제어를 사람이 사용했을 수 있다.",
+    "result_candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "result_spans": [
+      {
+        "start": 385,
+        "end": 421,
+        "quote": "4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다."
+      },
+      {
+        "start": 494,
+        "end": 528,
+        "quote": "시범 운영이 끝나면 대기 시간과 취소 건수를 확인할 예정이며,"
+      }
+    ],
+    "application": "substantive material retained; no feature-targeted change"
+  },
+  {
+    "finding_id": "M2",
+    "decision": "retain",
+    "reason": "문자 기여만으로 바꾸지 않는다. M1의 열거용 어미는 허용하고 M2 주제어는 실제 의미에 필요한 곳에만 쓴다.",
+    "candidate_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+    "spans": [
+      {
+        "start": 33,
+        "end": 35,
+        "quote": "이용"
+      },
+      {
+        "start": 155,
+        "end": 157,
+        "quote": "이용"
+      },
+      {
+        "start": 178,
+        "end": 180,
+        "quote": "이용"
+      },
+      {
+        "start": 209,
+        "end": 211,
+        "quote": "이용"
+      },
+      {
+        "start": 283,
+        "end": 285,
+        "quote": "이용"
+      }
+    ],
+    "evidence_basis": "local_feature_contribution",
+    "human_alternative": "안내문의 정상적인 연결어미 또는 주제어를 사람이 사용했을 수 있다.",
+    "result_candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "result_spans": [
+      {
+        "start": 73,
+        "end": 106,
+        "quote": "이용자 경험을 개선하고 운영 효율을 높이기 위한 시도입니다."
+      }
+    ],
+    "application": "substantive material retained; no feature-targeted change"
+  },
+  {
+    "finding_id": "O1",
+    "decision": "retain",
+    "reason": "P4를 상세 검토하되 삭제하지 않는다. 수정은 별도 S3의 독자 관점 근거로만 한다.",
+    "candidate_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+    "spans": [
+      {
+        "start": 379,
+        "end": 608,
+        "quote": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다. 이는 의견을 낸 분들의 응답이므로 전체 이용자의 선호를 대표한다고 보기는 어렵습니다. 시범 운영 이후에는 대기 시간과 취소 건수를 확인할 예정이며, 현재로서는 예약 방식의 효과가 입증된 것은 아닙니다. 담당자는 시범 종료 뒤 의견과 운영 기록을 함께 검토하여 계속 운영할지 결정합니다."
+      }
+    ],
+    "evidence_basis": "local_occlusion",
+    "human_alternative": "통계와 조심스러운 운영 판단을 담은 사람이 쓴 안내도 같은 민감도를 보일 수 있다.",
+    "result_candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "result_spans": [
+      {
+        "start": 352,
+        "end": 421,
+        "quote": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다."
+      },
+      {
+        "start": 468,
+        "end": 493,
+        "quote": "예약 방식의 효과는 아직 입증되지 않았습니다."
+      }
+    ],
+    "application": "substantive material retained; no feature-targeted change"
+  }
+]

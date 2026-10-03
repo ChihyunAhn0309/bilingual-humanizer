@@ -1,0 +1,25 @@
+{
+  "status": "unavailable",
+  "human_percent": null,
+  "ai_percent": null,
+  "native_class_probabilities": null,
+  "authorship_probabilities": null,
+  "reason": "Candidate not scored because repeated native failures on immutable original remain unresolved. Preserved failure is operational context, not a score or execution record for this candidate.",
+  "supervisor_returncode": 2,
+  "worker_exit_code": 3221225477,
+  "native_failure": {
+    "error": "English worker failed (exit 3221225477); no authorship score is available. Local runtime loaded; verifying model files",
+    "authorship_probabilities": null,
+    "worker_exit_code": 3221225477
+  },
+  "source_execution_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\local-feedback\\development\\en-baseline-retry\\execution.json",
+  "source_execution_sha256": "9ad6855401c00e35fdbef27e16edf0d5c9568435b2060b82c7335346ae692e9d",
+  "source_feedback_path": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\local-feedback\\development\\en-baseline-retry\\feedback.json",
+  "source_feedback_sha256": "f1919d1d770ede1d9f4a055b52071f4b6a2369cf55bece585f27aa33eb3e064a",
+  "reported_attempt_count": 2,
+  "reported_attempt_count_source": "작업 지시에서 2회 실패 보고. 이 세션은 두 번째 보존 기록만 직접 읽었다.",
+  "failure_input_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+  "input_sha256": "728fe7cabb22fea96dadb4678e7e6b52b361299b9c5f65f5a2f9c96aea05abff",
+  "candidate_scored": false,
+  "source_failure_applies_to": "en-original.txt"
+}

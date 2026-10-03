@@ -1,0 +1,356 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "한국어 운영 안내문 전체를 검토했다. 공문식 도입과 일반 연결어에는 편집 여지가 있지만 규칙·통계·유보는 구체적이다. 로컬 수치와 문체는 작성 이력 인증이 아니며 이 장르는 평가 범위 밖이다.",
+  "document_analysis": {
+    "structure": "P1 제목, P2 변경 범위, P3 예약 규칙, P4 접수 의견과 종료 후 판단의 순서다. 큰 흐름은 적절하다. P2 첫 문장과 P4 후반의 시간 순서는 개선할 수 있다.",
+    "reasoning_specificity": "P3에는 개시 시점·개인 한도·빈자리 이용·지각 경계가 있고 P4에는 18건의 분포와 대표성 제한이 있다. 이유 없이 효과를 단정하지 않는다.",
+    "voice_consistency": "P2~P4는 합니다체의 작업실 운영 공지로 일관된다. 작성자 개인 경험이나 말투 표본은 없으므로 개성 추정은 하지 않는다.",
+    "rhythm_repetition": "며,는 P3 1회·P4 2회다. P4 응답 열거에서는 정상적인 병렬 구조다. 동일 문단 틀이 반복되는 글은 아니며 어미 횟수 목표는 두지 않는다.",
+    "language_features": "P2 향상·제고·진행의 명사적 표현과 P3 이와 관련하여는 풀 수 있다. 조건문과 합니다체는 안내 기능을 하므로 그 자체로 결함이 아니다.",
+    "citations_provenance": "외부 인용이나 URL은 없다. 18건의 실제 접수 기록과 원문의 작성 이력은 제공되지 않았다. 제공된 sample로만 다루며 사실 검증이나 원작성자 판정을 하지 않는다."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 23,
+          "end": 109,
+          "quote": "우리 작업실에서는 이용자 경험의 향상과 운영 효율성의 제고를 위하여 다음 달부터 4주 동안 토요일 오후 예약 방식을 바꾸는 시범 운영을 진행하고자 합니다.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "첫 문장에 개선 목적, 일정, 범위, 시범 의향이 몰려 있고 향상·제고·진행이라는 명사적 표현이 이어진다.",
+      "interpretation": "일반적인 정책 안내 틀을 확장하는 AI 문체와 양립하지만 이 한 문장만으로는 약한 관찰이다.",
+      "human_alternative": "운영자가 기존 기관 공지 양식을 따랐을 수 있다.",
+      "discriminating_evidence": "초안과 수정 이력, 실제 안내문 작성자의 설명이 있어야 작성 과정을 구별할 수 있다."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 197,
+          "end": 204,
+          "quote": "이와 관련하여",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "예약 세부 조건으로 바로 이어져도 문맥이 통하는데 일반 연결구가 붙어 있다.",
+      "interpretation": "AI가 문단 경계를 형식적으로 연결한 모습과 양립한다.",
+      "human_alternative": "사람도 공식 안내문에서 흔히 쓰는 연결 표현이다.",
+      "discriminating_evidence": "초안과 수정 이력, 실제 안내문 작성자의 설명이 있어야 작성 과정을 구별할 수 있다."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 497,
+          "end": 608,
+          "quote": "시범 운영 이후에는 대기 시간과 취소 건수를 확인할 예정이며, 현재로서는 예약 방식의 효과가 입증된 것은 아닙니다. 담당자는 시범 종료 뒤 의견과 운영 기록을 함께 검토하여 계속 운영할지 결정합니다.",
+          "line": 7,
+          "column": 119,
+          "paragraph_ids": [
+            "P4"
+          ]
+        }
+      ],
+      "observation": "향후 측정 계획 사이에 현재의 효과 미입증 상태가 끼어 있다.",
+      "interpretation": "안전한 유보 문구를 덧붙이는 생성문에서도 가능하지만 작성 여부보다는 정보 순서에 관한 관찰이다.",
+      "human_alternative": "담당자가 독자의 오해를 막으려고 계획 옆에 유보를 넣었을 수 있다.",
+      "discriminating_evidence": "초안과 수정 이력, 실제 안내문 작성자의 설명이 있어야 작성 과정을 구별할 수 있다."
+    },
+    {
+      "id": "S4",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 295,
+          "end": 377,
+          "quote": "다만 예약한 이용자가 예정 시각보다 15분 이상 늦을 경우에는 현장에서 기다리는 이용자에게 자리가 배정됩니다. 이러한 점을 유의해 주시기 바랍니다.",
+          "line": 5,
+          "column": 99,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "15분 이상이라는 경계와 현장 대기자라는 수령인이 명확하며 끝에는 유의 요청이 있다.",
+      "interpretation": "규칙과 공손한 마무리는 사람과 AI 모두 쓸 수 있어 작성 이력을 가르는 근거가 약하다.",
+      "human_alternative": "실제 이용자 분쟁을 막기 위한 정확한 안내 관습이다.",
+      "discriminating_evidence": "초안과 수정 이력, 실제 안내문 작성자의 설명이 있어야 작성 과정을 구별할 수 있다."
+    },
+    {
+      "id": "S5",
+      "basis": "style_observation",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 379,
+          "end": 496,
+          "quote": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다. 이는 의견을 낸 분들의 응답이므로 전체 이용자의 선호를 대표한다고 보기는 어렵습니다.",
+          "line": 7,
+          "column": 1,
+          "paragraph_ids": [
+            "P4"
+          ]
+        }
+      ],
+      "observation": "세 응답 범주의 합이 18건이며 바로 뒤에 응답자 범위와 전체 이용자 대표성 한계가 붙는다.",
+      "interpretation": "구체적인 근거와 제한은 상투적인 찬성 여론 주장에 대한 반례지만 AI도 이런 한계를 쓸 수 있다.",
+      "human_alternative": "실제 접수 의견을 담당자가 신중하게 정리했을 수 있다.",
+      "discriminating_evidence": "초안과 수정 이력, 실제 안내문 작성자의 설명이 있어야 작성 과정을 구별할 수 있다."
+    },
+    {
+      "id": "M1",
+      "basis": "local_feature_contribution",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 228,
+          "end": 230,
+          "quote": "며,",
+          "line": 5,
+          "column": 32,
+          "paragraph_ids": [
+            "P3"
+          ]
+        },
+        {
+          "start": 427,
+          "end": 429,
+          "quote": "며,",
+          "line": 7,
+          "column": 49,
+          "paragraph_ids": [
+            "P4"
+          ]
+        },
+        {
+          "start": 529,
+          "end": 531,
+          "quote": "며,",
+          "line": 7,
+          "column": 151,
+          "paragraph_ids": [
+            "P4"
+          ]
+        }
+      ],
+      "observation": "학습 문자 특징 '며,'의 보정 logit 기여는 +0.3057421166027956이다. 표시된 원문 좌표를 연결했다.",
+      "interpretation": "이 모델의 계산 방향만 설명한다. 겹치는 n-gram을 독립 증거로 세거나 AI 전용·사람 전용 표현으로 해석하지 않는다.",
+      "human_alternative": "안내문의 정상적인 연결어미 또는 주제어를 사람이 사용했을 수 있다.",
+      "discriminating_evidence": "작성 이력과 이 안내문 장르에서의 별도 검증 자료가 필요하다.",
+      "source_record": "round-0-source/model-result.json; feature_explanation.lexical feature='며,'; contribution_to_calibrated_logit=0.3057421166027956; offline ko unknown; model_sha256=f3048088269f293b5f54b131a26571eefcdb9ffd57d86acfd41b4d8d71d41e1f"
+    },
+    {
+      "id": "M2",
+      "basis": "local_feature_contribution",
+      "direction": "human_compatible",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 33,
+          "end": 35,
+          "quote": "이용",
+          "line": 3,
+          "column": 11,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 155,
+          "end": 157,
+          "quote": "이용",
+          "line": 3,
+          "column": 133,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 178,
+          "end": 180,
+          "quote": "이용",
+          "line": 3,
+          "column": 156,
+          "paragraph_ids": [
+            "P2"
+          ]
+        },
+        {
+          "start": 209,
+          "end": 211,
+          "quote": "이용",
+          "line": 5,
+          "column": 13,
+          "paragraph_ids": [
+            "P3"
+          ]
+        },
+        {
+          "start": 283,
+          "end": 285,
+          "quote": "이용",
+          "line": 5,
+          "column": 87,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "학습 문자 특징 '이용'의 보정 logit 기여는 -0.26430735945847794이다. 표시된 원문 좌표를 연결했다.",
+      "interpretation": "이 모델의 계산 방향만 설명한다. 겹치는 n-gram을 독립 증거로 세거나 AI 전용·사람 전용 표현으로 해석하지 않는다.",
+      "human_alternative": "안내문의 정상적인 연결어미 또는 주제어를 사람이 사용했을 수 있다.",
+      "discriminating_evidence": "작성 이력과 이 안내문 장르에서의 별도 검증 자료가 필요하다.",
+      "source_record": "round-0-source/model-result.json; feature_explanation.lexical feature='이용'; contribution_to_calibrated_logit=-0.26430735945847794; offline ko unknown; model_sha256=f3048088269f293b5f54b131a26571eefcdb9ffd57d86acfd41b4d8d71d41e1f"
+    },
+    {
+      "id": "O1",
+      "basis": "local_occlusion",
+      "direction": "ai_like",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 379,
+          "end": 608,
+          "quote": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다. 이는 의견을 낸 분들의 응답이므로 전체 이용자의 선호를 대표한다고 보기는 어렵습니다. 시범 운영 이후에는 대기 시간과 취소 건수를 확인할 예정이며, 현재로서는 예약 방식의 효과가 입증된 것은 아닙니다. 담당자는 시범 종료 뒤 의견과 운영 기록을 함께 검토하여 계속 운영할지 결정합니다.",
+          "line": 7,
+          "column": 1,
+          "paragraph_ids": [
+            "P4"
+          ]
+        }
+      ],
+      "observation": "P4 삭제 전 AI 4.18803246753625%, 삭제 후 AI 2.84633147211952%, 차이 1.34170099541673 percentage points.",
+      "interpretation": "P4에 대한 모델 민감도다. 문단의 AI 확률이 아니며 삭제 시 길이·문맥·정규화도 달라진다.",
+      "human_alternative": "통계와 조심스러운 운영 판단을 담은 사람이 쓴 안내도 같은 민감도를 보일 수 있다.",
+      "discriminating_evidence": "문단을 삭제하지 않은 글의 초안 이력과 해당 장르의 검증 자료가 필요하다.",
+      "source_record": "round-0-source/model-result.json; paragraph_sensitivity.paragraphs[P4]; baseline_p_ai와 after_removal_p_ai의 차이 ×100."
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 21,
+      "line": 1,
+      "text": "공유 작업실 예약 방식 시범 변경 안내",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "시범 변경이라는 범위가 제목에 있다. 명확하고 중립적이어서 유지한다.",
+      "finding_ids": []
+    },
+    {
+      "id": "P2",
+      "start": 23,
+      "end": 195,
+      "line": 3,
+      "text": "우리 작업실에서는 이용자 경험의 향상과 운영 효율성의 제고를 위하여 다음 달부터 4주 동안 토요일 오후 예약 방식을 바꾸는 시범 운영을 진행하고자 합니다. 현재는 도착한 순서대로 자리를 배정하고 있지만, 시범 기간에는 온라인으로 예약한 이용자에게 먼저 자리를 배정합니다. 평일 이용 방식에는 변경이 없습니다.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "일정·요일·현재 대비·평일 예외는 명확하다. 도입의 명사적 포장을 풀어 독자가 변경 사항을 먼저 읽게 한다.",
+      "finding_ids": [
+        "S1",
+        "M2"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 197,
+      "end": 377,
+      "line": 5,
+      "text": "이와 관련하여 예약은 이용일 7일 전 오전 10시에 열리며, 한 사람은 하루에 한 자리만 예약할 수 있습니다. 예약을 하지 않은 경우에도 빈자리가 있으면 이용할 수 있습니다. 다만 예약한 이용자가 예정 시각보다 15분 이상 늦을 경우에는 현장에서 기다리는 이용자에게 자리가 배정됩니다. 이러한 점을 유의해 주시기 바랍니다.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "실무 조건은 충실하다. 연결구는 줄이되 예약 한도, 빈자리 예외, 지각 조건과 유의 요청은 보존한다.",
+      "finding_ids": [
+        "S2",
+        "S4",
+        "M1",
+        "M2"
+      ]
+    },
+    {
+      "id": "P4",
+      "start": 379,
+      "end": 608,
+      "line": 7,
+      "text": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다. 이는 의견을 낸 분들의 응답이므로 전체 이용자의 선호를 대표한다고 보기는 어렵습니다. 시범 운영 이후에는 대기 시간과 취소 건수를 확인할 예정이며, 현재로서는 예약 방식의 효과가 입증된 것은 아닙니다. 담당자는 시범 종료 뒤 의견과 운영 기록을 함께 검토하여 계속 운영할지 결정합니다.",
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "찬반 분포와 대표성 유보는 유지한다. 현재의 미입증 상태와 향후 판단 순서를 정리할 편집 여지가 있다.",
+      "finding_ids": [
+        "S3",
+        "S5",
+        "M1",
+        "O1"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 4,
+    "paragraphs_reviewed": 4,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_korean_calibrated_classifier",
+    "model": "korean-char-style-logistic-v1",
+    "measured_at_utc": "2026-10-03T06:55:04.882735+00:00",
+    "class_probabilities": {
+      "human": 0.9581196753246375,
+      "ai": 0.04188032467536252
+    },
+    "model_sha256": "f3048088269f293b5f54b131a26571eefcdb9ffd57d86acfd41b4d8d71d41e1f",
+    "calibration": {
+      "method": "held_out_regularized_sigmoid",
+      "slope": 1.613104005280206,
+      "intercept": -0.3249749806452906,
+      "n": 1907,
+      "group_n": 52,
+      "reference_ai_prior": 0.5,
+      "genre_weighting": "Equal essay/abstract/poetry and equal Human/AI within each genre",
+      "scope": "Korean public benchmark genres; no universal authorship guarantee"
+    },
+    "applicability_cautions": [
+      "Genre is not explicitly within the evaluated essay/abstract/poetry scope; treat the numeric result as an extrapolation."
+    ],
+    "revision": null,
+    "language_scope": null,
+    "independently_calibrated_here": null,
+    "validation_status": null,
+    "known_limitations": [
+      "No validated Mixed/AI-assisted class; complementary probabilities are for the two training labels only.",
+      "Unknown modern generators, editing, translation and humanizers may change error rates.",
+      "Calibration is population-dependent; the declared 50% class prior is not a measured prevalence for the user's document."
+    ],
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  }
+}

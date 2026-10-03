@@ -1,0 +1,107 @@
+{
+  "assessment": "Fresh-context functional development check completed; not a statistical holdout, representative evaluation, or proof of generalization.",
+  "source_unchanged": true,
+  "source_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+  "retained_final": "final.txt",
+  "final_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+  "selection": "Candidate 1 retained despite lower Human estimate because original conditions are preserved and concrete reader-directed edits are justified.",
+  "rounds": [
+    {
+      "input": "source.txt",
+      "input_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+      "characters_codepoints": 609,
+      "model": "korean-char-style-logistic-v1",
+      "model_sha256": "f3048088269f293b5f54b131a26571eefcdb9ffd57d86acfd41b4d8d71d41e1f",
+      "measured_at_utc": "2026-10-03T06:55:04.882735+00:00",
+      "genre": "unknown",
+      "native_class_probabilities": {
+        "human": 0.9581196753246375,
+        "ai": 0.04188032467536252
+      },
+      "human_percent": 95.81196753246375,
+      "ai_percent": 4.188032467536252,
+      "ngram_coverage": 0.45981772990886494,
+      "cautions": [
+        "Genre is not explicitly within the evaluated essay/abstract/poetry scope; treat the numeric result as an extrapolation.",
+        "No validated Mixed/AI-assisted class; complementary probabilities are for the two training labels only.",
+        "Unknown modern generators, editing, translation and humanizers may change error rates.",
+        "Calibration is population-dependent; the declared 50% class prior is not a measured prevalence for the user's document."
+      ],
+      "paragraphs_reviewed": 4,
+      "excluded": 0,
+      "unreviewed": 0,
+      "anchor_validation": "evidence.py exit 0",
+      "model_result": "round-0-source/model-result.json",
+      "ledger": "round-0-source/ledger.json",
+      "validated": "round-0-source/validated.json",
+      "html": "round-0-source/review.html",
+      "decisions": "round-0-source/decisions.json"
+    },
+    {
+      "input": "candidate-1.txt",
+      "input_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+      "characters_codepoints": 573,
+      "model": "korean-char-style-logistic-v1",
+      "model_sha256": "f3048088269f293b5f54b131a26571eefcdb9ffd57d86acfd41b4d8d71d41e1f",
+      "measured_at_utc": "2026-10-03T06:57:48.751956+00:00",
+      "genre": "unknown",
+      "native_class_probabilities": {
+        "human": 0.8592462024974569,
+        "ai": 0.14075379750254313
+      },
+      "human_percent": 85.92462024974569,
+      "ai_percent": 14.075379750254314,
+      "ngram_coverage": 0.45189761694616065,
+      "cautions": [
+        "Genre is not explicitly within the evaluated essay/abstract/poetry scope; treat the numeric result as an extrapolation.",
+        "No validated Mixed/AI-assisted class; complementary probabilities are for the two training labels only.",
+        "Unknown modern generators, editing, translation and humanizers may change error rates.",
+        "Calibration is population-dependent; the declared 50% class prior is not a measured prevalence for the user's document."
+      ],
+      "paragraphs_reviewed": 5,
+      "excluded": 0,
+      "unreviewed": 0,
+      "anchor_validation": "evidence.py exit 0",
+      "model_result": "round-1-candidate/model-result.json",
+      "ledger": "round-1-candidate/ledger.json",
+      "validated": "round-1-candidate/validated.json",
+      "html": "round-1-candidate/review.html",
+      "decisions": "round-1-candidate/decisions.json"
+    }
+  ],
+  "human_change_percentage_points": -9.887347282718068,
+  "ai_change_percentage_points": 9.887347282718068,
+  "counts": {
+    "complete_drafted_candidates": 1,
+    "detector_rounds_including_original": 2,
+    "whole_document_reviews": 2,
+    "post_initial_candidate_revision_cycles": 0,
+    "source_consequential_findings": 8,
+    "source_revise_decisions": 3,
+    "source_retain_decisions": 5,
+    "final_retain_decisions": 7
+  },
+  "review_independence": "This task began in a fresh development context. Both detector interpretation and editorial self-review were done in this same context. No claim of independent human or second-model review.",
+  "fidelity": "13 exact source-to-candidate proposition checks in candidate-1-fidelity.json, plus separate reader self-review. Surface audit exited 0. Anchor validation verifies coordinates/coverage, not semantic correctness.",
+  "stop_reason": "Completed final fidelity and whole-document reader review; no concrete further improvement justified. Did not use all available rounds or search for a score target.",
+  "unresolved_editorial_findings": [],
+  "failures": [],
+  "adapter_issues_observed": [],
+  "limits": [
+    "원문의 작성 이력과 접수 의견 실제 기록은 미검증이다. 후보는 이 assistant가 작성한 재작성본이다.",
+    "업무 공지는 모델의 essay/abstract/poetry 평가 범위 밖이므로 unknown 외삽이다.",
+    "길이는 609/573 codepoints로 학습 중간 90% 범위 210~907 안에 있다. 이것이 개별 정확도를 보장하지 않는다.",
+    "문자 n-gram coverage는 원문 약 46.0%, 후보 약 45.2%이며 별도의 coverage 경고는 native 결과에 없었다.",
+    "기준 분포는 AI prior 50% 및 essay/abstract/poetry 균등 가중치다. 사용자 문서 모집단의 실제 비율이 아니다.",
+    "혼합·AI 보조·최신 생성기·humanizer는 검증된 별도 범주가 아니다.",
+    "상용 탐지기 전이는 측정하지 않았다. 두 점수는 실제 작성 이력이나 자연스러움의 인증이 아니다."
+  ],
+  "constraints_observed": {
+    "network_calls": 0,
+    "downloads": 0,
+    "commercial_calls": 0,
+    "installed_detector_modified": false,
+    "staged_skill_modified": false,
+    "other_development_examples_or_results_consulted": false
+  }
+}

@@ -1,4 +1,4 @@
 interface:
   display_name: "Bilingual Humanizer · 한국어와 영어"
   short_description: "한국어·영어 문서를 반복해서 재작성·검토하고 의미와 문체를 보존합니다"
-  default_prompt: "Use $bilingual-humanizer to iteratively rewrite and review this Korean, English, or mixed-language document while preserving its facts, meaning, citations, and voice."
+  default_prompt: "Use $bilingual-humanizer to iteratively rewrite and review this Korean, English, or mixed-language document while preserving its facts, meaning, citations, and voice. For substantial rewriting, start with the installed local bilingual-ai-detector when available, apply justified feedback, check fidelity, and rescore the complete result."

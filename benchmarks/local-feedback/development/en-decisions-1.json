@@ -1,0 +1,122 @@
+{
+  "decisions": [
+    {
+      "finding_id": "S1",
+      "input_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+      "basis": "style_observation",
+      "spans": [
+        {
+          "start": 304,
+          "end": 404,
+          "quote": "The trial report should retain the 24-request denominator when presenting the change in median time."
+        }
+      ],
+      "human_alternative": "업무 분야에서 denominator를 관측 집합의 크기로 넓게 쓰거나, 24건이라는 제한을 결과와 함께 남기려는 사람이 이런 표현을 선택할 수 있다. 대상 독자에게 익숙하다면 유지해도 된다.",
+      "decision": "revise",
+      "reason": "Make the sample size explicit for a general reader, retaining the report duty, 24 requests and median comparison.",
+      "applied_replacement": {
+        "before": "The trial report should retain the 24-request denominator when presenting the change in median time.",
+        "after": "The trial report should make clear that the change in median time is based on 24 requests."
+      }
+    },
+    {
+      "finding_id": "S2",
+      "input_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+      "basis": "style_observation",
+      "spans": [
+        {
+          "start": 0,
+          "end": 152,
+          "quote": "Across 24 requests, the June archive trial reduced median lookup time from 18 minutes to 11 minutes, although we did not record the longest lookup time."
+        },
+        {
+          "start": 153,
+          "end": 303,
+          "quote": "The trial covered only material that had already been catalogued, so the results do not establish how the system will work with uncatalogued material."
+        }
+      ],
+      "human_alternative": "실무 담당자가 제한된 시범 결과를 과장하지 않으려 관측치와 누락된 지표, 적용 범위를 함께 적는 문체와 양립한다.",
+      "decision": "retain",
+      "reason": "Distinct factual, voice or operational function; no concrete reader problem requires changing it.",
+      "applied_replacement": null
+    },
+    {
+      "finding_id": "S3",
+      "input_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+      "basis": "style_observation",
+      "spans": [
+        {
+          "start": 406,
+          "end": 517,
+          "quote": "I found the shared index easier to use, though I still prefer the paper cards for tracing earlier descriptions."
+        }
+      ],
+      "human_alternative": "시범에 참여한 작성자가 집단 자료와 개인 경험을 구분해 기록할 수 있다. AI가 개인 경험처럼 보이는 문장을 생성하는 경우도 있으므로 이 일화는 이력 증명이 아니다.",
+      "decision": "retain",
+      "reason": "Distinct factual, voice or operational function; no concrete reader problem requires changing it.",
+      "applied_replacement": null
+    },
+    {
+      "finding_id": "S4",
+      "input_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+      "basis": "style_observation",
+      "spans": [
+        {
+          "start": 519,
+          "end": 619,
+          "quote": "Before extending the trial, the archive lead should check whether the volunteer rota can support it."
+        },
+        {
+          "start": 620,
+          "end": 655,
+          "quote": "The rota has not yet been approved."
+        }
+      ],
+      "human_alternative": "사람 검토자도 운영 가능성과 행정 승인 상태를 구분해야 하므로 같은 명사를 두 문장에 사용하는 것이 자연스럽다.",
+      "decision": "retain",
+      "reason": "Distinct factual, voice or operational function; no concrete reader problem requires changing it.",
+      "applied_replacement": null
+    },
+    {
+      "finding_id": "S5",
+      "input_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+      "basis": "style_observation",
+      "spans": [
+        {
+          "start": 657,
+          "end": 706,
+          "quote": "No decision on a permanent service has been made."
+        },
+        {
+          "start": 707,
+          "end": 834,
+          "quote": "The review must distinguish this temporary trial from a permanent service, and the public notice must explain that distinction."
+        }
+      ],
+      "human_alternative": "담당자가 시범 운영을 영구 서비스 승인으로 오해하는 일을 막기 위해 내부 검토와 외부 안내를 함께 점검할 수 있다.",
+      "decision": "retain",
+      "reason": "Distinct factual, voice or operational function; no concrete reader problem requires changing it.",
+      "applied_replacement": null
+    },
+    {
+      "finding_id": "H1",
+      "input_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+      "basis": "documented_history",
+      "spans": [
+        {
+          "start": 0,
+          "end": 152,
+          "quote": "Across 24 requests, the June archive trial reduced median lookup time from 18 minutes to 11 minutes, although we did not record the longest lookup time."
+        }
+      ],
+      "human_alternative": "사람의 편집 참여와 AI 관여는 함께 가능하다. 제공된 정보만으로 각자의 기여량이나 문장별 작성 주체를 나눌 수 없다.",
+      "decision": "retain",
+      "reason": "Distinct factual, voice or operational function; no concrete reader problem requires changing it.",
+      "applied_replacement": null
+    }
+  ],
+  "candidate_sha256": "728fe7cabb22fea96dadb4678e7e6b52b361299b9c5f65f5a2f9c96aea05abff",
+  "numeric_score_status": "unavailable_after_repeated_native_failure",
+  "candidate_score": null,
+  "no_stale_score_reused": true
+}

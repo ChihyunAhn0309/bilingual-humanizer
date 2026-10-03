@@ -76,7 +76,7 @@ if __name__ == '__main__':
         path = (root / rel).resolve()
         assert path.is_relative_to(root.resolve()) and sha(path) == expected_hash, rel
     release = json.loads((root / 'release-skill-hashes.json').read_text('utf-8'))
-    skill = BASE.parent / 'skills/bilingual-humanizer'
+    skill = BASE / 'local-feedback/retained-skill'  # Exact v1.6.0 archive
     actual = {p.relative_to(skill).as_posix(): sha(p) for p in skill.rglob('*')
               if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'}
     assert actual == release and len(release) == 24

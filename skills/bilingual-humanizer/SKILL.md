@@ -1,8 +1,8 @@
 ---
 name: bilingual-humanizer
-description: "Actively rewrite Korean, English, or mixed-language prose to sound natural while preserving meaning, evidence, and the writer's voice. Use for humanizing AI drafts, removing translationese or formulaic phrasing, restructuring documents, and matching supplied writing samples across general, business, academic, technical, and creative genres. Also explain supplied AI-detector results without certifying authorship."
+description: "Actively rewrite Korean, English, or mixed-language prose to sound natural while preserving meaning, evidence, and the writer's voice. Use for humanizing AI drafts, removing translationese or formulaic phrasing, restructuring documents, and matching supplied writing samples across general, business, academic, technical, and creative genres. When the local bilingual-ai-detector is installed, substantial rewriting starts with its evidence review and alternates feedback, revision and fidelity checks. Also explain detector results without certifying authorship."
 metadata:
-  version: "1.6.0"
+  version: "1.7.0"
 ---
 
 # Bilingual Humanizer
@@ -22,6 +22,8 @@ Use the requested operation:
 - **Detector interpretation / authorship review**: use [detectors-and-authorship.md](references/detectors-and-authorship.md). Do not run an unsolicited scan or rewrite solely because a detector highlighted a passage.
 
 For rewriting, use the review loop in [iterative-review.md](references/iterative-review.md). It supports independent fresh-context reviewers when delegation is available and allowed, continued work across conversation turns, and feedback from actual detector results when requested. A detector result is optional evidence, not a requirement for ordinary editing.
+
+For substantial rewriting, check whether the trusted local `bilingual-ai-detector` skill is installed. If present, **default to detector-first feedback mode** unless the user requests editing without detection. Follow [local-detector-loop.md](references/local-detector-loop.md): read the detector skill, measure and review the unchanged source before drafting, triage exact-span findings, rewrite, check fidelity, then measure and review the complete candidate again. Reuse this mode across follow-up turns without repeatedly asking permission. Light edits and review-only requests keep their narrower scope; detection there is opt-in. Missing or repeatedly failing local inference does not block the editorial review or authorize a commercial fallback. A learned character contribution is not an editing instruction. Editing without the optional detector remains supported.
 
 For Korean prose read [korean.md](references/korean.md); for English prose read [english.md](references/english.md). Read both for substantial prose in both languages, not merely English product names within Korean sentences. Consult [genres-and-voice.md](references/genres-and-voice.md) when genre constraints or voice matching affect choices. Reuse references already read in the session.
 

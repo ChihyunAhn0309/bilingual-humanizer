@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "mode": "observations_only",
+  "text_sha256": "8f32f993763aa507a46c51844b0ae39763260d5d298408f3ff5d814e627d1575",
+  "file_sha256": "8f32f993763aa507a46c51844b0ae39763260d5d298408f3ff5d814e627d1575",
+  "characters_codepoints": 992,
+  "non_whitespace_characters": 733,
+  "whitespace_units": 254,
+  "hangul_letters": 692,
+  "latin_letters": 0,
+  "other_letters": 0,
+  "hangul_share_of_letters": 1.0,
+  "latin_share_of_letters": 0.0,
+  "rough_sentence_count": 21,
+  "rough_sentence_mean_characters": 46,
+  "rough_sentence_length_cv": 0.30100201730343923,
+  "comma_count": 7,
+  "commas_per_1000_codepoints": 7.056451612903226,
+  "surface_type_token_ratio": 0.7677165354330708,
+  "repeated_surface_forms": [
+    {
+      "surface_form": "수",
+      "count": 7
+    },
+    {
+      "surface_form": "한다.",
+      "count": 6
+    },
+    {
+      "surface_form": "시범",
+      "count": 5
+    },
+    {
+      "surface_form": "이",
+      "count": 4
+    },
+    {
+      "surface_form": "도서관",
+      "count": 3
+    },
+    {
+      "surface_form": "연장",
+      "count": 3
+    },
+    {
+      "surface_form": "문을",
+      "count": 3
+    },
+    {
+      "surface_form": "영구적인",
+      "count": 3
+    },
+    {
+      "surface_form": "것은",
+      "count": 3
+    },
+    {
+      "surface_form": "있다.",
+      "count": 3
+    },
+    {
+      "surface_form": "함께",
+      "count": 3
+    },
+    {
+      "surface_form": "이용",
+      "count": 3
+    },
+    {
+      "surface_form": "저녁",
+      "count": 2
+    },
+    {
+      "surface_form": "운영안",
+      "count": 2
+    },
+    {
+      "surface_form": "여는",
+      "count": 2
+    }
+  ],
+  "unicode_observations": [],
+  "unicode_observation_count": 0,
+  "unicode_observations_truncated": false,
+  "authorship_probabilities": null,
+  "notes": [
+    "Counts are observations, not authorship evidence or a detector score.",
+    "Whitespace units are neither model tokens nor Korean morphemes.",
+    "Sentence splitting is approximate; inspect punctuation context.",
+    "Script counts do not establish language, fluency or identity.",
+    "Unicode controls are not proof of an AI watermark."
+  ]
+}

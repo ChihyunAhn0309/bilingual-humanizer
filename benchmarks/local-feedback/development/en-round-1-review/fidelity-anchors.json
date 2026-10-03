@@ -1,0 +1,17 @@
+{
+  "original_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+  "candidate_sha256": "728fe7cabb22fea96dadb4678e7e6b52b361299b9c5f65f5a2f9c96aea05abff",
+  "only_change": {
+    "original": {
+      "start": 304,
+      "end": 404,
+      "quote": "The trial report should retain the 24-request denominator when presenting the change in median time."
+    },
+    "candidate": {
+      "start": 304,
+      "end": 394,
+      "quote": "The trial report should make clear that the change in median time is based on 24 requests."
+    }
+  },
+  "all_other_text_exactly_identical": true
+}

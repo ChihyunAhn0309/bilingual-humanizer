@@ -84,3 +84,7 @@ if (BASE.parent/'continuation-g/results.json').exists():
 if (BASE.parent/'quill-renewal/results.json').exists():
     import runpy
     runpy.run_path(str(BASE.parent/'verify_quill_renewal.py'),run_name='__main__')
+
+if (BASE.parent/'local-feedback/results.json').exists():
+    import runpy
+    runpy.run_path(str(BASE.parent/'verify_local_feedback.py'), run_name='__main__')

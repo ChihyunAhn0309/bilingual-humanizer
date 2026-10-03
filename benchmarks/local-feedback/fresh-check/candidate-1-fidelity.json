@@ -1,0 +1,210 @@
+{
+  "source_sha256": "fa959871c578d68e6d3a1dcc51f28b092b99a67e803f1e4d21707b9a6a29080f",
+  "candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+  "method": "Distinct same-context semantic fidelity self-review, followed by reader self-review; not automated semantic validation.",
+  "source_to_candidate": [
+    {
+      "id": "F1",
+      "source_span": {
+        "start": 61,
+        "end": 109,
+        "quote": "다음 달부터 4주 동안 토요일 오후 예약 방식을 바꾸는 시범 운영을 진행하고자 합니다."
+      },
+      "candidate_span": {
+        "start": 31,
+        "end": 72,
+        "quote": "다음 달부터 4주 동안 토요일 오후 예약 방식을 시범적으로 바꾸려 합니다."
+      },
+      "judgment": "preserved",
+      "reason": "기간, 요일·시간대, 시범 범위와 의향 강도를 보존했다. 확정 시행으로 강화하지 않았다."
+    },
+    {
+      "id": "F2",
+      "source_span": {
+        "start": 33,
+        "end": 60,
+        "quote": "이용자 경험의 향상과 운영 효율성의 제고를 위하여"
+      },
+      "candidate_span": {
+        "start": 73,
+        "end": 106,
+        "quote": "이용자 경험을 개선하고 운영 효율을 높이기 위한 시도입니다."
+      },
+      "judgment": "preserved",
+      "reason": "두 목적을 보존했다. 개선됐다는 결과나 편의성이라는 좁은 개념을 추가하지 않았다."
+    },
+    {
+      "id": "F3",
+      "source_span": {
+        "start": 110,
+        "end": 174,
+        "quote": "현재는 도착한 순서대로 자리를 배정하고 있지만, 시범 기간에는 온라인으로 예약한 이용자에게 먼저 자리를 배정합니다."
+      },
+      "candidate_span": {
+        "start": 107,
+        "end": 164,
+        "quote": "지금은 도착한 순서대로 자리를 배정하지만, 시범 기간에는 온라인으로 예약한 이용자에게 먼저 배정합니다."
+      },
+      "judgment": "preserved",
+      "reason": "현재 배정과 시범 배정을 대조하고 온라인 예약 우선권을 유지했다. 두 번째 목적어 자리는 직전 절에서 명확하다."
+    },
+    {
+      "id": "F4",
+      "source_span": {
+        "start": 175,
+        "end": 195,
+        "quote": "평일 이용 방식에는 변경이 없습니다."
+      },
+      "candidate_span": {
+        "start": 165,
+        "end": 185,
+        "quote": "평일 이용 방식은 그대로 유지합니다."
+      },
+      "judgment": "preserved",
+      "reason": "평일 예외를 그대로 남겼다."
+    },
+    {
+      "id": "F5",
+      "source_span": {
+        "start": 205,
+        "end": 258,
+        "quote": "예약은 이용일 7일 전 오전 10시에 열리며, 한 사람은 하루에 한 자리만 예약할 수 있습니다."
+      },
+      "candidate_span": {
+        "start": 187,
+        "end": 239,
+        "quote": "예약은 이용일 7일 전 오전 10시에 열립니다. 한 사람은 하루에 한 자리만 예약할 수 있고,"
+      },
+      "judgment": "preserved",
+      "reason": "이용일 기준 7일 전 오전 10시와 개인별·하루별 한 자리 제한을 유지했다."
+    },
+    {
+      "id": "F6",
+      "source_span": {
+        "start": 259,
+        "end": 294,
+        "quote": "예약을 하지 않은 경우에도 빈자리가 있으면 이용할 수 있습니다."
+      },
+      "candidate_span": {
+        "start": 240,
+        "end": 271,
+        "quote": "예약하지 않았더라도 빈자리가 있으면 이용할 수 있습니다."
+      },
+      "judgment": "preserved",
+      "reason": "비예약 이용 가능성과 빈자리 조건을 같이 남겼다."
+    },
+    {
+      "id": "F7",
+      "source_span": {
+        "start": 295,
+        "end": 356,
+        "quote": "다만 예약한 이용자가 예정 시각보다 15분 이상 늦을 경우에는 현장에서 기다리는 이용자에게 자리가 배정됩니다."
+      },
+      "candidate_span": {
+        "start": 272,
+        "end": 329,
+        "quote": "다만 예약한 이용자가 예정 시각보다 15분 이상 늦으면 현장에서 기다리는 이용자에게 자리가 배정됩니다."
+      },
+      "judgment": "preserved",
+      "reason": "예약한 이용자라는 주체, 예정 시각 기준, 15분 이상(초과 아님), 현장 대기자라는 수령인, 배정 결과를 모두 유지했다."
+    },
+    {
+      "id": "F8",
+      "source_span": {
+        "start": 357,
+        "end": 377,
+        "quote": "이러한 점을 유의해 주시기 바랍니다."
+      },
+      "candidate_span": {
+        "start": 330,
+        "end": 350,
+        "quote": "이러한 점에 유의해 주시기 바랍니다."
+      },
+      "judgment": "preserved",
+      "reason": "유의 요청의 공손함과 지칭은 보존하고 조사 결합만 교정했다. 확인 의무로 바꾸지 않았다."
+    },
+    {
+      "id": "F9",
+      "source_span": {
+        "start": 379,
+        "end": 448,
+        "quote": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다."
+      },
+      "candidate_span": {
+        "start": 352,
+        "end": 421,
+        "quote": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다."
+      },
+      "judgment": "preserved",
+      "reason": "수치·단위·전체와 세 범주 관계를 동일하게 보존했다. 사람 수로 바꾸지 않았다."
+    },
+    {
+      "id": "F10",
+      "source_span": {
+        "start": 449,
+        "end": 496,
+        "quote": "이는 의견을 낸 분들의 응답이므로 전체 이용자의 선호를 대표한다고 보기는 어렵습니다."
+      },
+      "candidate_span": {
+        "start": 422,
+        "end": 466,
+        "quote": "의견을 낸 분들의 응답이므로 전체 이용자의 선호를 대표한다고 보기는 어렵습니다."
+      },
+      "judgment": "preserved",
+      "reason": "대표성 한계와 그 이유를 해당 통계 바로 뒤에 남겼다. 대표성이 전혀 없다고 강화하지 않았다."
+    },
+    {
+      "id": "F11",
+      "source_span": {
+        "start": 532,
+        "end": 561,
+        "quote": "현재로서는 예약 방식의 효과가 입증된 것은 아닙니다."
+      },
+      "candidate_span": {
+        "start": 468,
+        "end": 493,
+        "quote": "예약 방식의 효과는 아직 입증되지 않았습니다."
+      },
+      "judgment": "preserved",
+      "reason": "현시점의 미입증을 표현한다. 무효과로 해석하거나 미래 효과를 보장하지 않는다."
+    },
+    {
+      "id": "F12",
+      "source_span": {
+        "start": 497,
+        "end": 531,
+        "quote": "시범 운영 이후에는 대기 시간과 취소 건수를 확인할 예정이며,"
+      },
+      "candidate_span": {
+        "start": 494,
+        "end": 528,
+        "quote": "시범 운영이 끝나면 대기 시간과 취소 건수를 확인할 예정이며,"
+      },
+      "judgment": "preserved",
+      "reason": "시범 종료 후라는 시점, 대기 시간·취소 건수 두 측정 대상, 예정이라는 상태를 보존했다."
+    },
+    {
+      "id": "F13",
+      "source_span": {
+        "start": 562,
+        "end": 608,
+        "quote": "담당자는 시범 종료 뒤 의견과 운영 기록을 함께 검토하여 계속 운영할지 결정합니다."
+      },
+      "candidate_span": {
+        "start": 494,
+        "end": 572,
+        "quote": "시범 운영이 끝나면 대기 시간과 취소 건수를 확인할 예정이며, 담당자는 의견과 운영 기록을 함께 검토해 이 방식을 계속 운영할지 결정합니다."
+      },
+      "judgment": "preserved",
+      "reason": "앞 절 시점은 뒤 절 결정에도 적용된다. 담당자의 책임, 의견과 운영 기록의 공동 검토, 계속 운영 여부 결정이 남았다."
+    }
+  ],
+  "additions_review": "새로운 사실·일정·행위자·효과를 추가하지 않았다. 위한 시도는 원문의 목적과 시범 의향을 풀어 쓴 것이다.",
+  "omissions_review": "일반 연결구 이와 관련하여 및 이는만 삭제했고, 모든 실무 조건·수치·한계·유의 요청은 남아 있다.",
+  "reader_review": "공지의 실무 순서는 유지하면서 시범 일정부터 읽도록 도입을 다시 썼다. 원래 마지막 문단을 응답 통계와 향후 판단으로 나눠 각 문단의 역할을 분명히 했다. 합니다체와 공손한 유의 요청은 유지한다. 통계 열거는 읽기 좋아 그대로 남겼다. 후보 전체에서 의미가 모호해진 지시어나 새 상투 문구는 발견하지 못했다.",
+  "surface_audit": "candidate-1-surface-audit.json; script exit 0. 숫자 일치가 의미 보존의 증명은 아니므로 위 별도 의미 대조를 실시했다.",
+  "repairs_before_freeze": [
+    "source의 점을 유의를 점에 유의로 고쳐 조사 결합을 바로잡았다. 뜻이나 요청 강도는 바꾸지 않았다."
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,194 @@
+{
+  "reviewed_at_utc": "2026-10-03T07:08:58.168186+00:00",
+  "verifier_sha256": "9f9688fa42692bb0591251687097f8a798684f7df4cb3da61420b71c360d49ce",
+  "method": "Each case copies evidence, current skill and verifier to a new temporary repository. Except for raw-byte integrity, mutations refresh the copied frozen-files manifest to exercise semantic consistency checks beyond a checksum mismatch. No original evidence or detector is altered; no inference is performed by these mutation checks.",
+  "originals_unchanged": true,
+  "cases": [
+    {
+      "case": "unchanged_copy",
+      "expected_pass": true,
+      "actual_pass": true,
+      "expected_outcome_observed": true,
+      "stdout": "PASS: 5 local Korean measurements, 7 complete anchored reviews, English failure and v1.7.0 integrity.",
+      "failure": null
+    },
+    {
+      "case": "changed_reported_score",
+      "expected_pass": false,
+      "actual_pass": false,
+      "expected_outcome_observed": true,
+      "stdout": "",
+      "failure": {
+        "type": "AssertionError",
+        "message": "",
+        "location": "assert record['human_percent'] == probs['human'] * 100"
+      }
+    },
+    {
+      "case": "forged_failure_human",
+      "expected_pass": false,
+      "actual_pass": false,
+      "expected_outcome_observed": true,
+      "stdout": "",
+      "failure": {
+        "type": "AssertionError",
+        "message": "",
+        "location": "assert result['human_percent'] is None and result['native_class_probabilities'] is None"
+      }
+    },
+    {
+      "case": "bad_ledger_quote",
+      "expected_pass": false,
+      "actual_pass": false,
+      "expected_outcome_observed": true,
+      "stdout": "",
+      "failure": {
+        "type": "AssertionError",
+        "message": "",
+        "location": "assert all(checked_span.get(k) == v for k, v in span.items())"
+      }
+    },
+    {
+      "case": "bad_reported_input_hash",
+      "expected_pass": false,
+      "actual_pass": false,
+      "expected_outcome_observed": true,
+      "stdout": "",
+      "failure": {
+        "type": "AssertionError",
+        "message": "",
+        "location": "assert digest(source) == record['input_sha256']"
+      }
+    },
+    {
+      "case": "changed_source_bytes",
+      "expected_pass": false,
+      "actual_pass": false,
+      "expected_outcome_observed": true,
+      "stdout": "",
+      "failure": {
+        "type": "AssertionError",
+        "message": "development/ko-original.txt",
+        "location": "assert digest(safe(relative)) == expected, relative"
+      }
+    },
+    {
+      "case": "missing_paragraph_review_with_stale_validation",
+      "expected_pass": false,
+      "actual_pass": false,
+      "expected_outcome_observed": true,
+      "stdout": "",
+      "failure": {
+        "type": "AssertionError",
+        "message": "",
+        "location": "assert len(ledger_reviews) == len(ledger['paragraph_reviews']) == len(paragraph_ids)"
+      }
+    },
+    {
+      "case": "stale_validated_quote",
+      "expected_pass": false,
+      "actual_pass": false,
+      "expected_outcome_observed": true,
+      "stdout": "",
+      "failure": {
+        "type": "AssertionError",
+        "message": "",
+        "location": "assert all(checked_span.get(k) == v for k, v in span.items())"
+      }
+    }
+  ],
+  "previous_runs": [
+    {
+      "reviewed_at_utc": "2026-10-03T07:07:33.296775+00:00",
+      "verifier_sha256": "c81f5a2c2231301ffb84839ac43d90e4318f84d28c37e91055ef4f930a122b6a",
+      "method": "Each case copies evidence, current skill and verifier to a new temporary repository. Except for raw-byte integrity, mutations refresh the copied frozen-files manifest to exercise semantic consistency checks beyond a checksum mismatch. No original evidence or detector is altered; no inference is performed by these mutation checks.",
+      "originals_unchanged": true,
+      "cases": [
+        {
+          "case": "unchanged_copy",
+          "expected_pass": true,
+          "actual_pass": true,
+          "expected_outcome_observed": true,
+          "stdout": "PASS: 5 local Korean measurements, 7 complete anchored reviews, English failure and v1.7.0 integrity.",
+          "failure": null
+        },
+        {
+          "case": "changed_reported_score",
+          "expected_pass": false,
+          "actual_pass": false,
+          "expected_outcome_observed": true,
+          "stdout": "",
+          "failure": {
+            "type": "AssertionError",
+            "message": "",
+            "location": "assert record['human_percent'] == probs['human'] * 100"
+          }
+        },
+        {
+          "case": "forged_failure_human",
+          "expected_pass": false,
+          "actual_pass": false,
+          "expected_outcome_observed": true,
+          "stdout": "",
+          "failure": {
+            "type": "AssertionError",
+            "message": "",
+            "location": "assert result['human_percent'] is None and result['native_class_probabilities'] is None"
+          }
+        },
+        {
+          "case": "bad_ledger_quote",
+          "expected_pass": false,
+          "actual_pass": false,
+          "expected_outcome_observed": true,
+          "stdout": "",
+          "failure": {
+            "type": "AssertionError",
+            "message": "",
+            "location": "assert text[span['start']:span['end']] == span['quote']"
+          }
+        },
+        {
+          "case": "bad_reported_input_hash",
+          "expected_pass": false,
+          "actual_pass": false,
+          "expected_outcome_observed": true,
+          "stdout": "",
+          "failure": {
+            "type": "AssertionError",
+            "message": "",
+            "location": "assert digest(source) == record['input_sha256']"
+          }
+        },
+        {
+          "case": "changed_source_bytes",
+          "expected_pass": false,
+          "actual_pass": false,
+          "expected_outcome_observed": true,
+          "stdout": "",
+          "failure": {
+            "type": "AssertionError",
+            "message": "development/ko-original.txt",
+            "location": "assert digest(safe(relative)) == expected, relative"
+          }
+        },
+        {
+          "case": "missing_paragraph_review_with_stale_validation",
+          "expected_pass": false,
+          "actual_pass": true,
+          "expected_outcome_observed": false,
+          "stdout": "PASS: 5 local Korean measurements, 7 complete anchored reviews, English failure and v1.7.0 integrity.",
+          "failure": null
+        },
+        {
+          "case": "stale_validated_quote",
+          "expected_pass": false,
+          "actual_pass": true,
+          "expected_outcome_observed": false,
+          "stdout": "PASS: 5 local Korean measurements, 7 complete anchored reviews, English failure and v1.7.0 integrity.",
+          "failure": null
+        }
+      ]
+    }
+  ]
+}

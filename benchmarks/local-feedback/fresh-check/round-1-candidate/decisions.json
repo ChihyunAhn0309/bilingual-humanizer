@@ -1,0 +1,132 @@
+[
+  {
+    "finding_id": "S1",
+    "decision": "retain",
+    "reason": "도입을 더 구어적으로 바꾸면 경험을 편의로 좁히거나 확정성·말투가 바뀔 수 있다. 현재 표현을 유지한다.",
+    "candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "spans": [
+      {
+        "start": 23,
+        "end": 106,
+        "quote": "우리 작업실은 다음 달부터 4주 동안 토요일 오후 예약 방식을 시범적으로 바꾸려 합니다. 이용자 경험을 개선하고 운영 효율을 높이기 위한 시도입니다."
+      }
+    ],
+    "evidence_basis": "style_observation",
+    "human_alternative": "운영자도 먼저 변경을 공지하고 이유를 덧붙이는 구조를 쓸 수 있다."
+  },
+  {
+    "finding_id": "S2",
+    "decision": "retain",
+    "reason": "단순하게는 더 나눌 수 있지만 현재 두 조건이 잘 구분된다. 실질적 독자 개선 없이 문장을 늘리지 않는다.",
+    "candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "spans": [
+      {
+        "start": 187,
+        "end": 271,
+        "quote": "예약은 이용일 7일 전 오전 10시에 열립니다. 한 사람은 하루에 한 자리만 예약할 수 있고, 예약하지 않았더라도 빈자리가 있으면 이용할 수 있습니다."
+      }
+    ],
+    "evidence_basis": "style_observation",
+    "human_alternative": "실무 안내를 명확히 쓰려는 사람이 이런 구성을 선택할 수 있다."
+  },
+  {
+    "finding_id": "S3",
+    "decision": "retain",
+    "reason": "명확한 열거를 유지한다. 모델의 양의 기여를 이유로 며,를 삭제하지 않는다.",
+    "candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "spans": [
+      {
+        "start": 352,
+        "end": 466,
+        "quote": "접수된 의견 18건 가운데 11건은 예약 방식에 찬성했고, 4건은 현행 방식을 선호했으며, 3건은 의견을 정하지 않았습니다. 의견을 낸 분들의 응답이므로 전체 이용자의 선호를 대표한다고 보기는 어렵습니다."
+      }
+    ],
+    "evidence_basis": "style_observation",
+    "human_alternative": "접수 내용을 책임 있게 알리는 사람이 그대로 쓸 수 있다."
+  },
+  {
+    "finding_id": "S4",
+    "decision": "retain",
+    "reason": "현재 한계→종료 후 확인·검토·결정의 흐름이 분명하다. 내용을 삭제하거나 유보를 약화하는 수정은 거부한다.",
+    "candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "spans": [
+      {
+        "start": 468,
+        "end": 572,
+        "quote": "예약 방식의 효과는 아직 입증되지 않았습니다. 시범 운영이 끝나면 대기 시간과 취소 건수를 확인할 예정이며, 담당자는 의견과 운영 기록을 함께 검토해 이 방식을 계속 운영할지 결정합니다."
+      }
+    ],
+    "evidence_basis": "style_observation",
+    "human_alternative": "운영자가 시범안을 성과로 오해하지 않도록 하는 정상적인 책임 설명이다."
+  },
+  {
+    "finding_id": "M1",
+    "decision": "retain",
+    "reason": "모델 기여는 주변 내용을 살피는 단서다. P4 열거와 P5 계획 연결은 적절하고 이용은 필요한 주제어다. 단어·어미를 점수에 맞춰 조작하지 않는다.",
+    "candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "spans": [
+      {
+        "start": 400,
+        "end": 402,
+        "quote": "며,"
+      },
+      {
+        "start": 526,
+        "end": 528,
+        "quote": "며,"
+      }
+    ],
+    "evidence_basis": "local_feature_contribution",
+    "human_alternative": "정상적인 공지의 연결어미와 주제어를 사람이 사용해도 같은 계산이 가능하다."
+  },
+  {
+    "finding_id": "M2",
+    "decision": "retain",
+    "reason": "모델 기여는 주변 내용을 살피는 단서다. P4 열거와 P5 계획 연결은 적절하고 이용은 필요한 주제어다. 단어·어미를 점수에 맞춰 조작하지 않는다.",
+    "candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "spans": [
+      {
+        "start": 73,
+        "end": 75,
+        "quote": "이용"
+      },
+      {
+        "start": 149,
+        "end": 151,
+        "quote": "이용"
+      },
+      {
+        "start": 168,
+        "end": 170,
+        "quote": "이용"
+      },
+      {
+        "start": 191,
+        "end": 193,
+        "quote": "이용"
+      },
+      {
+        "start": 260,
+        "end": 262,
+        "quote": "이용"
+      }
+    ],
+    "evidence_basis": "local_feature_contribution",
+    "human_alternative": "정상적인 공지의 연결어미와 주제어를 사람이 사용해도 같은 계산이 가능하다."
+  },
+  {
+    "finding_id": "O1",
+    "decision": "retain",
+    "reason": "삭제하면 필수 한계와 후속 판단 절차를 잃는다. 점수 상승에도 P5의 의미와 문장을 유지한다.",
+    "candidate_sha256": "874db29a11d3d1577ef15568ffd9ae448d859954442b5aaa881398b462926320",
+    "spans": [
+      {
+        "start": 468,
+        "end": 572,
+        "quote": "예약 방식의 효과는 아직 입증되지 않았습니다. 시범 운영이 끝나면 대기 시간과 취소 건수를 확인할 예정이며, 담당자는 의견과 운영 기록을 함께 검토해 이 방식을 계속 운영할지 결정합니다."
+      }
+    ],
+    "evidence_basis": "local_occlusion",
+    "human_alternative": "사람이 쓴 효과 미입증·향후 판단 안내도 같은 민감도를 보일 수 있다."
+  }
+]
