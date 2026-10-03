@@ -1,0 +1,13 @@
+{
+  "id": "zerogpt-ko-library-d",
+  "vendor": "ZeroGPT",
+  "input_path": "d-candidates/ko-library.txt",
+  "input_sha256": "d6b59ab8f51390425a32a24c854c5fede67ac34135c9dfb948ca1e5c6b7ea2d2",
+  "submitted_sha256": "fbb0ba222ac26e47b36007b222faf5794813f1c4fee8e766bd597f4bf6ed85ee",
+  "observed_at": "2026-10-03T01:45:36.143Z",
+  "metric": "AI GPT percentage",
+  "score": 100,
+  "model": "not exposed",
+  "receipt": "receipts/zerogpt-ko-library-d.txt",
+  "input_verified_in_result": true
+}

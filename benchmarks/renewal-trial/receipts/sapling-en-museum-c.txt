@@ -1,0 +1,70 @@
+{
+  "ai_probability_percent": 95.2,
+  "truncated": false,
+  "sentence_scores": [
+    {
+      "sentence": "Decision memo: Digitization queue for the next quarter",
+      "ai_probability": 0.9998010922188016
+    },
+    {
+      "sentence": "The collections team at the Alderwick Museum proposes reserving 60 percent of next quarter's digitization capacity for objects already requested by researchers.",
+      "ai_probability": 0.9997970199406617
+    },
+    {
+      "sentence": "The rest would cover fragile items awaiting condition review and a small selection for the education team.",
+      "ai_probability": 0.9998034626683435
+    },
+    {
+      "sentence": "This allocation would apply for one quarter before being reconsidered.",
+      "ai_probability": 0.9998024654183381
+    },
+    {
+      "sentence": "Researchers need reliable delivery estimates, while conservators need enough time to assess objects that require preparation before they can be moved safely.",
+      "ai_probability": 0.9998003389206
+    },
+    {
+      "sentence": "Educators have asked for images of ordinary household objects.",
+      "ai_probability": 0.9998049326082957
+    },
+    {
+      "sentence": "These receive fewer individual requests but support several planned lessons.",
+      "ai_probability": 0.999805505769784
+    },
+    {
+      "sentence": "A queue based only on request date would not reflect all three needs.",
+      "ai_probability": 0.9998056219904929
+    },
+    {
+      "sentence": "The queue contains 184 objects, but the records do not consistently distinguish active requests from those already answered through other means.",
+      "ai_probability": 0.999805402427728
+    },
+    {
+      "sentence": "Of the 25 entries reviewed last week, 7 appeared to need clarification.",
+      "ai_probability": 0.9998054029421933
+    },
+    {
+      "sentence": "The sample came from the oldest records, so it may overstate the problem across the full queue.",
+      "ai_probability": 0.999804158153851
+    },
+    {
+      "sentence": "We should confirm those requests before assigning photography dates.",
+      "ai_probability": 0.999804811087671
+    },
+    {
+      "sentence": "I recommend that the registrar prepare a provisional schedule by 18 November, using existing staff hours.",
+      "ai_probability": 0.9998051821292425
+    },
+    {
+      "sentence": "Photography should begin with confirmed requests that have no outstanding handling concerns.",
+      "ai_probability": 0.9998053024020414
+    },
+    {
+      "sentence": "We still need to agree on who may authorize an exception when an exhibition deadline conflicts with a conservation assessment.",
+      "ai_probability": 0.9998049630946123
+    },
+    {
+      "sentence": "Until that responsibility is assigned, disputed objects should stay on the provisional schedule without a promised completion date.",
+      "ai_probability": 0.8858795032086584
+    }
+  ]
+}

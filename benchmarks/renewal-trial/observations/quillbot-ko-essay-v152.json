@@ -1,0 +1,17 @@
+{
+  "id": "quillbot-ko-essay-v152",
+  "vendor": "QuillBot",
+  "input_path": "v152-check/ko-essay.txt",
+  "input_sha256": "34a38bd708f318a9db060a1e16bb3b6bf01f98ca43799a918bf1f8f99b94ab33",
+  "submitted_sha256": "d942605ff7897f75a839ee8ffbf9fb48374b09deea2e1de52c2680a1151a5921",
+  "observed_at": "2026-10-03T01:59:59.393Z",
+  "metric": "Human-written text percentage",
+  "score": 100,
+  "model": "v6.2.1",
+  "receipt": "receipts/quillbot-ko-essay-v152.txt",
+  "ai": 0,
+  "human": 100,
+  "refined": 0,
+  "input_verified_in_dom": true,
+  "remaining_scans": 4
+}

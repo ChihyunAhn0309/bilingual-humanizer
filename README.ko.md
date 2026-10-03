@@ -8,11 +8,21 @@
 
 [편집 가능한 PowerPoint](docs/assets/workflow.pptx) · [그림 구도 초안](docs/assets/composition-draft.png) · [도식 검증](docs/figure-evidence/render-review.md). 도식은 요청받은 [paper-figure](https://github.com/JYS1025/paper-figure) 스킬의 전체 이미지 초안 → 네이티브 도형 재구성 → 저장 파일 검증 절차로 만들었습니다. 선택적인 탐지기 피드백을 다음 검토에 반영하는 과정은 스킬 본문에 설명합니다.
 
+## 최신 추가 실험: 기존 배포본과 검증 후보 유지
+
+배포본은 **v1.5.1 그대로 유지**하며 스킬 22개 파일은 바꾸지 않았습니다. [추가 상용 검사 34건](benchmarks/renewal-trial/REPORT.md)으로 원문의 장점을 보존하는 편집, 의사결정 문서 구조, 독립 세션에서 적용한 v1.5.2 실험안을 비교했습니다. **모든 검사기의 원래 Human 지표가 50% 이상이라는 목표는 미달**이며 실험안을 배포본으로 승격하지 않았습니다. HIP 소형 모델도 CPU에서 두 문서를 생성했지만 의미가 바뀌어 탐지기 제출 전에 제외했습니다.
+
+[기존 복원 지점](benchmarks/renewal-trial/checkpoint-registry.json)과 [최신 선택 기록](benchmarks/continuation-e/checkpoint-registry.json)에 원고와 검사 증거를 함께 고정했습니다. 보관 후보의 GPTZero Human / QuillBot Human-written은 한국어 도서관 **97% / 30%**, 한국어 수필 **42% / 100%**, 영어 지원 메일 **0% / 83%**, 영어 박물관 **0% / 100%**입니다. 서로 다른 정의의 지표이며 실제 저자 확률이나 범용 성공률로 합치지 않습니다. 박물관의 Sapling AI는 91.3%, 한국어 ZeroGPT는 여전히 AI 100%입니다. 이전에 측정한 점수는 원래 시점과 같은 원고 해시로 연결하고, 다른 수정본의 유리한 수치를 섞지 않았습니다.
+
+새로 제공된 무료 검사 권한으로 [추가 7건](benchmarks/continuation-e/REPORT.md)을 확인해 도서관 보관 후보를 93% / 15%에서 97% / 30%로 개선했습니다. 다른 한국어 후보는 91% / 33%여서 장단점이 다른 대안으로 보존하며, 이 후보의 33%를 앞 후보의 97%와 합치지 않습니다. 새 영어 지원 메일은 0% / 72%로 악화돼 이전 원고를 유지했습니다. 원문·수정본의 독립 검토도 공개했지만 범용 스킬의 성능 향상이 입증됐다고 주장하지는 않습니다.
+
+이전 배포본은 [정확한 파일 보관본](benchmarks/deeper-trial/retained-skill/)으로 복원할 수 있습니다. 의미·가독성·동일 조건 비교를 통과한 후보만 교체하며, 악화되거나 검사가 빠지면 기존 후보를 유지합니다. [실험안 독립 감사](benchmarks/renewal-trial/final-skill-audit.md)와 [증거 감사](benchmarks/renewal-trial/final-evidence-audit.md)에 검증 범위와 한계를 남겼습니다.
+
 ## 현재 버전 v1.5.1
 
 이번 버전은 **사실 보존과 결과 판정을 보정한 유지보수 버전**입니다. 서론을 다시 쓸 때 문서의 검토 목적과 결정 단계를 지키도록 명시했습니다. 오프라인 검사기에 엄격한 `gt`/`lt`를 추가해 정확히 50%인 결과가 `Human >50%`를 통과하지 않도록 했습니다.
 
-스킬 저장소 13개와 연구 구현 3개를 추가로 검토하고 두 재작성 실험안을 시험했지만 기본값으로 채택하지 않았습니다. [추가 상용 검사 32건](benchmarks/deeper-trial/REPORT.md)에서 같은 영어 박물관 문서는 GPTZero Human 0%·QuillBot Human-written 100%였고, 한국어 도서관 A안은 60%·11%였습니다. 새 한국어 에세이는 실험 B안에서 GPTZero Human이 42%→2%로 낮아졌습니다. 독립 세션에서 v1.5.1로 새로 작성한 도서관 문서는 GPTZero Human 50%·ZeroGPT AI GPT 100%였으며, QuillBot은 무료 횟수가 소진돼 검사하지 못했습니다. **모든 검사기 Human 50% 초과 목표는 미달입니다.** 두 Human 수치는 정의가 다른 지표이며 저자를 증명하지 않습니다.
+스킬 저장소 13개와 연구 구현 3개를 추가로 검토하고 두 재작성 실험안을 시험했지만 기본값으로 채택하지 않았습니다. [추가 상용 검사 32건](benchmarks/deeper-trial/REPORT.md)에서 같은 영어 박물관 문서는 GPTZero Human 0%·QuillBot Human-written 100%였고, 한국어 도서관 A안은 60%·11%였습니다. 새 한국어 에세이는 실험 B안에서 GPTZero Human이 42%→2%로 낮아졌습니다. 독립 세션에서 v1.5.1로 새로 작성한 도서관 문서는 GPTZero Human 50%·ZeroGPT AI GPT 100%였으며, 당시 QuillBot은 무료 횟수가 소진돼 검사하지 못했습니다. 이후 이번 추가 실험에서 같은 원고의 Human-written 12%를 확인했습니다. **모든 검사기 Human 50% 초과 목표는 미달입니다.** 두 Human 수치는 정의가 다른 지표이며 저자를 증명하지 않습니다.
 
 [독립 스킬 감사](benchmarks/deeper-trial/final-skill-audit.md)에서는 도서관 글의 사실과 목적 보존을 확인했고 회귀검사 45개 및 별도 경계·단위 확인 10건이 통과했습니다. [최종 증거 감사](benchmarks/deeper-trial/final-evidence-audit.md)는 공개할 기록을 별도로 검토합니다. 모두 독립 문맥의 AI 세션 검토이며 인간 평가는 아닙니다. [추가 자료 검토](skills/bilingual-humanizer/references/further-reference-review.md)에 검토 범위와 채택하지 않은 규칙의 이유를 공개합니다.
 

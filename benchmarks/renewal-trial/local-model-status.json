@@ -1,0 +1,13 @@
+{
+  "status": "completed_inference_rejected_on_fidelity",
+  "summary": "One CPU inference was completed for each of two synthetic sources. Both outputs were rejected before detector submission by an independent fidelity reviewer: English changed authority, scope and evidence; Korean omitted operating days, changed the capacity referent, reversed a policy caveat and damaged syntax. No local-model output was sent to a detector or adopted by the skill.",
+  "inference_count": 2,
+  "detector_submission_count": 0,
+  "model_files_redistributed": false,
+  "review": "local-model-review.md",
+  "notes": [
+    "The Korean review was a follow-up by the same reviewer, not another blind reviewer.",
+    "Both generations ended with a closing target tag and EOS, within the 240-second per-document ceiling.",
+    "The runner executed from the work directory with isolated peft/accelerate dependencies. Reproduction requires compatible libraries and downloads; none are bundled."
+  ]
+}

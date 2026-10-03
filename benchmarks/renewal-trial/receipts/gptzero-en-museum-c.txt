@@ -1,0 +1,84 @@
+heading Basic Scan, Value: 1
+							160 text Basic Scan
+						372 image
+						162 button Share
+							163 image
+							164 text Share
+						165 button Export
+							166 image
+							167 text Export
+					373 container
+						374 image
+							375 text AI
+						376 image
+						377 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						378 text Chance this entire text is...
+						379 button AI 100%
+							380 text AI 100%
+							381 image
+						382 button Mixed 0%
+							383 text Mixed 0%
+							384 image
+						385 button Human 0%
+							386 text Human 0%
+							387 image
+						388 radio button AI Sentences, Value: 1
+							389 container
+								390 image
+								391 text AI Sentences
+						392 radio button AI Patterns NEW, Value: 0
+							393 container
+								394 image
+								395 text AI Patterns NEW
+						396 radio button AI Vocab, Value: 0
+							397 container
+								398 image
+								399 text AI Vocab
+						400 image Paul Esau
+						401 image Wendy Snyder
+						402 heading Expert feedback, Value: 4
+							403 text Expert feedback
+						404 image
+						405 text Emmy Winners, Ivy League Profs
+						406 button See score
+						407 text Hover to view
+						408 heading Your most AI sentences, Value: 6
+							409 text Your most AI sentences
+						410 content list
+							411 container
+								412 container Low impact
+									413 text High AI impact
+								414 container Medium impact
+									415 text High AI impact
+								416 container High impact
+									417 text High AI impact
+								418 text The rest would cover fragile items awaiting condition review and a small selection for the education team.
+							419 container
+								420 container Low impact
+									421 text High AI impact
+								422 container Medium impact
+									423 text High AI impact
+								424 container High impact
+									425 text High AI impact
+								426 text We still need to agree on who may authorize an exception when an exhibition deadline conflicts with a conservation assessment.
+						427 button See your most AI and human sentences
+							428 image
+							429 text See your most AI and human sentences
+							430 image
+						431 text What's next?
+						432 button Paul Esau Wendy Snyder Creative Writing feedback Reviewed by Emmy-Winners, Ivy League Profs
+							433 image Paul Esau
+							434 image Wendy Snyder
+							435 text Creative Writing feedback
+							436 image
+							437 text Reviewed by Emmy-Winners, Ivy League Profs
+							438 image
+						439 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							440 image
+							441 text Guidance for Teachers and reviewers
+					171 text Text up-to-date 1,601 characters • 236 words
+					172 button Re-scan
+						442 text Re-scan
+						443 image
+				92 container
+					444 

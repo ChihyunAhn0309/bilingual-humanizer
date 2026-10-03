@@ -1,0 +1,86 @@
+{
+  "ai_probability_percent": 100,
+  "truncated": false,
+  "sentence_scores": [
+    {
+      "sentence": "Hello Maya,",
+      "ai_probability": 0.9996847124163948
+    },
+    {
+      "sentence": "Thank you for sending the video and the diagnostic file from your Foldlight desk panel.",
+      "ai_probability": 0.9997652289964424
+    },
+    {
+      "sentence": "I’m sorry the panel went dark during your workshop on Tuesday.",
+      "ai_probability": 0.9997627276900907
+    },
+    {
+      "sentence": "Having to pause while twelve people were following your demonstration must have been frustrating.",
+      "ai_probability": 0.9997965909407781
+    },
+    {
+      "sentence": "The diagnostic file shows that your panel installed version 3.8 at 9:14 a.m.",
+      "ai_probability": 0.9997980817052247
+    },
+    {
+      "sentence": "and restarted at 9:16 a.m.",
+      "ai_probability": 0.9997987790926662
+    },
+    {
+      "sentence": "It recorded two unexpected display shutdowns later that morning, at 10:42 and 11:07.",
+      "ai_probability": 0.9997947527923344
+    },
+    {
+      "sentence": "Both times, the touch controls kept responding.",
+      "ai_probability": 0.9997981258894675
+    },
+    {
+      "sentence": "We reproduced the same behavior once on a test unit, although a second unit ran for four hours without a shutdown.",
+      "ai_probability": 0.99980039679928
+    },
+    {
+      "sentence": "We have not established why the display loses power.",
+      "ai_probability": 0.999797325245098
+    },
+    {
+      "sentence": "The timing makes the update worth investigating, but we do not yet know whether the fault is in the software or the display connector.",
+      "ai_probability": 0.9997995426961346
+    },
+    {
+      "sentence": "Please leave the panel switched off for now; there’s no need to open it or repeat the workshop setup.",
+      "ai_probability": 0.9997990138615013
+    },
+    {
+      "sentence": "If the fault returns after our engineering team has supplied and verified a recovery update, we can arrange a replacement at no delivery charge.",
+      "ai_probability": 0.9998013912071769
+    },
+    {
+      "sentence": "If a recovery update is not available by Friday, we will offer that replacement then instead.",
+      "ai_probability": 0.9997971941286085
+    },
+    {
+      "sentence": "I’ll send you a progress report by 4 p.m.",
+      "ai_probability": 0.9998004976628315
+    },
+    {
+      "sentence": "Thursday, your local time, even if we have not identified the cause.",
+      "ai_probability": 0.9997998711915901
+    },
+    {
+      "sentence": "Your workshop recording remains on the removable card.",
+      "ai_probability": 0.9997894066991934
+    },
+    {
+      "sentence": "The diagnostic file shows no storage errors, but we have not checked the recording itself.",
+      "ai_probability": 0.9997937316321023
+    },
+    {
+      "sentence": "Best,",
+      "ai_probability": 0.995879048464669
+    },
+    {
+      "sentence": "Rina",
+      "ai_probability": 0.9752057889096502
+    }
+  ]
+}

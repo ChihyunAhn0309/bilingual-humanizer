@@ -5,3 +5,10 @@ The skill instructions, examples, audit scripts and diagram in this repository w
 The diagram workflow used [JYS1025/paper-figure](https://github.com/JYS1025/paper-figure), HEAD `fe628d9c05fb7a3cbcb906180c602effc72ce9fb` observed on 2026-10-02. The helper library and skill source are not vendored here. The newly created diagram, prompt and design evidence are included. An original [CLIP figure](https://arxiv.org/html/2103.00020v1/main-diagrams.png) was visually inspected for relationship clarity; its image and scientific content are not redistributed or copied into the final diagram.
 
 Commercial detector names, interface screenshots and returned results belong to their respective providers. They are included as dated test evidence, not as endorsements, product assets under the repository's MIT license, or authorship certificates. Synthetic submitted text is part of this project's test corpus. References to papers and official documentation are links, not copies of those works.
+
+
+## Local model probe, 2026-10-03
+
+The retained production reference note that no adapter was run describes the earlier reference-review phase only. This later, separate probe ran an existing pretrained adapter on two synthetic inputs; it did not train an adapter.
+
+A separate experiment loaded the public Qwen/Qwen3-0.6B-Base model and YixuanEvenXu/Qwen3-0.6B-Base-HIP-adapter from Hugging Face. Their model cards identify Apache-2.0 licensing; exact revisions and locally observed file hashes are in benchmarks/renewal-trial/local-model/. No weights, tokenizer assets, vendor implementation code, caches or Python dependency code are redistributed. The repository contains our bounded runner, newly generated synthetic outputs and independent fidelity review. Both outputs were rejected before detector testing. Loading safetensors through installed Transformers/PEFT with trust_remote_code=False does not execute the external research repository's Python implementation. These observations do not establish suitability beyond the attempted inputs.

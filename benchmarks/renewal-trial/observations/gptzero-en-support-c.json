@@ -1,0 +1,17 @@
+{
+  "id": "gptzero-en-support-c",
+  "vendor": "GPTZero",
+  "input_path": "candidates/en-support.txt",
+  "input_sha256": "87920499c5536fc985c2b85500bb703f6aedb5b5a7700770c6ba118fe45b7462",
+  "submitted_sha256": "f23087d0dfd09239a0268911fdad7c55979c7e1acdd2f44d6b461758ca8748f4",
+  "observed_at": "2026-10-03T01:42:48.082Z",
+  "metric": "Human document probability",
+  "score": 0,
+  "model": "4o",
+  "receipt": "receipts/gptzero-en-support-c.txt",
+  "ai": 100,
+  "human": 0,
+  "mixed": 0,
+  "scan_type": "Basic",
+  "input_verified_in_dom": true
+}

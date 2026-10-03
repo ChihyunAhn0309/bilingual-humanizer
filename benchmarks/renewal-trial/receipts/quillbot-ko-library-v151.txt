@@ -1,0 +1,43 @@
+Browser tab: 4, Title: "Library Extended Hours Pilot Program Review - Quillbot AI", URL: "https://quillbot.com/docs/d/125c5749-a13d-46d8-85e7-75dc1d365d06/edit".
+0 AXWebArea Library Extended Hours Pilot Program Review - Quillbot AI, URL: quillbot.com/docs/d/125c5749-a13d-46d8-85e7-75dc1d365d06/edit
+	1 container
+		2 container Detect AI
+			3 container Description: Detect AI, ID: mode-panel-ai-detector
+				4 image
+				5 text Detect AI
+				6 container Our AI detector is among the most advanced available, but no AI detector is 100% accurate. This score represents the percentage of words likely generated or refined using an AI tool.
+					7 container AI score
+						8 text 88
+					9 text %
+					10 text of text is likely AI
+				11 text AI-generated
+				12 container
+					13 text 88 %
+				14 text Human-written & AI-refined
+				15 container
+					16 text 0 %
+				17 text Human-written
+				18 container
+					19 text 12 %
+				24 container This model performed well
+					25 button This model performed well
+						26 image
+				27 container This model performed poorly
+					28 button This model performed poorly
+						29 image
+				30 text Model v6.2.1
+				31 image
+				32 button Download report
+					33 image
+					34 text Download report
+				35 text Want more authentic text?
+				36 link Description: Refine with Paraphraser, Value: quillbot.com/paraphrasing-tool?referrer=ai-detector%2Fai-detection%2Fpphr_upsell&product=text-editor
+				37 button Check for plagiarism Happy with the score? Now ensure it’s original...
+					38 image
+					39 text Check for plagiarism
+					40 text Happy with the score? Now ensure it’s original...
+				21 text Never rely on AI detection alone to make decisions that could impact someone's career or academic standing.
+				22 text You’ve got 6 AI scans left today
+				23 link Description: Upgrade for more, Value: quillbot.com/premium?returnUrl=%2Fdocs%2Fd%2F125c5749-a13d-46d8-85e7-75dc1d365d06%2Fedit&referrer=ai-detector%2Fai-detection%2Fsome-scans-left&product=text-editor
+
+The focused UI element is 2 container Detect AI

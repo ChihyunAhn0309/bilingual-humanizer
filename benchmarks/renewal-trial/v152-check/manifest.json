@@ -1,0 +1,46 @@
+[
+  {
+    "path": "outputs/bilingual-humanizer/SKILL.md",
+    "sha256": "c8270c5ed781ad54a9798a7a3710827b5c6133f25e0b71ef70fc69c70f8bf556"
+  },
+  {
+    "path": "outputs/bilingual-humanizer/references/structural-rewrite.md",
+    "sha256": "387724271d278873e97f2a8f717d3d6d84b8c7726029cb0de66686f9bc4b5ae6"
+  },
+  {
+    "path": "outputs/bilingual-humanizer/references/iterative-review.md",
+    "sha256": "a7a572fd381e2c95041a3f6791e852fd87d29b1f9375fdbb06b3428b8ba70c42"
+  },
+  {
+    "path": "work/renewal-trial/sources/en-support.txt",
+    "sha256": "ad38f82dd1b3bf3fe068109a143a751b7b30e31c7df0336f724b53fa73fb8e76"
+  },
+  {
+    "path": "work/renewal-trial/sources/ko-essay.txt",
+    "sha256": "57867e23d1007a78fc924eae9ed8855ead51e3ea085771a249e55cc345621d9b"
+  },
+  {
+    "path": "work/renewal-trial/sources/en-museum.txt",
+    "sha256": "b9538869823413658db9f36d246411fb41efa0575aadcb2d789db987354e93b1"
+  },
+  {
+    "path": "work/renewal-trial/sources/ko-library.txt",
+    "sha256": "b82f92389cf1c42ded62184eb359c87d81848723d44a2b9790b9fa0eb6dfd5b0"
+  },
+  {
+    "path": "work/renewal-trial/v152-check/en-support.txt",
+    "sha256": "c9bb2bbe75f2c66594faae43994939112b97c9edf485fd734a47e602eb3a2c1f"
+  },
+  {
+    "path": "work/renewal-trial/v152-check/ko-essay.txt",
+    "sha256": "34a38bd708f318a9db060a1e16bb3b6bf01f98ca43799a918bf1f8f99b94ab33"
+  },
+  {
+    "path": "work/renewal-trial/v152-check/en-museum.txt",
+    "sha256": "7d3c0c794c960ffdb178af59e4ff102a7573cd99aab88d62af3c687739fc4f8f"
+  },
+  {
+    "path": "work/renewal-trial/v152-check/ko-library.txt",
+    "sha256": "e5b16f3cafb7941e15f435480cef857405344b1eb535e54d6f1e8a4827250ff0"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "ai_probability_percent": 100,
+  "truncated": false,
+  "sentence_scores": [
+    {
+      "sentence": "Hello Maya,",
+      "ai_probability": 0.9997320779494407
+    },
+    {
+      "sentence": "Thank you for sending the video and the diagnostic file from your Foldlight desk panel.",
+      "ai_probability": 0.999772822891814
+    },
+    {
+      "sentence": "I’m sorry the panel went dark during your workshop on Tuesday.",
+      "ai_probability": 0.9997715726803009
+    },
+    {
+      "sentence": "Having to pause while twelve people were following your demonstration must have been frustrating.",
+      "ai_probability": 0.9998046718516905
+    },
+    {
+      "sentence": "Please leave the panel switched off for now; you do not need to open it or repeat the workshop setup.",
+      "ai_probability": 0.9998014926301483
+    },
+    {
+      "sentence": "The diagnostic file shows that your panel installed version 3.8 at 9:14 a.m.",
+      "ai_probability": 0.9998048893778045
+    },
+    {
+      "sentence": "and restarted at 9:16 a.m.",
+      "ai_probability": 0.9998049763288246
+    },
+    {
+      "sentence": "Later that morning, it recorded two unexpected display shutdowns, at 10:42 and 11:07.",
+      "ai_probability": 0.9998029646586615
+    },
+    {
+      "sentence": "The touch controls continued responding both times.",
+      "ai_probability": 0.999805059806685
+    },
+    {
+      "sentence": "We reproduced that combination once on a test unit, although a second unit ran for four hours without a shutdown.",
+      "ai_probability": 0.9998056241236107
+    },
+    {
+      "sentence": "We have not established why the display loses power.",
+      "ai_probability": 0.9998058059316111
+    },
+    {
+      "sentence": "The timing makes the update worth investigating, but it does not yet tell us whether the fault is in the software or the display connector.",
+      "ai_probability": 0.9998056603214424
+    },
+    {
+      "sentence": "If the fault returns after our engineering team supplies and verifies a recovery update, we can arrange a replacement at no delivery charge.",
+      "ai_probability": 0.9998058187740642
+    },
+    {
+      "sentence": "If a recovery update is not available by Friday, we will offer that replacement then instead.",
+      "ai_probability": 0.9998049094368672
+    },
+    {
+      "sentence": "Your workshop recording remains on the removable card.",
+      "ai_probability": 0.9998042321674238
+    },
+    {
+      "sentence": "The diagnostic file shows no storage errors, but we have not checked the recording itself.",
+      "ai_probability": 0.9998060285093106
+    },
+    {
+      "sentence": "I will send you a progress report by 4 p.m.",
+      "ai_probability": 0.9998060365765276
+    },
+    {
+      "sentence": "Thursday, your local time, even if we have not identified the cause.",
+      "ai_probability": 0.9998062521087803
+    },
+    {
+      "sentence": "Best,",
+      "ai_probability": 0.9997486177932977
+    },
+    {
+      "sentence": "Rina",
+      "ai_probability": 0.9983000695377047
+    }
+  ]
+}

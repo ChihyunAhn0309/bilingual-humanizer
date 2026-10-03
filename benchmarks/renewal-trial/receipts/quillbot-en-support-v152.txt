@@ -1,0 +1,43 @@
+Browser tab: 4, Title: "Book Club Reflections - Quillbot AI", URL: "https://quillbot.com/docs/d/a5e16e1b-232d-499c-b86e-3de09dd3a7e0/edit".
+1 AXWebArea Book Club Reflections - Quillbot AI, URL: quillbot.com/docs/d/a5e16e1b-232d-499c-b86e-3de09dd3a7e0/edit
+	2 container
+		3 container Detect AI
+			4 container Description: Detect AI, ID: mode-panel-ai-detector
+				5 image
+				6 text Detect AI
+				8 container Our AI detector is among the most advanced available, but no AI detector is 100% accurate. This score represents the percentage of words likely generated or refined using an AI tool.
+					9 container AI score
+						10 text 22
+					11 text %
+					12 text of text is likely AI
+				13 text AI-generated
+				14 container
+					15 text 22 %
+				16 text Human-written & AI-refined
+				17 container
+					18 text 0 %
+				19 text Human-written
+				20 container
+					21 text 78 %
+				22 container This model performed well
+					23 button This model performed well
+						24 image
+				25 container This model performed poorly
+					26 button This model performed poorly
+						27 image
+				28 text Model v7.1.0
+				29 image
+				30 button Download report
+					31 image
+					32 text Download report
+				40 text Want more authentic text?
+				41 link Description: Refine with Paraphraser, Value: quillbot.com/paraphrasing-tool?referrer=ai-detector%2Fai-detection%2Fpphr_upsell&product=text-editor
+				33 button Check for plagiarism Happy with the score? Now ensure it’s original...
+					34 image
+					35 text Check for plagiarism
+					36 text Happy with the score? Now ensure it’s original...
+				37 text Never rely on AI detection alone to make decisions that could impact someone's career or academic standing.
+				38 text You’ve got 3 AI scans left today
+				39 link Description: Upgrade for more, Value: quillbot.com/premium?returnUrl=%2Fdocs%2Fd%2Fa5e16e1b-232d-499c-b86e-3de09dd3a7e0%2Fedit&referrer=ai-detector%2Fai-detection%2Fsome-scans-left&product=text-editor
+
+The focused UI element is 3 container Detect AI

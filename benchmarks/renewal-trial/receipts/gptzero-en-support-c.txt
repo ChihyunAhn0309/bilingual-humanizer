@@ -1,0 +1,84 @@
+heading Basic Scan, Value: 1
+							160 text Basic Scan
+						469 image
+						162 button Share
+							163 image
+							164 text Share
+						165 button Export
+							166 image
+							167 text Export
+					470 container
+						471 image
+							472 text AI
+						473 image
+						474 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						475 text Chance this entire text is...
+						476 button AI 100%
+							477 text AI 100%
+							478 image
+						479 button Mixed 0%
+							480 text Mixed 0%
+							481 image
+						482 button Human 0%
+							483 text Human 0%
+							484 image
+						485 radio button AI Sentences, Value: 1
+							486 container
+								487 image
+								488 text AI Sentences
+						489 radio button AI Patterns NEW, Value: 0
+							490 container
+								491 image
+								492 text AI Patterns NEW
+						493 radio button AI Vocab, Value: 0
+							494 container
+								495 image
+								496 text AI Vocab
+						497 image Paul Esau
+						498 image Wendy Snyder
+						499 heading Expert feedback, Value: 4
+							500 text Expert feedback
+						501 image
+						502 text Emmy Winners, Ivy League Profs
+						503 button See score
+						504 text Hover to view
+						505 heading Your most AI sentences, Value: 6
+							506 text Your most AI sentences
+						507 content list
+							508 container
+								509 container Low impact
+									510 text High AI impact
+								511 container Medium impact
+									512 text High AI impact
+								513 container High impact
+									514 text High AI impact
+								515 text The timing makes the update worth investigating, but we do not yet know whether the fault is in the software or the display connector.
+							516 container
+								517 container Low impact
+									518 text High AI impact
+								519 container Medium impact
+									520 text High AI impact
+								521 container High impact
+									522 text High AI impact
+								523 text If the fault returns after our engineering team has supplied and verified a recovery update, we can arrange a replacement at no delivery charge.
+						524 button See your most AI and human sentences
+							525 image
+							526 text See your most AI and human sentences
+							527 image
+						528 text What's next?
+						529 button Paul Esau Wendy Snyder Creative Writing feedback Reviewed by Emmy-Winners, Ivy League Profs
+							530 image Paul Esau
+							531 image Wendy Snyder
+							532 text Creative Writing feedback
+							533 image
+							534 text Reviewed by Emmy-Winners, Ivy League Profs
+							535 image
+						536 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							537 image
+							538 text Guidance for Teachers and reviewers
+					171 text Text up-to-date 1,409 characters • 239 words
+					172 button Re-scan
+						539 text Re-scan
+						540 image
+				92 container
+					541 

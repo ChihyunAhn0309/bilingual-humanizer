@@ -1,0 +1,13 @@
+{
+  "id": "zerogpt-ko-essay-c",
+  "vendor": "ZeroGPT",
+  "input_path": "candidates/ko-essay.txt",
+  "input_sha256": "4d9a389ac4e931c1586b146381b1f3289ec2dfcf7b9fdffafc7ace961d6b0e10",
+  "submitted_sha256": "c312c2680cc7eeb9a26b70693547a3adb7a4f67a71745f1da5503dca05497aa3",
+  "observed_at": "2026-10-03T01:44:50.729Z",
+  "metric": "AI GPT percentage",
+  "score": 100,
+  "model": "not exposed",
+  "receipt": "receipts/zerogpt-ko-essay-c.txt",
+  "input_verified_in_result": true
+}

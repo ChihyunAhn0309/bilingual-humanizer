@@ -1,0 +1,17 @@
+{
+  "id": "quillbot-en-support-e",
+  "vendor": "QuillBot",
+  "input_path": "candidates/en-support.txt",
+  "input_sha256": "1c67717b28837f8fc240915a80cecface583057abb6e4f27bfdda287bd0967df",
+  "submitted_sha256": "1ec8c063d5e77a4a720a5e192f7ac6ea7467ac5c894addc38e5c08478de655a6",
+  "observed_at": "2026-10-03T02:26:04.905Z",
+  "metric": "Human-written text percentage",
+  "score": 72,
+  "model": "v7.1.0",
+  "receipt": "receipts/quillbot-en-support-e.txt",
+  "input_verified_in_dom": true,
+  "ai": 28,
+  "human": 72,
+  "refined": 0,
+  "remaining_scans": 6
+}

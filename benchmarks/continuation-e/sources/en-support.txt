@@ -1,0 +1,14 @@
+Hello Maya,
+
+Thank you for sending the video and the diagnostic file from your Foldlight desk panel. I’m sorry the panel went dark during your workshop on Tuesday. Having to pause while twelve people were following your demonstration must have been frustrating.
+
+The file shows that your panel installed version 3.8 at 9:14 a.m. and restarted at 9:16 a.m. It recorded two unexpected display shutdowns later that morning, at 10:42 and 11:07. In both cases, the touch controls continued responding. We reproduced that combination once on a test unit, although a second unit ran for four hours without a shutdown.
+
+We have not established why the display loses power. The timing makes the update worth investigating, but it does not yet tell us whether the fault is in the software or the display connector. Please leave the panel switched off for now; you do not need to open it or repeat the workshop setup.
+
+If the fault returns after our engineering team supplies and verifies a recovery update, we can arrange a replacement at no delivery charge. If a recovery update is not available by Friday, we will offer that replacement then instead.
+
+I will send you a progress report by 4 p.m. Thursday, your local time, even if we have not identified the cause. Your workshop recording remains on the removable card; the diagnostic file shows no storage errors, but we have not checked the recording itself.
+
+Best,
+Rina

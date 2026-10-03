@@ -1,0 +1,84 @@
+heading Basic Scan, Value: 1
+							160 text Basic Scan
+						862 image
+						162 button Share
+							163 image
+							164 text Share
+						165 button Export
+							166 image
+							167 text Export
+					863 container
+						864 image
+							865 text AI
+						866 image
+						867 text GPTZero AI Detection Model  4.1m We are highly confident this text was AI generated
+						868 text Chance this entire text is...
+						869 button AI 96%
+							870 text AI 96%
+							871 image
+						872 button Mixed 1%
+							873 text Mixed 1%
+							874 image
+						875 button Human 3%
+							876 text Human 3%
+							877 image
+						878 radio button AI Sentences, Value: 1
+							879 container
+								880 image
+								881 text AI Sentences
+						882 radio button AI Patterns NEW, Value: 0
+							883 container
+								884 image
+								885 text AI Patterns NEW
+						886 radio button AI Vocab, Value: 0
+							887 container
+								888 image
+								889 text AI Vocab
+						890 image Paul Esau
+						891 image Wendy Snyder
+						892 heading Expert feedback, Value: 4
+							893 text Expert feedback
+						894 image
+						895 text Emmy Winners, Ivy League Profs
+						896 button See score
+						897 text Hover to view
+						898 heading Your most AI sentences, Value: 6
+							899 text Your most AI sentences
+						900 content list
+							901 container
+								902 container Low impact
+									903 text High AI impact
+								904 container Medium impact
+									905 text High AI impact
+								906 container High impact
+									907 text High AI impact
+								908 text 다만 이제는 매달 책 한 권을 끝까지 읽는 일보다, 같은 문장을 보고도 서로 다른 곳에서 멈추는 사람들을 만나는 일이 조금 더 궁금하다.
+							909 container
+								910 container Low impact
+									911 text High AI impact
+								912 container Medium impact
+									913 text High AI impact
+								914 container High impact
+									915 text High AI impact
+								916 text 오후 두 시보다 십 분 일찍 도착했는데 이미 네 사람이 창가에 앉아 있었다.
+						917 button See your most AI and human sentences
+							918 image
+							919 text See your most AI and human sentences
+							920 image
+						921 text What's next?
+						922 button Paul Esau Wendy Snyder Creative Writing feedback Reviewed by Emmy-Winners, Ivy League Profs
+							923 image Paul Esau
+							924 image Wendy Snyder
+							925 text Creative Writing feedback
+							926 image
+							927 text Reviewed by Emmy-Winners, Ivy League Profs
+							928 image
+						929 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							930 image
+							931 text Guidance for Teachers and reviewers
+					171 text Text up-to-date 908 characters • 240 words
+					172 button Re-scan
+						932 text Re-scan
+						933 image
+				92 container
+					934 

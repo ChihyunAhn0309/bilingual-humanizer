@@ -1,0 +1,84 @@
+heading Basic Scan, Value: 1
+							160 text Basic Scan
+						378 image
+						162 button Share
+							163 image
+							164 text Share
+						165 button Export
+							166 image
+							167 text Export
+					379 container
+						380 image
+							381 text AI
+						382 image
+						383 text GPTZero AI Detection Model  4.1m We are uncertain about this document. If we had to classify it, it would be considered AI generated
+						384 text Chance this entire text is...
+						385 button AI 48%
+							386 text AI 48%
+							387 image
+						388 button Mixed 21%
+							389 text Mixed 21%
+							390 image
+						391 button Human 31%
+							392 text Human 31%
+							393 image
+						394 radio button AI Sentences, Value: 1
+							395 container
+								396 image
+								397 text AI Sentences
+						398 radio button AI Patterns NEW, Value: 0
+							399 container
+								400 image
+								401 text AI Patterns NEW
+						402 radio button AI Vocab, Value: 0
+							403 container
+								404 image
+								405 text AI Vocab
+						406 image Paul Esau
+						407 image Wendy Snyder
+						408 heading Expert feedback, Value: 4
+							409 text Expert feedback
+						410 image
+						411 text Emmy Winners, Ivy League Profs
+						412 button See score
+						413 text Hover to view
+						414 heading Your most AI sentences, Value: 6
+							415 text Your most AI sentences
+						416 content list
+							417 container
+								418 container Low impact
+									419 text High AI impact
+								420 container Medium impact
+									421 text High AI impact
+								422 container High impact
+									423 text High AI impact
+								424 text 저녁 개관 연장과 앞으로의 상시 운영 시간은 논의에서 구분할 필요가 있고, 안내에서도 그 차이를 분명하게 전달해야 한다.
+							425 container
+								426 container Low impact
+									427 text High AI impact
+								428 container Medium impact
+									429 text High AI impact
+								430 container High impact
+									431 text High AI impact
+								432 text 시범 운영은 정해진 기간에만 적용하는 방안이며, 영구적인 운영 정책으로 확정된 것은 아니다.
+						433 button See your most AI and human sentences
+							434 image
+							435 text See your most AI and human sentences
+							436 image
+						437 text What's next?
+						438 button Paul Esau Wendy Snyder Policy Brief feedback Reviewed by Emmy-Winners, Ivy League Profs
+							439 image Paul Esau
+							440 image Wendy Snyder
+							441 text Policy Brief feedback
+							442 image
+							443 text Reviewed by Emmy-Winners, Ivy League Profs
+							444 image
+						445 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							446 image
+							447 text Guidance for Teachers and reviewers
+					171 text Text up-to-date 975 characters • 241 words
+					172 button Re-scan
+						448 text Re-scan
+						449 image
+				92 container
+					450 

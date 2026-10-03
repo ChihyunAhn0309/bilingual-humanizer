@@ -1,0 +1,86 @@
+[
+  {
+    "repo": "Qwen/Qwen3-0.6B-Base",
+    "sha": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "files": [
+      {
+        "name": ".gitattributes",
+        "size": 1519
+      },
+      {
+        "name": "LICENSE",
+        "size": 11343
+      },
+      {
+        "name": "README.md",
+        "size": 2973
+      },
+      {
+        "name": "config.json",
+        "size": 727
+      },
+      {
+        "name": "generation_config.json",
+        "size": 138
+      },
+      {
+        "name": "merges.txt",
+        "size": 1671853
+      },
+      {
+        "name": "model.safetensors",
+        "size": 1192135096
+      },
+      {
+        "name": "tokenizer.json",
+        "size": 7031645
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size": 9678
+      },
+      {
+        "name": "vocab.json",
+        "size": 2776833
+      }
+    ]
+  },
+  {
+    "repo": "YixuanEvenXu/Qwen3-0.6B-Base-HIP-adapter",
+    "sha": "98a907f41440e10aafedd10364b41c32bb5fbf6a",
+    "files": [
+      {
+        "name": ".gitattributes",
+        "size": 1570
+      },
+      {
+        "name": "README.md",
+        "size": 2809
+      },
+      {
+        "name": "adapter_config.json",
+        "size": 1054
+      },
+      {
+        "name": "adapter_model.safetensors",
+        "size": 323014520
+      },
+      {
+        "name": "added_tokens.json",
+        "size": 707
+      },
+      {
+        "name": "special_tokens_map.json",
+        "size": 616
+      },
+      {
+        "name": "tokenizer.json",
+        "size": 11422654
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size": 5407
+      }
+    ]
+  }
+]

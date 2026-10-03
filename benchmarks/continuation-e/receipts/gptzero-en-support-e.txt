@@ -1,0 +1,67 @@
+heading Basic Scan, Value: 1
+							126 text Basic Scan
+						146 image
+						128 button Share
+							129 image
+							130 text Share
+						131 button Export
+							132 image
+							133 text Export
+					147 container
+						148 image
+							149 text AI
+						150 image
+						151 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						152 text Chance this entire text is...
+						153 button AI 100%
+							154 text AI 100%
+							155 image
+						156 button Mixed 0%
+							157 text Mixed 0%
+							158 image
+						159 button Human 0%
+							160 text Human 0%
+							161 image
+						162 radio button 1
+						163 radio button 0
+						164 radio button 0
+						165 heading Your most AI sentences, Value: 6
+							166 text Your most AI sentences
+						167 content list
+							168 container
+								169 container Low impact
+									170 text High AI impact
+								171 container Medium impact
+									172 text High AI impact
+								173 container High impact
+									174 text High AI impact
+								175 text If the fault comes back after our engineering team supplies and verifies a recovery update, we can arrange a replacement with no delivery charge.
+							176 container
+								177 container Low impact
+									178 text High AI impact
+								179 container Medium impact
+									180 text High AI impact
+								181 container High impact
+									182 text High AI impact
+								183 text So the timing gives us a reason to investigate the update; it doesn't settle whether the software or the display connector is at fault.
+						184 button See your most AI and human sentences
+							185 image
+							186 text See your most AI and human sentences
+							187 image
+						188 text What's next?
+						189 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs
+							190 image Paul Esau
+							191 image Wendy Snyder
+							192 text College Application feedback
+							193 image
+							194 text Reviewed by Emmy-Winners, Ivy League Profs
+							195 image
+						196 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							197 image
+							198 text Guidance for Teachers and reviewers
+					134 text Text up-to-date 1,384 characters • 235 words
+					135 button Re-scan
+						199 text Re-scan
+						200 image
+				62 container
+					201 

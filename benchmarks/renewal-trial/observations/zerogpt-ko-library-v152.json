@@ -1,0 +1,13 @@
+{
+  "id": "zerogpt-ko-library-v152",
+  "vendor": "ZeroGPT",
+  "input_path": "v152-check/ko-library.txt",
+  "input_sha256": "e5b16f3cafb7941e15f435480cef857405344b1eb535e54d6f1e8a4827250ff0",
+  "submitted_sha256": "fb881653dd1506939de1d433eb2532a28f5bbd1ee8c2282f4acba729ff175a18",
+  "observed_at": "2026-10-03T02:08:57.956Z",
+  "metric": "AI GPT percentage",
+  "score": 100,
+  "model": "not exposed",
+  "receipt": "receipts/zerogpt-ko-library-v152.txt",
+  "input_verified_in_result": true
+}

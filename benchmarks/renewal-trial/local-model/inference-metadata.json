@@ -1,0 +1,38 @@
+{
+  "torch": "2.13.0+cpu",
+  "transformers": "5.14.1",
+  "peft": "0.21.2",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 4,
+  "seed": 20261003,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "max_new_tokens": 1200,
+  "max_time_seconds_per_document": 240,
+  "trust_remote_code": false,
+  "input_truncation": false,
+  "rounds": 1,
+  "records": [
+    {
+      "case": "en-museum",
+      "seconds": 76.7,
+      "input_tokens": 294,
+      "new_tokens": 333,
+      "closing_tag_present": true,
+      "last_token_eos": true,
+      "source_sha256": "b9538869823413658db9f36d246411fb41efa0575aadcb2d789db987354e93b1",
+      "output_sha256": "9b2e4e3b391d1e6646df087725537f5b7d7de27a93843f3f56925dc7acb6949b"
+    },
+    {
+      "case": "ko-library",
+      "seconds": 230.22,
+      "input_tokens": 651,
+      "new_tokens": 714,
+      "closing_tag_present": true,
+      "last_token_eos": true,
+      "source_sha256": "b82f92389cf1c42ded62184eb359c87d81848723d44a2b9790b9fa0eb6dfd5b0",
+      "output_sha256": "e12fa128bec176388c5de39e397e5a41390f8ebb5c7da0d1ec3170ca7e35767f"
+    }
+  ]
+}

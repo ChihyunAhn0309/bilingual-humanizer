@@ -1,0 +1,84 @@
+heading Basic Scan, Value: 1
+							160 text Basic Scan
+						961 image
+						162 button Share
+							163 image
+							164 text Share
+						165 button Export
+							166 image
+							167 text Export
+					863 container
+						962 image
+							996 text AI
+						963 image
+						997 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						964 text Chance this entire text is...
+						965 button AI 100%
+							998 text AI 100%
+							966 image
+						967 button Mixed 0%
+							999 text Mixed 0%
+							968 image
+						969 button Human 0%
+							1000 text Human 0%
+							970 image
+						971 radio button AI Sentences, Value: 1
+							1001 container
+								1002 image
+								1003 text AI Sentences
+						972 radio button AI Patterns NEW, Value: 0
+							1004 container
+								1005 image
+								1006 text AI Patterns NEW
+						973 radio button AI Vocab, Value: 0
+							1007 container
+								1008 image
+								1009 text AI Vocab
+						974 image Paul Esau
+						975 image Wendy Snyder
+						976 heading Expert feedback, Value: 4
+							1010 text Expert feedback
+						977 image
+						1011 text Emmy Winners, Ivy League Profs
+						978 button See score
+						1012 text Hover to view
+						979 heading Your most AI sentences, Value: 6
+							1013 text Your most AI sentences
+						1014 content list
+							1015 container
+								1016 container Low impact
+									1017 text High AI impact
+								1018 container Medium impact
+									1019 text High AI impact
+								1020 container High impact
+									1021 text High AI impact
+								1022 text The timing makes the update worth investigating, but it does not yet tell us whether the fault is in the software or the display connector.
+							1023 container
+								1024 container Low impact
+									1025 text High AI impact
+								1026 container Medium impact
+									1027 text High AI impact
+								1028 container High impact
+									1029 text High AI impact
+								1030 text We reproduced that combination once on a test unit, although a second unit ran for four hours without a shutdown.
+						980 button See your most AI and human sentences
+							981 image
+							1031 text See your most AI and human sentences
+							982 image
+						1032 text What's next?
+						983 button Paul Esau Wendy Snyder Creative Writing feedback Reviewed by Emmy-Winners, Ivy League Profs
+							984 image Paul Esau
+							985 image Wendy Snyder
+							1033 text Creative Writing feedback
+							986 image
+							1034 text Reviewed by Emmy-Winners, Ivy League Profs
+							987 image
+						988 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							989 image
+							1035 text Guidance for Teachers and reviewers
+					171 text Text up-to-date 1,416 characters • 240 words
+					172 button Re-scan
+						990 text Re-scan
+						991 image
+				92 container
+					992 

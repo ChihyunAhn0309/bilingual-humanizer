@@ -1,0 +1,17 @@
+{
+  "id": "quillbot-en-museum-d",
+  "vendor": "QuillBot",
+  "input_path": "d-candidates/en-museum.txt",
+  "input_sha256": "f7311c199288b33b87d4d50828ec346bdd9a8ed6d758a4de8de61c94b6e3fcf8",
+  "submitted_sha256": "19b3db49720c851d025f4ec982d2b2d85cdec38f1234e5f3dcf186a3dbc4097f",
+  "observed_at": "2026-10-03T01:50:38.165Z",
+  "metric": "Human-written text percentage",
+  "score": 100,
+  "model": "v7.1.0",
+  "receipt": "receipts/quillbot-en-museum-d.txt",
+  "ai": 0,
+  "human": 100,
+  "refined": 0,
+  "input_verified_in_dom": true,
+  "remaining_scans": 0
+}

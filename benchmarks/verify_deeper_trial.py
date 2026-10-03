@@ -66,7 +66,7 @@ for method in ['a','b']:
         rel=f'final/{method}-{p.name}'
         if not any(r['output']==rel for r in repairs):assert sha(p)==sha(base/rel)
 for rel,expected in json.loads((base/'release-skill-hashes.json').read_text('utf-8')).items():
-    assert sha(base.parents[1]/'skills/bilingual-humanizer'/rel)==expected,rel
+    assert sha(base/'retained-skill'/rel)==expected,rel
 assert data['all_detectors_native_human_above_50_achieved'] is False
 assert any(r['vendor']=='GPTZero' and r['score']==0 for r in data['records'])
 print(f'PASS: {len(seen)} deeper-trial observations; native scores, inputs, repairs, blind mappings and release hashes agree.')

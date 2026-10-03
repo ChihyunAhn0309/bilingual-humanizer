@@ -1,0 +1,584 @@
+{
+  "scope": "Four specified development sources and reviewed candidates in this continuation. Not a universal best skill or exhaustive ranking of every historical draft. Scores from different text hashes are never merged.",
+  "production": {
+    "version": "1.5.1",
+    "retained_commit": "cf1af74baa5fac59f7fcf4bc20c5dc1e349054d9",
+    "hash_manifest": "../deeper-trial/release-skill-hashes.json",
+    "rollback_files": "../deeper-trial/retained-skill",
+    "zip_sha256": "2f005800d6c86bee6c2c82fcac61ce0b48e988b0746c2afb89713799a4d4142f"
+  },
+  "selection_policy": [
+    "Preserve exact checkpoints before experiments.",
+    "Fidelity and reader utility are admission requirements.",
+    "Compare the same services and native definitions; no aggregate Human probability.",
+    "Keep prior checkpoint when the challenger regresses or evidence is incomplete.",
+    "Preserve alternatives when improvements conflict; do not claim a universal winner."
+  ],
+  "all_targets_met": false,
+  "cases": [
+    {
+      "case": "en-museum",
+      "source_path": "sources/en-museum.txt",
+      "source_sha256": "b9538869823413658db9f36d246411fb41efa0575aadcb2d789db987354e93b1",
+      "retained_input": "v152-check/en-museum.txt",
+      "retained_sha256": "7d3c0c794c960ffdb178af59e4ff102a7573cd99aab88d62af3c687739fc4f8f",
+      "reason": "Retain the independently reviewed prototype museum candidate as a measured alternative: GPTZero 0 and QuillBot 100 match baseline, while Sapling AI 91.3 is lower than baseline 93.7. The small one-run difference is not proof of general superiority; the baseline remains archived.",
+      "evidence": {
+        "Sapling": {
+          "bundle": "results.json",
+          "id": "sapling-en-museum-v152",
+          "input_sha256": "7d3c0c794c960ffdb178af59e4ff102a7573cd99aab88d62af3c687739fc4f8f",
+          "metric": "AI probability percent",
+          "score": 91.3,
+          "observed_at": "2026-10-03T02:12:12.519Z"
+        },
+        "QuillBot": {
+          "bundle": "results.json",
+          "id": "quillbot-en-museum-v152",
+          "input_sha256": "7d3c0c794c960ffdb178af59e4ff102a7573cd99aab88d62af3c687739fc4f8f",
+          "metric": "Human-written text percentage",
+          "score": 100,
+          "observed_at": "2026-10-03T02:12:36.005Z"
+        },
+        "GPTZero": {
+          "bundle": "results.json",
+          "id": "gptzero-en-museum-v152",
+          "input_sha256": "7d3c0c794c960ffdb178af59e4ff102a7573cd99aab88d62af3c687739fc4f8f",
+          "metric": "Human document probability",
+          "score": 0,
+          "observed_at": "2026-10-03T02:12:36.221Z"
+        }
+      },
+      "alternatives": [
+        {
+          "input_path": "baseline/en-museum.txt",
+          "sha256": "d406efbd6235deece5cb0caececa5dc5ad1350064320998bb3396b72a0bb4979",
+          "evidence": {
+            "QuillBot": {
+              "bundle": "../deeper-trial/results.json",
+              "id": "quillbot-en-museum-baseline",
+              "input_sha256": "d406efbd6235deece5cb0caececa5dc5ad1350064320998bb3396b72a0bb4979",
+              "metric": "Human-written text percentage",
+              "score": 100,
+              "observed_at": "2026-10-02T17:23:43.966Z"
+            },
+            "Sapling": {
+              "bundle": "../deeper-trial/results.json",
+              "id": "sapling-en-museum-baseline",
+              "input_sha256": "d406efbd6235deece5cb0caececa5dc5ad1350064320998bb3396b72a0bb4979",
+              "metric": "AI probability percent",
+              "score": 93.7,
+              "observed_at": "2026-10-02T17:34:28.297Z"
+            },
+            "GPTZero": {
+              "bundle": "../deeper-trial/results.json",
+              "id": "gptzero-en-museum-baseline-basic",
+              "input_sha256": "d406efbd6235deece5cb0caececa5dc5ad1350064320998bb3396b72a0bb4979",
+              "metric": "Human document probability",
+              "score": 0,
+              "observed_at": "2026-10-02T17:54:31.161Z"
+            }
+          }
+        },
+        {
+          "input_path": "candidates/en-museum.txt",
+          "sha256": "9409e7f0b9d3b382b403ddeb7c165ae2b921b01c86003df72e0032ee9cc6b87b",
+          "evidence": {
+            "Sapling": {
+              "bundle": "results.json",
+              "id": "sapling-en-museum-c",
+              "input_sha256": "9409e7f0b9d3b382b403ddeb7c165ae2b921b01c86003df72e0032ee9cc6b87b",
+              "metric": "AI probability percent",
+              "score": 95.2,
+              "observed_at": "2026-10-03T01:38:26.332Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-en-museum-c",
+              "input_sha256": "9409e7f0b9d3b382b403ddeb7c165ae2b921b01c86003df72e0032ee9cc6b87b",
+              "metric": "Human-written text percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T01:40:00.707Z"
+            },
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-en-museum-c",
+              "input_sha256": "9409e7f0b9d3b382b403ddeb7c165ae2b921b01c86003df72e0032ee9cc6b87b",
+              "metric": "Human document probability",
+              "score": 0,
+              "observed_at": "2026-10-03T01:40:49.234Z"
+            }
+          }
+        },
+        {
+          "input_path": "d-candidates/en-museum.txt",
+          "sha256": "f7311c199288b33b87d4d50828ec346bdd9a8ed6d758a4de8de61c94b6e3fcf8",
+          "evidence": {
+            "Sapling": {
+              "bundle": "results.json",
+              "id": "sapling-en-museum-d",
+              "input_sha256": "f7311c199288b33b87d4d50828ec346bdd9a8ed6d758a4de8de61c94b6e3fcf8",
+              "metric": "AI probability percent",
+              "score": 94.3,
+              "observed_at": "2026-10-03T01:45:36.101Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-en-museum-d",
+              "input_sha256": "f7311c199288b33b87d4d50828ec346bdd9a8ed6d758a4de8de61c94b6e3fcf8",
+              "metric": "Human-written text percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T01:50:38.165Z"
+            },
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-en-museum-d",
+              "input_sha256": "f7311c199288b33b87d4d50828ec346bdd9a8ed6d758a4de8de61c94b6e3fcf8",
+              "metric": "Human document probability",
+              "score": 0,
+              "observed_at": "2026-10-03T01:51:27.657Z"
+            }
+          }
+        },
+        {
+          "input_path": "v152-check/en-museum.txt",
+          "sha256": "7d3c0c794c960ffdb178af59e4ff102a7573cd99aab88d62af3c687739fc4f8f",
+          "evidence": {
+            "Sapling": {
+              "bundle": "results.json",
+              "id": "sapling-en-museum-v152",
+              "input_sha256": "7d3c0c794c960ffdb178af59e4ff102a7573cd99aab88d62af3c687739fc4f8f",
+              "metric": "AI probability percent",
+              "score": 91.3,
+              "observed_at": "2026-10-03T02:12:12.519Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-en-museum-v152",
+              "input_sha256": "7d3c0c794c960ffdb178af59e4ff102a7573cd99aab88d62af3c687739fc4f8f",
+              "metric": "Human-written text percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T02:12:36.005Z"
+            },
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-en-museum-v152",
+              "input_sha256": "7d3c0c794c960ffdb178af59e4ff102a7573cd99aab88d62af3c687739fc4f8f",
+              "metric": "Human document probability",
+              "score": 0,
+              "observed_at": "2026-10-03T02:12:36.221Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "en-support",
+      "source_path": "sources/en-support.txt",
+      "source_sha256": "ad38f82dd1b3bf3fe068109a143a751b7b30e31c7df0336f724b53fa73fb8e76",
+      "retained_input": "baseline/en-support.txt",
+      "retained_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+      "reason": "Retain baseline: blind reader review preferred it; QuillBot 83 exceeds C 70 and prototype 78 while GPTZero remains 0 and Sapling remains 100.",
+      "evidence": {
+        "Sapling": {
+          "bundle": "../deeper-trial/results.json",
+          "id": "sapling-en-support-baseline",
+          "input_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+          "metric": "AI probability percent",
+          "score": 100,
+          "observed_at": "2026-10-02T17:46:43.301Z"
+        },
+        "GPTZero": {
+          "bundle": "../deeper-trial/results.json",
+          "id": "gptzero-en-support-baseline",
+          "input_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+          "metric": "Human document probability",
+          "score": 0,
+          "observed_at": "2026-10-02T17:50:45.215Z"
+        },
+        "QuillBot": {
+          "bundle": "results.json",
+          "id": "quillbot-en-support-baseline",
+          "input_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+          "metric": "Human-written text percentage",
+          "score": 83,
+          "observed_at": "2026-10-03T01:58:20.141Z"
+        }
+      },
+      "alternatives": [
+        {
+          "input_path": "baseline/en-support.txt",
+          "sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+          "evidence": {
+            "Sapling": {
+              "bundle": "../deeper-trial/results.json",
+              "id": "sapling-en-support-baseline",
+              "input_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+              "metric": "AI probability percent",
+              "score": 100,
+              "observed_at": "2026-10-02T17:46:43.301Z"
+            },
+            "GPTZero": {
+              "bundle": "../deeper-trial/results.json",
+              "id": "gptzero-en-support-baseline",
+              "input_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+              "metric": "Human document probability",
+              "score": 0,
+              "observed_at": "2026-10-02T17:50:45.215Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-en-support-baseline",
+              "input_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+              "metric": "Human-written text percentage",
+              "score": 83,
+              "observed_at": "2026-10-03T01:58:20.141Z"
+            }
+          }
+        },
+        {
+          "input_path": "candidates/en-support.txt",
+          "sha256": "87920499c5536fc985c2b85500bb703f6aedb5b5a7700770c6ba118fe45b7462",
+          "evidence": {
+            "Sapling": {
+              "bundle": "results.json",
+              "id": "sapling-en-support-c",
+              "input_sha256": "87920499c5536fc985c2b85500bb703f6aedb5b5a7700770c6ba118fe45b7462",
+              "metric": "AI probability percent",
+              "score": 100,
+              "observed_at": "2026-10-03T01:39:14.337Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-en-support-c",
+              "input_sha256": "87920499c5536fc985c2b85500bb703f6aedb5b5a7700770c6ba118fe45b7462",
+              "metric": "Human-written text percentage",
+              "score": 70,
+              "observed_at": "2026-10-03T01:40:49.328Z"
+            },
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-en-support-c",
+              "input_sha256": "87920499c5536fc985c2b85500bb703f6aedb5b5a7700770c6ba118fe45b7462",
+              "metric": "Human document probability",
+              "score": 0,
+              "observed_at": "2026-10-03T01:42:48.082Z"
+            }
+          }
+        },
+        {
+          "input_path": "v152-check/en-support.txt",
+          "sha256": "c9bb2bbe75f2c66594faae43994939112b97c9edf485fd734a47e602eb3a2c1f",
+          "evidence": {
+            "Sapling": {
+              "bundle": "results.json",
+              "id": "sapling-en-support-v152",
+              "input_sha256": "c9bb2bbe75f2c66594faae43994939112b97c9edf485fd734a47e602eb3a2c1f",
+              "metric": "AI probability percent",
+              "score": 100,
+              "observed_at": "2026-10-03T02:00:48.756Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-en-support-v152",
+              "input_sha256": "c9bb2bbe75f2c66594faae43994939112b97c9edf485fd734a47e602eb3a2c1f",
+              "metric": "Human-written text percentage",
+              "score": 78,
+              "observed_at": "2026-10-03T02:01:34.048Z"
+            },
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-en-support-v152",
+              "input_sha256": "c9bb2bbe75f2c66594faae43994939112b97c9edf485fd734a47e602eb3a2c1f",
+              "metric": "Human document probability",
+              "score": 0,
+              "observed_at": "2026-10-03T02:01:34.465Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "ko-essay",
+      "source_path": "sources/ko-essay.txt",
+      "source_sha256": "57867e23d1007a78fc924eae9ed8855ead51e3ea085771a249e55cc345621d9b",
+      "retained_input": "baseline/ko-essay.txt",
+      "retained_sha256": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3",
+      "reason": "Retain baseline for the requested detector objective: GPTZero 42 versus C 9 and prototype 3; QuillBot 100 in all three. Slight preference for C in the reader review does not erase this trade-off.",
+      "evidence": {
+        "ZeroGPT": {
+          "bundle": "../deeper-trial/results.json",
+          "id": "zerogpt-ko-essay-baseline",
+          "input_sha256": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3",
+          "metric": "AI GPT percentage",
+          "score": 100,
+          "observed_at": "2026-10-02T17:51:08.850Z"
+        },
+        "GPTZero": {
+          "bundle": "../deeper-trial/results.json",
+          "id": "gptzero-ko-essay-baseline",
+          "input_sha256": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3",
+          "metric": "Human document probability",
+          "score": 42,
+          "observed_at": "2026-10-02T17:52:31.940Z"
+        },
+        "QuillBot": {
+          "bundle": "results.json",
+          "id": "quillbot-ko-essay-baseline",
+          "input_sha256": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3",
+          "metric": "Human-written text percentage",
+          "score": 100,
+          "observed_at": "2026-10-03T01:56:38.131Z"
+        }
+      },
+      "alternatives": [
+        {
+          "input_path": "baseline/ko-essay.txt",
+          "sha256": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3",
+          "evidence": {
+            "ZeroGPT": {
+              "bundle": "../deeper-trial/results.json",
+              "id": "zerogpt-ko-essay-baseline",
+              "input_sha256": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3",
+              "metric": "AI GPT percentage",
+              "score": 100,
+              "observed_at": "2026-10-02T17:51:08.850Z"
+            },
+            "GPTZero": {
+              "bundle": "../deeper-trial/results.json",
+              "id": "gptzero-ko-essay-baseline",
+              "input_sha256": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3",
+              "metric": "Human document probability",
+              "score": 42,
+              "observed_at": "2026-10-02T17:52:31.940Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-ko-essay-baseline",
+              "input_sha256": "a635bcde5f9324cc3caa66623673a61dba000b9e466a8bb07e0bf99e5da10ab3",
+              "metric": "Human-written text percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T01:56:38.131Z"
+            }
+          }
+        },
+        {
+          "input_path": "candidates/ko-essay.txt",
+          "sha256": "4d9a389ac4e931c1586b146381b1f3289ec2dfcf7b9fdffafc7ace961d6b0e10",
+          "evidence": {
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-ko-essay-c",
+              "input_sha256": "4d9a389ac4e931c1586b146381b1f3289ec2dfcf7b9fdffafc7ace961d6b0e10",
+              "metric": "Human-written text percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T01:42:48.178Z"
+            },
+            "ZeroGPT": {
+              "bundle": "results.json",
+              "id": "zerogpt-ko-essay-c",
+              "input_sha256": "4d9a389ac4e931c1586b146381b1f3289ec2dfcf7b9fdffafc7ace961d6b0e10",
+              "metric": "AI GPT percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T01:44:50.729Z"
+            },
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-ko-essay-c",
+              "input_sha256": "4d9a389ac4e931c1586b146381b1f3289ec2dfcf7b9fdffafc7ace961d6b0e10",
+              "metric": "Human document probability",
+              "score": 9,
+              "observed_at": "2026-10-03T01:45:28.944Z"
+            }
+          }
+        },
+        {
+          "input_path": "v152-check/ko-essay.txt",
+          "sha256": "34a38bd708f318a9db060a1e16bb3b6bf01f98ca43799a918bf1f8f99b94ab33",
+          "evidence": {
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-ko-essay-v152",
+              "input_sha256": "34a38bd708f318a9db060a1e16bb3b6bf01f98ca43799a918bf1f8f99b94ab33",
+              "metric": "Human-written text percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T01:59:59.393Z"
+            },
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-ko-essay-v152",
+              "input_sha256": "34a38bd708f318a9db060a1e16bb3b6bf01f98ca43799a918bf1f8f99b94ab33",
+              "metric": "Human document probability",
+              "score": 3,
+              "observed_at": "2026-10-03T01:59:59.815Z"
+            },
+            "ZeroGPT": {
+              "bundle": "results.json",
+              "id": "zerogpt-ko-essay-v152",
+              "input_sha256": "34a38bd708f318a9db060a1e16bb3b6bf01f98ca43799a918bf1f8f99b94ab33",
+              "metric": "AI GPT percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T01:59:59.841Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "ko-library",
+      "source_path": "sources/ko-library.txt",
+      "source_sha256": "b82f92389cf1c42ded62184eb359c87d81848723d44a2b9790b9fa0eb6dfd5b0",
+      "retained_input": "candidates/ko-library.txt",
+      "retained_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+      "reason": "Retain C as the current measured library checkpoint: its 93/15 improves the exact v1.5.1 baseline 50/12; fidelity review found no material drift. It still fails the QuillBot floor and ZeroGPT criterion. The v1.5.2 challenger received 31/15 and ZeroGPT 100, so it does not replace C.",
+      "evidence": {
+        "QuillBot": {
+          "bundle": "results.json",
+          "id": "quillbot-ko-library-c",
+          "input_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+          "metric": "Human-written text percentage",
+          "score": 15,
+          "observed_at": "2026-10-03T01:38:50.588Z"
+        },
+        "GPTZero": {
+          "bundle": "results.json",
+          "id": "gptzero-ko-library-c",
+          "input_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+          "metric": "Human document probability",
+          "score": 93,
+          "observed_at": "2026-10-03T01:40:00.623Z"
+        },
+        "ZeroGPT": {
+          "bundle": "results.json",
+          "id": "zerogpt-ko-library-c",
+          "input_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+          "metric": "AI GPT percentage",
+          "score": 100,
+          "observed_at": "2026-10-03T01:41:51.298Z"
+        }
+      },
+      "alternatives": [
+        {
+          "input_path": "baseline/ko-library.txt",
+          "sha256": "acaa27ffca3a17b28453b457572f6a838379ab5dc68c55330c6544e88b41cafb",
+          "evidence": {
+            "ZeroGPT": {
+              "bundle": "../deeper-trial/results.json",
+              "id": "zerogpt-ko-library-v151",
+              "input_sha256": "acaa27ffca3a17b28453b457572f6a838379ab5dc68c55330c6544e88b41cafb",
+              "metric": "AI GPT percentage",
+              "score": 100,
+              "observed_at": "2026-10-02T17:54:32.350Z"
+            },
+            "GPTZero": {
+              "bundle": "../deeper-trial/results.json",
+              "id": "gptzero-ko-library-v151",
+              "input_sha256": "acaa27ffca3a17b28453b457572f6a838379ab5dc68c55330c6544e88b41cafb",
+              "metric": "Human document probability",
+              "score": 50,
+              "observed_at": "2026-10-02T17:56:11.951Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-ko-library-v151",
+              "input_sha256": "acaa27ffca3a17b28453b457572f6a838379ab5dc68c55330c6544e88b41cafb",
+              "metric": "Human-written text percentage",
+              "score": 12,
+              "observed_at": "2026-10-03T01:33:41.485Z"
+            }
+          }
+        },
+        {
+          "input_path": "candidates/ko-library.txt",
+          "sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+          "evidence": {
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-ko-library-c",
+              "input_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+              "metric": "Human-written text percentage",
+              "score": 15,
+              "observed_at": "2026-10-03T01:38:50.588Z"
+            },
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-ko-library-c",
+              "input_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+              "metric": "Human document probability",
+              "score": 93,
+              "observed_at": "2026-10-03T01:40:00.623Z"
+            },
+            "ZeroGPT": {
+              "bundle": "results.json",
+              "id": "zerogpt-ko-library-c",
+              "input_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+              "metric": "AI GPT percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T01:41:51.298Z"
+            }
+          }
+        },
+        {
+          "input_path": "d-candidates/ko-library.txt",
+          "sha256": "d6b59ab8f51390425a32a24c854c5fede67ac34135c9dfb948ca1e5c6b7ea2d2",
+          "evidence": {
+            "ZeroGPT": {
+              "bundle": "results.json",
+              "id": "zerogpt-ko-library-d",
+              "input_sha256": "d6b59ab8f51390425a32a24c854c5fede67ac34135c9dfb948ca1e5c6b7ea2d2",
+              "metric": "AI GPT percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T01:45:36.143Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-ko-library-d",
+              "input_sha256": "d6b59ab8f51390425a32a24c854c5fede67ac34135c9dfb948ca1e5c6b7ea2d2",
+              "metric": "Human-written text percentage",
+              "score": 15,
+              "observed_at": "2026-10-03T01:46:27.754Z"
+            },
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-ko-library-d",
+              "input_sha256": "d6b59ab8f51390425a32a24c854c5fede67ac34135c9dfb948ca1e5c6b7ea2d2",
+              "metric": "Human document probability",
+              "score": 16,
+              "observed_at": "2026-10-03T01:47:07.582Z"
+            }
+          }
+        },
+        {
+          "input_path": "v152-check/ko-library.txt",
+          "sha256": "e5b16f3cafb7941e15f435480cef857405344b1eb535e54d6f1e8a4827250ff0",
+          "evidence": {
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-ko-library-v152",
+              "input_sha256": "e5b16f3cafb7941e15f435480cef857405344b1eb535e54d6f1e8a4827250ff0",
+              "metric": "Human-written text percentage",
+              "score": 15,
+              "observed_at": "2026-10-03T02:06:34.929Z"
+            },
+            "ZeroGPT": {
+              "bundle": "results.json",
+              "id": "zerogpt-ko-library-v152",
+              "input_sha256": "e5b16f3cafb7941e15f435480cef857405344b1eb535e54d6f1e8a4827250ff0",
+              "metric": "AI GPT percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T02:08:57.956Z"
+            },
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-ko-library-v152",
+              "input_sha256": "e5b16f3cafb7941e15f435480cef857405344b1eb535e54d6f1e8a4827250ff0",
+              "metric": "Human document probability",
+              "score": 31,
+              "observed_at": "2026-10-03T02:11:56.831Z"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

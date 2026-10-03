@@ -1,0 +1,17 @@
+{
+  "id": "quillbot-ko-library-c",
+  "vendor": "QuillBot",
+  "input_path": "candidates/ko-library.txt",
+  "input_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+  "submitted_sha256": "9209c8d26ccb9c7d8c03a2069a645e3da5909b93853fee8384d3f4225dab195e",
+  "observed_at": "2026-10-03T01:38:50.588Z",
+  "metric": "Human-written text percentage",
+  "score": 15,
+  "model": "v6.2.1",
+  "receipt": "receipts/quillbot-ko-library-c.txt",
+  "ai": 85,
+  "human": 15,
+  "refined": 0,
+  "input_verified_in_dom": true,
+  "remaining_scans": 5
+}

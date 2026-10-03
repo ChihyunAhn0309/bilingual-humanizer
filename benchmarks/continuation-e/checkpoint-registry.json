@@ -1,0 +1,161 @@
+{
+  "scope": "Two-case continuation overrides. Other cases remain as recorded in the prior registry. Not an exhaustive historical or universal ranking.",
+  "prior_registry": "../renewal-trial/checkpoint-registry.json",
+  "production_version": "1.5.1",
+  "all_targets_met": false,
+  "cases": [
+    {
+      "case": "en-support",
+      "source_path": "sources/en-support.txt",
+      "source_sha256": "ad38f82dd1b3bf3fe068109a143a751b7b30e31c7df0336f724b53fa73fb8e76",
+      "retained_input": "../renewal-trial/baseline/en-support.txt",
+      "retained_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+      "evidence": {
+        "Sapling": {
+          "bundle": "../renewal-trial/../deeper-trial/results.json",
+          "id": "sapling-en-support-baseline",
+          "input_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+          "metric": "AI probability percent",
+          "score": 100,
+          "observed_at": "2026-10-02T17:46:43.301Z"
+        },
+        "GPTZero": {
+          "bundle": "../renewal-trial/../deeper-trial/results.json",
+          "id": "gptzero-en-support-baseline",
+          "input_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+          "metric": "Human document probability",
+          "score": 0,
+          "observed_at": "2026-10-02T17:50:45.215Z"
+        },
+        "QuillBot": {
+          "bundle": "../renewal-trial/results.json",
+          "id": "quillbot-en-support-baseline",
+          "input_sha256": "77fd45aa6711a02d1c16c761c7085fa1b1f1361e92f0a7a8fdbc4690f98e8805",
+          "metric": "Human-written text percentage",
+          "score": 83,
+          "observed_at": "2026-10-03T01:58:20.141Z"
+        }
+      },
+      "alternatives": [
+        {
+          "input_path": "candidates/en-support.txt",
+          "sha256": "1c67717b28837f8fc240915a80cecface583057abb6e4f27bfdda287bd0967df",
+          "evidence": {
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-en-support-e",
+              "input_sha256": "1c67717b28837f8fc240915a80cecface583057abb6e4f27bfdda287bd0967df",
+              "metric": "Human document probability",
+              "score": 0,
+              "model": "4o",
+              "observed_at": "2026-10-03T02:26:11.294Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-en-support-e",
+              "input_sha256": "1c67717b28837f8fc240915a80cecface583057abb6e4f27bfdda287bd0967df",
+              "metric": "Human-written text percentage",
+              "score": 72,
+              "model": "v7.1.0",
+              "observed_at": "2026-10-03T02:26:04.905Z"
+            }
+          }
+        }
+      ],
+      "reason": "Keep the prior English support checkpoint: E lowered QuillBot from 83 to 72 while GPTZero stayed 0."
+    },
+    {
+      "case": "ko-library",
+      "source_path": "sources/ko-library.txt",
+      "source_sha256": "b82f92389cf1c42ded62184eb359c87d81848723d44a2b9790b9fa0eb6dfd5b0",
+      "retained_input": "candidates/ko-library.txt",
+      "retained_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+      "evidence": {
+        "GPTZero": {
+          "bundle": "results.json",
+          "id": "gptzero-ko-library-e",
+          "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+          "metric": "Human document probability",
+          "score": 97,
+          "model": "4.1m",
+          "observed_at": "2026-10-03T02:26:29.092Z"
+        },
+        "QuillBot": {
+          "bundle": "results.json",
+          "id": "quillbot-ko-library-e",
+          "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+          "metric": "Human-written text percentage",
+          "score": 30,
+          "model": "v6.2.1",
+          "observed_at": "2026-10-03T02:26:28.898Z"
+        },
+        "ZeroGPT": {
+          "bundle": "results.json",
+          "id": "zerogpt-ko-library-e",
+          "input_sha256": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+          "metric": "AI GPT percentage",
+          "score": 100,
+          "model": "not exposed",
+          "observed_at": "2026-10-03T02:27:50.562Z"
+        }
+      },
+      "alternatives": [
+        {
+          "input_path": "../renewal-trial/candidates/ko-library.txt",
+          "sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+          "evidence": {
+            "QuillBot": {
+              "bundle": "../renewal-trial/results.json",
+              "id": "quillbot-ko-library-c",
+              "input_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+              "metric": "Human-written text percentage",
+              "score": 15,
+              "observed_at": "2026-10-03T01:38:50.588Z"
+            },
+            "GPTZero": {
+              "bundle": "../renewal-trial/results.json",
+              "id": "gptzero-ko-library-c",
+              "input_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+              "metric": "Human document probability",
+              "score": 93,
+              "observed_at": "2026-10-03T01:40:00.623Z"
+            },
+            "ZeroGPT": {
+              "bundle": "../renewal-trial/results.json",
+              "id": "zerogpt-ko-library-c",
+              "input_sha256": "b5fe36677c59e66495c13246a5498c79700d18e2b96d0d65e755a87e957a9ed4",
+              "metric": "AI GPT percentage",
+              "score": 100,
+              "observed_at": "2026-10-03T01:41:51.298Z"
+            }
+          }
+        },
+        {
+          "input_path": "candidates/ko-library-f.txt",
+          "sha256": "17bbd0b09fe818d3daf2982deaef2613622fc23012147a17f22f0654e73c658c",
+          "evidence": {
+            "GPTZero": {
+              "bundle": "results.json",
+              "id": "gptzero-ko-library-f",
+              "input_sha256": "17bbd0b09fe818d3daf2982deaef2613622fc23012147a17f22f0654e73c658c",
+              "metric": "Human document probability",
+              "score": 91,
+              "model": "4.1m",
+              "observed_at": "2026-10-03T02:29:46.351Z"
+            },
+            "QuillBot": {
+              "bundle": "results.json",
+              "id": "quillbot-ko-library-f",
+              "input_sha256": "17bbd0b09fe818d3daf2982deaef2613622fc23012147a17f22f0654e73c658c",
+              "metric": "Human-written text percentage",
+              "score": 33,
+              "model": "v6.2.1",
+              "observed_at": "2026-10-03T02:29:46.075Z"
+            }
+          }
+        }
+      ],
+      "reason": "E improved GPTZero and QuillBot versus the previous checkpoint, with ZeroGPT unchanged at AI 100%; F did not justify replacement. This is a per-document observation, not general efficacy."
+    }
+  ]
+}

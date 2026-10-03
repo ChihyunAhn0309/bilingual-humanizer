@@ -1,0 +1,84 @@
+heading Basic Scan, Value: 1
+							160 text Basic Scan
+						766 image
+						162 button Share
+							163 image
+							164 text Share
+						165 button Export
+							166 image
+							167 text Export
+					767 container
+						768 image
+							769 text AI
+						770 image
+						771 text GPTZero AI Detection Model  4o We are highly confident this text was AI generated
+						772 text Chance this entire text is...
+						773 button AI 100%
+							774 text AI 100%
+							775 image
+						776 button Mixed 0%
+							777 text Mixed 0%
+							778 image
+						779 button Human 0%
+							780 text Human 0%
+							781 image
+						782 radio button AI Sentences, Value: 1
+							783 container
+								784 image
+								785 text AI Sentences
+						786 radio button AI Patterns NEW, Value: 0
+							787 container
+								788 image
+								789 text AI Patterns NEW
+						790 radio button AI Vocab, Value: 0
+							791 container
+								792 image
+								793 text AI Vocab
+						794 image Paul Esau
+						795 image Wendy Snyder
+						796 heading Expert feedback, Value: 4
+							797 text Expert feedback
+						798 image
+						799 text Emmy Winners, Ivy League Profs
+						800 button See score
+						801 text Hover to view
+						802 heading Your most AI sentences, Value: 6
+							803 text Your most AI sentences
+						804 content list
+							805 container
+								806 container Low impact
+									807 text High AI impact
+								808 container Medium impact
+									809 text High AI impact
+								810 container High impact
+									811 text High AI impact
+								812 text The rest would cover fragile items awaiting condition review and a small selection for the education team.
+							813 container
+								814 container Low impact
+									815 text High AI impact
+								816 container Medium impact
+									817 text High AI impact
+								818 container High impact
+									819 text High AI impact
+								820 text Researchers need reliable delivery estimates, while conservators need enough time to assess objects that cannot safely be moved without preparation.
+						821 button See your most AI and human sentences
+							822 image
+							823 text See your most AI and human sentences
+							824 image
+						825 text What's next?
+						826 button Paul Esau Wendy Snyder Creative Writing feedback Reviewed by Emmy-Winners, Ivy League Profs
+							827 image Paul Esau
+							828 image Wendy Snyder
+							829 text Creative Writing feedback
+							830 image
+							831 text Reviewed by Emmy-Winners, Ivy League Profs
+							832 image
+						833 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							834 image
+							835 text Guidance for Teachers and reviewers
+					171 text Text up-to-date 1,718 characters • 246 words
+					172 button Re-scan
+						836 text Re-scan
+						837 image
+				92 container
+					838 

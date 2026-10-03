@@ -1,0 +1,15 @@
+{
+  "frozen_at": "2026-10-03T02:25:24.323725+00:00",
+  "inputs": {
+    "sources/en-support.txt": "ad38f82dd1b3bf3fe068109a143a751b7b30e31c7df0336f724b53fa73fb8e76",
+    "sources/ko-library.txt": "b82f92389cf1c42ded62184eb359c87d81848723d44a2b9790b9fa0eb6dfd5b0",
+    "candidates/en-support.txt": "1c67717b28837f8fc240915a80cecface583057abb6e4f27bfdda287bd0967df",
+    "candidates/ko-library.txt": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c"
+  },
+  "additional_freezes": {
+    "candidates/ko-library-f.txt": {
+      "sha256": "17bbd0b09fe818d3daf2982deaef2613622fc23012147a17f22f0654e73c658c",
+      "frozen_at": "2026-10-03T02:29:06.907786+00:00"
+    }
+  }
+}

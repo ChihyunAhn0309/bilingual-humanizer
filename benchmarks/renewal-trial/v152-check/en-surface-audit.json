@@ -1,0 +1,12 @@
+{
+  "status": "no_surface_change_found",
+  "semantic_review_required": true,
+  "authorship_assessed": false,
+  "source_sha256": "ad38f82dd1b3bf3fe068109a143a751b7b30e31c7df0336f724b53fa73fb8e76",
+  "rewrite_sha256": "c9bb2bbe75f2c66594faae43994939112b97c9edf485fd734a47e602eb3a2c1f",
+  "source_characters": 1415,
+  "rewrite_characters": 1425,
+  "review_candidates": [],
+  "limitations": "Inventories cannot establish semantic fidelity, factual truth, or authorship. Review meaning and document structure separately.",
+  "hash_basis": "original file bytes; comparisons normalize UTF-8 BOM and CRLF"
+}
