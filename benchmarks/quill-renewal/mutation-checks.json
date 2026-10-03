@@ -1,0 +1,22 @@
+[
+  {
+    "mutation": "summary_score",
+    "rejected": true
+  },
+  {
+    "mutation": "summary_model",
+    "rejected": true
+  },
+  {
+    "mutation": "short_text_warning",
+    "rejected": true
+  },
+  {
+    "mutation": "native_panel_score",
+    "rejected": true
+  },
+  {
+    "mutation": "submitted_dom_text",
+    "rejected": true
+  }
+]

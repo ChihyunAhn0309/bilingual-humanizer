@@ -1,0 +1,18 @@
+{
+  "id": "qrenew-ko-library-source-q",
+  "vendor": "QuillBot",
+  "input_path": "inputs/ko-library-source.txt",
+  "input_sha256": "b82f92389cf1c42ded62184eb359c87d81848723d44a2b9790b9fa0eb6dfd5b0",
+  "submitted_sha256": "1b7e49f1e37c9dc0b379cfeab9a966fdb5083dd8774e254dc815e60c1b14f471",
+  "observed_at": "2026-10-03T04:11:42.524Z",
+  "metric": "Human-written text percentage",
+  "score": 21,
+  "model": "v6.2.1",
+  "receipt": "receipts/qrenew-ko-library-source-q.txt",
+  "input_verified_in_dom": true,
+  "input_dom_receipt": "receipts/qrenew-ko-library-source-q-input.json",
+  "ai": 79,
+  "human": 21,
+  "refined": 0,
+  "remaining_scans": 6
+}

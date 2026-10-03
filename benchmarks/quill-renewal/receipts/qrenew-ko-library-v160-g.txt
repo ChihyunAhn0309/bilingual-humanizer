@@ -1,0 +1,67 @@
+heading Basic Scan, Value: 1
+							46 text Basic Scan
+						170 image
+						48 button Share
+							49 image
+							50 text Share
+						51 button Export
+							52 image
+							53 text Export
+					171 container
+						172 image
+							173 text AI
+						174 image
+						175 text GPTZero AI Detection Model  4.1m We are uncertain about this document. If we had to classify it, it would be considered AI generated
+						176 text Chance this entire text is...
+						177 button AI 51%
+							178 text AI 51%
+							179 image
+						180 button Mixed 2%
+							181 text Mixed 2%
+							182 image
+						183 button Human 47%
+							184 text Human 47%
+							185 image
+						186 radio button 1
+						187 radio button 0
+						188 radio button 0
+						189 heading Your most AI sentences, Value: 6
+							190 text Your most AI sentences
+						191 content list
+							192 container
+								193 container Low impact
+									194 text High AI impact
+								195 container Medium impact
+									196 text High AI impact
+								197 container High impact
+									198 text High AI impact
+								199 text 이후 판단에서는 연장 개관에 대한 관심을 인정하면서도 자원봉사자가 그 시간에 참여할 수 있는지 확인해야 한다.
+							200 container
+								201 container Low impact
+									202 text High AI impact
+								203 container Medium impact
+									204 text High AI impact
+								205 container High impact
+									206 text High AI impact
+								207 text 안내할 때도 이 차이를 분명하게 전달해야 하며, 시범 운영 결정이 영구적인 일정 변경까지 확정한 것으로 읽히지 않도록 문서의 표현을 점검할 필요가 있다.
+						208 button See your most AI and human sentences
+							209 image
+							210 text See your most AI and human sentences
+							211 image
+						212 text What's next?
+						213 button Paul Esau Wendy Snyder College Application feedback Reviewed by Emmy-Winners, Ivy League Profs
+							214 image Paul Esau
+							215 image Wendy Snyder
+							216 text College Application feedback
+							217 image
+							218 text Reviewed by Emmy-Winners, Ivy League Profs
+							219 image
+						220 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							221 image
+							222 text Guidance for Teachers and reviewers
+					106 text Text up-to-date 987 characters • 249 words
+					107 button Re-scan
+						223 text Re-scan
+						224 image
+				110 container
+					225 

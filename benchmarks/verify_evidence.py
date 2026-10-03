@@ -80,3 +80,7 @@ if (BASE.parent/'continuation-g/results.json').exists():
     import runpy
     runpy.run_path(str(BASE.parent/'verify_continuation_g.py'),run_name='__main__')
     runpy.run_path(str(BASE.parent/'verify_current_observations.py'),run_name='__main__')
+
+if (BASE.parent/'quill-renewal/results.json').exists():
+    import runpy
+    runpy.run_path(str(BASE.parent/'verify_quill_renewal.py'),run_name='__main__')

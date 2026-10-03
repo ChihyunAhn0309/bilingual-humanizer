@@ -1,0 +1,17 @@
+{
+  "id": "qrenew-ko-library-vendor-repaired-g",
+  "vendor": "GPTZero",
+  "input_path": "inputs/ko-library-vendor-repaired.txt",
+  "input_sha256": "b527912060623527b5d3e51c34375120a57f1bb7e359578126d6b5128cd6fb0c",
+  "submitted_sha256": "20a94a30c6e775b0c3ab9397f882e8f4f5fe2cc612f6107d5b0ddf41cef44f11",
+  "observed_at": "2026-10-03T04:13:45.048Z",
+  "metric": "Human document probability",
+  "score": 68,
+  "model": "4.1m",
+  "receipt": "receipts/qrenew-ko-library-vendor-repaired-g.txt",
+  "input_verified_in_dom": true,
+  "ai": 31,
+  "human": 68,
+  "mixed": 1,
+  "scan_type": "Basic"
+}

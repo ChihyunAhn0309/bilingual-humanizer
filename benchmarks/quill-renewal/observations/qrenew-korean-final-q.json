@@ -1,0 +1,18 @@
+{
+  "id": "qrenew-korean-final-q",
+  "vendor": "QuillBot",
+  "input_path": "inputs/korean-final.txt",
+  "input_sha256": "a412ce2d6fe3a00fe089987b19fa702bcc05f2003957e1c0a135d1d9ae565516",
+  "submitted_sha256": "fbc08db7276d77104d5591b8c0e412d7dea91acf7b73f1d0cab2b6a3cd932d48",
+  "observed_at": "2026-10-03T03:59:11.023Z",
+  "metric": "Human-written text percentage",
+  "score": 100,
+  "model": "v6.2.1",
+  "receipt": "receipts/qrenew-korean-final-q.txt",
+  "input_verified_in_dom": true,
+  "input_dom_receipt": "receipts/qrenew-korean-final-q-input.json",
+  "ai": 0,
+  "human": 100,
+  "refined": 0,
+  "remaining_scans": 6
+}

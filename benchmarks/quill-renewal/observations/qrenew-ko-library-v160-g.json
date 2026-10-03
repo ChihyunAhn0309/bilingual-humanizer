@@ -1,0 +1,17 @@
+{
+  "id": "qrenew-ko-library-v160-g",
+  "vendor": "GPTZero",
+  "input_path": "inputs/ko-library-v160.txt",
+  "input_sha256": "f01bf7f1b5a73ab0641334e7104510afd5fe5bb0a6e7ae30dc386af261173680",
+  "submitted_sha256": "8274755a040ead1ed915dbbee91f3bf5bce20bcdf127c015719caf84a23ca5e0",
+  "observed_at": "2026-10-03T04:05:44.056Z",
+  "metric": "Human document probability",
+  "score": 47,
+  "model": "4.1m",
+  "receipt": "receipts/qrenew-ko-library-v160-g.txt",
+  "input_verified_in_dom": true,
+  "ai": 51,
+  "human": 47,
+  "mixed": 2,
+  "scan_type": "Basic"
+}

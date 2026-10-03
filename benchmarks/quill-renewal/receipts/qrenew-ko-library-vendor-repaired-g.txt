@@ -1,0 +1,42 @@
+heading Basic Scan, Value: 1
+							46 text Basic Scan
+						317 image
+						48 button Share
+							49 image
+							50 text Share
+						51 button Export
+							52 image
+							53 text Export
+					318 container
+						319 image
+							320 text human
+						321 image
+						322 text GPTZero AI Detection Model  4.1m We are moderately confident this text is entirely human
+						323 text Chance this entire text is...
+						324 button AI 31%
+							325 text AI 31%
+							326 image
+						327 button Mixed 1%
+							328 text Mixed 1%
+							329 image
+						330 button Human 68%
+							331 text Human 68%
+							332 image
+						333 button See sentence highlighting
+							334 image
+							335 text See sentence highlighting
+							336 image
+						337 image Paul Esau
+						338 image Wendy Snyder
+						339 text Get a grade and feedback
+						340 text Built by writing experts
+						341 button Get Feedback
+						342 button (collapsed) Guidance for Teachers and reviewers, Secondary Actions: Expand
+							343 image
+							344 text Guidance for Teachers and reviewers
+					106 text Text up-to-date 985 characters • 245 words
+					107 button Re-scan
+						345 text Re-scan
+						346 image
+				110 container
+					347 

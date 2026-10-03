@@ -1,0 +1,30 @@
+Browser tab: 16, Title: "AI Text Humanizer - Quillbot AI", URL: "https://quillbot.com/ai-humanizer".
+0 AXWebArea AI Text Humanizer - Quillbot AI, URL: quillbot.com/ai-humanizer
+	1 container
+		2 container Recommended All
+			3 content list Recommended
+				4 button Detect language
+					5 image
+					6 text Detect language
+				7 button English (UK)
+				8 button Spanish
+				9 button German
+			10 menu All
+				11 English (AU)
+					12 text English (AU)
+				13 English (CA)
+					14 text English (CA)
+				15 English (UK)
+					16 text English (UK)
+				17 English (US)
+					18 text English (US)
+				19 French
+					20 text French
+				21 German
+					22 text German
+				23 Portuguese (Brazilian)
+					24 text Portuguese (Brazilian)
+				25 Spanish
+					26 text Spanish
+
+The focused UI element is 2 container Recommended All

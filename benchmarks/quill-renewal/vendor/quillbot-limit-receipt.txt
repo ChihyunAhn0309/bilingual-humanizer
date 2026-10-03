@@ -1,0 +1,4 @@
+									44 text 134 w
+									393 text 134/125 words. Limit exceeded.
+								394 text To view your text and humanize without limits, upgrade to Premium.
+								395 link Description: Upgrade now, Value: quillbot.com/premium?referrer=wordLimitBanner&product=ai_humanizer

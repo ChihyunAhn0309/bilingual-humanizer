@@ -1,0 +1,23 @@
+{
+  "inputs/english-final.txt": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+  "inputs/english-original.txt": "cc27de30a484660282879cdf364dd038bcdac05a0aa47c1eb439fa6154af9ded",
+  "inputs/ko-library-alternative.txt": "89c92f084861ea1f73c20d093093e9da39953f06380ab961e1e08fe7c75f49c8",
+  "inputs/ko-library-retained.txt": "24ccfbae46622c5c5db7266f496dd478484a6b8963b9f2bc5c5f9f5ff7fa362c",
+  "inputs/ko-library-source.txt": "b82f92389cf1c42ded62184eb359c87d81848723d44a2b9790b9fa0eb6dfd5b0",
+  "inputs/ko-library-v160.txt": "f01bf7f1b5a73ab0641334e7104510afd5fe5bb0a6e7ae30dc386af261173680",
+  "inputs/ko-library-vendor-repaired.txt": "b527912060623527b5d3e51c34375120a57f1bb7e359578126d6b5128cd6fb0c",
+  "inputs/korean-final.txt": "a412ce2d6fe3a00fe089987b19fa702bcc05f2003957e1c0a135d1d9ae565516",
+  "inputs/korean-original.txt": "3bcf5a5149f99ff3b9d5fc32e477c9c54411d15664f22812c2725d2cd2304ce8",
+  "writer-review.md": "10f2a3b2a0499f1667cd44b89029d50dda4daf607f0de3028310aaa78d57376c",
+  "independent-fidelity-review.md": "b5c5e27f9432921e9fa13717d717261eefb2982d16d179011523dc9aa9dd8198",
+  "alternative-writing-review.md": "a76fc2b589b3bd14c018a55eb7984bb29824f8b5109520738a011d1dee7ad013",
+  "alternative-fidelity-review.md": "01fff3cc33cf7a187680ac3bfe297a0629884dd0eba21b5d6159acfdf4eb07f5",
+  "vendor-repaired-fidelity-review.md": "654af7996e7b2f87cf452c6818b0b96ee265adfe29b45b25a1b73755c42aa254",
+  "vendor/quillbot-language-receipt.txt": "4ac7f0a5e9a3dc307f5fd3f267f25c1576077af5f880d51b960d65afbc5d7082",
+  "vendor/quillbot-limit-observation.json": "f252b1222dd6df35560be862e283a885f2eed488c41816b89fe5788e921dab19",
+  "vendor/quillbot-limit-receipt.txt": "9a5e658c427d64e2004060afbfd4cd943d8ff6072085268520843724756ee364",
+  "vendor/REVIEW.md": "ebada73e703311a4e4c9b09f2e0634a11113e47a4e945a4f471521828408fbc5",
+  "vendor/undetectable-ko-library-raw.txt": "09b0d5680dc98fd1ab9e48ad39b26e0ee62e785dd4894f005a52448320a8cb88",
+  "vendor/undetectable-ko-library-receipt.txt": "d7510577f42257dc1b300192dd680b92b9f5869152ac50664a58b2a6bb709729",
+  "vendor/undetectable-observation.json": "7f75db94e2ba30ccce395feb27394d7f514609ad18855057a2ef7d0220e7c02d"
+}

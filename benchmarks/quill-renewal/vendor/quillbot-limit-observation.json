@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-10-03T04:10:30.279Z",
+  "source_path": "../inputs/english-original.txt",
+  "source_sha256": "cc27de30a484660282879cdf364dd038bcdac05a0aa47c1eb439fa6154af9ded",
+  "language": "English (UK)",
+  "status": "blocked_word_limit",
+  "displayed_limit": "134/125 words. Limit exceeded.",
+  "output_accepted": false,
+  "paid_action": false
+}
