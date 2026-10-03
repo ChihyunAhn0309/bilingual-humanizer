@@ -1,0 +1,457 @@
+[
+  {
+    "repository": "apoapostolov/humanizer",
+    "commit": "0a7633b0f71c9d29d454b4a7b90a78a72fad980a",
+    "retrieved_at_utc": "2026-10-03T08:46:55.894911+00:00",
+    "files": [
+      {
+        "path": "skills/humanizer/SKILL.md",
+        "url": "https://github.com/apoapostolov/humanizer/blob/0a7633b0f71c9d29d454b4a7b90a78a72fad980a/skills/humanizer/SKILL.md",
+        "sha256": "0eeddb57b57ae1199552b2313c27c9d9f74ef5048ae71695c2b6d18f4bcbd44d",
+        "bytes": 14850
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/apoapostolov/humanizer/blob/0a7633b0f71c9d29d454b4a7b90a78a72fad980a/README.md",
+        "sha256": "469551fdbdd4c91b94aa9060647e52f3737d15f3f7cdb36307b4aa3cba700961",
+        "bytes": 5970
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/apoapostolov/humanizer/blob/0a7633b0f71c9d29d454b4a7b90a78a72fad980a/LICENSE",
+        "sha256": "ce3b1dd1dcb4ab0cab42502b009e1c732f249a9f4ad263bd7a414e7b9af94ec9",
+        "bytes": 1070
+      },
+      {
+        "path": "skills/humanizer/references/humanizing-text.md",
+        "url": "https://github.com/apoapostolov/humanizer/blob/0a7633b0f71c9d29d454b4a7b90a78a72fad980a/skills/humanizer/references/humanizing-text.md",
+        "sha256": "0e59d76d797e0f0047d6c6c5fa3f4844d18e7d7f7c08719b8ef7cde64074fe06",
+        "bytes": 14707
+      },
+      {
+        "path": "skills/humanizer/references/required-checks.md",
+        "url": "https://github.com/apoapostolov/humanizer/blob/0a7633b0f71c9d29d454b4a7b90a78a72fad980a/skills/humanizer/references/required-checks.md",
+        "sha256": "c8aad9813a82510dfb8dc7049b9d25d568863483b091104811b1051cce1a0f14",
+        "bytes": 6220
+      },
+      {
+        "path": "skills/humanizer/references/long-form-diagnostics.md",
+        "url": "https://github.com/apoapostolov/humanizer/blob/0a7633b0f71c9d29d454b4a7b90a78a72fad980a/skills/humanizer/references/long-form-diagnostics.md",
+        "sha256": "771a5ce93bbd0dd6428f3aa33f871b1f52e1425fb91e2dec03937670e3d64251",
+        "bytes": 2341
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "keez97/humanizer",
+    "commit": "2d9a116fa9caee2c3466a7c7d419cbe02b35a470",
+    "retrieved_at_utc": "2026-10-03T08:46:55.910833+00:00",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/SKILL.md",
+        "sha256": "18a7ca7fb361c00b9817f8b17c2f7bfeffd2bc463a984f76a01ab7b27ee11401",
+        "bytes": 55741
+      },
+      {
+        "path": "references/VOICE-CALIBRATION.md",
+        "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/references/VOICE-CALIBRATION.md",
+        "sha256": "5c1125f4e4cb1fd4f2fb08157e00a0ac54ffebe78f9b1232438f2905cc898116",
+        "bytes": 1652
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/README.md",
+        "sha256": "b0f333e2f715994d508e5019d56dfb36d36c261ec755d88cd3f1da0c08ce2b62",
+        "bytes": 8659
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/keez97/humanizer/blob/2d9a116fa9caee2c3466a7c7d419cbe02b35a470/LICENSE",
+        "sha256": "3f4328feac30108112b451121bd653a34a1516c3e11e255805f9cdec77a857ac",
+        "bytes": 1224
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "andreaskonopka/humanizer",
+    "commit": "862609a2caf3cadb63b9bef78576e6f5a1ed4e19",
+    "retrieved_at_utc": "2026-10-03T08:46:55.911505+00:00",
+    "files": [
+      {
+        "path": "skills/humanizer/SKILL.md",
+        "url": "https://github.com/andreaskonopka/humanizer/blob/862609a2caf3cadb63b9bef78576e6f5a1ed4e19/skills/humanizer/SKILL.md",
+        "sha256": "06c9f964d2823f399af67c365fd0864faf6d4e5c662c2219e424f23f5382ce95",
+        "bytes": 4170
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/andreaskonopka/humanizer/blob/862609a2caf3cadb63b9bef78576e6f5a1ed4e19/README.md",
+        "sha256": "c06b5ca3650398711d31fe9ea60ea23aabfff8892a301a8c957da2cb83f13d50",
+        "bytes": 6250
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/andreaskonopka/humanizer/blob/862609a2caf3cadb63b9bef78576e6f5a1ed4e19/LICENSE",
+        "sha256": "19a9570975fa99ebabcbcfc560de6cf6662f6f1c052eb20834095cee6e8cec86",
+        "bytes": 1072
+      }
+    ],
+    "errors": [
+      {
+        "path": "skills/humanizer/references/english-patterns.md",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "ZaynJarvis/ai-writing-humanizer",
+    "commit": "7e9a8096b8cb2dadbca7ffde41dc0efc4c8a4b60",
+    "retrieved_at_utc": "2026-10-03T08:46:55.974579+00:00",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "url": "https://github.com/ZaynJarvis/ai-writing-humanizer/blob/7e9a8096b8cb2dadbca7ffde41dc0efc4c8a4b60/SKILL.md",
+        "sha256": "ae4e5029a06b9f4b0dc01d89779f6442cc2fccb9714bdcceb787c7c04479881e",
+        "bytes": 4657
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/ZaynJarvis/ai-writing-humanizer/blob/7e9a8096b8cb2dadbca7ffde41dc0efc4c8a4b60/README.md",
+        "sha256": "441271763b15bb9f9ad28f3815e2e7d915a3c3e40974904c26dae3027cffe03a",
+        "bytes": 3360
+      }
+    ],
+    "errors": [
+      {
+        "path": "LICENSE",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "mgannotti/humanizer",
+    "commit": "dcd29ecbd788037bb3b1875864472e7f2326a672",
+    "retrieved_at_utc": "2026-10-03T08:46:58.091287+00:00",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "url": "https://github.com/mgannotti/humanizer/blob/dcd29ecbd788037bb3b1875864472e7f2326a672/SKILL.md",
+        "sha256": "ede48d2aabaeed64ca725a025f894fa2029c2d5fb097063138343bd38f2a8087",
+        "bytes": 2975
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/mgannotti/humanizer/blob/dcd29ecbd788037bb3b1875864472e7f2326a672/README.md",
+        "sha256": "0c5fce11dadeef9d54a1d4ed1ff7f578a613664bdb623fb55f2501a537ac2771",
+        "bytes": 791
+      }
+    ],
+    "errors": [
+      {
+        "path": "LICENSE",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "thevseprod/humanizer-ru",
+    "commit": "6ae6562cbf2cf97f298e94be2f2bf134da5ada6d",
+    "retrieved_at_utc": "2026-10-03T08:46:58.062552+00:00",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "url": "https://github.com/thevseprod/humanizer-ru/blob/6ae6562cbf2cf97f298e94be2f2bf134da5ada6d/SKILL.md",
+        "sha256": "1d777d29f9026b8354aa84a0465c60762652570dc71cb425d1a6a131ef8e72f1",
+        "bytes": 31543
+      },
+      {
+        "path": "humanizer.en.md",
+        "url": "https://github.com/thevseprod/humanizer-ru/blob/6ae6562cbf2cf97f298e94be2f2bf134da5ada6d/humanizer.en.md",
+        "sha256": "4f87a413cb7348144fb76d7f703a7a71fdd5ae2b71257a845869c81e1b13afbf",
+        "bytes": 11302
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/thevseprod/humanizer-ru/blob/6ae6562cbf2cf97f298e94be2f2bf134da5ada6d/README.md",
+        "sha256": "c1d64e5d986f5a96808e89d8d8b3156faa9f15edf95ad7eb4866d55bd1f63543",
+        "bytes": 16182
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/thevseprod/humanizer-ru/blob/6ae6562cbf2cf97f298e94be2f2bf134da5ada6d/LICENSE",
+        "sha256": "3ef5a37962583ddfbf789353bf5e8fc6dd53c286cd1bce2baba0527a7544137c",
+        "bytes": 1067
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "dongshuyan/compass-skills",
+    "commit": "1b2e556ce6f293ba12e95e18d51995d6a969d52f",
+    "retrieved_at_utc": "2026-10-03T08:46:58.062154+00:00",
+    "files": [
+      {
+        "path": "skills/academic-humanizer/SKILL.md",
+        "url": "https://github.com/dongshuyan/compass-skills/blob/1b2e556ce6f293ba12e95e18d51995d6a969d52f/skills/academic-humanizer/SKILL.md",
+        "sha256": "03b2dd14f6a6579fa5206d9642af3b7e0903ae878cf0f6fdbed247ea62ae4fab",
+        "bytes": 16903
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/dongshuyan/compass-skills/blob/1b2e556ce6f293ba12e95e18d51995d6a969d52f/README.md",
+        "sha256": "1b12933aeb7e19a43ad4c76a29de2ad664d481534595e0481ffd599db7c12dab",
+        "bytes": 24881
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/dongshuyan/compass-skills/blob/1b2e556ce6f293ba12e95e18d51995d6a969d52f/LICENSE",
+        "sha256": "f37311af4649134d6d11b36f7dede40885bfc71cfc8e34bd3da0a6d92f5ef67c",
+        "bytes": 1084
+      },
+      {
+        "path": "skills/academic-humanizer/references/rules-en.md",
+        "url": "https://github.com/dongshuyan/compass-skills/blob/1b2e556ce6f293ba12e95e18d51995d6a969d52f/skills/academic-humanizer/references/rules-en.md",
+        "sha256": "11836a33681c8c533a1f820638df4629e1f3d43118f004cec853a84bde380b47",
+        "bytes": 8114
+      },
+      {
+        "path": "skills/academic-humanizer/references/global-pattern-contract.md",
+        "url": "https://github.com/dongshuyan/compass-skills/blob/1b2e556ce6f293ba12e95e18d51995d6a969d52f/skills/academic-humanizer/references/global-pattern-contract.md",
+        "sha256": "4038e869c620229e9ea9d1ba883c943b3058e2d8aaf58000ce81ddfefbb1ca97",
+        "bytes": 9087
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "henmuc/codex-academic-humanizer",
+    "commit": "496d5d897d920d1c8f0d382e31406eeff0f29e45",
+    "retrieved_at_utc": "2026-10-03T08:46:58.171006+00:00",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "url": "https://github.com/henmuc/codex-academic-humanizer/blob/496d5d897d920d1c8f0d382e31406eeff0f29e45/SKILL.md",
+        "sha256": "47de0269d4a6a70bb923f02574ccc01f63e049114fa79f81c386cf2ea836880c",
+        "bytes": 6180
+      },
+      {
+        "path": "references/english-academic-style.md",
+        "url": "https://github.com/henmuc/codex-academic-humanizer/blob/496d5d897d920d1c8f0d382e31406eeff0f29e45/references/english-academic-style.md",
+        "sha256": "a193ea825b1412092bd8da08a599d8bd29423c5cb1f950a6bfef70fd1068eb2a",
+        "bytes": 2547
+      },
+      {
+        "path": "references/style-control.md",
+        "url": "https://github.com/henmuc/codex-academic-humanizer/blob/496d5d897d920d1c8f0d382e31406eeff0f29e45/references/style-control.md",
+        "sha256": "34a54a86b89892cd38a1e92d3b00b31c56f86e2738c60d66fee1b910c4e4db86",
+        "bytes": 2403
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/henmuc/codex-academic-humanizer/blob/496d5d897d920d1c8f0d382e31406eeff0f29e45/README.md",
+        "sha256": "9dc34e76b620db58617b5b06de9e276737a62c0d24ac6989aae83342031de4c6",
+        "bytes": 3724
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/henmuc/codex-academic-humanizer/blob/496d5d897d920d1c8f0d382e31406eeff0f29e45/LICENSE",
+        "sha256": "3bf1a8aacc77bd263099b23f61c8dddfa0bf8bfd7929fe7bc3a1d993ac748dbe",
+        "bytes": 1094
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "LeahLiang/humanizer",
+    "commit": "2b186179184f3f1c2956312348faef80f03b7ea2",
+    "retrieved_at_utc": "2026-10-03T08:47:00.087629+00:00",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "url": "https://github.com/LeahLiang/humanizer/blob/2b186179184f3f1c2956312348faef80f03b7ea2/SKILL.md",
+        "sha256": "b4b8be71c8f0cd1d7b5d970899536dba72d16ecc42ea2bbc571f2812480fd3b3",
+        "bytes": 4606
+      },
+      {
+        "path": "README.en.md",
+        "url": "https://github.com/LeahLiang/humanizer/blob/2b186179184f3f1c2956312348faef80f03b7ea2/README.en.md",
+        "sha256": "5fd14326ba1d59c03c9918b955ab3a32bda621243eca9160bb5389b826d30e20",
+        "bytes": 9979
+      },
+      {
+        "path": "scripts/humanizer_api.py",
+        "url": "https://github.com/LeahLiang/humanizer/blob/2b186179184f3f1c2956312348faef80f03b7ea2/scripts/humanizer_api.py",
+        "sha256": "ea46e3496ff66dca6b49fee6baa79fdc208104b16a3250ff2bbbea674b8ff84e",
+        "bytes": 4339
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/LeahLiang/humanizer/blob/2b186179184f3f1c2956312348faef80f03b7ea2/README.md",
+        "sha256": "4d8fad6192151ec1384831432aa6e0e053f1d77650dfd0367c8bba9a976a8bef",
+        "bytes": 10039
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/LeahLiang/humanizer/blob/2b186179184f3f1c2956312348faef80f03b7ea2/LICENSE",
+        "sha256": "45e70a119fda4fe6a16db1db564b5ac0d3b06cb40d2b7ca1329dbd0025a07c12",
+        "bytes": 1086
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "blader/humanizer",
+    "commit": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+    "retrieved_at_utc": "2026-10-03T08:47:00.076441+00:00",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "url": "https://github.com/blader/humanizer/blob/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8/SKILL.md",
+        "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+        "bytes": 32348
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/blader/humanizer/blob/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8/README.md",
+        "sha256": "a07a054f230dca1e3d25e32ba6c808905b743cc6fa56bf8b6868cee0b12a0432",
+        "bytes": 12884
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/blader/humanizer/blob/225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8/LICENSE",
+        "sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+        "bytes": 1066
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "amanmaqsood/prose-humanizer",
+    "commit": "8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe",
+    "retrieved_at_utc": "2026-10-03T08:47:00.399518+00:00",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "url": "https://github.com/amanmaqsood/prose-humanizer/blob/8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe/SKILL.md",
+        "sha256": "c3b1f146acd3393515701fa7dfbca06e32e0d6a92536cac60a7dbd39ba653a2f",
+        "bytes": 7516
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/amanmaqsood/prose-humanizer/blob/8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe/README.md",
+        "sha256": "5cbe19e839e1dbb811c2c51876855a289b93077a613fdd03ba0171b0603c9cf9",
+        "bytes": 10279
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/amanmaqsood/prose-humanizer/blob/8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe/LICENSE",
+        "sha256": "9848399c1e467f2f7dfccd2d30f884ecd346069c112fb62877a18f60316e77c2",
+        "bytes": 1069
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "leoluyi/skills",
+    "commit": "8a85670f155490a413014065066ff46f3f37e103",
+    "retrieved_at_utc": "2026-10-03T08:47:00.459580+00:00",
+    "files": [
+      {
+        "path": "skills/humanizer-zh/SKILL.md",
+        "url": "https://github.com/leoluyi/skills/blob/8a85670f155490a413014065066ff46f3f37e103/skills/humanizer-zh/SKILL.md",
+        "sha256": "c8e61178f6e18b8edeafbe2b2a69d07ce3dd633ec9dea6b2c5d904f5cda547e2",
+        "bytes": 8088
+      },
+      {
+        "path": "README.md",
+        "url": "https://github.com/leoluyi/skills/blob/8a85670f155490a413014065066ff46f3f37e103/README.md",
+        "sha256": "aabc8ff0980476d600d14828169ae4b340b8289be25a76d7e724b18ae2155695",
+        "bytes": 16993
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/leoluyi/skills/blob/8a85670f155490a413014065066ff46f3f37e103/LICENSE",
+        "sha256": "0955952a27ce119e514da8339670b4c07f1e9ebd4b7c17cf0668cdc10c19f7c8",
+        "bytes": 1062
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "xoxxel/Humanize-Text",
+    "commit": "9010deeaada7bc434b4afd57624f8c54b4db0786",
+    "retrieved_at_utc": "2026-10-03T08:48:49.123156+00:00",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/xoxxel/Humanize-Text/blob/9010deeaada7bc434b4afd57624f8c54b4db0786/README.md",
+        "sha256": "93c3117e5d3de20427fa7cf2856dc07510e8324a15a49a06732c2ef11baf39c9",
+        "bytes": 9906
+      }
+    ],
+    "errors": [
+      {
+        "path": "LICENSE",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "kitfoxs/humanize-mcp",
+    "commit": "fcb924ce331312495c7ebd6121a57ce452abdce6",
+    "retrieved_at_utc": "2026-10-03T08:48:50.884617+00:00",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/kitfoxs/humanize-mcp/blob/fcb924ce331312495c7ebd6121a57ce452abdce6/README.md",
+        "sha256": "9fbe5a229b43b856bb8369e4d13f0523568243f051ba3924bcc3e7859b620240",
+        "bytes": 12104
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/kitfoxs/humanize-mcp/blob/fcb924ce331312495c7ebd6121a57ce452abdce6/LICENSE",
+        "sha256": "5ce79e80d898a2aa7b70c291e093aa251fec7411163bd046c349b67563c85f18",
+        "bytes": 1070
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "vvandriichuk/texthumanize",
+    "commit": "3936bd619c5acc23a505d8a06fe4e30e5c4e364a",
+    "retrieved_at_utc": "2026-10-03T08:48:52.786795+00:00",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://github.com/vvandriichuk/texthumanize/blob/3936bd619c5acc23a505d8a06fe4e30e5c4e364a/README.md",
+        "sha256": "6a9780c96291581f3a95576ca59cb40b0baf4e96882b2ba3ec4559bada496140",
+        "bytes": 102093
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/vvandriichuk/texthumanize/blob/3936bd619c5acc23a505d8a06fe4e30e5c4e364a/LICENSE",
+        "sha256": "b2c006a327d1d2811a4dded32ce77bb6b7de880bf0f02571e9e4b8bdeddd85b2",
+        "bytes": 7533
+      }
+    ],
+    "errors": [],
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  }
+]

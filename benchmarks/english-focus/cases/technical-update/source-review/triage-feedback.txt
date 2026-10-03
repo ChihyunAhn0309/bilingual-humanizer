@@ -1,0 +1,42 @@
+technical-update: independent source review
+
+Technically cautious and mostly well organized. Optional local reorganization of P3 could separate retest status from review-note and approval duties. Quantitative limits are essential, not verbose hedging. Numeric detector result is unavailable after Windows paging/memory error 1455.
+
+MEASUREMENT
+AI/Human/native four-class percentages unavailable: Windows paging/memory error 1455, worker exit 2.
+Experimental uncalibrated English class outputs, not authorship probabilities or word shares. The saved 36-document pilot includes high-confidence false positives.
+Known supplied origin: New AI-authored synthetic evaluation source; not real user/company history
+
+WHOLE DOCUMENT
+structure: P1 gives coverage and timing/failures; P2 gives retry/memory/concurrency limits; P3 gives proposed next work and review duties. P3 changes from author intent to status to mandatory note contents to owner review; grouping these roles could aid scanning.
+reasoning_specificity: P1 keeps timing denominator at ten of twelve and failures unassigned. P2 distinguishes observed greater memory from unrecorded peak, blocks production extrapolation, and lacks concurrent clients. These are separate material limits.
+voice_consistency: P1-P2 use technical report voice; P3's first person proposal and service-owner obligation are compatible with a status note. Preserve the difference between author preference, approval state, and another role's review duty.
+rhythm_repetition: No excessive sentence template repetition is established. P3 repeats the ten-job denominator and two exclusions from P1 because it mandates inclusion in the review note; removing that repetition would erase a duty.
+language_features: Direct technical English with clear units and modal verbs. "must state" and "should review" carry different strengths; converting all cautions to generic disclaimers would harm precision.
+citations_provenance: No benchmark artifact, logs, or external citations were supplied to verify real measurements. sources.json records an AI-authored synthetic test fixture; its values and constraints are fixed narrative content, not independently verified production evidence.
+
+PARAGRAPH REVIEW
+P1: Twelve jobs tested with existing/proposed worker; ten completed in both; their medians differ; two failures excluded; cause unknown. Specific denominator and exclusions prevent overstating the speed result. Retain as core evidence; no authorship inference follows from precision.
+P2: Retry limit remains 3; memory was higher, peak unrecorded; largest increase and production peak cannot be inferred; no concurrent clients. Every limitation affects interpretation. Keep all; do not turn the missing peak into a known value or assume production behavior.
+P3: Intent to retest concurrent clients before recommending; no schedule or approval; mandatory review-note content; owner memory review before approval. A small grouping change could clarify agency and sequence. Repeated denominator/failure counts express a required disclosure, so they are not removable redundancy.
+
+OPTIONAL REVISE
+R1 (optional; P3): One paragraph mixes retest intent/status, mandatory note contents, and the owner's approval review. Optionally group test/retest status and then review/approval requirements, or place the required note contents near P1 while retaining the explicit duty. Keep the prose genre unless a different format is authorized. Success: It is easier to tell what was measured, what is unscheduled, what the note must include, and what the owner should review before approval.
+
+RETAIN / FIDELITY
+F1 coverage: Twelve jobs across existing/proposed configurations; ten completed in both. Do not turn ten successful jobs into the full test population.
+F2 timing: Median, not mean; 75 ms existing versus 52 ms proposed; comparison applies only to those ten jobs. No production/general speed claim.
+F3 failures: Two failed before timing, excluded from timing comparison; cause not established. Do not assign failures to a specific worker or assume identical failures in both.
+F4 retry: Retry limit unchanged at 3; do not infer number of actual retries.
+F5 memory: Higher memory observed here; peak not recorded; largest increase unquantifiable; production peak cannot be predicted from this test. No invented metric or size.
+F6 concurrency_and_proposal: Original test lacks concurrent clients; author wants retest with them before recommending rollout. Retain before-recommendation sequence without upgrading preference to a scheduled commitment.
+F7 status: Retest unscheduled and production change unapproved. Neither is resolved by editing.
+F8 note_duty: Mandatory explicit disclosure of both denominator and excluded failures. Reporting them once elsewhere does not automatically preserve the obligation for the review note.
+F9 owner_review: Service owner should review repeat-test memory measurements before approving rollout. Keep actor, should-review strength, memory subject, repeat-test source, and pre-approval timing; measurements are not yet available.
+
+UNRESOLVED
+Failure cause, peak memory, concurrent-client performance, retest schedule, and approval remain unknown. Do not fill these gaps or invent a rollout date.
+
+Adopt changes only for meaningful readability improvement with source fidelity. Detector movement alone is not improvement; leaving a sound passage intact is valid.
+Reviewed 3/3 paragraphs, none excluded. No new inference or source edits. Exact anchors, model metadata and source constraints are in the accompanying JSON/HTML.
+Source SHA256: c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce

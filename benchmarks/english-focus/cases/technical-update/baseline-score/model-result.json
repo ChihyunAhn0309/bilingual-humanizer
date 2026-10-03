@@ -1,0 +1,105 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T09:06:55.731547+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "b56c44d0fc8082a0f0fd3073e6927b02a6db969782f24a56db93c6bf97b9121c",
+  "token_count": 186,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 186,
+      "start": 0,
+      "end": 1004,
+      "quote": "The queue test compared the existing worker with the proposed worker on 12 jobs. Ten jobs completed in both configurations. For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker. Two other jobs failed before producing a timing result and were excluded from that comparison. We have not established what caused those failures.\n\nThe proposed worker kept the retry limit at 3 and used more memory in this test. Peak memory was not recorded, so we cannot quantify the largest increase or use these results to predict peak usage in production.\n\nThe test did not include concurrent clients. I would like to repeat it with concurrent clients before recommending a rollout. That repeat has not been scheduled, and no production change has been approved.\n\nThe review note must state both the ten-job denominator for the timing comparison and the two excluded failures. Before approving a rollout, the service owner should review the memory measurements from the repeat test.",
+      "class_probabilities": {
+        "human": 0.0003971261321566999,
+        "ai": 0.9952640533447266,
+        "ai_edited": 6.85810882714577e-05,
+        "humanized": 0.0042702816426754
+      },
+      "ai_involvement_class_score": 0.9996028738678433
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.0003971261321566999,
+    "ai": 0.9952640533447266,
+    "ai_edited": 6.85810882714577e-05,
+    "humanized": 0.0042702816426754
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 364,
+        "quote": "The queue test compared the existing worker with the proposed worker on 12 jobs. Ten jobs completed in both configurations. For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker. Two other jobs failed before producing a timing result and were excluded from that comparison. We have not established what caused those failures.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9996028738678433,
+        "after_removal_ai_involvement": 0.999133626872208,
+        "delta_percentage_points": 0.04692469956353307
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 366,
+        "end": 577,
+        "quote": "The proposed worker kept the retry limit at 3 and used more memory in this test. Peak memory was not recorded, so we cannot quantify the largest increase or use these results to predict peak usage in production.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9996028738678433,
+        "after_removal_ai_involvement": 0.9984351776074618,
+        "delta_percentage_points": 0.116769626038149
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 579,
+        "end": 784,
+        "quote": "The test did not include concurrent clients. I would like to repeat it with concurrent clients before recommending a rollout. That repeat has not been scheduled, and no production change has been approved.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9996028738678433,
+        "after_removal_ai_involvement": 0.9966663436498493,
+        "delta_percentage_points": 0.29365302179940045
+      },
+      {
+        "paragraph_id": "P4",
+        "start": 786,
+        "end": 1004,
+        "quote": "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures. Before approving a rollout, the service owner should review the memory measurements from the repeat test.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9996028738678433,
+        "after_removal_ai_involvement": 0.9990920770796947,
+        "delta_percentage_points": 0.0510796788148582
+      }
+    ],
+    "total_paragraphs": 4,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

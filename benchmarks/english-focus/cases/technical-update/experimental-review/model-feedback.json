@@ -1,0 +1,29 @@
+{
+  "input_sha256": "60adf8cb98580d1c5507054e9ea0576bf22d9a5fb724958056221b798f299b47",
+  "native_classes": {
+    "human": 0.0012741271639242768,
+    "ai": 0.9857455492019653,
+    "ai_edited": 0.0003771119809243828,
+    "humanized": 0.012603187933564186
+  },
+  "authorship_verified": false,
+  "parent_measurement_review": true,
+  "independent_editorial_review": "ledger-editorial.json",
+  "native_finding_decision": "retain; no text edit based on classifier sensitivity alone",
+  "strongest_deletion_sensitivity": {
+    "paragraph_id": "P1",
+    "start": 0,
+    "end": 494,
+    "quote": "The queue test covered 12 jobs with the existing and proposed workers; ten completed in both configurations. For those ten jobs, median processing time fell from 75 ms with the existing worker to 52 ms with the proposed worker. The other two jobs failed before producing timing results, so they were excluded from the comparison. We haven't established the cause of those failures. The review note must state both the ten-job denominator for the timing comparison and the two excluded failures.",
+    "status": "measured",
+    "baseline_ai_involvement": 0.9987258728360757,
+    "after_removal_ai_involvement": 0.41551196575164795,
+    "delta_percentage_points": 58.32139070844278
+  },
+  "scope": "Whole document single window; six content dimensions and every paragraph reviewed in saved ledger.",
+  "cautions": [
+    "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "English four-class outputs are uncalibrated experimental auxiliary scores."
+  ],
+  "candidate_edits_after_scoring": 0
+}

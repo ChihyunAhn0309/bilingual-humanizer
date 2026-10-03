@@ -1,0 +1,156 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Technically cautious and mostly well organized. Optional local reorganization of P3 could separate retest status from review-note and approval duties. Quantitative limits are essential, not verbose hedging. Numeric detector result is unavailable after Windows paging/memory error 1455. Supplied origin: AI-authored synthetic fixture. AI/Human percentages unavailable: existing run failed with Windows paging/memory error 1455 (worker exit 2).",
+  "document_analysis": {
+    "structure": "P1 gives coverage and timing/failures; P2 gives retry/memory/concurrency limits; P3 gives proposed next work and review duties. P3 changes from author intent to status to mandatory note contents to owner review; grouping these roles could aid scanning.",
+    "reasoning_specificity": "P1 keeps timing denominator at ten of twelve and failures unassigned. P2 distinguishes observed greater memory from unrecorded peak, blocks production extrapolation, and lacks concurrent clients. These are separate material limits.",
+    "voice_consistency": "P1-P2 use technical report voice; P3's first person proposal and service-owner obligation are compatible with a status note. Preserve the difference between author preference, approval state, and another role's review duty.",
+    "rhythm_repetition": "No excessive sentence template repetition is established. P3 repeats the ten-job denominator and two exclusions from P1 because it mandates inclusion in the review note; removing that repetition would erase a duty.",
+    "language_features": "Direct technical English with clear units and modal verbs. \"must state\" and \"should review\" carry different strengths; converting all cautions to generic disclaimers would harm precision.",
+    "citations_provenance": "No benchmark artifact, logs, or external citations were supplied to verify real measurements. sources.json records an AI-authored synthetic test fixture; its values and constraints are fixed narrative content, not independently verified production evidence."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 365,
+          "quote": "The queue test covered 12 jobs using the existing worker and the proposed worker. Ten jobs completed in both configurations. For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker. Two other jobs failed before producing a timing result and were excluded from that comparison. We have not established what caused those failures.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "Twelve jobs tested with existing/proposed worker; ten completed in both; their medians differ; two failures excluded; cause unknown.",
+      "interpretation": "Specific denominator and exclusions prevent overstating the speed result. Retain as core evidence; no authorship inference follows from precision.",
+      "human_alternative": "A careful human engineer reports successful samples separately from failures.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 367,
+          "end": 644,
+          "quote": "The proposed worker kept the same retry limit of 3. It used more memory in this test, although peak memory was not recorded. We therefore cannot quantify the largest increase or use these results to predict peak usage in production. The test did not include concurrent clients.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "Retry limit remains 3; memory was higher, peak unrecorded; largest increase and production peak cannot be inferred; no concurrent clients.",
+      "interpretation": "Every limitation affects interpretation. Keep all; do not turn the missing peak into a known value or assume production behavior.",
+      "human_alternative": "An engineer may list these caveats because reviewers need them to assess applicability.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 646,
+          "end": 1031,
+          "quote": "I would like to repeat the test with concurrent clients before recommending a rollout. That repeat has not been scheduled, and no production change has been approved. The review note must state both the ten-job denominator for the timing comparison and the two excluded failures. Before approving a rollout, the service owner should review the memory measurements from the repeat test.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "Intent to retest concurrent clients before recommending; no schedule or approval; mandatory review-note content; owner memory review before approval.",
+      "interpretation": "A small grouping change could clarify agency and sequence. Repeated denominator/failure counts express a required disclosure, so they are not removable redundancy.",
+      "human_alternative": "Technical status notes often append action and review requirements in one paragraph; the existing version is understandable.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 365,
+          "quote": "The queue test covered 12 jobs using the existing worker and the proposed worker. Ten jobs completed in both configurations. For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker. Two other jobs failed before producing a timing result and were excluded from that comparison. We have not established what caused those failures.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "New AI-authored synthetic evaluation source; not real user/company history",
+      "interpretation": "Known supplied origin is AI-authored synthetic evaluation material. Natural-sounding details or later editing do not change this origin.",
+      "human_alternative": "People could write similar text, but similarity does not override the supplied creation record for this fixture.",
+      "discriminating_evidence": "This review verifies text hashes against the local source registry; it does not independently authenticate the entire generation process or any real-world events.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\sources.json entry technical-update; source_sha256=c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 365,
+      "line": 1,
+      "text": "The queue test covered 12 jobs using the existing worker and the proposed worker. Ten jobs completed in both configurations. For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker. Two other jobs failed before producing a timing result and were excluded from that comparison. We have not established what caused those failures.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Twelve jobs tested with existing/proposed worker; ten completed in both; their medians differ; two failures excluded; cause unknown. Specific denominator and exclusions prevent overstating the speed result. Retain as core evidence; no authorship inference follows from precision.",
+      "finding_ids": [
+        "S1",
+        "H1"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 367,
+      "end": 644,
+      "line": 3,
+      "text": "The proposed worker kept the same retry limit of 3. It used more memory in this test, although peak memory was not recorded. We therefore cannot quantify the largest increase or use these results to predict peak usage in production. The test did not include concurrent clients.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Retry limit remains 3; memory was higher, peak unrecorded; largest increase and production peak cannot be inferred; no concurrent clients. Every limitation affects interpretation. Keep all; do not turn the missing peak into a known value or assume production behavior.",
+      "finding_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 646,
+      "end": 1031,
+      "line": 5,
+      "text": "I would like to repeat the test with concurrent clients before recommending a rollout. That repeat has not been scheduled, and no production change has been approved. The review note must state both the ten-job denominator for the timing comparison and the two excluded failures. Before approving a rollout, the service owner should review the memory measurements from the repeat test.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Intent to retest concurrent clients before recommending; no schedule or approval; mandatory review-note content; owner memory review before approval. A small grouping change could clarify agency and sequence. Repeated denominator/failure counts express a required disclosure, so they are not removable redundancy.",
+      "finding_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 3,
+    "paragraphs_reviewed": 3,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated."
+}

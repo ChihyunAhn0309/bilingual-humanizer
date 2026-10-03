@@ -1,0 +1,246 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Clear, useful support email. Optional low-priority improvement: group the refund scope with its pending status, then end with the promised update and fallback. Conventional courtesy is not itself a defect. Supplied origin: AI-authored synthetic fixture. Existing native scores are uncalibrated experimental model outputs, not verified authorship.",
+  "document_analysis": {
+    "structure": "P1/P5 frame the email. P2 gives request status and empathy, P3 conditions and customer action, P4 follow-up followed by payment-scope limits. Returning to payment scope after the follow-up is a small organization opportunity.",
+    "reasoning_specificity": "P2-P4 distinguish confirmed payment, submitted request, pending approval, estimated arrival, and a firm update deadline. These are different facts and commitments, not repetitive hedging.",
+    "voice_consistency": "Alex consistently uses first person for actions within Alex's control and the payment team for approval. Formal warmth fits support correspondence.",
+    "rhythm_repetition": "P2 opens with thanks and closes with empathy/apology. This familiar service pattern may feel templated but performs a legitimate interpersonal function. P3's two conditional/timing sentences distinguish conditions; no excessive repetition is established.",
+    "language_features": "Plain professional English, conventional greeting/signoff and explicit conditions. No grammar, idiom, or unusual register problem is evident.",
+    "citations_provenance": "No citations are requested or needed. sources.json labels the email an AI-authored synthetic fixture, not actual payment/customer history. Hash binding identifies the supplied text, not a real transaction."
+  },
+  "findings": [
+    {
+      "id": "S1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 0,
+          "end": 10,
+          "quote": "Hi Morgan,",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "Standard named greeting; retain the addressee.",
+      "interpretation": "Neutral email convention; no useful AI-style inference.",
+      "human_alternative": "A human support agent normally greets a named customer.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "S2",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 12,
+          "end": 366,
+          "quote": "Thank you for your patience while I reviewed the duplicate charge on order R-214. I confirmed that the second payment was taken on 18 September. I submitted a refund request for £36 this morning, but the payment team has not approved it yet. I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you.",
+          "line": 3,
+          "column": 1,
+          "paragraph_ids": [
+            "P2"
+          ]
+        }
+      ],
+      "observation": "Confirmed duplicate charge, submission, and pending approval are explicit. Thanks and apology surround the operational detail.",
+      "interpretation": "The service courtesy could be compressed if it delays the status, but its tone is appropriate; keep acknowledgement and apology.",
+      "human_alternative": "A support template or considerate human agent can produce exactly this pattern.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "S3",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 368,
+          "end": 598,
+          "quote": "If the team approves the request, the money should reach the original card within five working days. That is an estimate, not a guaranteed arrival date. There is no need for you to submit another form while the request is pending.",
+          "line": 5,
+          "column": 1,
+          "paragraph_ids": [
+            "P3"
+          ]
+        }
+      ],
+      "observation": "Approval condition, five-working-day estimate, no guarantee, original card, and no additional form are distinct useful instructions.",
+      "interpretation": "Retain every condition. The caution prevents an estimate being mistaken for a promise; it is not padding.",
+      "human_alternative": "A human agent avoiding a misleading refund promise would spell out these limits.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "S4",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 600,
+          "end": 895,
+          "quote": "I will email you by 3 p.m. on Friday even if I am still waiting for a decision. If you do not receive that update, please reply to this email with the order number. I cannot cancel the first payment because the order has already shipped. The refund request covers only the duplicate £36 payment.",
+          "line": 7,
+          "column": 1,
+          "paragraph_ids": [
+            "P4"
+          ]
+        }
+      ],
+      "observation": "The firm update/fallback precedes first-payment and refund-scope limits.",
+      "interpretation": "Consider moving scope beside P2's request so the email ends on the next customer-facing step. This is a low-priority flow choice, not an authorship sign.",
+      "human_alternative": "A human agent may add scope at the end to pre-empt a common question; the current order is understandable.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "S5",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 897,
+          "end": 907,
+          "quote": "Best,\nAlex",
+          "line": 9,
+          "column": 1,
+          "paragraph_ids": [
+            "P5"
+          ]
+        }
+      ],
+      "observation": "Standard signoff identifies Alex.",
+      "interpretation": "Neutral genre convention; retain sender identity and a courteous close.",
+      "human_alternative": "Humans and AI both use routine signoffs.",
+      "discriminating_evidence": "Judge usefulness in this genre and compare any revision for fidelity/readability. Style cannot resolve origin; the supplied fixture history is separate evidence."
+    },
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "moderate",
+      "spans": [
+        {
+          "start": 0,
+          "end": 10,
+          "quote": "Hi Morgan,",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "New AI-authored synthetic evaluation source; not real user/company history",
+      "interpretation": "Known supplied origin is AI-authored synthetic evaluation material. Natural-sounding details or later editing do not change this origin.",
+      "human_alternative": "People could write similar text, but similarity does not override the supplied creation record for this fixture.",
+      "discriminating_evidence": "This review verifies text hashes against the local source registry; it does not independently authenticate the entire generation process or any real-world events.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\sources.json entry support-email; source_sha256=8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e"
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 10,
+      "line": 1,
+      "text": "Hi Morgan,",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Standard named greeting; retain the addressee. Neutral email convention; no useful AI-style inference.",
+      "finding_ids": [
+        "S1",
+        "H1"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 12,
+      "end": 366,
+      "line": 3,
+      "text": "Thank you for your patience while I reviewed the duplicate charge on order R-214. I confirmed that the second payment was taken on 18 September. I submitted a refund request for £36 this morning, but the payment team has not approved it yet. I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Confirmed duplicate charge, submission, and pending approval are explicit. Thanks and apology surround the operational detail. The service courtesy could be compressed if it delays the status, but its tone is appropriate; keep acknowledgement and apology.",
+      "finding_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "P3",
+      "start": 368,
+      "end": 598,
+      "line": 5,
+      "text": "If the team approves the request, the money should reach the original card within five working days. That is an estimate, not a guaranteed arrival date. There is no need for you to submit another form while the request is pending.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Approval condition, five-working-day estimate, no guarantee, original card, and no additional form are distinct useful instructions. Retain every condition. The caution prevents an estimate being mistaken for a promise; it is not padding.",
+      "finding_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "P4",
+      "start": 600,
+      "end": 895,
+      "line": 7,
+      "text": "I will email you by 3 p.m. on Friday even if I am still waiting for a decision. If you do not receive that update, please reply to this email with the order number. I cannot cancel the first payment because the order has already shipped. The refund request covers only the duplicate £36 payment.",
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "The firm update/fallback precedes first-payment and refund-scope limits. Consider moving scope beside P2's request so the email ends on the next customer-facing step. This is a low-priority flow choice, not an authorship sign.",
+      "finding_ids": [
+        "S4"
+      ]
+    },
+    {
+      "id": "P5",
+      "start": 897,
+      "end": 907,
+      "line": 9,
+      "text": "Best,\nAlex",
+      "paragraph_id": "P5",
+      "status": "reviewed",
+      "assessment": "Standard signoff identifies Alex. Neutral genre convention; retain sender identity and a courteous close.",
+      "finding_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 5,
+    "paragraphs_reviewed": 5,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated.",
+  "measured_output": {
+    "mode": "offline_local_model",
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "measured_at_utc": "2026-10-03T08:50:30.478906+00:00",
+    "class_probabilities": {
+      "human": 0.00012120229803258553,
+      "ai": 0.9928717017173767,
+      "ai_edited": 1.9343971871421672e-05,
+      "humanized": 0.006987790111452341
+    },
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "calibration": null,
+    "applicability_cautions": [],
+    "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+    "language_scope": "English only; independently uncalibrated",
+    "independently_calibrated_here": false,
+    "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+    "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "semantics": "Model-estimated class probabilities, not verified writing history; exact input hash matched."
+  }
+}

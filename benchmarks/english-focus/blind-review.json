@@ -1,0 +1,707 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-03",
+  "phase": "independent_pre_score_gate",
+  "reviewer": {
+    "type": "AI",
+    "independent_of_candidate_writing": true,
+    "prior_context": "Reviewer had earlier English-humanizer reference-audit context; this is not a fresh-context or human-reader evaluation.",
+    "method": "Source-to-candidate constraint audit followed by separate editorial judgment; no method attribution inferred."
+  },
+  "blinding": {
+    "assignment_read": false,
+    "method_labels_read": false,
+    "scores_read": false,
+    "writer_reviews_read": false,
+    "other_experiment_artifacts_read": false,
+    "allowed_inputs_only": true,
+    "candidate_method_guesses_made": false,
+    "read_scope": "Only the nine explicit source.txt, A.txt and B.txt files under blind-pairs/support-email, reading-reflection and technical-update were read for this review.",
+    "known_from_task": "Sources were described as AI-authored synthetic text; randomized candidates were described as two skill versions. Which label used which version was not disclosed or inferred."
+  },
+  "eligibility_definition": "A candidate is eligible for scoring when no required fidelity or reader-comprehension repair remains. Eligibility does not certify historical authorship, external factual truth, or detector performance.",
+  "cases": [
+    {
+      "case": "support-email",
+      "reader": "Professional customer email",
+      "coverage": [
+        {
+          "id": "S01",
+          "requirement": "Thank recipient for patience while reviewing the duplicate charge on order R-214.",
+          "source_quotes": [
+            "Hi Morgan,",
+            "Thank you for your patience while I reviewed the duplicate charge on order R-214."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "Hi Morgan,",
+              "Thank you for your patience while I checked the duplicate charge on order R-214."
+            ],
+            "B": [
+              "Hi Morgan,",
+              "Thank you for your patience while I reviewed the duplicate charge on order R-214."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "S02",
+          "requirement": "Sender confirmed the second payment was taken on 18 September.",
+          "source_quotes": [
+            "I confirmed that the second payment was taken on 18 September."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "I confirmed that the second payment was taken on 18 September"
+            ],
+            "B": [
+              "I confirmed that the second payment was taken on 18 September"
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "S03",
+          "requirement": "Sender submitted a £36 refund request this morning; payment team has not approved it.",
+          "source_quotes": [
+            "I submitted a refund request for £36 this morning",
+            "the payment team has not approved it yet."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "submitted a request this morning to refund the duplicate £36 payment.",
+              "The payment team hasn't approved the request yet."
+            ],
+            "B": [
+              "submitted a refund request for £36 this morning.",
+              "The payment team has not approved it yet"
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "S04",
+          "requirement": "Recognize frustration about two charges and apologize for the extra work caused.",
+          "source_quotes": [
+            "I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you."
+            ],
+            "B": [
+              "I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "S05",
+          "requirement": "Only if approved, money should reach original card within five working days; timing is an estimate, not a guarantee.",
+          "source_quotes": [
+            "If the team approves the request, the money should reach the original card within five working days.",
+            "That is an estimate, not a guaranteed arrival date."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "If the team approves the request, the money should reach the original card within five working days.",
+              "That's an estimate, not a guaranteed arrival date."
+            ],
+            "B": [
+              "If the team approves it, the money should reach the original card within five working days, though that is an estimate, not a guaranteed arrival date."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "S06",
+          "requirement": "No additional form is needed while the request remains pending.",
+          "source_quotes": [
+            "There is no need for you to submit another form while the request is pending."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "You don't need to submit another form while the request is pending."
+            ],
+            "B": [
+              "There is no need for you to submit another form while the request is pending."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "S07",
+          "requirement": "Sender promises an email by 3 p.m. Friday even if no decision has arrived.",
+          "source_quotes": [
+            "I will email you by 3 p.m. on Friday even if I am still waiting for a decision."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "I'll email you by 3 p.m. on Friday even if I'm still waiting for a decision."
+            ],
+            "B": [
+              "I will email you by 3 p.m. on Friday even if I am still waiting for a decision."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "S08",
+          "requirement": "If that update is not received, request a reply to this email including the order number.",
+          "source_quotes": [
+            "If you do not receive that update, please reply to this email with the order number."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "If you don't receive that update, please reply to this email with the order number."
+            ],
+            "B": [
+              "If you do not receive that update, please reply to this email with the order number."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "S09",
+          "requirement": "Sender cannot cancel the first payment because order already shipped; refund request covers only duplicate £36.",
+          "source_quotes": [
+            "I cannot cancel the first payment because the order has already shipped.",
+            "The refund request covers only the duplicate £36 payment."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "I can't cancel the first payment because the order has already shipped.",
+              "The request covers only the duplicate £36 payment."
+            ],
+            "B": [
+              "I cannot cancel the first payment because the order has already shipped.",
+              "the request covers only the duplicate £36 payment."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "S10",
+          "requirement": "Preserve sender Alex, customer Morgan, professional courtesy and British payment/time wording.",
+          "source_quotes": [
+            "Hi Morgan,",
+            "Best,\nAlex",
+            "£36",
+            "working days"
+          ],
+          "candidate_quotes": {
+            "A": [
+              "Hi Morgan,",
+              "Best,\nAlex",
+              "£36",
+              "working days"
+            ],
+            "B": [
+              "Hi Morgan,",
+              "Best,\nAlex",
+              "£36",
+              "working days"
+            ]
+          },
+          "assessment": "A's contractions remain suitable for professional customer correspondence; neither introduces a different dialect or relationship."
+        }
+      ],
+      "candidates": {
+        "A": {
+          "fidelity_pass": true,
+          "eligible_for_scoring": true,
+          "required_repairs": [],
+          "natural_english": "Professional and comprehensible; contractions fit the relationship.",
+          "findings": [
+            {
+              "category": "optional_editorial_tradeoff",
+              "quotes": [
+                "The request covers only the duplicate £36 payment.",
+                "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you."
+              ],
+              "finding": "The separate scope paragraph repeats wording from the opening, and the empathy/apology arrives after the process explanation. All speech acts survive, but the sequence feels more procedural before acknowledging the customer's inconvenience."
+            }
+          ],
+          "sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091"
+        },
+        "B": {
+          "fidelity_pass": true,
+          "eligible_for_scoring": true,
+          "required_repairs": [],
+          "natural_english": "Clear, restrained professional English; full forms are acceptable.",
+          "findings": [
+            {
+              "category": "editorial_strength_and_tradeoff",
+              "quotes": [
+                "The payment team has not approved it yet, and the request covers only the duplicate £36 payment.",
+                "I will email you by 3 p.m. on Friday even if I am still waiting for a decision."
+              ],
+              "finding": "The first paragraph gathers status and scope; the follow-up promise has its own final paragraph. This is easier to scan as an action/status email than A, although the initial paragraph is denser and the source places empathy earlier."
+            }
+          ],
+          "sha256": "c03768d09bbed072a30d8e24c27f08fde9711e2e799a62bcb3912c26c2125031"
+        }
+      },
+      "editorial_winner": "B",
+      "preference_strength": "slight",
+      "winner_rationale": "B groups status and scope, keeps the apology before the timing explanation, and gives the next contact commitment a clear final position. A remains acceptable; the source is also already serviceable. This is a narrow reader-order preference, not a factual or fluency failure.",
+      "source_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+      "coverage_complete": true
+    },
+    {
+      "case": "reading-reflection",
+      "reader": "First-person reading reflection",
+      "coverage": [
+        {
+          "id": "R01",
+          "requirement": "For eight weeks the first-person writer tried reading a chapter in the morning before looking at their phone.",
+          "source_quotes": [
+            "For eight weeks, I read a chapter before looking at my phone in the morning."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "For eight weeks, I read a chapter in the morning before looking at my phone"
+            ],
+            "B": [
+              "For eight weeks, I tried a morning routine: reading a chapter before looking at my phone."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "R02",
+          "requirement": "Writer expected this change to improve memory of reading, not that an improvement was established.",
+          "source_quotes": [
+            "I expected the change to help me remember more of what I read."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "expecting to remember more of what I read."
+            ],
+            "B": [
+              "I expected it to help me remember more of what I read."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "R03",
+          "requirement": "At end, could recall plots of three novels, but no pre-experiment memory test means improvement cannot be determined.",
+          "source_quotes": [
+            "At the end of the eight weeks, I could recall the plots of three novels",
+            "I had not tested my memory before the experiment.",
+            "I therefore cannot tell whether my recall actually improved."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "By the end, I could recall the plots of three novels.",
+              "I hadn't tested my memory before the experiment, so I can't tell whether my recall improved."
+            ],
+            "B": [
+              "At the end, I could recall the plots of three novels, but I had not tested my memory before the experiment, so I cannot tell whether my recall actually improved."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "R04",
+          "requirement": "A simpler observed benefit concerned stopping message checks mid-chapter; writer liked that change.",
+          "source_quotes": [
+            "The change I noticed was simpler: I stopped interrupting a chapter to check messages.",
+            "I liked that."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "The change I noticed was in how I read: I stopped interrupting a chapter to check messages.",
+              "I liked that"
+            ],
+            "B": [
+              "The change I noticed was simpler: I stopped interrupting a chapter to check messages.",
+              "I liked that."
+            ]
+          },
+          "assessment": "A replaces the explicit 'simpler' characterization with a description of reading behavior. The modest contrast with unestablished memory benefit and the positive personal stance survive; this is a small expressive tradeoff, not a material factual loss."
+        },
+        {
+          "id": "R05",
+          "requirement": "Writer still checked phone immediately after finishing; skipped reading entirely on two mornings; routine was a trial, not consistent adherence.",
+          "source_quotes": [
+            "I still checked my phone as soon as I finished, and on two mornings I skipped reading altogether.",
+            "This was a routine I tried, not a rule I consistently followed."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "I still checked my phone as soon as I finished.",
+              "I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether."
+            ],
+            "B": [
+              "I still checked my phone as soon as I finished.",
+              "I did not follow the routine consistently: on two mornings I skipped reading altogether."
+            ]
+          },
+          "assessment": "Both retain the two omissions and trial/non-adherence distinction. Neither claims after-chapter phone checking broke the routine; A's 'either' makes the connection slightly less clean."
+        },
+        {
+          "id": "R06",
+          "requirement": "Reluctance to recommend the routine universally; mornings were quiet during the period; no trial while travelling.",
+          "source_quotes": [
+            "I am reluctant to recommend the same routine to everyone.",
+            "My mornings were quiet during those weeks, and I did not try it when I was travelling."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "I'm reluctant to recommend the routine to everyone, though.",
+              "My mornings were quiet during those weeks, and I didn't try it while travelling."
+            ],
+            "B": [
+              "My mornings were quiet during those weeks, and I did not try the routine when I was travelling, so I am reluctant to recommend it to everyone."
+            ]
+          },
+          "assessment": "B's 'so' expresses the explanatory relation already supplied by the adjacent source sentences. It does not turn the limited experience into a general claim about other readers."
+        },
+        {
+          "id": "R07",
+          "requirement": "Reading was worthwhile to the writer without evidence of a memory benefit.",
+          "source_quotes": [
+            "The reading itself was worthwhile to me even without evidence of a memory benefit."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "The reading itself was worthwhile to me even without evidence of a memory benefit."
+            ],
+            "B": [
+              "The reading itself was worthwhile to me even without evidence of a memory benefit."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "R08",
+          "requirement": "Next month writer wants to try after-dinner reading instead; no start date chosen.",
+          "source_quotes": [
+            "Next month I want to try reading after dinner instead, although I have not chosen a start date."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "Next month I want to try reading after dinner instead, although I haven't chosen a start date."
+            ],
+            "B": [
+              "Next month I want to try reading after dinner instead, although I have not chosen a start date."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "R09",
+          "requirement": "Keep first-person reflective voice, qualified recommendation, British spelling and no invented experience.",
+          "source_quotes": [
+            "I am reluctant",
+            "travelling"
+          ],
+          "candidate_quotes": {
+            "A": [
+              "I'm reluctant",
+              "travelling"
+            ],
+            "B": [
+              "I am reluctant",
+              "travelling"
+            ]
+          },
+          "assessment": "A is more conversational through contractions; B stays closer to the source's restrained register. Both are natural choices for the stated reader."
+        }
+      ],
+      "candidates": {
+        "A": {
+          "fidelity_pass": true,
+          "eligible_for_scoring": true,
+          "required_repairs": [],
+          "natural_english": "Natural conversational reflection with suitable contractions and varied clause structure.",
+          "findings": [
+            {
+              "category": "optional_polish",
+              "quotes": [
+                "I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether."
+              ],
+              "finding": "The 'either' has a loose connection to the preceding phone-checking sentence, because checking after finishing complied with the routine. Dropping 'either' would make that transition cleaner, but the explicit two skipped mornings and every-morning qualification prevent a material misstatement."
+            },
+            {
+              "category": "expressive_tradeoff",
+              "quotes": [
+                "The change I noticed was in how I read: I stopped interrupting a chapter to check messages."
+              ],
+              "finding": "This states the behavioral difference plainly; the source's modest evaluative word 'simpler' is less explicit. The underlying contrast and personal approval remain."
+            }
+          ],
+          "sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8"
+        },
+        "B": {
+          "fidelity_pass": true,
+          "eligible_for_scoring": true,
+          "required_repairs": [],
+          "natural_english": "Restrained, idiomatic first-person English; short sentences fit reflection rather than causing fragmentation.",
+          "findings": [
+            {
+              "category": "editorial_strength_and_tradeoff",
+              "quotes": [
+                "My mornings were quiet during those weeks, and I did not try the routine when I was travelling, so I am reluctant to recommend it to everyone.",
+                "I did not follow the routine consistently: on two mornings I skipped reading altogether."
+              ],
+              "finding": "The reasons sit beside the qualified recommendation, and non-adherence is direct. Compared with the source, the reflective routine-versus-rule phrasing becomes a more literal description; neither is clearly superior for this voice."
+            }
+          ],
+          "sha256": "23a2fb1d02e1c05417f6b6fe995c2a98477d118643b0736d47f5bbe8bc9675aa"
+        }
+      },
+      "editorial_winner": "tie",
+      "preference_strength": "none",
+      "winner_rationale": "The source is already natural and fully qualified. A offers a warmer, more conversational cadence; B preserves the restrained cadence and makes the recommendation's grounds explicit. These benefits do not establish a clear overall winner over each other or the source. A's optional connective polish is minor, not a gate failure.",
+      "source_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+      "coverage_complete": true
+    },
+    {
+      "case": "technical-update",
+      "reader": "Internal technical note",
+      "coverage": [
+        {
+          "id": "T01",
+          "requirement": "Queue test covered 12 jobs using the existing and proposed workers; ten completed in both configurations.",
+          "source_quotes": [
+            "The queue test covered 12 jobs using the existing worker and the proposed worker.",
+            "Ten jobs completed in both configurations."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "The queue test compared the existing worker with the proposed worker on 12 jobs.",
+              "Ten jobs completed in both configurations."
+            ],
+            "B": [
+              "The queue test covered 12 jobs with the existing and proposed workers; ten completed in both configurations."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "T02",
+          "requirement": "For only those ten jobs, median processing time fell from 75 ms to 52 ms with proposed worker.",
+          "source_quotes": [
+            "For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker."
+            ],
+            "B": [
+              "For those ten jobs, median processing time fell from 75 ms with the existing worker to 52 ms with the proposed worker."
+            ]
+          },
+          "assessment": "B makes the baseline referent explicit; it is established by the source comparison, not an added measurement. No mean, significance, total-job speedup or production benefit is invented."
+        },
+        {
+          "id": "T03",
+          "requirement": "Other two jobs failed before producing timing; excluded from timing comparison; causes not established.",
+          "source_quotes": [
+            "Two other jobs failed before producing a timing result and were excluded from that comparison.",
+            "We have not established what caused those failures."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "Two other jobs failed before producing a timing result and were excluded from that comparison.",
+              "We have not established what caused those failures."
+            ],
+            "B": [
+              "The other two jobs failed before producing timing results, so they were excluded from the comparison.",
+              "We haven't established the cause of those failures."
+            ]
+          },
+          "assessment": "B's exclusion rationale follows from absence of timing results. Neither assigns the failures to a particular configuration or invents a cause."
+        },
+        {
+          "id": "T04",
+          "requirement": "Proposed worker retains the same retry limit of 3.",
+          "source_quotes": [
+            "The proposed worker kept the same retry limit of 3."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "The proposed worker kept the retry limit at 3"
+            ],
+            "B": [
+              "The proposed worker kept the retry limit at 3"
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "T05",
+          "requirement": "Proposed worker used more memory in this test, but peak memory was not recorded.",
+          "source_quotes": [
+            "It used more memory in this test, although peak memory was not recorded."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "used more memory in this test.",
+              "Peak memory was not recorded"
+            ],
+            "B": [
+              "used more memory in this test.",
+              "Peak memory wasn't recorded"
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "T06",
+          "requirement": "Cannot quantify largest memory increase or predict production peak usage from these results.",
+          "source_quotes": [
+            "We therefore cannot quantify the largest increase or use these results to predict peak usage in production."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "we cannot quantify the largest increase or use these results to predict peak usage in production."
+            ],
+            "B": [
+              "we can't quantify the largest increase or use these results to predict peak usage in production."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "T07",
+          "requirement": "No concurrent clients were included.",
+          "source_quotes": [
+            "The test did not include concurrent clients."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "The test did not include concurrent clients."
+            ],
+            "B": [
+              "The test didn't include concurrent clients."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "T08",
+          "requirement": "Writer wants repeat with concurrent clients before recommending rollout; repeat unscheduled; no production change approved.",
+          "source_quotes": [
+            "I would like to repeat the test with concurrent clients before recommending a rollout.",
+            "That repeat has not been scheduled, and no production change has been approved."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "I would like to repeat it with concurrent clients before recommending a rollout.",
+              "That repeat has not been scheduled, and no production change has been approved."
+            ],
+            "B": [
+              "I'd like to repeat it with concurrent clients before recommending a rollout, but that repeat hasn't been scheduled.",
+              "No production change has been approved."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "T09",
+          "requirement": "Review note must state both ten-job denominator and two excluded failures.",
+          "source_quotes": [
+            "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures."
+            ],
+            "B": [
+              "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "T10",
+          "requirement": "Before approving rollout, service owner should review memory measurements from repeat test; recommendation is not a new mandatory approval condition.",
+          "source_quotes": [
+            "Before approving a rollout, the service owner should review the memory measurements from the repeat test."
+          ],
+          "candidate_quotes": {
+            "A": [
+              "Before approving a rollout, the service owner should review the memory measurements from the repeat test."
+            ],
+            "B": [
+              "Before approving a rollout, the service owner should review the memory measurements from the repeat test."
+            ]
+          },
+          "assessment": "Preserved in both candidates."
+        },
+        {
+          "id": "T11",
+          "requirement": "Keep team knowledge ('we') distinct from writer preference ('I') and service-owner responsibility; technical register remains suitable.",
+          "source_quotes": [
+            "We have not established",
+            "I would like",
+            "the service owner should review"
+          ],
+          "candidate_quotes": {
+            "A": [
+              "We have not established",
+              "I would like",
+              "the service owner should review"
+            ],
+            "B": [
+              "We haven't established",
+              "I'd like",
+              "the service owner should review"
+            ]
+          },
+          "assessment": "Both preserve agency, status and normative force. B's contractions are suitable for an internal note and do not change uncertainty."
+        }
+      ],
+      "candidates": {
+        "A": {
+          "fidelity_pass": true,
+          "eligible_for_scoring": true,
+          "required_repairs": [],
+          "natural_english": "Precise and readable internal reporting; the separate instruction paragraph is easy to locate.",
+          "findings": [
+            {
+              "category": "editorial_tradeoff",
+              "quotes": [
+                "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures."
+              ],
+              "finding": "The reporting obligation remains exact but is placed in the final paragraph, away from the timing evidence. Grouping all next-step instructions is defensible, though it requires the reader to reconnect this instruction to the opening numbers."
+            }
+          ],
+          "sha256": "b56c44d0fc8082a0f0fd3073e6927b02a6db969782f24a56db93c6bf97b9121c"
+        },
+        "B": {
+          "fidelity_pass": true,
+          "eligible_for_scoring": true,
+          "required_repairs": [],
+          "natural_english": "Direct internal English with justified clause connections and clear numerical referents.",
+          "findings": [
+            {
+              "category": "editorial_strength_and_tradeoff",
+              "quotes": [
+                "For those ten jobs, median processing time fell from 75 ms with the existing worker to 52 ms with the proposed worker.",
+                "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures."
+              ],
+              "finding": "The two medians have explicit worker referents, and the reporting obligation is adjacent to the data it governs. The opening paragraph carries more functions, but the remaining memory and rollout paragraphs retain clear boundaries."
+            }
+          ],
+          "sha256": "60adf8cb98580d1c5507054e9ea0576bf22d9a5fb724958056221b798f299b47"
+        }
+      },
+      "editorial_winner": "B",
+      "preference_strength": "slight",
+      "winner_rationale": "B improves local traceability between measurements, excluded jobs and the review-note requirement while preserving the memory warning, unscheduled repeat and approval status. A and the source are still valid; the preference is organizational rather than a claim of stronger evidence or greater factual completeness.",
+      "source_sha256": "c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce",
+      "coverage_complete": true
+    }
+  ],
+  "overall": {
+    "all_six_candidates_fidelity_pass": true,
+    "all_six_candidates_eligible_for_scoring": true,
+    "required_repairs_total": 0,
+    "scope_limit": "Small synthetic paired review by one AI reviewer. No detector results, method labels, empirical generalization or human-preference claim are available."
+  }
+}

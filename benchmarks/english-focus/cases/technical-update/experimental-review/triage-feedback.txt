@@ -1,0 +1,16 @@
+Pre-score independent editorial review; native outputs not read or attached.
+Document: technical-update/experimental (original blind label B)
+Candidate SHA-256: 60adf8cb98580d1c5507054e9ea0576bf22d9a5fb724958056221b798f299b47
+Fidelity: pass. Required repairs: none. Eligible for scoring: yes.
+History: AI rewrite of an AI-authored synthetic evaluation source; not real-world record verification.
+Decision: Retain the frozen candidate. The blind review records only organizational or expressive tradeoffs; none requires repair before scoring. Do not manufacture defects or rewrite to chase an unseen score.
+Coverage: all 3 indexed paragraphs and all 11 grouped source constraints reviewed.
+Whole-document dimensions: structure; reasoning/specificity; voice; rhythm/repetition; English features; citations/provenance.
+Evidence basis: documented_history and neutral style_observation only; no measured model attribution.
+Findings:
+H1: The task record identifies this as an AI rewrite of a newly AI-authored synthetic evaluation source. The source and candidate hashes match the recorded source history, randomized assignment and completed blind review.
+  Exact span(s): The queue test covered 12 jobs with the existing and proposed workers; ten completed in both configurations.
+  Counterexplanation: A human could write similar prose, but stylistic similarity does not negate the experiment's recorded AI origin. Metadata alone is not independent authentication of external events.
+E1: The two medians have explicit worker referents, and the reporting obligation is adjacent to the data it governs. The opening paragraph carries more functions, but the remaining memory and rollout paragraphs retain clear boundaries.
+  Exact span(s): For those ten jobs, median processing time fell from 75 ms with the existing worker to 52 ms with the proposed worker. | The review note must state both the ten-job denominator for the timing comparison and the two excluded failures.
+  Counterexplanation: A human engineer or technical editor can group the same measurements, conditions and responsibilities. Repeated technical terms and careful uncertainty can arise from normal reporting requirements.

@@ -1,0 +1,26 @@
+{
+  "text_sha256": "c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce",
+  "paragraphs": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 365,
+      "line": 1,
+      "text": "The queue test covered 12 jobs using the existing worker and the proposed worker. Ten jobs completed in both configurations. For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker. Two other jobs failed before producing a timing result and were excluded from that comparison. We have not established what caused those failures."
+    },
+    {
+      "id": "P2",
+      "start": 367,
+      "end": 644,
+      "line": 3,
+      "text": "The proposed worker kept the same retry limit of 3. It used more memory in this test, although peak memory was not recorded. We therefore cannot quantify the largest increase or use these results to predict peak usage in production. The test did not include concurrent clients."
+    },
+    {
+      "id": "P3",
+      "start": 646,
+      "end": 1031,
+      "line": 5,
+      "text": "I would like to repeat the test with concurrent clients before recommending a rollout. That repeat has not been scheduled, and no production change has been approved. The review note must state both the ten-job denominator for the timing comparison and the two excluded failures. Before approving a rollout, the service owner should review the memory measurements from the repeat test."
+    }
+  ]
+}

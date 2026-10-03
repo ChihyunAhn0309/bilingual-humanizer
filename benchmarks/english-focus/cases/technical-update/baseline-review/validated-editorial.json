@@ -1,0 +1,120 @@
+{
+  "schema_version": 2,
+  "mode": "anchored_explanation",
+  "text_sha256": "b56c44d0fc8082a0f0fd3073e6927b02a6db969782f24a56db93c6bf97b9121c",
+  "offset_unit": "zero_based_unicode_codepoints_end_exclusive",
+  "summary": "Pre-score independent editorial review, carried forward from the completed randomized blind review. Labels were revealed only to route these artifacts; native model outputs have not been read or attached. All substantive source constraints pass; no required repairs; eligible for scoring. Precise and readable internal reporting; the separate instruction paragraph is easy to locate. Known AI origin belongs to this synthetic experiment's supplied history, not real-world authorship certification. AI/Human percentages are unavailable in this editorial-only report.",
+  "document_analysis": {
+    "structure": "P1-P3 divide timing, memory and repeat status; P4 groups actions. The review-note instruction is separated from its P1 evidence, a defensible but less locally connected outline.",
+    "reasoning_specificity": "P1 keeps 12 jobs, ten-job medians at 75/52 ms and two untimed failures; P2 retains retry limit 3 and memory limits; P3/P4 preserve plan/approval status and obligations.",
+    "voice_consistency": "Team uncertainty, the writer's test preference and service-owner responsibility stay distinct. Formal internal reporting is consistent across P1-P4.",
+    "rhythm_repetition": "Paragraphs divide by technical function. Repeated job/failure terminology maintains referents, so no lexical variety or sentence-length target is warranted.",
+    "language_features": "Median, units and baselines remain exact. P4 distinguishes mandatory 'must' reporting from the owner's 'should' review before approval.",
+    "citations_provenance": "All paragraphs are AI rewrite candidates within the supplied synthetic experiment. Source history and candidate binding are recorded in cases/sources.json, assignment.json and blind-review.json; hashes were checked. No external citation was asserted by the prose and no real transaction, lived experience or test result was authenticated. The reviewer was independent of writing and score-blind, but had prior reference-audit context."
+  },
+  "findings": [
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "strong",
+      "spans": [
+        {
+          "start": 0,
+          "end": 80,
+          "quote": "The queue test compared the existing worker with the proposed worker on 12 jobs.",
+          "line": 1,
+          "column": 1,
+          "paragraph_ids": [
+            "P1"
+          ]
+        }
+      ],
+      "observation": "The task record identifies this as an AI rewrite of a newly AI-authored synthetic evaluation source. The source and candidate hashes match the recorded source history, randomized assignment and completed blind review.",
+      "interpretation": "AI involvement is established within this supplied experiment history, independently of whether the prose sounds natural. This is not authentication of a real customer's transaction, personal experience or production test.",
+      "human_alternative": "A human could write similar prose, but stylistic similarity does not negate the experiment's recorded AI origin. Metadata alone is not independent authentication of external events.",
+      "discriminating_evidence": "For an external provenance claim, inspect authenticated generation/edit logs and original records. No such real-world authorship claim is made here.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\sources.json [case=technical-update, origin, source_sha256]; C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\assignment.json [case=technical-update, labels.A.arm/sha256]; C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\blind-review.json [case/candidate hash and pre-score judgment]; supplied task generation history."
+    },
+    {
+      "id": "E1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 786,
+          "end": 898,
+          "quote": "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures.",
+          "line": 7,
+          "column": 1,
+          "paragraph_ids": [
+            "P4"
+          ]
+        }
+      ],
+      "observation": "The reporting obligation remains exact but is placed in the final paragraph, away from the timing evidence. Grouping all next-step instructions is defensible, though it requires the reader to reconnect this instruction to the opening numbers.",
+      "interpretation": "This is a local editorial observation, not a diagnostic authorship cue. AI rewriting can produce this organization or connective choice; the score-independent source comparison, not a detector explanation, supports this finding.",
+      "human_alternative": "A human engineer or technical editor can group the same measurements, conditions and responsibilities. Repeated technical terms and careful uncertainty can arise from normal reporting requirements.",
+      "discriminating_evidence": "Compare alternative wording with the unchanged source and ask independent readers about the actual audience. Authenticated process records, rather than this stylistic feature, would distinguish writing histories."
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 364,
+      "line": 1,
+      "text": "The queue test compared the existing worker with the proposed worker on 12 jobs. Ten jobs completed in both configurations. For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker. Two other jobs failed before producing a timing result and were excluded from that comparison. We have not established what caused those failures.",
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Test counts, medians, exclusions and unknown failure causes. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: T01, T02, T03, T11.",
+      "finding_ids": [
+        "H1"
+      ]
+    },
+    {
+      "id": "P2",
+      "start": 366,
+      "end": 577,
+      "line": 3,
+      "text": "The proposed worker kept the retry limit at 3 and used more memory in this test. Peak memory was not recorded, so we cannot quantify the largest increase or use these results to predict peak usage in production.",
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Retry limit, higher memory and missing-peak limits. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: T04, T05, T06. No consequential stylistic flag was identified; this neutral review is not a human-authorship verdict.",
+      "finding_ids": []
+    },
+    {
+      "id": "P3",
+      "start": 579,
+      "end": 784,
+      "line": 5,
+      "text": "The test did not include concurrent clients. I would like to repeat it with concurrent clients before recommending a rollout. That repeat has not been scheduled, and no production change has been approved.",
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Concurrency omission, desired repeat and unapproved/unscheduled status. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: T07, T08, T11. No consequential stylistic flag was identified; this neutral review is not a human-authorship verdict.",
+      "finding_ids": []
+    },
+    {
+      "id": "P4",
+      "start": 786,
+      "end": 1004,
+      "line": 7,
+      "text": "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures. Before approving a rollout, the service owner should review the memory measurements from the repeat test.",
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "Review-note obligation and service-owner recommendation. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: T09, T10, T11.",
+      "finding_ids": [
+        "E1"
+      ]
+    }
+  ],
+  "coverage": {
+    "paragraphs_total": 4,
+    "paragraphs_reviewed": 4,
+    "paragraphs_excluded": 0,
+    "review_fraction": 1.0
+  },
+  "authorship_probabilities": null,
+  "validation_scope": "Exact quotes, hashes, locations, fields and review coverage. Semantic truth and authorship are not validated."
+}

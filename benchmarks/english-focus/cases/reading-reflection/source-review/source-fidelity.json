@@ -1,0 +1,109 @@
+{
+  "source_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+  "case": "reading-reflection",
+  "constraints": [
+    {
+      "id": "F1",
+      "topic": "routine",
+      "spans": [
+        {
+          "start": 0,
+          "end": 76,
+          "quote": "For eight weeks, I read a chapter before looking at my phone in the morning."
+        },
+        {
+          "start": 77,
+          "end": 139,
+          "quote": "I expected the change to help me remember more of what I read."
+        }
+      ],
+      "preservation_rule": "Eight weeks; a chapter before phone use in the morning; expected memory benefit. Read alongside the explicit lapses, not as perfect daily adherence."
+    },
+    {
+      "id": "F2",
+      "topic": "memory_result",
+      "spans": [
+        {
+          "start": 140,
+          "end": 266,
+          "quote": "At the end of the eight weeks, I could recall the plots of three novels, but I had not tested my memory before the experiment."
+        },
+        {
+          "start": 267,
+          "end": 327,
+          "quote": "I therefore cannot tell whether my recall actually improved."
+        }
+      ],
+      "preservation_rule": "Three novels' plots recalled at end; no baseline memory test; improvement unknown. Do not conclude improvement or no improvement."
+    },
+    {
+      "id": "F3",
+      "topic": "noticed_benefit",
+      "spans": [
+        {
+          "start": 329,
+          "end": 414,
+          "quote": "The change I noticed was simpler: I stopped interrupting a chapter to check messages."
+        },
+        {
+          "start": 415,
+          "end": 428,
+          "quote": "I liked that."
+        }
+      ],
+      "preservation_rule": "Observed no mid-chapter message checking and liked it. Preserve personal reaction; do not claim measured concentration, productivity, health, or memory gains."
+    },
+    {
+      "id": "F4",
+      "topic": "limits_of_adherence",
+      "spans": [
+        {
+          "start": 429,
+          "end": 526,
+          "quote": "I still checked my phone as soon as I finished, and on two mornings I skipped reading altogether."
+        },
+        {
+          "start": 527,
+          "end": 590,
+          "quote": "This was a routine I tried, not a rule I consistently followed."
+        }
+      ],
+      "preservation_rule": "Still checked immediately after finishing; skipped reading on two mornings; inconsistent adherence. The summary may be rephrased but its qualification must remain."
+    },
+    {
+      "id": "F5",
+      "topic": "applicability",
+      "spans": [
+        {
+          "start": 592,
+          "end": 649,
+          "quote": "I am reluctant to recommend the same routine to everyone."
+        },
+        {
+          "start": 650,
+          "end": 736,
+          "quote": "My mornings were quiet during those weeks, and I did not try it when I was travelling."
+        }
+      ],
+      "preservation_rule": "Retain reluctance to recommend universally, quiet mornings, and untested travel context. Do not broaden to a universal prescription."
+    },
+    {
+      "id": "F6",
+      "topic": "value_and_next_step",
+      "spans": [
+        {
+          "start": 737,
+          "end": 819,
+          "quote": "The reading itself was worthwhile to me even without evidence of a memory benefit."
+        },
+        {
+          "start": 820,
+          "end": 915,
+          "quote": "Next month I want to try reading after dinner instead, although I have not chosen a start date."
+        }
+      ],
+      "preservation_rule": "Reading worthwhile regardless of absent memory evidence; desire to try after dinner next month; start date unchosen. Desire is not a scheduled commitment or completed experiment."
+    }
+  ],
+  "unresolved": "Memory improvement and applicability to travel remain unknown; the next attempt has no selected start date. Leave these unresolved rather than inventing results or a schedule."
+}

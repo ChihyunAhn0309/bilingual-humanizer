@@ -1,0 +1,16 @@
+Pre-score independent editorial review; native outputs not read or attached.
+Document: technical-update/baseline (original blind label A)
+Candidate SHA-256: b56c44d0fc8082a0f0fd3073e6927b02a6db969782f24a56db93c6bf97b9121c
+Fidelity: pass. Required repairs: none. Eligible for scoring: yes.
+History: AI rewrite of an AI-authored synthetic evaluation source; not real-world record verification.
+Decision: Retain the frozen candidate. The blind review records only organizational or expressive tradeoffs; none requires repair before scoring. Do not manufacture defects or rewrite to chase an unseen score.
+Coverage: all 4 indexed paragraphs and all 11 grouped source constraints reviewed.
+Whole-document dimensions: structure; reasoning/specificity; voice; rhythm/repetition; English features; citations/provenance.
+Evidence basis: documented_history and neutral style_observation only; no measured model attribution.
+Findings:
+H1: The task record identifies this as an AI rewrite of a newly AI-authored synthetic evaluation source. The source and candidate hashes match the recorded source history, randomized assignment and completed blind review.
+  Exact span(s): The queue test compared the existing worker with the proposed worker on 12 jobs.
+  Counterexplanation: A human could write similar prose, but stylistic similarity does not negate the experiment's recorded AI origin. Metadata alone is not independent authentication of external events.
+E1: The reporting obligation remains exact but is placed in the final paragraph, away from the timing evidence. Grouping all next-step instructions is defensible, though it requires the reader to reconnect this instruction to the opening numbers.
+  Exact span(s): The review note must state both the ten-job denominator for the timing comparison and the two excluded failures.
+  Counterexplanation: A human engineer or technical editor can group the same measurements, conditions and responsibilities. Repeated technical terms and careful uncertainty can arise from normal reporting requirements.

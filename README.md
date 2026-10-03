@@ -10,7 +10,13 @@ The default is active rewriting: reorganize paragraphs, recast sentences, preser
 
 [Editable PowerPoint](docs/assets/workflow.pptx) · [Design draft](docs/assets/composition-draft.png) · [Figure validation](docs/figure-evidence/render-review.md). The diagram was created using [JYS1025/paper-figure](https://github.com/JYS1025/paper-figure). External findings can inform another editorial review; that optional return path is described in the skill rather than drawn in this overview.
 
-## Current release: v1.8.0
+## Current release: v1.9.0
+
+English is the focus of this update: recompose clauses from meaning, connect information naturally, choose register without forced casualness, and preserve academic section roles. Reviewed 15 repositories and seven product documentation surfaces; no paid humanizer integration. Korean guidance and the revision ceiling are unchanged.
+
+Three synthetic sources received paired v1.8/v1.9 rewrites and nine successful local measurements. The new candidate had a higher native Human score in 3/3 comparisons; independent reader preferences were mixed (old email, new technical note, tied reflection). These experimental class scores do not certify authorship or commercial-detector success. [Full measured results and limitations](benchmarks/english-focus/REPORT.md), [research](benchmarks/english-focus/research/REVIEW.md), and [retained v1.8](benchmarks/english-focus/retained-skill/).
+
+## Previous release: v1.8.0
 
 The repaired local detector **v3.1.2** is working. The skill now compares a bounded number of source-grounded complete compositions when stronger detector-oriented rewriting is explicitly requested, with source-fidelity and reader review before scoring. The revision ceiling is unchanged; the best faithful checkpoint is retained separately from editorial preference.
 

@@ -1,0 +1,16 @@
+Pre-score independent editorial review; native outputs not read or attached.
+Document: support-email/experimental (original blind label A)
+Candidate SHA-256: 25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091
+Fidelity: pass. Required repairs: none. Eligible for scoring: yes.
+History: AI rewrite of an AI-authored synthetic evaluation source; not real-world record verification.
+Decision: Retain the frozen candidate. The blind review records only organizational or expressive tradeoffs; none requires repair before scoring. Do not manufacture defects or rewrite to chase an unseen score.
+Coverage: all 6 indexed paragraphs and all 10 grouped source constraints reviewed.
+Whole-document dimensions: structure; reasoning/specificity; voice; rhythm/repetition; English features; citations/provenance.
+Evidence basis: documented_history and neutral style_observation only; no measured model attribution.
+Findings:
+H1: The task record identifies this as an AI rewrite of a newly AI-authored synthetic evaluation source. The source and candidate hashes match the recorded source history, randomized assignment and completed blind review.
+  Exact span(s): Thank you for your patience while I checked the duplicate charge on order R-214.
+  Counterexplanation: A human could write similar prose, but stylistic similarity does not negate the experiment's recorded AI origin. Metadata alone is not independent authentication of external events.
+E1: The separate scope paragraph repeats wording from the opening, and the empathy/apology arrives after the process explanation. All speech acts survive, but the sequence feels more procedural before acknowledging the customer's inconvenience.
+  Exact span(s): The request covers only the duplicate £36 payment. | I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you.
+  Counterexplanation: A human support agent or service template can use the same transaction-specific qualifications, apology and ordering. Full forms or contractions reflect register choices, not proof of origin.

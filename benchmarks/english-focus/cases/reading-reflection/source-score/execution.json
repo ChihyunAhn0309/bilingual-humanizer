@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "input_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+  "language": "en",
+  "started_at_utc": "2026-10-03T08:50:40.023332+00:00",
+  "detector_skill": "C:\\Users\\ach18\\.codex\\skills\\bilingual-ai-detector",
+  "adapter": "local_feedback_v1",
+  "status": "completed",
+  "calls": [
+    {
+      "stage": "index",
+      "script_sha256": "e39f5672ad47ec0bb95bd4d7ee83f9833b3d16ef795cfb6f2d27d5946f5df705",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "stage": "score",
+      "script_sha256": "d2abfb56ec052f6e96779cc1f9d5b86a4d28e91c5dd59e23f7cf092482876bd0",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

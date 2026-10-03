@@ -1,0 +1,101 @@
+[
+  {
+    "repository": "leoluyi/skills",
+    "commit": "8a85670f155490a413014065066ff46f3f37e103",
+    "path": "skills/humanizer-zh/references/finished-prose-routing.md",
+    "url": "https://raw.githubusercontent.com/leoluyi/skills/8a85670f155490a413014065066ff46f3f37e103/skills/humanizer-zh/references/finished-prose-routing.md",
+    "snapshot": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\research\\independent-extra\\leoluyi--skills\\skills\\humanizer-zh\\references\\finished-prose-routing.md",
+    "sha256": "54c2db86da923070f663f81f17ca9ba35d682fd15c6dc30b2f7ab9b302591cba",
+    "bytes": 1784,
+    "retrieved_at_utc": "2026-10-03T08:49:22.0674893Z",
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "leoluyi/skills",
+    "commit": "8a85670f155490a413014065066ff46f3f37e103",
+    "path": "skills/humanizer-zh/references/review-criteria.md",
+    "url": "https://raw.githubusercontent.com/leoluyi/skills/8a85670f155490a413014065066ff46f3f37e103/skills/humanizer-zh/references/review-criteria.md",
+    "snapshot": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\research\\independent-extra\\leoluyi--skills\\skills\\humanizer-zh\\references\\review-criteria.md",
+    "sha256": "ab4d17b5673dafd34aeab9bdc0dfc081b70c04956dbe52ce8709e2c6c4afdf2e",
+    "bytes": 4881,
+    "retrieved_at_utc": "2026-10-03T08:49:22.3243045Z",
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "leoluyi/skills",
+    "commit": "8a85670f155490a413014065066ff46f3f37e103",
+    "path": "skills/humanizer-zh/references/finished-prose-workflow.md",
+    "url": "https://raw.githubusercontent.com/leoluyi/skills/8a85670f155490a413014065066ff46f3f37e103/skills/humanizer-zh/references/finished-prose-workflow.md",
+    "snapshot": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\research\\independent-extra\\leoluyi--skills\\skills\\humanizer-zh\\references\\finished-prose-workflow.md",
+    "sha256": "c81871d59b318798bf9f436ea02c21c02ca780d30084ee8818bfb6edb314ae99",
+    "bytes": 8469,
+    "retrieved_at_utc": "2026-10-03T08:49:22.5507412Z",
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "leoluyi/skills",
+    "commit": "8a85670f155490a413014065066ff46f3f37e103",
+    "path": "skills/humanizer-zh/references/en-rules.md",
+    "url": "https://raw.githubusercontent.com/leoluyi/skills/8a85670f155490a413014065066ff46f3f37e103/skills/humanizer-zh/references/en-rules.md",
+    "snapshot": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\research\\independent-extra\\leoluyi--skills\\skills\\humanizer-zh\\references\\en-rules.md",
+    "sha256": "261226682a2f082ee681d3c3bac7b53f3feeade731cc76ae593612964ea5dbae",
+    "bytes": 19704,
+    "retrieved_at_utc": "2026-10-03T08:49:22.8012724Z",
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "leoluyi/skills",
+    "commit": "8a85670f155490a413014065066ff46f3f37e103",
+    "path": "skills/humanizer-zh/NOTICE",
+    "url": "https://raw.githubusercontent.com/leoluyi/skills/8a85670f155490a413014065066ff46f3f37e103/skills/humanizer-zh/NOTICE",
+    "snapshot": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\research\\independent-extra\\leoluyi--skills\\skills\\humanizer-zh\\NOTICE",
+    "sha256": "bebfd6c9a27432125ee59e008cbe589cd86434cf0f8b8d8cbf443567e6305014",
+    "bytes": 3762,
+    "retrieved_at_utc": "2026-10-03T08:49:23.0255621Z",
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "andreaskonopka/humanizer",
+    "commit": "862609a2caf3cadb63b9bef78576e6f5a1ed4e19",
+    "path": "skills/humanizer/references/patterns-en.md",
+    "url": "https://raw.githubusercontent.com/andreaskonopka/humanizer/862609a2caf3cadb63b9bef78576e6f5a1ed4e19/skills/humanizer/references/patterns-en.md",
+    "snapshot": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\research\\independent-extra\\andreaskonopka--humanizer\\skills\\humanizer\\references\\patterns-en.md",
+    "sha256": "2499367801c26ccc0a6e7a54c7c5bb4d11f94f5062030ec9ba40ecbd38b66704",
+    "bytes": 4654,
+    "retrieved_at_utc": "2026-10-03T08:49:23.2437787Z",
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "ZaynJarvis/ai-writing-humanizer",
+    "commit": "7e9a8096b8cb2dadbca7ffde41dc0efc4c8a4b60",
+    "path": "patterns/ai-tells-en.md",
+    "url": "https://raw.githubusercontent.com/ZaynJarvis/ai-writing-humanizer/7e9a8096b8cb2dadbca7ffde41dc0efc4c8a4b60/patterns/ai-tells-en.md",
+    "snapshot": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\research\\independent-extra\\ZaynJarvis--ai-writing-humanizer\\patterns\\ai-tells-en.md",
+    "sha256": "332b8a2c999f7c2541e56eae4b9343b526cb2f878ada03add18e126a601288b8",
+    "bytes": 5415,
+    "retrieved_at_utc": "2026-10-03T08:49:23.4612161Z",
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "amanmaqsood/prose-humanizer",
+    "commit": "8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe",
+    "path": "references/voice.md",
+    "url": "https://raw.githubusercontent.com/amanmaqsood/prose-humanizer/8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe/references/voice.md",
+    "snapshot": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\research\\independent-extra\\amanmaqsood--prose-humanizer\\references\\voice.md",
+    "sha256": "e5b71502289d8af5970abd85d8afd6abfb93cb6265a72d6fa8cebfd349ea6cc7",
+    "bytes": 3171,
+    "retrieved_at_utc": "2026-10-03T08:49:23.6916672Z",
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  },
+  {
+    "repository": "amanmaqsood/prose-humanizer",
+    "commit": "8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe",
+    "path": "references/patterns.md",
+    "url": "https://raw.githubusercontent.com/amanmaqsood/prose-humanizer/8a7ec74c198ceaaed11fa3560e78bb94a6c1a7fe/references/patterns.md",
+    "snapshot": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\research\\independent-extra\\amanmaqsood--prose-humanizer\\references\\patterns.md",
+    "sha256": "379fa37ac5f4babbe0eafc3699ae2ebfe7a434bba43fdbb56121b4e29c9102af",
+    "bytes": 9774,
+    "retrieved_at_utc": "2026-10-03T08:49:23.9160086Z",
+    "execution": "read_only_no_installation_no_upstream_code_execution"
+  }
+]

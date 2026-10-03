@@ -1,0 +1,29 @@
+{
+  "input_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+  "native_classes": {
+    "human": 0.00014873377222102135,
+    "ai": 0.9992535710334778,
+    "ai_edited": 6.948819645913318e-06,
+    "humanized": 0.000590697571169585
+  },
+  "authorship_verified": false,
+  "parent_measurement_review": true,
+  "independent_editorial_review": "ledger-editorial.json",
+  "native_finding_decision": "retain; no text edit based on classifier sensitivity alone",
+  "strongest_deletion_sensitivity": {
+    "paragraph_id": "P3",
+    "start": 535,
+    "end": 853,
+    "quote": "The reading itself was worthwhile to me even without evidence of a memory benefit. I'm reluctant to recommend the routine to everyone, though. My mornings were quiet during those weeks, and I didn't try it while travelling. Next month I want to try reading after dinner instead, although I haven't chosen a start date.",
+    "status": "measured",
+    "baseline_ai_involvement": 0.999851266227779,
+    "after_removal_ai_involvement": 0.995580074377358,
+    "delta_percentage_points": 0.4271191850421019
+  },
+  "scope": "Whole document single window; six content dimensions and every paragraph reviewed in saved ledger.",
+  "cautions": [
+    "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "English four-class outputs are uncalibrated experimental auxiliary scores."
+  ],
+  "candidate_edits_after_scoring": 0
+}

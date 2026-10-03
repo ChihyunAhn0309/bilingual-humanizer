@@ -96,3 +96,7 @@ if (BASE.parent/'local-runtime-followup/results.json').exists():
 if (BASE.parent/'composition-feedback/results.json').exists():
     import runpy
     runpy.run_path(str(BASE.parent/'verify_composition_feedback.py'), run_name='__main__')
+
+if (BASE.parent/'english-focus/results.json').exists():
+    import runpy
+    runpy.run_path(str(BASE.parent/'verify_english_focus.py'), run_name='__main__')

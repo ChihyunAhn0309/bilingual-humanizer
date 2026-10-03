@@ -1,0 +1,171 @@
+{
+  "status": "review_completed",
+  "case": "technical-update",
+  "genre": "technical test/status update",
+  "input_sha256": "c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce",
+  "summary": "Technically cautious and mostly well organized. Optional local reorganization of P3 could separate retest status from review-note and approval duties. Quantitative limits are essential, not verbose hedging. Numeric detector result is unavailable after Windows paging/memory error 1455.",
+  "known_origin": "New AI-authored synthetic evaluation source; not real user/company history",
+  "native_class_probabilities": null,
+  "measurement": {
+    "status": "unavailable",
+    "native_class_probabilities": null,
+    "calibrated": false,
+    "authorship_verified": false,
+    "input_sha256": "c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce",
+    "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\technical-update\\source-score\\execution.json",
+    "caution": "Experimental uncalibrated English class outputs, not authorship probabilities or word shares. The saved 36-document pilot includes high-confidence false positives.",
+    "error": "Windows paging/memory error 1455 while loading verified weights with pread; worker exit 2. No usable score; no retry in this review."
+  },
+  "coverage": {
+    "reviewed": 3,
+    "total": 3,
+    "excluded": 0,
+    "not_reviewed": 0
+  },
+  "revise": [
+    {
+      "id": "R1",
+      "priority": "optional",
+      "locations": [
+        "P3"
+      ],
+      "issue": "One paragraph mixes retest intent/status, mandatory note contents, and the owner's approval review.",
+      "action": "Optionally group test/retest status and then review/approval requirements, or place the required note contents near P1 while retaining the explicit duty. Keep the prose genre unless a different format is authorized.",
+      "success": "It is easier to tell what was measured, what is unscheduled, what the note must include, and what the owner should review before approval."
+    }
+  ],
+  "retain": [
+    {
+      "id": "F1",
+      "topic": "coverage",
+      "spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "quote": "The queue test covered 12 jobs using the existing worker and the proposed worker."
+        },
+        {
+          "start": 82,
+          "end": 124,
+          "quote": "Ten jobs completed in both configurations."
+        }
+      ],
+      "preservation_rule": "Twelve jobs across existing/proposed configurations; ten completed in both. Do not turn ten successful jobs into the full test population."
+    },
+    {
+      "id": "F2",
+      "topic": "timing",
+      "spans": [
+        {
+          "start": 125,
+          "end": 218,
+          "quote": "For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker."
+        }
+      ],
+      "preservation_rule": "Median, not mean; 75 ms existing versus 52 ms proposed; comparison applies only to those ten jobs. No production/general speed claim."
+    },
+    {
+      "id": "F3",
+      "topic": "failures",
+      "spans": [
+        {
+          "start": 219,
+          "end": 313,
+          "quote": "Two other jobs failed before producing a timing result and were excluded from that comparison."
+        },
+        {
+          "start": 314,
+          "end": 365,
+          "quote": "We have not established what caused those failures."
+        }
+      ],
+      "preservation_rule": "Two failed before timing, excluded from timing comparison; cause not established. Do not assign failures to a specific worker or assume identical failures in both."
+    },
+    {
+      "id": "F4",
+      "topic": "retry",
+      "spans": [
+        {
+          "start": 367,
+          "end": 418,
+          "quote": "The proposed worker kept the same retry limit of 3."
+        }
+      ],
+      "preservation_rule": "Retry limit unchanged at 3; do not infer number of actual retries."
+    },
+    {
+      "id": "F5",
+      "topic": "memory",
+      "spans": [
+        {
+          "start": 419,
+          "end": 491,
+          "quote": "It used more memory in this test, although peak memory was not recorded."
+        },
+        {
+          "start": 492,
+          "end": 599,
+          "quote": "We therefore cannot quantify the largest increase or use these results to predict peak usage in production."
+        }
+      ],
+      "preservation_rule": "Higher memory observed here; peak not recorded; largest increase unquantifiable; production peak cannot be predicted from this test. No invented metric or size."
+    },
+    {
+      "id": "F6",
+      "topic": "concurrency_and_proposal",
+      "spans": [
+        {
+          "start": 600,
+          "end": 644,
+          "quote": "The test did not include concurrent clients."
+        },
+        {
+          "start": 646,
+          "end": 732,
+          "quote": "I would like to repeat the test with concurrent clients before recommending a rollout."
+        }
+      ],
+      "preservation_rule": "Original test lacks concurrent clients; author wants retest with them before recommending rollout. Retain before-recommendation sequence without upgrading preference to a scheduled commitment."
+    },
+    {
+      "id": "F7",
+      "topic": "status",
+      "spans": [
+        {
+          "start": 733,
+          "end": 812,
+          "quote": "That repeat has not been scheduled, and no production change has been approved."
+        }
+      ],
+      "preservation_rule": "Retest unscheduled and production change unapproved. Neither is resolved by editing."
+    },
+    {
+      "id": "F8",
+      "topic": "note_duty",
+      "spans": [
+        {
+          "start": 813,
+          "end": 925,
+          "quote": "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures."
+        }
+      ],
+      "preservation_rule": "Mandatory explicit disclosure of both denominator and excluded failures. Reporting them once elsewhere does not automatically preserve the obligation for the review note."
+    },
+    {
+      "id": "F9",
+      "topic": "owner_review",
+      "spans": [
+        {
+          "start": 926,
+          "end": 1031,
+          "quote": "Before approving a rollout, the service owner should review the memory measurements from the repeat test."
+        }
+      ],
+      "preservation_rule": "Service owner should review repeat-test memory measurements before approving rollout. Keep actor, should-review strength, memory subject, repeat-test source, and pre-approval timing; measurements are not yet available."
+    }
+  ],
+  "unresolved": "Failure cause, peak memory, concurrent-client performance, retest schedule, and approval remain unknown. Do not fill these gaps or invent a rollout date.",
+  "success_criterion": "Adopt changes only for meaningful readability improvement with source fidelity. Detector movement alone is not improvement; leaving a sound passage intact is valid.",
+  "new_inference_runs": 0,
+  "source_edits": 0
+}

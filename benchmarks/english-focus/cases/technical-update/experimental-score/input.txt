@@ -1,0 +1,5 @@
+The queue test covered 12 jobs with the existing and proposed workers; ten completed in both configurations. For those ten jobs, median processing time fell from 75 ms with the existing worker to 52 ms with the proposed worker. The other two jobs failed before producing timing results, so they were excluded from the comparison. We haven't established the cause of those failures. The review note must state both the ten-job denominator for the timing comparison and the two excluded failures.
+
+The proposed worker kept the retry limit at 3 and used more memory in this test. Peak memory wasn't recorded, so we can't quantify the largest increase or use these results to predict peak usage in production.
+
+The test didn't include concurrent clients. I'd like to repeat it with concurrent clients before recommending a rollout, but that repeat hasn't been scheduled. No production change has been approved. Before approving a rollout, the service owner should review the memory measurements from the repeat test.

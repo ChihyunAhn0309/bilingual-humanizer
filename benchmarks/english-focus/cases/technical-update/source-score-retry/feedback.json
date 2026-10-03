@@ -1,0 +1,9 @@
+{
+  "status": "error",
+  "input_sha256": "c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce",
+  "human_percent": null,
+  "native_class_probabilities": null,
+  "error": "score failed with exit code 2; no usable score",
+  "authorship_verified": false,
+  "semantic_review_required": true
+}

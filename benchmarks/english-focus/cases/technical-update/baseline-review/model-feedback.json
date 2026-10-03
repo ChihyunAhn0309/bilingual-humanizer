@@ -1,0 +1,29 @@
+{
+  "input_sha256": "b56c44d0fc8082a0f0fd3073e6927b02a6db969782f24a56db93c6bf97b9121c",
+  "native_classes": {
+    "human": 0.0003971261321566999,
+    "ai": 0.9952640533447266,
+    "ai_edited": 6.85810882714577e-05,
+    "humanized": 0.0042702816426754
+  },
+  "authorship_verified": false,
+  "parent_measurement_review": true,
+  "independent_editorial_review": "ledger-editorial.json",
+  "native_finding_decision": "retain; no text edit based on classifier sensitivity alone",
+  "strongest_deletion_sensitivity": {
+    "paragraph_id": "P3",
+    "start": 579,
+    "end": 784,
+    "quote": "The test did not include concurrent clients. I would like to repeat it with concurrent clients before recommending a rollout. That repeat has not been scheduled, and no production change has been approved.",
+    "status": "measured",
+    "baseline_ai_involvement": 0.9996028738678433,
+    "after_removal_ai_involvement": 0.9966663436498493,
+    "delta_percentage_points": 0.29365302179940045
+  },
+  "scope": "Whole document single window; six content dimensions and every paragraph reviewed in saved ledger.",
+  "cautions": [
+    "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+    "English four-class outputs are uncalibrated experimental auxiliary scores."
+  ],
+  "candidate_edits_after_scoring": 0
+}

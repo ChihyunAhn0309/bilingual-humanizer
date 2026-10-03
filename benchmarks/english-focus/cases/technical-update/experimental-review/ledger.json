@@ -1,0 +1,267 @@
+{
+  "text_sha256": "60adf8cb98580d1c5507054e9ea0576bf22d9a5fb724958056221b798f299b47",
+  "summary": "Pre-score independent editorial review, carried forward from the completed randomized blind review. Labels were revealed only to route these artifacts; native model outputs have not been read or attached. All substantive source constraints pass; no required repairs; eligible for scoring. Direct internal English with justified clause connections and clear numerical referents. Known AI origin belongs to this synthetic experiment's supplied history, not real-world authorship certification. AI/Human percentages are unavailable in this editorial-only report. Parent measurement supplement after completed scoring: human 0.127412716%; ai 98.574554920%; ai_edited 0.037711198%; humanized 1.260318793%. These are uncalibrated native class outputs, not verified authorship; Humanized is not counted as Human. The prior independent editorial judgments are retained unchanged.",
+  "document_analysis": {
+    "structure": "P1 places the review-note obligation beside the measurements it governs. P2 covers memory; P3 covers repeat/approval and owner review. The dense opening remains coherent.",
+    "reasoning_specificity": "P1 names existing/proposed baseline referents without adding a measurement; ten completed jobs and two untimed failures remain. P2/P3 keep all prediction/status limits.",
+    "voice_consistency": "Internal contractions are appropriate. 'We', 'I' and service-owner agency remain separate; no collective narrator or new authority is invented.",
+    "rhythm_repetition": "P1 carries related evidence/reporting functions; P2 is shorter and focused. These differences follow content rather than a forced cadence.",
+    "language_features": "P1's 'so' explains timing exclusion without supplying a failure cause. P3 retains desire, unscheduled repeat, no approved production change and weaker 'should' review.",
+    "citations_provenance": "All paragraphs are AI rewrite candidates within the supplied synthetic experiment. Source history and candidate binding are recorded in cases/sources.json, assignment.json and blind-review.json; hashes were checked. No external citation was asserted by the prose and no real transaction, lived experience or test result was authenticated. The reviewer was independent of writing and score-blind, but had prior reference-audit context."
+  },
+  "findings": [
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "strong",
+      "spans": [
+        {
+          "start": 0,
+          "end": 108,
+          "quote": "The queue test covered 12 jobs with the existing and proposed workers; ten completed in both configurations."
+        }
+      ],
+      "observation": "The task record identifies this as an AI rewrite of a newly AI-authored synthetic evaluation source. The source and candidate hashes match the recorded source history, randomized assignment and completed blind review.",
+      "interpretation": "AI involvement is established within this supplied experiment history, independently of whether the prose sounds natural. This is not authentication of a real customer's transaction, personal experience or production test.",
+      "human_alternative": "A human could write similar prose, but stylistic similarity does not negate the experiment's recorded AI origin. Metadata alone is not independent authentication of external events.",
+      "discriminating_evidence": "For an external provenance claim, inspect authenticated generation/edit logs and original records. No such real-world authorship claim is made here.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\sources.json [case=technical-update, origin, source_sha256]; C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\assignment.json [case=technical-update, labels.B.arm/sha256]; C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\blind-review.json [case/candidate hash and pre-score judgment]; supplied task generation history."
+    },
+    {
+      "id": "E1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 109,
+          "end": 227,
+          "quote": "For those ten jobs, median processing time fell from 75 ms with the existing worker to 52 ms with the proposed worker."
+        },
+        {
+          "start": 382,
+          "end": 494,
+          "quote": "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures."
+        }
+      ],
+      "observation": "The two medians have explicit worker referents, and the reporting obligation is adjacent to the data it governs. The opening paragraph carries more functions, but the remaining memory and rollout paragraphs retain clear boundaries.",
+      "interpretation": "This is a local editorial observation, not a diagnostic authorship cue. AI rewriting can produce this organization or connective choice; the score-independent source comparison, not a detector explanation, supports this finding.",
+      "human_alternative": "A human engineer or technical editor can group the same measurements, conditions and responsibilities. Repeated technical terms and careful uncertainty can arise from normal reporting requirements.",
+      "discriminating_evidence": "Compare alternative wording with the unchanged source and ask independent readers about the actual audience. Authenticated process records, rather than this stylistic feature, would distinguish writing histories."
+    },
+    {
+      "id": "NATIVE-SENSITIVITY",
+      "basis": "local_occlusion",
+      "direction": "neutral",
+      "strength": "weak",
+      "source_record": "../experimental-score/model-result.json; occlusion.paragraphs entry P1; pinned English model, same input before paragraph removal; result SHA256 fc06f5fbdbca1f1cbd17347670a88c7b99e4cb6bf0fd10bb1bac6ac716ac7dfc",
+      "spans": [
+        {
+          "start": 0,
+          "end": 494,
+          "quote": "The queue test covered 12 jobs with the existing and proposed workers; ten completed in both configurations. For those ten jobs, median processing time fell from 75 ms with the existing worker to 52 ms with the proposed worker. The other two jobs failed before producing timing results, so they were excluded from the comparison. We haven't established the cause of those failures. The review note must state both the ten-job denominator for the timing comparison and the two excluded failures."
+        }
+      ],
+      "observation": "Largest absolute paragraph-deletion change in this saved run: P1; AI-involvement before 99.872587284%, after removal 41.551196575%, delta +58.321390708 percentage points.",
+      "interpretation": "This is measured classifier sensitivity to altered context and length, not the paragraph's authorship probability or an explanation of the model's internal reasoning. Its content remains subject to the independent source-fidelity review; no deletion or synonym replacement follows from this number.",
+      "human_alternative": "The same information, genre conventions and context-length changes can affect a human-written passage. The model has documented high-confidence human false positives, and these test texts have a separately known synthetic AI origin.",
+      "discriminating_evidence": "Representative labeled evaluation and repeated controlled measurements would be needed to establish general detector behavior. The six single candidates here establish neither calibration nor commercial transfer."
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Timing comparison, excluded jobs, unknown causes and reporting requirement. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: T01, T02, T03, T09, T11.",
+      "finding_ids": [
+        "H1",
+        "E1",
+        "NATIVE-SENSITIVITY"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Retry limit, memory increase and missing-peak limits. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: T04, T05, T06. No consequential stylistic flag was identified; this neutral review is not a human-authorship verdict.",
+      "finding_ids": []
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Concurrency gap, desired unscheduled repeat, unapproved status and owner recommendation. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: T07, T08, T10, T11. No consequential stylistic flag was identified; this neutral review is not a human-authorship verdict.",
+      "finding_ids": []
+    }
+  ],
+  "editorial_freeze": {
+    "basis": "Pre-score blind-review.json judgments; no scores read",
+    "original_blind_label": "B",
+    "arm_after_unblinding": "experimental",
+    "required_repairs": [],
+    "fidelity_pass": true,
+    "eligible_for_scoring": true,
+    "authorship_probabilities": null,
+    "model_result_attached": false
+  },
+  "source_comparison": {
+    "source_sha256": "c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce",
+    "all_constraints_covered": true,
+    "constraints": [
+      {
+        "id": "T01",
+        "requirement": "Queue test covered 12 jobs using the existing and proposed workers; ten completed in both configurations.",
+        "source_quotes": [
+          "The queue test covered 12 jobs using the existing worker and the proposed worker.",
+          "Ten jobs completed in both configurations."
+        ],
+        "candidate_quotes": [
+          "The queue test covered 12 jobs with the existing and proposed workers; ten completed in both configurations."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "T02",
+        "requirement": "For only those ten jobs, median processing time fell from 75 ms to 52 ms with proposed worker.",
+        "source_quotes": [
+          "For those ten jobs, median processing time fell from 75 ms to 52 ms with the proposed worker."
+        ],
+        "candidate_quotes": [
+          "For those ten jobs, median processing time fell from 75 ms with the existing worker to 52 ms with the proposed worker."
+        ],
+        "assessment": "B makes the baseline referent explicit; it is established by the source comparison, not an added measurement. No mean, significance, total-job speedup or production benefit is invented."
+      },
+      {
+        "id": "T03",
+        "requirement": "Other two jobs failed before producing timing; excluded from timing comparison; causes not established.",
+        "source_quotes": [
+          "Two other jobs failed before producing a timing result and were excluded from that comparison.",
+          "We have not established what caused those failures."
+        ],
+        "candidate_quotes": [
+          "The other two jobs failed before producing timing results, so they were excluded from the comparison.",
+          "We haven't established the cause of those failures."
+        ],
+        "assessment": "B's exclusion rationale follows from absence of timing results. Neither assigns the failures to a particular configuration or invents a cause."
+      },
+      {
+        "id": "T04",
+        "requirement": "Proposed worker retains the same retry limit of 3.",
+        "source_quotes": [
+          "The proposed worker kept the same retry limit of 3."
+        ],
+        "candidate_quotes": [
+          "The proposed worker kept the retry limit at 3"
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "T05",
+        "requirement": "Proposed worker used more memory in this test, but peak memory was not recorded.",
+        "source_quotes": [
+          "It used more memory in this test, although peak memory was not recorded."
+        ],
+        "candidate_quotes": [
+          "used more memory in this test.",
+          "Peak memory wasn't recorded"
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "T06",
+        "requirement": "Cannot quantify largest memory increase or predict production peak usage from these results.",
+        "source_quotes": [
+          "We therefore cannot quantify the largest increase or use these results to predict peak usage in production."
+        ],
+        "candidate_quotes": [
+          "we can't quantify the largest increase or use these results to predict peak usage in production."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "T07",
+        "requirement": "No concurrent clients were included.",
+        "source_quotes": [
+          "The test did not include concurrent clients."
+        ],
+        "candidate_quotes": [
+          "The test didn't include concurrent clients."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "T08",
+        "requirement": "Writer wants repeat with concurrent clients before recommending rollout; repeat unscheduled; no production change approved.",
+        "source_quotes": [
+          "I would like to repeat the test with concurrent clients before recommending a rollout.",
+          "That repeat has not been scheduled, and no production change has been approved."
+        ],
+        "candidate_quotes": [
+          "I'd like to repeat it with concurrent clients before recommending a rollout, but that repeat hasn't been scheduled.",
+          "No production change has been approved."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "T09",
+        "requirement": "Review note must state both ten-job denominator and two excluded failures.",
+        "source_quotes": [
+          "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures."
+        ],
+        "candidate_quotes": [
+          "The review note must state both the ten-job denominator for the timing comparison and the two excluded failures."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "T10",
+        "requirement": "Before approving rollout, service owner should review memory measurements from repeat test; recommendation is not a new mandatory approval condition.",
+        "source_quotes": [
+          "Before approving a rollout, the service owner should review the memory measurements from the repeat test."
+        ],
+        "candidate_quotes": [
+          "Before approving a rollout, the service owner should review the memory measurements from the repeat test."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "T11",
+        "requirement": "Keep team knowledge ('we') distinct from writer preference ('I') and service-owner responsibility; technical register remains suitable.",
+        "source_quotes": [
+          "We have not established",
+          "I would like",
+          "the service owner should review"
+        ],
+        "candidate_quotes": [
+          "We haven't established",
+          "I'd like",
+          "the service owner should review"
+        ],
+        "assessment": "Both preserve agency, status and normative force. B's contractions are suitable for an internal note and do not change uncertainty."
+      }
+    ]
+  },
+  "blind_editorial_result": {
+    "winner": "B",
+    "preference_strength": "slight",
+    "rationale": "B improves local traceability between measurements, excluded jobs and the review-note requirement while preserving the memory warning, unscheduled repeat and approval status. A and the source are still valid; the preference is organizational rather than a claim of stronger evidence or greater factual completeness."
+  },
+  "measurement_record": {
+    "status": "completed",
+    "input_sha256": "60adf8cb98580d1c5507054e9ea0576bf22d9a5fb724958056221b798f299b47",
+    "native_class_probabilities": {
+      "human": 0.0012741271639242768,
+      "ai": 0.9857455492019653,
+      "ai_edited": 0.0003771119809243828,
+      "humanized": 0.012603187933564186
+    },
+    "human_percent": 0.12741271639242768,
+    "cautions": [
+      "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+      "English four-class outputs are uncalibrated experimental auxiliary scores."
+    ],
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "measured_at_utc": "2026-10-03T09:07:25.119468+00:00",
+    "editorial_review_preceded_measurement_attachment": true
+  }
+}

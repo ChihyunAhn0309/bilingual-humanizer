@@ -1,0 +1,248 @@
+{
+  "text_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+  "summary": "Pre-score independent editorial review, carried forward from the completed randomized blind review. Labels were revealed only to route these artifacts; native model outputs have not been read or attached. All substantive source constraints pass; no required repairs; eligible for scoring. Natural conversational reflection with suitable contractions and varied clause structure. Known AI origin belongs to this synthetic experiment's supplied history, not real-world authorship certification. AI/Human percentages are unavailable in this editorial-only report. Parent measurement supplement after completed scoring: human 0.014873377%; ai 99.925357103%; ai_edited 0.000694882%; humanized 0.059069757%. These are uncalibrated native class outputs, not verified authorship; Humanized is not counted as Human. The prior independent editorial judgments are retained unchanged.",
+  "document_analysis": {
+    "structure": "P1 limits the memory conclusion, P2 reports the behavioral benefit and exceptions, and P3 gives value/limits/next intention. All source functions remain.",
+    "reasoning_specificity": "P1 keeps three novel plots without inferring improvement; P2 preserves two skipped mornings; P3 retains quiet mornings, no travel trial and no chosen start date.",
+    "voice_consistency": "P1-P3 retain first-person modest reflection with natural contractions. No anecdote, preference or experience is invented; British 'travelling' remains.",
+    "rhythm_repetition": "P2 links short personal judgments to caveats. Its 'either' has a loose connection because checking after finishing complied with the routine; optional polish, not a material fidelity error.",
+    "language_features": "The change from 'simpler' to 'in how I read' makes the modest evaluation less explicit, but the behavioral distinction and liking survive. P3 keeps desire separate from a scheduled plan.",
+    "citations_provenance": "All paragraphs are AI rewrite candidates within the supplied synthetic experiment. Source history and candidate binding are recorded in cases/sources.json, assignment.json and blind-review.json; hashes were checked. No external citation was asserted by the prose and no real transaction, lived experience or test result was authenticated. The reviewer was independent of writing and score-blind, but had prior reference-audit context."
+  },
+  "findings": [
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "strong",
+      "spans": [
+        {
+          "start": 0,
+          "end": 119,
+          "quote": "For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read."
+        }
+      ],
+      "observation": "The task record identifies this as an AI rewrite of a newly AI-authored synthetic evaluation source. The source and candidate hashes match the recorded source history, randomized assignment and completed blind review.",
+      "interpretation": "AI involvement is established within this supplied experiment history, independently of whether the prose sounds natural. This is not authentication of a real customer's transaction, personal experience or production test.",
+      "human_alternative": "A human could write similar prose, but stylistic similarity does not negate the experiment's recorded AI origin. Metadata alone is not independent authentication of external events.",
+      "discriminating_evidence": "For an external provenance claim, inspect authenticated generation/edit logs and original records. No such real-world authorship claim is made here.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\sources.json [case=reading-reflection, origin, source_sha256]; C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\assignment.json [case=reading-reflection, labels.A.arm/sha256]; C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\blind-review.json [case/candidate hash and pre-score judgment]; supplied task generation history."
+    },
+    {
+      "id": "E1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 435,
+          "end": 533,
+          "quote": "I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether."
+        },
+        {
+          "start": 272,
+          "end": 363,
+          "quote": "The change I noticed was in how I read: I stopped interrupting a chapter to check messages."
+        }
+      ],
+      "observation": "The 'either' has a loose connection to the preceding phone-checking sentence, because checking after finishing complied with the routine. Dropping 'either' would make that transition cleaner, but the explicit two skipped mornings and every-morning qualification prevent a material misstatement. This states the behavioral difference plainly; the source's modest evaluative word 'simpler' is less explicit. The underlying contrast and personal approval remain.",
+      "interpretation": "This is a local editorial observation, not a diagnostic authorship cue. AI rewriting can produce this organization or connective choice; the score-independent source comparison, not a detector explanation, supports this finding.",
+      "human_alternative": "A human reflective writer can use the same modest self-assessment, short personal reaction and imperfect connective. Neither experience-like detail nor minor awkwardness establishes a lived event or human origin.",
+      "discriminating_evidence": "Compare alternative wording with the unchanged source and ask independent readers about the actual audience. Authenticated process records, rather than this stylistic feature, would distinguish writing histories."
+    },
+    {
+      "id": "NATIVE-SENSITIVITY",
+      "basis": "local_occlusion",
+      "direction": "neutral",
+      "strength": "weak",
+      "source_record": "../experimental-score/model-result.json; occlusion.paragraphs entry P3; pinned English model, same input before paragraph removal; result SHA256 97258106c827921d2420658478a2fc9cc8f351fb154cc223597b3d41a94d2fa4",
+      "spans": [
+        {
+          "start": 535,
+          "end": 853,
+          "quote": "The reading itself was worthwhile to me even without evidence of a memory benefit. I'm reluctant to recommend the routine to everyone, though. My mornings were quiet during those weeks, and I didn't try it while travelling. Next month I want to try reading after dinner instead, although I haven't chosen a start date."
+        }
+      ],
+      "observation": "Largest absolute paragraph-deletion change in this saved run: P3; AI-involvement before 99.985126623%, after removal 99.558007438%, delta +0.427119185 percentage points.",
+      "interpretation": "This is measured classifier sensitivity to altered context and length, not the paragraph's authorship probability or an explanation of the model's internal reasoning. Its content remains subject to the independent source-fidelity review; no deletion or synonym replacement follows from this number.",
+      "human_alternative": "The same information, genre conventions and context-length changes can affect a human-written passage. The model has documented high-confidence human false positives, and these test texts have a separately known synthetic AI origin.",
+      "discriminating_evidence": "Representative labeled evaluation and repeated controlled measurements would be needed to establish general detector behavior. The six single candidates here establish neither calibration nor commercial transfer."
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Eight-week routine, memory expectation and missing-baseline limit. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: R01, R02, R03.",
+      "finding_ids": [
+        "H1"
+      ]
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Observed attention benefit, liking, post-reading phone checks and two missed mornings. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: R04, R05.",
+      "finding_ids": [
+        "E1"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Personal value, generalization limits and next unscheduled intention. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: R06, R07, R08, R09. No consequential stylistic flag was identified; this neutral review is not a human-authorship verdict.",
+      "finding_ids": [
+        "NATIVE-SENSITIVITY"
+      ]
+    }
+  ],
+  "editorial_freeze": {
+    "basis": "Pre-score blind-review.json judgments; no scores read",
+    "original_blind_label": "A",
+    "arm_after_unblinding": "experimental",
+    "required_repairs": [],
+    "fidelity_pass": true,
+    "eligible_for_scoring": true,
+    "authorship_probabilities": null,
+    "model_result_attached": false
+  },
+  "source_comparison": {
+    "source_sha256": "c6dc5c0f6a7383078f26d00b708a4843b251aec4010da962c89e12833c878498",
+    "all_constraints_covered": true,
+    "constraints": [
+      {
+        "id": "R01",
+        "requirement": "For eight weeks the first-person writer tried reading a chapter in the morning before looking at their phone.",
+        "source_quotes": [
+          "For eight weeks, I read a chapter before looking at my phone in the morning."
+        ],
+        "candidate_quotes": [
+          "For eight weeks, I read a chapter in the morning before looking at my phone"
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "R02",
+        "requirement": "Writer expected this change to improve memory of reading, not that an improvement was established.",
+        "source_quotes": [
+          "I expected the change to help me remember more of what I read."
+        ],
+        "candidate_quotes": [
+          "expecting to remember more of what I read."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "R03",
+        "requirement": "At end, could recall plots of three novels, but no pre-experiment memory test means improvement cannot be determined.",
+        "source_quotes": [
+          "At the end of the eight weeks, I could recall the plots of three novels",
+          "I had not tested my memory before the experiment.",
+          "I therefore cannot tell whether my recall actually improved."
+        ],
+        "candidate_quotes": [
+          "By the end, I could recall the plots of three novels.",
+          "I hadn't tested my memory before the experiment, so I can't tell whether my recall improved."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "R04",
+        "requirement": "A simpler observed benefit concerned stopping message checks mid-chapter; writer liked that change.",
+        "source_quotes": [
+          "The change I noticed was simpler: I stopped interrupting a chapter to check messages.",
+          "I liked that."
+        ],
+        "candidate_quotes": [
+          "The change I noticed was in how I read: I stopped interrupting a chapter to check messages.",
+          "I liked that"
+        ],
+        "assessment": "A replaces the explicit 'simpler' characterization with a description of reading behavior. The modest contrast with unestablished memory benefit and the positive personal stance survive; this is a small expressive tradeoff, not a material factual loss."
+      },
+      {
+        "id": "R05",
+        "requirement": "Writer still checked phone immediately after finishing; skipped reading entirely on two mornings; routine was a trial, not consistent adherence.",
+        "source_quotes": [
+          "I still checked my phone as soon as I finished, and on two mornings I skipped reading altogether.",
+          "This was a routine I tried, not a rule I consistently followed."
+        ],
+        "candidate_quotes": [
+          "I still checked my phone as soon as I finished.",
+          "I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether."
+        ],
+        "assessment": "Both retain the two omissions and trial/non-adherence distinction. Neither claims after-chapter phone checking broke the routine; A's 'either' makes the connection slightly less clean."
+      },
+      {
+        "id": "R06",
+        "requirement": "Reluctance to recommend the routine universally; mornings were quiet during the period; no trial while travelling.",
+        "source_quotes": [
+          "I am reluctant to recommend the same routine to everyone.",
+          "My mornings were quiet during those weeks, and I did not try it when I was travelling."
+        ],
+        "candidate_quotes": [
+          "I'm reluctant to recommend the routine to everyone, though.",
+          "My mornings were quiet during those weeks, and I didn't try it while travelling."
+        ],
+        "assessment": "B's 'so' expresses the explanatory relation already supplied by the adjacent source sentences. It does not turn the limited experience into a general claim about other readers."
+      },
+      {
+        "id": "R07",
+        "requirement": "Reading was worthwhile to the writer without evidence of a memory benefit.",
+        "source_quotes": [
+          "The reading itself was worthwhile to me even without evidence of a memory benefit."
+        ],
+        "candidate_quotes": [
+          "The reading itself was worthwhile to me even without evidence of a memory benefit."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "R08",
+        "requirement": "Next month writer wants to try after-dinner reading instead; no start date chosen.",
+        "source_quotes": [
+          "Next month I want to try reading after dinner instead, although I have not chosen a start date."
+        ],
+        "candidate_quotes": [
+          "Next month I want to try reading after dinner instead, although I haven't chosen a start date."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "R09",
+        "requirement": "Keep first-person reflective voice, qualified recommendation, British spelling and no invented experience.",
+        "source_quotes": [
+          "I am reluctant",
+          "travelling"
+        ],
+        "candidate_quotes": [
+          "I'm reluctant",
+          "travelling"
+        ],
+        "assessment": "A is more conversational through contractions; B stays closer to the source's restrained register. Both are natural choices for the stated reader."
+      }
+    ]
+  },
+  "blind_editorial_result": {
+    "winner": "tie",
+    "preference_strength": "none",
+    "rationale": "The source is already natural and fully qualified. A offers a warmer, more conversational cadence; B preserves the restrained cadence and makes the recommendation's grounds explicit. These benefits do not establish a clear overall winner over each other or the source. A's optional connective polish is minor, not a gate failure."
+  },
+  "measurement_record": {
+    "status": "completed",
+    "input_sha256": "a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8",
+    "native_class_probabilities": {
+      "human": 0.00014873377222102135,
+      "ai": 0.9992535710334778,
+      "ai_edited": 6.948819645913318e-06,
+      "humanized": 0.000590697571169585
+    },
+    "human_percent": 0.014873377222102135,
+    "cautions": [
+      "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+      "English four-class outputs are uncalibrated experimental auxiliary scores."
+    ],
+    "model": "wasitaigeneratedcom/ai-text-detector-small",
+    "model_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+    "measured_at_utc": "2026-10-03T09:06:00.854622+00:00",
+    "editorial_review_preceded_measurement_attachment": true
+  }
+}

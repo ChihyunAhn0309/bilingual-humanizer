@@ -93,7 +93,7 @@ def verify():
     assert results['external_detector_calls'] == results['paid_actions'] == 0
     assert results['authorship_verified'] is results['commercial_transfer_measured'] is False
     manifest = read(ROOT / 'release-skill-hashes.json')
-    active = REPO / 'skills/bilingual-humanizer'
+    active = REPO / 'benchmarks/english-focus/retained-skill'
     assert {p.relative_to(active).as_posix(): sha(p) for p in active.rglob('*')
             if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc'} == manifest
     assert f'version: "{results["release_version"]}"' in (active / 'SKILL.md').read_text('utf-8')

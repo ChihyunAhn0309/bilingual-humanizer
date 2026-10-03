@@ -1,0 +1,16 @@
+Pre-score independent editorial review; native outputs not read or attached.
+Document: reading-reflection/experimental (original blind label A)
+Candidate SHA-256: a23b258bca774db7d6074c123e99451b14efb249ee7c6d23ac1790bc79c503b8
+Fidelity: pass. Required repairs: none. Eligible for scoring: yes.
+History: AI rewrite of an AI-authored synthetic evaluation source; not real-world record verification.
+Decision: Retain for frozen scoring. Optional later revision: remove 'either' from the non-adherence sentence, because checking the phone after finishing did not violate the routine. This is connective polish, not a missing fact; a changed candidate would need a new hash, fidelity review and separate scoring.
+Coverage: all 3 indexed paragraphs and all 9 grouped source constraints reviewed.
+Whole-document dimensions: structure; reasoning/specificity; voice; rhythm/repetition; English features; citations/provenance.
+Evidence basis: documented_history and neutral style_observation only; no measured model attribution.
+Findings:
+H1: The task record identifies this as an AI rewrite of a newly AI-authored synthetic evaluation source. The source and candidate hashes match the recorded source history, randomized assignment and completed blind review.
+  Exact span(s): For eight weeks, I read a chapter in the morning before looking at my phone, expecting to remember more of what I read.
+  Counterexplanation: A human could write similar prose, but stylistic similarity does not negate the experiment's recorded AI origin. Metadata alone is not independent authentication of external events.
+E1: The 'either' has a loose connection to the preceding phone-checking sentence, because checking after finishing complied with the routine. Dropping 'either' would make that transition cleaner, but the explicit two skipped mornings and every-morning qualification prevent a material misstatement. This states the behavioral difference plainly; the source's modest evaluative word 'simpler' is less explicit. The underlying contrast and personal approval remain.
+  Exact span(s): I didn't keep to the routine every morning, either: on two mornings, I skipped reading altogether. | The change I noticed was in how I read: I stopped interrupting a chapter to check messages.
+  Counterexplanation: A human reflective writer can use the same modest self-assessment, short personal reaction and imperfect connective. Neither experience-like detail nor minor awkwardness establishes a lived event or human origin.

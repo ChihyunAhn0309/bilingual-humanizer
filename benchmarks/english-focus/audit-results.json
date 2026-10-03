@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "release_version": "1.9.0",
+  "audited_at_utc": "2026-10-03T09:16:14.003427+00:00",
+  "release_ready": true,
+  "repository_payload_sha256": "04ea16dd64794fb53cd6ade5cf542a26b1fce6c6e615389a2d28405b1b4c1550",
+  "release_zip_sha256": "5a4b88166653519e0a7b84659c61d4763397f73e3c45ccc03328679e6f251671",
+  "release_review_sha256": "1b3c0ec252231de27e1bb2d849c30e79d83b7cfab9af39294d4ef24ce6115617",
+  "installer_sha256": "cb6b4edf9a4887cbc3bac101ada4ea3fd34a8dc28060dfecead793795e68048c",
+  "assembler_sha256": "a836ac4efd2ad543075579879fd0e50127c981fe5abff8a90d8f82361b342ea7",
+  "verifier_sha256": "d066902ea02574e104f18eaee9fd84f75d834b64dfbc5b19b4e6402b4f026179",
+  "reviewer_role": "Independent of parent release implementation; wrote baseline candidates earlier. Separate agent performed the independent score-blind prose review.",
+  "candidate_prose_reassessed": false,
+  "checks": [
+    {
+      "name": "staged_skill",
+      "passed": true,
+      "details": {
+        "files": 30,
+        "manifest_sha256": "9615402899691580fe1a975946bdf775c53f83f6f2f7496cfb446efb4af22dbc"
+      }
+    },
+    {
+      "name": "archive_1.9.0",
+      "passed": true,
+      "details": {
+        "files": 30,
+        "sha256": "5a4b88166653519e0a7b84659c61d4763397f73e3c45ccc03328679e6f251671"
+      }
+    },
+    {
+      "name": "archive_1.8.0",
+      "passed": true,
+      "details": {
+        "files": 28,
+        "sha256": "c077d7030e0cc0f60dedf77ce4c7edec397bb999105ca7a81d03fffee2bc8db2"
+      }
+    },
+    {
+      "name": "retained_v1.8",
+      "passed": true,
+      "details": {
+        "files": 28,
+        "matches_prior_release_manifest": true
+      }
+    },
+    {
+      "name": "full_evidence",
+      "passed": true,
+      "details": {
+        "exit_code": 0,
+        "historical_commercial_observations": 179,
+        "native_english_measurements": 9,
+        "document_reviews": 9
+      }
+    },
+    {
+      "name": "unit_tests",
+      "passed": true,
+      "details": {
+        "run": 81,
+        "passed": 80,
+        "skipped": 1
+      }
+    },
+    {
+      "name": "report_numbers",
+      "passed": true,
+      "details": {
+        "human_only_percentages": {
+          "support-email": {
+            "source": 0.012120229803258553,
+            "baseline": 0.008422153041465208,
+            "experimental": 0.31406020279973745
+          },
+          "reading-reflection": {
+            "source": 0.0097576055850368,
+            "baseline": 0.010689617192838341,
+            "experimental": 0.014873377222102135
+          },
+          "technical-update": {
+            "source": 0.025961716892197728,
+            "baseline": 0.03971261321566999,
+            "experimental": 0.12741271639242768
+          }
+        },
+        "grouped_constraints": 30,
+        "target_met": false
+      }
+    },
+    {
+      "name": "documentation_links",
+      "passed": true,
+      "details": {
+        "documents": 26,
+        "pending_audit_link": "benchmarks/english-focus/release-review.md",
+        "missing": []
+      }
+    },
+    {
+      "name": "fixture_baseline",
+      "passed": true,
+      "details": {
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "fixture_restored",
+      "passed": true,
+      "details": {
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "actual_artifacts_unchanged",
+      "passed": true,
+      "details": {
+        "repository_payload_sha256": "04ea16dd64794fb53cd6ade5cf542a26b1fce6c6e615389a2d28405b1b4c1550",
+        "zip_sha256": "5a4b88166653519e0a7b84659c61d4763397f73e3c45ccc03328679e6f251671"
+      }
+    }
+  ],
+  "historical_archive_comparison": {
+    "archive_sha256": "80411f1f7cd9c8a9f67f689f7d5ede6927b87bd31e7a77e33b0d98fd4518798b",
+    "files_compared": 976,
+    "mismatches": []
+  },
+  "mutations": [
+    {
+      "name": "empty-selections",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "duplicate-selections",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "duplicate-measurement",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "mislabeled-measurement",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "wrong-candidate-binding",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "wrong-review-path",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "duplicate-review",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "empty-calls",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "missing-score-call",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "wrong-script-hash",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "optimization-disabled-checks",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "false-50-percent-target",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "native-document-window-class-mismatch",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "blinding-breach",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "wrong-gate-review-hash",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "score-before-authorization",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "nonboolean-target",
+      "rejected": true,
+      "exit_code": 1,
+      "manifest_recomputed": true
+    },
+    {
+      "name": "installer-not-ready",
+      "rejected": true,
+      "exit_code": 1,
+      "no_installed_write_attempted": true
+    },
+    {
+      "name": "installer-stale-payload",
+      "rejected": true,
+      "exit_code": 1,
+      "no_installed_write_attempted": true
+    },
+    {
+      "name": "installer-optimization",
+      "rejected": true,
+      "exit_code": 1
+    },
+    {
+      "name": "assembler-install",
+      "rejected": true,
+      "exit_code": 1
+    },
+    {
+      "name": "installer-zip-duplicate",
+      "rejected": true,
+      "exit_code": 1,
+      "no_installed_write_attempted": true
+    },
+    {
+      "name": "installer-zip-wrong-prefix",
+      "rejected": true,
+      "exit_code": 1,
+      "no_installed_write_attempted": true
+    },
+    {
+      "name": "installer-zip-changed-content",
+      "rejected": true,
+      "exit_code": 1,
+      "no_installed_write_attempted": true
+    },
+    {
+      "name": "installer-changed-repository",
+      "rejected": true,
+      "exit_code": 1,
+      "no_installed_write_attempted": true
+    },
+    {
+      "name": "installer-changed-staging",
+      "rejected": true,
+      "exit_code": 1,
+      "no_installed_write_attempted": true
+    },
+    {
+      "name": "installer-rechecks-full-evidence",
+      "rejected": true,
+      "exit_code": 1,
+      "no_installed_write_attempted": true
+    },
+    {
+      "name": "installer-optimized-current",
+      "rejected": true,
+      "exit_code": 1
+    },
+    {
+      "name": "assembler-optimized-install",
+      "rejected": true,
+      "exit_code": 1
+    }
+  ],
+  "negative_probes_rejected": 29,
+  "unresolved_blockers": [],
+  "inference_calls": 0,
+  "network_calls": 0,
+  "paid_actions": 0,
+  "publishing_actions": 0,
+  "installation_performed": false,
+  "authorship_verified": false,
+  "commercial_transfer_measured": false,
+  "all_selected_human_ge_50_targets_met": false,
+  "research_repository_count": 15,
+  "final_machine_gate_after_artifact_tests": {
+    "passed": true,
+    "actual_repository": true,
+    "fixture_with_final_audit_artifacts": true
+  },
+  "local_test_evidence": {
+    "test-results.json": "b0c6867b475cc55c4d056c3ae6bce39654cda633090c6ef1b2c8e002ea4a5a2e",
+    "installer-test-results.json": "7a485bc38c51733e0a668514aef75995304dc71f352f5567b2a306b500b3d01c",
+    "historical-archive-check.json": "c02f06159911de0e00a7be405d7b449eb35987b7bb2c9d21432b9709c3478beb"
+  }
+}

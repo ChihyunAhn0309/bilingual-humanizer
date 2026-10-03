@@ -2,6 +2,8 @@
 
 These are editorial heuristics, not forensic tests. Apply them to the actual audience and source voice. Standard grammar, second-language simplicity, predictable wording, and formal prose are compatible with human authorship.
 
+For substantial rewriting, use [english-composition.md](english-composition.md) to compose clauses from the meaning map, connect known and new information, and check the completed discourse. For light edits, apply only the local decisions below.
+
 ## Rebuild the argument
 
 Identify each paragraph's job before editing its sentences. Bring a delayed request or finding forward; retain background where the reader needs it. Combine paragraphs that repeat the same point, and split a paragraph that conceals different conditions or actors. Do not turn every paragraph into a short declaration plus a dramatic fragment.
@@ -29,7 +31,7 @@ Words such as `robust`, `leverage`, `comprehensive`, `significant`, `delve`, and
 ## Voice and syntax
 
 - Preserve the writer's variety of English and consistent spelling. Do not assume American English.
-- Use contractions, fragments, idiom, and humor only where the source voice and audience support them. Do not equate casual English with natural English.
+- Use contractions, fragments, idiom, and humor where the established register and audience support them. A draft without contractions does not itself prohibit contractions; an explicit style guide or protected wording can. Do not equate casual English with natural English or invent humor the source does not support.
 - Passive voice is appropriate when the agent is unknown, irrelevant, or deliberately outside focus. Never supply `we` just to make the sentence active.
 - Let punctuation clarify relationships. Keep purposeful dashes, semicolons, colons, parentheses, and lists. There is no punctuation blacklist.
 - Use long sentences for tightly related qualifications and short sentences for a direct point. Do not target a sentence-length distribution or insert random unusual vocabulary.

@@ -1,0 +1,125 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T09:04:33.214228+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "25068e764bf8485cb8bb335bb8b31baf2b08daf56fdd885ac387d3bfab108091",
+  "token_count": 195,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 195,
+      "start": 0,
+      "end": 909,
+      "quote": "Hi Morgan,\n\nThank you for your patience while I checked the duplicate charge on order R-214. I confirmed that the second payment was taken on 18 September and submitted a request this morning to refund the duplicate £36 payment. The payment team hasn't approved the request yet.\n\nThe request covers only the duplicate £36 payment. I can't cancel the first payment because the order has already shipped.\n\nIf the team approves the request, the money should reach the original card within five working days. That's an estimate, not a guaranteed arrival date. You don't need to submit another form while the request is pending.\n\nI understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you. I'll email you by 3 p.m. on Friday even if I'm still waiting for a decision. If you don't receive that update, please reply to this email with the order number.\n\nBest,\nAlex",
+      "class_probabilities": {
+        "human": 0.0031406020279973745,
+        "ai": 0.21059362590312958,
+        "ai_edited": 0.000247636140557006,
+        "humanized": 0.7860181331634521
+      },
+      "ai_involvement_class_score": 0.9968593979720026
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.0031406020279973745,
+    "ai": 0.21059362590312958,
+    "ai_edited": 0.000247636140557006,
+    "humanized": 0.7860181331634521
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 10,
+        "quote": "Hi Morgan,",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9968593979720026,
+        "after_removal_ai_involvement": 0.9956882707774639,
+        "delta_percentage_points": 0.11711271945387125
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 12,
+        "end": 278,
+        "quote": "Thank you for your patience while I checked the duplicate charge on order R-214. I confirmed that the second payment was taken on 18 September and submitted a request this morning to refund the duplicate £36 payment. The payment team hasn't approved the request yet.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9968593979720026,
+        "after_removal_ai_involvement": 0.9981355498312041,
+        "delta_percentage_points": -0.1276151859201491
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 280,
+        "end": 402,
+        "quote": "The request covers only the duplicate £36 payment. I can't cancel the first payment because the order has already shipped.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9968593979720026,
+        "after_removal_ai_involvement": 0.9924952001310885,
+        "delta_percentage_points": 0.436419784091413
+      },
+      {
+        "paragraph_id": "P4",
+        "start": 404,
+        "end": 623,
+        "quote": "If the team approves the request, the money should reach the original card within five working days. That's an estimate, not a guaranteed arrival date. You don't need to submit another form while the request is pending.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9968593979720026,
+        "after_removal_ai_involvement": 0.9599781632423401,
+        "delta_percentage_points": 3.6881234729662538
+      },
+      {
+        "paragraph_id": "P5",
+        "start": 625,
+        "end": 897,
+        "quote": "I understand why seeing two charges would be frustrating, and I'm sorry for the extra work this has caused you. I'll email you by 3 p.m. on Friday even if I'm still waiting for a decision. If you don't receive that update, please reply to this email with the order number.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9968593979720026,
+        "after_removal_ai_involvement": 0.2246120572090149,
+        "delta_percentage_points": 77.22473407629877
+      },
+      {
+        "paragraph_id": "P6",
+        "start": 899,
+        "end": 909,
+        "quote": "Best,\nAlex",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9968593979720026,
+        "after_removal_ai_involvement": 0.9699221402406693,
+        "delta_percentage_points": 2.6937257731333375
+      }
+    ],
+    "total_paragraphs": 6,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

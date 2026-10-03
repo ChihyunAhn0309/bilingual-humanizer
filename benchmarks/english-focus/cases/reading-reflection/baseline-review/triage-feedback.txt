@@ -1,0 +1,16 @@
+Pre-score independent editorial review; native outputs not read or attached.
+Document: reading-reflection/baseline (original blind label B)
+Candidate SHA-256: 23a2fb1d02e1c05417f6b6fe995c2a98477d118643b0736d47f5bbe8bc9675aa
+Fidelity: pass. Required repairs: none. Eligible for scoring: yes.
+History: AI rewrite of an AI-authored synthetic evaluation source; not real-world record verification.
+Decision: Retain the frozen candidate. The blind review records only organizational or expressive tradeoffs; none requires repair before scoring. Do not manufacture defects or rewrite to chase an unseen score.
+Coverage: all 3 indexed paragraphs and all 9 grouped source constraints reviewed.
+Whole-document dimensions: structure; reasoning/specificity; voice; rhythm/repetition; English features; citations/provenance.
+Evidence basis: documented_history and neutral style_observation only; no measured model attribution.
+Findings:
+H1: The task record identifies this as an AI rewrite of a newly AI-authored synthetic evaluation source. The source and candidate hashes match the recorded source history, randomized assignment and completed blind review.
+  Exact span(s): For eight weeks, I tried a morning routine: reading a chapter before looking at my phone.
+  Counterexplanation: A human could write similar prose, but stylistic similarity does not negate the experiment's recorded AI origin. Metadata alone is not independent authentication of external events.
+E1: The reasons sit beside the qualified recommendation, and non-adherence is direct. Compared with the source, the reflective routine-versus-rule phrasing becomes a more literal description; neither is clearly superior for this voice.
+  Exact span(s): My mornings were quiet during those weeks, and I did not try the routine when I was travelling, so I am reluctant to recommend it to everyone. | I did not follow the routine consistently: on two mornings I skipped reading altogether.
+  Counterexplanation: A human reflective writer can use the same modest self-assessment, short personal reaction and imperfect connective. Neither experience-like detail nor minor awkwardness establishes a lived event or human origin.

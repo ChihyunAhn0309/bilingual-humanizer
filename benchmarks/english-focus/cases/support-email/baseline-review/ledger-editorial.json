@@ -1,0 +1,235 @@
+{
+  "text_sha256": "c03768d09bbed072a30d8e24c27f08fde9711e2e799a62bcb3912c26c2125031",
+  "summary": "Pre-score independent editorial review, carried forward from the completed randomized blind review. Labels were revealed only to route these artifacts; native model outputs have not been read or attached. All substantive source constraints pass; no required repairs; eligible for scoring. Clear, restrained professional English; full forms are acceptable. Known AI origin belongs to this synthetic experiment's supplied history, not real-world authorship certification. AI/Human percentages are unavailable in this editorial-only report.",
+  "document_analysis": {
+    "structure": "P2 gathers status/scope, P3 acknowledgement and practical advice, and P4 the next-contact commitment; P1/P5 are conventional correspondence boundaries.",
+    "reasoning_specificity": "P2-P4 preserve every payment fact, approval/timing restriction, apology and follow-up speech act. Denser P2 is still comprehensible.",
+    "voice_consistency": "Restrained full forms in P2-P4 are natural professional English; greeting, sender identity and relationship remain unchanged.",
+    "rhythm_repetition": "P2 is denser than the short action paragraph P4. This difference follows function and is not evidence of authorship.",
+    "language_features": "P3's 'though' clause attaches the estimate limitation to the payment timing; no guarantee, new refund state or dialect change is introduced.",
+    "citations_provenance": "All paragraphs are AI rewrite candidates within the supplied synthetic experiment. Source history and candidate binding are recorded in cases/sources.json, assignment.json and blind-review.json; hashes were checked. No external citation was asserted by the prose and no real transaction, lived experience or test result was authenticated. The reviewer was independent of writing and score-blind, but had prior reference-audit context."
+  },
+  "findings": [
+    {
+      "id": "H1",
+      "basis": "documented_history",
+      "direction": "ai_like",
+      "strength": "strong",
+      "spans": [
+        {
+          "start": 12,
+          "end": 93,
+          "quote": "Thank you for your patience while I reviewed the duplicate charge on order R-214."
+        }
+      ],
+      "observation": "The task record identifies this as an AI rewrite of a newly AI-authored synthetic evaluation source. The source and candidate hashes match the recorded source history, randomized assignment and completed blind review.",
+      "interpretation": "AI involvement is established within this supplied experiment history, independently of whether the prose sounds natural. This is not authentication of a real customer's transaction, personal experience or production test.",
+      "human_alternative": "A human could write similar prose, but stylistic similarity does not negate the experiment's recorded AI origin. Metadata alone is not independent authentication of external events.",
+      "discriminating_evidence": "For an external provenance claim, inspect authenticated generation/edit logs and original records. No such real-world authorship claim is made here.",
+      "source_record": "C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\cases\\sources.json [case=support-email, origin, source_sha256]; C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\assignment.json [case=support-email, labels.B.arm/sha256]; C:\\Users\\ach18\\Documents\\Codex\\2026-10-02\\ai-humanizer-skill-skill-humanizer-skill\\work\\english-focus\\blind-review.json [case/candidate hash and pre-score judgment]; supplied task generation history."
+    },
+    {
+      "id": "E1",
+      "basis": "style_observation",
+      "direction": "neutral",
+      "strength": "weak",
+      "spans": [
+        {
+          "start": 209,
+          "end": 305,
+          "quote": "The payment team has not approved it yet, and the request covers only the duplicate £36 payment."
+        },
+        {
+          "start": 723,
+          "end": 802,
+          "quote": "I will email you by 3 p.m. on Friday even if I am still waiting for a decision."
+        }
+      ],
+      "observation": "The first paragraph gathers status and scope; the follow-up promise has its own final paragraph. This is easier to scan as an action/status email than A, although the initial paragraph is denser and the source places empathy earlier.",
+      "interpretation": "This is a local editorial observation, not a diagnostic authorship cue. AI rewriting can produce this organization or connective choice; the score-independent source comparison, not a detector explanation, supports this finding.",
+      "human_alternative": "A human support agent or service template can use the same transaction-specific qualifications, apology and ordering. Full forms or contractions reflect register choices, not proof of origin.",
+      "discriminating_evidence": "Compare alternative wording with the unchanged source and ask independent readers about the actual audience. Authenticated process records, rather than this stylistic feature, would distinguish writing histories."
+    }
+  ],
+  "paragraph_reviews": [
+    {
+      "paragraph_id": "P1",
+      "status": "reviewed",
+      "assessment": "Greeting to Morgan. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: S01, S10. No consequential stylistic flag was identified; this neutral review is not a human-authorship verdict.",
+      "finding_ids": []
+    },
+    {
+      "paragraph_id": "P2",
+      "status": "reviewed",
+      "assessment": "Request status, duplicate-only scope and first-payment cancellation limit. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: S01, S02, S03, S09, S10.",
+      "finding_ids": [
+        "H1",
+        "E1"
+      ]
+    },
+    {
+      "paragraph_id": "P3",
+      "status": "reviewed",
+      "assessment": "Empathy/apology, no-form advice and conditional timing estimate. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: S04, S05, S06, S10. No consequential stylistic flag was identified; this neutral review is not a human-authorship verdict.",
+      "finding_ids": []
+    },
+    {
+      "paragraph_id": "P4",
+      "status": "reviewed",
+      "assessment": "Promised Friday update and conditional reply request. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: S07, S08.",
+      "finding_ids": [
+        "E1"
+      ]
+    },
+    {
+      "paragraph_id": "P5",
+      "status": "reviewed",
+      "assessment": "Sign-off from Alex. Reviewed against the original source; no required fidelity or comprehension repair. Source-constraint anchors: S10. No consequential stylistic flag was identified; this neutral review is not a human-authorship verdict.",
+      "finding_ids": []
+    }
+  ],
+  "editorial_freeze": {
+    "basis": "Pre-score blind-review.json judgments; no scores read",
+    "original_blind_label": "B",
+    "arm_after_unblinding": "baseline",
+    "required_repairs": [],
+    "fidelity_pass": true,
+    "eligible_for_scoring": true,
+    "authorship_probabilities": null,
+    "model_result_attached": false
+  },
+  "source_comparison": {
+    "source_sha256": "8eaac80ec6d96595dc7da3b9138d253e653c9d412bb22c4d3895074649e4340e",
+    "all_constraints_covered": true,
+    "constraints": [
+      {
+        "id": "S01",
+        "requirement": "Thank recipient for patience while reviewing the duplicate charge on order R-214.",
+        "source_quotes": [
+          "Hi Morgan,",
+          "Thank you for your patience while I reviewed the duplicate charge on order R-214."
+        ],
+        "candidate_quotes": [
+          "Hi Morgan,",
+          "Thank you for your patience while I reviewed the duplicate charge on order R-214."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "S02",
+        "requirement": "Sender confirmed the second payment was taken on 18 September.",
+        "source_quotes": [
+          "I confirmed that the second payment was taken on 18 September."
+        ],
+        "candidate_quotes": [
+          "I confirmed that the second payment was taken on 18 September"
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "S03",
+        "requirement": "Sender submitted a £36 refund request this morning; payment team has not approved it.",
+        "source_quotes": [
+          "I submitted a refund request for £36 this morning",
+          "the payment team has not approved it yet."
+        ],
+        "candidate_quotes": [
+          "submitted a refund request for £36 this morning.",
+          "The payment team has not approved it yet"
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "S04",
+        "requirement": "Recognize frustration about two charges and apologize for the extra work caused.",
+        "source_quotes": [
+          "I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you."
+        ],
+        "candidate_quotes": [
+          "I understand why seeing two charges would be frustrating, and I am sorry for the extra work this has caused you."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "S05",
+        "requirement": "Only if approved, money should reach original card within five working days; timing is an estimate, not a guarantee.",
+        "source_quotes": [
+          "If the team approves the request, the money should reach the original card within five working days.",
+          "That is an estimate, not a guaranteed arrival date."
+        ],
+        "candidate_quotes": [
+          "If the team approves it, the money should reach the original card within five working days, though that is an estimate, not a guaranteed arrival date."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "S06",
+        "requirement": "No additional form is needed while the request remains pending.",
+        "source_quotes": [
+          "There is no need for you to submit another form while the request is pending."
+        ],
+        "candidate_quotes": [
+          "There is no need for you to submit another form while the request is pending."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "S07",
+        "requirement": "Sender promises an email by 3 p.m. Friday even if no decision has arrived.",
+        "source_quotes": [
+          "I will email you by 3 p.m. on Friday even if I am still waiting for a decision."
+        ],
+        "candidate_quotes": [
+          "I will email you by 3 p.m. on Friday even if I am still waiting for a decision."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "S08",
+        "requirement": "If that update is not received, request a reply to this email including the order number.",
+        "source_quotes": [
+          "If you do not receive that update, please reply to this email with the order number."
+        ],
+        "candidate_quotes": [
+          "If you do not receive that update, please reply to this email with the order number."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "S09",
+        "requirement": "Sender cannot cancel the first payment because order already shipped; refund request covers only duplicate £36.",
+        "source_quotes": [
+          "I cannot cancel the first payment because the order has already shipped.",
+          "The refund request covers only the duplicate £36 payment."
+        ],
+        "candidate_quotes": [
+          "I cannot cancel the first payment because the order has already shipped.",
+          "the request covers only the duplicate £36 payment."
+        ],
+        "assessment": "Preserved in both candidates."
+      },
+      {
+        "id": "S10",
+        "requirement": "Preserve sender Alex, customer Morgan, professional courtesy and British payment/time wording.",
+        "source_quotes": [
+          "Hi Morgan,",
+          "Best,\nAlex",
+          "£36",
+          "working days"
+        ],
+        "candidate_quotes": [
+          "Hi Morgan,",
+          "Best,\nAlex",
+          "£36",
+          "working days"
+        ],
+        "assessment": "A's contractions remain suitable for professional customer correspondence; neither introduces a different dialect or relationship."
+      }
+    ]
+  },
+  "blind_editorial_result": {
+    "winner": "B",
+    "preference_strength": "slight",
+    "rationale": "B groups status and scope, keeps the apology before the timing explanation, and gives the next contact commitment a clear final position. A remains acceptable; the source is also already serviceable. This is a narrow reader-order preference, not a factual or fluency failure."
+  }
+}

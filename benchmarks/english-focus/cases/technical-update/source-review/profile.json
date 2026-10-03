@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "mode": "observations_only",
+  "text_sha256": "c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce",
+  "file_sha256": "c56efc051e8caf76cd7e504be0dabb6c7e2f4c362c8a250877ffff886318fcce",
+  "characters_codepoints": 1032,
+  "non_whitespace_characters": 861,
+  "whitespace_units": 169,
+  "hangul_letters": 0,
+  "latin_letters": 836,
+  "other_letters": 0,
+  "hangul_share_of_letters": 0.0,
+  "latin_share_of_letters": 1.0,
+  "rough_sentence_count": 13,
+  "rough_sentence_mean_characters": 78.23076923076923,
+  "rough_sentence_length_cv": 0.3013761968233885,
+  "comma_count": 4,
+  "commas_per_1000_codepoints": 3.875968992248062,
+  "surface_type_token_ratio": 0.6449704142011834,
+  "repeated_surface_forms": [
+    {
+      "surface_form": "the",
+      "count": 16
+    },
+    {
+      "surface_form": "and",
+      "count": 4
+    },
+    {
+      "surface_form": "not",
+      "count": 4
+    },
+    {
+      "surface_form": "test",
+      "count": 3
+    },
+    {
+      "surface_form": "jobs",
+      "count": 3
+    },
+    {
+      "surface_form": "proposed",
+      "count": 3
+    },
+    {
+      "surface_form": "in",
+      "count": 3
+    },
+    {
+      "surface_form": "from",
+      "count": 3
+    },
+    {
+      "surface_form": "to",
+      "count": 3
+    },
+    {
+      "surface_form": "before",
+      "count": 3
+    },
+    {
+      "surface_form": "a",
+      "count": 3
+    },
+    {
+      "surface_form": "memory",
+      "count": 3
+    },
+    {
+      "surface_form": "repeat",
+      "count": 3
+    },
+    {
+      "surface_form": "worker",
+      "count": 2
+    },
+    {
+      "surface_form": "worker.",
+      "count": 2
+    }
+  ],
+  "unicode_observations": [],
+  "unicode_observation_count": 0,
+  "unicode_observations_truncated": false,
+  "authorship_probabilities": null,
+  "notes": [
+    "Counts are observations, not authorship evidence or a detector score.",
+    "Whitespace units are neither model tokens nor Korean morphemes.",
+    "Sentence splitting is approximate; inspect punctuation context.",
+    "Script counts do not establish language, fluency or identity.",
+    "Unicode controls are not proof of an AI watermark."
+  ]
+}
