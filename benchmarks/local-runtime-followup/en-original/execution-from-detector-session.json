@@ -1,0 +1,43 @@
+{
+  "name": "en-original",
+  "input_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+  "exit_code": 0,
+  "elapsed_seconds": 46.386716799926944,
+  "memory_before": {
+    "length": 64,
+    "load": 95,
+    "physical": 16739655680,
+    "available_physical": 699351040,
+    "commit_limit": 68279263232,
+    "available_commit": 3071143936,
+    "virtual": 140737488224256,
+    "available_virtual": 140733069418496,
+    "extended": 0
+  },
+  "memory_after": {
+    "length": 64,
+    "load": 88,
+    "physical": 16739655680,
+    "available_physical": 1886633984,
+    "commit_limit": 68279263232,
+    "available_commit": 3176914944,
+    "virtual": 140737488224256,
+    "available_virtual": 140733069287424,
+    "extended": 0
+  },
+  "stderr": "",
+  "original_unchanged": true,
+  "result_created": true,
+  "four_class_probabilities": {
+    "human": 0.0008303148206323385,
+    "ai": 0.9964320659637451,
+    "ai_edited": 0.00011130853090435266,
+    "humanized": 0.002626342698931694
+  },
+  "token_count": 153,
+  "windows": 1,
+  "weight_loading_backend": "pread",
+  "occlusion_records": 4,
+  "schema_validation": "passed",
+  "max_probability_difference": 0.0
+}

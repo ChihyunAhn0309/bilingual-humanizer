@@ -1,0 +1,105 @@
+{
+  "schema_version": 2,
+  "mode": "offline_local_model",
+  "model": "wasitaigeneratedcom/ai-text-detector-small",
+  "measured_at_utc": "2026-10-03T07:17:49.960745+00:00",
+  "language_check": {
+    "declared_language": "en",
+    "latin_share_of_letters": 1.0,
+    "method": "Script screen only; Latin-script languages are not automatically distinguished from English."
+  },
+  "revision": "f1795c86806e6838d4afa33d0b1427f8430c9615",
+  "weight_sha256": "4a1561fadf44ec72934edd6158ff8c76e9388ade1384dbeeea6eb15f93251087",
+  "weight_loading_backend": "pread",
+  "language_scope": "English only; independently uncalibrated",
+  "text_sha256": "728fe7cabb22fea96dadb4678e7e6b52b361299b9c5f65f5a2f9c96aea05abff",
+  "token_count": 153,
+  "windows": [
+    {
+      "token_start": 0,
+      "token_end": 153,
+      "start": 0,
+      "end": 824,
+      "quote": "Across 24 requests, the June archive trial reduced median lookup time from 18 minutes to 11 minutes, although we did not record the longest lookup time. The trial covered only material that had already been catalogued, so the results do not establish how the system will work with uncatalogued material. The trial report should make clear that the change in median time is based on 24 requests.\n\nI found the shared index easier to use, though I still prefer the paper cards for tracing earlier descriptions.\n\nBefore extending the trial, the archive lead should check whether the volunteer rota can support it. The rota has not yet been approved.\n\nNo decision on a permanent service has been made. The review must distinguish this temporary trial from a permanent service, and the public notice must explain that distinction.",
+      "class_probabilities": {
+        "human": 0.003234913805499673,
+        "ai": 0.9887335300445557,
+        "ai_edited": 0.00045135756954550743,
+        "humanized": 0.007580155972391367
+      },
+      "ai_involvement_class_score": 0.9967650861945003
+    }
+  ],
+  "all_input_tokens_scored": true,
+  "document_class_probabilities": {
+    "human": 0.003234913805499673,
+    "ai": 0.9887335300445557,
+    "ai_edited": 0.00045135756954550743,
+    "humanized": 0.007580155972391367
+  },
+  "authorship_verified": false,
+  "independently_calibrated_here": false,
+  "validation_status": "experimental_auxiliary_score_not_a_validated_authorship_detector",
+  "known_limitations": "In the saved 36-document English pilot, high-score false positives occurred on human writing. Do not treat a near-1 score as established authorship.",
+  "external_detector_calls": 0,
+  "notes": [
+    "Four-class model outputs are not proof of authorship or percentages of words.",
+    "AI involvement = ai + ai_edited + humanized; human is the mutually exclusive class.",
+    "Multi-window document aggregation has not been calibrated; document probability is unavailable.",
+    "The model card's threshold at 0.5% FPR is a vendor benchmark setting, not a local guarantee.",
+    "Short passages, translations and unfamiliar domains can be unreliable."
+  ],
+  "occlusion": {
+    "performed": true,
+    "paragraphs": [
+      {
+        "paragraph_id": "P1",
+        "start": 0,
+        "end": 394,
+        "quote": "Across 24 requests, the June archive trial reduced median lookup time from 18 minutes to 11 minutes, although we did not record the longest lookup time. The trial covered only material that had already been catalogued, so the results do not establish how the system will work with uncatalogued material. The trial report should make clear that the change in median time is based on 24 requests.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9967650861945003,
+        "after_removal_ai_involvement": 0.9961098257917911,
+        "delta_percentage_points": 0.06552604027092457
+      },
+      {
+        "paragraph_id": "P2",
+        "start": 396,
+        "end": 507,
+        "quote": "I found the shared index easier to use, though I still prefer the paper cards for tracing earlier descriptions.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9967650861945003,
+        "after_removal_ai_involvement": 0.911992646753788,
+        "delta_percentage_points": 8.477243944071233
+      },
+      {
+        "paragraph_id": "P3",
+        "start": 509,
+        "end": 645,
+        "quote": "Before extending the trial, the archive lead should check whether the volunteer rota can support it. The rota has not yet been approved.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9967650861945003,
+        "after_removal_ai_involvement": 0.9854955011978745,
+        "delta_percentage_points": 1.126958499662578
+      },
+      {
+        "paragraph_id": "P4",
+        "start": 647,
+        "end": 824,
+        "quote": "No decision on a permanent service has been made. The review must distinguish this temporary trial from a permanent service, and the public notice must explain that distinction.",
+        "status": "measured",
+        "baseline_ai_involvement": 0.9967650861945003,
+        "after_removal_ai_involvement": 0.8560465425252914,
+        "delta_percentage_points": 14.071854366920888
+      }
+    ],
+    "total_paragraphs": 4,
+    "unmeasured_due_to_limit": 0,
+    "interpretation": "Sensitivity to deleting a paragraph. Positive delta means removal lowered the score; length/context changes confound this. This is not causal authorship evidence or a sentence probability."
+  },
+  "execution_guard": {
+    "worker_exit_code": 0,
+    "serialized_cli": true,
+    "native_runtime_stability_guaranteed": false
+  }
+}

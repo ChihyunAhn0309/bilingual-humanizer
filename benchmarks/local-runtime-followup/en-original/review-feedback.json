@@ -1,0 +1,33 @@
+{
+  "status": "review_completed",
+  "input_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+  "measured_result_sha256": "5f4ea382ff3fee2b3304e6abf77e48ccdeabd55d0f0358a0f213b60cbb1077d4",
+  "native_class_probabilities": {
+    "human": 0.0008303148206323385,
+    "ai": 0.9964320659637451,
+    "ai_edited": 0.00011130853090435266,
+    "humanized": 0.002626342698931694
+  },
+  "ai_involvement_native_score": 0.9991696851793677,
+  "style_review_completed": true,
+  "full_composition_experiment_justified": false,
+  "actionable_reader_findings": [
+    {
+      "finding_id": "S1",
+      "priority": "low",
+      "issue": "denominator obscures the 24-request sample-size meaning for a nontechnical reader",
+      "already_addressed_by": "en-revision-1"
+    }
+  ],
+  "recommendation": "P1의 denominator 용어만 낮은 우선순위 명료성 후보이며 EN1에서 이미 해결했다. 그 밖의 전체 구성 실험은 권하지 않는다.",
+  "coverage": {
+    "reviewed": 4,
+    "total": 4,
+    "excluded": 0,
+    "not_reviewed": 0
+  },
+  "known_provenance": "AI-generated/edited synthetic evaluation sample",
+  "authorship_verified": false,
+  "new_inference_runs": 0,
+  "new_external_detector_calls": 0
+}

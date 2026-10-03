@@ -1,0 +1,33 @@
+{
+  "text_sha256": "a15af3a012825dd0ff18c1fc9eb67e58e0e4a53a9f05963c186f053bc295d184",
+  "paragraphs": [
+    {
+      "id": "P1",
+      "start": 0,
+      "end": 404,
+      "line": 1,
+      "text": "Across 24 requests, the June archive trial reduced median lookup time from 18 minutes to 11 minutes, although we did not record the longest lookup time. The trial covered only material that had already been catalogued, so the results do not establish how the system will work with uncatalogued material. The trial report should retain the 24-request denominator when presenting the change in median time."
+    },
+    {
+      "id": "P2",
+      "start": 406,
+      "end": 517,
+      "line": 3,
+      "text": "I found the shared index easier to use, though I still prefer the paper cards for tracing earlier descriptions."
+    },
+    {
+      "id": "P3",
+      "start": 519,
+      "end": 655,
+      "line": 5,
+      "text": "Before extending the trial, the archive lead should check whether the volunteer rota can support it. The rota has not yet been approved."
+    },
+    {
+      "id": "P4",
+      "start": 657,
+      "end": 834,
+      "line": 7,
+      "text": "No decision on a permanent service has been made. The review must distinguish this temporary trial from a permanent service, and the public notice must explain that distinction."
+    }
+  ]
+}

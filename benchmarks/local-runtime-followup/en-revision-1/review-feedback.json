@@ -1,0 +1,26 @@
+{
+  "status": "review_completed",
+  "input_sha256": "728fe7cabb22fea96dadb4678e7e6b52b361299b9c5f65f5a2f9c96aea05abff",
+  "measured_result_sha256": "e5f279ed187d9c2062e334dcdcf56a51b0fcd0179ff788afc435d7873d7ef47a",
+  "native_class_probabilities": {
+    "human": 0.003234913805499673,
+    "ai": 0.9887335300445557,
+    "ai_edited": 0.00045135756954550743,
+    "humanized": 0.007580155972391367
+  },
+  "ai_involvement_native_score": 0.9967650861945003,
+  "style_review_completed": true,
+  "full_composition_experiment_justified": false,
+  "actionable_reader_findings": [],
+  "recommendation": "추가로 수정할 만한 독자 문제를 확인하지 못했다. EN1 유지. 전체 구성 실험은 권하지 않는다.",
+  "coverage": {
+    "reviewed": 4,
+    "total": 4,
+    "excluded": 0,
+    "not_reviewed": 0
+  },
+  "known_provenance": "AI-generated/edited synthetic evaluation sample",
+  "authorship_verified": false,
+  "new_inference_runs": 0,
+  "new_external_detector_calls": 0
+}
